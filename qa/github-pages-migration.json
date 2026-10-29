@@ -1,0 +1,20 @@
+{
+  "sourceCommit": "dacb371cffc0c24779ce2947b54b1d48ebe9a168",
+  "books": 2,
+  "unitsAndTests": 16,
+  "words": 629,
+  "pathChecks": [
+    "/",
+    "/wordhop/",
+    "/a/nested/project/"
+  ],
+  "browserChecks": [
+    "Unit 11 data loaded under /wordhop/",
+    "original flashcard image loaded under /wordhop/assets/",
+    "flashcard flip preserved text",
+    "quiz feedback picture loaded",
+    "browser Back returned to the same unit game choices"
+  ],
+  "existingSiteChanged": false,
+  "publishedToGitHub": false
+}

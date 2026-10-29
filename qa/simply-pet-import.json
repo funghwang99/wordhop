@@ -1,0 +1,72 @@
+{
+  "source": "Simply PET - 8 Reading Tests - Vocabulary and Meanings.docx",
+  "sourceSha256": "194ed68731f38b4e4e6ed48807249e49e88957e902e3737ceea4e48789c93a71",
+  "tests": [
+    {
+      "test": 1,
+      "words": 32,
+      "bytes": 10022
+    },
+    {
+      "test": 2,
+      "words": 27,
+      "bytes": 9114
+    },
+    {
+      "test": 3,
+      "words": 42,
+      "bytes": 13849
+    },
+    {
+      "test": 4,
+      "words": 26,
+      "bytes": 8832
+    },
+    {
+      "test": 5,
+      "words": 31,
+      "bytes": 10049
+    },
+    {
+      "test": 6,
+      "words": 33,
+      "bytes": 10897
+    },
+    {
+      "test": 7,
+      "words": 34,
+      "bytes": 11249
+    },
+    {
+      "test": 8,
+      "words": 25,
+      "bytes": 8271
+    }
+  ],
+  "totalWords": 250,
+  "authoredExamples": 250,
+  "sourceImages": 0,
+  "corrections": [
+    {
+      "test": 2,
+      "term": "hold luggage",
+      "field": "definition",
+      "before": "small bags that passengers are allowed to carry with them on an aircraft",
+      "after": "bags that are checked in and transported in an aircraft's cargo hold"
+    },
+    {
+      "test": 3,
+      "term": "finest",
+      "field": "pos",
+      "before": "n.",
+      "after": "adj."
+    },
+    {
+      "test": 8,
+      "term": "regret",
+      "field": "pos",
+      "before": "n.",
+      "after": "v."
+    }
+  ]
+}

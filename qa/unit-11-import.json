@@ -1,0 +1,128 @@
+{
+  "source": "Unit 11 Vocabulary - Verified.pptx",
+  "sourceSha256": "992529e6b6bd4e7ba35f2c23292d6c995930a6a02b30e7ae0b07849531ff86a8",
+  "words": 51,
+  "passageCounts": [
+    28,
+    23
+  ],
+  "imageCards": 51,
+  "originalImageBytes": 3870824,
+  "publishedImageBytes": 793340,
+  "unitDataBytes": 19858,
+  "catalogBytes": 17324,
+  "nontrivialAnswers": {
+    "abuse": {
+      "answer": "abused",
+      "accepted": [
+        "abused"
+      ]
+    },
+    "bystander": {
+      "answer": "Bystanders",
+      "accepted": [
+        "Bystanders"
+      ]
+    },
+    "cop": {
+      "answer": "cops",
+      "accepted": [
+        "cops"
+      ]
+    },
+    "criminal": {
+      "answer": "criminals",
+      "accepted": [
+        "criminals"
+      ]
+    },
+    "desensitise": {
+      "answer": "desensitised",
+      "accepted": [
+        "desensitised",
+        "desensitized"
+      ]
+    },
+    "juvenile": {
+      "answer": "juveniles",
+      "accepted": [
+        "juveniles"
+      ]
+    },
+    "neglect": {
+      "answer": "neglected",
+      "accepted": [
+        "neglected"
+      ]
+    },
+    "non-profit": {
+      "answer": "non-profit",
+      "accepted": [
+        "non-profit",
+        "nonprofit",
+        "non profit"
+      ]
+    },
+    "sneaker": {
+      "answer": "sneakers",
+      "accepted": [
+        "sneakers"
+      ]
+    },
+    "spill": {
+      "answer": "spilled",
+      "accepted": [
+        "spilled",
+        "spilt"
+      ]
+    },
+    "state": {
+      "answer": "stated",
+      "accepted": [
+        "stated"
+      ]
+    },
+    "torturer": {
+      "answer": "torturers",
+      "accepted": [
+        "torturers"
+      ]
+    },
+    "comment": {
+      "answer": "comments",
+      "accepted": [
+        "comments"
+      ]
+    },
+    "conduct": {
+      "answer": "conducted",
+      "accepted": [
+        "conducted"
+      ]
+    },
+    "linguist": {
+      "answer": "Linguists",
+      "accepted": [
+        "Linguists"
+      ]
+    },
+    "participate": {
+      "answer": "participated",
+      "accepted": [
+        "participated"
+      ]
+    },
+    "sample": {
+      "answer": "samples",
+      "accepted": [
+        "samples"
+      ]
+    },
+    "transcript": {
+      "answer": "transcripts",
+      "accepted": [
+        "transcripts"
+      ]
+    }
+  }
+}

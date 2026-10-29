@@ -1,0 +1,28 @@
+{
+  "added_units": {
+    "4": 46,
+    "5": 51,
+    "6": 46,
+    "7": 51,
+    "8": 51,
+    "9": 47
+  },
+  "added_entries": 292,
+  "book_units": 7,
+  "book_entries": 328,
+  "text_repairs": 3,
+  "unit_10_unchanged": true,
+  "checks": [
+    "all clozes restore examples",
+    "all image files decode",
+    "source text matches except 3 documented repairs",
+    "unit-load deduplication, retry and validation",
+    "all seven unit flashcard routes load",
+    "emoji flip and transition to photo",
+    "All 46 and All 51 round sizes; selection survives reload",
+    "quiz 9/10 with deliberate error",
+    "cloze 9/10 with deliberate error",
+    "matching 10/11 with deliberate mismatch",
+    "375px phone viewport without horizontal overflow"
+  ]
+}
