@@ -1,0 +1,3761 @@
+[
+  {
+    "id": "bir-unit-4",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · Emergency Fire Procedures",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 42,
+            "printedPage": 42,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-42.fe09d20e194d.webp",
+            "bytes": 248628
+          },
+          {
+            "pdfPage": 43,
+            "printedPage": 43,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-43.b90582456912.webp",
+            "bytes": 138690
+          },
+          {
+            "pdfPage": 44,
+            "printedPage": 44,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-44.a1fecef75624.webp",
+            "bytes": 178640
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "C",
+            "explanation": "'Detect' means discover or notice something, which can happen through sight or hearing. Both senses can alert someone to a fire.",
+            "evidence": "If you detect a fire",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "C",
+            "explanation": "To activate an alarm is to bring it into operation or use. It does not mean run towards it or shake it.",
+            "evidence": "activate the nearest emergency alarm",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "B",
+            "explanation": "'Proceed to' means move or go forward to a place. Here that place is the nearest exit.",
+            "evidence": "proceed to the exit nearest to you",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "A",
+            "explanation": "Vents are openings through which air or smoke can pass. The notice groups them with the space under the door.",
+            "evidence": "Block all openings, such as vents and under the door",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "B",
+            "explanation": "The notice specifically says not to use elevators. The other choices relate to actions included in its fire procedures.",
+            "evidence": "Do not try to exit by use of the elevators.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "exit",
+            "explanation": "According to the notice, after deciding it is safe to leave, the guest should proceed to the nearest exit.",
+            "evidence": "proceed to the exit nearest to you",
+            "accepted": [
+              "exit",
+              "the exit"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "your location",
+            "explanation": "The notice tells guests who cannot leave safely to inform hotel staff where they are.",
+            "evidence": "Call the hotel staff, informing them of your location.",
+            "accepted": [
+              "your location",
+              "location"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "a wet towel",
+            "explanation": "The notice says to cover the mouth with a wet towel if smoke is already in the room. This answer uses the permitted three words.",
+            "evidence": "hold a wet towel over your mouth",
+            "accepted": [
+              "a wet towel",
+              "wet towel"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "break any windows",
+            "explanation": "The notice warns against breaking windows unless it is absolutely necessary.",
+            "evidence": "Do not break any windows unless absolutely necessary.",
+            "accepted": [
+              "break any windows",
+              "break windows"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "STAY CALM",
+            "explanation": "The final paragraph identifies staying calm during evacuation as the key to success.",
+            "evidence": "your ability to STAY CALM during the evacuation process is the key to success",
+            "accepted": [
+              "STAY CALM",
+              "stay calm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Out of the Wild, into Our Homes",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 45,
+            "printedPage": 45,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-45.78c33f5d1fc8.webp",
+            "bytes": 252530
+          },
+          {
+            "pdfPage": 46,
+            "printedPage": 46,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-46.e8948805f734.webp",
+            "bytes": 150120
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "A",
+            "explanation": "An endangered species is in danger, especially of disappearing or becoming extinct.",
+            "evidence": "Declaring a species endangered",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "'Dwindling' means becoming smaller in number. The protection groups were showing that some elephant populations were falling.",
+            "evidence": "certain populations of elephants were dwindling",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "B",
+            "explanation": "To fade is to gradually become weaker or disappear. The writer describes public concern declining over time.",
+            "evidence": "concern for a certain species tends to fade after a while",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "C",
+            "explanation": "'Clubbed' means beaten with a heavy object or club. It does not mean shot or kicked.",
+            "evidence": "pups being clubbed to death",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "parts of animals",
+            "explanation": "The second paragraph says animal parts are used for products including powders claimed to improve people's lives.",
+            "evidence": "People use parts of animals for everything",
+            "accepted": [
+              "parts of animals",
+              "animal parts"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "ivory tusks",
+            "explanation": "The passage describes elephants being killed so people can obtain the ivory in their tusks.",
+            "evidence": "elephants with their faces sawed off for their ivory tusks",
+            "accepted": [
+              "ivory tusks",
+              "their ivory tusks",
+              "ivory",
+              "their ivory"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "seal pups",
+            "explanation": "After discussing elephants, the writer describes the killing of young seals in the late 1970s and again ten years later.",
+            "evidence": "people protested against the slaughter of seal pups",
+            "accepted": [
+              "seal pups",
+              "the seal pups"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "tuna fishermen",
+            "explanation": "The passage names tuna fishermen as the people from whom dolphins need protection.",
+            "evidence": "protecting dolphins from the tuna fishermen",
+            "accepted": [
+              "tuna fishermen",
+              "the tuna fishermen"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "FALSE",
+            "explanation": "The writer explicitly says these choices are not about food, shelter or anything else humans need to survive. The cause given is greed.",
+            "evidence": "These choices have nothing to do with food or shelter or anything else that helps humans survive.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "FALSE",
+            "explanation": "The passage says declaring a species endangered and making laws is not always enough, which contradicts the statement.",
+            "evidence": "protecting it by laws is not always enough",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "TRUE",
+            "explanation": "Poachers kill animals illegally, and the passage says they rarely get caught. They therefore often escape detection.",
+            "evidence": "Poachers, people who kill wildlife illegally, rarely get caught.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "TRUE",
+            "explanation": "The protection groups demonstrated that some elephant populations were decreasing. 'Dwindling' expresses that decrease.",
+            "evidence": "These groups also proved that certain populations of elephants were dwindling.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage mentions stronger laws but gives no details about how severe the punishments are. A legal ban does not establish the level of punishment.",
+            "evidence": "Laws against poaching were strengthened.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "TRUE",
+            "explanation": "The late 1970s were followed by a temporary halt, but ten years later the number killed was higher than ever. That places the later increase in the late 1980s.",
+            "evidence": "But ten years later, the number of seal pups killed was higher than ever.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "NOT GIVEN",
+            "explanation": "The text says the whale population seems to have increased but does not give stricter laws as the cause. The laws discussed next concern dolphins.",
+            "evidence": "The whale population appears to have increased for now.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "TRUE",
+            "explanation": "The ending warns that attention may turn to other endangered species and asks whether elephants will then be forgotten. The statement expresses this possibility, not a certainty.",
+            "evidence": "the protests and the publicity will probably turn to some other endangered species",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-5",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · Hotel Directory of Services",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 49,
+            "printedPage": 49,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-49.e336e90abe67.webp",
+            "bytes": 321868
+          },
+          {
+            "pdfPage": 50,
+            "printedPage": 50,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-50.59e0fb879f12.webp",
+            "bytes": 140194
+          },
+          {
+            "pdfPage": 51,
+            "printedPage": 51,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-51.bfde1b8469a3.webp",
+            "bytes": 191870
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "F",
+            "explanation": "In this exercise, laundry refers to the place where clothes are washed and ironed.",
+            "evidence": "laundry",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "A lounge is a public sitting or waiting room.",
+            "evidence": "lounge",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "'Essential' means necessary or needed.",
+            "evidence": "essential toiletries",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "E",
+            "explanation": "'Prevailing' describes the rate currently in general use.",
+            "evidence": "the prevailing rate",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "D",
+            "explanation": "A valuable is a possession worth a lot of money.",
+            "evidence": "Please do not leave valuables in your room.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "C",
+            "explanation": "To retrieve something is to recover or get it back.",
+            "evidence": "you may retrieve your messages",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "7408",
+            "explanation": "For rooms on floors 3–9, dial 7 followed by the room number. Room 408 therefore requires 7408.",
+            "evidence": "Room to Room, Floors 3–9: 7+Room Number",
+            "accepted": [
+              "7408",
+              "7+408"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "1884",
+            "explanation": "The theatre and concerts entry directs guests to the concierge at 1884.",
+            "evidence": "THEATRE/CONCERTS — 1884"
+          },
+          {
+            "number": 9,
+            "answer": "1999",
+            "explanation": "The emergency entry supplies the internal hotel number for fire, police or medical help.",
+            "evidence": "EMERGENCY — 1999"
+          },
+          {
+            "number": 10,
+            "answer": "1806",
+            "explanation": "An extra pillow is an extra room supply, so the appropriate service is Housekeeping.",
+            "evidence": "HOUSEKEEPING — 1806"
+          },
+          {
+            "number": 11,
+            "answer": "1888",
+            "explanation": "For tours of the preferred business floors, including floors 11 and 12, the directory gives the Manager on Duty's extension.",
+            "evidence": "Contact our Manager on Duty (extension 1888)."
+          },
+          {
+            "number": 12,
+            "answer": "YES",
+            "explanation": "The newsstand is on the Lobby Level, so this is the listed place to obtain newspapers.",
+            "evidence": "NEWSSTAND — Lobby Level",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "NO",
+            "explanation": "Overnight laundry operates Monday to Friday only, rather than every day.",
+            "evidence": "returned 7 a.m. next day, Monday through Friday only",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "YES",
+            "explanation": "Half a minute is thirty seconds. The directory says calls ringing longer than this incur a charge.",
+            "evidence": "you will be charged the prevailing rate should your call ring more than 30 seconds",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "NO",
+            "explanation": "The hotel's stated condition is that valuables are secured in safe deposit boxes, not simply that reception is informed about valuables left in a room.",
+            "evidence": "unless valuables are secured in safe deposit boxes",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "NOT GIVEN",
+            "explanation": "The directory mentions self-parking next to the hotel but does not say how many cars the facility holds.",
+            "evidence": "Our self-parking facility is located adjacent to the hotel.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "NO",
+            "explanation": "Saturday dinner service ends at 10:30 p.m., so a 10:35 arrival is too late.",
+            "evidence": "Dinner 6 p.m.–10:30 p.m. Monday–Saturday",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "YES",
+            "explanation": "The local-call instructions explicitly advise adding 1 after 9 if the initial dialling attempt gives a busy signal.",
+            "evidence": "If 9+Number results in a busy signal, call 9+1+Number.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 19,
+            "answer": "NO",
+            "explanation": "89 is for retrieving voicemail inside the room. Calling from outside the hotel requires the full telephone number and the operator.",
+            "evidence": "Outside the hotel (310)645-7500. The Operator will connect you to voicemail.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 20,
+            "answer": "NOT GIVEN",
+            "explanation": "The security list tells guests to notify security if they need assistance, but gives no instruction about notifying guards whenever they leave.",
+            "evidence": "Notify security if assistance is needed.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · What Is Happening to Our Planet?",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 52,
+            "printedPage": 52,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-52.046e74d0cb02.webp",
+            "bytes": 183080
+          },
+          {
+            "pdfPage": 53,
+            "printedPage": 53,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-53.f1609e17b132.webp",
+            "bytes": 159168
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "B",
+            "explanation": "'Vanished' means disappeared, rather than merely changed or decreased.",
+            "evidence": "known species of birds and mammals have vanished",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "Inhabitants are the living things that live in a particular place, here the rainforests.",
+            "evidence": "The Earth's rainforests are being destroyed, along with their inhabitants.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "'Startling' means very surprising or shocking.",
+            "evidence": "startling warnings and predictions",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "C",
+            "explanation": "To urge someone to act is to strongly encourage them. It does not necessarily mean force them.",
+            "evidence": "urged the government to take immediate action",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "A",
+            "explanation": "'Bleaker' means less hopeful or more discouraging about the future.",
+            "evidence": "a global report now would be even bleaker",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "natural resources",
+            "explanation": "The opening paragraph links industries' growing use of natural resources with the disappearance of animal species.",
+            "evidence": "Industries use more and more of the Earth's natural resources."
+          },
+          {
+            "number": 7,
+            "answer": "ozone layer",
+            "explanation": "The passage identifies changes in the ozone layer and climate as threats to animals.",
+            "evidence": "Changes in the planet's ozone layer and in its climate threaten all animals."
+          },
+          {
+            "number": 8,
+            "answer": "Dr. Gerald Barney",
+            "explanation": "The study was carried out by several government departments under Barney's direction.",
+            "evidence": "at the direction of Dr. Gerald Barney",
+            "accepted": [
+              "Dr. Gerald Barney",
+              "Dr Gerald Barney",
+              "Gerald Barney"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "starvation",
+            "explanation": "The report predicted more human hardship and gave starvation as its example.",
+            "evidence": "more starvation, for example",
+            "accepted": [
+              "starvation",
+              "more starvation"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "TRUE",
+            "explanation": "The first paragraph connects population growth and the use of resources with the disappearance of birds and mammals.",
+            "evidence": "The ever-increasing human population needs more space.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "NOT GIVEN",
+            "explanation": "Carter asked what would happen if the trends continued. Asking this conditional question does not state that he believed they definitely would continue.",
+            "evidence": "what ... would our planet be like in the year 2000 if present trends continue?",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "FALSE",
+            "explanation": "The report gives a range from half a million to two million, not more than two million.",
+            "evidence": "between half a million and 2 million species",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "FALSE",
+            "explanation": "The past perfect 'had been elected' means the election had already happened by the time the study was finished.",
+            "evidence": "by the time the study was completed, Ronald Reagan had been elected president",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage states that the administration ignored the report, but does not explicitly give its opinion about whether the report was necessary.",
+            "evidence": "his administration ignored the report",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "TRUE",
+            "explanation": "The environmentalists worry about whether destruction can be stopped before it is too late. This presents acting too late as a possibility.",
+            "evidence": "wonder if we can stop the destruction of our planet before it is too late",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "TRUE",
+            "explanation": "Their final question argues that humans should see themselves as guests rather than masters of the planet.",
+            "evidence": "they are not meant to be masters of the Earth, only one of its guests",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-6",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · What Is Stress?",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 55,
+            "printedPage": 55,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-55.a679605814b8.webp",
+            "bytes": 261382
+          },
+          {
+            "pdfPage": 56,
+            "printedPage": 56,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-56.706cb515b82e.webp",
+            "bytes": 174656
+          },
+          {
+            "pdfPage": 57,
+            "printedPage": 57,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-57.30b896b19825.webp",
+            "bytes": 179496
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "B",
+            "explanation": "A school principal is the headmaster or head of the school.",
+            "evidence": "the principal's office",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "'Bothersome' means annoying or causing trouble.",
+            "evidence": "bothersome noises",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "B",
+            "explanation": "To appraise something is to judge or assess it. The passage supplies this definition directly.",
+            "evidence": "appraise, or judge, circumstances",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "A",
+            "explanation": "'Vary' means differ or change between people, not physically move or begin.",
+            "evidence": "vary from one person to another",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "stress",
+            "explanation": "The opening paragraph says scientists find the concept of stress difficult to define.",
+            "evidence": "for scientists who study stress, it has been surprisingly hard to define"
+          },
+          {
+            "number": 6,
+            "answer": "a stressful situation",
+            "explanation": "The physical reactions listed occur when someone is in a stressful situation. The three-word phrase fits the summary.",
+            "evidence": "when you are placed in a stressful situation",
+            "accepted": [
+              "a stressful situation",
+              "stressful situations"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "Stressors",
+            "explanation": "Stressors are the events or situations producing stress, as defined in the third paragraph.",
+            "evidence": "stressors: events or situations that produce stress"
+          },
+          {
+            "number": 8,
+            "answer": "pleasant events",
+            "explanation": "The passage makes clear that even positive or pleasant events can cause stress.",
+            "evidence": "Even pleasant events can be stressors."
+          },
+          {
+            "number": 9,
+            "answer": "planning a party",
+            "explanation": "Planning a party is the pleasant event paired with starting a new job in the passage.",
+            "evidence": "Planning a party or starting a new job"
+          },
+          {
+            "number": 10,
+            "answer": "FALSE",
+            "explanation": "The writer says knowledge of the feelings does not explain stress or identify its cause.",
+            "evidence": "nor does it tell us what causes it",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "NOT GIVEN",
+            "explanation": "No comparison is made between the likelihood of stress from noise and from poor test results. They are simply listed as examples.",
+            "evidence": "A deadline, a poor test performance, or bothersome noises ... may be thought of as stressors.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "NOT GIVEN",
+            "explanation": "Both positive and negative events can cause stress, but the text does not establish that negative events generally cause more.",
+            "evidence": "Stress ... can be caused by both negative and positive events.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "TRUE",
+            "explanation": "The passage explicitly calls the positive or negative interpretation a matter of personal choice in some cases.",
+            "evidence": "in some ways, a matter of personal choice",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "TRUE",
+            "explanation": "An event becomes stressful according to the person's appraisal or interpretation of it.",
+            "evidence": "it is the way people interpret an event that makes it stressful or not stressful",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "FALSE",
+            "explanation": "The writer specifically says circumstances that do not threaten or challenge us are not stressful.",
+            "evidence": "Those that do not threaten or challenge us are not stressful.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "TRUE",
+            "explanation": "Something stressful at one time may not be stressful at another time. Its status as a stressor can therefore change.",
+            "evidence": "the things that cause us stress today may not cause us stress at another time",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Hot Days, Hot Nights",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 58,
+            "printedPage": 58,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-58.e9f1993a3c0b.webp",
+            "bytes": 184024
+          },
+          {
+            "pdfPage": 59,
+            "printedPage": 59,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-59.92b62120e89e.webp",
+            "bytes": 118718
+          },
+          {
+            "pdfPage": 60,
+            "printedPage": 60,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-60.2ba5f2c0a671.webp",
+            "bytes": 141234
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "D",
+            "explanation": "To delay is to put something off until later.",
+            "evidence": "an excuse for delaying action",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "To shift is to move from one position or place to another.",
+            "evidence": "shifted north across the border",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "'Mild' describes something gentle or not severe.",
+            "evidence": "milder climates",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "C",
+            "explanation": "A drastic change is strong, sudden or extreme, fitting the exercise's definition.",
+            "evidence": "could be so drastic that many of the benefits would be lost",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "E",
+            "explanation": "To ban something is to forbid it.",
+            "evidence": "the use of CFCs ... has been banned",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "F",
+            "explanation": "To eliminate something is to get rid of it completely.",
+            "evidence": "we can't hope to eliminate it completely",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "II",
+            "explanation": "Paragraph A gives detailed predictions of hotter days and nights in Dallas, matching 'Warmer summer in Dallas'.",
+            "evidence": "in Dallas, a doubled level of carbon dioxide would increase the number of days",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "I",
+            "explanation": "Paragraph B focuses on possible harmful effects, including melting glaciers, rising seas, droughts and hurricanes.",
+            "evidence": "They also predict great droughts and hurricanes.",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "VII",
+            "explanation": "Paragraph C introduces the view that changes could bring benefits, with Canadian farming as the example.",
+            "evidence": "the changes will be much more gradual, even beneficial",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "VIII",
+            "explanation": "Paragraph D warns that rapid, drastic change could cancel the benefits and create environmental refugees.",
+            "evidence": "many of the benefits would be lost",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "IV",
+            "explanation": "Paragraph E introduces action already taken and gives the CFC ban as an important step.",
+            "evidence": "Some steps have already been taken.",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "III",
+            "explanation": "Paragraph F explains the suggested benefits of burning methane and using landfill gas for heating.",
+            "evidence": "Another strategy is to burn as much methane as possible.",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "YES",
+            "explanation": "The passage predicts an increase from nineteen to seventy-eight Dallas days above 100 degrees.",
+            "evidence": "from nineteen to seventy-eight",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "NO",
+            "explanation": "The four current nights refer to those when temperatures do not fall below 80 degrees. The statement reverses the condition.",
+            "evidence": "the temperature wouldn't fall below 80 degrees at night",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "NO",
+            "explanation": "The passage says no one is certain about the speed or size of the rise, contradicting certainty among some scientists.",
+            "evidence": "no one is certain how fast and how much temperatures will rise",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "NOT GIVEN",
+            "explanation": "The text says uncertainty gives policymakers an excuse to delay action. It does not state that they have no interest at all in acting.",
+            "evidence": "This gives policymakers an excuse for delaying action.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "YES",
+            "explanation": "Paragraph C explicitly presents some scientists' view that the changes could be beneficial.",
+            "evidence": "Other scientists think the changes will be much more gradual, even beneficial.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "YES",
+            "explanation": "Paragraph E directly links humanity's contribution to many basic activities.",
+            "evidence": "Humanity's contribution to the greenhouse effect comes from so many basic activities.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 19,
+            "answer": "NO",
+            "explanation": "According to the passage, converting methane to carbon dioxide is worthwhile because methane traps more heat. The strategy is presented as helpful rather than worsening the effect.",
+            "evidence": "methane traps twenty times as much heat as CO2, the net result is worthwhile",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 20,
+            "answer": "NOT GIVEN",
+            "explanation": "The text reports that landfill gas heats homes in some places, but does not say people prefer methane to other fuels.",
+            "evidence": "It is being used to heat thousands of homes.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-7",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · A Health Education Booklet",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 61,
+            "printedPage": 61,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-61.0a94ecd94ea2.webp",
+            "bytes": 201172
+          },
+          {
+            "pdfPage": 62,
+            "printedPage": 62,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-62.7ff058718f16.webp",
+            "bytes": 134488
+          },
+          {
+            "pdfPage": 63,
+            "printedPage": 63,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-63.17383513156a.webp",
+            "bytes": 123232
+          },
+          {
+            "pdfPage": 64,
+            "printedPage": 64,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-64.1c48d1d7c70d.webp",
+            "bytes": 139840
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "B",
+            "explanation": "'Rough' means uneven, rather than soft or high.",
+            "evidence": "a hard or rough surface",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "For a person's body, 'stiff' describes difficulty moving freely. 'Difficult to bend' expresses a closely related physical meaning and is also accepted here.",
+            "evidence": "the child may be stiff the next day",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ],
+            "accepted": [
+              "B",
+              "A"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "B",
+            "explanation": "A Casualty Department treats people after accidents or injuries. It is not a place only for deaths or operations.",
+            "evidence": "taken to a hospital Casualty Department",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "A",
+            "explanation": "To relieve pain is to lessen or reduce it, rather than necessarily cure its cause.",
+            "evidence": "to relieve the pain",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "B",
+            "explanation": "The grazes section says the injury should be left uncovered so air can reach it.",
+            "evidence": "After cleaning, leave the graze uncovered.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "D",
+            "explanation": "In the insect-bites section, calamine lotion is named as a way to relieve itching.",
+            "evidence": "The itching can be relieved by calamine lotion.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "A",
+            "explanation": "The cuts section describes applying pressure to stop bleeding.",
+            "evidence": "Bleeding can usually be stopped by applying pressure to the cut.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "C",
+            "explanation": "The bruises section mentions a cold compress made from material soaked in water.",
+            "evidence": "A cold compress may ease a bad bruise if applied at once.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "A",
+            "explanation": "For a deep cut whose edges cannot be brought together with a dressing, the booklet says to consult a doctor or nurse.",
+            "evidence": "If the cut is deep and the edges cannot be pulled together with a dressing, consult the doctor.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "E",
+            "explanation": "Redness of the skin is the symptom described under burns and scalds.",
+            "evidence": "Minor burns and scalds cause redness of the skin.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "C",
+            "explanation": "The discussion of head bruises connects remembering the accident with a lower likelihood of serious injury.",
+            "evidence": "can remember the accident, it is unlikely that serious injury has resulted",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "A",
+            "explanation": "The cuts paragraph puts stopping the bleeding before inspecting the cut.",
+            "evidence": "The cut can then be carefully inspected.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "C",
+            "explanation": "For severe bruising, the booklet gives a rest period of 24–48 hours, or one to two days.",
+            "evidence": "Severe bruising can be treated by rest for 24 to 48 hours.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "applying pressure",
+            "explanation": "According to the cuts paragraph, applying pressure is the action associated with stopping bleeding.",
+            "evidence": "by applying pressure to the cut",
+            "accepted": [
+              "applying pressure",
+              "apply pressure",
+              "pressure"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "germs",
+            "explanation": "The passage says free bleeding normally washes germs away.",
+            "evidence": "any germs will normally have been washed away by the blood",
+            "accepted": [
+              "germs",
+              "any germs"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "a dressing",
+            "explanation": "The grazes section says a dressing may stick to the injury or make it infected.",
+            "evidence": "It is not a good idea to apply a dressing.",
+            "accepted": [
+              "a dressing",
+              "dressing",
+              "apply a dressing",
+              "applying a dressing"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "children",
+            "explanation": "The text explicitly says bruises are very common in children.",
+            "evidence": "Bruises are very common in children."
+          },
+          {
+            "number": 18,
+            "answer": "the next day",
+            "explanation": "The booklet says the child may feel stiff on the day after the fall.",
+            "evidence": "the child may be stiff the next day"
+          },
+          {
+            "number": 19,
+            "answer": "lying in bed",
+            "explanation": "The passage gives lying in bed as the easiest way to keep a badly bruised leg raised.",
+            "evidence": "Lying in bed is the easiest way to do this."
+          },
+          {
+            "number": 20,
+            "answer": "the head",
+            "explanation": "The question refers to the sentence linking head bruises with anxiety. Its intended location is the head.",
+            "evidence": "Bruises on the head may cause anxiety.",
+            "accepted": [
+              "the head",
+              "head",
+              "on the head"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Global Warming",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 65,
+            "printedPage": 65,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-65.2f4048b4a547.webp",
+            "bytes": 276916
+          },
+          {
+            "pdfPage": 66,
+            "printedPage": 66,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-66.e222489dcd59.webp",
+            "bytes": 152612
+          },
+          {
+            "pdfPage": 67,
+            "printedPage": 67,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-67.fde16dc118cd.webp",
+            "bytes": 160936
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "C",
+            "explanation": "To release a gas means emit it or let it out.",
+            "evidence": "release carbon into the air",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "'Trapped' means caught or prevented from escaping.",
+            "evidence": "heat ... to remain trapped",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "To contribute to an effect is to help bring it about, without necessarily being its main cause.",
+            "evidence": "you contribute to the greenhouse effect",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "A",
+            "explanation": "To exhale means breathe out. It is the opposite of breathe in.",
+            "evidence": "human beings exhale it every time they breathe",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "C",
+            "explanation": "'Exclusively' means only. The sentence says carbon dioxide is not the only gas involved.",
+            "evidence": "not exclusively responsible",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "A",
+            "explanation": "The passage directly states a fifty-fold increase in industrial production over the previous century.",
+            "evidence": "industrial production has increased by fifty times",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "C",
+            "explanation": "Burning fossil fuels releases carbon dioxide, so C completes this key point.",
+            "evidence": "When fossil fuels are burned, they release carbon into the air in the form of carbon dioxide.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "D",
+            "explanation": "The text explains carbon dioxide's effect on the Earth's surface temperature by comparing temperatures with and without it.",
+            "evidence": "the average surface temperature on Earth would be 0 degrees Fahrenheit, instead of 59",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "E",
+            "explanation": "The scientists' measurements and projections describe rising carbon dioxide levels in the atmosphere.",
+            "evidence": "The current reading is near 360 parts per million.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "YES",
+            "explanation": "The opening paragraph says hardly anyone knows what the catchphrases mean or how they relate to one another.",
+            "evidence": "hardly anyone knows what these terms really mean",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "NO",
+            "explanation": "Four fifths of the growth came since 1950, so most came after that date rather than before it.",
+            "evidence": "Four fifths of that growth has come since 1950.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "YES",
+            "explanation": "The passage explicitly says carbon dioxide allows heat that would escape to stay trapped.",
+            "evidence": "Carbon dioxide allows heat ... to remain trapped.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "NOT GIVEN",
+            "explanation": "Both activities are listed, but the passage does not compare how much fuel they use.",
+            "evidence": "take a hot shower, or make toast",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "YES",
+            "explanation": "The passage links the use of energy, including electricity, to the greenhouse effect.",
+            "evidence": "It is a by-product of the use of energy — electricity, gasoline, or oil.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "YES",
+            "explanation": "The projected level is at least 560 parts per million, compared with about 280 before the Industrial Revolution. The intended comparison is a doubling of that earlier level.",
+            "evidence": "the carbon dioxide level should reach at least 560 parts per million",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "NOT GIVEN",
+            "explanation": "Other greenhouse gases are listed, but their effects are not ranked against carbon dioxide's effects.",
+            "evidence": "Other greenhouse gases include chlorofluorocarbons, nitrogen oxides and methane.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-8",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · University of Western Sydney Macarthur",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 68,
+            "printedPage": 68,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-68.b0acb740669f.webp",
+            "bytes": 232290
+          },
+          {
+            "pdfPage": 69,
+            "printedPage": 69,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-69.35b3f13530be.webp",
+            "bytes": 161674
+          },
+          {
+            "pdfPage": 70,
+            "printedPage": 70,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-70.67b7ba78586a.webp",
+            "bytes": 136344
+          },
+          {
+            "pdfPage": 71,
+            "printedPage": 71,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-71.112c54112e42.webp",
+            "bytes": 140868
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "A",
+            "explanation": "A metropolitan area includes a city and its surrounding suburbs.",
+            "evidence": "the Sydney metropolitan area",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "Here faculties are the university's branches of learning, such as Business and Law.",
+            "evidence": "courses are taught through its six faculties",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "'Annual' means happening or charged every year.",
+            "evidence": "Fees indicated are annual.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "C",
+            "explanation": "Equivalent qualifications are equal or comparable in value to the stated qualifications.",
+            "evidence": "or equivalent qualifications",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "A",
+            "explanation": "Mature students are adults rather than necessarily teenagers or retired people.",
+            "evidence": "Mature age students",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "Bankstown",
+            "explanation": "Bankstown is 25 minutes from the business district by train, compared with 50 minutes for Campbelltown.",
+            "evidence": "it is 25 minutes by train from the Sydney Central Business District"
+          },
+          {
+            "number": 7,
+            "answer": "English course fees",
+            "explanation": "The annual fees explicitly exclude fees for English courses.",
+            "evidence": "except for English course fees"
+          },
+          {
+            "number": 8,
+            "answer": "Campbelltown",
+            "explanation": "The contact address for the Office of International Programmes is in Campbelltown.",
+            "evidence": "Campbelltown NSW 2560"
+          },
+          {
+            "number": 9,
+            "answer": "IELTS",
+            "explanation": "Either named examination answers the question, which asks for one English exam.",
+            "evidence": "570 in TOEFL or 6.0 in IELTS",
+            "accepted": [
+              "IELTS",
+              "TOEFL"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "FALSE",
+            "explanation": "The passage places Bankstown within Sydney's metropolitan area, rather than presenting it as a separate town outside that area.",
+            "evidence": "Bankstown is a city within the Sydney metropolitan area.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage gives enrolment figures for 2008 but does not provide the previous year's figures for comparison.",
+            "evidence": "Total enrolment in 2008 exceeded 27,000.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "TRUE",
+            "explanation": "The faculty list explicitly puts Education & Languages mainly at Bankstown.",
+            "evidence": "Education & Languages (mainly at Bankstown)",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "FALSE",
+            "explanation": "The directory says all the listed courses are full-time, not partly part-time.",
+            "evidence": "All courses are full-time.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "TRUE",
+            "explanation": "The passage says Summer Term subjects incur extra fees, so their charges are not part of the indicated annual amount.",
+            "evidence": "Extra fees are charged for ... attempting subjects in Summer Term.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "FALSE",
+            "explanation": "Mature students may be considered through other qualifications or work experience even if they lack the usual secondary-school qualification.",
+            "evidence": "will still be considered on the basis of other qualifications and/or work experience",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "FALSE",
+            "explanation": "The alternative evidence is study through English as the language of instruction, subject to university approval. Merely having good English courses is a different condition.",
+            "evidence": "a school or university which has English as the language of instruction",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "FALSE",
+            "explanation": "All the dates are explicitly subject to final confirmation, so they have not been finally confirmed.",
+            "evidence": "All dates are subject to final confirmation.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Our Diet Matters",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 72,
+            "printedPage": 72,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-72.9f3240e34a02.webp",
+            "bytes": 209084
+          },
+          {
+            "pdfPage": 73,
+            "printedPage": 73,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-73.5dd67d42fdcd.webp",
+            "bytes": 172592
+          },
+          {
+            "pdfPage": 74,
+            "printedPage": 74,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-74.6f9b606521e4.webp",
+            "bytes": 118014
+          },
+          {
+            "pdfPage": 75,
+            "printedPage": 75,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-75.dc90535a207e.webp",
+            "bytes": 106276
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "inherit",
+            "explanation": "To inherit is to receive something from one's parents or ancestors.",
+            "evidence": "the genes you inherit from your parents"
+          },
+          {
+            "number": 2,
+            "answer": "upbringing",
+            "explanation": "Upbringing means the training and care received while growing up.",
+            "evidence": "Your upbringing shapes some basic attitudes to food."
+          },
+          {
+            "number": 3,
+            "answer": "nibble",
+            "explanation": "To nibble means eat in small bites.",
+            "evidence": "nibble between meals"
+          },
+          {
+            "number": 4,
+            "answer": "alter",
+            "explanation": "To alter something means change it or make it different.",
+            "evidence": "these can alter the balance between food and fitness"
+          },
+          {
+            "number": 5,
+            "answer": "ancestors",
+            "explanation": "Ancestors are the people from whom someone is descended. The text uses the plural form.",
+            "evidence": "our ancestors were used to eating",
+            "accepted": [
+              "ancestors",
+              "ancestor"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "disorders",
+            "explanation": "Disorder means lack of order; in this passage the plural refers to problems affecting the digestive system.",
+            "evidence": "various disorders of the digestive system",
+            "accepted": [
+              "disorders",
+              "disorder"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "digestive",
+            "explanation": "The adjective 'digestive' relates to digesting food.",
+            "evidence": "the digestive system"
+          },
+          {
+            "number": 8,
+            "answer": "slim",
+            "explanation": "'Slim' means attractively thin; here it is used as a verb meaning become thinner.",
+            "evidence": "help you to slim"
+          },
+          {
+            "number": 9,
+            "answer": "D",
+            "explanation": "Section I warns that eating too much of some things and too little of others can harm health.",
+            "evidence": "your health will suffer",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "E",
+            "explanation": "Section II explains differences between people, including genes, upbringing, lifestyle, age and sex.",
+            "evidence": "everybody's different",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "F",
+            "explanation": "Section III discusses all three groups—proteins, vitamins and minerals—so F covers the whole section, unlike the heading about vitamin pills alone.",
+            "evidence": "proteins, vitamins or minerals",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "A",
+            "explanation": "Section IV explains that energy eaten beyond the body's use is stored as fat.",
+            "evidence": "the extra energy is stored as body fat",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "B",
+            "explanation": "Section V focuses on fibre, the modern diet's shortage of it and the reasons to eat more of it.",
+            "evidence": "the sort of food we eat today contains very little fibre",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "A, C, E",
+            "explanation": "Section II identifies inherited genes, exercise and attitudes to food as influences. The paragraph does not identify vitamin pills or excessive worries as the requested factors.",
+            "evidence": "the genes you inherit ... basic attitudes to food ... how much exercise you get",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "multiple": 3
+          },
+          {
+            "number": 15,
+            "answer": "D",
+            "explanation": "The passage says weight gain is more likely with increasing age and especially for women. The older woman is therefore the intended comparison.",
+            "evidence": "more likely to put on weight as you get older, especially if you are a woman",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "D",
+            "explanation": "The text says energy intake should exactly balance energy used, contradicting the claim that it should be higher.",
+            "evidence": "should exactly balance the energy your body-machine burns up",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "B",
+            "explanation": "Section V contrasts the fibre-rich plant diet of ancestors with the much lower fibre content of the modern diet described.",
+            "evidence": "In comparison with our ancestors ... very little fibre.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "B",
+            "explanation": "For a fairly varied diet, the passage says vitamin pills are generally unnecessary unless there is a special medical reason.",
+            "evidence": "Unless you have some special medical reason, it is a waste of time and money to take vitamin pills.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 19,
+            "answer": "A",
+            "explanation": "The main body gives explanations about diet, metabolism, nutrients, energy and fibre. Its primary function is to inform the reader, although it also includes advice.",
+            "evidence": "What you eat and the way it affects your body depend very much on the kind of person you are.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-9",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · All about Renting I",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 77,
+            "printedPage": 77,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-77.1c8c803aa4d9.webp",
+            "bytes": 217330
+          },
+          {
+            "pdfPage": 78,
+            "printedPage": 78,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-78.089eb275a802.webp",
+            "bytes": 198918
+          },
+          {
+            "pdfPage": 79,
+            "printedPage": 79,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-79.ff4361f7b208.webp",
+            "bytes": 158810
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "B",
+            "explanation": "To refund money is to repay it to the person who paid it.",
+            "evidence": "the security deposit will be refunded",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "B",
+            "explanation": "To vacate an apartment is to move out of it.",
+            "evidence": "after you have vacated the apartment",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "C",
+            "explanation": "Here 'function' means work or operate properly.",
+            "evidence": "do not function properly",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "individual heating system",
+            "explanation": "The exception is an apartment with its own heating system, for which heating may be an extra cost.",
+            "evidence": "unless the apartment has an individual heating system"
+          },
+          {
+            "number": 5,
+            "answer": "$50",
+            "explanation": "The passage says the security deposit can start at $50 and can be as much as one month's rent.",
+            "evidence": "from $50 to a full month's rent",
+            "accepted": [
+              "$50",
+              "50",
+              "50 dollars"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "retained",
+            "explanation": "The owner keeps, or retains, the deposit when it is needed to cover damage.",
+            "evidence": "the deposit will be retained"
+          },
+          {
+            "number": 7,
+            "answer": "charged for",
+            "explanation": "Making an inventory protects a new tenant against being charged for damage that was already present.",
+            "evidence": "protect you from being charged for damage"
+          },
+          {
+            "number": 8,
+            "answer": "3 weeks",
+            "explanation": "According to this passage, the stated time for returning the deposit is three weeks after the tenant leaves.",
+            "evidence": "within 3 weeks after you have vacated the apartment",
+            "accepted": [
+              "3 weeks",
+              "three weeks"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "a written notice",
+            "explanation": "The passage says the owner must explain in writing why any part of the deposit is withheld.",
+            "evidence": "a written notice explaining why",
+            "accepted": [
+              "a written notice",
+              "written notice"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "YES",
+            "explanation": "Electricity and telephone costs are listed as expenses in addition to the rent.",
+            "evidence": "electricity and telephone expenses",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "NOT GIVEN",
+            "explanation": "References may be checked professionally, but the passage does not say that the owner always employs professionals to check them.",
+            "evidence": "may be professionally checked",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "YES",
+            "explanation": "A tenant who keeps a pet may have to pay a further deposit.",
+            "evidence": "an additional deposit for a pet",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage gives two ways to record existing damage but does not say one is better than the other.",
+            "evidence": "an inventory form ... your own list",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "NO",
+            "explanation": "The passage describes the deposit being returned after the apartment is vacated, rather than before departure.",
+            "evidence": "after you have vacated the apartment",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "YES",
+            "explanation": "It explicitly says that problems after moving into an apartment are not unusual.",
+            "evidence": "It is not unusual to have some problems",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "NO",
+            "explanation": "For an ordinary maintenance problem the passage tells the tenant to write it down. Calling the manager is the instruction for a serious problem.",
+            "evidence": "write down the problem ... If the problem is serious, call the manager",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "NO",
+            "explanation": "The hotline is described as operating on weekdays during specific hours, not every day of the week.",
+            "evidence": "weekdays from 2 to 5 p.m.",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · All about Renting II",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 81,
+            "printedPage": 81,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-81.21a47834b5c8.webp",
+            "bytes": 264576
+          },
+          {
+            "pdfPage": 82,
+            "printedPage": 82,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-82.61a882c3299a.webp",
+            "bytes": 165208
+          },
+          {
+            "pdfPage": 83,
+            "printedPage": 83,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-83.2c6bdff7661c.webp",
+            "bytes": 178828
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "B",
+            "explanation": "To notify someone is to inform them.",
+            "evidence": "notify your neighbours or the manager",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "To terminate an agreement means bring it to an end.",
+            "evidence": "terminate the lease",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "C",
+            "explanation": "To deliver a notice means hand it over to its recipient.",
+            "evidence": "deliver the notice",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "A",
+            "explanation": "To evict tenants means force them to leave the rented property.",
+            "evidence": "evict you without good reason",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "B",
+            "explanation": "To specify something is to describe or state it fully and clearly.",
+            "evidence": "the conditions for termination are specified",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "C",
+            "explanation": "The passage recommends telling the neighbours or manager when you will be away for a few days.",
+            "evidence": "notify your neighbours or the manager if you plan to be away",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "B",
+            "explanation": "The security measure described here is a controlled entry system.",
+            "evidence": "controlled entry systems",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "G",
+            "explanation": "Controlled entry offers little protection if residents let strangers in merely because they claim a special reason.",
+            "evidence": "let anyone in who claims to have some special reason",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "F",
+            "explanation": "The purpose of the building's fire alarms is to warn residents about a fire.",
+            "evidence": "warn you if there is a fire in the building",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "A",
+            "explanation": "The owner's insurance covers the building, not the tenant's personal belongings. The passage therefore says the tenant bears that loss without their own insurance.",
+            "evidence": "you will be responsible for the loss",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage recommends becoming acquainted with neighbours and the manager, but it does not say they will ask the tenant's schedule.",
+            "evidence": "get to know your neighbours and the building manager",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "TRUE",
+            "explanation": "Of the terms listed in this passage—one month, six months and one year—one year is the longest.",
+            "evidence": "one month, six months, or one year",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "NOT GIVEN",
+            "explanation": "Shorter leases may cost more, but no exact amount or doubling of the rent is given.",
+            "evidence": "a shorter lease may cost more",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "FALSE",
+            "explanation": "The passage requires written notice. A phone call is not presented as an alternative that satisfies this requirement.",
+            "evidence": "30 days' written notice",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "FALSE",
+            "explanation": "The legal notice period stated in this text is 30 days for the owner. A particular lease may require 60 days, which is a different point.",
+            "evidence": "the owner must also give you 30 days' notice",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "TRUE",
+            "explanation": "The rental agreement is described as setting out both the owner's responsibilities and the resident's.",
+            "evidence": "your responsibilities and those of the building owner",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "TRUE",
+            "explanation": "According to the passage, the lease protects tenants against eviction without a proper reason.",
+            "evidence": "cannot evict you without good reason",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "TRUE",
+            "explanation": "The text advises asking about anything unclear before signing the lease.",
+            "evidence": "ask about anything you do not understand before you sign",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-10",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · How New York Became America's Largest City",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 84,
+            "printedPage": 84,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-84.72791102efc0.webp",
+            "bytes": 207622
+          },
+          {
+            "pdfPage": 85,
+            "printedPage": 85,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-85.466ca5433d3f.webp",
+            "bytes": 172670
+          },
+          {
+            "pdfPage": 86,
+            "printedPage": 86,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-86.ae6d435825bb.webp",
+            "bytes": 122614
+          },
+          {
+            "pdfPage": 87,
+            "printedPage": 87,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-87.8e703c9f415e.webp",
+            "bytes": 168680
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "C",
+            "explanation": "Routes are the paths or areas travelled along between places.",
+            "evidence": "trade routes from the ports to the central regions",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "Freight means goods transported from one place to another.",
+            "evidence": "moving heavy freight very far",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "A strip is a long, narrow piece of something.",
+            "evidence": "a long strip of low land",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "C",
+            "explanation": "Regions are areas of a country.",
+            "evidence": "the central regions of the country",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "B",
+            "explanation": "'Consequently' introduces a result, so it means 'as a result'.",
+            "evidence": "Exports from New York were greater than imports. Consequently ...",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "IV",
+            "explanation": "Section 1 introduces geography, history and economics as the three factors explaining the city's growth.",
+            "evidence": "geography, history, and economics",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "III",
+            "explanation": "Section 2 describes seaports as places where goods enter and leave the country.",
+            "evidence": "around seaports",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "V",
+            "explanation": "Section 3 says a favourable location alone does not explain the growth of a great industrial city.",
+            "evidence": "needed more than their geographical location",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "VIII",
+            "explanation": "Section 5 follows the canal's completion with the extension of the inland water transport network.",
+            "evidence": "a great inland shipping system",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "I",
+            "explanation": "Section 6 deals with the arrival of the railroads and their effect on transport.",
+            "evidence": "The coming of the railroads",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "II",
+            "explanation": "Section 7 explains why shipping companies could offer cheap passenger journeys from Europe.",
+            "evidence": "Passengers could come from Europe very cheaply",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "VI",
+            "explanation": "Section 8 focuses on New York as the major arrival port for people from Europe.",
+            "evidence": "the greatest port for receiving people from European countries",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "FALSE",
+            "explanation": "Section 3 explicitly rejects the idea that geographical location by itself made cities such as New York great industrial centres.",
+            "evidence": "needed more than their geographical location",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage says people had already moved west by about 1815, then describes wagons used to carry freight. It does not specify how those people travelled.",
+            "evidence": "many Americans ... had already moved toward the west ... moving heavy freight",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "NOT GIVEN",
+            "explanation": "A canal seemed the best solution in New York State, but the text does not report agreement by every American.",
+            "evidence": "In New York State, a canal seemed the best solution",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "TRUE",
+            "explanation": "The canal followed the low land from the eastern end of Lake Erie to the Hudson River.",
+            "evidence": "From the eastern end of Lake Erie ... to the Hudson River ... Here the Erie Canal was constructed.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "FALSE",
+            "explanation": "Freight costs fell immediately to about one tenth of their former level.",
+            "evidence": "The canal produced an immediate effect. Freight costs were cut to about one tenth",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "TRUE",
+            "explanation": "The arrival of railroads made canal shipping less important.",
+            "evidence": "The coming of the railroads made canal shipping less important",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 19,
+            "answer": "TRUE",
+            "explanation": "The final section directly credits the newcomers' labour with helping the city become great.",
+            "evidence": "Their labour helped the city become great.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Public Libraries",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 88,
+            "printedPage": 88,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-88.c98208a927e5.webp",
+            "bytes": 222456
+          },
+          {
+            "pdfPage": 89,
+            "printedPage": 89,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-89.6dfd8c82d139.webp",
+            "bytes": 135908
+          },
+          {
+            "pdfPage": 90,
+            "printedPage": 90,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-90.7143936e0c6d.webp",
+            "bytes": 147864
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "A",
+            "explanation": "To charge a fee is to ask for it as payment.",
+            "evidence": "It charges no fee for its services.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "To loan a book is to lend it, rather than borrow or sell it.",
+            "evidence": "The library loans its materials.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "C",
+            "explanation": "Donated money is given freely, without repayment being required.",
+            "evidence": "money that has been donated",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "B",
+            "explanation": "Here 'indicated' means pointed out or made known.",
+            "evidence": "people in that city had indicated they found useful",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "VII",
+            "explanation": "Paragraph A introduces the library as a free service for everyone in the community.",
+            "evidence": "for all the people in a community ... charges no fee",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "I",
+            "explanation": "Paragraph B describes the money supporting libraries: taxes, donations and gifts.",
+            "evidence": "tax-supported ... money that has been donated",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "VIII",
+            "explanation": "Paragraph C compares libraries of different shapes, sizes and collection sizes.",
+            "evidence": "Few public libraries are exactly alike.",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "IX",
+            "explanation": "Paragraph D explains the similar ways libraries divide and arrange books, including age groups and fiction versus nonfiction.",
+            "evidence": "arrange their books and other materials in similar ways",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "VI",
+            "explanation": "Paragraph E explains that reference books remain inside the library.",
+            "evidence": "Reference books are never to be taken out",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "II",
+            "explanation": "Paragraph F says each library decides how to organise special collections according to local needs.",
+            "evidence": "Each library decides for itself",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "III",
+            "explanation": "Paragraph G explains how the community's interests shape the library's holdings. Morgan horses are an example, not the whole topic.",
+            "evidence": "reflect the community's special interests",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV",
+              "V",
+              "VI",
+              "VII",
+              "VIII",
+              "IX"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "in a community",
+            "explanation": "The sentence in paragraph A says the service is for everyone in a community.",
+            "evidence": "for all the people in a community to use"
+          },
+          {
+            "number": 13,
+            "answer": "a specific time",
+            "explanation": "Materials can be borrowed for a particular, limited period.",
+            "evidence": "taken out for a specific time",
+            "accepted": [
+              "a specific time",
+              "specific time"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "taxes",
+            "explanation": "Paragraph B lists taxes alongside donated money and gifts as sources of financial support.",
+            "evidence": "part of their money from taxes and part from gifts"
+          },
+          {
+            "number": 15,
+            "answer": "children and adult",
+            "explanation": "These are the two age-group labels used in paragraph D. The answer follows the wording of the passage.",
+            "evidence": "two basic age groups, children and adult",
+            "accepted": [
+              "children and adult",
+              "children and adults",
+              "adult and children",
+              "adults and children"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "reference books",
+            "explanation": "Reference books must remain in the library building.",
+            "evidence": "Reference books are never to be taken out of the library building."
+          },
+          {
+            "number": 17,
+            "answer": "a special area",
+            "explanation": "Paragraph F says some nonfiction materials may be placed in a special area or a separate room. Either phrase fits the word limit.",
+            "evidence": "a special area or separate room",
+            "accepted": [
+              "a special area",
+              "special area",
+              "a separate room",
+              "separate room"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "special interests",
+            "explanation": "The holdings reflect the subjects the local community is especially interested in.",
+            "evidence": "reflect the community's special interests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bir-unit-11",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · Children in Crisis",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 91,
+            "printedPage": 91,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-91.cc9c86204468.webp",
+            "bytes": 248376
+          },
+          {
+            "pdfPage": 92,
+            "printedPage": 92,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-92.25cc308f10b5.webp",
+            "bytes": 204832
+          },
+          {
+            "pdfPage": 93,
+            "printedPage": 93,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-93.8531f4852fff.webp",
+            "bytes": 158796
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "B",
+            "explanation": "Bystanders are onlookers who are present when an event happens without taking part.",
+            "evidence": "Bystanders are caught in the crossfire",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "C",
+            "explanation": "To become desensitised is to become less sensitive or less affected by something.",
+            "evidence": "so desensitised to shooting that they laugh about it",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "B",
+            "explanation": "Being charged with an offence means being formally accused of it. It does not itself mean being punished.",
+            "evidence": "charged with assault and attempted murder",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "C",
+            "explanation": "'Sufficient' means enough for the stated purpose.",
+            "evidence": "sufficient education, motivations, and undamaged brains",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "TRUE",
+            "explanation": "The passage names sneakers, leather jackets and insults as reasons for shootings.",
+            "evidence": "the reasons may be only sneakers, leather jackets, or insults",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "TRUE",
+            "explanation": "It says robbing other people is regarded as a symbol of honour in many cities.",
+            "evidence": "robbing the others is considered a symbol of honour",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "FALSE",
+            "explanation": "The passage describes the victims as strangers to their attackers, contradicting the idea that they usually knew them.",
+            "evidence": "The victims all appeared to be strangers to their torturers.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "FALSE",
+            "explanation": "The text says almost everyone agrees that many young criminals are becoming more violent, rather than describing widespread disagreement.",
+            "evidence": "Almost everyone agrees",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "TRUE",
+            "explanation": "The organisation's report gives a daily figure for murders of children under five.",
+            "evidence": "two children under the age of five are murdered in America each day",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "NOT GIVEN",
+            "explanation": "The text says some adults are unaware or do not want to be aware, but does not explicitly say fear is why they avoid knowing.",
+            "evidence": "Many adults are not, or do not want to be, aware",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "FALSE",
+            "explanation": "Conservative magazines are described as normally giving more space to business than to social problems.",
+            "evidence": "devote their pages more to business than social problems",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "TRUE",
+            "explanation": "Forbes is introduced as an example of the conservative magazines discussed in the preceding sentence.",
+            "evidence": "even conservative magazines ... For example, in one issue of Forbes magazine",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "motive",
+            "explanation": "The summary refers to senseless juvenile crimes that seem to lack a reason or motive.",
+            "evidence": "senseless crimes done by juveniles that appear to lack a motive"
+          },
+          {
+            "number": 14,
+            "answer": "in subway stations",
+            "explanation": "The example concerns homeless people sleeping in subway stations. These three words fit the summary's grammar.",
+            "evidence": "homeless men sleeping in subway stations"
+          },
+          {
+            "number": 15,
+            "answer": "twenty times",
+            "explanation": "The passage gives twenty as the number of attempts in 1992.",
+            "evidence": "as many as twenty times in 1992",
+            "accepted": [
+              "twenty times",
+              "20 times"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "set fire",
+            "explanation": "The phrase 'set fire to' supplies the two missing words before 'to them'.",
+            "evidence": "young people tried to set fire to homeless men"
+          },
+          {
+            "number": 17,
+            "answer": "fire setter",
+            "explanation": "The account is given by one of the people who set the fire.",
+            "evidence": "One fire setter explained"
+          },
+          {
+            "number": 18,
+            "answer": "accidentally",
+            "explanation": "The boy says the beer was spilled accidentally.",
+            "evidence": "accidentally spilled some of their beer on him"
+          },
+          {
+            "number": 19,
+            "answer": "blanket",
+            "explanation": "It was the homeless man's blanket that caught fire.",
+            "evidence": "when his blanket caught fire"
+          },
+          {
+            "number": 20,
+            "answer": "the fun",
+            "explanation": "The summary needs 'the fun' before 'of it'; the passage suggests amusement as a possible motive.",
+            "evidence": "the fun of it was suggested as a motive",
+            "accepted": [
+              "the fun",
+              "fun"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Real-Time Electronic Discussion for Teaching Writing",
+        "instructions": "Follow the original instructions and word limits shown on the book pages. Choose the requested letters or write your answers.",
+        "pages": [
+          {
+            "pdfPage": 95,
+            "printedPage": 95,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-95.500f1f145ab3.webp",
+            "bytes": 212848
+          },
+          {
+            "pdfPage": 96,
+            "printedPage": 96,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-96.b7013286e032.webp",
+            "bytes": 126016
+          },
+          {
+            "pdfPage": 97,
+            "printedPage": 97,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-97.0121beca33e8.webp",
+            "bytes": 202148
+          },
+          {
+            "pdfPage": 98,
+            "printedPage": 98,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-98.429a7c3d1175.webp",
+            "bytes": 73726
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "C",
+            "explanation": "To compose a text means write it.",
+            "evidence": "compose compositions together",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "'Virtually all' means almost all.",
+            "evidence": "virtually all class discussion",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "Transcripts are written or printed records of spoken discussions.",
+            "evidence": "transcripts of large group discussions",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "B",
+            "explanation": "To participate in a discussion means join in it.",
+            "evidence": "100% of the students participated",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "A",
+            "explanation": "Being confident means feeling trust in one's ability.",
+            "evidence": "confident about their writing",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "communicative",
+            "explanation": "The first paragraph describes the writing as taking place in a powerful communicative context.",
+            "evidence": "such a powerful communicative context"
+          },
+          {
+            "number": 7,
+            "answer": "sharing",
+            "explanation": "The stated purpose is sharing ideas with classmates.",
+            "evidence": "for the purpose of sharing ideas with their classmates"
+          },
+          {
+            "number": 8,
+            "answer": "guide",
+            "explanation": "Cook contributes as a guide, rather than an expert who supplies every answer.",
+            "evidence": "as a guide rather than as an all-knowing expert"
+          },
+          {
+            "number": 9,
+            "answer": "100%",
+            "explanation": "All students participated in the electronic discussion. The source asks for one word here but reports this result numerically, so the corresponding number is accepted.",
+            "evidence": "100% of the students participated in the electronic discussion",
+            "accepted": [
+              "100%",
+              "100",
+              "100 percent",
+              "one hundred percent"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "65",
+            "explanation": "The electronic-discussion chart gives the students 65% of the turns. This also follows from the teacher's 35%: 100 minus 35 equals 65. The printed prompt already supplies 'percent'.",
+            "evidence": "the teacher took only 35% of the turns",
+            "accepted": [
+              "65",
+              "sixty-five",
+              "sixty five",
+              "65%"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "gains",
+            "explanation": "The study reports significantly greater gains in the computer-networked class's writing.",
+            "evidence": "showed significantly greater gains in writing"
+          },
+          {
+            "number": 12,
+            "answer": "YES",
+            "explanation": "The first paragraph explicitly presents electronic discussion as a way to overcome fear of writing.",
+            "evidence": "To help overcome this fear",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage contrasts sharing ideas with writing only for correction. It does not say students hate teacher correction.",
+            "evidence": "not for the purpose of being corrected ... sharing ideas",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "YES",
+            "explanation": "Cook had taught online for three years and feared returning to non-networked instruction.",
+            "evidence": "She has taught this way for 3 years ... feared even the thought of going back",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "NO",
+            "explanation": "The syllabus was the same, but only one class used networked discussion; the other used a traditional classroom.",
+            "evidence": "The other class was conducted in a traditional classroom",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "YES",
+            "explanation": "Only half the traditional class spoke even once, meaning the other half remained silent in the discussion.",
+            "evidence": "only 50% of the students spoke up even once",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "NOT GIVEN",
+            "explanation": "The text discusses benefits for native speakers and second-language students but does not compare their overall levels of confidence.",
+            "evidence": "Studies of native speaker composition classes have also shown similar advantages",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "NO",
+            "explanation": "The final paragraph reports similar advantages in native-speaker classes, contradicting the claim that the method does not work there.",
+            "evidence": "have also shown similar advantages",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
