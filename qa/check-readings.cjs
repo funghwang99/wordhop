@@ -4,33 +4,54 @@ const context={window:{addEventListener(){}},document:{addEventListener(){}},loc
 vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(root,'reading.js'),'utf8'),context);
 const {validate,grade}=context.window.WordHopReading;
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'data.js'),'utf8').replace(/^window\.WQ_CATALOG = /,'').replace(/;\s*$/,''));
-const units=catalog.units.filter(u=>u.readingFile);assert.equal(units.length,8);
-let questions=0,scored=0,excluded=[],images=new Set();
+const units=catalog.units.filter(u=>u.readingFile);assert.equal(units.length,16);
+const expectedBasic=[[10,16],[20,16],[16,20],[20,16],[17,19],[17,18],[19,18],[20,18]];
+const totals={};const excluded=[];
 for(const unit of units){
-  assert.equal(unit.bookId,'simply-pet');
+  const pet=unit.bookId==='simply-pet';assert.ok(pet||unit.bookId==='basic-ielts-reading');
+  const total=totals[unit.bookId]||={units:0,parts:0,questions:0,scored:0,images:new Set()};total.units++;
   assert.ok(!unit.readingFile.startsWith('/'));
   const file=path.join(root,unit.readingFile),bytes=fs.readFileSync(file),data=JSON.parse(bytes);
   assert.ok(file.includes(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12)));
-  validate(data,unit.id);assert.equal(data.parts.length,6);
+  validate(data,unit.id);assert.equal(data.parts.length,pet?6:2);
+  assert.match(data.source.answerKeyOrigin,/not a publisher-provided/);
+  if(pet)assert.deepEqual(data.parts.flatMap(p=>p.questions.map(q=>q.number)),Array.from({length:32},(_,i)=>i+1));
+  else assert.deepEqual(data.parts.map(p=>p.questions.length),expectedBasic[Number(unit.id.split('-').at(-1))-4]);
   for(const part of data.parts){
-    assert.ok(part.width>=1000&&part.height>=1400);
-    assert.ok(fs.existsSync(path.join(root,part.image)));images.add(part.image);
+    total.parts++;
+    if(!pet)assert.deepEqual(part.questions.map(q=>q.number),Array.from({length:part.questions.length},(_,i)=>i+1));
+    for(const page of part.pages||[part]){
+      assert.ok(page.width>=1000&&page.height>=1400);
+      const img=fs.readFileSync(path.join(root,page.image));total.images.add(page.image);
+      assert.ok(page.image.includes(crypto.createHash('sha256').update(img).digest('hex').slice(0,12)));
+    }
     for(const q of part.questions){
-      questions++;
+      total.questions++;
       if(q.unscored){assert.equal(grade(q,q.answer),null);assert.ok(q.reviewNote);excluded.push([unit.id,q.number]);continue;}
-      scored++;
+      total.scored++;
       assert.equal(grade(q,q.answer),true);
       for(const answer of q.accepted||[q.answer])assert.equal(grade(q,'  '+answer.toUpperCase()+'  '),true);
       assert.equal(grade(q,''),false);assert.equal(grade(q,'clearly incorrect answer'),false);
-      if(q.options)for(const answer of q.options)assert.equal(grade(q,answer),answer===q.answer);
+      if(q.multiple){
+        const expected=q.answer.split(',').map(x=>x.trim());
+        assert.equal(grade(q,[...expected].reverse()),true);
+        assert.equal(grade(q,expected.slice(1)),false);
+        assert.equal(grade(q,[...expected,expected[0]]),false);
+        assert.equal(grade(q,[...expected,q.options.find(x=>!expected.includes(x))]),false);
+        assert.equal(grade(q,[expected[0],expected[0],expected[1]]),false);
+      }else if(q.options)for(const answer of q.options)assert.equal(grade(q,answer),(q.accepted||[q.answer]).includes(answer));
     }
   }
   const bad=JSON.parse(JSON.stringify(data));bad.parts[0].questions[0].number=2;
   assert.throws(()=>validate(bad,unit.id),/incomplete/);
+  const missing=JSON.parse(JSON.stringify(data));missing.parts[0].pages=[];
+  assert.throws(()=>validate(missing,unit.id),/pages/);
 }
-assert.equal(questions,256);assert.equal(scored,254);assert.equal(images.size,47);
+for(const [book,expected] of [['simply-pet',[8,48,256,254,47]],['basic-ielts-reading',[8,16,280,280,51]]]){
+ const t=totals[book];assert.deepEqual([t.units,t.parts,t.questions,t.scored,t.images.size],expected);
+}
 assert.deepEqual(excluded,[['simply-pet-test-7',4],['simply-pet-test-8',11]]);
 const last=JSON.parse(fs.readFileSync(path.join(root,units.find(u=>u.id==='simply-pet-test-8').readingFile),'utf8'));
 assert.equal(last.parts[4].pdfPage,129);assert.equal(last.parts[5].pdfPage,129);assert.equal(last.parts[4].image,last.parts[5].image);
-console.log('PASS: 8 complete reading tests, 48 parts, 256 questions and 47 original book pages.');
-console.log('PASS: case and spacing normalisation, valid alternative words, wrong and blank answers; 2 imprecise source questions excluded.');
+console.log('PASS: PET 8 tests / 48 parts / 256 questions; IELTS 8 units / 16 passages / 280 questions; 98 original pages.');
+console.log('PASS: alternative answers, case/spacing, exact unordered multi-select, wrong/blank answers and 2 excluded source questions.');
