@@ -35,6 +35,7 @@ so links to units work without server rewrites.
 python3 -B scripts/build_github_pages.py
 python3 -B qa/check_github_pages.py
 node qa/check-all-words.cjs
+node qa/check-readings.cjs
 ```
 
 Serve `_site/` with a static server to preview the built app. Edit source files
@@ -78,5 +79,16 @@ Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
 (a temperature goal versus an original prediction). Source pages and answer
 provenance are recorded under `source-assets/simply-pet-reading/`.
 
-Basic IELTS Reading currently has vocabulary slides only. Add original reading
-pages before enabling Reading for those units; do not invent book passages.
+Basic IELTS Reading Units 4–11 also include their original reading pages and
+numbered exercises: 16 passages, 280 questions and 51 book pages. This covers
+multiple choice, short answers and completion, True/False/Not Given,
+Yes/No/Not Given, matching headings and phrases, and multi-select questions.
+All pages of a passage remain together, with later pages loaded lazily.
+
+The Basic IELTS scan omits the answer-key section listed in its contents.
+Its keys and English explanations were therefore prepared for WordHop from
+the supplied passages, rather than presented as publisher answers. Numeric
+answers in Unit 11's note-completion table accept the corresponding figures.
+Source provenance and reviewed keys are under `source-assets/basic-ielts-reading/`.
+Run `python3 -B scripts/import_basic_ielts_readings.py` after editing those keys
+to regenerate the hashed JSON and catalog links.
