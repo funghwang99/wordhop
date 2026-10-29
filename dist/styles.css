@@ -82,3 +82,5 @@
 @media(max-width:480px){.unit-tab{font-size:11px;padding:10px 9px}.unit-tab .step-num{margin-right:5px}.reading-sheet-heading{flex-direction:column;gap:10px}.reading-page-actions .text-button{font-size:11px}.reading-submit-row{gap:15px}.reading-part-link{padding:9px 11px}.reading-answer-row{gap:9px}.reading-answer-row label{font-size:12px}.reading-solution p,.reading-solution blockquote{font-size:12px}}
 
 .reading-review .reading-answer-state,.reading-solution.reading-review .reading-solution-top>span{color:#82642c}.reading-solution.reading-review{border-left-color:#bba16d}
+
+.reading-multiple{grid-column:1/-1;border:0;margin:0;padding:10px 0;display:block}.reading-multiple legend{font-size:13px;font-weight:600;padding:0 0 10px}.reading-multiple-options{display:flex;gap:22px;flex-wrap:wrap}.reading-multiple-options label{display:flex;gap:8px;align-items:center}.reading-multiple-options input{width:17px;height:17px;flex:none;margin:0;accent-color:var(--accent)}.reading-multiple .reading-answer-state{display:block;margin-top:10px}
