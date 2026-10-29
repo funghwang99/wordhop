@@ -58,15 +58,17 @@ for unit in built['units']:
     assert data['id'] == unit['id']
     assert data == json.loads((ROOT / 'dist' / unit['readingFile']).read_text())
     assert hashlib.sha256(reading_path.read_bytes()).hexdigest()[:12] in reading_path.name
-    assert len(data['parts']) == 6
+    assert len(data['parts']) == (6 if unit['bookId'] == 'simply-pet' else 2)
     for part in data['parts']:
         reading_parts += 1
         reading_questions += len(part['questions'])
-        assert (ROOT / '_site' / part['image']).read_bytes() == (ROOT / 'dist' / part['image']).read_bytes()
+        images = [page['image'] for page in part.get('pages', [part])]
+        for image in images:
+            assert (ROOT / '_site' / image).read_bytes() == (ROOT / 'dist' / image).read_bytes()
         for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
-            for resource in [unit['readingFile'],part['image']]:
+            for resource in [unit['readingFile'], *images]:
                 resolved = urljoin(base,resource)
                 assert resolved.startswith(base)
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
-assert reading_parts == 48 and reading_questions == 256
+assert reading_parts == 64 and reading_questions == 536
 print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
