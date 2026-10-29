@@ -42,9 +42,31 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'styles.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'styles.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 assert (ROOT / '_site/.nojekyll').is_file()
 assert not (ROOT / '_site/.openai').exists()
 print('PASS: every unit and image resolves inside root, /wordhop/ and deeper project paths.')
 print('PASS: all vocabulary, pictures, cloze answers and word IDs preserved; generated asset hashes match.')
+
+reading_parts = reading_questions = 0
+for unit in built['units']:
+    if not unit.get('readingFile'):
+        continue
+    reading_path = ROOT / '_site' / unit['readingFile']
+    data = json.loads(reading_path.read_text())
+    assert data['id'] == unit['id']
+    assert data == json.loads((ROOT / 'dist' / unit['readingFile']).read_text())
+    assert hashlib.sha256(reading_path.read_bytes()).hexdigest()[:12] in reading_path.name
+    assert len(data['parts']) == 6
+    for part in data['parts']:
+        reading_parts += 1
+        reading_questions += len(part['questions'])
+        assert (ROOT / '_site' / part['image']).read_bytes() == (ROOT / 'dist' / part['image']).read_bytes()
+        for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
+            for resource in [unit['readingFile'],part['image']]:
+                resolved = urljoin(base,resource)
+                assert resolved.startswith(base)
+                assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
+assert reading_parts == 48 and reading_questions == 256
+print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
