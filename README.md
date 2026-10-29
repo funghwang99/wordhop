@@ -58,3 +58,25 @@ Progress and completed rounds are saved in each visitor's browser using
 localStorage. They do not sync between devices. Changing from the previous
 website address to a GitHub Pages address does not automatically transfer that
 browser's saved progress. No student accounts or shared database are required.
+
+## Book reading exercises
+
+Simply PET includes all six Reading parts of each of the eight supplied tests:
+256 original questions, displayed from 47 book pages. Test 8 Parts 5 and 6 share
+a page. Open a Reading Test and select the Reading tab. Answer each part, then
+check it to see the key, explanations and supporting excerpts. Answers and
+checked parts persist in the same browser under a separate storage key.
+
+Reading assets and JSON load only when needed. The page zoom and original-size
+link preserve the printed text and options. Vocabulary and games still use
+their existing data and progress.
+
+The supplied PDF is a question book, without an official answer key. WordHop's
+keys and English explanations were prepared from its text. Two imprecise source
+questions remain visible with notes but are excluded from automatic scoring:
+Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
+(a temperature goal versus an original prediction). Source pages and answer
+provenance are recorded under `source-assets/simply-pet-reading/`.
+
+Basic IELTS Reading currently has vocabulary slides only. Add original reading
+pages before enabling Reading for those units; do not invent book passages.

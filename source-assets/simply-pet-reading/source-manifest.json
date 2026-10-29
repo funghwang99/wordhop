@@ -1,0 +1,516 @@
+{
+  "bookId": "simply-pet",
+  "tests": 8,
+  "parts": 48,
+  "questions": 256,
+  "uniqueOriginalPages": 47,
+  "source": {
+    "title": "Simply B1 Preliminary for Schools: 8 Complete Practice Tests (2019, revised exam from 2020)",
+    "publisher": "GLOBAL ELT",
+    "sourcePdfSha256": "f5e184c54780c02c3e4e4f39b3cf9fde47a659f0558b00495163fce78cd62630",
+    "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key.",
+    "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+  },
+  "pages": [
+    {
+      "test": 1,
+      "part": 1,
+      "pdfPage": 27,
+      "printedPage": 26,
+      "image": "assets/reading/simply-pet-test-1-part-1.20e927ed4338.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 250400
+    },
+    {
+      "test": 1,
+      "part": 2,
+      "pdfPage": 28,
+      "printedPage": 27,
+      "image": "assets/reading/simply-pet-test-1-part-2.29b2d85ee69d.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 366142
+    },
+    {
+      "test": 1,
+      "part": 3,
+      "pdfPage": 29,
+      "printedPage": 28,
+      "image": "assets/reading/simply-pet-test-1-part-3.4d98761f0173.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 383114
+    },
+    {
+      "test": 1,
+      "part": 4,
+      "pdfPage": 30,
+      "printedPage": 29,
+      "image": "assets/reading/simply-pet-test-1-part-4.1e34b5c46786.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 313052
+    },
+    {
+      "test": 1,
+      "part": 5,
+      "pdfPage": 31,
+      "printedPage": 30,
+      "image": "assets/reading/simply-pet-test-1-part-5.0ea19c5e3063.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 211394
+    },
+    {
+      "test": 1,
+      "part": 6,
+      "pdfPage": 32,
+      "printedPage": 31,
+      "image": "assets/reading/simply-pet-test-1-part-6.aea32e84566c.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 183796
+    },
+    {
+      "test": 2,
+      "part": 1,
+      "pdfPage": 41,
+      "printedPage": 40,
+      "image": "assets/reading/simply-pet-test-2-part-1.1fa40233a3e9.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 247810
+    },
+    {
+      "test": 2,
+      "part": 2,
+      "pdfPage": 42,
+      "printedPage": 41,
+      "image": "assets/reading/simply-pet-test-2-part-2.0946efaf34bd.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 381756
+    },
+    {
+      "test": 2,
+      "part": 3,
+      "pdfPage": 43,
+      "printedPage": 42,
+      "image": "assets/reading/simply-pet-test-2-part-3.ee478b1a8dfd.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 340824
+    },
+    {
+      "test": 2,
+      "part": 4,
+      "pdfPage": 44,
+      "printedPage": 43,
+      "image": "assets/reading/simply-pet-test-2-part-4.4ea04b8b4c84.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 253392
+    },
+    {
+      "test": 2,
+      "part": 5,
+      "pdfPage": 45,
+      "printedPage": 44,
+      "image": "assets/reading/simply-pet-test-2-part-5.10a4d8db70e5.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 192346
+    },
+    {
+      "test": 2,
+      "part": 6,
+      "pdfPage": 46,
+      "printedPage": 45,
+      "image": "assets/reading/simply-pet-test-2-part-6.8dd95e39e83f.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 165092
+    },
+    {
+      "test": 3,
+      "part": 1,
+      "pdfPage": 55,
+      "printedPage": 54,
+      "image": "assets/reading/simply-pet-test-3-part-1.402917f1042a.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 246504
+    },
+    {
+      "test": 3,
+      "part": 2,
+      "pdfPage": 56,
+      "printedPage": 55,
+      "image": "assets/reading/simply-pet-test-3-part-2.c5398b4255cd.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 364218
+    },
+    {
+      "test": 3,
+      "part": 3,
+      "pdfPage": 57,
+      "printedPage": 56,
+      "image": "assets/reading/simply-pet-test-3-part-3.8385438db96b.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 337052
+    },
+    {
+      "test": 3,
+      "part": 4,
+      "pdfPage": 58,
+      "printedPage": 57,
+      "image": "assets/reading/simply-pet-test-3-part-4.d22ec781bb89.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 263572
+    },
+    {
+      "test": 3,
+      "part": 5,
+      "pdfPage": 59,
+      "printedPage": 58,
+      "image": "assets/reading/simply-pet-test-3-part-5.90e033d9033c.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 181146
+    },
+    {
+      "test": 3,
+      "part": 6,
+      "pdfPage": 60,
+      "printedPage": 59,
+      "image": "assets/reading/simply-pet-test-3-part-6.3e5d62e357a1.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 146698
+    },
+    {
+      "test": 4,
+      "part": 1,
+      "pdfPage": 69,
+      "printedPage": 68,
+      "image": "assets/reading/simply-pet-test-4-part-1.97ce1e987987.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 232698
+    },
+    {
+      "test": 4,
+      "part": 2,
+      "pdfPage": 70,
+      "printedPage": 69,
+      "image": "assets/reading/simply-pet-test-4-part-2.6fbcae22b0bd.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 385940
+    },
+    {
+      "test": 4,
+      "part": 3,
+      "pdfPage": 71,
+      "printedPage": 70,
+      "image": "assets/reading/simply-pet-test-4-part-3.1f3fbfcbf164.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 339864
+    },
+    {
+      "test": 4,
+      "part": 4,
+      "pdfPage": 72,
+      "printedPage": 71,
+      "image": "assets/reading/simply-pet-test-4-part-4.614ee0f9f04c.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 240246
+    },
+    {
+      "test": 4,
+      "part": 5,
+      "pdfPage": 73,
+      "printedPage": 72,
+      "image": "assets/reading/simply-pet-test-4-part-5.f31e161505e2.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 168818
+    },
+    {
+      "test": 4,
+      "part": 6,
+      "pdfPage": 74,
+      "printedPage": 73,
+      "image": "assets/reading/simply-pet-test-4-part-6.1f1a9db629ce.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 146602
+    },
+    {
+      "test": 5,
+      "part": 1,
+      "pdfPage": 83,
+      "printedPage": 82,
+      "image": "assets/reading/simply-pet-test-5-part-1.24651b4c3a5e.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 212188
+    },
+    {
+      "test": 5,
+      "part": 2,
+      "pdfPage": 84,
+      "printedPage": 83,
+      "image": "assets/reading/simply-pet-test-5-part-2.8b1b4fe7dde0.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 355400
+    },
+    {
+      "test": 5,
+      "part": 3,
+      "pdfPage": 85,
+      "printedPage": 84,
+      "image": "assets/reading/simply-pet-test-5-part-3.8315c9be25a6.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 372008
+    },
+    {
+      "test": 5,
+      "part": 4,
+      "pdfPage": 86,
+      "printedPage": 85,
+      "image": "assets/reading/simply-pet-test-5-part-4.798cf60486af.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 242526
+    },
+    {
+      "test": 5,
+      "part": 5,
+      "pdfPage": 87,
+      "printedPage": 86,
+      "image": "assets/reading/simply-pet-test-5-part-5.19b352eb76bf.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 179874
+    },
+    {
+      "test": 5,
+      "part": 6,
+      "pdfPage": 88,
+      "printedPage": 87,
+      "image": "assets/reading/simply-pet-test-5-part-6.7d85e975ff2a.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 167708
+    },
+    {
+      "test": 6,
+      "part": 1,
+      "pdfPage": 97,
+      "printedPage": 96,
+      "image": "assets/reading/simply-pet-test-6-part-1.baee4ec8c5de.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 230096
+    },
+    {
+      "test": 6,
+      "part": 2,
+      "pdfPage": 98,
+      "printedPage": 97,
+      "image": "assets/reading/simply-pet-test-6-part-2.b9d52dafafa3.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 334920
+    },
+    {
+      "test": 6,
+      "part": 3,
+      "pdfPage": 99,
+      "printedPage": 98,
+      "image": "assets/reading/simply-pet-test-6-part-3.14020d7a6395.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 344364
+    },
+    {
+      "test": 6,
+      "part": 4,
+      "pdfPage": 100,
+      "printedPage": 99,
+      "image": "assets/reading/simply-pet-test-6-part-4.6a36857b521c.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 261732
+    },
+    {
+      "test": 6,
+      "part": 5,
+      "pdfPage": 101,
+      "printedPage": 100,
+      "image": "assets/reading/simply-pet-test-6-part-5.6a0bf0d299bf.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 172130
+    },
+    {
+      "test": 6,
+      "part": 6,
+      "pdfPage": 102,
+      "printedPage": 101,
+      "image": "assets/reading/simply-pet-test-6-part-6.295619a50a8d.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 142436
+    },
+    {
+      "test": 7,
+      "part": 1,
+      "pdfPage": 111,
+      "printedPage": 110,
+      "image": "assets/reading/simply-pet-test-7-part-1.a8e486142ec4.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 203870
+    },
+    {
+      "test": 7,
+      "part": 2,
+      "pdfPage": 112,
+      "printedPage": 111,
+      "image": "assets/reading/simply-pet-test-7-part-2.52292c10c257.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 373010
+    },
+    {
+      "test": 7,
+      "part": 3,
+      "pdfPage": 113,
+      "printedPage": 112,
+      "image": "assets/reading/simply-pet-test-7-part-3.60ee3c86957b.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 335840
+    },
+    {
+      "test": 7,
+      "part": 4,
+      "pdfPage": 114,
+      "printedPage": 113,
+      "image": "assets/reading/simply-pet-test-7-part-4.d3a45ab05515.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 254152
+    },
+    {
+      "test": 7,
+      "part": 5,
+      "pdfPage": 115,
+      "printedPage": 114,
+      "image": "assets/reading/simply-pet-test-7-part-5.d23ec0c278a2.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 186416
+    },
+    {
+      "test": 7,
+      "part": 6,
+      "pdfPage": 116,
+      "printedPage": 115,
+      "image": "assets/reading/simply-pet-test-7-part-6.5310e1bc754b.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 152424
+    },
+    {
+      "test": 8,
+      "part": 1,
+      "pdfPage": 125,
+      "printedPage": 124,
+      "image": "assets/reading/simply-pet-test-8-part-1.6871a5aad814.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 223212
+    },
+    {
+      "test": 8,
+      "part": 2,
+      "pdfPage": 126,
+      "printedPage": 125,
+      "image": "assets/reading/simply-pet-test-8-part-2.6874c30c8b4f.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 387010
+    },
+    {
+      "test": 8,
+      "part": 3,
+      "pdfPage": 127,
+      "printedPage": 126,
+      "image": "assets/reading/simply-pet-test-8-part-3.84e55423c1d5.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 354770
+    },
+    {
+      "test": 8,
+      "part": 4,
+      "pdfPage": 128,
+      "printedPage": 127,
+      "image": "assets/reading/simply-pet-test-8-part-4.4a1331c9f52f.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 234754
+    },
+    {
+      "test": 8,
+      "part": 5,
+      "pdfPage": 129,
+      "printedPage": 128,
+      "image": "assets/reading/simply-pet-test-8-part-5.560a3d91a23f.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 254938
+    },
+    {
+      "test": 8,
+      "part": 6,
+      "pdfPage": 129,
+      "printedPage": 128,
+      "image": "assets/reading/simply-pet-test-8-part-5.560a3d91a23f.webp",
+      "width": 1259,
+      "height": 1807,
+      "bytes": 254938
+    }
+  ],
+  "questionsExcludedFromScoring": [
+    [
+      "simply-pet-test-7",
+      4
+    ],
+    [
+      "simply-pet-test-8",
+      11
+    ]
+  ],
+  "readingFiles": {
+    "simply-pet-test-1": "readings/simply-pet-test-1.f1dac65451f9.json",
+    "simply-pet-test-2": "readings/simply-pet-test-2.bd0d11d4d044.json",
+    "simply-pet-test-3": "readings/simply-pet-test-3.70f2dbfb8ae8.json",
+    "simply-pet-test-4": "readings/simply-pet-test-4.c305a45abd19.json",
+    "simply-pet-test-5": "readings/simply-pet-test-5.da1f01ce2744.json",
+    "simply-pet-test-6": "readings/simply-pet-test-6.55cad28c737f.json",
+    "simply-pet-test-7": "readings/simply-pet-test-7.eebbdb64b274.json",
+    "simply-pet-test-8": "readings/simply-pet-test-8.379ff12b3e5c.json"
+  }
+}
