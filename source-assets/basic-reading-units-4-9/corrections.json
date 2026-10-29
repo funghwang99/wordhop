@@ -1,0 +1,23 @@
+[
+  {
+    "unit": 4,
+    "term": "tuna",
+    "field": "definition",
+    "before": "",
+    "after": "a large sea fish commonly eaten as food"
+  },
+  {
+    "unit": 6,
+    "term": "greenhouse effect",
+    "field": "definition",
+    "before": "a glass building that keeps heat inside",
+    "after": "the process in which gases in the atmosphere trap heat near the Earth's surface"
+  },
+  {
+    "unit": 7,
+    "term": "injection",
+    "field": "example",
+    "before": "Covering a graze may make it infected.",
+    "after": "The nurse gave the patient an injection."
+  }
+]
