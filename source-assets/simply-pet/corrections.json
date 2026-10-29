@@ -1,0 +1,23 @@
+[
+  {
+    "test": 2,
+    "term": "hold luggage",
+    "field": "definition",
+    "before": "small bags that passengers are allowed to carry with them on an aircraft",
+    "after": "bags that are checked in and transported in an aircraft's cargo hold"
+  },
+  {
+    "test": 3,
+    "term": "finest",
+    "field": "pos",
+    "before": "n.",
+    "after": "adj."
+  },
+  {
+    "test": 8,
+    "term": "regret",
+    "field": "pos",
+    "before": "n.",
+    "after": "v."
+  }
+]
