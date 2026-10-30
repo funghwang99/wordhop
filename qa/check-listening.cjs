@@ -8,7 +8,7 @@ const app=fs.readFileSync(path.join(root,'dist/app.js'),'utf8');
 const routeSource=app.match(/function parseRoute\(hash\)\{.*\n/)[0];
 const context={catalog};vm.createContext(context);
 vm.runInContext(`const trackById=id=>catalog.tracks.find(x=>x.id===id),levelById=id=>catalog.levels.find(x=>x.id===id),bookById=id=>catalog.books.find(x=>x.id===id),unitById=id=>catalog.units.find(x=>x.id===id);${routeSource}`,context);
-let count=0;const seen=new Set(),sourceIssues=[];
+let count=0;const seen=new Set(),decoderWarnings=[];
 for(const unit of catalog.units){
  const test=Number(unit.id.match(/^simply-pet-test-([1-8])$/)?.[1]);
  if(test>=1&&test<=8){
@@ -24,8 +24,9 @@ for(const unit of catalog.units){
    assert.equal(hash,source.sourceSha256);assert.ok(track.src.includes(hash.slice(0,12)));
    assert.equal(bytes.length,source.bytes);assert.ok(track.duration>200&&track.duration<900);
    assert.equal(source.codec_name,'mp3');assert.equal(source.channels,2);
-   if(source.decodeReview.status==='passed')assert.equal(track.sourceWarning,undefined);
-   else{assert.equal(source.decodeReview.status,'damaged-data');assert.match(track.sourceWarning,/damaged audio data/);sourceIssues.push([test,i+1]);}
+   assert.equal(track.sourceWarning,undefined);
+   assert.ok(['passed','warning'].includes(source.decodeReview.status));
+   if(source.decodeReview.status==='warning'){assert.ok(source.decodeReview.errors.length>0);decoderWarnings.push([test,i+1]);}
    const route=context.parseRoute(`#/pet/simply-pet/${unit.id}/listening/${track.id}`);
    assert.equal(route.unit.id,unit.id);assert.equal(route.view,'listening');assert.equal(route.listeningPart,track.id);
   }
@@ -35,4 +36,5 @@ assert.equal(count,32);
 assert.equal(context.parseRoute('#/pet/simply-pet/simply-pet-test-1/reading/part-6').readingPart,'part-6');
 console.log('PASS: all 32 original MP3s match source SHA-256, filename, test, part, duration and channel metadata.');
 console.log('PASS: direct links reach every listening part; Reading routes and tests without supplied audio are preserved.');
-console.log(`PASS: ${count-sourceIssues.length} fully decoded recordings; all ${sourceIssues.length} supplied recording issues have visible source warnings.`);
+console.log(`PASS: ${count-decoderWarnings.length} recordings passed the decoder check; ${decoderWarnings.length} diagnostic results remain internal and do not impose replacement notices.`);
+
