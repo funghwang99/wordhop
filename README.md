@@ -118,6 +118,9 @@ Source checksums, durations and the import command are recorded under
 `source-assets/simply-pet-listening/`. Run `node qa/check-listening.cjs` to check
 the track mapping and original file integrity. This also runs before publishing.
 
-Full decoding passed for thirty recordings. The supplied Test 4 Part 2 and
-Test 5 Part 3 files contain invalid MP3 data; their players show a recording
-note and retain the original files pending replacements.
+The decoder check passed without diagnostics for thirty recordings. Test 4
+Part 2 and Test 5 Part 3 have decoder diagnostics recorded for investigation.
+Both started playing in Chrome, while midpoint seeking caused a player error
+in the tested browser. The player offers recovery help only after an actual
+media error; diagnostics alone do not request replacement recordings.
+

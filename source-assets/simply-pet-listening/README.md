@@ -22,9 +22,10 @@ or study tab stops playback and releases the previous source. Speed controls
 use the native player's pitch-preserving playback. Playback is not tied to
 the game's sound-effects toggle.
 
-Full decoding passed for thirty supplied files. Test 4 Part 2 and Test 5
-Part 3 report invalid MP3 frames (`invalid new backstep` / `Header missing`).
-Their original bytes remain available, with a visible source warning in the
-player. They need replacement recordings; WordHop does not invent missing
-audio or hide the issue. The importer checks complete decoding and records
-the result so replacing the supplied files clears their warnings automatically.
+The decoder check passed without diagnostics for thirty supplied files.
+FFmpeg reports frame errors for Test 4 Part 2 and Test 5 Part 3. These are
+recorded as decoder warnings, rather than a claim that the original recordings
+must be replaced. Both started playing in Chrome; seeking to their midpoints
+caused a player error in the tested browser. The user reports normal playback.
+The player shows recovery help only after an actual media error. Original
+recordings remain unchanged, and no replacement is automatically requested.
