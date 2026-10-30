@@ -27,10 +27,12 @@ Run the Pages build afterwards to update the generated asset hashes.
 Original reading pages and reviewed answers are recorded with the other Basic
 IELTS Reading units under `source-assets/basic-ielts-reading/`. Unit 12 includes
 both passages, 39 numbered questions and nine book pages, 99–107. The supplied
-scan omits its listed publisher answer-key section, so WordHop prepared keys
-and English explanations from the reading text.
+scan omits its listed publisher answer-key section. All 39 answers have now
+been checked against the separately supplied publisher `Answer Key.pdf`,
+book key page 173. WordHop explanations have been reviewed accordingly.
 
 Passage 1 Question 5 is shown with an explanation but not scored: the printed
-choices compare importance, whereas sub-part means a subdivision. Question 2
-accepts both A and B because its printed definitions only approximate the
-meaning of assigned in context.
+choices compare importance, whereas sub-part means a subdivision. The publisher
+key's C is shown with that note. Question 2 now follows the publisher's B only.
+Question 15 is NOT GIVEN: a lending library does not establish permission to
+take borrowed books home.
