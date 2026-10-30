@@ -24,6 +24,8 @@ jobs:
         run: node qa/check-all-words.cjs
       - name: Check book readings
         run: node qa/check-readings.cjs
+      - name: Check listening audio
+        run: node qa/check-listening.cjs
       - name: Build static site
         run: python3 -B scripts/build_github_pages.py
       - name: Check project paths and content
