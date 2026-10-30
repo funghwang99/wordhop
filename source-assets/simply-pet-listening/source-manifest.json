@@ -237,13 +237,21 @@
       "channels": 2,
       "decodeReview": {
         "decoder": "FFmpeg",
-        "status": "damaged-data",
+        "status": "warning",
         "errors": [
           "[mp3float] invalid new backstep -1",
           "[mp3float] Header missing",
           "[aist#0:0/mp3] Error submitting packet to decoder: Invalid data found when processing input",
           "[aist#0:0/mp3] Error processing packet in decoder: Invalid data found when processing input"
         ]
+      },
+      "playbackReview": {
+        "browser": "Chrome",
+        "initialPlayback": "passed",
+        "seekSeconds": 265.683749,
+        "seekResult": "browser-playback-error",
+        "userReport": "User reports normal playback.",
+        "replacementDecision": "Not established; no automatic replacement request."
       }
     },
     {
@@ -327,13 +335,21 @@
       "channels": 2,
       "decodeReview": {
         "decoder": "FFmpeg",
-        "status": "damaged-data",
+        "status": "warning",
         "errors": [
           "[mp3float] invalid new backstep -1",
           "[mp3float] Header missing",
           "[aist#0:0/mp3] Error submitting packet to decoder: Invalid data found when processing input",
           "[aist#0:0/mp3] Error processing packet in decoder: Invalid data found when processing input"
         ]
+      },
+      "playbackReview": {
+        "browser": "Chrome",
+        "initialPlayback": "passed",
+        "seekSeconds": 143.318594,
+        "seekResult": "browser-playback-error",
+        "userReport": "User reports normal playback.",
+        "replacementDecision": "Not established; no automatic replacement request."
       }
     },
     {
@@ -559,5 +575,6 @@
     }
   ],
   "testCount": 8,
-  "trackCount": 32
+  "trackCount": 32,
+  "reviewPolicy": "Decoder diagnostics are recorded for investigation. They do not by themselves establish audible corruption or require replacement. Students see help only when their player reports a playback error."
 }
