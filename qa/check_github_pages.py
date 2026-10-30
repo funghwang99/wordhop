@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'styles.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'styles.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 assert (ROOT / '_site/.nojekyll').is_file()
 assert not (ROOT / '_site/.openai').exists()
@@ -72,3 +72,18 @@ for unit in built['units']:
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
 assert reading_parts == 66 and reading_questions == 575
 print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
+
+audio_count = 0
+for unit in built['units']:
+    for track in unit.get('listening', []):
+        audio_count += 1
+        resource = track['src']
+        audio = (ROOT / '_site' / resource).read_bytes()
+        assert audio == (ROOT / 'dist' / resource).read_bytes()
+        assert hashlib.sha256(audio).hexdigest()[:12] in resource
+        for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
+            resolved = urljoin(base, resource)
+            assert resolved.startswith(base)
+            assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
+assert audio_count == 32
+print('PASS: all 32 original listening tracks resolve inside root, /wordhop/ and deeper project paths.')

@@ -1,6 +1,6 @@
 # WordHop
 
-English vocabulary flashcards and games for PET and IELTS courses.
+English vocabulary flashcards, games, reading exercises and listening audio for PET and IELTS courses.
 
 The current content includes Simply PET with eight Reading Tests and 250 words,
 and Basic IELTS Reading with Units 4–12 and 414 words. The total is 664 words
@@ -47,7 +47,8 @@ build are required.
 The import scripts and source provenance are included under `scripts/` and
 `source-assets/`. To import slides or the supplied Simply PET tables, use the
 commands in each source folder's README. Content import requires Python, lxml
-and Pillow. Original user uploads are not part of this repository.
+and Pillow. Original vocabulary and reading source documents are not part of this repository;
+the supplied listening MP3s are served with the website.
 
 Importers update the catalog and hashed unit JSON in `dist/`. The Pages build
 then prepares the correct relative URLs automatically. Stable word IDs preserve
@@ -103,3 +104,20 @@ whereas A, city centre and suburbs, matches metropolitan area in the question.
 Both issues show the publisher answer and an explanatory note. Other choice
 questions follow the publisher key, including Unit 12 Passage 1 Question 2 (B).
 The Unit 12 source and importer are documented in `source-assets/unit-12/`.
+
+## Simply PET listening
+
+Tests 1–8 each include four supplied audio parts, thirty-two MP3 recordings in total.
+Open a test, select Listening and choose a Part. The player supports seeking,
+pause/replay and 0.75×, 1×, 1.25× or 1.5× speed. Audio starts only when the
+student presses Play; selecting another part or leaving the view stops it.
+Only the selected track is mounted, with no audio preloading or autoplay.
+The original stereo MP3 bytes are preserved. All eight tests have listening audio.
+
+Source checksums, durations and the import command are recorded under
+`source-assets/simply-pet-listening/`. Run `node qa/check-listening.cjs` to check
+the track mapping and original file integrity. This also runs before publishing.
+
+Full decoding passed for thirty recordings. The supplied Test 4 Part 2 and
+Test 5 Part 3 files contain invalid MP3 data; their players show a recording
+note and retain the original files pending replacements.

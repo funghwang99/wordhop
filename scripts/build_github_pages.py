@@ -48,7 +48,7 @@ def build():
             file.unlink()
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'styles.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'styles.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[a-f0-9]+', asset + '?v=' + version, index)
         assert count == 1
