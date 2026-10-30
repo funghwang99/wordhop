@@ -3757,5 +3757,571 @@
         ]
       }
     ]
+  },
+  {
+    "id": "bir-unit-12",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
+      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
+      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · Help! Volunteers Wanted",
+        "instructions": "Follow the original instructions shown on the book pages. Choose the requested answer letters or True, False or Not Given.",
+        "pages": [
+          {
+            "pdfPage": 99,
+            "printedPage": 99,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-99.77656926c4c1.webp",
+            "bytes": 209032
+          },
+          {
+            "pdfPage": 100,
+            "printedPage": 100,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-100.58a8791d1fa4.webp",
+            "bytes": 190924
+          },
+          {
+            "pdfPage": 101,
+            "printedPage": 101,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-101.771236b6ab87.webp",
+            "bytes": 113356
+          },
+          {
+            "pdfPage": 102,
+            "printedPage": 102,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-102.3b5804fd9954.webp",
+            "bytes": 131338
+          },
+          {
+            "pdfPage": 103,
+            "printedPage": 103,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-103.1caf3eeed0ff.webp",
+            "bytes": 196284
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "A",
+            "explanation": "A volunteer offers services without being paid. Being willing to help alone does not give the full meaning.",
+            "evidence": "needs volunteers to help in her Tutorial Room",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "A",
+            "explanation": "Here 'assigned' means given a task to do. A describes being asked to complete the interviews. B also approximates being given work, so both are accepted for this loosely worded item.",
+            "evidence": "assigned interviews for homework by their classroom teachers",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ],
+            "accepted": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "A",
+            "explanation": "To relax is to rest, become less tense and stop worrying.",
+            "evidence": "relax in this comfortable environment",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "A",
+            "explanation": "An abridged book has been shortened while keeping the main content.",
+            "evidence": "helping students choose abridged books",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "C",
+            "explanation": "C appears to be the intended answer, but 'sub-part' means a smaller section within a larger whole. It does not tell us whether that section is less important. None of the three options gives a precise definition, so this source item is not scored.",
+            "evidence": "the Pronunciation Clinic, which is a sub-part of the Tutorial",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ],
+            "unscored": true,
+            "reviewNote": "A sub-part is a subdivision, not necessarily a less important part. The printed options all compare importance."
+          },
+          {
+            "number": 6,
+            "answer": "C",
+            "explanation": "'Intercultural' means involving or occurring between cultures.",
+            "evidence": "their understanding of intercultural differences",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "B",
+            "explanation": "The Tutorial Room is in the Wallace Lounge. The cafeteria and parking lot are landmarks used to describe its location.",
+            "evidence": "located at the Wallace Lounge",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "D",
+            "explanation": "It is offered on Tuesdays, Wednesdays and Thursdays: three days each week.",
+            "evidence": "Tuesdays, Wednesdays and Thursdays",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "B",
+            "explanation": "The clinic is optional, and students may drop in for any length of time.",
+            "evidence": "if they wish, they can drop in for as long or as short as they want",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "C",
+            "explanation": "Seven students plus one volunteer make eight people, matching the eight-headphone station.",
+            "evidence": "an 8-headphone listening station ... a volunteer can work with up to 7 students",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "A",
+            "explanation": "Sherri is present specifically to help volunteers who have questions.",
+            "evidence": "Sherri is always in the Tutorial to help if a volunteer has any questions.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "TRUE",
+            "explanation": "Students are often given interview homework and come to ask volunteers for their opinions.",
+            "evidence": "go to the Tutorial to interview volunteers for their opinions",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "TRUE",
+            "explanation": "The passage directly links the lounge's suitability for conversations to its large size and outside patio.",
+            "evidence": "ideal for conversations, as it is big and has an outside patio",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "FALSE",
+            "explanation": "Students are encouraged to bring food and drinks themselves; the passage does not promise to supply them all.",
+            "evidence": "come with food or drinks",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "TRUE",
+            "explanation": "The description 'lending library' indicates that its books are available to borrow and take away temporarily.",
+            "evidence": "help run the small lending library",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "TRUE",
+            "explanation": "The passage explicitly says students can borrow some tapes from the CALL Facility.",
+            "evidence": "borrow some of them from the CALL Facility",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "NOT GIVEN",
+            "explanation": "Vocabulary games are available, but the passage does not say whether students enjoy playing them with volunteers.",
+            "evidence": "There are also vocabulary games such as Scrabble.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "TRUE",
+            "explanation": "Sherri ideally wants a regular commitment of at least one hour each week during the term.",
+            "evidence": "at least an hour a week on a regular basis for the term",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 19,
+            "answer": "FALSE",
+            "explanation": "A full-term commitment is an ideal, not a requirement. People can help for part of the term or only occasionally.",
+            "evidence": "whether you are able to commit for part of the term, or just drop in once in a while",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · Modern Examinations",
+        "instructions": "Follow the original instructions shown on the book pages. Choose the requested answer letters or True, False or Not Given.",
+        "pages": [
+          {
+            "pdfPage": 104,
+            "printedPage": 104,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-104.e81b601d3c6f.webp",
+            "bytes": 263778
+          },
+          {
+            "pdfPage": 105,
+            "printedPage": 105,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-105.b373e5da6e0e.webp",
+            "bytes": 177256
+          },
+          {
+            "pdfPage": 106,
+            "printedPage": 106,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-106.9620b2d1a589.webp",
+            "bytes": 150214
+          },
+          {
+            "pdfPage": 107,
+            "printedPage": 107,
+            "width": 1122,
+            "height": 1621,
+            "image": "assets/reading/basic-ielts-reading-page-107.ebc65ff234b9.webp",
+            "bytes": 50722
+          }
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "answer": "E",
+            "explanation": "To consist of something means be made up of it.",
+            "evidence": "testing usually consisted of saying poetry aloud or giving speeches",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 2,
+            "answer": "F",
+            "explanation": "'Advanced' describes a high or far-developed level of study.",
+            "evidence": "working for advanced degrees",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 3,
+            "answer": "C",
+            "explanation": "A candidate is someone seeking a position or qualification; in the passage the candidates are being tested for a degree.",
+            "evidence": "testing candidates for the doctor's degree",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 4,
+            "answer": "D",
+            "explanation": "To resemble something is to look like it or be similar to it.",
+            "evidence": "resembles a group of workers at an automobile factory",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 5,
+            "answer": "A",
+            "explanation": "An objective judgement is based on facts rather than personal feelings or opinions.",
+            "evidence": "deal with facts, not personal opinions",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 6,
+            "answer": "B",
+            "explanation": "A broad question is general rather than focused on one particular detail.",
+            "evidence": "broad and general questions",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "number": 7,
+            "answer": "C",
+            "explanation": "The passage names ancient Greece and Rome; Rome is the one included in the answer choices.",
+            "evidence": "In the schools of ancient Greece and Rome ... saying poetry aloud",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 8,
+            "answer": "A",
+            "explanation": "Rapid population growth is one possible explanation suggested for the arrival of written examinations.",
+            "evidence": "the great increase in population",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 9,
+            "answer": "B",
+            "explanation": "The writer explicitly compares the expected behaviour of teachers and students to machines.",
+            "evidence": "teachers and students are expected to act like machines",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 10,
+            "answer": "B",
+            "explanation": "Essay answers reduce the role of lucky guessing because students must produce their own explanations.",
+            "evidence": "it reduces the element of luck",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 11,
+            "answer": "D",
+            "explanation": "The final paragraph describes examinations as unsatisfactory. It does not say most teachers and students are satisfied with essay tests.",
+            "evidence": "Most teachers and students would probably agree that examinations are unsatisfactory.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 12,
+            "answer": "TRUE",
+            "explanation": "The second paragraph places discussions with subject specialists in European universities during the Middle Ages.",
+            "evidence": "In the European universities of the Middle Ages ... discuss questions ... with people who had made a special study",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 13,
+            "answer": "TRUE",
+            "explanation": "The passage places the emergence of the written examination in the nineteenth century, while qualifying this historical claim with 'probably'.",
+            "evidence": "was probably not known until the nineteenth century",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 14,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage suggests reasons for written tests but gives no survey or statement about most people's preference in that century.",
+            "evidence": "Perhaps it came into existence with the great increase in population",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 15,
+            "answer": "TRUE",
+            "explanation": "The wrong statements are designed to look like possible answers to students who have not learned the material properly.",
+            "evidence": "three statements that look like answers to students who have not learned the material properly",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "answer": "FALSE",
+            "explanation": "The passage says objective tests can reveal a great deal about a student's knowledge in a short time.",
+            "evidence": "In a short time, the teacher can find out a great deal",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "answer": "TRUE",
+            "explanation": "One stated weakness is that a student may guess correctly without knowing the material.",
+            "evidence": "A lucky student may guess the correct answer without really knowing the material.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "answer": "NOT GIVEN",
+            "explanation": "The passage discusses students' essay-writing abilities, but it does not say good essay writers always prefer that test type.",
+            "evidence": "Some students are able to write rather good answers",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 19,
+            "answer": "FALSE",
+            "explanation": "Some students know the material but still have difficulty expressing their ideas in an essay.",
+            "evidence": "students who actually know the material have trouble expressing their ideas in essay form",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 20,
+            "answer": "NOT GIVEN",
+            "explanation": "Combining the two test types is said to give a fairly clear picture of knowledge. The passage does not state that both teachers and students feel quite satisfied with the combination.",
+            "evidence": "a fairly clear picture of the student's knowledge can usually be obtained",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
