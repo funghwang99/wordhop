@@ -6,8 +6,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 169
     },
     "parts": [
       {
@@ -50,7 +53,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 2,
@@ -61,7 +66,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 3,
@@ -72,7 +79,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 4,
@@ -83,7 +92,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 5,
@@ -96,7 +107,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 6,
@@ -106,7 +119,9 @@
             "accepted": [
               "exit",
               "the exit"
-            ]
+            ],
+            "publisherAnswer": "exit",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 7,
@@ -116,7 +131,9 @@
             "accepted": [
               "your location",
               "location"
-            ]
+            ],
+            "publisherAnswer": "your location",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 8,
@@ -126,7 +143,9 @@
             "accepted": [
               "a wet towel",
               "wet towel"
-            ]
+            ],
+            "publisherAnswer": "a wet towel",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 9,
@@ -136,17 +155,21 @@
             "accepted": [
               "break any windows",
               "break windows"
-            ]
+            ],
+            "publisherAnswer": "break any windows",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 10,
-            "answer": "STAY CALM",
-            "explanation": "The final paragraph identifies staying calm during evacuation as the key to success.",
+            "answer": "to stay calm",
+            "explanation": "The final paragraph says that the ability to stay calm is the key to success. The publisher key gives the three-word phrase to stay calm; stay calm is also accepted.",
             "evidence": "your ability to STAY CALM during the evacuation process is the key to success",
             "accepted": [
-              "STAY CALM",
-              "stay calm"
-            ]
+              "to stay calm",
+              "STAY CALM"
+            ],
+            "publisherAnswer": "to stay calm",
+            "publisherKeyPrintedPage": 169
           }
         ]
       },
@@ -182,7 +205,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 2,
@@ -193,7 +218,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 3,
@@ -204,7 +231,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 4,
@@ -215,17 +244,21 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 5,
-            "answer": "parts of animals",
+            "answer": "Parts of animals",
             "explanation": "The second paragraph says animal parts are used for products including powders claimed to improve people's lives.",
             "evidence": "People use parts of animals for everything",
             "accepted": [
-              "parts of animals",
+              "Parts of animals",
               "animal parts"
-            ]
+            ],
+            "publisherAnswer": "Parts of animals",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 6,
@@ -237,27 +270,33 @@
               "their ivory tusks",
               "ivory",
               "their ivory"
-            ]
+            ],
+            "publisherAnswer": "ivory tusks",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 7,
-            "answer": "seal pups",
+            "answer": "Seal pups",
             "explanation": "After discussing elephants, the writer describes the killing of young seals in the late 1970s and again ten years later.",
             "evidence": "people protested against the slaughter of seal pups",
             "accepted": [
-              "seal pups",
+              "Seal pups",
               "the seal pups"
-            ]
+            ],
+            "publisherAnswer": "Seal pups",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 8,
-            "answer": "tuna fishermen",
+            "answer": "The tuna fishermen",
             "explanation": "The passage names tuna fishermen as the people from whom dolphins need protection.",
             "evidence": "protecting dolphins from the tuna fishermen",
             "accepted": [
-              "tuna fishermen",
-              "the tuna fishermen"
-            ]
+              "The tuna fishermen",
+              "tuna fishermen"
+            ],
+            "publisherAnswer": "The tuna fishermen",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 9,
@@ -268,7 +307,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 10,
@@ -279,7 +320,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 11,
@@ -290,7 +333,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 12,
@@ -301,7 +346,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 13,
@@ -312,7 +359,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 14,
@@ -323,7 +372,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 15,
@@ -334,7 +385,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 16,
@@ -345,7 +398,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           }
         ]
       }
@@ -358,8 +413,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 169
     },
     "parts": [
       {
@@ -405,7 +463,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "F",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 2,
@@ -419,7 +479,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 3,
@@ -433,7 +495,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 4,
@@ -447,7 +511,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 5,
@@ -461,7 +527,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 6,
@@ -475,7 +543,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 7,
@@ -485,31 +555,41 @@
             "accepted": [
               "7408",
               "7+408"
-            ]
+            ],
+            "publisherAnswer": "7408",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 8,
             "answer": "1884",
             "explanation": "The theatre and concerts entry directs guests to the concierge at 1884.",
-            "evidence": "THEATRE/CONCERTS — 1884"
+            "evidence": "THEATRE/CONCERTS — 1884",
+            "publisherAnswer": "1884",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 9,
             "answer": "1999",
             "explanation": "The emergency entry supplies the internal hotel number for fire, police or medical help.",
-            "evidence": "EMERGENCY — 1999"
+            "evidence": "EMERGENCY — 1999",
+            "publisherAnswer": "1999",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 10,
             "answer": "1806",
             "explanation": "An extra pillow is an extra room supply, so the appropriate service is Housekeeping.",
-            "evidence": "HOUSEKEEPING — 1806"
+            "evidence": "HOUSEKEEPING — 1806",
+            "publisherAnswer": "1806",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 11,
             "answer": "1888",
             "explanation": "For tours of the preferred business floors, including floors 11 and 12, the directory gives the Manager on Duty's extension.",
-            "evidence": "Contact our Manager on Duty (extension 1888)."
+            "evidence": "Contact our Manager on Duty (extension 1888).",
+            "publisherAnswer": "1888",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 12,
@@ -520,7 +600,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 13,
@@ -531,7 +613,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 14,
@@ -542,7 +626,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 15,
@@ -553,7 +639,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 16,
@@ -564,7 +652,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 17,
@@ -575,7 +665,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 18,
@@ -586,7 +678,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 19,
@@ -597,7 +691,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 20,
@@ -608,7 +704,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 169
           }
         ]
       },
@@ -644,7 +742,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 2,
@@ -655,7 +755,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 3,
@@ -666,7 +768,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 4,
@@ -677,7 +781,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 5,
@@ -688,19 +794,25 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 6,
             "answer": "natural resources",
             "explanation": "The opening paragraph links industries' growing use of natural resources with the disappearance of animal species.",
-            "evidence": "Industries use more and more of the Earth's natural resources."
+            "evidence": "Industries use more and more of the Earth's natural resources.",
+            "publisherAnswer": "natural resources",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 7,
             "answer": "ozone layer",
             "explanation": "The passage identifies changes in the ozone layer and climate as threats to animals.",
-            "evidence": "Changes in the planet's ozone layer and in its climate threaten all animals."
+            "evidence": "Changes in the planet's ozone layer and in its climate threaten all animals.",
+            "publisherAnswer": "ozone layer",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 8,
@@ -711,7 +823,9 @@
               "Dr. Gerald Barney",
               "Dr Gerald Barney",
               "Gerald Barney"
-            ]
+            ],
+            "publisherAnswer": "Dr. Gerald Barney",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 9,
@@ -721,7 +835,9 @@
             "accepted": [
               "starvation",
               "more starvation"
-            ]
+            ],
+            "publisherAnswer": "starvation",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 10,
@@ -732,7 +848,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 11,
@@ -743,7 +861,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 12,
@@ -754,7 +874,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 13,
@@ -765,7 +887,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 14,
@@ -776,7 +900,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 15,
@@ -787,7 +913,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           },
           {
             "number": 16,
@@ -798,7 +926,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 169
           }
         ]
       }
@@ -811,8 +941,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 170
     },
     "parts": [
       {
@@ -855,7 +988,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 2,
@@ -866,7 +1001,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 3,
@@ -877,7 +1014,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 4,
@@ -888,13 +1027,17 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 5,
             "answer": "stress",
             "explanation": "The opening paragraph says scientists find the concept of stress difficult to define.",
-            "evidence": "for scientists who study stress, it has been surprisingly hard to define"
+            "evidence": "for scientists who study stress, it has been surprisingly hard to define",
+            "publisherAnswer": "stress",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 6,
@@ -904,25 +1047,33 @@
             "accepted": [
               "a stressful situation",
               "stressful situations"
-            ]
+            ],
+            "publisherAnswer": "a stressful situation",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 7,
             "answer": "Stressors",
             "explanation": "Stressors are the events or situations producing stress, as defined in the third paragraph.",
-            "evidence": "stressors: events or situations that produce stress"
+            "evidence": "stressors: events or situations that produce stress",
+            "publisherAnswer": "Stressors",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 8,
             "answer": "pleasant events",
             "explanation": "The passage makes clear that even positive or pleasant events can cause stress.",
-            "evidence": "Even pleasant events can be stressors."
+            "evidence": "Even pleasant events can be stressors.",
+            "publisherAnswer": "pleasant events",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 9,
             "answer": "planning a party",
             "explanation": "Planning a party is the pleasant event paired with starting a new job in the passage.",
-            "evidence": "Planning a party or starting a new job"
+            "evidence": "Planning a party or starting a new job",
+            "publisherAnswer": "planning a party",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 10,
@@ -933,7 +1084,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 11,
@@ -944,7 +1097,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 12,
@@ -955,7 +1110,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 13,
@@ -966,7 +1123,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 14,
@@ -977,7 +1136,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 15,
@@ -988,7 +1149,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 16,
@@ -999,7 +1162,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 170
           }
         ]
       },
@@ -1046,7 +1211,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 2,
@@ -1060,7 +1227,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 3,
@@ -1074,7 +1243,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 4,
@@ -1088,7 +1259,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 5,
@@ -1102,7 +1275,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 6,
@@ -1116,12 +1291,14 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "F",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 7,
-            "answer": "II",
-            "explanation": "Paragraph A gives detailed predictions of hotter days and nights in Dallas, matching 'Warmer summer in Dallas'.",
+            "answer": "VI",
+            "explanation": "Paragraph A predicts more very hot days and nights in Dallas. Heading VI covers this warming. Heading II is narrower because it mentions summer, whereas the paragraph gives figures for the year.",
             "evidence": "in Dallas, a doubled level of carbon dioxide would increase the number of days",
             "options": [
               "I",
@@ -1132,7 +1309,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "VI",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 8,
@@ -1148,7 +1327,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "I",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 9,
@@ -1164,7 +1345,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "VII",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 10,
@@ -1180,7 +1363,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "VIII",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 11,
@@ -1196,7 +1381,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "IV",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 12,
@@ -1212,7 +1399,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "III",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 13,
@@ -1223,7 +1412,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 14,
@@ -1234,7 +1425,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 15,
@@ -1245,7 +1438,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 16,
@@ -1256,7 +1451,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 17,
@@ -1267,7 +1464,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 18,
@@ -1278,7 +1477,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 19,
@@ -1289,7 +1490,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 20,
@@ -1300,7 +1503,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 170
           }
         ]
       }
@@ -1313,8 +1518,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 170
     },
     "parts": [
       {
@@ -1365,22 +1573,22 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 2,
-            "answer": "B",
-            "explanation": "For a person's body, 'stiff' describes difficulty moving freely. 'Difficult to bend' expresses a closely related physical meaning and is also accepted here.",
+            "answer": "A",
+            "explanation": "Stiff means rigid or difficult to bend. A is the precise definition selected by the publisher key; the broader wording difficult to move is not the keyed choice.",
             "evidence": "the child may be stiff the next day",
             "options": [
               "A",
               "B",
               "C"
             ],
-            "accepted": [
-              "B",
-              "A"
-            ]
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 3,
@@ -1391,7 +1599,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 4,
@@ -1402,7 +1612,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 5,
@@ -1415,7 +1627,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 6,
@@ -1428,7 +1642,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 7,
@@ -1441,7 +1657,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 8,
@@ -1454,7 +1672,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 9,
@@ -1467,7 +1687,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 10,
@@ -1480,7 +1702,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 11,
@@ -1493,7 +1717,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 12,
@@ -1506,7 +1732,9 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 13,
@@ -1519,69 +1747,85 @@
               "C",
               "D",
               "E"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 14,
-            "answer": "applying pressure",
-            "explanation": "According to the cuts paragraph, applying pressure is the action associated with stopping bleeding.",
+            "answer": "Apply pressure",
+            "explanation": "According to the booklet, applying pressure to the cut helps stop bleeding quickly. The publisher key gives the instruction Apply pressure.",
             "evidence": "by applying pressure to the cut",
             "accepted": [
+              "Apply pressure",
               "applying pressure",
-              "apply pressure",
               "pressure"
-            ]
+            ],
+            "publisherAnswer": "Apply pressure",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 15,
-            "answer": "germs",
+            "answer": "Germs",
             "explanation": "The passage says free bleeding normally washes germs away.",
             "evidence": "any germs will normally have been washed away by the blood",
             "accepted": [
-              "germs",
+              "Germs",
               "any germs"
-            ]
+            ],
+            "publisherAnswer": "Germs",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 16,
-            "answer": "a dressing",
-            "explanation": "The grazes section says a dressing may stick to the injury or make it infected.",
+            "answer": "Apply a dressing",
+            "explanation": "The booklet says that a graze can become infected when covered with a dressing. The publisher key gives Apply a dressing as the action asked about.",
             "evidence": "It is not a good idea to apply a dressing.",
             "accepted": [
+              "Apply a dressing",
               "a dressing",
               "dressing",
-              "apply a dressing",
               "applying a dressing"
-            ]
+            ],
+            "publisherAnswer": "Apply a dressing",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 17,
-            "answer": "children",
+            "answer": "Children",
             "explanation": "The text explicitly says bruises are very common in children.",
-            "evidence": "Bruises are very common in children."
+            "evidence": "Bruises are very common in children.",
+            "publisherAnswer": "Children",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 18,
-            "answer": "the next day",
+            "answer": "The next day",
             "explanation": "The booklet says the child may feel stiff on the day after the fall.",
-            "evidence": "the child may be stiff the next day"
+            "evidence": "the child may be stiff the next day",
+            "publisherAnswer": "The next day",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 19,
-            "answer": "lying in bed",
+            "answer": "Lying in bed",
             "explanation": "The passage gives lying in bed as the easiest way to keep a badly bruised leg raised.",
-            "evidence": "Lying in bed is the easiest way to do this."
+            "evidence": "Lying in bed is the easiest way to do this.",
+            "publisherAnswer": "Lying in bed",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 20,
-            "answer": "the head",
-            "explanation": "The question refers to the sentence linking head bruises with anxiety. Its intended location is the head.",
+            "answer": "On the head",
+            "explanation": "The booklet lists anxiety as a possible symptom of an injury to the head. On the head is the location given in the publisher key.",
             "evidence": "Bruises on the head may cause anxiety.",
             "accepted": [
+              "On the head",
               "the head",
-              "head",
-              "on the head"
-            ]
+              "head"
+            ],
+            "publisherAnswer": "On the head",
+            "publisherKeyPrintedPage": 170
           }
         ]
       },
@@ -1625,7 +1869,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 2,
@@ -1636,7 +1882,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 3,
@@ -1647,7 +1895,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 4,
@@ -1658,7 +1908,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 5,
@@ -1669,7 +1921,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 6,
@@ -1683,7 +1937,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 7,
@@ -1697,7 +1953,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 8,
@@ -1711,7 +1969,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 9,
@@ -1725,7 +1985,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 10,
@@ -1736,7 +1998,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 11,
@@ -1747,7 +2011,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 12,
@@ -1758,7 +2024,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 13,
@@ -1769,7 +2037,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 14,
@@ -1780,7 +2050,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 15,
@@ -1791,7 +2063,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 170
           },
           {
             "number": 16,
@@ -1802,7 +2076,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 170
           }
         ]
       }
@@ -1815,8 +2091,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 171
     },
     "parts": [
       {
@@ -1861,13 +2140,17 @@
           {
             "number": 1,
             "answer": "A",
-            "explanation": "A metropolitan area includes a city and its surrounding suburbs.",
-            "evidence": "the Sydney metropolitan area",
+            "explanation": "The publisher key prints B, city centre only. However, the question places Campbelltown in the southwestern suburbs of the Sydney metropolitan area. A, city centre and suburbs, matches that meaning. The key appears to contain an error, so this item is shown for review without affecting the score.",
+            "evidence": "Campbelltown is a city within the southwestern suburbs of the Sydney metropolitan area.",
             "options": [
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171,
+            "unscored": true,
+            "reviewNote": "The publisher key lists B, city centre only, but the printed phrase metropolitan area includes the surrounding suburbs. A matches the question and passage. This source-key conflict is not scored."
           },
           {
             "number": 2,
@@ -1878,7 +2161,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 3,
@@ -1889,7 +2174,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 4,
@@ -1900,7 +2187,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 5,
@@ -1911,35 +2200,45 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 6,
             "answer": "Bankstown",
             "explanation": "Bankstown is 25 minutes from the business district by train, compared with 50 minutes for Campbelltown.",
-            "evidence": "it is 25 minutes by train from the Sydney Central Business District"
+            "evidence": "it is 25 minutes by train from the Sydney Central Business District",
+            "publisherAnswer": "Bankstown",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 7,
             "answer": "English course fees",
             "explanation": "The annual fees explicitly exclude fees for English courses.",
-            "evidence": "except for English course fees"
+            "evidence": "except for English course fees",
+            "publisherAnswer": "English course fees",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 8,
             "answer": "Campbelltown",
             "explanation": "The contact address for the Office of International Programmes is in Campbelltown.",
-            "evidence": "Campbelltown NSW 2560"
+            "evidence": "Campbelltown NSW 2560",
+            "publisherAnswer": "Campbelltown",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 9,
-            "answer": "IELTS",
+            "answer": "TOEFL",
             "explanation": "Either named examination answers the question, which asks for one English exam.",
             "evidence": "570 in TOEFL or 6.0 in IELTS",
             "accepted": [
-              "IELTS",
-              "TOEFL"
-            ]
+              "TOEFL",
+              "IELTS"
+            ],
+            "publisherAnswer": "TOEFL",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 10,
@@ -1950,7 +2249,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 11,
@@ -1961,7 +2262,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 12,
@@ -1972,7 +2275,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 13,
@@ -1983,7 +2288,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 14,
@@ -1994,7 +2301,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 15,
@@ -2005,7 +2314,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 16,
@@ -2016,7 +2327,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 17,
@@ -2027,7 +2340,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           }
         ]
       },
@@ -2074,57 +2389,73 @@
             "number": 1,
             "answer": "inherit",
             "explanation": "To inherit is to receive something from one's parents or ancestors.",
-            "evidence": "the genes you inherit from your parents"
+            "evidence": "the genes you inherit from your parents",
+            "publisherAnswer": "inherit",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 2,
             "answer": "upbringing",
             "explanation": "Upbringing means the training and care received while growing up.",
-            "evidence": "Your upbringing shapes some basic attitudes to food."
+            "evidence": "Your upbringing shapes some basic attitudes to food.",
+            "publisherAnswer": "upbringing",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 3,
             "answer": "nibble",
             "explanation": "To nibble means eat in small bites.",
-            "evidence": "nibble between meals"
+            "evidence": "nibble between meals",
+            "publisherAnswer": "nibble",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 4,
             "answer": "alter",
             "explanation": "To alter something means change it or make it different.",
-            "evidence": "these can alter the balance between food and fitness"
+            "evidence": "these can alter the balance between food and fitness",
+            "publisherAnswer": "alter",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 5,
-            "answer": "ancestors",
-            "explanation": "Ancestors are the people from whom someone is descended. The text uses the plural form.",
+            "answer": "ancestor",
+            "explanation": "Ancestor means a person from whom someone is descended. The publisher key uses the singular dictionary form ancestor; ancestors is also accepted because it is the form used in Section V.",
             "evidence": "our ancestors were used to eating",
             "accepted": [
-              "ancestors",
-              "ancestor"
-            ]
+              "ancestor",
+              "ancestors"
+            ],
+            "publisherAnswer": "ancestor",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 6,
-            "answer": "disorders",
-            "explanation": "Disorder means lack of order; in this passage the plural refers to problems affecting the digestive system.",
+            "answer": "disorder",
+            "explanation": "Disorder means lack of order or confusion in this definition exercise. The publisher key uses disorder. Section V uses the plural disorders for health problems, so that form is also accepted.",
             "evidence": "various disorders of the digestive system",
             "accepted": [
-              "disorders",
-              "disorder"
-            ]
+              "disorder",
+              "disorders"
+            ],
+            "publisherAnswer": "disorder",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 7,
             "answer": "digestive",
             "explanation": "The adjective 'digestive' relates to digesting food.",
-            "evidence": "the digestive system"
+            "evidence": "the digestive system",
+            "publisherAnswer": "digestive",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 8,
             "answer": "slim",
             "explanation": "'Slim' means attractively thin; here it is used as a verb meaning become thinner.",
-            "evidence": "help you to slim"
+            "evidence": "help you to slim",
+            "publisherAnswer": "slim",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 9,
@@ -2139,7 +2470,9 @@
               "E",
               "F",
               "G"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 10,
@@ -2154,7 +2487,9 @@
               "E",
               "F",
               "G"
-            ]
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 11,
@@ -2169,7 +2504,9 @@
               "E",
               "F",
               "G"
-            ]
+            ],
+            "publisherAnswer": "F",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 12,
@@ -2184,7 +2521,9 @@
               "E",
               "F",
               "G"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 13,
@@ -2199,7 +2538,9 @@
               "E",
               "F",
               "G"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 14,
@@ -2213,7 +2554,9 @@
               "D",
               "E"
             ],
-            "multiple": 3
+            "multiple": 3,
+            "publisherAnswer": "A, C, E",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 15,
@@ -2225,7 +2568,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 16,
@@ -2237,7 +2582,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 17,
@@ -2249,7 +2596,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 18,
@@ -2261,7 +2610,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 19,
@@ -2273,7 +2624,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           }
         ]
       }
@@ -2286,8 +2639,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 171
     },
     "parts": [
       {
@@ -2330,7 +2686,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 2,
@@ -2341,7 +2699,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 3,
@@ -2352,13 +2712,17 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 4,
             "answer": "individual heating system",
             "explanation": "The exception is an apartment with its own heating system, for which heating may be an extra cost.",
-            "evidence": "unless the apartment has an individual heating system"
+            "evidence": "unless the apartment has an individual heating system",
+            "publisherAnswer": "individual heating system",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 5,
@@ -2369,29 +2733,37 @@
               "$50",
               "50",
               "50 dollars"
-            ]
+            ],
+            "publisherAnswer": "$50",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 6,
             "answer": "retained",
             "explanation": "The owner keeps, or retains, the deposit when it is needed to cover damage.",
-            "evidence": "the deposit will be retained"
+            "evidence": "the deposit will be retained",
+            "publisherAnswer": "retained",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 7,
             "answer": "charged for",
             "explanation": "Making an inventory protects a new tenant against being charged for damage that was already present.",
-            "evidence": "protect you from being charged for damage"
+            "evidence": "protect you from being charged for damage",
+            "publisherAnswer": "charged for",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 8,
-            "answer": "3 weeks",
+            "answer": "three weeks",
             "explanation": "According to this passage, the stated time for returning the deposit is three weeks after the tenant leaves.",
             "evidence": "within 3 weeks after you have vacated the apartment",
             "accepted": [
-              "3 weeks",
-              "three weeks"
-            ]
+              "three weeks",
+              "3 weeks"
+            ],
+            "publisherAnswer": "three weeks",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 9,
@@ -2401,7 +2773,9 @@
             "accepted": [
               "a written notice",
               "written notice"
-            ]
+            ],
+            "publisherAnswer": "a written notice",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 10,
@@ -2412,7 +2786,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 11,
@@ -2423,7 +2799,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 12,
@@ -2434,7 +2812,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 13,
@@ -2445,7 +2825,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 14,
@@ -2456,7 +2838,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 15,
@@ -2467,7 +2851,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 16,
@@ -2478,7 +2864,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 17,
@@ -2489,7 +2877,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 171
           }
         ]
       },
@@ -2533,7 +2923,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 2,
@@ -2544,7 +2936,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 3,
@@ -2555,7 +2949,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 4,
@@ -2566,7 +2962,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 5,
@@ -2577,7 +2975,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 6,
@@ -2593,7 +2993,9 @@
               "F",
               "G",
               "H"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 7,
@@ -2609,7 +3011,9 @@
               "F",
               "G",
               "H"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 8,
@@ -2625,7 +3029,9 @@
               "F",
               "G",
               "H"
-            ]
+            ],
+            "publisherAnswer": "G",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 9,
@@ -2641,7 +3047,9 @@
               "F",
               "G",
               "H"
-            ]
+            ],
+            "publisherAnswer": "F",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 10,
@@ -2657,7 +3065,9 @@
               "F",
               "G",
               "H"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 11,
@@ -2668,7 +3078,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 12,
@@ -2679,7 +3091,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 13,
@@ -2690,7 +3104,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 14,
@@ -2701,7 +3117,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 15,
@@ -2712,7 +3130,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 16,
@@ -2723,7 +3143,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 17,
@@ -2734,7 +3156,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 171
           },
           {
             "number": 18,
@@ -2745,7 +3169,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 171
           }
         ]
       }
@@ -2758,8 +3184,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 172
     },
     "parts": [
       {
@@ -2803,14 +3232,16 @@
         "questions": [
           {
             "number": 1,
-            "answer": "C",
-            "explanation": "Routes are the paths or areas travelled along between places.",
+            "answer": "B",
+            "explanation": "A route is a way or course used or planned for travelling between places. The trade routes link the ports with the central regions. B, ways planned, is the closest printed option and the publisher key.",
             "evidence": "trade routes from the ports to the central regions",
             "options": [
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 2,
@@ -2821,7 +3252,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 3,
@@ -2832,7 +3265,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 4,
@@ -2843,7 +3278,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 5,
@@ -2854,7 +3291,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 6,
@@ -2870,7 +3309,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "IV",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 7,
@@ -2886,7 +3327,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "III",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 8,
@@ -2902,7 +3345,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "V",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 9,
@@ -2918,7 +3363,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "VIII",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 10,
@@ -2934,7 +3381,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "I",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 11,
@@ -2950,7 +3399,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "II",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 12,
@@ -2966,7 +3417,9 @@
               "VI",
               "VII",
               "VIII"
-            ]
+            ],
+            "publisherAnswer": "VI",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 13,
@@ -2977,18 +3430,22 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 14,
-            "answer": "NOT GIVEN",
-            "explanation": "The passage says people had already moved west by about 1815, then describes wagons used to carry freight. It does not specify how those people travelled.",
+            "answer": "TRUE",
+            "explanation": "The publisher key gives TRUE. It links the westward movement around 1815 with the horse- or ox-drawn wagons described in Section 4. The method of passenger travel is inferred from that context; the passage explicitly describes the wagons carrying freight.",
             "evidence": "many Americans ... had already moved toward the west ... moving heavy freight",
             "options": [
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 15,
@@ -2999,7 +3456,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 16,
@@ -3010,7 +3469,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 17,
@@ -3021,7 +3482,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 18,
@@ -3032,7 +3495,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 19,
@@ -3043,7 +3508,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           }
         ]
       },
@@ -3087,7 +3554,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 2,
@@ -3098,7 +3567,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 3,
@@ -3109,7 +3580,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 4,
@@ -3120,7 +3593,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 5,
@@ -3137,7 +3612,9 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "VII",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 6,
@@ -3154,7 +3631,9 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "I",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 7,
@@ -3171,7 +3650,9 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "VIII",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 8,
@@ -3188,7 +3669,9 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "IX",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 9,
@@ -3205,7 +3688,9 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "VI",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 10,
@@ -3222,7 +3707,9 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "II",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 11,
@@ -3239,13 +3726,21 @@
               "VII",
               "VIII",
               "IX"
-            ]
+            ],
+            "publisherAnswer": "III",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 12,
             "answer": "in a community",
-            "explanation": "The sentence in paragraph A says the service is for everyone in a community.",
-            "evidence": "for all the people in a community to use"
+            "explanation": "Paragraph A says the public library is for all people in a community. The publisher key permits both in a community and in the community; both three-word phrases are accepted.",
+            "evidence": "for all the people in a community to use",
+            "publisherAnswer": "in a community",
+            "publisherKeyPrintedPage": 172,
+            "accepted": [
+              "in a community",
+              "in the community"
+            ]
           },
           {
             "number": 13,
@@ -3255,13 +3750,17 @@
             "accepted": [
               "a specific time",
               "specific time"
-            ]
+            ],
+            "publisherAnswer": "a specific time",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 14,
             "answer": "taxes",
             "explanation": "Paragraph B lists taxes alongside donated money and gifts as sources of financial support.",
-            "evidence": "part of their money from taxes and part from gifts"
+            "evidence": "part of their money from taxes and part from gifts",
+            "publisherAnswer": "taxes",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 15,
@@ -3273,13 +3772,17 @@
               "children and adults",
               "adult and children",
               "adults and children"
-            ]
+            ],
+            "publisherAnswer": "children and adult",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 16,
             "answer": "reference books",
             "explanation": "Reference books must remain in the library building.",
-            "evidence": "Reference books are never to be taken out of the library building."
+            "evidence": "Reference books are never to be taken out of the library building.",
+            "publisherAnswer": "reference books",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 17,
@@ -3288,16 +3791,20 @@
             "evidence": "a special area or separate room",
             "accepted": [
               "a special area",
-              "special area",
               "a separate room",
+              "special area",
               "separate room"
-            ]
+            ],
+            "publisherAnswer": "a special area",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 18,
             "answer": "special interests",
             "explanation": "The holdings reflect the subjects the local community is especially interested in.",
-            "evidence": "reflect the community's special interests"
+            "evidence": "reflect the community's special interests",
+            "publisherAnswer": "special interests",
+            "publisherKeyPrintedPage": 172
           }
         ]
       }
@@ -3310,8 +3817,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 172
     },
     "parts": [
       {
@@ -3354,7 +3864,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 2,
@@ -3365,7 +3877,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 3,
@@ -3376,7 +3890,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 4,
@@ -3387,7 +3903,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 5,
@@ -3398,7 +3916,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 6,
@@ -3409,7 +3929,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 7,
@@ -3420,7 +3942,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 8,
@@ -3431,7 +3955,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 9,
@@ -3442,7 +3968,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 10,
@@ -3453,7 +3981,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 11,
@@ -3464,7 +3994,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 12,
@@ -3475,53 +4007,69 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 13,
             "answer": "motive",
             "explanation": "The summary refers to senseless juvenile crimes that seem to lack a reason or motive.",
-            "evidence": "senseless crimes done by juveniles that appear to lack a motive"
+            "evidence": "senseless crimes done by juveniles that appear to lack a motive",
+            "publisherAnswer": "motive",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 14,
             "answer": "in subway stations",
             "explanation": "The example concerns homeless people sleeping in subway stations. These three words fit the summary's grammar.",
-            "evidence": "homeless men sleeping in subway stations"
+            "evidence": "homeless men sleeping in subway stations",
+            "publisherAnswer": "in subway stations",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 15,
-            "answer": "twenty times",
+            "answer": "20 times",
             "explanation": "The passage gives twenty as the number of attempts in 1992.",
             "evidence": "as many as twenty times in 1992",
             "accepted": [
-              "twenty times",
-              "20 times"
-            ]
+              "20 times",
+              "twenty times"
+            ],
+            "publisherAnswer": "20 times",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 16,
             "answer": "set fire",
             "explanation": "The phrase 'set fire to' supplies the two missing words before 'to them'.",
-            "evidence": "young people tried to set fire to homeless men"
+            "evidence": "young people tried to set fire to homeless men",
+            "publisherAnswer": "set fire",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 17,
             "answer": "fire setter",
             "explanation": "The account is given by one of the people who set the fire.",
-            "evidence": "One fire setter explained"
+            "evidence": "One fire setter explained",
+            "publisherAnswer": "fire setter",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 18,
             "answer": "accidentally",
             "explanation": "The boy says the beer was spilled accidentally.",
-            "evidence": "accidentally spilled some of their beer on him"
+            "evidence": "accidentally spilled some of their beer on him",
+            "publisherAnswer": "accidentally",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 19,
             "answer": "blanket",
             "explanation": "It was the homeless man's blanket that caught fire.",
-            "evidence": "when his blanket caught fire"
+            "evidence": "when his blanket caught fire",
+            "publisherAnswer": "blanket",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 20,
@@ -3531,7 +4079,9 @@
             "accepted": [
               "the fun",
               "fun"
-            ]
+            ],
+            "publisherAnswer": "the fun",
+            "publisherKeyPrintedPage": 172
           }
         ]
       },
@@ -3583,7 +4133,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 2,
@@ -3594,7 +4146,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 3,
@@ -3605,7 +4159,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 4,
@@ -3616,7 +4172,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 5,
@@ -3627,25 +4185,33 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 6,
             "answer": "communicative",
             "explanation": "The first paragraph describes the writing as taking place in a powerful communicative context.",
-            "evidence": "such a powerful communicative context"
+            "evidence": "such a powerful communicative context",
+            "publisherAnswer": "communicative",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 7,
             "answer": "sharing",
             "explanation": "The stated purpose is sharing ideas with classmates.",
-            "evidence": "for the purpose of sharing ideas with their classmates"
+            "evidence": "for the purpose of sharing ideas with their classmates",
+            "publisherAnswer": "sharing",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 8,
             "answer": "guide",
             "explanation": "Cook contributes as a guide, rather than an expert who supplies every answer.",
-            "evidence": "as a guide rather than as an all-knowing expert"
+            "evidence": "as a guide rather than as an all-knowing expert",
+            "publisherAnswer": "guide",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 9,
@@ -3657,7 +4223,9 @@
               "100",
               "100 percent",
               "one hundred percent"
-            ]
+            ],
+            "publisherAnswer": "100%",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 10,
@@ -3669,13 +4237,17 @@
               "sixty-five",
               "sixty five",
               "65%"
-            ]
+            ],
+            "publisherAnswer": "65",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 11,
             "answer": "gains",
             "explanation": "The study reports significantly greater gains in the computer-networked class's writing.",
-            "evidence": "showed significantly greater gains in writing"
+            "evidence": "showed significantly greater gains in writing",
+            "publisherAnswer": "gains",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 12,
@@ -3686,7 +4258,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 13,
@@ -3697,7 +4271,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 14,
@@ -3708,7 +4284,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 15,
@@ -3719,7 +4297,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 16,
@@ -3730,7 +4310,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "YES",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 17,
@@ -3741,7 +4323,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 172
           },
           {
             "number": 18,
@@ -3752,7 +4336,9 @@
               "YES",
               "NO",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NO",
+            "publisherKeyPrintedPage": 172
           }
         ]
       }
@@ -3765,8 +4351,11 @@
       "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
       "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
       "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
-      "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-      "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and the original reading text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf",
+      "answerKeyPrintedPage": 173
     },
     "parts": [
       {
@@ -3825,22 +4414,22 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 2,
-            "answer": "A",
-            "explanation": "Here 'assigned' means given a task to do. A describes being asked to complete the interviews. B also approximates being given work, so both are accepted for this loosely worded item.",
+            "answer": "B",
+            "explanation": "Assigned means given or allocated a task. In this sentence, teachers give students interviews as homework. The publisher key selects B, given as a share or for use.",
             "evidence": "assigned interviews for homework by their classroom teachers",
             "options": [
               "A",
               "B",
               "C"
             ],
-            "accepted": [
-              "A",
-              "B"
-            ]
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 3,
@@ -3851,7 +4440,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 4,
@@ -3862,12 +4453,14 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 5,
             "answer": "C",
-            "explanation": "C appears to be the intended answer, but 'sub-part' means a smaller section within a larger whole. It does not tell us whether that section is less important. None of the three options gives a precise definition, so this source item is not scored.",
+            "explanation": "The publisher key confirms C, part that is less important. In ordinary usage, sub-part means a smaller section within a larger whole and does not necessarily compare importance. None of the printed choices states that precise meaning, so this item remains visible for review and is not scored.",
             "evidence": "the Pronunciation Clinic, which is a sub-part of the Tutorial",
             "options": [
               "A",
@@ -3875,7 +4468,9 @@
               "C"
             ],
             "unscored": true,
-            "reviewNote": "A sub-part is a subdivision, not necessarily a less important part. The printed options all compare importance."
+            "reviewNote": "A sub-part is a subdivision, not necessarily a less important part. The printed options all compare importance.",
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 6,
@@ -3886,7 +4481,9 @@
               "A",
               "B",
               "C"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 7,
@@ -3898,7 +4495,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 8,
@@ -3910,7 +4509,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 9,
@@ -3922,7 +4523,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 10,
@@ -3934,7 +4537,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 11,
@@ -3946,7 +4551,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 12,
@@ -3957,7 +4564,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 13,
@@ -3968,7 +4577,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 14,
@@ -3979,18 +4590,22 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 15,
-            "answer": "TRUE",
-            "explanation": "The description 'lending library' indicates that its books are available to borrow and take away temporarily.",
-            "evidence": "help run the small lending library",
+            "answer": "NOT GIVEN",
+            "explanation": "A small lending library is mentioned, but the passage does not state where borrowed books may be taken or used. Taking them home cannot be established from the text. The publisher key is NOT GIVEN.",
+            "evidence": "Volunteers also help run the small lending library by helping students choose abridged books.",
             "options": [
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 16,
@@ -4001,7 +4616,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 17,
@@ -4012,7 +4629,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 18,
@@ -4023,7 +4642,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 19,
@@ -4034,7 +4655,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 173
           }
         ]
       },
@@ -4089,7 +4712,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 2,
@@ -4103,7 +4728,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "F",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 3,
@@ -4117,7 +4744,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 4,
@@ -4131,7 +4760,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 5,
@@ -4145,7 +4776,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 6,
@@ -4159,7 +4792,9 @@
               "D",
               "E",
               "F"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 7,
@@ -4171,7 +4806,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 8,
@@ -4183,7 +4820,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 9,
@@ -4195,7 +4834,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 10,
@@ -4207,7 +4848,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 11,
@@ -4219,7 +4862,9 @@
               "B",
               "C",
               "D"
-            ]
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 12,
@@ -4230,7 +4875,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 13,
@@ -4241,7 +4888,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 14,
@@ -4252,7 +4901,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 15,
@@ -4263,7 +4914,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 16,
@@ -4274,7 +4927,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 17,
@@ -4285,7 +4940,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 18,
@@ -4296,7 +4953,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 19,
@@ -4307,7 +4966,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 173
           },
           {
             "number": 20,
@@ -4318,7 +4979,9 @@
               "TRUE",
               "FALSE",
               "NOT GIVEN"
-            ]
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 173
           }
         ]
       }
