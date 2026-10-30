@@ -13,9 +13,7 @@ for data in reviewed:
     payload = (json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n').encode()
     digest = hashlib.sha256(payload).hexdigest()[:12]
     target = Path('readings') / f"{data['id']}.{digest}.json"
-    for old in (DIST / 'readings').glob(f"{data['id']}.*.json"):
-        if old.name != target.name:
-            old.unlink()
+    # Keep immutable earlier payloads for tabs still using a previous catalog.
     (DIST / target).write_bytes(payload)
     unit['readingFile'] = target.as_posix()
 (DIST / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
