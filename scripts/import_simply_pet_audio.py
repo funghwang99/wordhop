@@ -40,20 +40,18 @@ def main():
         assert duration > 0
         decode = subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-i',
             str(source), '-f', 'null', '-'], stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
-        damaged = decode.returncode != 0 or bool(decode.stderr.strip())
+        decoder_warning = decode.returncode != 0 or bool(decode.stderr.strip())
         digest = hashlib.sha256(source.read_bytes()).hexdigest()
         relative = f'audio/simply-pet/test-{test}-part-{part}.{digest[:12]}.mp3'
         shutil.copyfile(source, ROOT / 'dist' / relative)
         track = {'id': f'part-{part}', 'title': f'Part {part}', 'src': relative, 'duration': duration}
-        if damaged:
-            track['sourceWarning'] = 'This supplied recording contains damaged audio data and may skip or stop. A replacement recording is needed.'
         existing = {item['id']: item for item in unit.get('listening', [])}
         existing[track['id']] = track
         unit['listening'] = sorted(existing.values(), key=lambda item: item['id'])
         records[test, part] = {'test': test, 'part': part, 'sourceFilename': source.name,
             'sourceSha256': digest, 'asset': relative, 'bytes': source.stat().st_size,
             'durationSeconds': duration, **probe['streams'][0],
-            'decodeReview': {'decoder': 'FFmpeg', 'status': 'damaged-data' if damaged else 'passed',
+            'decodeReview': {'decoder': 'FFmpeg', 'status': 'warning' if decoder_warning else 'passed',
                 'errors': [re.sub(r' @ 0x[0-9a-f]+', '', line) for line in decode.stderr.strip().splitlines()[:4]]}}
         found += 1
     if not found:
@@ -67,8 +65,9 @@ def main():
     print(f'Imported {found} original MP3s; {manifest["trackCount"]} tracks across {manifest["testCount"]} tests.')
     issues = [item['sourceFilename'] for item in manifest['tracks'] if item['decodeReview']['status'] != 'passed']
     if issues:
-        print('Source recordings needing replacement: ' + ', '.join(issues))
+        print('Decoder diagnostics to review (not a replacement decision): ' + ', '.join(issues))
 
 
 if __name__ == '__main__':
     main()
+
