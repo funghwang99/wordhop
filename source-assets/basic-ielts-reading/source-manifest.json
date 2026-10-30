@@ -8,8 +8,10 @@
     "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
     "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
     "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
-    "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
-    "explanationOrigin": "Written for WordHop with evidence from the supplied text."
+    "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+    "explanationOrigin": "Written for WordHop and reviewed against the publisher key and original text.",
+    "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+    "answerKeyFilename": "Answer Key.pdf"
   },
   "pages": [
     {
@@ -494,5 +496,11 @@
     }
   ],
   "previousSourceCopySha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Unit 12 uses the complete supplied PDF; its original book pages were verified from that file."
+  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Unit 12 uses the complete supplied PDF; its original book pages were verified from that file.",
+  "publisherAnswerKey": {
+    "title": "Basic IELTS Reading publisher Answer Key",
+    "sourceFilename": "Answer Key.pdf",
+    "sourceSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+    "reviewedQuestionCount": 319
+  }
 }

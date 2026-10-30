@@ -1,0 +1,154 @@
+{
+  "publisherKeySourceSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+  "reviewedUnits": [
+    "bir-unit-4",
+    "bir-unit-5",
+    "bir-unit-6",
+    "bir-unit-7",
+    "bir-unit-8",
+    "bir-unit-9",
+    "bir-unit-10",
+    "bir-unit-11",
+    "bir-unit-12"
+  ],
+  "reviewedQuestions": 319,
+  "scoringCorrections": [
+    {
+      "unitId": "bir-unit-4",
+      "partId": "part-1",
+      "number": 10,
+      "before": {
+        "answer": "STAY CALM",
+        "accepted": [
+          "STAY CALM",
+          "stay calm"
+        ]
+      },
+      "after": {
+        "answer": "to stay calm",
+        "accepted": [
+          "to stay calm",
+          "STAY CALM"
+        ]
+      },
+      "reason": "Accept the publisher phrase to stay calm."
+    },
+    {
+      "unitId": "bir-unit-6",
+      "partId": "part-2",
+      "number": 7,
+      "before": {
+        "answer": "II"
+      },
+      "after": {
+        "answer": "VI"
+      },
+      "reason": "Replace heading II with VI."
+    },
+    {
+      "unitId": "bir-unit-7",
+      "partId": "part-1",
+      "number": 2,
+      "before": {
+        "answer": "B",
+        "accepted": [
+          "B",
+          "A"
+        ]
+      },
+      "after": {
+        "answer": "A"
+      },
+      "reason": "Use A only instead of accepting A and B."
+    },
+    {
+      "unitId": "bir-unit-10",
+      "partId": "part-1",
+      "number": 1,
+      "before": {
+        "answer": "C"
+      },
+      "after": {
+        "answer": "B"
+      },
+      "reason": "Replace C with publisher choice B."
+    },
+    {
+      "unitId": "bir-unit-10",
+      "partId": "part-1",
+      "number": 14,
+      "before": {
+        "answer": "NOT GIVEN"
+      },
+      "after": {
+        "answer": "TRUE"
+      },
+      "reason": "Use publisher TRUE with an explicit note about the contextual inference."
+    },
+    {
+      "unitId": "bir-unit-10",
+      "partId": "part-2",
+      "number": 12,
+      "before": {
+        "answer": "in a community"
+      },
+      "after": {
+        "answer": "in a community",
+        "accepted": [
+          "in a community",
+          "in the community"
+        ]
+      },
+      "reason": "Accept the publisher alternative in the community."
+    },
+    {
+      "unitId": "bir-unit-12",
+      "partId": "part-1",
+      "number": 2,
+      "before": {
+        "answer": "A",
+        "accepted": [
+          "A",
+          "B"
+        ]
+      },
+      "after": {
+        "answer": "B"
+      },
+      "reason": "Use B only instead of accepting both A and B."
+    },
+    {
+      "unitId": "bir-unit-12",
+      "partId": "part-1",
+      "number": 15,
+      "before": {
+        "answer": "TRUE"
+      },
+      "after": {
+        "answer": "NOT GIVEN"
+      },
+      "reason": "Replace TRUE with NOT GIVEN; lending does not establish permission to take books home."
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "unitId": "bir-unit-8",
+      "partId": "part-1",
+      "number": 1,
+      "publisherAnswer": "B",
+      "reviewedAnswer": "A",
+      "unscored": true,
+      "reason": "The publisher key lists B, city centre only, but the printed phrase metropolitan area includes the surrounding suburbs. A matches the question and passage. This source-key conflict is not scored."
+    },
+    {
+      "unitId": "bir-unit-12",
+      "partId": "part-1",
+      "number": 5,
+      "publisherAnswer": "C",
+      "reviewedAnswer": "C",
+      "unscored": true,
+      "reason": "A sub-part is a subdivision, not necessarily a less important part. The printed options all compare importance."
+    }
+  ],
+  "canonicalAnswerPolicy": "Display publisher wording for accepted variants and dictionary forms. Retain appropriate existing text variants. Score multiple-choice items using the publisher choice, except the two explicitly unscored source issues."
+}
