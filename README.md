@@ -85,17 +85,21 @@ multiple choice, short answers and completion, True/False/Not Given,
 Yes/No/Not Given, matching headings and phrases, and multi-select questions.
 All pages of a passage remain together, with later pages loaded lazily.
 
-The Basic IELTS scan omits the answer-key section listed in its contents.
-Its keys and English explanations were therefore prepared for WordHop from
-the supplied passages, rather than presented as publisher answers. Numeric
-answers in Unit 11's note-completion table accept the corresponding figures.
-Source provenance and reviewed keys are under `source-assets/basic-ielts-reading/`.
+All 319 Basic IELTS Reading questions in Units 4–12 have been checked against
+the separately supplied publisher `Answer Key.pdf`, book key pages 169–173.
+English explanations are written for WordHop and reviewed against the key
+and original passages. Numeric answers in Unit 11's note-completion table
+accept the corresponding figures. The publisher transcription and correction
+record are under `source-assets/basic-ielts-reading/` alongside source provenance.
 Run `python3 -B scripts/import_basic_ielts_readings.py` after editing those keys
 to regenerate the hashed JSON and catalog links.
 
 Unit 12 includes all 35 illustrated vocabulary slides from its verified PPTX,
 plus both original readings: Help! Volunteers Wanted and Modern Examinations.
-Passage 1 Question 5 is visible but not scored because its answer choices do
-not accurately define sub-part. Question 2 accepts both reasonable readings
-of its approximate definitions. The source and importer are documented in
-`source-assets/unit-12/`.
+Passage 1 Question 5 is visible but not scored because its choices do not
+accurately define sub-part, despite the publisher key selecting C. Unit 8
+Passage 1 Question 1 is also unscored: the key lists B, city centre only,
+whereas A, city centre and suburbs, matches metropolitan area in the question.
+Both issues show the publisher answer and an explanatory note. Other choice
+questions follow the publisher key, including Unit 12 Passage 1 Question 2 (B).
+The Unit 12 source and importer are documented in `source-assets/unit-12/`.
