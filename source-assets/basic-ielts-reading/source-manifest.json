@@ -1,13 +1,13 @@
 {
   "bookId": "basic-ielts-reading",
-  "units": 8,
-  "passages": 16,
-  "questions": 280,
-  "uniqueOriginalPages": 51,
+  "units": 9,
+  "passages": 18,
+  "questions": 319,
+  "uniqueOriginalPages": 60,
   "source": {
     "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
     "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
-    "sourcePdfSha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+    "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
     "answerKeyOrigin": "Prepared for WordHop from the supplied reading text; not a publisher-provided answer key. The answer-key section listed in the contents is absent from the supplied scan.",
     "explanationOrigin": "Written for WordHop with evidence from the supplied text."
   },
@@ -419,6 +419,80 @@
       "height": 1621,
       "image": "assets/reading/basic-ielts-reading-page-98.429a7c3d1175.webp",
       "bytes": 73726
+    },
+    {
+      "pdfPage": 99,
+      "printedPage": 99,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-99.77656926c4c1.webp",
+      "bytes": 209032
+    },
+    {
+      "pdfPage": 100,
+      "printedPage": 100,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-100.58a8791d1fa4.webp",
+      "bytes": 190924
+    },
+    {
+      "pdfPage": 101,
+      "printedPage": 101,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-101.771236b6ab87.webp",
+      "bytes": 113356
+    },
+    {
+      "pdfPage": 102,
+      "printedPage": 102,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-102.3b5804fd9954.webp",
+      "bytes": 131338
+    },
+    {
+      "pdfPage": 103,
+      "printedPage": 103,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-103.1caf3eeed0ff.webp",
+      "bytes": 196284
+    },
+    {
+      "pdfPage": 104,
+      "printedPage": 104,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-104.e81b601d3c6f.webp",
+      "bytes": 263778
+    },
+    {
+      "pdfPage": 105,
+      "printedPage": 105,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-105.b373e5da6e0e.webp",
+      "bytes": 177256
+    },
+    {
+      "pdfPage": 106,
+      "printedPage": 106,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-106.9620b2d1a589.webp",
+      "bytes": 150214
+    },
+    {
+      "pdfPage": 107,
+      "printedPage": 107,
+      "width": 1122,
+      "height": 1621,
+      "image": "assets/reading/basic-ielts-reading-page-107.ebc65ff234b9.webp",
+      "bytes": 50722
     }
-  ]
+  ],
+  "previousSourceCopySha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
+  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Unit 12 uses the complete supplied PDF; its original book pages were verified from that file."
 }

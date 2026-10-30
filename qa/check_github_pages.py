@@ -70,5 +70,5 @@ for unit in built['units']:
                 resolved = urljoin(base,resource)
                 assert resolved.startswith(base)
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
-assert reading_parts == 64 and reading_questions == 536
+assert reading_parts == 66 and reading_questions == 575
 print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
