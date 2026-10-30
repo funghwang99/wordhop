@@ -1,0 +1,563 @@
+{
+  "book": "Simply PET",
+  "source": "User-supplied Test N Part N.mp3 files",
+  "processing": "Original MP3 bytes preserved; no trimming, resampling or re-encoding.",
+  "tracks": [
+    {
+      "test": 1,
+      "part": 1,
+      "sourceFilename": "Test 1 Part 1.mp3",
+      "sourceSha256": "e480241403db3cbabf7dedf4f4941e8ad72034c8eeba8f1c9e6758e5dd189978",
+      "asset": "audio/simply-pet/test-1-part-1.e480241403db.mp3",
+      "bytes": 10638732,
+      "durationSeconds": 664.895,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 1,
+      "part": 2,
+      "sourceFilename": "Test 1 Part 2.mp3",
+      "sourceSha256": "38808fedbbd298963af6376c813445b209ab08a693448cb7d74bd8797addda91",
+      "asset": "audio/simply-pet/test-1-part-2.38808fedbbd2.mp3",
+      "bytes": 9709609,
+      "durationSeconds": 606.851,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 1,
+      "part": 3,
+      "sourceFilename": "Test 1 Part 3.mp3",
+      "sourceSha256": "40063afb347add4cf0ff89c2b60b820115f85e062fe039972e4122084766a28a",
+      "asset": "audio/simply-pet/test-1-part-3.40063afb347a.mp3",
+      "bytes": 4541544,
+      "durationSeconds": 283.846,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 1,
+      "part": 4,
+      "sourceFilename": "Test 1 Part 4.mp3",
+      "sourceSha256": "8eab3539e812c9ebb50c1c34e9ac3dc029f6f6c6192707a3477253009e95409c",
+      "asset": "audio/simply-pet/test-1-part-4.8eab3539e812.mp3",
+      "bytes": 5889462,
+      "durationSeconds": 368.091,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 2,
+      "part": 1,
+      "sourceFilename": "Test 2 Part 1.mp3",
+      "sourceSha256": "2946e0c5a3330454ceeff6a2660bf46a0e088f3970297f1ef03da0b495ac127d",
+      "asset": "audio/simply-pet/test-2-part-1.2946e0c5a333.mp3",
+      "bytes": 10520449,
+      "durationSeconds": 657.502,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 2,
+      "part": 2,
+      "sourceFilename": "Test 2 Part 2.mp3",
+      "sourceSha256": "af479d88a3e326e2aeb14a375f668ad4a94e23f8788bc8c1f65a0c9387582001",
+      "asset": "audio/simply-pet/test-2-part-2.af479d88a3e3.mp3",
+      "bytes": 8684773,
+      "durationSeconds": 542.798,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 2,
+      "part": 3,
+      "sourceFilename": "Test 2 Part 3.mp3",
+      "sourceSha256": "0e807c010821ef560be62c28000d037b9d4325a3cdff7622b0e09f409572b3a3",
+      "asset": "audio/simply-pet/test-2-part-3.0e807c010821.mp3",
+      "bytes": 4898899,
+      "durationSeconds": 306.181,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 2,
+      "part": 4,
+      "sourceFilename": "Test 2 Part 4.mp3",
+      "sourceSha256": "bf27dec657aafe48a4702c1b805230c7f0e434222bffe1a2890c38e04424f28b",
+      "asset": "audio/simply-pet/test-2-part-4.bf27dec657aa.mp3",
+      "bytes": 5839725,
+      "durationSeconds": 364.983,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 3,
+      "part": 1,
+      "sourceFilename": "Test 3 Part 1.mp3",
+      "sourceSha256": "5841dd20cdd89abd65af1dd5dced4d26745b403c7fbd512c6e12071c473549f9",
+      "asset": "audio/simply-pet/test-3-part-1.5841dd20cdd8.mp3",
+      "bytes": 9506480,
+      "durationSeconds": 594.129,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 3,
+      "part": 2,
+      "sourceFilename": "Test 3 Part 2.mp3",
+      "sourceSha256": "2f61cd688674a72d19b6b13da39cc89d0b9a2e06280d897845a2eae8194e922d",
+      "asset": "audio/simply-pet/test-3-part-2.2f61cd688674.mp3",
+      "bytes": 9140767,
+      "durationSeconds": 571.298,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 3,
+      "part": 3,
+      "sourceFilename": "Test 3 Part 3.mp3",
+      "sourceSha256": "473dffc23eb5b35e11ed8569c9ae7e3067de968d4dfaf419a804599cc16f2b9f",
+      "asset": "audio/simply-pet/test-3-part-3.473dffc23eb5.mp3",
+      "bytes": 4918961,
+      "durationSeconds": 307.435,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 3,
+      "part": 4,
+      "sourceFilename": "Test 3 Part 4.mp3",
+      "sourceSha256": "ca4326c0b37d72a6cbf7f21be4f18d618d857b23a37647073a5967e0ac32371d",
+      "asset": "audio/simply-pet/test-3-part-4.ca4326c0b37d.mp3",
+      "bytes": 6075036,
+      "durationSeconds": 379.69,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 4,
+      "part": 1,
+      "sourceFilename": "Test 4 Part 1.mp3",
+      "sourceSha256": "7c4eab6042a9b28408c669b580c6dcbc8f065f9ae743a192ad3aa6b412a771ef",
+      "asset": "audio/simply-pet/test-4-part-1.7c4eab6042a9.mp3",
+      "bytes": 9839594,
+      "durationSeconds": 614.949,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 4,
+      "part": 2,
+      "sourceFilename": "Test 4 Part 2.mp3",
+      "sourceSha256": "e63dce286274642aa2c6918e62734b038999672fdc00a3ba451ed87411302211",
+      "asset": "audio/simply-pet/test-4-part-2.e63dce286274.mp3",
+      "bytes": 8501880,
+      "durationSeconds": 531.367,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "damaged-data",
+        "errors": [
+          "[mp3float] invalid new backstep -1",
+          "[mp3float] Header missing",
+          "[aist#0:0/mp3] Error submitting packet to decoder: Invalid data found when processing input",
+          "[aist#0:0/mp3] Error processing packet in decoder: Invalid data found when processing input"
+        ]
+      }
+    },
+    {
+      "test": 4,
+      "part": 3,
+      "sourceFilename": "Test 4 Part 3.mp3",
+      "sourceSha256": "6264af81d6af39e9e2b9b967f2ddd12c0b8879ba44202050ffce9b4f358d57be",
+      "asset": "audio/simply-pet/test-4-part-3.6264af81d6af.mp3",
+      "bytes": 4459206,
+      "durationSeconds": 278.7,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 4,
+      "part": 4,
+      "sourceFilename": "Test 4 Part 4.mp3",
+      "sourceSha256": "89620192b4ae204376d4a466e44296435a6ccb86c754bfd578ff3de30b3af6a2",
+      "asset": "audio/simply-pet/test-4-part-4.89620192b4ae.mp3",
+      "bytes": 6233025,
+      "durationSeconds": 389.564,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 5,
+      "part": 1,
+      "sourceFilename": "Test 5 Part 1.mp3",
+      "sourceSha256": "f256873b07d2f2e372a1caf1ab4f84c57c2e411fcd7d7e013e097ff7165b1a8c",
+      "asset": "audio/simply-pet/test-5-part-1.f256873b07d2.mp3",
+      "bytes": 9732178,
+      "durationSeconds": 608.235,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 5,
+      "part": 2,
+      "sourceFilename": "Test 5 Part 2.mp3",
+      "sourceSha256": "dfaa0b9f76d7c56f9cfe0c0a5839992f0c28c84205ef5c793f37328050bc69bc",
+      "asset": "audio/simply-pet/test-5-part-2.dfaa0b9f76d7.mp3",
+      "bytes": 9174204,
+      "durationSeconds": 573.388,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 5,
+      "part": 3,
+      "sourceFilename": "Test 5 Part 3.mp3",
+      "sourceSha256": "022147c26053aacffe18545a865aab492332211362e73bbec47befbeacb7ec3b",
+      "asset": "audio/simply-pet/test-5-part-3.022147c26053.mp3",
+      "bytes": 4586195,
+      "durationSeconds": 286.637,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "damaged-data",
+        "errors": [
+          "[mp3float] invalid new backstep -1",
+          "[mp3float] Header missing",
+          "[aist#0:0/mp3] Error submitting packet to decoder: Invalid data found when processing input",
+          "[aist#0:0/mp3] Error processing packet in decoder: Invalid data found when processing input"
+        ]
+      }
+    },
+    {
+      "test": 5,
+      "part": 4,
+      "sourceFilename": "Test 5 Part 4.mp3",
+      "sourceSha256": "fc5d20e41a4bb7d58a3eb4b605fbe80ab0b651aa959b88b56fa91fb601bcb2e1",
+      "asset": "audio/simply-pet/test-5-part-4.fc5d20e41a4b.mp3",
+      "bytes": 6320378,
+      "durationSeconds": 395.024,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 6,
+      "part": 1,
+      "sourceFilename": "Test 6 Part 1.mp3",
+      "sourceSha256": "2b09c4482e3e8d3fb67d71d7ce4fa448239abfe41b6b8511c4e93297a018076b",
+      "asset": "audio/simply-pet/test-6-part-1.2b09c4482e3e.mp3",
+      "bytes": 9604283,
+      "durationSeconds": 600.242,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 6,
+      "part": 2,
+      "sourceFilename": "Test 6 Part 2.mp3",
+      "sourceSha256": "80f0525d3331183bef69755d1cd1f0f2df8e2681fd714bb24673f718c8797532",
+      "asset": "audio/simply-pet/test-6-part-2.80f0525d3331.mp3",
+      "bytes": 9039621,
+      "durationSeconds": 564.976,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 6,
+      "part": 3,
+      "sourceFilename": "Test 6 Part 3.mp3",
+      "sourceSha256": "5108cda8ed3998954ce205fb0d419c66a9b72076365e16138adfe28433c5019a",
+      "asset": "audio/simply-pet/test-6-part-3.5108cda8ed39.mp3",
+      "bytes": 6644715,
+      "durationSeconds": 415.295,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 6,
+      "part": 4,
+      "sourceFilename": "Test 6 Part 4.mp3",
+      "sourceSha256": "d992e304d52e38103e353888877b27c0eea987ebb926afa9c2ac0241d8b5f9e1",
+      "asset": "audio/simply-pet/test-6-part-4.d992e304d52e.mp3",
+      "bytes": 6087993,
+      "durationSeconds": 380.5,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 7,
+      "part": 1,
+      "sourceFilename": "Test 7 Part 1.mp3",
+      "sourceSha256": "b36373e1b91609e4fe9d6170d02a63000833b13fd9b703e1fc883abe4c1bfc37",
+      "asset": "audio/simply-pet/test-7-part-1.b36373e1b916.mp3",
+      "bytes": 9643989,
+      "durationSeconds": 602.723,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 7,
+      "part": 2,
+      "sourceFilename": "Test 7 Part 2.mp3",
+      "sourceSha256": "91469f3128c312284c03cab75cfa4c954eb9007e4cbdd70a523992a6c0300af5",
+      "asset": "audio/simply-pet/test-7-part-2.91469f3128c3.mp3",
+      "bytes": 8678504,
+      "durationSeconds": 542.407,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 7,
+      "part": 3,
+      "sourceFilename": "Test 7 Part 3.mp3",
+      "sourceSha256": "fad91f902fb2e61c6e4e0dbe20c367daeb6aa3e2bec7d8d9054c6b14c493b588",
+      "asset": "audio/simply-pet/test-7-part-3.fad91f902fb2.mp3",
+      "bytes": 5006315,
+      "durationSeconds": 312.895,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 7,
+      "part": 4,
+      "sourceFilename": "Test 7 Part 4.mp3",
+      "sourceSha256": "f0fea6915477bdc669c57a419d5d440865b85bb0b18175ad4055cb5d72fbe315",
+      "asset": "audio/simply-pet/test-7-part-4.f0fea6915477.mp3",
+      "bytes": 6565720,
+      "durationSeconds": 410.358,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 8,
+      "part": 1,
+      "sourceFilename": "Test 8 Part 1.mp3",
+      "sourceSha256": "87a95664356c4c109cfe59c70c3b8a5f50646eb8c5f554de812c11ca01133e70",
+      "asset": "audio/simply-pet/test-8-part-1.87a95664356c.mp3",
+      "bytes": 10343652,
+      "durationSeconds": 646.452,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 8,
+      "part": 2,
+      "sourceFilename": "Test 8 Part 2.mp3",
+      "sourceSha256": "9e05fd21b938eaf9942aa413e7ccf4409ddb3760a37aa42ceff6f2428b738743",
+      "asset": "audio/simply-pet/test-8-part-2.9e05fd21b938.mp3",
+      "bytes": 8614138,
+      "durationSeconds": 538.384,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 8,
+      "part": 3,
+      "sourceFilename": "Test 8 Part 3.mp3",
+      "sourceSha256": "2792e7d4745057564a77e4e0c674aed4a63693896ba655c4a558b9bf0cad6bef",
+      "asset": "audio/simply-pet/test-8-part-3.2792e7d47450.mp3",
+      "bytes": 5407973,
+      "durationSeconds": 337.998,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    },
+    {
+      "test": 8,
+      "part": 4,
+      "sourceFilename": "Test 8 Part 4.mp3",
+      "sourceSha256": "09e1c2659c55ed3fde9004f67c3d472853532080200947a2512144d9313cef08",
+      "asset": "audio/simply-pet/test-8-part-4.09e1c2659c55.mp3",
+      "bytes": 5972218,
+      "durationSeconds": 373.264,
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "decodeReview": {
+        "decoder": "FFmpeg",
+        "status": "passed",
+        "errors": []
+      }
+    }
+  ],
+  "testCount": 8,
+  "trackCount": 32
+}
