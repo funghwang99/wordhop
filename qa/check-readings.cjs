@@ -4,8 +4,8 @@ const context={window:{addEventListener(){}},document:{addEventListener(){}},loc
 vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(root,'reading.js'),'utf8'),context);
 const {validate,grade}=context.window.WordHopReading;
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'data.js'),'utf8').replace(/^window\.WQ_CATALOG = /,'').replace(/;\s*$/,''));
-const units=catalog.units.filter(u=>u.readingFile);assert.equal(units.length,16);
-const expectedBasic=[[10,16],[20,16],[16,20],[20,16],[17,19],[17,18],[19,18],[20,18]];
+const units=catalog.units.filter(u=>u.readingFile);assert.equal(units.length,17);
+const expectedBasic=[[10,16],[20,16],[16,20],[20,16],[17,19],[17,18],[19,18],[20,18],[19,20]];
 const totals={};const excluded=[];
 for(const unit of units){
   const pet=unit.bookId==='simply-pet';assert.ok(pet||unit.bookId==='basic-ielts-reading');
@@ -47,11 +47,11 @@ for(const unit of units){
   const missing=JSON.parse(JSON.stringify(data));missing.parts[0].pages=[];
   assert.throws(()=>validate(missing,unit.id),/pages/);
 }
-for(const [book,expected] of [['simply-pet',[8,48,256,254,47]],['basic-ielts-reading',[8,16,280,280,51]]]){
+for(const [book,expected] of [['simply-pet',[8,48,256,254,47]],['basic-ielts-reading',[9,18,319,318,60]]]){
  const t=totals[book];assert.deepEqual([t.units,t.parts,t.questions,t.scored,t.images.size],expected);
 }
-assert.deepEqual(excluded,[['simply-pet-test-7',4],['simply-pet-test-8',11]]);
+assert.deepEqual(excluded,[['bir-unit-12',5],['simply-pet-test-7',4],['simply-pet-test-8',11]]);
 const last=JSON.parse(fs.readFileSync(path.join(root,units.find(u=>u.id==='simply-pet-test-8').readingFile),'utf8'));
 assert.equal(last.parts[4].pdfPage,129);assert.equal(last.parts[5].pdfPage,129);assert.equal(last.parts[4].image,last.parts[5].image);
-console.log('PASS: PET 8 tests / 48 parts / 256 questions; IELTS 8 units / 16 passages / 280 questions; 98 original pages.');
-console.log('PASS: alternative answers, case/spacing, exact unordered multi-select, wrong/blank answers and 2 excluded source questions.');
+console.log('PASS: PET 8 tests / 48 parts / 256 questions; IELTS 9 units / 18 passages / 319 questions; 107 original pages.');
+console.log('PASS: alternative answers, case/spacing, exact unordered multi-select, wrong/blank answers and 3 excluded source questions.');
