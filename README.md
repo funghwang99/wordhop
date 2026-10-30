@@ -3,8 +3,8 @@
 English vocabulary flashcards and games for PET and IELTS courses.
 
 The current content includes Simply PET with eight Reading Tests and 250 words,
-and Basic IELTS Reading with Units 4–11 and 379 words. The total is 629 words
-across 16 units or tests.
+and Basic IELTS Reading with Units 4–12 and 414 words. The total is 664 words
+across 17 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
 choice or fill-in-the-blank games without a word bank. Rounds default to all
@@ -79,8 +79,8 @@ Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
 (a temperature goal versus an original prediction). Source pages and answer
 provenance are recorded under `source-assets/simply-pet-reading/`.
 
-Basic IELTS Reading Units 4–11 also include their original reading pages and
-numbered exercises: 16 passages, 280 questions and 51 book pages. This covers
+Basic IELTS Reading Units 4–12 also include their original reading pages and
+numbered exercises: 18 passages, 319 questions and 60 book pages. This covers
 multiple choice, short answers and completion, True/False/Not Given,
 Yes/No/Not Given, matching headings and phrases, and multi-select questions.
 All pages of a passage remain together, with later pages loaded lazily.
@@ -92,3 +92,10 @@ answers in Unit 11's note-completion table accept the corresponding figures.
 Source provenance and reviewed keys are under `source-assets/basic-ielts-reading/`.
 Run `python3 -B scripts/import_basic_ielts_readings.py` after editing those keys
 to regenerate the hashed JSON and catalog links.
+
+Unit 12 includes all 35 illustrated vocabulary slides from its verified PPTX,
+plus both original readings: Help! Volunteers Wanted and Modern Examinations.
+Passage 1 Question 5 is visible but not scored because its answer choices do
+not accurately define sub-part. Question 2 accepts both reasonable readings
+of its approximate definitions. The source and importer are documented in
+`source-assets/unit-12/`.
