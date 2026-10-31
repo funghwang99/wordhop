@@ -33,7 +33,7 @@ for unit in built['units']:
             assert new['image'] == old['image'].lstrip('/')
             assert (ROOT / '_site' / new['image']).read_bytes() == (ROOT / 'dist' / old['image'].lstrip('/')).read_bytes()
             assert not new['image'].startswith('/')
-        assert new['cloze'].replace('________', new['answer']) == new['example']
+        assert new['cloze'].replace('________', new['answer']) == new.get('clozeExample', new['example'])
     for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
         resources = [unit['dataFile']] + [w['image'] for w in after['words'] if w.get('image')]
         for resource in resources:
@@ -70,7 +70,7 @@ for unit in built['units']:
                 resolved = urljoin(base,resource)
                 assert resolved.startswith(base)
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
-assert reading_parts == 90 and reading_questions == 703
+assert reading_parts == 92 and reading_questions == 740
 print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
 
 audio_count = 0

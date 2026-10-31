@@ -1,0 +1,786 @@
+[
+  {
+    "id": "bir-u13-abundant",
+    "slide": 2,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "abundant",
+      "pos": "adj.",
+      "definition": "existing in large quantities; plentiful",
+      "example": "Insects were abundant in the open fields where bluebirds fed."
+    },
+    "gameExample": "Insects were abundant in the open fields where bluebirds fed.",
+    "image": {
+      "media": "ppt/media/image1.jpeg",
+      "originalSha256": "17f00b653cbec00d44d69882c175bda29fe88b80026e03ac46489f471984573b",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 612,
+      "height": 357,
+      "originalBytes": 29511,
+      "publishedBytes": 28678,
+      "image": "/assets/unit-13/abundant.000edbfe5b4a.webp"
+    }
+  },
+  {
+    "id": "bir-u13-aggressive",
+    "slide": 3,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "aggressive",
+      "pos": "adj.",
+      "definition": "likely to attack or behave forcefully towards others",
+      "example": "Some aggressive birds drive bluebirds away from their nests."
+    },
+    "gameExample": "Some aggressive birds drive bluebirds away from their nests.",
+    "image": {
+      "media": "ppt/media/image2.jpeg",
+      "originalSha256": "849957ca5e4bb69537b0d676f0e7c6abc96306a4cbb8406a79095ed689c38636",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 29320,
+      "publishedBytes": 6484,
+      "image": "/assets/unit-13/aggressive.e449cb5c48e8.webp"
+    }
+  },
+  {
+    "id": "bir-u13-brushy",
+    "slide": 4,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "brushy",
+      "pos": "adj.",
+      "definition": "covered with bushes or thick low-growing plants",
+      "example": "Boxes near brushy areas are more likely to attract house wrens."
+    },
+    "gameExample": "Boxes near brushy areas are more likely to attract house wrens.",
+    "image": {
+      "media": "ppt/media/image3.jpeg",
+      "originalSha256": "4748ce5321d5d19b40bd8151660f0e9c41a796b736b832a38b0f35506fb72fea",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 540,
+      "height": 360,
+      "originalBytes": 45754,
+      "publishedBytes": 21232,
+      "image": "/assets/unit-13/brushy.92b4176e91a8.webp"
+    }
+  },
+  {
+    "id": "bir-u13-cattle",
+    "slide": 5,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "cattle",
+      "pos": "n.",
+      "definition": "large farm animals such as cows and bulls",
+      "example": "The cattle could escape through fences with weakened wooden posts."
+    },
+    "gameExample": "The cattle could escape through fences with weakened wooden posts.",
+    "image": {
+      "media": "ppt/media/image4.jpeg",
+      "originalSha256": "8ad5308704f3d06c18c275a6ea167b17375767c26c150cd981385b140448e686",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 84056,
+      "publishedBytes": 19442,
+      "image": "/assets/unit-13/cattle.0d79fedd37a2.webp"
+    }
+  },
+  {
+    "id": "bir-u13-cavity",
+    "slide": 6,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "cavity",
+      "pos": "n.",
+      "definition": "a hollow space or hole, especially inside a tree",
+      "example": "A bluebird often makes its home in a tree cavity."
+    },
+    "gameExample": "A bluebird often makes its home in a tree cavity.",
+    "image": {
+      "media": "ppt/media/image5.jpeg",
+      "originalSha256": "a77d91d751d1b7d02a9172cd34720ca0119c1084198be46ea381b5425cf14abe",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 539,
+      "height": 360,
+      "originalBytes": 15632,
+      "publishedBytes": 5830,
+      "image": "/assets/unit-13/cavity.d2056a1221f6.webp"
+    }
+  },
+  {
+    "id": "bir-u13-clear",
+    "slide": 7,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "clear",
+      "pos": "v.",
+      "definition": "to remove trees or other things from an area",
+      "example": "Early settlers cleared parts of the forest to create fields."
+    },
+    "gameExample": "Early settlers cleared parts of the forest to create fields.",
+    "image": {
+      "media": "ppt/media/image6.jpeg",
+      "originalSha256": "55dece0bd65c975568220a1d32a5da1927f01065c79910def7a7498562d6502e",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 491,
+      "height": 360,
+      "originalBytes": 30882,
+      "publishedBytes": 10576,
+      "image": "/assets/unit-13/clear.7ea97f130a11.webp"
+    }
+  },
+  {
+    "id": "bir-u13-conservation",
+    "slide": 8,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "conservation",
+      "pos": "n.",
+      "definition": "the protection of wildlife and natural environments",
+      "example": "Wildlife conservation groups put up boxes for wood ducks."
+    },
+    "gameExample": "Wildlife conservation groups put up boxes for wood ducks.",
+    "image": {
+      "media": "ppt/media/image7.jpeg",
+      "originalSha256": "bfd1392965580bf9f55554caf9a02258e2dbc011446b28914ff4580f8145139d",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 59422,
+      "publishedBytes": 13824,
+      "image": "/assets/unit-13/conservation.2131cc458e75.webp"
+    }
+  },
+  {
+    "id": "bir-u13-decline",
+    "slide": 9,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "decline",
+      "pos": "v., n.",
+      "definition": "to decrease in number; a reduction in number",
+      "example": "Bluebird populations declined, and the decline worried researchers."
+    },
+    "gameExample": "Bluebird populations declined after suitable nesting sites disappeared.",
+    "image": {
+      "media": "ppt/media/image8.jpeg",
+      "originalSha256": "26bee9bb20fee516f56103b45b481a3c9a513170e72c65659740857aee9c8797",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 35530,
+      "publishedBytes": 4798,
+      "image": "/assets/unit-13/decline.5ca18a29fe3b.webp"
+    }
+  },
+  {
+    "id": "bir-u13-insecticide",
+    "slide": 10,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "insecticide",
+      "pos": "n.",
+      "definition": "a chemical used to kill insects",
+      "example": "The widespread use of insecticides may have harmed bluebirds."
+    },
+    "gameExample": "The widespread use of insecticides may have harmed bluebirds.",
+    "image": {
+      "media": "ppt/media/image9.jpeg",
+      "originalSha256": "8bf0a25ee5eb8c7f03747d3fbefd1c12a858de9b3c1639a74a40c4ea6e86f614",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 526,
+      "height": 360,
+      "originalBytes": 30453,
+      "publishedBytes": 13000,
+      "image": "/assets/unit-13/insecticide.98c4e47fa2e1.webp"
+    }
+  },
+  {
+    "id": "bir-u13-isolate",
+    "slide": 11,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "isolate",
+      "pos": "v.",
+      "definition": "to separate a person or thing from others",
+      "example": "Volunteers isolate some nesting boxes in open areas to observe birds."
+    },
+    "gameExample": "Volunteers isolate some nesting boxes in open areas to observe birds.",
+    "image": {
+      "media": "ppt/media/image10.jpeg",
+      "originalSha256": "efa2f9aa51b0d78be4a44d71824c33a54a3d13f221d6a4487c0563da3e130023",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 607,
+      "height": 360,
+      "originalBytes": 34259,
+      "publishedBytes": 24296,
+      "image": "/assets/unit-13/isolate.f67b2357e9d8.webp"
+    }
+  },
+  {
+    "id": "bir-u13-log",
+    "slide": 12,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "log",
+      "pos": "v.",
+      "definition": "to cut down trees for wood",
+      "example": "When people log mature trees, wood ducks may lose nesting cavities."
+    },
+    "gameExample": "When people log mature trees, wood ducks may lose nesting cavities.",
+    "image": {
+      "media": "ppt/media/image11.jpeg",
+      "originalSha256": "d54ba439ec6d825f1ca281784d64e0731c9e4f54b31cdaf5260e4aff5f19e74a",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 318,
+      "height": 360,
+      "originalBytes": 47734,
+      "publishedBytes": 33628,
+      "image": "/assets/unit-13/log.03181b4f3471.webp"
+    }
+  },
+  {
+    "id": "bir-u13-nest",
+    "slide": 13,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "nest",
+      "pos": "n., v.",
+      "definition": "a place where a bird lays eggs; to make or use such a place",
+      "example": "Bluebirds nest in cavities and build their nests inside them."
+    },
+    "gameExample": "Bluebirds nest inside natural cavities in trees.",
+    "image": {
+      "media": "ppt/media/image12.jpeg",
+      "originalSha256": "dd250ddff3cf82a24dd3760b041f45ff5442408aaec0b395eae6594960d57337",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 509,
+      "height": 360,
+      "originalBytes": 92875,
+      "publishedBytes": 31824,
+      "image": "/assets/unit-13/nest.c9f31a5837a3.webp"
+    }
+  },
+  {
+    "id": "bir-u13-nesting-site",
+    "slide": 14,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "nesting site",
+      "pos": null,
+      "definition": "a place where birds make nests and raise their young",
+      "example": "Bluebirds compete with other birds for suitable nesting sites."
+    },
+    "gameExample": "Bluebirds compete with other birds for suitable nesting sites.",
+    "image": {
+      "media": "ppt/media/image13.jpeg",
+      "originalSha256": "a3b968403ebbfc2de66b91ea110c6bd64b76f5de3248b0a43f257796d5a9013d",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 69635,
+      "publishedBytes": 19510,
+      "image": "/assets/unit-13/nesting-site.3fe8ba1039b1.webp"
+    }
+  },
+  {
+    "id": "bir-u13-post",
+    "slide": 15,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "post",
+      "pos": "n.",
+      "definition": "a strong upright piece of wood or metal used to support a fence",
+      "example": "Farmers replaced wooden fence posts with steel ones."
+    },
+    "gameExample": "Farmers replaced wooden fence posts with steel ones.",
+    "image": {
+      "media": "ppt/media/image14.jpeg",
+      "originalSha256": "63712c9e68f6444756a0a2d948d5a863c6e33ddb3959d0ae01830e3a57751c80",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 350,
+      "height": 350,
+      "originalBytes": 2379,
+      "publishedBytes": 966,
+      "image": "/assets/unit-13/post.09e869b08ca4.webp"
+    }
+  },
+  {
+    "id": "bir-u13-scatter",
+    "slide": 16,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "scatter",
+      "pos": "v.",
+      "definition": "to spread or place things far apart across an area",
+      "example": "Trees were scattered across the open fields."
+    },
+    "gameExample": "Trees were scattered across the open fields.",
+    "image": {
+      "media": "ppt/media/image15.jpeg",
+      "originalSha256": "64fe0d6c3ba563c64a43ab05a296528ba4d4f3f4b56231973975a57b0e6d540d",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 241,
+      "height": 360,
+      "originalBytes": 29518,
+      "publishedBytes": 9372,
+      "image": "/assets/unit-13/scatter.ed1eeea9ec48.webp"
+    }
+  },
+  {
+    "id": "bir-u13-settler",
+    "slide": 17,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "settler",
+      "pos": "n.",
+      "definition": "a person who goes to live in a new area and establishes a home",
+      "example": "Early settlers cleared forests to make farmland."
+    },
+    "gameExample": "Early settlers cleared forests to make farmland.",
+    "image": {
+      "media": "ppt/media/image16.jpeg",
+      "originalSha256": "eb1ed7ea7717ef0b26416c78e5de8ddb372a8b840de18af76241ad46edb55950",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 440,
+      "height": 360,
+      "originalBytes": 45170,
+      "publishedBytes": 15056,
+      "image": "/assets/unit-13/settler.cd027a6003bd.webp"
+    }
+  },
+  {
+    "id": "bir-u13-slightly",
+    "slide": 18,
+    "passage": 1,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "slightly",
+      "pos": "adv.",
+      "definition": "a little; by a small amount",
+      "example": "Western bluebirds need slightly larger holes in their nesting boxes."
+    },
+    "gameExample": "Western bluebirds need slightly larger holes in their nesting boxes.",
+    "image": {
+      "media": "ppt/media/image17.jpeg",
+      "originalSha256": "d0974bb5632b88cfbc4c6a3983364932d072b3f8ea9991ff11b94e83f15c7c71",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 8473,
+      "publishedBytes": 3728,
+      "image": "/assets/unit-13/slightly.34cb9b3b17ac.webp"
+    }
+  },
+  {
+    "id": "bir-u13-advertise",
+    "slide": 19,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "advertise",
+      "pos": "v.",
+      "definition": "to make something known to people through public messages",
+      "example": "The government advertised birth-control programmes on radio and television."
+    },
+    "gameExample": "The government advertised birth-control programmes on radio and television.",
+    "image": {
+      "media": "ppt/media/image18.jpeg",
+      "originalSha256": "573add40a94a920872d79aa7c7ae6cdda089813ba2b988ebadff4b6a419dacb3",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 144036,
+      "publishedBytes": 45166,
+      "image": "/assets/unit-13/advertise.6d1790088dde.webp"
+    }
+  },
+  {
+    "id": "bir-u13-agricultural",
+    "slide": 20,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "agricultural",
+      "pos": "adj.",
+      "definition": "relating to farming or growing crops",
+      "example": "Agricultural scientists are developing new farming techniques."
+    },
+    "gameExample": "Agricultural scientists are developing new farming techniques.",
+    "image": {
+      "media": "ppt/media/image19.jpeg",
+      "originalSha256": "3ecafe94e19cbf833926aae48c8f4e76f0817178b03dd449311f2e81365a0430",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 480,
+      "height": 360,
+      "originalBytes": 74480,
+      "publishedBytes": 14470,
+      "image": "/assets/unit-13/agricultural.7127441e713f.webp"
+    }
+  },
+  {
+    "id": "bir-u13-disease",
+    "slide": 21,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "disease",
+      "pos": "n.",
+      "definition": "an illness that affects people, animals or plants",
+      "example": "Without enough food or medicine, people may suffer from disease."
+    },
+    "gameExample": "Without enough food or medicine, people may suffer from disease.",
+    "image": {
+      "media": "ppt/media/image20.jpeg",
+      "originalSha256": "e18389a59a8b68038ae7f3517f30b08bc150b66956c5159b90be968b514771bf",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 364,
+      "height": 360,
+      "originalBytes": 62344,
+      "publishedBytes": 22832,
+      "image": "/assets/unit-13/disease.a331fbf57167.webp"
+    }
+  },
+  {
+    "id": "bir-u13-economic",
+    "slide": 22,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "economic",
+      "pos": "adj.",
+      "definition": "relating to money, trade or the economy",
+      "example": "Poor countries may need economic assistance to improve food production."
+    },
+    "gameExample": "Poor countries may need economic assistance to improve food production.",
+    "image": {
+      "media": "ppt/media/image21.jpeg",
+      "originalSha256": "8e0ddb0908c886e3fb600d9207aab8286ed65b974f037b8ec1646f2354b08409",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 468,
+      "height": 360,
+      "originalBytes": 31401,
+      "publishedBytes": 9762,
+      "image": "/assets/unit-13/economic.6b90f6b2a9f3.webp"
+    }
+  },
+  {
+    "id": "bir-u13-increase",
+    "slide": 23,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "increase",
+      "pos": "n., v.",
+      "definition": "to become greater in amount or number; a rise in amount or number",
+      "example": "The population may increase, leading to an increase in food demand."
+    },
+    "gameExample": "The population may increase if the birth rate stays high.",
+    "image": {
+      "media": "ppt/media/image22.jpeg",
+      "originalSha256": "2e96c1141be0ef00dd234e29776d27f53f9da23036ec357d27b1af5fab3397a7",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 288,
+      "height": 360,
+      "originalBytes": 38622,
+      "publishedBytes": 5810,
+      "image": "/assets/unit-13/increase.198ab7ab772a.webp"
+    }
+  },
+  {
+    "id": "bir-u13-irrigation",
+    "slide": 24,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "irrigation",
+      "pos": "n.",
+      "definition": "the process of supplying water to land so crops can grow",
+      "example": "Irrigation helps farmers grow crops in areas with little rainfall."
+    },
+    "gameExample": "Irrigation helps farmers grow crops in areas with little rainfall.",
+    "image": {
+      "media": "ppt/media/image23.jpeg",
+      "originalSha256": "e658bb0f70f175cdd7618ab742904ebd652ac649c4dd494bbe24bb928b21f2ff",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 292,
+      "height": 360,
+      "originalBytes": 81513,
+      "publishedBytes": 31928,
+      "image": "/assets/unit-13/irrigation.ed7421dd382a.webp"
+    }
+  },
+  {
+    "id": "bir-u13-overpopulation",
+    "slide": 25,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "overpopulation",
+      "pos": "n.",
+      "definition": "a situation in which too many people live in an area",
+      "example": "Overpopulation can put pressure on food supplies and natural resources."
+    },
+    "gameExample": "Overpopulation can put pressure on food supplies and natural resources.",
+    "image": {
+      "media": "ppt/media/image24.jpeg",
+      "originalSha256": "9fba281d6805ffeda07b3aa05c09582770b7089e73c61a7d1784e3533dd81657",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 337,
+      "height": 360,
+      "originalBytes": 27997,
+      "publishedBytes": 18710,
+      "image": "/assets/unit-13/overpopulation.0d936c78bd52.webp"
+    }
+  },
+  {
+    "id": "bir-u13-religion",
+    "slide": 26,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "religion",
+      "pos": "n.",
+      "definition": "a system of beliefs and practices concerning God or gods",
+      "example": "Religion can influence people's views on birth-control programmes."
+    },
+    "gameExample": "Religion can influence people's views on birth-control programmes.",
+    "image": {
+      "media": "ppt/media/image25.jpeg",
+      "originalSha256": "e83b9e1a56c3e287b97195cfbea404dc5e99130c87c95794c7883754090a54f5",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 495,
+      "height": 360,
+      "originalBytes": 48869,
+      "publishedBytes": 16192,
+      "image": "/assets/unit-13/religion.b04cbf89fcd4.webp"
+    }
+  },
+  {
+    "id": "bir-u13-solution",
+    "slide": 27,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "solution",
+      "pos": "n.",
+      "definition": "a way of dealing with or solving a problem",
+      "example": "One possible solution is to increase the amount of food produced."
+    },
+    "gameExample": "One possible solution is to increase the amount of food produced.",
+    "image": {
+      "media": "ppt/media/image26.jpeg",
+      "originalSha256": "d199c8b907c4624c374c82e096fa556e4411e28ac979a0b9c86c656359f448e7",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 346,
+      "height": 360,
+      "originalBytes": 15858,
+      "publishedBytes": 8660,
+      "image": "/assets/unit-13/solution.4cd2c5843497.webp"
+    }
+  },
+  {
+    "id": "bir-u13-transport",
+    "slide": 28,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "transport",
+      "pos": "v.",
+      "definition": "to move people or goods from one place to another",
+      "example": "Cities must transport more people to and from work as populations grow."
+    },
+    "gameExample": "Cities must transport more people to and from work as populations grow.",
+    "image": {
+      "media": "ppt/media/image27.png",
+      "originalSha256": "3b5a36ee27ba912ce51fbbde940116b3155ddf21a85c572d3e2811198ad3e170",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 490,
+      "height": 360,
+      "originalBytes": 125500,
+      "publishedBytes": 21422,
+      "image": "/assets/unit-13/transport.596a2fe2dcd8.webp"
+    }
+  },
+  {
+    "id": "bir-u13-welfare",
+    "slide": 29,
+    "passage": 2,
+    "source": "Unit 13 Vocabulary - Verified.pptx",
+    "original": {
+      "term": "welfare",
+      "pos": "n.",
+      "definition": "public support for people who need financial or other help",
+      "example": "Without a welfare system, some older people depend on their children."
+    },
+    "gameExample": "Without a welfare system, some older people depend on their children.",
+    "image": {
+      "media": "ppt/media/image28.jpeg",
+      "originalSha256": "791c16e005f95afdf10b83f675472450ad1267835dee548a6f0904db64c2d789",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 509,
+      "height": 360,
+      "originalBytes": 35320,
+      "publishedBytes": 12998,
+      "image": "/assets/unit-13/welfare.483cd15cd556.webp"
+    }
+  }
+]

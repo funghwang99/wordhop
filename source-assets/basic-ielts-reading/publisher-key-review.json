@@ -9,9 +9,10 @@
     "bir-unit-9",
     "bir-unit-10",
     "bir-unit-11",
-    "bir-unit-12"
+    "bir-unit-12",
+    "bir-unit-13"
   ],
-  "reviewedQuestions": 319,
+  "reviewedQuestions": 356,
   "scoringCorrections": [
     {
       "unitId": "bir-unit-4",
@@ -148,6 +149,15 @@
       "reviewedAnswer": "C",
       "unscored": true,
       "reason": "A sub-part is a subdivision, not necessarily a less important part. The printed options all compare importance."
+    },
+    {
+      "unitId": "bir-unit-13",
+      "partId": "part-2",
+      "number": 2,
+      "publisherAnswer": "C",
+      "reviewedAnswer": "C",
+      "unscored": true,
+      "reason": "The publisher key gives C, 'without active qualities', but negative in this context means harmful or adverse. None of the printed choices accurately gives that meaning. This question is kept for review and excluded from the score."
     }
   ],
   "canonicalAnswerPolicy": "Display publisher wording for accepted variants and dictionary forms. Retain appropriate existing text variants. Score multiple-choice items using the publisher choice, except the two explicitly unscored source issues."
