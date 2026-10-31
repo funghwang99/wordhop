@@ -30,7 +30,7 @@ for(const unit of catalog.units){
    const route=context.parseRoute(`#/pet/simply-pet/${unit.id}/listening/${track.id}`);
    assert.equal(route.unit.id,unit.id);assert.equal(route.view,'listening');assert.equal(route.listeningPart,track.id);
   }
- }else assert.equal(unit.listening,undefined);
+ }else if(unit.bookId!=='authentic-1')assert.equal(unit.listening,undefined);
 }
 assert.equal(count,32);
 assert.equal(context.parseRoute('#/pet/simply-pet/simply-pet-test-1/reading/part-6').readingPart,'part-6');
@@ -58,7 +58,7 @@ assert.deepEqual(keys.needsReview,[]);
 assert.deepEqual([exercises.testCount,exercises.partCount,exercises.questionCount,exercises.uniqueBookPageCount],[8,32,200,32]);
 let partCount=0,questionCount=0,gapCount=0;const images=new Set();
 for(const unit of catalog.units){
- if(unit.bookId!=='simply-pet'){assert.equal(unit.listeningFile,undefined);continue;}
+ if(unit.bookId!=='simply-pet'){if(unit.bookId!=='authentic-1')assert.equal(unit.listeningFile,undefined);continue;}
  assert.match(unit.listeningFile,/^listening\/[\w.-]+\.json$/);
  const bytes=fs.readFileSync(path.join(root,'dist',unit.listeningFile)),data=JSON.parse(bytes);
  assert.ok(unit.listeningFile.includes(crypto.createHash('sha256').update(bytes).digest('hex').slice(0,12)));
@@ -89,3 +89,4 @@ console.log('PASS: 8 complete Listening tests / 32 parts / 200 questions / 32 or
 console.log('PASS: all keys, explanations, evidence timestamps, accepted forms, case/spacing, wrong/blank answers and both clean audio replacements checked.');
 
 require('./check-listening-replay.cjs');
+require('./check-authentic-1.cjs');

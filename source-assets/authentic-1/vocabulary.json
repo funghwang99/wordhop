@@ -1,0 +1,2806 @@
+{
+  "tests": [
+    {
+      "test": 1,
+      "words": [
+        {
+          "term": "essential",
+          "pos": "adj.",
+          "definition": "very important or necessary",
+          "example": "Water is essential for a healthy life.",
+          "answer": "essential",
+          "accepted": [
+            "essential"
+          ],
+          "cloze": "Water is ________ for a healthy life."
+        },
+        {
+          "term": "supplies",
+          "pos": "n.",
+          "definition": "things that are needed for a particular activity or purpose",
+          "example": "The school ordered new art supplies.",
+          "answer": "supplies",
+          "accepted": [
+            "supplies"
+          ],
+          "cloze": "The school ordered new art ________."
+        },
+        {
+          "term": "special offer",
+          "pos": "n.",
+          "definition": "a lower price or another advantage offered for a short time",
+          "example": "This shop has a special offer for students.",
+          "answer": "special offer",
+          "accepted": [
+            "special offer"
+          ],
+          "cloze": "This shop has a ________ for students."
+        },
+        {
+          "term": "apart from",
+          "pos": "prep.",
+          "definition": "in addition to; except for, depending on the sentence",
+          "example": "Apart from English, she studies French.",
+          "answer": "Apart from",
+          "accepted": [
+            "Apart from"
+          ],
+          "cloze": "________ English, she studies French."
+        },
+        {
+          "term": "arrangement",
+          "pos": "n.",
+          "definition": "a plan or agreement about what people will do",
+          "example": "We made an arrangement to meet on Saturday.",
+          "answer": "arrangement",
+          "accepted": [
+            "arrangement"
+          ],
+          "cloze": "We made an ________ to meet on Saturday."
+        },
+        {
+          "term": "cancel",
+          "pos": "v.",
+          "definition": "to decide that a planned event or activity will not happen",
+          "example": "They had to cancel the trip because of the storm.",
+          "answer": "cancel",
+          "accepted": [
+            "cancel"
+          ],
+          "cloze": "They had to ________ the trip because of the storm."
+        },
+        {
+          "term": "recycle",
+          "pos": "v.",
+          "definition": "to process used materials so they can be used again",
+          "example": "We should recycle bottles and paper.",
+          "answer": "recycle",
+          "accepted": [
+            "recycle"
+          ],
+          "cloze": "We should ________ bottles and paper."
+        },
+        {
+          "term": "waste",
+          "pos": "n.",
+          "definition": "unwanted material that is thrown away",
+          "example": "The school wants to reduce plastic waste.",
+          "answer": "waste",
+          "accepted": [
+            "waste"
+          ],
+          "cloze": "The school wants to reduce plastic ________."
+        },
+        {
+          "term": "suggestion",
+          "pos": "n.",
+          "definition": "an idea or plan offered for someone to consider",
+          "example": "Do you have any suggestions for the project?",
+          "answer": "suggestions",
+          "accepted": [
+            "suggestions"
+          ],
+          "cloze": "Do you have any ________ for the project?"
+        },
+        {
+          "term": "improve",
+          "pos": "v.",
+          "definition": "to make something better than before",
+          "example": "Reading every day can improve your vocabulary.",
+          "answer": "improve",
+          "accepted": [
+            "improve"
+          ],
+          "cloze": "Reading every day can ________ your vocabulary."
+        },
+        {
+          "term": "admit",
+          "pos": "v.",
+          "definition": "to agree that something is true, especially after denying it",
+          "example": "He admitted that he had made a mistake.",
+          "answer": "admitted",
+          "accepted": [
+            "admitted"
+          ],
+          "cloze": "He ________ that he had made a mistake."
+        },
+        {
+          "term": "invitation",
+          "pos": "n.",
+          "definition": "a request for someone to attend an event or visit a place",
+          "example": "Thanks for the invitation to your party.",
+          "answer": "invitation",
+          "accepted": [
+            "invitation"
+          ],
+          "cloze": "Thanks for the ________ to your party."
+        },
+        {
+          "term": "especially",
+          "pos": "adv.",
+          "definition": "more than usual; particularly",
+          "example": "I enjoy outdoor activities, especially cycling.",
+          "answer": "especially",
+          "accepted": [
+            "especially"
+          ],
+          "cloze": "I enjoy outdoor activities, ________ cycling."
+        },
+        {
+          "term": "deal with",
+          "pos": "phr. v.",
+          "definition": "to take action to manage a problem or situation",
+          "example": "She knows how to deal with difficult situations.",
+          "answer": "deal with",
+          "accepted": [
+            "deal with"
+          ],
+          "cloze": "She knows how to ________ difficult situations."
+        },
+        {
+          "term": "difficulty",
+          "pos": "n.",
+          "definition": "a problem or something that is hard to do",
+          "example": "He had difficulty finding a job.",
+          "answer": "difficulty",
+          "accepted": [
+            "difficulty"
+          ],
+          "cloze": "He had ________ finding a job."
+        },
+        {
+          "term": "achieve",
+          "pos": "v.",
+          "definition": "to succeed in doing something after working for it",
+          "example": "You can achieve your goals with practice.",
+          "answer": "achieve",
+          "accepted": [
+            "achieve"
+          ],
+          "cloze": "You can ________ your goals with practice."
+        },
+        {
+          "term": "develop",
+          "pos": "v.",
+          "definition": "to improve or grow a skill, ability or quality",
+          "example": "He wants to develop his writing skills.",
+          "answer": "develop",
+          "accepted": [
+            "develop"
+          ],
+          "cloze": "He wants to ________ his writing skills."
+        },
+        {
+          "term": "influence",
+          "pos": "n.",
+          "definition": "the power to affect the way someone thinks, feels or behaves",
+          "example": "His coach had a strong influence on him.",
+          "answer": "influence",
+          "accepted": [
+            "influence"
+          ],
+          "cloze": "His coach had a strong ________ on him."
+        },
+        {
+          "term": "variety",
+          "pos": "n.",
+          "definition": "a number of different kinds of things",
+          "example": "The library has a variety of interesting books.",
+          "answer": "variety",
+          "accepted": [
+            "variety"
+          ],
+          "cloze": "The library has a ________ of interesting books."
+        },
+        {
+          "term": "culture",
+          "pos": "n.",
+          "definition": "people's shared beliefs, customs, arts and way of life",
+          "example": "Travelling helps us learn about other cultures.",
+          "answer": "cultures",
+          "accepted": [
+            "cultures"
+          ],
+          "cloze": "Travelling helps us learn about other ________."
+        },
+        {
+          "term": "practical advice",
+          "pos": "n.",
+          "definition": "useful suggestions about what to do in real situations",
+          "example": "My teacher gave me practical advice about revision.",
+          "answer": "practical advice",
+          "accepted": [
+            "practical advice"
+          ],
+          "cloze": "My teacher gave me ________ about revision."
+        },
+        {
+          "term": "contribute to",
+          "pos": "v.",
+          "definition": "to help bring about or add something to an activity or result",
+          "example": "Many people contributed to the charity project.",
+          "answer": "contributed to",
+          "accepted": [
+            "contributed to"
+          ],
+          "cloze": "Many people ________ the charity project."
+        },
+        {
+          "term": "instruction",
+          "pos": "n.",
+          "definition": "a statement telling someone how to do something",
+          "example": "Read the instructions before using the machine.",
+          "answer": "instructions",
+          "accepted": [
+            "instructions"
+          ],
+          "cloze": "Read the ________ before using the machine."
+        },
+        {
+          "term": "athlete",
+          "pos": "n.",
+          "definition": "a person who competes in sports, especially at a high level",
+          "example": "The athlete trains every morning.",
+          "answer": "athlete",
+          "accepted": [
+            "athlete"
+          ],
+          "cloze": "The ________ trains every morning."
+        },
+        {
+          "term": "competition",
+          "pos": "n.",
+          "definition": "an event in which people try to win by being better than others",
+          "example": "Our team won the school sports competition.",
+          "answer": "competition",
+          "accepted": [
+            "competition"
+          ],
+          "cloze": "Our team won the school sports ________."
+        },
+        {
+          "term": "career",
+          "pos": "n.",
+          "definition": "a job or profession that someone follows over many years",
+          "example": "She hopes to have a career in journalism.",
+          "answer": "career",
+          "accepted": [
+            "career"
+          ],
+          "cloze": "She hopes to have a ________ in journalism."
+        },
+        {
+          "term": "challenge",
+          "pos": "n.",
+          "definition": "something difficult that tests someone's ability",
+          "example": "Learning a new language can be a challenge.",
+          "answer": "challenge",
+          "accepted": [
+            "challenge"
+          ],
+          "cloze": "Learning a new language can be a ________."
+        },
+        {
+          "term": "journalist",
+          "pos": "n.",
+          "definition": "a person who writes news stories for newspapers or other media",
+          "example": "The journalist wrote an article about the event.",
+          "answer": "journalist",
+          "accepted": [
+            "journalist"
+          ],
+          "cloze": "The ________ wrote an article about the event."
+        },
+        {
+          "term": "publish",
+          "pos": "v.",
+          "definition": "to make writing or information available to the public",
+          "example": "The magazine publishes stories by young writers.",
+          "answer": "publishes",
+          "accepted": [
+            "publishes"
+          ],
+          "cloze": "The magazine ________ stories by young writers."
+        },
+        {
+          "term": "educational",
+          "pos": "adj.",
+          "definition": "designed to help people learn something",
+          "example": "The museum offers educational activities for children.",
+          "answer": "educational",
+          "accepted": [
+            "educational"
+          ],
+          "cloze": "The museum offers ________ activities for children."
+        },
+        {
+          "term": "detailed",
+          "pos": "adj.",
+          "definition": "giving a lot of information about small parts of something",
+          "example": "He gave a detailed explanation of the problem.",
+          "answer": "detailed",
+          "accepted": [
+            "detailed"
+          ],
+          "cloze": "He gave a ________ explanation of the problem."
+        },
+        {
+          "term": "historical",
+          "pos": "adj.",
+          "definition": "connected with the study or events of the past",
+          "example": "We visited several historical places in the city.",
+          "answer": "historical",
+          "accepted": [
+            "historical"
+          ],
+          "cloze": "We visited several ________ places in the city."
+        },
+        {
+          "term": "inspire",
+          "pos": "v.",
+          "definition": "to make someone want to do or create something",
+          "example": "The book inspired her to become a writer.",
+          "answer": "inspired",
+          "accepted": [
+            "inspired"
+          ],
+          "cloze": "The book ________ her to become a writer."
+        },
+        {
+          "term": "successful",
+          "pos": "adj.",
+          "definition": "doing well and achieving the results you want",
+          "example": "She became a successful track cyclist.",
+          "answer": "successful",
+          "accepted": [
+            "successful"
+          ],
+          "cloze": "She became a ________ track cyclist."
+        },
+        {
+          "term": "convince",
+          "pos": "v.",
+          "definition": "to persuade someone to believe or do something",
+          "example": "My friends convinced me to join the club.",
+          "answer": "convinced",
+          "accepted": [
+            "convinced"
+          ],
+          "cloze": "My friends ________ me to join the club."
+        },
+        {
+          "term": "competitive",
+          "pos": "adj.",
+          "definition": "connected with trying to win or do better than others",
+          "example": "He enjoys competitive cycling.",
+          "answer": "competitive",
+          "accepted": [
+            "competitive"
+          ],
+          "cloze": "He enjoys ________ cycling."
+        },
+        {
+          "term": "champion",
+          "pos": "n.",
+          "definition": "a person or team that wins a competition",
+          "example": "She became the national swimming champion.",
+          "answer": "champion",
+          "accepted": [
+            "champion"
+          ],
+          "cloze": "She became the national swimming ________."
+        },
+        {
+          "term": "decision",
+          "pos": "n.",
+          "definition": "a choice made after thinking about different possibilities",
+          "example": "Moving abroad was a difficult decision.",
+          "answer": "decision",
+          "accepted": [
+            "decision"
+          ],
+          "cloze": "Moving abroad was a difficult ________."
+        },
+        {
+          "term": "effort",
+          "pos": "n.",
+          "definition": "physical or mental energy used to do something difficult",
+          "example": "It takes a lot of effort to learn a new skill.",
+          "answer": "effort",
+          "accepted": [
+            "effort"
+          ],
+          "cloze": "It takes a lot of ________ to learn a new skill."
+        },
+        {
+          "term": "charity",
+          "pos": "n.",
+          "definition": "an organisation that helps people in need, often using donations",
+          "example": "They raised money for a children's charity.",
+          "answer": "charity",
+          "accepted": [
+            "charity"
+          ],
+          "cloze": "They raised money for a children's ________."
+        },
+        {
+          "term": "advertise",
+          "pos": "v.",
+          "definition": "to tell people about a product, event or service to attract interest",
+          "example": "Celebrities sometimes advertise charity events.",
+          "answer": "advertise",
+          "accepted": [
+            "advertise"
+          ],
+          "cloze": "Celebrities sometimes ________ charity events."
+        },
+        {
+          "term": "celebrity",
+          "pos": "n.",
+          "definition": "a famous person, especially in entertainment or sport",
+          "example": "The charity asked a celebrity to support its campaign.",
+          "answer": "celebrity",
+          "accepted": [
+            "celebrity"
+          ],
+          "cloze": "The charity asked a ________ to support its campaign."
+        },
+        {
+          "term": "be involved in",
+          "pos": "v. phr.",
+          "definition": "to take part in or be connected with an activity",
+          "example": "Many students are involved in volunteer work.",
+          "answer": "are involved in",
+          "accepted": [
+            "are involved in"
+          ],
+          "cloze": "Many students ________ volunteer work."
+        },
+        {
+          "term": "care home",
+          "pos": "n.",
+          "definition": "a place where older people receive help and care",
+          "example": "Her aunt lives in a care home.",
+          "answer": "care home",
+          "accepted": [
+            "care home"
+          ],
+          "cloze": "Her aunt lives in a ________."
+        },
+        {
+          "term": "look after",
+          "pos": "phr. v.",
+          "definition": "to take care of someone or something",
+          "example": "He looks after his younger brother after school.",
+          "answer": "looks after",
+          "accepted": [
+            "looks after"
+          ],
+          "cloze": "He ________ his younger brother after school."
+        },
+        {
+          "term": "local council",
+          "pos": "n.",
+          "definition": "a group of elected people who manage services in a local area",
+          "example": "The local council opened a new sports centre.",
+          "answer": "local council",
+          "accepted": [
+            "local council"
+          ],
+          "cloze": "The ________ opened a new sports centre."
+        },
+        {
+          "term": "housing programme",
+          "pos": "n.",
+          "definition": "a plan run by an organisation to provide places for people to live",
+          "example": "The city started a housing programme for young people.",
+          "answer": "housing programme",
+          "accepted": [
+            "housing programme",
+            "housing program"
+          ],
+          "cloze": "The city started a ________ for young people."
+        },
+        {
+          "term": "unlikely",
+          "pos": "adj.",
+          "definition": "not expected to happen or be true",
+          "example": "It seems unlikely that the match will be cancelled.",
+          "answer": "unlikely",
+          "accepted": [
+            "unlikely"
+          ],
+          "cloze": "It seems ________ that the match will be cancelled."
+        },
+        {
+          "term": "invention",
+          "pos": "n.",
+          "definition": "something new that someone has created for the first time",
+          "example": "The telephone was an important invention.",
+          "answer": "invention",
+          "accepted": [
+            "invention"
+          ],
+          "cloze": "The telephone was an important ________."
+        },
+        {
+          "term": "by accident",
+          "pos": "phr.",
+          "definition": "without planning or intending it",
+          "example": "He discovered the old photograph by accident.",
+          "answer": "by accident",
+          "accepted": [
+            "by accident"
+          ],
+          "cloze": "He discovered the old photograph ________."
+        },
+        {
+          "term": "extremely",
+          "pos": "adv.",
+          "definition": "very; to a very high degree",
+          "example": "The instructions were extremely difficult to understand.",
+          "answer": "extremely",
+          "accepted": [
+            "extremely"
+          ],
+          "cloze": "The instructions were ________ difficult to understand."
+        },
+        {
+          "term": "complain about",
+          "pos": "v.",
+          "definition": "to say that you are unhappy with something",
+          "example": "The customer complained about the cold food.",
+          "answer": "complained about",
+          "accepted": [
+            "complained about"
+          ],
+          "cloze": "The customer ________ the cold food."
+        },
+        {
+          "term": "flavour",
+          "pos": "n.",
+          "definition": "the particular taste of a food or drink",
+          "example": "This soup has a strong tomato flavour.",
+          "answer": "flavour",
+          "accepted": [
+            "flavour",
+            "flavor"
+          ],
+          "cloze": "This soup has a strong tomato ________."
+        },
+        {
+          "term": "replace",
+          "pos": "v.",
+          "definition": "to put a new thing in the place of an old or broken one",
+          "example": "We need to replace the broken chair.",
+          "answer": "replace",
+          "accepted": [
+            "replace"
+          ],
+          "cloze": "We need to ________ the broken chair."
+        },
+        {
+          "term": "negative",
+          "pos": "adj.",
+          "definition": "disapproving, unpleasant or showing that something is wrong",
+          "example": "Try not to focus only on negative comments.",
+          "answer": "negative",
+          "accepted": [
+            "negative"
+          ],
+          "cloze": "Try not to focus only on ________ comments."
+        },
+        {
+          "term": "slice",
+          "pos": "n.",
+          "definition": "a thin, flat piece of food cut from something larger",
+          "example": "She cut the potato into thin slices.",
+          "answer": "slices",
+          "accepted": [
+            "slices"
+          ],
+          "cloze": "She cut the potato into thin ________."
+        },
+        {
+          "term": "global",
+          "pos": "adj.",
+          "definition": "affecting or involving the whole world",
+          "example": "The product became popular in the global market.",
+          "answer": "global",
+          "accepted": [
+            "global"
+          ],
+          "cloze": "The product became popular in the ________ market."
+        },
+        {
+          "term": "industry",
+          "pos": "n.",
+          "definition": "the businesses that produce a particular kind of goods or services",
+          "example": "Tourism is an important industry in this country.",
+          "answer": "industry",
+          "accepted": [
+            "industry"
+          ],
+          "cloze": "Tourism is an important ________ in this country."
+        },
+        {
+          "term": "get rid of",
+          "pos": "v. phr.",
+          "definition": "to remove or throw away something you do not want",
+          "example": "I want to get rid of these old magazines.",
+          "answer": "get rid of",
+          "accepted": [
+            "get rid of"
+          ],
+          "cloze": "I want to ________ these old magazines."
+        },
+        {
+          "term": "stressful",
+          "pos": "adj.",
+          "definition": "difficult or worrying in a way that makes you feel under pressure",
+          "example": "Moving to a new house can be stressful.",
+          "answer": "stressful",
+          "accepted": [
+            "stressful"
+          ],
+          "cloze": "Moving to a new house can be ________."
+        },
+        {
+          "term": "look forward to",
+          "pos": "phr. v.",
+          "definition": "to feel pleased and excited about something that will happen",
+          "example": "I'm looking forward to meeting my new classmates.",
+          "answer": "looking forward to",
+          "accepted": [
+            "looking forward to"
+          ],
+          "cloze": "I'm ________ meeting my new classmates."
+        },
+        {
+          "term": "memories",
+          "pos": "n.",
+          "definition": "things you remember about the past",
+          "example": "This photo brings back happy memories.",
+          "answer": "memories",
+          "accepted": [
+            "memories"
+          ],
+          "cloze": "This photo brings back happy ________."
+        }
+      ]
+    },
+    {
+      "test": 2,
+      "words": [
+        {
+          "term": "discount",
+          "pos": "n.",
+          "definition": "a reduction in the usual price of something",
+          "example": "Students can get a discount on train tickets.",
+          "answer": "discount",
+          "accepted": [
+            "discount"
+          ],
+          "cloze": "Students can get a ________ on train tickets."
+        },
+        {
+          "term": "slightly",
+          "pos": "adv.",
+          "definition": "by a small amount or degree",
+          "example": "The second book is slightly more expensive.",
+          "answer": "slightly",
+          "accepted": [
+            "slightly"
+          ],
+          "cloze": "The second book is ________ more expensive."
+        },
+        {
+          "term": "recommend",
+          "pos": "v.",
+          "definition": "to suggest something or someone as a good choice",
+          "example": "Can you recommend a good website for revision?",
+          "answer": "recommend",
+          "accepted": [
+            "recommend"
+          ],
+          "cloze": "Can you ________ a good website for revision?"
+        },
+        {
+          "term": "childhood",
+          "pos": "n.",
+          "definition": "the period of your life when you were a child",
+          "example": "She remembers her childhood in the countryside.",
+          "answer": "childhood",
+          "accepted": [
+            "childhood"
+          ],
+          "cloze": "She remembers her ________ in the countryside."
+        },
+        {
+          "term": "unusual",
+          "pos": "adj.",
+          "definition": "different from what is normal or expected",
+          "example": "They discovered an unusual way to save energy.",
+          "answer": "unusual",
+          "accepted": [
+            "unusual"
+          ],
+          "cloze": "They discovered an ________ way to save energy."
+        },
+        {
+          "term": "provide",
+          "pos": "v.",
+          "definition": "to give someone something they need or can use",
+          "example": "The website provides useful information.",
+          "answer": "provides",
+          "accepted": [
+            "provides"
+          ],
+          "cloze": "The website ________ useful information."
+        },
+        {
+          "term": "available",
+          "pos": "adj.",
+          "definition": "able to be obtained, used or bought",
+          "example": "The tickets are available online.",
+          "answer": "available",
+          "accepted": [
+            "available"
+          ],
+          "cloze": "The tickets are ________ online."
+        },
+        {
+          "term": "maximum",
+          "pos": "adj.",
+          "definition": "the greatest amount or number allowed or possible",
+          "example": "The maximum number of students in the class is twenty.",
+          "answer": "maximum",
+          "accepted": [
+            "maximum"
+          ],
+          "cloze": "The ________ number of students in the class is twenty."
+        },
+        {
+          "term": "session",
+          "pos": "n.",
+          "definition": "a period of time planned for a particular activity",
+          "example": "The first training session is free.",
+          "answer": "session",
+          "accepted": [
+            "session"
+          ],
+          "cloze": "The first training ________ is free."
+        },
+        {
+          "term": "attend",
+          "pos": "v.",
+          "definition": "to go to an event, meeting, class or other activity",
+          "example": "More than fifty people attended the lecture.",
+          "answer": "attended",
+          "accepted": [
+            "attended"
+          ],
+          "cloze": "More than fifty people ________ the lecture."
+        },
+        {
+          "term": "environmental",
+          "pos": "adj.",
+          "definition": "relating to the natural world and its protection",
+          "example": "Our school has an environmental club.",
+          "answer": "environmental",
+          "accepted": [
+            "environmental"
+          ],
+          "cloze": "Our school has an ________ club."
+        },
+        {
+          "term": "organisation",
+          "pos": "n.",
+          "definition": "a group of people working together for a particular purpose",
+          "example": "He works for an international environmental organisation.",
+          "answer": "organisation",
+          "accepted": [
+            "organisation",
+            "organization"
+          ],
+          "cloze": "He works for an international environmental ________."
+        },
+        {
+          "term": "energy production",
+          "pos": "n.",
+          "definition": "the process of making energy that people can use",
+          "example": "The article explains different methods of energy production.",
+          "answer": "energy production",
+          "accepted": [
+            "energy production"
+          ],
+          "cloze": "The article explains different methods of ________."
+        },
+        {
+          "term": "up-to-date",
+          "pos": "adj.",
+          "definition": "containing the newest or most recent information",
+          "example": "The website offers up-to-date information about climate change.",
+          "answer": "up-to-date",
+          "accepted": [
+            "up-to-date"
+          ],
+          "cloze": "The website offers ________ information about climate change."
+        },
+        {
+          "term": "negative effect",
+          "pos": "n.",
+          "definition": "a harmful or unwanted result of an action or situation",
+          "example": "Traffic has a negative effect on air quality.",
+          "answer": "negative effect",
+          "accepted": [
+            "negative effect"
+          ],
+          "cloze": "Traffic has a ________ on air quality."
+        },
+        {
+          "term": "reduce",
+          "pos": "v.",
+          "definition": "to make something smaller or less in amount",
+          "example": "We should reduce the amount of plastic we use.",
+          "answer": "reduce",
+          "accepted": [
+            "reduce"
+          ],
+          "cloze": "We should ________ the amount of plastic we use."
+        },
+        {
+          "term": "expert",
+          "pos": "n.",
+          "definition": "a person who knows a lot about a particular subject",
+          "example": "An expert explained how recycling works.",
+          "answer": "expert",
+          "accepted": [
+            "expert"
+          ],
+          "cloze": "An ________ explained how recycling works."
+        },
+        {
+          "term": "opportunity",
+          "pos": "n.",
+          "definition": "a situation that makes it possible to do something",
+          "example": "Volunteering is an opportunity to learn new skills.",
+          "answer": "opportunity",
+          "accepted": [
+            "opportunity"
+          ],
+          "cloze": "Volunteering is an ________ to learn new skills."
+        },
+        {
+          "term": "international",
+          "pos": "adj.",
+          "definition": "affecting or involving more than one country",
+          "example": "She entered an international writing competition.",
+          "answer": "international",
+          "accepted": [
+            "international"
+          ],
+          "cloze": "She entered an ________ writing competition."
+        },
+        {
+          "term": "recycled",
+          "pos": "adj.",
+          "definition": "made from materials that have already been used",
+          "example": "They sell notebooks made from recycled paper.",
+          "answer": "recycled",
+          "accepted": [
+            "recycled"
+          ],
+          "cloze": "They sell notebooks made from ________ paper."
+        },
+        {
+          "term": "compare",
+          "pos": "v.",
+          "definition": "to examine two or more things to see how they are similar or different",
+          "example": "Compare the two options before making a decision.",
+          "answer": "Compare",
+          "accepted": [
+            "Compare"
+          ],
+          "cloze": "________ the two options before making a decision."
+        },
+        {
+          "term": "suitable",
+          "pos": "adj.",
+          "definition": "right or appropriate for a particular person or purpose",
+          "example": "This website is suitable for young learners.",
+          "answer": "suitable",
+          "accepted": [
+            "suitable"
+          ],
+          "cloze": "This website is ________ for young learners."
+        },
+        {
+          "term": "issue",
+          "pos": "n.",
+          "definition": "an important subject or problem that people discuss",
+          "example": "The students discussed environmental issues.",
+          "answer": "issues",
+          "accepted": [
+            "issues"
+          ],
+          "cloze": "The students discussed environmental ________."
+        },
+        {
+          "term": "renewable energy",
+          "pos": "n.",
+          "definition": "power from sources that can be naturally replaced, such as sunlight",
+          "example": "Solar power is a form of renewable energy.",
+          "answer": "renewable energy",
+          "accepted": [
+            "renewable energy"
+          ],
+          "cloze": "Solar power is a form of ________."
+        },
+        {
+          "term": "amount",
+          "pos": "n.",
+          "definition": "a quantity of something",
+          "example": "A large amount of waste is produced every day.",
+          "answer": "amount",
+          "accepted": [
+            "amount"
+          ],
+          "cloze": "A large ________ of waste is produced every day."
+        },
+        {
+          "term": "process",
+          "pos": "n.",
+          "definition": "a series of actions taken to achieve a result",
+          "example": "The video shows the process of recycling glass.",
+          "answer": "process",
+          "accepted": [
+            "process"
+          ],
+          "cloze": "The video shows the ________ of recycling glass."
+        },
+        {
+          "term": "solution",
+          "pos": "n.",
+          "definition": "a way of solving a problem",
+          "example": "We need a solution to the problem of plastic waste.",
+          "answer": "solution",
+          "accepted": [
+            "solution"
+          ],
+          "cloze": "We need a ________ to the problem of plastic waste."
+        },
+        {
+          "term": "inform",
+          "pos": "v.",
+          "definition": "to tell someone facts or news about something",
+          "example": "The guide informed us about the museum's history.",
+          "answer": "informed",
+          "accepted": [
+            "informed"
+          ],
+          "cloze": "The guide ________ us about the museum's history."
+        },
+        {
+          "term": "protect",
+          "pos": "v.",
+          "definition": "to keep someone or something safe from harm",
+          "example": "We must protect wildlife and natural habitats.",
+          "answer": "protect",
+          "accepted": [
+            "protect"
+          ],
+          "cloze": "We must ________ wildlife and natural habitats."
+        },
+        {
+          "term": "professional",
+          "pos": "adj.",
+          "definition": "doing an activity as a paid job, especially one requiring particular skills",
+          "example": "He wants to become a professional basketball player.",
+          "answer": "professional",
+          "accepted": [
+            "professional"
+          ],
+          "cloze": "He wants to become a ________ basketball player."
+        },
+        {
+          "term": "opposite",
+          "pos": "adj.",
+          "definition": "completely different from something else",
+          "example": "The plan had the opposite effect from what we expected.",
+          "answer": "opposite",
+          "accepted": [
+            "opposite"
+          ],
+          "cloze": "The plan had the ________ effect from what we expected."
+        },
+        {
+          "term": "confident",
+          "pos": "adj.",
+          "definition": "feeling sure that you can do something well",
+          "example": "She felt more confident after practising.",
+          "answer": "confident",
+          "accepted": [
+            "confident"
+          ],
+          "cloze": "She felt more ________ after practising."
+        },
+        {
+          "term": "take part in",
+          "pos": "v. phr.",
+          "definition": "to join an activity or event",
+          "example": "Many students took part in the sports day.",
+          "answer": "took part in",
+          "accepted": [
+            "took part in"
+          ],
+          "cloze": "Many students ________ the sports day."
+        },
+        {
+          "term": "coach",
+          "pos": "n.",
+          "definition": "a person who trains people in a sport",
+          "example": "The coach gave the players useful advice.",
+          "answer": "coach",
+          "accepted": [
+            "coach"
+          ],
+          "cloze": "The ________ gave the players useful advice."
+        },
+        {
+          "term": "nervous",
+          "pos": "adj.",
+          "definition": "worried or afraid about something that may happen",
+          "example": "I was nervous before my first competition.",
+          "answer": "nervous",
+          "accepted": [
+            "nervous"
+          ],
+          "cloze": "I was ________ before my first competition."
+        },
+        {
+          "term": "specialist",
+          "pos": "adj.",
+          "definition": "having special knowledge or skills in one particular area",
+          "example": "She trained with a specialist basketball coach.",
+          "answer": "specialist",
+          "accepted": [
+            "specialist"
+          ],
+          "cloze": "She trained with a ________ basketball coach."
+        },
+        {
+          "term": "training",
+          "pos": "n.",
+          "definition": "the activity of practising or learning skills for a job or sport",
+          "example": "Regular training helped her improve.",
+          "answer": "training",
+          "accepted": [
+            "training"
+          ],
+          "cloze": "Regular ________ helped her improve."
+        },
+        {
+          "term": "abroad",
+          "pos": "adv.",
+          "definition": "in or to a country other than your own",
+          "example": "He moved abroad to continue his career.",
+          "answer": "abroad",
+          "accepted": [
+            "abroad"
+          ],
+          "cloze": "He moved ________ to continue his career."
+        },
+        {
+          "term": "progress",
+          "pos": "n.",
+          "definition": "development or improvement towards a goal",
+          "example": "The teacher was pleased with our progress.",
+          "answer": "progress",
+          "accepted": [
+            "progress"
+          ],
+          "cloze": "The teacher was pleased with our ________."
+        },
+        {
+          "term": "performance",
+          "pos": "n.",
+          "definition": "how well someone does a task, activity or sport",
+          "example": "Her performance improved during the season.",
+          "answer": "performance",
+          "accepted": [
+            "performance"
+          ],
+          "cloze": "Her ________ improved during the season."
+        },
+        {
+          "term": "regret",
+          "pos": "v.",
+          "definition": "to feel sorry about something you did or did not do",
+          "example": "He regretted not joining the team sooner.",
+          "answer": "regretted",
+          "accepted": [
+            "regretted"
+          ],
+          "cloze": "He ________ not joining the team sooner."
+        },
+        {
+          "term": "balloon flight",
+          "pos": "n.",
+          "definition": "a journey through the air in a large balloon",
+          "example": "We went on a balloon flight during our holiday.",
+          "answer": "balloon flight",
+          "accepted": [
+            "balloon flight"
+          ],
+          "cloze": "We went on a ________ during our holiday."
+        },
+        {
+          "term": "cluster ballooning",
+          "pos": "n.",
+          "definition": "flying with several balloons tied together to carry a person",
+          "example": "Cluster ballooning uses many smaller balloons.",
+          "answer": "Cluster ballooning",
+          "accepted": [
+            "Cluster ballooning"
+          ],
+          "cloze": "________ uses many smaller balloons."
+        },
+        {
+          "term": "float",
+          "pos": "v.",
+          "definition": "to stay on the surface of water or move gently through the air",
+          "example": "The balloons floated slowly above the fields.",
+          "answer": "floated",
+          "accepted": [
+            "floated"
+          ],
+          "cloze": "The balloons ________ slowly above the fields."
+        },
+        {
+          "term": "attach",
+          "pos": "v.",
+          "definition": "to fasten or connect one thing to another",
+          "example": "The balloons were attached to a chair.",
+          "answer": "attached",
+          "accepted": [
+            "attached"
+          ],
+          "cloze": "The balloons were ________ to a chair."
+        },
+        {
+          "term": "helium",
+          "pos": "n.",
+          "definition": "a very light gas often used to fill balloons",
+          "example": "The balloons were filled with helium.",
+          "answer": "helium",
+          "accepted": [
+            "helium"
+          ],
+          "cloze": "The balloons were filled with ________."
+        },
+        {
+          "term": "mountain range",
+          "pos": "n.",
+          "definition": "a long group of mountains close to one another",
+          "example": "We could see a beautiful mountain range in the distance.",
+          "answer": "mountain range",
+          "accepted": [
+            "mountain range"
+          ],
+          "cloze": "We could see a beautiful ________ in the distance."
+        },
+        {
+          "term": "land safely",
+          "pos": "v. phr.",
+          "definition": "to come down to the ground safely after a flight",
+          "example": "The pilot managed to land safely.",
+          "answer": "land safely",
+          "accepted": [
+            "land safely"
+          ],
+          "cloze": "The pilot managed to ________."
+        },
+        {
+          "term": "licence",
+          "pos": "n.",
+          "definition": "official permission to do or use something",
+          "example": "He needed a licence to fly the balloon.",
+          "answer": "licence",
+          "accepted": [
+            "licence",
+            "license"
+          ],
+          "cloze": "He needed a ________ to fly the balloon."
+        },
+        {
+          "term": "discover",
+          "pos": "v.",
+          "definition": "to find something or learn about it for the first time",
+          "example": "Scientists discovered an unusual type of whale.",
+          "answer": "discovered",
+          "accepted": [
+            "discovered"
+          ],
+          "cloze": "Scientists ________ an unusual type of whale."
+        },
+        {
+          "term": "communicate",
+          "pos": "v.",
+          "definition": "to share information or ideas with other people",
+          "example": "Whales can communicate through sounds.",
+          "answer": "communicate",
+          "accepted": [
+            "communicate"
+          ],
+          "cloze": "Whales can ________ through sounds."
+        },
+        {
+          "term": "intelligent",
+          "pos": "adj.",
+          "definition": "able to learn, understand and think well",
+          "example": "Dolphins are highly intelligent animals.",
+          "answer": "intelligent",
+          "accepted": [
+            "intelligent"
+          ],
+          "cloze": "Dolphins are highly ________ animals."
+        },
+        {
+          "term": "amazed",
+          "pos": "adj.",
+          "definition": "very surprised, especially by something impressive",
+          "example": "The audience was amazed by the singer's voice.",
+          "answer": "amazed",
+          "accepted": [
+            "amazed"
+          ],
+          "cloze": "The audience was ________ by the singer's voice."
+        },
+        {
+          "term": "ancient",
+          "pos": "adj.",
+          "definition": "belonging to a time very long ago",
+          "example": "People once believed many ancient stories about the sea.",
+          "answer": "ancient",
+          "accepted": [
+            "ancient"
+          ],
+          "cloze": "People once believed many ________ stories about the sea."
+        },
+        {
+          "term": "recording",
+          "pos": "n.",
+          "definition": "a sound or video that has been saved so it can be played again",
+          "example": "The scientists listened to recordings of whale songs.",
+          "answer": "recordings",
+          "accepted": [
+            "recordings"
+          ],
+          "cloze": "The scientists listened to ________ of whale songs."
+        },
+        {
+          "term": "creature",
+          "pos": "n.",
+          "definition": "a living thing, especially an animal",
+          "example": "The film is about strange creatures living underwater.",
+          "answer": "creatures",
+          "accepted": [
+            "creatures"
+          ],
+          "cloze": "The film is about strange ________ living underwater."
+        },
+        {
+          "term": "on my own",
+          "pos": "phr.",
+          "definition": "without help from anyone else; alone",
+          "example": "I travelled to the city on my own.",
+          "answer": "on my own",
+          "accepted": [
+            "on my own"
+          ],
+          "cloze": "I travelled to the city ________."
+        },
+        {
+          "term": "explore",
+          "pos": "v.",
+          "definition": "to travel around a place to learn more about it",
+          "example": "We spent the afternoon exploring the old town.",
+          "answer": "exploring",
+          "accepted": [
+            "exploring"
+          ],
+          "cloze": "We spent the afternoon ________ the old town."
+        },
+        {
+          "term": "familiar with",
+          "pos": "adj.",
+          "definition": "knowing something well because you have seen or experienced it before",
+          "example": "The tour helped me become familiar with the city.",
+          "answer": "familiar with",
+          "accepted": [
+            "familiar with"
+          ],
+          "cloze": "The tour helped me become ________ the city."
+        },
+        {
+          "term": "unfortunately",
+          "pos": "adv.",
+          "definition": "used to say that something bad or disappointing has happened",
+          "example": "Unfortunately, it rained during our trip.",
+          "answer": "Unfortunately",
+          "accepted": [
+            "Unfortunately"
+          ],
+          "cloze": "________, it rained during our trip."
+        },
+        {
+          "term": "fantastic",
+          "pos": "adj.",
+          "definition": "extremely good or enjoyable",
+          "example": "The walking tour was absolutely fantastic.",
+          "answer": "fantastic",
+          "accepted": [
+            "fantastic"
+          ],
+          "cloze": "The walking tour was absolutely ________."
+        },
+        {
+          "term": "suggestion",
+          "pos": "n.",
+          "definition": "an idea or plan that someone offers for consideration",
+          "example": "The guide gave us suggestions for places to visit.",
+          "answer": "suggestions",
+          "accepted": [
+            "suggestions"
+          ],
+          "cloze": "The guide gave us ________ for places to visit."
+        }
+      ]
+    },
+    {
+      "test": 3,
+      "words": [
+        {
+          "term": "traditional",
+          "pos": "adj.",
+          "definition": "following customs or ways of doing things from the past",
+          "example": "They bought a traditional wooden table.",
+          "answer": "traditional",
+          "accepted": [
+            "traditional"
+          ],
+          "cloze": "They bought a ________ wooden table."
+        },
+        {
+          "term": "damage",
+          "pos": "n.",
+          "definition": "harm or a bad change caused to something; to cause such harm",
+          "example": "The storm caused serious damage to the roof.",
+          "answer": "damage",
+          "accepted": [
+            "damage"
+          ],
+          "cloze": "The storm caused serious ________ to the roof."
+        },
+        {
+          "term": "equipment",
+          "pos": "n.",
+          "definition": "things or tools needed for a particular activity",
+          "example": "You must bring your own sports equipment.",
+          "answer": "equipment",
+          "accepted": [
+            "equipment"
+          ],
+          "cloze": "You must bring your own sports ________."
+        },
+        {
+          "term": "membership",
+          "pos": "n.",
+          "definition": "the state of belonging to a club or organisation",
+          "example": "Club membership is free for students.",
+          "answer": "membership",
+          "accepted": [
+            "membership"
+          ],
+          "cloze": "Club ________ is free for students."
+        },
+        {
+          "term": "reception",
+          "pos": "n.",
+          "definition": "the place or desk where visitors are welcomed and helped",
+          "example": "Ask at reception if you need more information.",
+          "answer": "reception",
+          "accepted": [
+            "reception"
+          ],
+          "cloze": "Ask at ________ if you need more information."
+        },
+        {
+          "term": "encourage",
+          "pos": "v.",
+          "definition": "to give someone support or confidence to do something",
+          "example": "Her friends encouraged her to join the running club.",
+          "answer": "encouraged",
+          "accepted": [
+            "encouraged"
+          ],
+          "cloze": "Her friends ________ her to join the running club."
+        },
+        {
+          "term": "inspire",
+          "pos": "v.",
+          "definition": "to make someone want to do or create something",
+          "example": "Famous paintings can inspire young artists.",
+          "answer": "inspire",
+          "accepted": [
+            "inspire"
+          ],
+          "cloze": "Famous paintings can ________ young artists."
+        },
+        {
+          "term": "research",
+          "pos": "n.",
+          "definition": "a careful study to discover facts or learn more about something",
+          "example": "Students need to do some research before the next lesson.",
+          "answer": "research",
+          "accepted": [
+            "research"
+          ],
+          "cloze": "Students need to do some ________ before the next lesson."
+        },
+        {
+          "term": "historical event",
+          "pos": "n.",
+          "definition": "an important occurrence that happened in the past",
+          "example": "The castle was the site of an important historical event.",
+          "answer": "historical event",
+          "accepted": [
+            "historical event"
+          ],
+          "cloze": "The castle was the site of an important ________."
+        },
+        {
+          "term": "coast",
+          "pos": "n.",
+          "definition": "the land next to the sea",
+          "example": "The old castle stands near the coast.",
+          "answer": "coast",
+          "accepted": [
+            "coast"
+          ],
+          "cloze": "The old castle stands near the ________."
+        },
+        {
+          "term": "guided tour",
+          "pos": "n.",
+          "definition": "a visit around a place with someone who explains it",
+          "example": "We joined a guided tour of the castle.",
+          "answer": "guided tour",
+          "accepted": [
+            "guided tour"
+          ],
+          "cloze": "We joined a ________ of the castle."
+        },
+        {
+          "term": "antique",
+          "pos": "adj.",
+          "definition": "old and often valuable, especially because of age",
+          "example": "The museum displays antique clocks and tables.",
+          "answer": "antique",
+          "accepted": [
+            "antique"
+          ],
+          "cloze": "The museum displays ________ clocks and tables."
+        },
+        {
+          "term": "atmosphere",
+          "pos": "n.",
+          "definition": "the general feeling or mood of a place or event",
+          "example": "The old streets have a wonderful historical atmosphere.",
+          "answer": "atmosphere",
+          "accepted": [
+            "atmosphere"
+          ],
+          "cloze": "The old streets have a wonderful historical ________."
+        },
+        {
+          "term": "costume",
+          "pos": "n.",
+          "definition": "clothes worn to look like someone from another time or story",
+          "example": "The guides wore traditional costumes.",
+          "answer": "costumes",
+          "accepted": [
+            "costumes"
+          ],
+          "cloze": "The guides wore traditional ________."
+        },
+        {
+          "term": "ruins",
+          "pos": "n.",
+          "definition": "the broken parts of a building that remain from the past",
+          "example": "We explored the ruins of an ancient castle.",
+          "answer": "ruins",
+          "accepted": [
+            "ruins"
+          ],
+          "cloze": "We explored the ________ of an ancient castle."
+        },
+        {
+          "term": "wildlife",
+          "pos": "n.",
+          "definition": "animals and plants living naturally in the wild",
+          "example": "The area is home to a wide variety of wildlife.",
+          "answer": "wildlife",
+          "accepted": [
+            "wildlife"
+          ],
+          "cloze": "The area is home to a wide variety of ________."
+        },
+        {
+          "term": "valuable",
+          "pos": "adj.",
+          "definition": "worth a lot of money or very useful or important",
+          "example": "The museum has several valuable paintings.",
+          "answer": "valuable",
+          "accepted": [
+            "valuable"
+          ],
+          "cloze": "The museum has several ________ paintings."
+        },
+        {
+          "term": "secret tunnel",
+          "pos": "n.",
+          "definition": "a hidden passage built underground or through a structure",
+          "example": "The castle has a secret tunnel leading to the beach.",
+          "answer": "secret tunnel",
+          "accepted": [
+            "secret tunnel"
+          ],
+          "cloze": "The castle has a ________ leading to the beach."
+        },
+        {
+          "term": "beneath",
+          "pos": "prep.",
+          "definition": "directly under something",
+          "example": "The underground rooms are beneath the main building.",
+          "answer": "beneath",
+          "accepted": [
+            "beneath"
+          ],
+          "cloze": "The underground rooms are ________ the main building."
+        },
+        {
+          "term": "admire",
+          "pos": "v.",
+          "definition": "to look at something with pleasure or respect",
+          "example": "Visitors can admire the gardens from the castle walls.",
+          "answer": "admire",
+          "accepted": [
+            "admire"
+          ],
+          "cloze": "Visitors can ________ the gardens from the castle walls."
+        },
+        {
+          "term": "medieval",
+          "pos": "adj.",
+          "definition": "connected with the Middle Ages in European history",
+          "example": "The exhibition shows how people lived in medieval times.",
+          "answer": "medieval",
+          "accepted": [
+            "medieval"
+          ],
+          "cloze": "The exhibition shows how people lived in ________ times."
+        },
+        {
+          "term": "original",
+          "pos": "adj.",
+          "definition": "existing from the beginning; not a copy or replacement",
+          "example": "The castle still has its original furniture.",
+          "answer": "original",
+          "accepted": [
+            "original"
+          ],
+          "cloze": "The castle still has its ________ furniture."
+        },
+        {
+          "term": "generation",
+          "pos": "n.",
+          "definition": "a group of people born at about the same time",
+          "example": "The portraits show several generations of one family.",
+          "answer": "generations",
+          "accepted": [
+            "generations"
+          ],
+          "cloze": "The portraits show several ________ of one family."
+        },
+        {
+          "term": "portrait",
+          "pos": "n.",
+          "definition": "a painting, drawing or photograph of a person",
+          "example": "An old portrait hangs above the fireplace.",
+          "answer": "portrait",
+          "accepted": [
+            "portrait"
+          ],
+          "cloze": "An old ________ hangs above the fireplace."
+        },
+        {
+          "term": "ancient",
+          "pos": "adj.",
+          "definition": "very old; from a time long ago",
+          "example": "They visited the ruins of an ancient castle.",
+          "answer": "ancient",
+          "accepted": [
+            "ancient"
+          ],
+          "cloze": "They visited the ruins of an ________ castle."
+        },
+        {
+          "term": "traditional building",
+          "pos": "n.",
+          "definition": "a structure built in a style or method used for many years",
+          "example": "The guide explained how traditional buildings were constructed.",
+          "answer": "traditional buildings",
+          "accepted": [
+            "traditional buildings"
+          ],
+          "cloze": "The guide explained how ________ were constructed."
+        },
+        {
+          "term": "unchanged",
+          "pos": "adj.",
+          "definition": "remaining the same without any changes",
+          "example": "The rooms have remained unchanged for centuries.",
+          "answer": "unchanged",
+          "accepted": [
+            "unchanged"
+          ],
+          "cloze": "The rooms have remained ________ for centuries."
+        },
+        {
+          "term": "countryside",
+          "pos": "n.",
+          "definition": "the land and villages outside towns and cities",
+          "example": "The castle is surrounded by beautiful countryside.",
+          "answer": "countryside",
+          "accepted": [
+            "countryside"
+          ],
+          "cloze": "The castle is surrounded by beautiful ________."
+        },
+        {
+          "term": "attraction",
+          "pos": "n.",
+          "definition": "a place that people want to visit because it is interesting",
+          "example": "The castle is a popular tourist attraction.",
+          "answer": "attraction",
+          "accepted": [
+            "attraction"
+          ],
+          "cloze": "The castle is a popular tourist ________."
+        },
+        {
+          "term": "singer-songwriter",
+          "pos": "n.",
+          "definition": "a singer who writes the songs they perform",
+          "example": "The singer-songwriter performed her own songs.",
+          "answer": "singer-songwriter",
+          "accepted": [
+            "singer-songwriter"
+          ],
+          "cloze": "The ________ performed her own songs."
+        },
+        {
+          "term": "musician",
+          "pos": "n.",
+          "definition": "a person who plays or creates music",
+          "example": "Several musicians took part in the concert.",
+          "answer": "musicians",
+          "accepted": [
+            "musicians"
+          ],
+          "cloze": "Several ________ took part in the concert."
+        },
+        {
+          "term": "audience",
+          "pos": "n.",
+          "definition": "the people watching or listening to a performance",
+          "example": "She was nervous about singing in front of an audience.",
+          "answer": "audience",
+          "accepted": [
+            "audience"
+          ],
+          "cloze": "She was nervous about singing in front of an ________."
+        },
+        {
+          "term": "confidence",
+          "pos": "n.",
+          "definition": "the feeling that you can do something successfully",
+          "example": "Performing regularly helped her build confidence.",
+          "answer": "confidence",
+          "accepted": [
+            "confidence"
+          ],
+          "cloze": "Performing regularly helped her build ________."
+        },
+        {
+          "term": "songwriting",
+          "pos": "n.",
+          "definition": "the activity or skill of writing songs",
+          "example": "She took a course in songwriting.",
+          "answer": "songwriting",
+          "accepted": [
+            "songwriting"
+          ],
+          "cloze": "She took a course in ________."
+        },
+        {
+          "term": "lyrics",
+          "pos": "n.",
+          "definition": "the words of a song",
+          "example": "The lyrics describe a difficult time in her life.",
+          "answer": "lyrics",
+          "accepted": [
+            "lyrics"
+          ],
+          "cloze": "The ________ describe a difficult time in her life."
+        },
+        {
+          "term": "delighted",
+          "pos": "adj.",
+          "definition": "very pleased or happy about something",
+          "example": "She was delighted when the company contacted her.",
+          "answer": "delighted",
+          "accepted": [
+            "delighted"
+          ],
+          "cloze": "She was ________ when the company contacted her."
+        },
+        {
+          "term": "arrange",
+          "pos": "v.",
+          "definition": "to plan or organise an event or activity",
+          "example": "The company arranged a concert for the new singer.",
+          "answer": "arranged",
+          "accepted": [
+            "arranged"
+          ],
+          "cloze": "The company ________ a concert for the new singer."
+        },
+        {
+          "term": "personal experience",
+          "pos": "n.",
+          "definition": "a thing that happened to someone in their own life",
+          "example": "The writer uses personal experiences in her stories.",
+          "answer": "personal experiences",
+          "accepted": [
+            "personal experiences"
+          ],
+          "cloze": "The writer uses ________ in her stories."
+        },
+        {
+          "term": "cyclist",
+          "pos": "n.",
+          "definition": "a person who rides a bicycle, especially for sport",
+          "example": "The cyclists travelled across the desert.",
+          "answer": "cyclists",
+          "accepted": [
+            "cyclists"
+          ],
+          "cloze": "The ________ travelled across the desert."
+        },
+        {
+          "term": "mechanic",
+          "pos": "n.",
+          "definition": "a person whose job is to repair machines or vehicles",
+          "example": "A mechanic checked their bikes before the ride.",
+          "answer": "mechanic",
+          "accepted": [
+            "mechanic"
+          ],
+          "cloze": "A ________ checked their bikes before the ride."
+        },
+        {
+          "term": "accommodation",
+          "pos": "n.",
+          "definition": "a place to live or stay, especially during a trip",
+          "example": "The company provided accommodation for the cyclists.",
+          "answer": "accommodation",
+          "accepted": [
+            "accommodation"
+          ],
+          "cloze": "The company provided ________ for the cyclists."
+        },
+        {
+          "term": "route",
+          "pos": "n.",
+          "definition": "the way or path taken to get from one place to another",
+          "example": "The cyclists planned their route carefully.",
+          "answer": "route",
+          "accepted": [
+            "route"
+          ],
+          "cloze": "The cyclists planned their ________ carefully."
+        },
+        {
+          "term": "effort",
+          "pos": "n.",
+          "definition": "hard work or energy needed to do something",
+          "example": "The long ride required a huge amount of effort.",
+          "answer": "effort",
+          "accepted": [
+            "effort"
+          ],
+          "cloze": "The long ride required a huge amount of ________."
+        },
+        {
+          "term": "recover",
+          "pos": "v.",
+          "definition": "to become healthy or strong again after illness or hard activity",
+          "example": "He needed a day to recover after the race.",
+          "answer": "recover",
+          "accepted": [
+            "recover"
+          ],
+          "cloze": "He needed a day to ________ after the race."
+        },
+        {
+          "term": "reduce",
+          "pos": "v.",
+          "definition": "to make something less in size, amount or degree",
+          "example": "The doctor advised him to reduce his training time.",
+          "answer": "reduce",
+          "accepted": [
+            "reduce"
+          ],
+          "cloze": "The doctor advised him to ________ his training time."
+        },
+        {
+          "term": "tough",
+          "pos": "adj.",
+          "definition": "very difficult and needing a lot of effort",
+          "example": "It was a tough journey through the mountains.",
+          "answer": "tough",
+          "accepted": [
+            "tough"
+          ],
+          "cloze": "It was a ________ journey through the mountains."
+        },
+        {
+          "term": "climb",
+          "pos": "v.",
+          "definition": "to go up a mountain, hill or other high place",
+          "example": "The cyclists had to climb a steep mountain road.",
+          "answer": "climb",
+          "accepted": [
+            "climb"
+          ],
+          "cloze": "The cyclists had to ________ a steep mountain road."
+        },
+        {
+          "term": "temperature",
+          "pos": "n.",
+          "definition": "a measure of how hot or cold something is",
+          "example": "Temperatures in the desert were extremely high.",
+          "answer": "Temperatures",
+          "accepted": [
+            "Temperatures"
+          ],
+          "cloze": "________ in the desert were extremely high."
+        },
+        {
+          "term": "electronic device",
+          "pos": "n.",
+          "definition": "a piece of equipment that works using electricity or computer technology",
+          "example": "They used electronic devices to record the route.",
+          "answer": "electronic devices",
+          "accepted": [
+            "electronic devices"
+          ],
+          "cloze": "They used ________ to record the route."
+        },
+        {
+          "term": "disappointed",
+          "pos": "adj.",
+          "definition": "unhappy because something was not as good as hoped",
+          "example": "At first, the cyclists were disappointed by their progress.",
+          "answer": "disappointed",
+          "accepted": [
+            "disappointed"
+          ],
+          "cloze": "At first, the cyclists were ________ by their progress."
+        },
+        {
+          "term": "achieve",
+          "pos": "v.",
+          "definition": "to succeed in reaching a goal through effort",
+          "example": "She felt proud of what she had achieved.",
+          "answer": "achieved",
+          "accepted": [
+            "achieved"
+          ],
+          "cloze": "She felt proud of what she had ________."
+        },
+        {
+          "term": "produce",
+          "pos": "v.",
+          "definition": "to make or create something",
+          "example": "Bees produce honey from the flowers they visit.",
+          "answer": "produce",
+          "accepted": [
+            "produce"
+          ],
+          "cloze": "Bees ________ honey from the flowers they visit."
+        },
+        {
+          "term": "accurately",
+          "pos": "adv.",
+          "definition": "correctly and without mistakes",
+          "example": "The machine measures the temperature accurately.",
+          "answer": "accurately",
+          "accepted": [
+            "accurately"
+          ],
+          "cloze": "The machine measures the temperature ________."
+        },
+        {
+          "term": "variety",
+          "pos": "n.",
+          "definition": "a number of different types of something",
+          "example": "The shop sells a wide variety of honey.",
+          "answer": "variety",
+          "accepted": [
+            "variety"
+          ],
+          "cloze": "The shop sells a wide ________ of honey."
+        },
+        {
+          "term": "cure",
+          "pos": "v.",
+          "definition": "to make an illness or medical problem go away",
+          "example": "People once believed honey could cure many illnesses.",
+          "answer": "cure",
+          "accepted": [
+            "cure"
+          ],
+          "cloze": "People once believed honey could ________ many illnesses."
+        },
+        {
+          "term": "sore throat",
+          "pos": "n.",
+          "definition": "pain or discomfort in your throat",
+          "example": "A little honey may help soothe a sore throat.",
+          "answer": "sore throat",
+          "accepted": [
+            "sore throat"
+          ],
+          "cloze": "A little honey may help soothe a ________."
+        },
+        {
+          "term": "plenty of",
+          "pos": "phr.",
+          "definition": "a large amount or number of something",
+          "example": "There are plenty of clubs for new students to join.",
+          "answer": "plenty of",
+          "accepted": [
+            "plenty of"
+          ],
+          "cloze": "There are ________ clubs for new students to join."
+        }
+      ]
+    },
+    {
+      "test": 4,
+      "words": [
+        {
+          "term": "arrangement",
+          "pos": "n.",
+          "definition": "a plan or agreement about what people will do",
+          "example": "They changed their arrangements because of the weather.",
+          "answer": "arrangements",
+          "accepted": [
+            "arrangements"
+          ],
+          "cloze": "They changed their ________ because of the weather."
+        },
+        {
+          "term": "remind",
+          "pos": "v.",
+          "definition": "to make someone remember something they need to do",
+          "example": "Please remind me to bring my notebook tomorrow.",
+          "answer": "remind",
+          "accepted": [
+            "remind"
+          ],
+          "cloze": "Please ________ me to bring my notebook tomorrow."
+        },
+        {
+          "term": "careers talk",
+          "pos": "n.",
+          "definition": "a presentation that gives students information about jobs and careers",
+          "example": "The students attended a careers talk about their first jobs.",
+          "answer": "careers talk",
+          "accepted": [
+            "careers talk"
+          ],
+          "cloze": "The students attended a ________ about their first jobs."
+        },
+        {
+          "term": "register",
+          "pos": "v.",
+          "definition": "to put your name on an official list to join an activity",
+          "example": "You need to register before the event begins.",
+          "answer": "register",
+          "accepted": [
+            "register"
+          ],
+          "cloze": "You need to ________ before the event begins."
+        },
+        {
+          "term": "limited",
+          "pos": "adj.",
+          "definition": "not large in number, amount or size",
+          "example": "Places on the course are limited.",
+          "answer": "limited",
+          "accepted": [
+            "limited"
+          ],
+          "cloze": "Places on the course are ________."
+        },
+        {
+          "term": "recycling centre",
+          "pos": "n.",
+          "definition": "a place where used materials are collected and prepared for recycling",
+          "example": "We took our old bottles to the recycling centre.",
+          "answer": "recycling centre",
+          "accepted": [
+            "recycling centre",
+            "recycling center"
+          ],
+          "cloze": "We took our old bottles to the ________."
+        },
+        {
+          "term": "separate",
+          "pos": "v.",
+          "definition": "to divide things into different groups or keep them apart",
+          "example": "Please separate paper from plastic waste.",
+          "answer": "separate",
+          "accepted": [
+            "separate"
+          ],
+          "cloze": "Please ________ paper from plastic waste."
+        },
+        {
+          "term": "ingredient",
+          "pos": "n.",
+          "definition": "one of the foods used to make a dish",
+          "example": "Ask the waiter about the ingredients in the meal.",
+          "answer": "ingredients",
+          "accepted": [
+            "ingredients"
+          ],
+          "cloze": "Ask the waiter about the ________ in the meal."
+        },
+        {
+          "term": "lead role",
+          "pos": "n.",
+          "definition": "one of the most important parts played by an actor",
+          "example": "The actor played the lead role in the musical.",
+          "answer": "lead role",
+          "accepted": [
+            "lead role"
+          ],
+          "cloze": "The actor played the ________ in the musical."
+        },
+        {
+          "term": "based on",
+          "pos": "phr.",
+          "definition": "developed from a book, real event or other original source",
+          "example": "The show is based on a popular novel.",
+          "answer": "based on",
+          "accepted": [
+            "based on"
+          ],
+          "cloze": "The show is ________ a popular novel."
+        },
+        {
+          "term": "contain",
+          "pos": "v.",
+          "definition": "to have something inside or as part of a whole",
+          "example": "The musical contains songs in different styles.",
+          "answer": "contains",
+          "accepted": [
+            "contains"
+          ],
+          "cloze": "The musical ________ songs in different styles."
+        },
+        {
+          "term": "frightening",
+          "pos": "adj.",
+          "definition": "making you feel afraid",
+          "example": "Some scenes in the play were quite frightening.",
+          "answer": "frightening",
+          "accepted": [
+            "frightening"
+          ],
+          "cloze": "Some scenes in the play were quite ________."
+        },
+        {
+          "term": "realistic",
+          "pos": "adj.",
+          "definition": "often looking or seeming like real life",
+          "example": "The costumes made the historical scenes look realistic.",
+          "answer": "realistic",
+          "accepted": [
+            "realistic"
+          ],
+          "cloze": "The costumes made the historical scenes look ________."
+        },
+        {
+          "term": "special effects",
+          "pos": "n.",
+          "definition": "effects created with technology or equipment to make scenes seem real",
+          "example": "The show used special effects to create a storm.",
+          "answer": "special effects",
+          "accepted": [
+            "special effects"
+          ],
+          "cloze": "The show used ________ to create a storm."
+        },
+        {
+          "term": "unusual",
+          "pos": "adj.",
+          "definition": "not common or different from what is expected",
+          "example": "The performance took place in an unusual location.",
+          "answer": "unusual",
+          "accepted": [
+            "unusual"
+          ],
+          "cloze": "The performance took place in an ________ location."
+        },
+        {
+          "term": "well-known",
+          "pos": "adj.",
+          "definition": "known by many people",
+          "example": "A well-known musician wrote the songs.",
+          "answer": "well-known",
+          "accepted": [
+            "well-known"
+          ],
+          "cloze": "A ________ musician wrote the songs."
+        },
+        {
+          "term": "a range of",
+          "pos": "phr.",
+          "definition": "several different kinds of something",
+          "example": "The show includes a range of musical styles.",
+          "answer": "a range of",
+          "accepted": [
+            "a range of"
+          ],
+          "cloze": "The show includes ________ musical styles."
+        },
+        {
+          "term": "fiction",
+          "pos": "n.",
+          "definition": "stories about people or events that are invented, not true",
+          "example": "The story is a work of fiction.",
+          "answer": "fiction",
+          "accepted": [
+            "fiction"
+          ],
+          "cloze": "The story is a work of ________."
+        },
+        {
+          "term": "amateur",
+          "pos": "adj.",
+          "definition": "doing an activity for enjoyment rather than as a paid job",
+          "example": "An amateur dancer appeared in the show.",
+          "answer": "amateur",
+          "accepted": [
+            "amateur"
+          ],
+          "cloze": "An ________ dancer appeared in the show."
+        },
+        {
+          "term": "professional",
+          "pos": "adj.",
+          "definition": "doing an activity as a paid job or with expert skill",
+          "example": "The professional actors gave an excellent performance.",
+          "answer": "professional",
+          "accepted": [
+            "professional"
+          ],
+          "cloze": "The ________ actors gave an excellent performance."
+        },
+        {
+          "term": "atmosphere",
+          "pos": "n.",
+          "definition": "the general feeling or mood in a place",
+          "example": "The music created a friendly atmosphere.",
+          "answer": "atmosphere",
+          "accepted": [
+            "atmosphere"
+          ],
+          "cloze": "The music created a friendly ________."
+        },
+        {
+          "term": "character",
+          "pos": "n.",
+          "definition": "a person in a story, film or play",
+          "example": "The main character dreams of becoming famous.",
+          "answer": "character",
+          "accepted": [
+            "character"
+          ],
+          "cloze": "The main ________ dreams of becoming famous."
+        },
+        {
+          "term": "hilarious",
+          "pos": "adj.",
+          "definition": "extremely funny",
+          "example": "The comedy was hilarious from beginning to end.",
+          "answer": "hilarious",
+          "accepted": [
+            "hilarious"
+          ],
+          "cloze": "The comedy was ________ from beginning to end."
+        },
+        {
+          "term": "performance",
+          "pos": "n.",
+          "definition": "a show or the act of singing, acting or playing music for people",
+          "example": "The audience enjoyed the final performance.",
+          "answer": "performance",
+          "accepted": [
+            "performance"
+          ],
+          "cloze": "The audience enjoyed the final ________."
+        },
+        {
+          "term": "comedy",
+          "pos": "n.",
+          "definition": "a play, film or show that is meant to make people laugh",
+          "example": "The comedy made everyone laugh.",
+          "answer": "comedy",
+          "accepted": [
+            "comedy"
+          ],
+          "cloze": "The ________ made everyone laugh."
+        },
+        {
+          "term": "entertaining",
+          "pos": "adj.",
+          "definition": "enjoyable and interesting to watch or listen to",
+          "example": "The show was both funny and entertaining.",
+          "answer": "entertaining",
+          "accepted": [
+            "entertaining"
+          ],
+          "cloze": "The show was both funny and ________."
+        },
+        {
+          "term": "advertise",
+          "pos": "v.",
+          "definition": "to tell people publicly about a product or event to attract interest",
+          "example": "The theatre advertised its new musical online.",
+          "answer": "advertised",
+          "accepted": [
+            "advertised"
+          ],
+          "cloze": "The theatre ________ its new musical online."
+        },
+        {
+          "term": "variety",
+          "pos": "n.",
+          "definition": "a number of different types of something",
+          "example": "The festival offers a variety of performances.",
+          "answer": "variety",
+          "accepted": [
+            "variety"
+          ],
+          "cloze": "The festival offers a ________ of performances."
+        },
+        {
+          "term": "guided tour",
+          "pos": "n.",
+          "definition": "a visit around a place with someone who explains it",
+          "example": "We joined a guided tour along the coast.",
+          "answer": "guided tour",
+          "accepted": [
+            "guided tour"
+          ],
+          "cloze": "We joined a ________ along the coast."
+        },
+        {
+          "term": "definitely",
+          "pos": "adv.",
+          "definition": "without doubt; certainly",
+          "example": "I will definitely visit Canada again.",
+          "answer": "definitely",
+          "accepted": [
+            "definitely"
+          ],
+          "cloze": "I will ________ visit Canada again."
+        },
+        {
+          "term": "eventually",
+          "pos": "adv.",
+          "definition": "after a long time or a series of events",
+          "example": "After several delays, we eventually left the harbour.",
+          "answer": "eventually",
+          "accepted": [
+            "eventually"
+          ],
+          "cloze": "After several delays, we ________ left the harbour."
+        },
+        {
+          "term": "crowded",
+          "pos": "adj.",
+          "definition": "full of people, with little space left",
+          "example": "The boat was crowded with tourists.",
+          "answer": "crowded",
+          "accepted": [
+            "crowded"
+          ],
+          "cloze": "The boat was ________ with tourists."
+        },
+        {
+          "term": "forecast",
+          "pos": "n.",
+          "definition": "a statement about what is expected to happen, especially the weather",
+          "example": "The weather forecast predicted strong winds.",
+          "answer": "forecast",
+          "accepted": [
+            "forecast"
+          ],
+          "cloze": "The weather ________ predicted strong winds."
+        },
+        {
+          "term": "limited supplies",
+          "pos": "n.",
+          "definition": "only a small amount of necessary things or materials available",
+          "example": "We packed limited supplies for the boat trip.",
+          "answer": "limited supplies",
+          "accepted": [
+            "limited supplies"
+          ],
+          "cloze": "We packed ________ for the boat trip."
+        },
+        {
+          "term": "delighted",
+          "pos": "adj.",
+          "definition": "very pleased or happy about something",
+          "example": "The visitors were delighted to see dolphins.",
+          "answer": "delighted",
+          "accepted": [
+            "delighted"
+          ],
+          "cloze": "The visitors were ________ to see dolphins."
+        },
+        {
+          "term": "admire",
+          "pos": "v.",
+          "definition": "to look at something with pleasure or respect",
+          "example": "We stopped to admire the beautiful coast.",
+          "answer": "admire",
+          "accepted": [
+            "admire"
+          ],
+          "cloze": "We stopped to ________ the beautiful coast."
+        },
+        {
+          "term": "fascinating",
+          "pos": "adj.",
+          "definition": "extremely interesting or attractive",
+          "example": "The guide told us fascinating stories about the area.",
+          "answer": "fascinating",
+          "accepted": [
+            "fascinating"
+          ],
+          "cloze": "The guide told us ________ stories about the area."
+        },
+        {
+          "term": "recognise",
+          "pos": "v.",
+          "definition": "to know someone or something because you have seen them before",
+          "example": "I couldn't recognise the town after so many years.",
+          "answer": "recognise",
+          "accepted": [
+            "recognise",
+            "recognize"
+          ],
+          "cloze": "I couldn't ________ the town after so many years."
+        },
+        {
+          "term": "adventure",
+          "pos": "n.",
+          "definition": "an exciting or unusual experience that may involve some risk",
+          "example": "Our holiday in Canada was a wonderful adventure.",
+          "answer": "adventure",
+          "accepted": [
+            "adventure"
+          ],
+          "cloze": "Our holiday in Canada was a wonderful ________."
+        },
+        {
+          "term": "industrial",
+          "pos": "adj.",
+          "definition": "connected with factories and the production of goods",
+          "example": "The museum is located in an industrial area.",
+          "answer": "industrial",
+          "accepted": [
+            "industrial"
+          ],
+          "cloze": "The museum is located in an ________ area."
+        },
+        {
+          "term": "deliver",
+          "pos": "v.",
+          "definition": "to take something to a person or place",
+          "example": "Large trucks deliver rubbish to the recycling centre.",
+          "answer": "deliver",
+          "accepted": [
+            "deliver"
+          ],
+          "cloze": "Large trucks ________ rubbish to the recycling centre."
+        },
+        {
+          "term": "sculpture",
+          "pos": "n.",
+          "definition": "a work of art made by shaping stone, wood, metal or other materials",
+          "example": "The artist made a sculpture from recycled materials.",
+          "answer": "sculpture",
+          "accepted": [
+            "sculpture"
+          ],
+          "cloze": "The artist made a ________ from recycled materials."
+        },
+        {
+          "term": "entirely",
+          "pos": "adv.",
+          "definition": "completely; in every part",
+          "example": "The sculpture is made entirely of rubbish.",
+          "answer": "entirely",
+          "accepted": [
+            "entirely"
+          ],
+          "cloze": "The sculpture is made ________ of rubbish."
+        },
+        {
+          "term": "weigh",
+          "pos": "v.",
+          "definition": "to have a particular weight",
+          "example": "The unusual sculpture weighs about 900 kilograms.",
+          "answer": "weighs",
+          "accepted": [
+            "weighs"
+          ],
+          "cloze": "The unusual sculpture ________ about 900 kilograms."
+        },
+        {
+          "term": "average",
+          "pos": "adj.",
+          "definition": "typical or usual",
+          "example": "The average visitor spends an hour at the museum.",
+          "answer": "average",
+          "accepted": [
+            "average"
+          ],
+          "cloze": "The ________ visitor spends an hour at the museum."
+        },
+        {
+          "term": "recycle",
+          "pos": "v.",
+          "definition": "to process used materials so they can be used again",
+          "example": "Many plastic bottles can be recycled into new products.",
+          "answer": "recycled",
+          "accepted": [
+            "recycled"
+          ],
+          "cloze": "Many plastic bottles can be ________ into new products."
+        },
+        {
+          "term": "process",
+          "pos": "n.",
+          "definition": "a series of actions that lead to a particular result",
+          "example": "Visitors can watch the recycling process.",
+          "answer": "process",
+          "accepted": [
+            "process"
+          ],
+          "cloze": "Visitors can watch the recycling ________."
+        },
+        {
+          "term": "according to",
+          "pos": "prep.",
+          "definition": "as stated or shown by someone or something; based on something",
+          "example": "The materials are sorted according to their type.",
+          "answer": "according to",
+          "accepted": [
+            "according to"
+          ],
+          "cloze": "The materials are sorted ________ their type."
+        },
+        {
+          "term": "director",
+          "pos": "n.",
+          "definition": "a person who is in charge of an organisation or activity",
+          "example": "The museum director welcomed the visitors.",
+          "answer": "director",
+          "accepted": [
+            "director"
+          ],
+          "cloze": "The museum ________ welcomed the visitors."
+        },
+        {
+          "term": "invent",
+          "pos": "v.",
+          "definition": "to create a new device or method for the first time",
+          "example": "Alexander Graham Bell helped invent the telephone.",
+          "answer": "invent",
+          "accepted": [
+            "invent"
+          ],
+          "cloze": "Alexander Graham Bell helped ________ the telephone."
+        },
+        {
+          "term": "system",
+          "pos": "n.",
+          "definition": "a group of connected parts working together",
+          "example": "The telephone became an important communication system.",
+          "answer": "system",
+          "accepted": [
+            "system"
+          ],
+          "cloze": "The telephone became an important communication ________."
+        },
+        {
+          "term": "communication",
+          "pos": "n.",
+          "definition": "the act of sharing information or ideas with other people",
+          "example": "The invention changed long-distance communication.",
+          "answer": "communication",
+          "accepted": [
+            "communication"
+          ],
+          "cloze": "The invention changed long-distance ________."
+        },
+        {
+          "term": "realise",
+          "pos": "v.",
+          "definition": "to understand or become aware of something",
+          "example": "He realised that his plan would not work.",
+          "answer": "realised",
+          "accepted": [
+            "realised",
+            "realized"
+          ],
+          "cloze": "He ________ that his plan would not work."
+        },
+        {
+          "term": "engineer",
+          "pos": "n.",
+          "definition": "a person whose job is to design, build or repair machines or structures",
+          "example": "The engineer worked on a new machine.",
+          "answer": "engineer",
+          "accepted": [
+            "engineer"
+          ],
+          "cloze": "The ________ worked on a new machine."
+        },
+        {
+          "term": "challenge",
+          "pos": "n.",
+          "definition": "a difficult task or problem that tests someone's ability",
+          "example": "The scientists faced a difficult challenge.",
+          "answer": "challenge",
+          "accepted": [
+            "challenge"
+          ],
+          "cloze": "The scientists faced a difficult ________."
+        },
+        {
+          "term": "succeed",
+          "pos": "v.",
+          "definition": "to achieve the result you wanted",
+          "example": "The team succeeded after months of hard work.",
+          "answer": "succeeded",
+          "accepted": [
+            "succeeded"
+          ],
+          "cloze": "The team ________ after months of hard work."
+        },
+        {
+          "term": "laboratory",
+          "pos": "n.",
+          "definition": "a room or building used for scientific experiments",
+          "example": "The inventor worked in a laboratory.",
+          "answer": "laboratory",
+          "accepted": [
+            "laboratory"
+          ],
+          "cloze": "The inventor worked in a ________."
+        },
+        {
+          "term": "accidentally",
+          "pos": "adv.",
+          "definition": "in a way that was not planned or intended",
+          "example": "He accidentally spilled water on the table.",
+          "answer": "accidentally",
+          "accepted": [
+            "accidentally"
+          ],
+          "cloze": "He ________ spilled water on the table."
+        },
+        {
+          "term": "spill",
+          "pos": "v.",
+          "definition": "to make liquid fall out of its container by accident",
+          "example": "Be careful not to spill the hot drink.",
+          "answer": "spill",
+          "accepted": [
+            "spill"
+          ],
+          "cloze": "Be careful not to ________ the hot drink."
+        },
+        {
+          "term": "encourage",
+          "pos": "v.",
+          "definition": "to give someone support or confidence to do something",
+          "example": "My friend encouraged me to take piano lessons.",
+          "answer": "encouraged",
+          "accepted": [
+            "encouraged"
+          ],
+          "cloze": "My friend ________ me to take piano lessons."
+        },
+        {
+          "term": "brilliant",
+          "pos": "adj.",
+          "definition": "extremely good or showing great skill",
+          "example": "She is a brilliant young musician.",
+          "answer": "brilliant",
+          "accepted": [
+            "brilliant"
+          ],
+          "cloze": "She is a ________ young musician."
+        },
+        {
+          "term": "read musical notes",
+          "pos": "v. phr.",
+          "definition": "to understand the symbols used to show which notes to play in music",
+          "example": "It took him several weeks to learn to read musical notes.",
+          "answer": "read musical notes",
+          "accepted": [
+            "read musical notes"
+          ],
+          "cloze": "It took him several weeks to learn to ________."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "test": 1,
+      "entry": 18,
+      "term": "influence",
+      "field": "definition",
+      "before": "to affect the way someone thinks, feels or behaves",
+      "after": "the power to affect the way someone thinks, feels or behaves",
+      "reason": "The example uses the noun influence; the supplied definition described the verb."
+    },
+    {
+      "test": 2,
+      "entry": 30,
+      "term": "professional",
+      "field": "definition",
+      "before": "a person who is paid for work requiring particular skills",
+      "after": "doing an activity as a paid job, especially one requiring particular skills",
+      "reason": "The example uses professional as an adjective modifying basketball player; the supplied definition described a person."
+    },
+    {
+      "test": 2,
+      "entry": 32,
+      "term": "confident",
+      "field": "definition",
+      "before": "a feeling that you can do something well",
+      "after": "feeling sure that you can do something well",
+      "reason": "Confident is an adjective; the supplied definition described the noun confidence."
+    },
+    {
+      "test": 2,
+      "entry": 36,
+      "term": "specialist",
+      "field": "definition",
+      "before": "a person with special knowledge or skills in one area",
+      "after": "having special knowledge or skills in one particular area",
+      "reason": "The example uses specialist as an adjective modifying basketball coach; the supplied definition described a person."
+    },
+    {
+      "test": 3,
+      "entry": 12,
+      "term": "antique",
+      "field": "definition",
+      "before": "an old and often valuable object, especially from the past",
+      "after": "old and often valuable, especially because of age",
+      "reason": "The example uses antique as an adjective modifying clocks and tables; the supplied definition described an object."
+    },
+    {
+      "test": 3,
+      "entry": 22,
+      "term": "original",
+      "field": "definition",
+      "before": "the first version of something, not a copy",
+      "after": "existing from the beginning; not a copy or replacement",
+      "reason": "The example uses the adjective original to describe furniture; the supplied definition described a first version as a noun."
+    },
+    {
+      "test": 3,
+      "entry": 25,
+      "term": "ancient",
+      "field": "definition",
+      "before": "a very old, from a time long ago",
+      "after": "very old; from a time long ago",
+      "reason": "Removed the ungrammatical article a before the adjective phrase very old."
+    },
+    {
+      "test": 3,
+      "entry": 53,
+      "term": "accurately",
+      "field": "definition",
+      "before": "to do or measure something correctly and without mistakes",
+      "after": "correctly and without mistakes",
+      "reason": "Accurately is an adverb; the supplied definition incorrectly began as a verb infinitive."
+    },
+    {
+      "test": 4,
+      "entry": 45,
+      "term": "average",
+      "field": "definition",
+      "before": "the usual amount calculated from several amounts",
+      "after": "typical or usual",
+      "reason": "The example uses the adjective average to mean a typical visitor; the supplied definition described a numerical mean."
+    },
+    {
+      "test": 4,
+      "entry": 48,
+      "term": "according to",
+      "field": "definition",
+      "before": "as stated or shown by someone or something",
+      "after": "as stated or shown by someone or something; based on something",
+      "reason": "Added the based-on sense used when materials are sorted according to their type."
+    },
+    {
+      "test": 4,
+      "entry": 58,
+      "term": "accidentally",
+      "field": "definition",
+      "before": "a way that was not planned or intended",
+      "after": "in a way that was not planned or intended",
+      "reason": "Added the missing preposition in to form an adverbial definition."
+    }
+  ],
+  "needsReview": []
+}

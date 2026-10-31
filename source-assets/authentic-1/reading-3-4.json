@@ -1,0 +1,1299 @@
+{
+  "tests": [
+    {
+      "test": 3,
+      "id": "authentic-1-test-3",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Short texts",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            46,
+            47
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Zara should",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Ali says he has to work late and will eat at work. Zara should therefore have dinner without him, rather than buy or prepare food for him.",
+              "evidence": "I'll eat at work.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What does the seller say?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The table top has some damage, so the furniture is not all in perfect condition. The seller can only be contacted after 7 p.m.",
+              "evidence": "Some damage to table top.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Choose the correct meaning of the tennis equipment notice.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The notice limits use of this tennis equipment to club members. Asking at Reception is the way for members to hire it, not an invitation for non-members to use it.",
+              "evidence": "This tennis equipment is for club members only.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Choose the correct meaning of Olivia’s message.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Olivia is unwell but encourages Aiden to attend the running club without her. She reassures him that the group is helpful to new members.",
+              "evidence": "But you should definitely go, even though it’s your first time.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Choose the correct statement about the college art class.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Students must research famous landscape paintings before the next lesson so they can discuss them. Looking at pictures on computers does not mean they must create digital paintings.",
+              "evidence": "find out about famous landscape paintings so you can discuss them in class.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Matching",
+          "instructions": "For each question, choose the correct answer. Match each person to the most suitable option. There are three extra options.",
+          "pdfPages": [
+            48,
+            49
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "prompt": "Alan is keen on history, and wants to visit a castle that was the site of well-known historical events. He’d like the castle to be near the coast, with tours led by a guide.",
+              "answer": "F",
+              "publisherAnswer": "F",
+              "accepted": [
+                "F"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Carston Castle has expert-led tours, a history of famous battles and views of the sea. These match Alan’s interest in historical events and his wish for a guided coastal visit.",
+              "evidence": "Hear how the building was once the scene of famous battles",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Yoshiko wants to see a castle that people are still living in. She loves visiting beautiful gardens, and would like to explore interesting places in the castle.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Durston Castle is still the Durston family’s home. It also offers attractive gardens, secret tunnels and unusual underground rooms for Yoshiko to explore.",
+              "evidence": "Because the building is the Durston family’s home",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Paulo and Maria collect antiques, so want to visit a castle that still has some of its original furniture on display, and hear about the building’s history. They also want something that’s particularly suitable for young children.",
+              "answer": "H",
+              "publisherAnswer": "H",
+              "accepted": [
+                "H"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Sawbridge Castle displays furniture used by its former residents and provides recorded historical information through headphones. Its toy museum also gives their young children something suitable to enjoy.",
+              "evidence": "Visitors of all ages will love the toy museum in the gardens.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Kerim wants somewhere with a great historical atmosphere, with typical food from the past to try, and people dressed in costume. He’d also like to see art that’s been in the castle for centuries.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Castle Woodward recreates the past through staff costumes and food made from historical recipes. Its original paintings of former residents also satisfy Kerim’s interest in old art.",
+              "evidence": "the walls are covered with original paintings of the generations of people who’ve lived in the castle.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Jake and his brother have always wanted to visit the ruins of a castle surrounded by water, with great views. Jake also wants to learn about wildlife living in and around the castle.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Only parts of Marlin Castle remain, and it stands in a lake with views from a high tower. Talks about its bats, birds and butterflies provide the wildlife information Jake wants.",
+              "evidence": "The castle is in the middle of a lake and has lovely gardens.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3 · Long text",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            50,
+            51
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "prompt": "What helped Ana stop being scared of singing to an audience?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Joining the school theatre club helped Ana gain confidence. After attending it, she was able to sing happily at the end-of-term concert.",
+              "evidence": "joining the school theatre club might make her more confident.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "How was the songwriting course useful for Ana?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Ana felt ignored by the course teacher, and that frustration inspired Something to Say. The course was useful because it gave her a subject for a song.",
+              "evidence": "she wrote Something to Say about how annoyed this made her feel.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "Ana decided to work with Joss Alton because",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Ana initially worried that the company would tell her what to sing. Joss reassured her that this would not happen, so she agreed to work with him.",
+              "evidence": "didn’t want someone telling her what to sing. However, Joss persuaded her this wouldn’t happen",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 14,
+              "prompt": "Ana most enjoys writing songs that",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Ana says difficult periods give her more to write about than happy ones. Her example of Decision also concerns an upsetting personal experience.",
+              "evidence": "when it’s not, there’s more for her to say.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 15,
+              "prompt": "What would Ana write to fans in her blog?",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Ana was delighted by online comments from people who loved the song and found new meanings in its words. This supports the blog message about valuing listeners who pay close attention to her songs.",
+              "evidence": "found new meanings in the words each time they heard them.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4 · Missing sentences",
+          "instructions": "For each question, choose the correct answer. Five sentences have been removed from the text. There are three extra sentences which you do not need to use.",
+          "pdfPages": [
+            52,
+            53
+          ],
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Choose the sentence for gap 16 in Steve Dalway’s cycle ride.",
+              "answer": "E",
+              "publisherAnswer": "E",
+              "accepted": [
+                "E"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The previous sentence lists services provided by the organising company. E adds its food and drink stops, and the following phrase “Even with these” refers to those helpful stops.",
+              "evidence": "It also arranged stops every 50 km for snacks and drinks.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Choose the sentence for gap 17 in Steve Dalway’s cycle ride.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Steve’s previous long ride in Europe meant he already knew what a demanding ride would involve. A makes that connection and leads naturally into the example about eating properly.",
+              "evidence": "He therefore had an idea of what to expect on this one.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "Choose the sentence for gap 18 in Steve Dalway’s cycle ride.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“Doing that” refers to eating a large breakfast each morning. D explains why this habit mattered: it supplied the energy Steve needed to continue cycling.",
+              "evidence": "Doing that gave him the energy he needed to keep going.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Choose the sentence for gap 19 in Steve Dalway’s cycle ride.",
+              "answer": "H",
+              "publisherAnswer": "H",
+              "accepted": [
+                "H"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The passage has just described the difficult mountain climb. H introduces additional challenges, followed by the example of extreme heat in the Mojave desert.",
+              "evidence": "There were other challenges, too.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Choose the sentence for gap 20 in Steve Dalway’s cycle ride.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The map showed the route for the following day and also how far the riders had already travelled. B explains this second purpose, which the next sentence illustrates through the slowly advancing black line.",
+              "evidence": "It also allowed them to see the progress they had made.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-5",
+          "title": "Part 5 · Multiple-choice cloze",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            54
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "prompt": "Choose the word for gap 21 in Honey.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“Common food” means a food that is familiar and widely eaten. This fits the opening statement that people all over the world enjoy honey.",
+              "evidence": "People all over the world enjoy eating honey.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "Choose the word for gap 22 in Honey.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The flowers visited influence the honey’s taste and colour, so “affects” is the verb with the right meaning. The singular subject “type” also agrees with “affects”.",
+              "evidence": "both how the honey tastes and its colour.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "Choose the word for gap 23 in Honey.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“Actually” introduces a fact that may surprise the reader: there are over three hundred kinds of honey. The other adverbs do not fit this use.",
+              "evidence": "more than three hundred kinds of honey.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "Choose the word for gap 24 in Honey.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“In ancient times” is the expression for the distant past. It suits the explanation that honey was used before sugar became common.",
+              "evidence": "honey was added to food instead of sugar, as sugar was very rare.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "Choose the word for gap 25 in Honey.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "We use “cure” with illnesses or health problems. “Mend” and “repair” normally describe fixing objects, while “assist” does not mean making a health problem better.",
+              "evidence": "various health problems.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 26,
+              "prompt": "Choose the word for gap 26 in Honey.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“Nowadays” means at the present time. It contrasts modern use of honey with the practices in ancient times described just before it.",
+              "evidence": "people all over the world still add it to hot water",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-6",
+          "title": "Part 6 · Open cloze",
+          "instructions": "For each question, write the correct answer. Write one word for each gap.",
+          "pdfPages": [
+            55
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "prompt": "Starting at college: I was ______ nervous that I couldn’t even ask anyone for help.",
+              "answer": "so",
+              "publisherAnswer": "so",
+              "accepted": [
+                "so"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The structure “so + adjective + that” describes a degree that causes a result. Emma was so nervous that she could not ask for help.",
+              "evidence": "nervous that I couldn’t even ask anyone for help."
+            },
+            {
+              "number": 28,
+              "prompt": "Starting at college: Remember that ______ student at the college has been new at one time.",
+              "answer": "every",
+              "publisherAnswer": "every / each",
+              "accepted": [
+                "every",
+                "each"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "Both “every student” and “each student” mean all the students considered individually. A singular word is needed before “student” and the singular verb “has”.",
+              "evidence": "student at the college has been new at one time"
+            },
+            {
+              "number": 29,
+              "prompt": "Starting at college: So ______ you’re not sure where to go, just ask.",
+              "answer": "if",
+              "publisherAnswer": "if / when(ever)",
+              "accepted": [
+                "if",
+                "when",
+                "whenever"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“If” introduces the situation in which a student should ask for help. “When” and “whenever” also fit, meaning on occasions when the student is unsure.",
+              "evidence": "you’re not sure where to go, just ask"
+            },
+            {
+              "number": 30,
+              "prompt": "Starting at college: To make some friends, ______ not spend break times with some of your new classmates in the café?",
+              "answer": "why",
+              "publisherAnswer": "why",
+              "accepted": [
+                "why"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“Why not” is a standard way to make a suggestion. Emma is suggesting spending breaks with classmates as a way to make friends.",
+              "evidence": "not spend break times with some of your new classmates in the café?"
+            },
+            {
+              "number": 31,
+              "prompt": "Starting at college: Or how ______ joining one of the many clubs we have at the college?",
+              "answer": "about",
+              "publisherAnswer": "about",
+              "accepted": [
+                "about"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "The suggestion pattern is “How about + -ing”. “About” therefore comes before “joining”.",
+              "evidence": "joining one of the many clubs we have at the college?"
+            },
+            {
+              "number": 32,
+              "prompt": "Starting at college: ______ are lots to choose from.",
+              "answer": "There",
+              "publisherAnswer": "There",
+              "accepted": [
+                "There"
+              ],
+              "publisherKeyPdfPage": 122,
+              "explanation": "“There are” introduces the existence of many clubs. “There” is required before the plural verb “are”.",
+              "evidence": "are lots to choose from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 4,
+      "id": "authentic-1-test-4",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Short texts",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            64,
+            65
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Why is Anne texting?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Anne updates Eric on her arrival and explains that the tickets are already booked. She also asks where to meet him at the theatre, so the message concerns their existing arrangement.",
+              "evidence": "The traffic’s awful but I’m almost there.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Choose the correct statement about the careers talk.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The talk has room for no more than thirty students, so students need to register quickly. It is for final-year students and concerns doing well after starting a job.",
+              "evidence": "Space for a maximum of thirty students, so sign up now.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Choose the correct meaning of the recycling centre notice.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Glass, plastic and metal items must be cleaned before people bring them in. Staff help users find the right bin rather than doing the cleaning for them.",
+              "evidence": "Glass, plastic and metal items must be cleaned before you bring them to the recycling centre.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Choose the correct meaning of Gabriel’s message.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Gabriel asks Nora who else he should buy tickets for. He is asking her to suggest other people who might like to attend the disco.",
+              "evidence": "Besides you, who else should I get tickets for?",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Choose the correct meaning of the restaurant notice.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Customers can ask their waiter for information about ingredients while choosing a dish. The notice does not say that the menu itself lists all the ingredients.",
+              "evidence": "If you need information about the ingredients in any of our dishes, please tell your waiter",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Matching",
+          "instructions": "For each question, choose the correct answer. Match each person to the most suitable option. There are three extra options.",
+          "pdfPages": [
+            66,
+            67
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "prompt": "Erika wants to see a show with music and which has famous actors in the lead roles. She’d like it to be based on a book and contain many different types of music.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The End of Summer comes from a novel, features stars known from television and uses songs in many styles. It therefore meets all three of Erika’s requirements.",
+              "evidence": "the wide variety of music the producers wanted.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Guillermo would like to go to a show that’s funny and is about a real person. He’s looking for one with some music in it, but with more speaking than singing.",
+              "answer": "H",
+              "publisherAnswer": "H",
+              "accepted": [
+                "H"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The Final Whistle tells the true story of a basketball player and is full of jokes and entertaining conversations. Its very few songs mean speaking is more prominent than singing.",
+              "evidence": "Despite being advertised as a musical show, it actually has very few songs.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Neelam wants to see a musical show which contains lots of special effects and would like to watch it in an unusual place. She’d like to see a love story.",
+              "answer": "F",
+              "publisherAnswer": "F",
+              "accepted": [
+                "F"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "No Exit uses film and advanced technology for its effects, becomes a romantic comedy and is performed in an old factory. Those features match Neelam’s wishes.",
+              "evidence": "the show is performed in an old factory building",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Oumar wants to go to a show that’s a bit frightening. He’d like to see a story set in the past and realistic costumes from the period.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Mary Wright is a sixteenth-century drama with scary music and historically accurate clothes. It offers both the frightening atmosphere and realistic period setting Oumar wants.",
+              "evidence": "the music creates quite a scary atmosphere.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Mira wants a show with dancing, as well as songs by well-known musicians. She’d like the music to be in a range of styles from around the world.",
+              "answer": "E",
+              "publisherAnswer": "E",
+              "accepted": [
+                "E"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Keeping Time includes the best songs of a popular group whose members came from three continents. The show combines those international musical influences with ballet.",
+              "evidence": "Unusually, there’s ballet in this show",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3 · Long text",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            68,
+            69
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "prompt": "Why was Louise keen to go on the trip to Canada?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Louise had dreamed of visiting that area since seeing it on television as a child. She had to persuade Harry to take her and did not share his enthusiasm for boats.",
+              "evidence": "I’d dreamt of visiting the area ever since seeing it on TV as a child",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "Just before their departure, Louise",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Although she was busy at work, Louise trusted Harry’s assurance that he had arranged everything. She therefore felt confident that they were prepared.",
+              "evidence": "Harry promised he’d taken care of everything, so I knew everything would be all right.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "On the first morning of the trip, Louise says she admired",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Fog prevented distant views, so Louise concentrated on the attractive patterns their boat made in the water. Her admiration was for the sea’s appearance close to them.",
+              "evidence": "the beautiful patterns our boat made in the water.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 14,
+              "prompt": "During the trip, Louise enjoyed",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Louise liked being free from concern about how quickly or slowly the day passed. They still cooked meals, and the beds were hard, so those details do not support the other choices.",
+              "evidence": "stop caring about how quickly or slowly the day was passing.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 15,
+              "prompt": "What would Louise write in her diary during the trip?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The correct diary entry recalls the television programme and the family connection to the area. Both match Louise’s original reasons for wanting to visit Canada.",
+              "evidence": "it was where our great-grandparents had lived before moving to Europe.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4 · Missing sentences",
+          "instructions": "For each question, choose the correct answer. Five sentences have been removed from the text. There are three extra sentences which you do not need to use.",
+          "pdfPages": [
+            70,
+            71
+          ],
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Choose the sentence for gap 16 in The Museum of Trash.",
+              "answer": "G",
+              "publisherAnswer": "G",
+              "accepted": [
+                "G"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "G introduces the first display seen by the arriving visitors. The next sentence identifies that display as a colourful elephant made from rubbish, explaining its animated-film appearance.",
+              "evidence": "The first display they see looks like something out of an animated movie.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Choose the sentence for gap 17 in The Museum of Trash.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "B supplies the list of objects that visitors then try to find in the elephant. “Them all” in the following sentence refers to the objects on that list.",
+              "evidence": "Visitors are given a list of the different objects in it.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "Choose the sentence for gap 18 in The Museum of Trash.",
+              "answer": "H",
+              "publisherAnswer": "H",
+              "accepted": [
+                "H"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The elephant represents the 900 kilograms of rubbish one person throws away in a year. H comments on how shocking it is to see that quantity represented physically.",
+              "evidence": "It is certainly shocking to see what that actually looks like.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Choose the sentence for gap 19 in The Museum of Trash.",
+              "answer": "E",
+              "publisherAnswer": "E",
+              "accepted": [
+                "E"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "E explains where the rubbish comes from. The following phrase “these places” refers back to the twenty local towns.",
+              "evidence": "It comes from twenty towns in the local area.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Choose the sentence for gap 20 in The Museum of Trash.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The director says visitors tell their friends what can be recycled. D draws the conclusion that the visit is enjoyable and also spreads useful knowledge.",
+              "evidence": "So while it is fun for visitors, they also pass on their new knowledge.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-5",
+          "title": "Part 5 · Multiple-choice cloze",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            72
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "prompt": "Choose the word for gap 21 in Inventing the telephone.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "A system can be “developed”, meaning created or improved for a purpose. Here Bell’s father developed a system to help deaf people communicate.",
+              "evidence": "to help deaf people communicate.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "Choose the word for gap 22 in Inventing the telephone.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The fixed pattern is “make it possible for someone to do something”. Bell wanted to enable people to talk over a distance.",
+              "evidence": "it possible for people to talk to each other",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "Choose the word for gap 23 in Inventing the telephone.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“Long distances” is the natural combination for places far apart. The other adjectives do not collocate with “distances” in this context.",
+              "evidence": "distances. He realised that he had to turn sound into electricity",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "Choose the word for gap 24 in Inventing the telephone.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Turning sound into electricity and back was a difficult engineering task, so “challenge” fits. The next paragraph also calls it a problem that required hard work.",
+              "evidence": "several months of hard work on this problem",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "Choose the word for gap 25 in Inventing the telephone.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“It” refers to the engineering problem, and we “solve” a problem. “Succeeded” would need a different construction, such as “succeeded in solving it”.",
+              "evidence": "after several months of hard work on this problem",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 26,
+              "prompt": "Choose the word for gap 26 in Inventing the telephone.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“Spilt” describes accidentally letting liquid fall onto something. Bell got the dangerous liquid on his clothes while working in the laboratory.",
+              "evidence": "dangerous liquid on his clothes.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-6",
+          "title": "Part 6 · Open cloze",
+          "instructions": "For each question, write the correct answer. Write one word for each gap.",
+          "pdfPages": [
+            73
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "prompt": "Piano lessons: it’s something I’ve wanted to do ever ______ I was young.",
+              "answer": "since",
+              "publisherAnswer": "since",
+              "accepted": [
+                "since"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“Ever since” connects the present wish to the time in childhood when it began. It is followed here by the clause “I was young”.",
+              "evidence": "I was young."
+            },
+            {
+              "number": 28,
+              "prompt": "Piano lessons: that encouraged ______ to start lessons.",
+              "answer": "me",
+              "publisherAnswer": "me",
+              "accepted": [
+                "me"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“Me” is the object of “encouraged”. Harry is explaining that seeing the pianist inspired him to begin lessons himself.",
+              "evidence": "to start lessons."
+            },
+            {
+              "number": 29,
+              "prompt": "Piano lessons: I go to her house twice a week ______ lessons.",
+              "answer": "for",
+              "publisherAnswer": "for",
+              "accepted": [
+                "for"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“For lessons” states the purpose of going to the teacher’s house. A noun follows the preposition “for”.",
+              "evidence": "lessons. She’s very patient."
+            },
+            {
+              "number": 30,
+              "prompt": "Piano lessons: read the notes on the page and decide which piano keys to use at the ______ time!",
+              "answer": "same",
+              "publisherAnswer": "same",
+              "accepted": [
+                "same"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "“At the same time” means doing the two activities simultaneously. Harry finds it difficult to read music while choosing the right keys.",
+              "evidence": "read the notes on the page and decide which piano keys to use"
+            },
+            {
+              "number": 31,
+              "prompt": "Piano lessons: Maybe ______ day, I’ll become even better at playing the piano.",
+              "answer": "one",
+              "publisherAnswer": "one / some",
+              "accepted": [
+                "one",
+                "some"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "Both “one day” and “some day” refer to an unspecified time in the future. Either word fits Harry’s hope about his future piano skills.",
+              "evidence": "day, I’ll become even better"
+            },
+            {
+              "number": 32,
+              "prompt": "Piano lessons: I’ll become even better ______ you are at playing the piano!",
+              "answer": "than",
+              "publisherAnswer": "than",
+              "accepted": [
+                "than"
+              ],
+              "publisherKeyPdfPage": 135,
+              "explanation": "The comparative adjective “better” is followed by “than” when comparing two people. Harry hopes his piano playing will eventually surpass Oliver’s.",
+              "evidence": "you are at playing the piano!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "needsReview": []
+}

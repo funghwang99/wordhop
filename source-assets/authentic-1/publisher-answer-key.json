@@ -1,0 +1,345 @@
+{
+  "sourceSha256": "492cb871679ccec89b3b50935a21ae5911a2a2adccd655dfd63607a1522d69fe",
+  "review": "Independent visual transcription of all 228 publisher answers, checked by the main reviewer. PDF page numbers are one-based.",
+  "reading": [
+    {
+      "test": 1,
+      "keyPdfPage": 98,
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "C",
+        "B",
+        "G",
+        "C",
+        "E",
+        "B",
+        "H",
+        "C",
+        "B",
+        "D",
+        "A",
+        "C",
+        "G",
+        "D",
+        "A",
+        "B",
+        "E",
+        "A",
+        "C",
+        "D",
+        "A",
+        "B",
+        "B",
+        "It",
+        "most",
+        "all",
+        "forward",
+        "at",
+        "if"
+      ],
+      "accepted": {}
+    },
+    {
+      "test": 2,
+      "keyPdfPage": 110,
+      "answers": [
+        "A",
+        "C",
+        "B",
+        "A",
+        "B",
+        "B",
+        "E",
+        "F",
+        "C",
+        "H",
+        "C",
+        "A",
+        "B",
+        "D",
+        "B",
+        "C",
+        "F",
+        "D",
+        "G",
+        "B",
+        "C",
+        "D",
+        "A",
+        "B",
+        "A",
+        "D",
+        "be",
+        "with",
+        "of",
+        "us",
+        "to",
+        "than"
+      ],
+      "accepted": {}
+    },
+    {
+      "test": 3,
+      "keyPdfPage": 122,
+      "answers": [
+        "B",
+        "A",
+        "A",
+        "A",
+        "C",
+        "F",
+        "A",
+        "H",
+        "B",
+        "D",
+        "C",
+        "B",
+        "A",
+        "B",
+        "D",
+        "E",
+        "A",
+        "D",
+        "H",
+        "B",
+        "D",
+        "B",
+        "B",
+        "D",
+        "A",
+        "C",
+        "so",
+        "every",
+        "if",
+        "why",
+        "about",
+        "There"
+      ],
+      "accepted": {
+        "28": [
+          "every",
+          "each"
+        ],
+        "29": [
+          "if",
+          "when",
+          "whenever"
+        ]
+      }
+    },
+    {
+      "test": 4,
+      "keyPdfPage": 135,
+      "answers": [
+        "C",
+        "C",
+        "B",
+        "C",
+        "A",
+        "D",
+        "H",
+        "F",
+        "B",
+        "E",
+        "C",
+        "B",
+        "A",
+        "D",
+        "B",
+        "G",
+        "B",
+        "H",
+        "E",
+        "D",
+        "B",
+        "D",
+        "A",
+        "C",
+        "A",
+        "D",
+        "since",
+        "me",
+        "for",
+        "same",
+        "one",
+        "than"
+      ],
+      "accepted": {
+        "31": [
+          "one",
+          "some"
+        ]
+      }
+    }
+  ],
+  "listening": [
+    {
+      "test": 1,
+      "keyPdfPage": 105,
+      "answers": [
+        "B",
+        "B",
+        "A",
+        "C",
+        "A",
+        "A",
+        "B",
+        "C",
+        "A",
+        "C",
+        "A",
+        "B",
+        "C",
+        "Brokley",
+        "8.30",
+        "blue",
+        "receptionist",
+        "hall",
+        "3",
+        "A",
+        "C",
+        "B",
+        "A",
+        "C",
+        "B"
+      ],
+      "accepted": {
+        "15": [
+          "half past eight",
+          "eight thirty",
+          "8.30"
+        ],
+        "19": [
+          "3",
+          "three"
+        ]
+      }
+    },
+    {
+      "test": 2,
+      "keyPdfPage": 117,
+      "answers": [
+        "A",
+        "C",
+        "B",
+        "A",
+        "A",
+        "A",
+        "C",
+        "B",
+        "A",
+        "B",
+        "C",
+        "B",
+        "A",
+        "art",
+        "people",
+        "animals",
+        "acting",
+        "8 months",
+        "website",
+        "B",
+        "C",
+        "A",
+        "C",
+        "A",
+        "B"
+      ],
+      "accepted": {
+        "18": [
+          "eight months",
+          "8 months"
+        ]
+      }
+    },
+    {
+      "test": 3,
+      "keyPdfPage": 129,
+      "answers": [
+        "B",
+        "C",
+        "B",
+        "B",
+        "A",
+        "C",
+        "A",
+        "B",
+        "B",
+        "C",
+        "C",
+        "B",
+        "A",
+        "8.15",
+        "entrance",
+        "palace",
+        "Wakizi",
+        "diving",
+        "suncream",
+        "A",
+        "B",
+        "A",
+        "B",
+        "C",
+        "C"
+      ],
+      "accepted": {
+        "14": [
+          "8.15",
+          "quarter past 8",
+          "quarter past eight"
+        ],
+        "19": [
+          "suncream",
+          "sun-cream"
+        ]
+      }
+    },
+    {
+      "test": 4,
+      "keyPdfPage": 142,
+      "answers": [
+        "B",
+        "A",
+        "A",
+        "C",
+        "C",
+        "A",
+        "B",
+        "A",
+        "C",
+        "A",
+        "C",
+        "A",
+        "A",
+        "5",
+        "bikes",
+        "lake",
+        "butterflies",
+        "castle",
+        "bus",
+        "A",
+        "C",
+        "B",
+        "A",
+        "B",
+        "C"
+      ],
+      "accepted": {
+        "14": [
+          "five",
+          "5"
+        ],
+        "15": [
+          "bikes",
+          "bicycles"
+        ],
+        "19": [
+          "bus",
+          "bus service"
+        ]
+      }
+    }
+  ]
+}

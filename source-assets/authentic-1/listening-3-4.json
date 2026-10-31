@@ -1,0 +1,1655 @@
+{
+  "tests": [
+    {
+      "test": 3,
+      "id": "authentic-1-test-3",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            58,
+            59
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Why was the man late?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The bus was delayed at traffic lights in the town centre. His car had broken down earlier, but the delay on this journey was caused by traffic, not the rain.",
+              "evidence": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 87.36,
+              "evidenceEnd": 97.58,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+                "endQuote": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+                "matchedText": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 2,
+              "prompt": "Why is the main road closed today?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The road is closed because a movie is being filmed. The bike race happened previously, and the street party is next weekend.",
+              "evidence": "They're filming a movie, and people can come and watch.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 166.08,
+              "evidenceEnd": 169.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "They're filming a movie, and people can come and watch.",
+                "endQuote": "They're filming a movie, and people can come and watch.",
+                "matchedText": "They're filming a movie, and people can come and watch.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 3,
+              "prompt": "Where do they decide to have the wedding anniversary party?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "They choose a river cruise with a meal on board. The restaurant is too far away, and they had a garden party last year.",
+              "evidence": "We could always take them on a river cruise, and eat on board. That's not a bad idea",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 247.18,
+              "evidenceEnd": 253.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We could always take them on a river cruise",
+                "endQuote": "That's not a bad idea I'll make the arrangements",
+                "matchedText": "We could always take them on a river cruise and eat on board. That's not a bad idea. I'll make the arrangements.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the acceptance and arrangement commitment."
+              }
+            },
+            {
+              "number": 4,
+              "prompt": "What does the man decide to order?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "After hearing the woman's recommendation, he decides to try the pizza. Chicken was his previous order, and pasta was only his first idea today.",
+              "evidence": "I had the pizza last time I came here – it was delicious. I can really recommend it. Oh! If it's as good as you say, I'll try it.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 321.18,
+              "evidenceEnd": 331.92,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I had the pizza last time I came here",
+                "endQuote": "I think I'd prefer that today actually",
+                "matchedText": "I had the pizza last time I came here. It was delicious. I can really recommend it. Oh, if it's as good as you say, I'll try it. I think I prefer that today actually.",
+                "anchorScore": 0.9375,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Trim prior pasta reference; include pizza recommendation and final decision."
+              }
+            },
+            {
+              "number": 5,
+              "prompt": "Which armchair is the man going to buy?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He accepts the woman's suggestion of the plain armchair, which is the right size. The chair with a cushion is too large.",
+              "evidence": "If I were you, I'd get this plain one. It's a nice size: not too big, not too small. That's true. I like the look of the one over there, with the cushion, but it's too large for the space I have available. So have you decided? Yes, I'll go for the one you suggested.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "cueStartQuote": "If I were you I'd get this plain one",
+              "cueEndQuote": "Yes I'll go for the one you suggested",
+              "evidenceStart": 396.8,
+              "evidenceEnd": 414.72,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "If I were you I'd get this plain one",
+                "endQuote": "Yes I'll go for the one you suggested",
+                "matchedText": "If I were you, I'd get this plain one. It's a nice size, not too big, not too small. That's true. true. I like the look of the one over there, with the cushion, but it's too large for the space I have available. So, have you decided? Yes, I'll go for the one you suggested.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 6,
+              "prompt": "Which concert has the woman arranged to attend?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "She already has tickets for Billy Ryan, the folk singer who plays guitar. The rock concert is the man's plan, and she does not choose the suggested jazz concert.",
+              "evidence": "You know Billy Ryan the folk singer and guitar player? Well, I've got tickets for that.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 469.36,
+              "evidenceEnd": 474.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "You know Billy Ryan the folk singer and guitar player? Well, I've got tickets for that.",
+                "endQuote": "You know Billy Ryan the folk singer and guitar player? Well, I've got tickets for that.",
+                "matchedText": "You know Billy Ryan, the folk singer and guitar player? Well, I've got tickets for that.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 7,
+              "prompt": "Which tomatoes will the man use?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He agrees to leave the small fresh tomatoes whole, following the woman's advice. He does not slice them or use a tin.",
+              "evidence": "Why don't you leave the tomatoes whole? The recipe says to cut them into slices. I suppose these ones are small enough to use as they are though.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "cueStartQuote": "Why don't you leave the tomatoes whole",
+              "cueEndQuote": "OK I'll follow your advice",
+              "evidenceStart": 547.56,
+              "evidenceEnd": 571.58,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Why don't you leave the tomatoes whole",
+                "endQuote": "OK I'll follow your advice",
+                "matchedText": "Why don't you leave the tomatoes whole? The recipe says to cut them into slices. I suppose these ones are small enough to use as they're small. They are though. The sauce will taste nicer like that. Just cook them for a long time. I could just open a tin, you know. It'd be far easier. That's cheating. You said you wanted to do this properly. Okay. I'll follow your advice.",
+                "anchorScore": 0.9091,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            60,
+            61
+          ],
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about doing exercise. Why is the man finding it difficult to do exercise?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "His main difficulty is finding time because he works all day and often late. Sports facilities are available, and price is not the main obstacle he gives.",
+              "evidence": "I know, but it's when to go. I'm at work all day, often till late.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 35.9,
+              "evidenceEnd": 40.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I know but it's when to go",
+                "endQuote": "I'm at work all day often till late",
+                "matchedText": "I know, but it's when to go. I'm at work all day, off until late.",
+                "anchorScore": 0.9032,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "ASR renders often till late as off until late; extended through the complete late-work statement."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two people talking in a restaurant. They agree that",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The woman praises her salmon and the man praises his tuna, so both enjoyed their fish dishes. They do not agree about the soup or dessert.",
+              "evidence": "But the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 118.38,
+              "evidenceEnd": 122.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+                "endQuote": "But the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+                "matchedText": "but the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a woman telling her friend about her neighbours. What problem does she have with her neighbours?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "She is bothered by the empty boxes left outside. She says the neighbours greet her and that their noise does not prevent her from sleeping.",
+              "evidence": "But what bothers me is the mess they've left outside – loads of empty boxes from when they moved in.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 222.96,
+              "evidenceEnd": 229.9,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But what bothers me is the mess they've left outside – loads of empty boxes from when they moved in.",
+                "endQuote": "But what bothers me is the mess they've left outside – loads of empty boxes from when they moved in.",
+                "matchedText": "But what bothers me is the mess they've left outside. Loads of empty boxes from when they moved in.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a new museum. What does the woman say about it?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "She wants to look around the museum again. She says it closes too early, so its opening hours do not suit her.",
+              "evidence": "I wouldn't mind having another look around. I'll have to wait until next weekend as that's when I'm not working.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 317.14,
+              "evidenceEnd": 323.28,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I wouldn't mind having another look around",
+                "endQuote": "that's when I'm not working",
+                "matchedText": "I wouldn't mind having another look around, but I'll have to wait until next weekend, as that's when I'm not working.",
+                "anchorScore": 0.9231,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Trim the previous sentence; retain the wish to visit again."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear a man talking to a colleague about a hotel he stayed in. He complains that",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The hotel was advertised as being within walking distance of the city centre, but it was not. He heard little traffic noise and had enough room for himself.",
+              "evidence": "it wasn't walking distance from the city centre, which is how it was advertised",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 388.24,
+              "evidenceEnd": 392.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "it wasn't walking distance from the city centre, which is how it was advertised",
+                "endQuote": "it wasn't walking distance from the city centre, which is how it was advertised",
+                "matchedText": "it wasn't walking distance from the city centre, which is how it was advertised.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two passengers talking on an aeroplane. How does the woman feel about flying?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Flying is a convenient option for the long journeys required by her new job. She finds the seat uncomfortable, so she does not describe flying as relaxing.",
+              "evidence": "the long distances I need to travel for it just make flying a better option than the train",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 488.56,
+              "evidenceEnd": 493.24,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "the long distances I need to travel for it just make flying a better option than the train",
+                "endQuote": "the long distances I need to travel for it just make flying a better option than the train",
+                "matchedText": "the long distances I I need to travel for it, just make flying a better option than the train.",
+                "anchorScore": 0.973,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "instructions": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "pdfPages": [
+            62
+          ],
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Bus leaves at: ______ a.m.",
+              "answer": "8.15",
+              "publisherAnswer": "8.15 / quarter past 8 / quarter past eight",
+              "accepted": [
+                "8.15",
+                "8:15",
+                "quarter past 8",
+                "quarter past eight"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The bus leaves at quarter past eight, which is 8.15 a.m. Eight o'clock is the meeting time, and 8.30 was the usual departure time.",
+              "evidence": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight.",
+              "evidenceStart": 66.34,
+              "evidenceEnd": 71.88,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight.",
+                "endQuote": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight.",
+                "matchedText": "We're meeting at 8 o 'clock in the morning, as the bus will go at exactly quarter past eight.",
+                "anchorScore": 0.95,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 15,
+              "prompt": "Meet before trip at: hotel ______",
+              "answer": "entrance",
+              "publisherAnswer": "entrance",
+              "accepted": [
+                "entrance"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Passengers must meet at the hotel entrance to get on the bus. The guide specifically says not to meet at the reception desk.",
+              "evidence": "please meet at the entrance to the hotel rather than at the reception desk",
+              "evidenceStart": 85.72,
+              "evidenceEnd": 90.18,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "please meet at the entrance to the hotel rather than at the reception desk",
+                "endQuote": "please meet at the entrance to the hotel rather than at the reception desk",
+                "matchedText": "please meet at the entrance to the hotel rather than at the reception desk,",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 16,
+              "prompt": "First stop: ruin of a ______",
+              "answer": "palace",
+              "publisherAnswer": "palace",
+              "accepted": [
+                "palace"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The first stop is a ruin that used to be a palace. The ancient theatre was part of a different tour the previous day.",
+              "evidence": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace.",
+              "evidenceStart": 96.06,
+              "evidenceEnd": 103.5,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace.",
+                "endQuote": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace.",
+                "matchedText": "our first stop will be at a magnificent ruin just outside Gullum. It used to be a palace.",
+                "anchorScore": 0.9444,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 17,
+              "prompt": "Lunch at: The ______ Restaurant",
+              "answer": "Wakizi",
+              "publisherAnswer": "Wakizi",
+              "accepted": [
+                "Wakizi"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Lunch is at the Wakizi Restaurant on the Gulum River. The guide spells its name W-A-K-I-Z-I.",
+              "evidence": "Afterwards we'll drive on to the Wakizi Restaurant on the Gulum River for lunch. That's spelt W-A-K-I-Z-I",
+              "evidenceStart": 115.92,
+              "evidenceEnd": 127.36,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Afterwards we'll drive on to the Wakizi Restaurant",
+                "endQuote": "That's spelt W A K I Z I by the way",
+                "matchedText": "Afterwards, we'll drive on to the Wachese restaurant on the Gullum River for lunch. That's spelled W -A -K -I -Z -I, by the way.",
+                "anchorScore": 0.875,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "ASR approximates the proper name; the spoken letter-by-letter spelling matches the publisher key."
+              }
+            },
+            {
+              "number": 18,
+              "prompt": "Afternoon activity: ______ or beach volleyball",
+              "answer": "diving",
+              "publisherAnswer": "diving",
+              "accepted": [
+                "diving"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Diving is one of the afternoon activities at the beach. Sailing is unavailable because there is not enough wind.",
+              "evidence": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+              "evidenceStart": 141.4,
+              "evidenceEnd": 148.08,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+                "endQuote": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+                "matchedText": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 19,
+              "prompt": "Bring: ______",
+              "answer": "suncream",
+              "publisherAnswer": "sun(-)cream",
+              "accepted": [
+                "suncream",
+                "sun-cream",
+                "sun cream"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Passengers need to bring suncream because temperatures will be high, even if it is cloudy. Towels and beach chairs will be provided.",
+              "evidence": "We'll provide towels and beach chairs, but please don't forget the sun-cream as the temperatures are very high",
+              "evidenceStart": 160.36,
+              "evidenceEnd": 171.36,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We'll provide towels and beach chairs",
+                "endQuote": "even on a cloudy day",
+                "matchedText": "the We'll provide towels and beach chairs, but please don't forget the sun cream, as the temperatures are very high. You'll need it, even on a cloudy day.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the complete suncream instruction and cloudy-day clarification."
+              }
+            }
+          ],
+          "context": "You will hear a tour guide talking about arrangements for a day trip to a place called Gulum.",
+          "heading": "Day trip to Gulum"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            63
+          ],
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "How did James become interested in trees?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "A friend of his mother who cared for trees offered him a summer job. This work sparked his interest, rather than climbing trees as a child.",
+              "evidence": "Mom had a friend who was an arborist – someone who takes care of trees – and he offered me a job one summer.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 94.1,
+              "evidenceEnd": 103.1,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "What really got me into them was",
+                "endQuote": "he offered me a job one summer",
+                "matchedText": "What really got me into them was that Mom had a friend who was an arborist, someone who takes care of trees, and he offered me a job one summer.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the explicit trigger for his interest."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "What surprised James when he first learnt to climb trees?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He expected only young, fit people, but the class also included children, middle-aged people and older people. The variety of learners surprised him.",
+              "evidence": "I was expecting everyone in the class to be young and fit, because I thought you needed to be strong to climb trees. In fact there were middle-aged climbers, children – even old people!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 109.18,
+              "evidenceEnd": 121.72,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well I was expecting everyone in the class to be young and fit",
+                "endQuote": "children even old people",
+                "matchedText": "Well, I was expecting everyone in the class to be young and fit because I thought you needed to be strong to climb trees. In fact, there were middle -aged climbers, children, even old people.",
+                "anchorScore": 0.9444,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Trim the interviewer question and retain the full contrast."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "What does James enjoy most about his teaching work?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He particularly enjoys teaching people such as scientists who need to climb trees for their jobs. Being outside is enjoyable too, but it is not his main answer.",
+              "evidence": "Particularly teaching those whose jobs involve having to go up trees, like scientists, for example.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 144.22,
+              "evidenceEnd": 152.88,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "And I like working with people",
+                "endQuote": "like scientists for example",
+                "matchedText": "And I like working with people. Particularly teaching those whose jobs involve having to go up trees like scientists for example.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the start of his teaching preference."
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "James travels around the USA a lot because",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "There is little demand for tree climbing in his home area during winter, so he works in other places. Visiting many states is a result of this, not the reason he gives.",
+              "evidence": "no-one wants to climb trees there in the winter. So I move around.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 166.08,
+              "evidenceEnd": 173.52,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I live and work in the north-west of this country",
+                "endQuote": "So I move around",
+                "matchedText": "I live and work in the northwest of this country, and no one wants to climb trees there in the winter. So I move around.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include his home-area winter context."
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "What does James like about sleeping in trees?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He enjoys the views of the night sky. He mentions getting used to the discomfort and being woken by birds, rather than praising these experiences.",
+              "evidence": "It's such a great place to get views of the night sky.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 189.34,
+              "evidenceEnd": 192.6,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "It's such a great place to get views of the night sky.",
+                "endQuote": "It's such a great place to get views of the night sky.",
+                "matchedText": "It's such a great place to get views of the night sky.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "When James climbs in the rainforests, he moves more slowly because",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He moves slowly to avoid damaging the rainforest environment. Fast movement can also attract insects, but he does not slow down to study them.",
+              "evidence": "It's an important environment, so you need to be careful not to damage it.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 212.36,
+              "evidenceEnd": 224.6,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "The climbing's more challenging",
+                "endQuote": "you need to be careful not to damage it",
+                "matchedText": "The climbing's more challenging. Not because the trees are harder to climb, but because you have to move more slowly. It's an important environment so you need to be careful not to damage it.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include moving slowly and its environmental reason."
+              }
+            }
+          ],
+          "context": "You will hear an interview with a man called James Sweeney who works as a tree-climbing instructor."
+        }
+      ]
+    },
+    {
+      "test": 4,
+      "id": "authentic-1-test-4",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            76,
+            77
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "How will the man travel to the city centre?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He accepts the suggestion of taking the underground, which is nearby and faster than a taxi. The bus takes a long route.",
+              "evidence": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 65.76,
+              "evidenceEnd": 75.94,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+                "endQuote": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+                "matchedText": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 2,
+              "prompt": "What did the girl dislike at the hostel she stayed in?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She disliked being bitten by mosquitoes because the beds had no mosquito nets. She says the monkeys did not bother her, and there was no mouse problem during her stay.",
+              "evidence": "our beds didn't have mosquito nets, so we got bitten almost every night",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 146.14,
+              "evidenceEnd": 151.24,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "our beds didn't have mosquito nets, so we got bitten almost every night",
+                "endQuote": "our beds didn't have mosquito nets, so we got bitten almost every night",
+                "matchedText": "our beds didn't have mosquito nets, so we got bitten almost every night,",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 3,
+              "prompt": "What is the man going to order for lunch?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He decides to have salmon, his usual choice. He rejects the spicy curry, and the pizza is what the woman is having.",
+              "evidence": "Mmm. Nice idea, but I've heard it's very spicy. I've made up my mind. I'll have what I always have!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "cueStartQuote": "I think I'd like the salmon",
+              "cueEndQuote": "I'll have what I always have",
+              "evidenceStart": 221.18,
+              "evidenceEnd": 250.74,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I think I'd like the salmon",
+                "endQuote": "I'll have what I always have",
+                "matchedText": "I think I'd like the salmon. You're so boring. I knew you'd say fish. You never try anything different. I'm having pizza. They make them really thin and tasty here. Yes, my sister had one last time we ate here. She said it was great. How about the curry? That's excellent, I believe. Mmm, nice idea, but I've heard it's very spicy. I've made up my mind. I'll have what I always have.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 4,
+              "prompt": "What sport would the woman like to try?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She wants to try badminton. Golf costs too much, and she thinks tennis requires a lot of strength.",
+              "evidence": "I'm not that good at racket sports but I wouldn't mind giving badminton a go.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 324.12,
+              "evidenceEnd": 329.0,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I'm not that good at racket sports",
+                "endQuote": "I wouldn't mind giving badminton a go",
+                "matchedText": "I'm not that good at racket sports. But I wouldn't mind giving bad mint in a go.",
+                "anchorScore": 0.9032,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "ASR splits badminton into bad mint in; verified the answer word spans327.92–328.76 and retained go to329.00."
+              }
+            },
+            {
+              "number": 5,
+              "prompt": "Which book is the man reading?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "His current novel is about a man crossing the Pacific Ocean alone. Flying features in the author's other books, and the astronaut story is a future book.",
+              "evidence": "This one's set at sea – a guy who crosses the Pacific Ocean on his own",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 394.32,
+              "evidenceEnd": 401.62,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "This one's set at sea",
+                "endQuote": "all the challenges he has to deal with",
+                "matchedText": "This one's set at sea, a guy who crosses the Pacific Ocean on his own and all the challenges he has to deal with.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Finish the current-book description sentence."
+              }
+            },
+            {
+              "number": 6,
+              "prompt": "Where does the man suggest going at the weekend?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He suggests the new art exhibition at the museum. The beach may be affected by a storm, and the cinema has nothing he wants to see.",
+              "evidence": "There's a new art exhibition on at the museum – definitely worth seeing, or so I've heard.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 480.52,
+              "evidenceEnd": 486.16,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There's a new art exhibition on at the museum – definitely worth seeing, or so I've heard.",
+                "endQuote": "There's a new art exhibition on at the museum – definitely worth seeing, or so I've heard.",
+                "matchedText": "There's a new art exhibition mission on at the museum, definitely worth seeing, or so I've heard.",
+                "anchorScore": 0.973,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 7,
+              "prompt": "How much is the latest smartphone in the store today?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The latest model currently costs £599. Its usual price is £699, while £499 is the price of last year's model.",
+              "evidence": "For an amazing £599, the most up-to-date smartphone is now available.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 554.38,
+              "evidenceEnd": 559.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "For an amazing £599, the most up-to-date smartphone is now available.",
+                "endQuote": "For an amazing £599, the most up-to-date smartphone is now available.",
+                "matchedText": "For an amazing £599, the most up -to -date smartphone is now available.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            78,
+            79
+          ],
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear a brother and sister talking about a gift for their cousin. Why do they decide to buy the gift online?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The microwave is heavy, so carrying it home on a bus would be difficult. The woman also mentions online offers, but the listed reason they discuss is its weight.",
+              "evidence": "And besides, it weighs so much, can you imagine trying to take it on the bus?",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 47.06,
+              "evidenceEnd": 51.42,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "And besides, it weighs so much, can you imagine trying to take it on the bus?",
+                "endQuote": "And besides, it weighs so much, can you imagine trying to take it on the bus?",
+                "matchedText": "And besides, it weighs so much. Can you imagine us trying to take it on the bus?",
+                "anchorScore": 0.9697,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two colleagues discussing their holiday travel plans. The man thinks that the woman should",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He suggests flying to avoid spending so much time travelling. He does not suggest changing the destination or staying away longer.",
+              "evidence": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 138.66,
+              "evidenceEnd": 143.16,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+                "endQuote": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+                "matchedText": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a man talking to a friend about a fitness training session. The man cannot attend today’s session because",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "His doctor has told him to take things easy before his foot operation. His cold has already ended, and the operation has not happened yet.",
+              "evidence": "But my doctor told me to take things easy anyway",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 219.2,
+              "evidenceEnd": 221.84,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But my doctor told me to take things easy anyway",
+                "endQuote": "But my doctor told me to take things easy anyway",
+                "matchedText": "But my doctor told me to take things easy anyway.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a play they’ve just seen. What does the woman say about the play?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She expected much better performances, so the acting disappointed her. She liked the costumes and thought the second half was less interesting.",
+              "evidence": "actually I expected the performances to be a lot better",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 310.82,
+              "evidenceEnd": 314.12,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "actually I expected the performances to be a lot better",
+                "endQuote": "actually I expected the performances to be a lot better",
+                "matchedText": "actually, I expected the performances to be a lot better.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a film and its soundtrack. What does the woman say about the soundtrack?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "Although the film is for children, its music appeals to a much wider range of people. She says it makes people want to move and is as good as the film.",
+              "evidence": "The music's definitely popular with a much wider range of people.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 402.38,
+              "evidenceEnd": 409.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I mean the film's aimed at kids",
+                "endQuote": "a much wider range of people",
+                "matchedText": "I mean, the film's aimed at kids, but I think you'll like it. The music's definitely popular with a much wider range of people.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the children/wider-audience comparison."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about the news. They agree that",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The woman checks the news every morning before anything else, and the man says he does the same. They prefer different ways of reading it and disagree about celebrity news.",
+              "evidence": "I make sure I do it every morning before anything else. So do I. I need to for my job.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 479.18,
+              "evidenceEnd": 484.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I make sure I do it every morning before anything else. So do I. I need to for my job.",
+                "endQuote": "I make sure I do it every morning before anything else. So do I. I need to for my job.",
+                "matchedText": "I make sure I do it every morning before anything else. So do I. I need to for my job,",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "instructions": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "pdfPages": [
+            80
+          ],
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "The walk will take ______ hours.",
+              "answer": "5",
+              "publisherAnswer": "five / 5",
+              "accepted": [
+                "5",
+                "five"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "They will use the longer of the two routes: the five-hour route, which has fewer hills. Four hours is the other route's duration.",
+              "evidence": "one of which takes four hours, and the other five. We'll be taking the longer one",
+              "evidenceStart": 62.72,
+              "evidenceEnd": 72.2,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well there are two possible routes",
+                "endQuote": "as it has fewer hills",
+                "matchedText": "Well, there are two possible routes, one of which takes four hours and the other five. We'll be taking the longer one as it has fewer hills.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include both durations and the chosen longer route."
+              }
+            },
+            {
+              "number": 15,
+              "prompt": "Walkers should be careful of ______ along the route.",
+              "answer": "bikes",
+              "publisherAnswer": "bikes / bicycles",
+              "accepted": [
+                "bikes",
+                "bicycles"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The guide tells walkers to look out for bikes. Cars will not be a problem because the route avoids public roads.",
+              "evidence": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads.",
+              "evidenceStart": 88.74,
+              "evidenceEnd": 94.62,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads.",
+                "endQuote": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads.",
+                "matchedText": "Please look out for bikes though. Cars aren't a problem as our route avoids public roads.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 16,
+              "prompt": "Walkers will have lunch near the ______.",
+              "answer": "lake",
+              "publisherAnswer": "lake",
+              "accepted": [
+                "lake"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The guide has chosen a place by the lake for lunch because the café is closed. The waterfall is for a shorter photo stop.",
+              "evidence": "I've picked a great place to eat by the lake",
+              "evidenceStart": 104.24,
+              "evidenceEnd": 106.44,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I've picked a great place to eat by the lake",
+                "endQuote": "I've picked a great place to eat by the lake",
+                "matchedText": "I've picked a great place to eat by the lake.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 17,
+              "prompt": "Walkers are likely to see wildlife including ______.",
+              "answer": "butterflies",
+              "publisherAnswer": "butterflies",
+              "accepted": [
+                "butterflies"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "There are many butterflies at this time of year. Frogs live in the forest but remain hidden during the day.",
+              "evidence": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+              "evidenceStart": 116.14,
+              "evidenceEnd": 119.48,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+                "endQuote": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+                "matchedText": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 18,
+              "prompt": "At the end of the walk, people can visit a ______.",
+              "answer": "castle",
+              "publisherAnswer": "castle",
+              "accepted": [
+                "castle"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "There is a small castle to visit at the end of the walk. There is no souvenir shop there.",
+              "evidence": "There is a castle, though. It's not very big, but it is interesting",
+              "evidenceStart": 134.66,
+              "evidenceEnd": 142.86,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There is a castle though",
+                "endQuote": "a nice place to rest after a long walk",
+                "matchedText": "There is a castle though, it's not very big but it is interesting and a nice place to rest after a long walk.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Finish the castle description."
+              }
+            },
+            {
+              "number": 19,
+              "prompt": "It’s possible to take a ______ back to the place where the walk started.",
+              "answer": "bus",
+              "publisherAnswer": "bus (service)",
+              "accepted": [
+                "bus",
+                "bus service"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "A bus service is the only available return option. The trains no longer run there, and taxis will not come that far out of town.",
+              "evidence": "There's a bus service, although you may have to wait a while.",
+              "evidenceStart": 154.1,
+              "evidenceEnd": 158.02,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There's a bus service, although you may have to wait a while.",
+                "endQuote": "There's a bus service, although you may have to wait a while.",
+                "matchedText": "There's a bus service, although you may have to wait a while.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            }
+          ],
+          "context": "You will hear a guide giving some information about a walk in the countryside.",
+          "heading": "Countryside walk"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            81
+          ],
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Laura first became interested in poetry",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She became interested by spending time reading the poetry books at home. Her father owned the books, but she does not say he taught her poetry.",
+              "evidence": "there were always lots of poetry books on the shelves around the house. I used to spend hours looking at them.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 74.76,
+              "evidenceEnd": 83.42,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well my dad loves literature",
+                "endQuote": "I used to spend hours looking at them",
+                "matchedText": "Well, my dad loves literature, so there were always lots of poetry books on the shelves around the house. I used to spend hours looking at them.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the full home-reading origin."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "What made Laura decide to become a professional poet?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "Winning a poetry competition made her decide to write poetry full-time. She had been studying journalism, not taking a poetry course.",
+              "evidence": "two months later found out I'd come first. That's when I knew I wanted to do this full-time.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 104.68,
+              "evidenceEnd": 114.9,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "and she suggested that I enter a poetry competition",
+                "endQuote": "I wanted to do this full-time",
+                "matchedText": "and she suggested that I enter a poetry competition. I did, and two months later, found out I'd come first. That's when I knew I wanted to do this full time.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include competition, first place, and career decision."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "What is Laura’s new book about?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "Her new collection focuses on connections with people close to her. Buildings were a topic in earlier books, while the environment was only her original plan for this one.",
+              "evidence": "In this one, though, I focus on connections with the people I'm close to.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 129.22,
+              "evidenceEnd": 133.44,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "In this one, though, I focus on connections with the people I'm close to.",
+                "endQuote": "In this one, though, I focus on connections with the people I'm close to.",
+                "matchedText": "In this This one though, I focus on connections with the people I'm close to.",
+                "anchorScore": 0.9677,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "What does Laura say about reading poetry written a long time ago?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She admires the care and skill used to construct older poems. Different vocabulary and style do not stop her appreciating them.",
+              "evidence": "you soon notice how carefully the poems have been put together. I think they took more skill to write than many modern ones do.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 151.6,
+              "evidenceEnd": 158.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "but you soon notice how carefully the poems have been put together",
+                "endQuote": "more skill to write than many modern ones do",
+                "matchedText": "but you soon notice how carefully the poems have been put together. I think they took more skill to write than many modern ones do.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the complete comparison clause."
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "How does Laura feel about her new job teaching at a university?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She is grateful that experienced colleagues share ideas with her. She is not fully sure how much her students learn, and she expected the preparation workload.",
+              "evidence": "Thankfully the other teachers have a lot more experience than me and are happy to share their ideas.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 170.28,
+              "evidenceEnd": 174.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Thankfully the other teachers have a lot more experience than me and are happy to share their ideas.",
+                "endQuote": "Thankfully the other teachers have a lot more experience than me and are happy to share their ideas.",
+                "matchedText": "Thankfully, the other teachers have a lot more experience than me and are happy to share their ideas.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "In the future, Laura would like to",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She hopes to turn some of her earlier poems into songs. She will read at a festival rather than organise one, and she continues to have ideas for poems.",
+              "evidence": "I'm hoping to turn some of my previous work into songs",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "evidenceStart": 188.98,
+              "evidenceEnd": 195.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I'm hoping to turn some of my previous work into songs",
+                "endQuote": "hip-hop and rap are just poetry with a tune",
+                "matchedText": "I'm hoping to turn some of my previous work into songs, after all, hip hop and rap are just poetry with a tune.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Finish the explanation of adding music to previous work."
+              }
+            }
+          ],
+          "context": "You will hear an interview with a young poet called Laura Dickson."
+        }
+      ]
+    }
+  ],
+  "needsReview": [],
+  "sourceNotes": [
+    {
+      "test": 4,
+      "number": 10,
+      "pdfPage": 145,
+      "note": "The publisher transcript contains a stray repeated line about ordering online after the Q10 conversation; it belongs to Q8. It is omitted from evidence and explanation. The official Q10 key and correct rest advice are clear."
+    }
+  ],
+  "verification": {
+    "publisherKeyPdfPages": [
+      129,
+      142
+    ],
+    "publisherKeysVisuallyChecked": true,
+    "questionPdfPages": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "transcriptPdfPages": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "audioTimings": "All 50 cues reviewed against publisher transcripts and locally produced original-time word timestamps; first occurrence selected, full answer context included."
+  }
+}
