@@ -58,7 +58,7 @@ for unit in built['units']:
     assert data['id'] == unit['id']
     assert data == json.loads((ROOT / 'dist' / unit['readingFile']).read_text())
     assert hashlib.sha256(reading_path.read_bytes()).hexdigest()[:12] in reading_path.name
-    assert len(data['parts']) == (6 if unit['bookId'] == 'simply-pet' else 2)
+    assert len(data['parts']) == (6 if unit['bookId'] in ['simply-pet', 'authentic-1'] else 2)
     for part in data['parts']:
         reading_parts += 1
         reading_questions += len(part['questions'])
@@ -70,7 +70,7 @@ for unit in built['units']:
                 resolved = urljoin(base,resource)
                 assert resolved.startswith(base)
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
-assert reading_parts == 66 and reading_questions == 575
+assert reading_parts == 90 and reading_questions == 703
 print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
 
 audio_count = 0
@@ -85,8 +85,8 @@ for unit in built['units']:
             resolved = urljoin(base, resource)
             assert resolved.startswith(base)
             assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
-assert audio_count == 32
-print('PASS: all 32 original listening tracks resolve inside root, /wordhop/ and deeper project paths.')
+assert audio_count == 48
+print('PASS: all 48 listening tracks resolve inside root, /wordhop/ and deeper project paths.')
 
 listening_parts = listening_questions = 0
 listening_pages = set()
@@ -110,5 +110,5 @@ for unit in built['units']:
                 resolved = urljoin(base, resource)
                 assert resolved.startswith(base)
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
-assert (listening_parts, listening_questions, len(listening_pages)) == (32, 200, 32)
+assert (listening_parts, listening_questions, len(listening_pages)) == (48, 300, 56)
 print('PASS: all Listening questions, original pages, keys and explanations resolve at every supported project path.')
