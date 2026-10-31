@@ -113,7 +113,9 @@ Tests 1–8 each include all four Listening parts: 200 original questions,
 Open a test, select Listening and choose a Part. Use the A/B/C selectors or
 enter short answers without a word bank, then select Check answers to see
 the score, key, English explanation and recording evidence for every question.
-Try this part again clears only that part. Answers and checked parts persist
+After submitting, Listen to this answer replays the key audio beside each
+explanation and stops at the end of that excerpt. Replay works for correct,
+incorrect and unanswered questions. Try this part again clears only that part. Answers and checked parts persist
 in the same browser under `wordhop.listening.v1`, separately from Reading
 and vocabulary. Keys and explanations were prepared for WordHop from the
 supplied recordings; the student-book PDF does not provide a publisher key.
