@@ -4,7 +4,7 @@ English vocabulary flashcards, games, reading and listening exercises for PET an
 
 The current content includes Simply PET with eight tests and 250 words,
 Authentic 1 with four tests and 243 words, and Basic IELTS Reading with
-Units 4–12 and 414 words. The total is 907 words across 21 units or tests.
+Units 4–13 and 442 words. The total is 935 words across 22 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
 choice or fill-in-the-blank games without a word bank. Rounds default to all
@@ -88,13 +88,13 @@ Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
 (a temperature goal versus an original prediction). Source pages and answer
 provenance are recorded under `source-assets/simply-pet-reading/`.
 
-Basic IELTS Reading Units 4–12 also include their original reading pages and
-numbered exercises: 18 passages, 319 questions and 60 book pages. This covers
+Basic IELTS Reading Units 4–13 also include their original reading pages and
+numbered exercises: 20 passages, 356 questions and 68 book pages. This covers
 multiple choice, short answers and completion, True/False/Not Given,
 Yes/No/Not Given, matching headings and phrases, and multi-select questions.
 All pages of a passage remain together, with later pages loaded lazily.
 
-All 319 Basic IELTS Reading questions in Units 4–12 have been checked against
+All 356 Basic IELTS Reading questions in Units 4–13 have been checked against
 the separately supplied publisher `Answer Key.pdf`, book key pages 169–173.
 English explanations are written for WordHop and reviewed against the key
 and original passages. Numeric answers in Unit 11's note-completion table
@@ -156,3 +156,13 @@ FFmpeg decoding. The vocabulary source contains no illustrations. Source records
 documented definition corrections and reproducible import instructions are under
 `source-assets/authentic-1/`. `qa/check-listening.cjs` also runs the Authentic 1
 checks, covering every source entry, publisher key mapping and reviewed replay cue.
+
+## Basic IELTS Reading Unit 13
+
+Unit 13 adds all 28 illustrated vocabulary entries from the verified PPTX, with
+flashcards and all three games, plus More Cavities Needed and Our Exploding
+Population: Problems and Solutions. The two passages include 37 original questions
+on eight book pages (108–115), publisher-checked answers and English explanations.
+Passage 2 Question 2 is documented but unscored because none of its choices
+accurately defines negative in context; the other 36 questions are scored.
+Source records and reproducible import instructions are under `source-assets/unit-13/`.
