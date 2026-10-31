@@ -87,3 +87,28 @@ for unit in built['units']:
             assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
 assert audio_count == 32
 print('PASS: all 32 original listening tracks resolve inside root, /wordhop/ and deeper project paths.')
+
+listening_parts = listening_questions = 0
+listening_pages = set()
+for unit in built['units']:
+    if not unit.get('listeningFile'):
+        continue
+    data_path = ROOT / '_site' / unit['listeningFile']
+    data = json.loads(data_path.read_text())
+    assert data['id'] == unit['id']
+    assert data == json.loads((ROOT / 'dist' / unit['listeningFile']).read_text())
+    assert hashlib.sha256(data_path.read_bytes()).hexdigest()[:12] in data_path.name
+    for part in data['parts']:
+        listening_parts += 1
+        listening_questions += len(part['questions'])
+        images = [page['image'] for page in part['pages']]
+        listening_pages.update(images)
+        for image in images:
+            assert (ROOT / '_site' / image).read_bytes() == (ROOT / 'dist' / image).read_bytes()
+        for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
+            for resource in [unit['listeningFile'], *images]:
+                resolved = urljoin(base, resource)
+                assert resolved.startswith(base)
+                assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
+assert (listening_parts, listening_questions, len(listening_pages)) == (32, 200, 32)
+print('PASS: all Listening questions, original pages, keys and explanations resolve at every supported project path.')
