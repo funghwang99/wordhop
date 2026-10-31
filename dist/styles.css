@@ -91,3 +91,5 @@
 @media(max-width:480px){.listening-intro p{font-size:12px}.listening-part{font-size:12px}.listening-player-card{padding:21px 16px}.listening-tools{gap:16px}.listening-player-heading h3{font-size:23px}.listening-navigation .btn{padding:9px 12px;font-size:11px}}
 
 .listening-player-card .listening-source-warning{margin:0 0 20px}
+
+.listening-book-heading{margin-top:30px}.listening-view .reading-page.is-zoomed img{width:1300px;max-width:none}.listening-view .reading-answer-row{flex-wrap:wrap}.listening-view .reading-answer-state{margin-left:auto}.listening-view .reading-answer-row input{flex:1;width:160px}.listening-view .reading-solutions{scroll-margin-top:20px}
