@@ -15,6 +15,14 @@ function attempt(unitId,partId){
  if(!test[partId]||typeof test[partId]!=='object'||!test[partId].answers||typeof test[partId].answers!=='object'||Array.isArray(test[partId].answers))test[partId]={answers:{},checked:false};
  return test[partId];
 }
+function clearResults(unitId){
+ const next={...progress};delete next[unitId];
+ try{localStorage.setItem(storageKey,JSON.stringify({version:1,tests:next}));}
+ catch{return false;}
+ clearTimeout(saveTimer);saveTimer=null;progress=next;
+ if(active?.unit.id===unitId)stop();
+ return true;
+}
 function stop(){
  replays?.dispose();replays=null;
  if(saveTimer)persist();active=null;
@@ -189,5 +197,5 @@ document.addEventListener('click',event=>{
  if(action==='retry'&&active.part){replays?.stop();progress[active.unit.id][active.part.id]={answers:{},checked:false};persist();drawAnswers(active);document.querySelector('[data-listening-number]')?.focus({preventScroll:true});}
 });
 window.addEventListener('pagehide',()=>{if(saveTimer)persist();replays?.stop();player?.pause();});
-window.WordHopListening={render,stop,validate,grade,cueRange,createReplayController};
+window.WordHopListening={render,stop,validate,grade,cueRange,createReplayController,clearResults};
 })();

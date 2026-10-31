@@ -62,6 +62,13 @@ localStorage. They do not sync between devices. Changing from the previous
 website address to a GitHub Pages address does not automatically transfer that
 browser's saved progress. No student accounts or shared database are required.
 
+Every test or unit has a **Clear saved results** button above its study tabs.
+After confirmation it removes all saved Reading and Listening answers and game
+history for that test on the current device. The next visit starts with blank
+answer sheets. Other tests, viewed flashcards, sound and round-size preferences
+are preserved. Cancelling the dialog keeps the results. Clearing ends a current
+round, stops its audio and cancels pending autosave; storage errors are reported.
+
 ## Book reading exercises
 
 Simply PET includes all six Reading parts of each of the eight supplied tests:
