@@ -28,7 +28,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 87.36,
+              "evidenceEnd": 97.58,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+                "endQuote": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+                "matchedText": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 2,
@@ -45,7 +59,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 166.08,
+              "evidenceEnd": 169.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "They're filming a movie, and people can come and watch.",
+                "endQuote": "They're filming a movie, and people can come and watch.",
+                "matchedText": "They're filming a movie, and people can come and watch.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 3,
@@ -62,7 +90,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 247.18,
+              "evidenceEnd": 253.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We could always take them on a river cruise",
+                "endQuote": "That's not a bad idea I'll make the arrangements",
+                "matchedText": "We could always take them on a river cruise and eat on board. That's not a bad idea. I'll make the arrangements.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the acceptance and arrangement commitment."
+              }
             },
             {
               "number": 4,
@@ -79,7 +121,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 321.18,
+              "evidenceEnd": 331.92,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I had the pizza last time I came here",
+                "endQuote": "I think I'd prefer that today actually",
+                "matchedText": "I had the pizza last time I came here. It was delicious. I can really recommend it. Oh, if it's as good as you say, I'll try it. I think I prefer that today actually.",
+                "anchorScore": 0.9375,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Trim prior pasta reference; include pizza recommendation and final decision."
+              }
             },
             {
               "number": 5,
@@ -96,7 +152,23 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "cueStartQuote": "If I were you I'd get this plain one",
+              "cueEndQuote": "Yes I'll go for the one you suggested",
+              "evidenceStart": 396.8,
+              "evidenceEnd": 414.72,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "If I were you I'd get this plain one",
+                "endQuote": "Yes I'll go for the one you suggested",
+                "matchedText": "If I were you, I'd get this plain one. It's a nice size, not too big, not too small. That's true. true. I like the look of the one over there, with the cushion, but it's too large for the space I have available. So, have you decided? Yes, I'll go for the one you suggested.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 6,
@@ -113,7 +185,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 469.36,
+              "evidenceEnd": 474.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "You know Billy Ryan the folk singer and guitar player? Well, I've got tickets for that.",
+                "endQuote": "You know Billy Ryan the folk singer and guitar player? Well, I've got tickets for that.",
+                "matchedText": "You know Billy Ryan, the folk singer and guitar player? Well, I've got tickets for that.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 7,
@@ -130,7 +216,23 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "cueStartQuote": "Why don't you leave the tomatoes whole",
+              "cueEndQuote": "OK I'll follow your advice",
+              "evidenceStart": 547.56,
+              "evidenceEnd": 571.58,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Why don't you leave the tomatoes whole",
+                "endQuote": "OK I'll follow your advice",
+                "matchedText": "Why don't you leave the tomatoes whole? The recipe says to cut them into slices. I suppose these ones are small enough to use as they're small. They are though. The sauce will taste nicer like that. Just cook them for a long time. I could just open a tin, you know. It'd be far easier. That's cheating. You said you wanted to do this properly. Okay. I'll follow your advice.",
+                "anchorScore": 0.9091,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "8899ac8f334e8e09bb5f3038233808a1ee1908386727da3059cc089bdb98ce67",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             }
           ]
         },
@@ -158,7 +260,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 35.9,
+              "evidenceEnd": 40.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I know but it's when to go",
+                "endQuote": "I'm at work all day often till late",
+                "matchedText": "I know, but it's when to go. I'm at work all day, off until late.",
+                "anchorScore": 0.9032,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "ASR renders often till late as off until late; extended through the complete late-work statement."
+              }
             },
             {
               "number": 9,
@@ -175,7 +291,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 118.38,
+              "evidenceEnd": 122.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+                "endQuote": "But the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+                "matchedText": "but the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 10,
@@ -192,7 +322,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 222.96,
+              "evidenceEnd": 229.9,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But what bothers me is the mess they've left outside – loads of empty boxes from when they moved in.",
+                "endQuote": "But what bothers me is the mess they've left outside – loads of empty boxes from when they moved in.",
+                "matchedText": "But what bothers me is the mess they've left outside. Loads of empty boxes from when they moved in.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 11,
@@ -209,7 +353,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 317.14,
+              "evidenceEnd": 323.28,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I wouldn't mind having another look around",
+                "endQuote": "that's when I'm not working",
+                "matchedText": "I wouldn't mind having another look around, but I'll have to wait until next weekend, as that's when I'm not working.",
+                "anchorScore": 0.9231,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Trim the previous sentence; retain the wish to visit again."
+              }
             },
             {
               "number": 12,
@@ -226,7 +384,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 388.24,
+              "evidenceEnd": 392.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "it wasn't walking distance from the city centre, which is how it was advertised",
+                "endQuote": "it wasn't walking distance from the city centre, which is how it was advertised",
+                "matchedText": "it wasn't walking distance from the city centre, which is how it was advertised.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 13,
@@ -243,7 +415,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 488.56,
+              "evidenceEnd": 493.24,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "the long distances I need to travel for it just make flying a better option than the train",
+                "endQuote": "the long distances I need to travel for it just make flying a better option than the train",
+                "matchedText": "the long distances I I need to travel for it, just make flying a better option than the train.",
+                "anchorScore": 0.973,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "88c0f38fc1b709b39edb04abafd972518761a02b3f67df0dbc19239dc9fccf36",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             }
           ]
         },
@@ -268,7 +454,21 @@
               ],
               "publisherKeyPdfPage": 129,
               "explanation": "The bus leaves at quarter past eight, which is 8.15 a.m. Eight o'clock is the meeting time, and 8.30 was the usual departure time.",
-              "evidence": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight."
+              "evidence": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight.",
+              "evidenceStart": 66.34,
+              "evidenceEnd": 71.88,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight.",
+                "endQuote": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight.",
+                "matchedText": "We're meeting at 8 o 'clock in the morning, as the bus will go at exactly quarter past eight.",
+                "anchorScore": 0.95,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 15,
@@ -280,7 +480,21 @@
               ],
               "publisherKeyPdfPage": 129,
               "explanation": "Passengers must meet at the hotel entrance to get on the bus. The guide specifically says not to meet at the reception desk.",
-              "evidence": "please meet at the entrance to the hotel rather than at the reception desk"
+              "evidence": "please meet at the entrance to the hotel rather than at the reception desk",
+              "evidenceStart": 85.72,
+              "evidenceEnd": 90.18,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "please meet at the entrance to the hotel rather than at the reception desk",
+                "endQuote": "please meet at the entrance to the hotel rather than at the reception desk",
+                "matchedText": "please meet at the entrance to the hotel rather than at the reception desk,",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 16,
@@ -292,7 +506,21 @@
               ],
               "publisherKeyPdfPage": 129,
               "explanation": "The first stop is a ruin that used to be a palace. The ancient theatre was part of a different tour the previous day.",
-              "evidence": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace."
+              "evidence": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace.",
+              "evidenceStart": 96.06,
+              "evidenceEnd": 103.5,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace.",
+                "endQuote": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace.",
+                "matchedText": "our first stop will be at a magnificent ruin just outside Gullum. It used to be a palace.",
+                "anchorScore": 0.9444,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 17,
@@ -304,7 +532,21 @@
               ],
               "publisherKeyPdfPage": 129,
               "explanation": "Lunch is at the Wakizi Restaurant on the Gulum River. The guide spells its name W-A-K-I-Z-I.",
-              "evidence": "Afterwards we'll drive on to the Wakizi Restaurant on the Gulum River for lunch. That's spelt W-A-K-I-Z-I"
+              "evidence": "Afterwards we'll drive on to the Wakizi Restaurant on the Gulum River for lunch. That's spelt W-A-K-I-Z-I",
+              "evidenceStart": 115.92,
+              "evidenceEnd": 127.36,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Afterwards we'll drive on to the Wakizi Restaurant",
+                "endQuote": "That's spelt W A K I Z I by the way",
+                "matchedText": "Afterwards, we'll drive on to the Wachese restaurant on the Gullum River for lunch. That's spelled W -A -K -I -Z -I, by the way.",
+                "anchorScore": 0.875,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "ASR approximates the proper name; the spoken letter-by-letter spelling matches the publisher key."
+              }
             },
             {
               "number": 18,
@@ -316,7 +558,21 @@
               ],
               "publisherKeyPdfPage": 129,
               "explanation": "Diving is one of the afternoon activities at the beach. Sailing is unavailable because there is not enough wind.",
-              "evidence": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing."
+              "evidence": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+              "evidenceStart": 141.4,
+              "evidenceEnd": 148.08,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+                "endQuote": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+                "matchedText": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 19,
@@ -330,7 +586,21 @@
               ],
               "publisherKeyPdfPage": 129,
               "explanation": "Passengers need to bring suncream because temperatures will be high, even if it is cloudy. Towels and beach chairs will be provided.",
-              "evidence": "We'll provide towels and beach chairs, but please don't forget the sun-cream as the temperatures are very high"
+              "evidence": "We'll provide towels and beach chairs, but please don't forget the sun-cream as the temperatures are very high",
+              "evidenceStart": 160.36,
+              "evidenceEnd": 171.36,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We'll provide towels and beach chairs",
+                "endQuote": "even on a cloudy day",
+                "matchedText": "the We'll provide towels and beach chairs, but please don't forget the sun cream, as the temperatures are very high. You'll need it, even on a cloudy day.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "367c080079dd536a0acf94a9939943ae6d302b1ee01ddce813c0dc2a0c2f868d",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the complete suncream instruction and cloudy-day clarification."
+              }
             }
           ],
           "context": "You will hear a tour guide talking about arrangements for a day trip to a place called Gulum.",
@@ -359,7 +629,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 94.1,
+              "evidenceEnd": 103.1,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "What really got me into them was",
+                "endQuote": "he offered me a job one summer",
+                "matchedText": "What really got me into them was that Mom had a friend who was an arborist, someone who takes care of trees, and he offered me a job one summer.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the explicit trigger for his interest."
+              }
             },
             {
               "number": 21,
@@ -376,7 +660,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 109.18,
+              "evidenceEnd": 121.72,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well I was expecting everyone in the class to be young and fit",
+                "endQuote": "children even old people",
+                "matchedText": "Well, I was expecting everyone in the class to be young and fit because I thought you needed to be strong to climb trees. In fact, there were middle -aged climbers, children, even old people.",
+                "anchorScore": 0.9444,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Trim the interviewer question and retain the full contrast."
+              }
             },
             {
               "number": 22,
@@ -393,7 +691,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 144.22,
+              "evidenceEnd": 152.88,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "And I like working with people",
+                "endQuote": "like scientists for example",
+                "matchedText": "And I like working with people. Particularly teaching those whose jobs involve having to go up trees like scientists for example.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the start of his teaching preference."
+              }
             },
             {
               "number": 23,
@@ -410,7 +722,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 166.08,
+              "evidenceEnd": 173.52,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I live and work in the north-west of this country",
+                "endQuote": "So I move around",
+                "matchedText": "I live and work in the northwest of this country, and no one wants to climb trees there in the winter. So I move around.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include his home-area winter context."
+              }
             },
             {
               "number": 24,
@@ -427,7 +753,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 189.34,
+              "evidenceEnd": 192.6,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "It's such a great place to get views of the night sky.",
+                "endQuote": "It's such a great place to get views of the night sky.",
+                "matchedText": "It's such a great place to get views of the night sky.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 25,
@@ -444,7 +784,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 212.36,
+              "evidenceEnd": 224.6,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "The climbing's more challenging",
+                "endQuote": "you need to be careful not to damage it",
+                "matchedText": "The climbing's more challenging. Not because the trees are harder to climb, but because you have to move more slowly. It's an important environment so you need to be careful not to damage it.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "556a83c0828c1f1946fd79928311661924592487e5ec2e48ff1a591c11b129c2",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include moving slowly and its environmental reason."
+              }
             }
           ],
           "context": "You will hear an interview with a man called James Sweeney who works as a tree-climbing instructor."
@@ -479,7 +833,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 65.76,
+              "evidenceEnd": 75.94,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+                "endQuote": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+                "matchedText": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 2,
@@ -496,7 +864,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 146.14,
+              "evidenceEnd": 151.24,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "our beds didn't have mosquito nets, so we got bitten almost every night",
+                "endQuote": "our beds didn't have mosquito nets, so we got bitten almost every night",
+                "matchedText": "our beds didn't have mosquito nets, so we got bitten almost every night,",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 3,
@@ -513,7 +895,23 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "cueStartQuote": "I think I'd like the salmon",
+              "cueEndQuote": "I'll have what I always have",
+              "evidenceStart": 221.18,
+              "evidenceEnd": 250.74,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I think I'd like the salmon",
+                "endQuote": "I'll have what I always have",
+                "matchedText": "I think I'd like the salmon. You're so boring. I knew you'd say fish. You never try anything different. I'm having pizza. They make them really thin and tasty here. Yes, my sister had one last time we ate here. She said it was great. How about the curry? That's excellent, I believe. Mmm, nice idea, but I've heard it's very spicy. I've made up my mind. I'll have what I always have.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 4,
@@ -530,7 +928,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 324.12,
+              "evidenceEnd": 329.0,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I'm not that good at racket sports",
+                "endQuote": "I wouldn't mind giving badminton a go",
+                "matchedText": "I'm not that good at racket sports. But I wouldn't mind giving bad mint in a go.",
+                "anchorScore": 0.9032,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "ASR splits badminton into bad mint in; verified the answer word spans327.92–328.76 and retained go to329.00."
+              }
             },
             {
               "number": 5,
@@ -547,7 +959,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 394.32,
+              "evidenceEnd": 401.62,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "This one's set at sea",
+                "endQuote": "all the challenges he has to deal with",
+                "matchedText": "This one's set at sea, a guy who crosses the Pacific Ocean on his own and all the challenges he has to deal with.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Finish the current-book description sentence."
+              }
             },
             {
               "number": 6,
@@ -564,7 +990,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 480.52,
+              "evidenceEnd": 486.16,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There's a new art exhibition on at the museum – definitely worth seeing, or so I've heard.",
+                "endQuote": "There's a new art exhibition on at the museum – definitely worth seeing, or so I've heard.",
+                "matchedText": "There's a new art exhibition mission on at the museum, definitely worth seeing, or so I've heard.",
+                "anchorScore": 0.973,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 7,
@@ -581,7 +1021,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 554.38,
+              "evidenceEnd": 559.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "For an amazing £599, the most up-to-date smartphone is now available.",
+                "endQuote": "For an amazing £599, the most up-to-date smartphone is now available.",
+                "matchedText": "For an amazing £599, the most up -to -date smartphone is now available.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "a77d732afdf313f16cfa1a9915cb350e9273f900dac86b7fa07e595c94c438cd",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             }
           ]
         },
@@ -609,7 +1063,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 47.06,
+              "evidenceEnd": 51.42,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "And besides, it weighs so much, can you imagine trying to take it on the bus?",
+                "endQuote": "And besides, it weighs so much, can you imagine trying to take it on the bus?",
+                "matchedText": "And besides, it weighs so much. Can you imagine us trying to take it on the bus?",
+                "anchorScore": 0.9697,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 9,
@@ -626,7 +1094,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 138.66,
+              "evidenceEnd": 143.16,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+                "endQuote": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+                "matchedText": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 10,
@@ -643,7 +1125,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 219.2,
+              "evidenceEnd": 221.84,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But my doctor told me to take things easy anyway",
+                "endQuote": "But my doctor told me to take things easy anyway",
+                "matchedText": "But my doctor told me to take things easy anyway.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 11,
@@ -660,7 +1156,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 310.82,
+              "evidenceEnd": 314.12,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "actually I expected the performances to be a lot better",
+                "endQuote": "actually I expected the performances to be a lot better",
+                "matchedText": "actually, I expected the performances to be a lot better.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 12,
@@ -677,7 +1187,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 402.38,
+              "evidenceEnd": 409.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I mean the film's aimed at kids",
+                "endQuote": "a much wider range of people",
+                "matchedText": "I mean, the film's aimed at kids, but I think you'll like it. The music's definitely popular with a much wider range of people.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the children/wider-audience comparison."
+              }
             },
             {
               "number": 13,
@@ -694,7 +1218,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 479.18,
+              "evidenceEnd": 484.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I make sure I do it every morning before anything else. So do I. I need to for my job.",
+                "endQuote": "I make sure I do it every morning before anything else. So do I. I need to for my job.",
+                "matchedText": "I make sure I do it every morning before anything else. So do I. I need to for my job,",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "0df006ee7f3428f1299743975a8bc22f03d8adac33bf6d04eafd52f4319fb9cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             }
           ]
         },
@@ -717,7 +1255,21 @@
               ],
               "publisherKeyPdfPage": 142,
               "explanation": "They will use the longer of the two routes: the five-hour route, which has fewer hills. Four hours is the other route's duration.",
-              "evidence": "one of which takes four hours, and the other five. We'll be taking the longer one"
+              "evidence": "one of which takes four hours, and the other five. We'll be taking the longer one",
+              "evidenceStart": 62.72,
+              "evidenceEnd": 72.2,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well there are two possible routes",
+                "endQuote": "as it has fewer hills",
+                "matchedText": "Well, there are two possible routes, one of which takes four hours and the other five. We'll be taking the longer one as it has fewer hills.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include both durations and the chosen longer route."
+              }
             },
             {
               "number": 15,
@@ -730,7 +1282,21 @@
               ],
               "publisherKeyPdfPage": 142,
               "explanation": "The guide tells walkers to look out for bikes. Cars will not be a problem because the route avoids public roads.",
-              "evidence": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads."
+              "evidence": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads.",
+              "evidenceStart": 88.74,
+              "evidenceEnd": 94.62,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads.",
+                "endQuote": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads.",
+                "matchedText": "Please look out for bikes though. Cars aren't a problem as our route avoids public roads.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 16,
@@ -742,7 +1308,21 @@
               ],
               "publisherKeyPdfPage": 142,
               "explanation": "The guide has chosen a place by the lake for lunch because the café is closed. The waterfall is for a shorter photo stop.",
-              "evidence": "I've picked a great place to eat by the lake"
+              "evidence": "I've picked a great place to eat by the lake",
+              "evidenceStart": 104.24,
+              "evidenceEnd": 106.44,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I've picked a great place to eat by the lake",
+                "endQuote": "I've picked a great place to eat by the lake",
+                "matchedText": "I've picked a great place to eat by the lake.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 17,
@@ -754,7 +1334,21 @@
               ],
               "publisherKeyPdfPage": 142,
               "explanation": "There are many butterflies at this time of year. Frogs live in the forest but remain hidden during the day.",
-              "evidence": "You'll be pleased to know that there are lots of butterflies at this time of year."
+              "evidence": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+              "evidenceStart": 116.14,
+              "evidenceEnd": 119.48,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+                "endQuote": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+                "matchedText": "You'll be pleased to know that there are lots of butterflies at this time of year.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 18,
@@ -766,7 +1360,21 @@
               ],
               "publisherKeyPdfPage": 142,
               "explanation": "There is a small castle to visit at the end of the walk. There is no souvenir shop there.",
-              "evidence": "There is a castle, though. It's not very big, but it is interesting"
+              "evidence": "There is a castle, though. It's not very big, but it is interesting",
+              "evidenceStart": 134.66,
+              "evidenceEnd": 142.86,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There is a castle though",
+                "endQuote": "a nice place to rest after a long walk",
+                "matchedText": "There is a castle though, it's not very big but it is interesting and a nice place to rest after a long walk.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Finish the castle description."
+              }
             },
             {
               "number": 19,
@@ -779,7 +1387,21 @@
               ],
               "publisherKeyPdfPage": 142,
               "explanation": "A bus service is the only available return option. The trains no longer run there, and taxis will not come that far out of town.",
-              "evidence": "There's a bus service, although you may have to wait a while."
+              "evidence": "There's a bus service, although you may have to wait a while.",
+              "evidenceStart": 154.1,
+              "evidenceEnd": 158.02,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There's a bus service, although you may have to wait a while.",
+                "endQuote": "There's a bus service, although you may have to wait a while.",
+                "matchedText": "There's a bus service, although you may have to wait a while.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "717e3149b85f78620dcdc3709835f66a1878c59aa5943bf3d9dde0f7c167838b",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             }
           ],
           "context": "You will hear a guide giving some information about a walk in the countryside.",
@@ -808,7 +1430,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 74.76,
+              "evidenceEnd": 83.42,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well my dad loves literature",
+                "endQuote": "I used to spend hours looking at them",
+                "matchedText": "Well, my dad loves literature, so there were always lots of poetry books on the shelves around the house. I used to spend hours looking at them.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the full home-reading origin."
+              }
             },
             {
               "number": 21,
@@ -825,7 +1461,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 104.68,
+              "evidenceEnd": 114.9,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "and she suggested that I enter a poetry competition",
+                "endQuote": "I wanted to do this full-time",
+                "matchedText": "and she suggested that I enter a poetry competition. I did, and two months later, found out I'd come first. That's when I knew I wanted to do this full time.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include competition, first place, and career decision."
+              }
             },
             {
               "number": 22,
@@ -842,7 +1492,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 129.22,
+              "evidenceEnd": 133.44,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "In this one, though, I focus on connections with the people I'm close to.",
+                "endQuote": "In this one, though, I focus on connections with the people I'm close to.",
+                "matchedText": "In this This one though, I focus on connections with the people I'm close to.",
+                "anchorScore": 0.9677,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 23,
@@ -859,7 +1523,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 151.6,
+              "evidenceEnd": 158.26,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "but you soon notice how carefully the poems have been put together",
+                "endQuote": "more skill to write than many modern ones do",
+                "matchedText": "but you soon notice how carefully the poems have been put together. I think they took more skill to write than many modern ones do.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Include the complete comparison clause."
+              }
             },
             {
               "number": 24,
@@ -876,7 +1554,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 170.28,
+              "evidenceEnd": 174.96,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Thankfully the other teachers have a lot more experience than me and are happy to share their ideas.",
+                "endQuote": "Thankfully the other teachers have a lot more experience than me and are happy to share their ideas.",
+                "matchedText": "Thankfully, the other teachers have a lot more experience than me and are happy to share their ideas.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Reviewed complete answer context against the publisher transcript and local original-time ASR."
+              }
             },
             {
               "number": 25,
@@ -893,7 +1585,21 @@
                 "A",
                 "B",
                 "C"
-              ]
+              ],
+              "evidenceStart": 188.98,
+              "evidenceEnd": 195.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I'm hoping to turn some of my previous work into songs",
+                "endQuote": "hip-hop and rap are just poetry with a tune",
+                "matchedText": "I'm hoping to turn some of my previous work into songs, after all, hip hop and rap are just poetry with a tune.",
+                "anchorScore": 1.0,
+                "firstOccurrence": true,
+                "sourceAudioSha256": "1728b7c4dd7396895de6ac92439fc019be135da1b2c5e167ff19d84e39af56cc",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "reviewNote": "Finish the explanation of adding music to previous work."
+              }
             }
           ],
           "context": "You will hear an interview with a young poet called Laura Dickson."
@@ -944,6 +1650,6 @@
       146,
       147
     ],
-    "audioTimings": "Pending ASR alignment supplied by root; no positions invented."
+    "audioTimings": "All 50 cues reviewed against publisher transcripts and locally produced original-time word timestamps; first occurrence selected, full answer context included."
   }
 }

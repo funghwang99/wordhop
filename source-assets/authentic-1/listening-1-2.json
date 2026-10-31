@@ -29,7 +29,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 85.4,
+              "evidenceEnd": 90.34,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Afterwards I went to sit in the waiting room. I remember putting my wallet down.",
+                "endQuote": "Afterwards I went to sit in the waiting room. I remember putting my wallet down.",
+                "matchedText": "Afterwards, I went to sit in the waiting room. I remember putting my wallet down.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 105,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 2,
@@ -47,7 +61,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 181.14,
+              "evidenceEnd": 186.86,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "This one’ll deal with something closer to home",
+                "endQuote": "wild flowers in parks and gardens.",
+                "matchedText": "This one will deal with something closer to home. Wild flowers, impacts and gardens.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 105,
+                "notes": "First occurrence verified. ASR rendered 'in parks' as 'impacts'; the repeat matches more literally, but this earlier occurrence is the same publisher line."
+              }
             },
             {
               "number": 3,
@@ -67,7 +95,21 @@
               ],
               "cueStartQuote": "You normally have salad for lunch, don’t you?",
               "cueEndQuote": "In that case, I’ll go for my usual choice.",
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 248.08,
+              "evidenceEnd": 270.24,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "You normally have salad for lunch, don’t you?",
+                "endQuote": "In that case, I’ll go for my usual choice.",
+                "matchedText": "You normally have salad for lunch, don't you? Yes. I was thinking I might have the tomato soup. Or maybe a toasted cheese and tomato sandwich. They both sound nice. And I've heard the bread here's really good. They bake it themselves. Look, it says everything on the lunchtime menu comes with fresh bread. In that case, I'll go for my usual choice.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 106,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 4,
@@ -85,7 +127,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 339.28,
+              "evidenceEnd": 346.7,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Anyway, according to what I heard on the radio",
+                "endQuote": "and I think it’ll be really popular.",
+                "matchedText": "Anyway, according to what I heard on the radio, it's only on for a couple of days, and I think it'll be really popular.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 106,
+                "notes": "Included the complete sentence rather than the previous sentence's last word."
+              }
             },
             {
               "number": 5,
@@ -103,7 +159,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 415.9,
+              "evidenceEnd": 420.02,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "they only needed a security guard for the shop. So he was given that job instead.",
+                "endQuote": "they only needed a security guard for the shop. So he was given that job instead.",
+                "matchedText": "they only needed a security guard for the shop, So he was given that job instead.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 106,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 6,
@@ -121,7 +191,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 489.22,
+              "evidenceEnd": 493.1,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "It’ll be quicker to rush home and get my own car rather than wait for a taxi.",
+                "endQuote": "It’ll be quicker to rush home and get my own car rather than wait for a taxi.",
+                "matchedText": "It'll be quicker to rush home and get my own car rather than wait for a taxi.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 106,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 7,
@@ -139,7 +223,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 551.76,
+              "evidenceEnd": 558.16,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Ice-hockey too — I’ve always enjoyed watching it. It’s too fast, though, and I gave it up in the end.",
+                "endQuote": "Ice-hockey too — I’ve always enjoyed watching it. It’s too fast, though, and I gave it up in the end.",
+                "matchedText": "Ice hockey too. I've always enjoyed watching it. It's too fast though, and I gave it up in the end.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 106,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             }
           ]
         },
@@ -168,7 +266,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 49.52,
+              "evidenceEnd": 56.4,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "What about talking to my brother who’s a professional cyclist? He’d give you some useful ideas",
+                "endQuote": "What about talking to my brother who’s a professional cyclist? He’d give you some useful ideas",
+                "matchedText": "What about talking to my brother who's a professional cyclist? He'd give you some useful ideas",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 107,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 9,
@@ -186,7 +298,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 145.02,
+              "evidenceEnd": 150.28,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "if she spoke more slowly, I’d understand a lot more. I miss so much.",
+                "endQuote": "if she spoke more slowly, I’d understand a lot more. I miss so much.",
+                "matchedText": "If she spoke more slowly, I'd understand a lot more. I miss so much.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 107,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 10,
@@ -204,7 +330,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 244.8,
+              "evidenceEnd": 250.56,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "we just sat on the sofa watching TV all afternoon, which was something I really needed to do",
+                "endQuote": "we just sat on the sofa watching TV all afternoon, which was something I really needed to do",
+                "matchedText": "we just sat on the sofa watching TV all afternoon, which was something I really needed to do,",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 107,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 11,
@@ -223,7 +363,21 @@
                 "C"
               ],
               "cueEndQuote": "Such a shame, but you’re absolutely right",
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 342.14,
+              "evidenceEnd": 349.74,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "everything seemed to either be out of a tin or frozen.",
+                "endQuote": "Such a shame, but you’re absolutely right",
+                "matchedText": "Everything seemed to either be out of a tin or frozen stuff heated up in a microwave. Such a shame, but you're absolutely right.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 107,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 12,
@@ -241,7 +395,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 433.34,
+              "evidenceEnd": 437.7,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I see you have to wear glasses now as well. I’m still not really used to mine.",
+                "endQuote": "I see you have to wear glasses now as well. I’m still not really used to mine.",
+                "matchedText": "I see you have to wear glasses now as well. I'm still not really used to mine.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 13,
@@ -259,7 +427,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 518.88,
+              "evidenceEnd": 524.16,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I can’t believe that. Without John? Oh well, I’m ready for it",
+                "endQuote": "I can’t believe that. Without John? Oh well, I’m ready for it",
+                "matchedText": "I can't believe that. Without John. Oh well, I'm ready for it.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             }
           ]
         },
@@ -282,7 +464,21 @@
               "explanation": "The teacher of songs from musicals is Susan Brokley. The speaker spells her surname B-R-O-K-L-E-Y.",
               "evidence": "And Susan Brokley will teach you to sing songs from famous musicals. Her surname’s spelt B-R-O-K-L-E-Y.",
               "evidenceTranscriptPdfPage": 108,
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 74.6,
+              "evidenceEnd": 86.18,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "And Susan Brokley will teach you to sing songs from famous musicals. Her surname’s spelt B-R-O-K-L-E-Y.",
+                "endQuote": "And Susan Brokley will teach you to sing songs from famous musicals. Her surname’s spelt B-R-O-K-L-E-Y.",
+                "matchedText": "and Susan Broccoli will teach you to sing songs from famous musicals. Her surname's spelt B -R -O -K -L -E -Y.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 15,
@@ -298,7 +494,21 @@
               "explanation": "The concert begins at half past eight. Eight o’clock is only the time when the theatre doors open.",
               "evidence": "It’ll begin at half past eight",
               "evidenceTranscriptPdfPage": 108,
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 87.18,
+              "evidenceEnd": 93.86,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "The course highlight is the concert for family and friends on Friday.",
+                "endQuote": "It’ll begin at half past eight",
+                "matchedText": "The course highlight is the concert for family and friends on Friday. It will begin at half past eight,",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "Included the concert context before the start time; later eight o’clock refers to doors opening."
+              }
             },
             {
               "number": 16,
@@ -311,7 +521,21 @@
               "explanation": "Performers are asked to wear blue so that they look similar. Black is mentioned as the traditional concert colour, but it is not required here.",
               "evidence": "we ask that they’re blue so everyone looks similar.",
               "evidenceTranscriptPdfPage": 108,
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 100.68,
+              "evidenceEnd": 109.4,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "On the night of the concert, we want you to feel relaxed",
+                "endQuote": "we ask that they’re blue so everyone looks similar.",
+                "matchedText": "On the night of the concert, we want you to feel relaxed. T -shirts are fine, but we ask that they're blue so everyone looks similar.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "Included the clothing context and complete blue instruction."
+              }
             },
             {
               "number": 17,
@@ -324,7 +548,21 @@
               "explanation": "The speaker says a map showing the rooms is available from the receptionist. Teachers and the security guard can give directions, but they are not the source of the map.",
               "evidence": "There’s also a map showing where all the rooms are, which you can get from the receptionist.",
               "evidenceTranscriptPdfPage": 108,
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 127.36,
+              "evidenceEnd": 132.9,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There’s also a map showing where all the rooms are, which you can get from the receptionist.",
+                "endQuote": "There’s also a map showing where all the rooms are, which you can get from the receptionist.",
+                "matchedText": "There's also a map showing where all the rooms are, which you can get from the receptionist.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 18,
@@ -337,7 +575,21 @@
               "explanation": "Students should take their food to the hall. The kitchen is for preparing food and has nowhere to sit and eat.",
               "evidence": "take your sandwiches or whatever to the hall",
               "evidenceTranscriptPdfPage": 108,
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 145.96,
+              "evidenceEnd": 152.28,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "So, take your sandwiches or whatever to the hall",
+                "endQuote": "with a view of the garden next door.",
+                "matchedText": "So take your sandwiches or whatever to the hall, much nicer, with a view of the garden next door.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 108,
+                "notes": "Included the complete lunch-location sentence."
+              }
             },
             {
               "number": 19,
@@ -351,7 +603,21 @@
               "explanation": "The daily parking charge is £3. The £20 price is for a monthly pass, while £15 is the total for the week.",
               "evidence": "it’s cheaper to pay daily, which is £3",
               "evidenceTranscriptPdfPage": 109,
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 159.96,
+              "evidenceEnd": 167.86,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "As you’re only here for a week, it’s cheaper to pay daily",
+                "endQuote": "so that’ll only cost you £15 in total.",
+                "matchedText": "As you're only here for a week, it's cheaper to pay daily, which is £3, so that'll only cost you £15 in total.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "Included the explicit daily charge and its contrast with the weekly total."
+              }
             }
           ],
           "context": "You will hear a man giving information to people who are starting a one-week singing course.",
@@ -381,7 +647,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 94.44,
+              "evidenceEnd": 98.64,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "a friend said I could help in his hairdresser’s shop, so I did, and I ended up staying!",
+                "endQuote": "a friend said I could help in his hairdresser’s shop, so I did, and I ended up staying!",
+                "matchedText": "a friend said I could help in his hairdresser shop so I did and I ended up staying.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 21,
@@ -399,7 +679,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 107.5,
+              "evidenceEnd": 111.68,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "it’s best if we mix things up",
+                "endQuote": "do a few women’s cuts, some mens, some colour.",
+                "matchedText": "It's best if we mix things up. Do a few women's cuts, a few men's, some colour.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "The automatic match stopped at women's cuts; extended through men's cuts and colour to include the range of jobs."
+              }
             },
             {
               "number": 22,
@@ -417,7 +711,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 123.8,
+              "evidenceEnd": 127.92,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I really enjoy exchanging news with the people who come back regularly for haircuts.",
+                "endQuote": "I really enjoy exchanging news with the people who come back regularly for haircuts.",
+                "matchedText": "I really enjoy exchanging news with the people who come back regularly for haircuts.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 23,
@@ -435,7 +743,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 147.32,
+              "evidenceEnd": 152.54,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We have to take health and safety courses",
+                "endQuote": "which I find extremely dull but I know they’re necessary.",
+                "matchedText": "We have to take health and safety courses, which I find extremely dull, but I know they're necessary.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "Included the complete sentence explaining the disliked courses."
+              }
             },
             {
               "number": 24,
@@ -453,7 +775,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 175.08,
+              "evidenceEnd": 181.08,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I usually feel there’s something I could do better",
+                "endQuote": "so I’m always trying to improve, to keep customers satisfied.",
+                "matchedText": "I usually feel there's something I could do better, so I'm always trying to improve to keep customers satisfied.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "Included the complete improvement sentence."
+              }
             },
             {
               "number": 25,
@@ -471,7 +807,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 105
+              "publisherKeyPdfPage": 105,
+              "evidenceStart": 202.24,
+              "evidenceEnd": 206.62,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "a lot of people make the mistake of thinking they’ve learned all there is to learn",
+                "endQuote": "that’s rarely true.",
+                "matchedText": "A lot of people make the mistake of thinking they've learned all there is to learn. That's really true.",
+                "firstOccurrence": true,
+                "asrFile": "test-1-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 109,
+                "notes": "First occurrence unmistakably anchored. ASR misrecognises publisher 'rarely true' as 'really true'; the publisher transcript and answer key establish the intended meaning."
+              }
             }
           ],
           "context": "You will hear an interview with a man called Mickey Diaz, who is talking about his work as a hairdresser."
@@ -507,7 +857,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 72.9,
+              "evidenceEnd": 75.08,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I’ve just realised I’ve left my torch behind.",
+                "endQuote": "I’ve just realised I’ve left my torch behind.",
+                "matchedText": "I've just realised I've left my torch behind.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 117,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 2,
@@ -525,7 +889,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 144.32,
+              "evidenceEnd": 148.56,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "this flight is delayed and is unlikely to take off until 12.15.",
+                "endQuote": "this flight is delayed and is unlikely to take off until 12.15.",
+                "matchedText": "this flight is delayed and is unlikely to take off until 1215.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 117,
+                "notes": "Extended through the essential time. ASR writes 12.15 as 1215, which caused the fuzzy match to omit its final token."
+              }
             },
             {
               "number": 3,
@@ -543,7 +921,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 234.96,
+              "evidenceEnd": 238.1,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "We ended up getting some discount tickets to visit a castle.",
+                "endQuote": "We ended up getting some discount tickets to visit a castle.",
+                "matchedText": "We ended up getting some discount tickets to visit a castle.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 117,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 4,
@@ -562,7 +954,21 @@
                 "C"
               ],
               "cueEndQuote": "Especially if they put ice and lemon in it. Good idea.",
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 324.42,
+              "evidenceEnd": 332.28,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "What about asking for a jug of tap water — it tastes just as good.",
+                "endQuote": "Especially if they put ice and lemon in it. Good idea.",
+                "matchedText": "What about asking for a jug of tap water? It tastes just as good. Especially if they put ice and lemon in it. Good idea.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 118,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 5,
@@ -580,7 +986,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 399.84,
+              "evidenceEnd": 405.52,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I’m interested in water, especially scenes showing rain. Have a look at this one of mine.",
+                "endQuote": "I’m interested in water, especially scenes showing rain. Have a look at this one of mine.",
+                "matchedText": "I'm interested in water, especially scenes showing rain. Have a look at this one of mine.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 118,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 6,
@@ -598,7 +1018,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 484.34,
+              "evidenceEnd": 488.72,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "You could always take the underground to Greenoaks station and it’s only a short walk from there.",
+                "endQuote": "You could always take the underground to Greenoaks station and it’s only a short walk from there.",
+                "matchedText": "You could always take the underground to Green Oaks Station, and it's only a short walk from there.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 118,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 7,
@@ -616,7 +1050,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 556.18,
+              "evidenceEnd": 559.5,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "There’ll be heavy snow showers, mainly in northern areas",
+                "endQuote": "There’ll be heavy snow showers, mainly in northern areas",
+                "matchedText": "There'll be heavy snow showers, mainly in northern areas,",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-1.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 118,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             }
           ]
         },
@@ -646,7 +1094,21 @@
                 "C"
               ],
               "cueStartQuote": "it wouldn’t be a good idea to have so many people riding together",
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 40.48,
+              "evidenceEnd": 46.78,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "it wouldn’t be a good idea to have so many people riding together",
+                "endQuote": "I’ll have to choose between them, which is a shame.",
+                "matchedText": "it wouldn't be a good idea to have so many people riding together, so I'll have to choose between them, which is a shame.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 118,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 9,
@@ -665,7 +1127,21 @@
                 "C"
               ],
               "cueEndQuote": "The cold weather might be the reason for the low numbers.",
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 125.54,
+              "evidenceEnd": 131.94,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "there weren’t nearly as many people watching as there normally are.",
+                "endQuote": "The cold weather might be the reason for the low numbers.",
+                "matchedText": "there weren't nearly as many people watching as they normally are. The cold weather might be the reason for the low numbers,",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 119,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 10,
@@ -683,7 +1159,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 225.64,
+              "evidenceEnd": 235.78,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "It was too difficult for me and I had to give up half-way",
+                "endQuote": "The others all found this very funny, which made me feel pretty silly.",
+                "matchedText": "It was too difficult for me and I had to give up halfway. halfway. I nearly hurt myself hitting a tree. The others all found this very funny, which made me feel pretty silly.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 119,
+                "notes": "Included the skiing difficulty and the resulting embarrassment."
+              }
             },
             {
               "number": 11,
@@ -702,7 +1192,21 @@
                 "C"
               ],
               "cueStartQuote": "some useful places to look online where people who’ve bought new cars give their opinions",
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 313.54,
+              "evidenceEnd": 325.34,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "some useful places to look online where people who’ve bought new cars give their opinions",
+                "endQuote": "I’d always rather see what car owners say than trust adverts or stuff on TV.",
+                "matchedText": "some useful places to look online where people who've bought new cars give their opinions. I'd always rather see what car owners say than Trust Adverts or Staff on TV.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 119,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 12,
@@ -720,7 +1224,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 420.78,
+              "evidenceEnd": 424.28,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I’m spending ages sorting things out, including most evenings.",
+                "endQuote": "I’m spending ages sorting things out, including most evenings.",
+                "matchedText": "I'm spending ages sorting things out, including most evenings.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 13,
@@ -738,7 +1256,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 499.76,
+              "evidenceEnd": 509.04,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I suppose everything’s nearby, so now I can walk everywhere",
+                "endQuote": "I’m actually fitter than when I lived in the countryside. I hadn’t expected that.",
+                "matchedText": "I suppose everything's nearby, so now I can walk everywhere. Which means I'm actually fitter than when I lived in the countryside. I hadn't expected that.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-2.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "Included the reason for the health benefit as well as her surprise."
+              }
             }
           ]
         },
@@ -761,7 +1293,21 @@
               "explanation": "Although she now knows a lot about computing, Kelly says that her university degree was in art.",
               "evidence": "I actually studied art for my degree.",
               "evidenceTranscriptPdfPage": 120,
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 62.68,
+              "evidenceEnd": 69.32,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Although I now know almost as much about computing as I do about cartoon design",
+                "endQuote": "I actually studied art for my degree.",
+                "matchedText": "Although I now know almost as much about computing as I do about cartoon design, I actually studied art for my degree.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "Included the complete contrast between current computing knowledge and her degree subject."
+              }
             },
             {
               "number": 15,
@@ -774,7 +1320,21 @@
               "explanation": "She praises the software but says it is the people who make the company such a good workplace.",
               "evidence": "it’s the people there that make it such a fantastic place to work.",
               "evidenceTranscriptPdfPage": 120,
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 82.12,
+              "evidenceEnd": 85.48,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "it’s the people there that make it such a fantastic place to work.",
+                "endQuote": "it’s the people there that make it such a fantastic place to work.",
+                "matchedText": "it's the people there that make it such a fantastic place to work.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 16,
@@ -787,7 +1347,21 @@
               "explanation": "Her own department works on the animals in each story. Other departments create the human characters and buildings.",
               "evidence": "the one I’m in works on animals in the story",
               "evidenceTranscriptPdfPage": 120,
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 93.08,
+              "evidenceEnd": 95.84,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "the one I’m in works on animals in the story",
+                "endQuote": "the one I’m in works on animals in the story",
+                "matchedText": "the one I'm in works on animals in the story,",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 17,
@@ -800,7 +1374,21 @@
               "explanation": "Kelly has just started acting classes to improve her understanding of filmmaking. Her writing course took place last year.",
               "evidence": "I’ve just started doing acting classes, which are surprisingly useful for understanding filmmaking",
               "evidenceTranscriptPdfPage": 120,
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 113.88,
+              "evidenceEnd": 119.2,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I’ve just started doing acting classes, which are surprisingly useful for understanding filmmaking",
+                "endQuote": "I’ve just started doing acting classes, which are surprisingly useful for understanding filmmaking",
+                "matchedText": "I've just started doing acting classes, which is surprisingly useful for understanding filmmaking,",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 18,
@@ -814,7 +1402,21 @@
               "explanation": "Her company uses computers and takes eight months to make a full-length film. The two-year timescale refers to the traditional method using individual drawings.",
               "evidence": "Compare that to the eight months it takes my company to do the same",
               "evidenceTranscriptPdfPage": 120,
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 137.04,
+              "evidenceEnd": 142.64,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Compare that to the eight months it takes my company to do the same",
+                "endQuote": "and you see the advantage of using computers.",
+                "matchedText": "Compare that to the eight months it takes my company to do the same and you see the advantage of using computers.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "Included the complete sentence giving her company's eight-month timescale."
+              }
             },
             {
               "number": 19,
@@ -827,7 +1429,21 @@
               "explanation": "She says her next project is something for a website. It will be a new challenge after her work on children’s comedy films.",
               "evidence": "It’s actually something for a website.",
               "evidenceTranscriptPdfPage": 120,
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 144.12,
+              "evidenceEnd": 150.82,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "My next cartoon project will be the first thing I’ve done that isn’t a film for children.",
+                "endQuote": "It’s actually something for a website.",
+                "matchedText": "My next car team project will be the first thing I've done that isn't a film for children. It's actually something for a website.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-3.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 120,
+                "notes": "Included the next-project context. ASR renders 'cartoon' as 'car team', but the surrounding sentence and website line match the publisher transcript."
+              }
             }
           ],
           "context": "You will hear a woman called Kelly Robinson talking about her work as a maker of cartoon films.",
@@ -857,7 +1473,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 83.3,
+              "evidenceEnd": 103.54,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "before I even started school, my dad used to take my brother Joel and me to the pool in town.",
+                "endQuote": "I practised as often as possible so I could swim as fast as him.",
+                "matchedText": "Yes, before I even started school, my dad used to take my brother Joel and me to the pool in town. He just wanted us to do something in our free time that wasn't looking at a screen. Jean was better at swimming than anyone we knew, and I practiced as often as possible, so I could swim as fast as him.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 121,
+                "notes": "Included the explicit brother relationship before the motivation. ASR calls Joel 'Jean' in the following sentence; the earlier relationship and surrounding content anchor the cue."
+              }
             },
             {
               "number": 21,
@@ -875,7 +1505,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 121.32,
+              "evidenceEnd": 128.54,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "With all the training and competitions",
+                "endQuote": "I couldn’t attend school sometimes, which I was unhappy about.",
+                "matchedText": "with all the training and competitions I couldn't attend school sometimes, which I was unhappy about.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 121,
+                "notes": "Included the cause and the school lessons she disliked missing."
+              }
             },
             {
               "number": 22,
@@ -893,7 +1537,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 156.52,
+              "evidenceEnd": 160.64,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "I couldn’t believe people wanted to read and watch interviews with me!",
+                "endQuote": "I couldn’t believe people wanted to read and watch interviews with me!",
+                "matchedText": "I couldn't believe people wanted to read and watch interviews with me.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 121,
+                "notes": "First occurrence and neighboring timestamped words checked against the publisher transcript; the cue contains the answer information."
+              }
             },
             {
               "number": 23,
@@ -911,7 +1569,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 178.86,
+              "evidenceEnd": 186.42,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "It’d be great if they also gave me financial support for hotels",
+                "endQuote": "as my parents have to spend a lot on that kind of thing.",
+                "matchedText": "It'd be great if they also gave me financial support for hotels, as my parents have to spend a lot on that kind of thing.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 121,
+                "notes": "Included the complete accommodation-cost sentence."
+              }
             },
             {
               "number": 24,
@@ -929,7 +1601,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 195.14,
+              "evidenceEnd": 202.04,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "But, thanks to her suggestions about the way I move my arms through the water",
+                "endQuote": "I’ve already seen improvements in my speed.",
+                "matchedText": "But thanks to her suggestions about the way I move my arms through the water, I've already seen improvements in my speed.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 121,
+                "notes": "Extended through 'my speed' to complete the consequence of the changed swimming technique."
+              }
             },
             {
               "number": 25,
@@ -947,7 +1633,21 @@
                 "B",
                 "C"
               ],
-              "publisherKeyPdfPage": 117
+              "publisherKeyPdfPage": 117,
+              "evidenceStart": 212.98,
+              "evidenceEnd": 228.8,
+              "cueReview": {
+                "status": "reviewed",
+                "method": "Publisher transcript matched to local word timestamps",
+                "startQuote": "Well, I’ve got a short break first, and then I’m going on a special training course there for the whole summer.",
+                "endQuote": "I won’t do any races but it’ll still be hard work.",
+                "matchedText": "Well, I've got a short break first and then I'm going on a special training course there for the whole summer. I'll work with lots of swimmers I haven't met before. I'm really looking forward to that. I won't do any races, but it'll still be hard work.",
+                "firstOccurrence": true,
+                "asrFile": "test-2-part-4.json",
+                "asrModel": "Systran/faster-whisper-base.en",
+                "publisherTranscriptPdfPage": 121,
+                "notes": "Included the Spain training plan, unfamiliar swimmers, and explicit distinction from races."
+              }
             }
           ],
           "context": "You will hear an interview with a girl called Rosie Banks, who swims in international competitions."

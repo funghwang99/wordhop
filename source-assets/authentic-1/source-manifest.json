@@ -1,0 +1,469 @@
+{
+  "title": "B1 Preliminary 1 With Answers: Authentic Practice Tests",
+  "publisher": "Cambridge University Press",
+  "pdfSha256": "492cb871679ccec89b3b50935a21ae5911a2a2adccd655dfd63607a1522d69fe",
+  "answerKeyPdfSha256": "492cb871679ccec89b3b50935a21ae5911a2a2adccd655dfd63607a1522d69fe",
+  "answerKeyOrigin": "Checked against the supplied publisher answer key in the same book.",
+  "questions": "Original book pages supplied by the user.",
+  "explanations": "Original English explanations written for WordHop, checked against the book and publisher key.",
+  "bookFilename": "AUTHENTIC PRACTICE TESTS(4).pdf",
+  "vocabularyFilename": "B1_PET_Reading_Vocabulary_Tests_1-4_English_Definitions(1).docx",
+  "vocabularySha256": "1f56031f061014dd8a1dc8c69dbade523e922744167ea9e4c0923995836b8550",
+  "testCount": 4,
+  "wordCount": 243,
+  "readingQuestionCount": 128,
+  "listeningQuestionCount": 100,
+  "readingPageCount": 40,
+  "listeningPageCount": 24,
+  "trackCount": 16,
+  "pages": [
+    {
+      "pdfPage": 10,
+      "printedPage": 8,
+      "image": "assets/reading/authentic-1-page-10.88c9ccd71cbb.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 11,
+      "printedPage": 9,
+      "image": "assets/reading/authentic-1-page-11.6e54bd6e91c2.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 12,
+      "printedPage": 10,
+      "image": "assets/reading/authentic-1-page-12.b1f2c3270683.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 13,
+      "printedPage": 11,
+      "image": "assets/reading/authentic-1-page-13.0e27e8b8aaf5.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 14,
+      "printedPage": 12,
+      "image": "assets/reading/authentic-1-page-14.69aacbeaae2f.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 15,
+      "printedPage": 13,
+      "image": "assets/reading/authentic-1-page-15.2a193cd6fb59.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 16,
+      "printedPage": 14,
+      "image": "assets/reading/authentic-1-page-16.51af471fb174.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 17,
+      "printedPage": 15,
+      "image": "assets/reading/authentic-1-page-17.f7273197dce1.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 18,
+      "printedPage": 16,
+      "image": "assets/reading/authentic-1-page-18.3085e5fe6044.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 19,
+      "printedPage": 17,
+      "image": "assets/reading/authentic-1-page-19.d8707f73471a.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 28,
+      "printedPage": 26,
+      "image": "assets/reading/authentic-1-page-28.8f27ce3a6830.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 29,
+      "printedPage": 27,
+      "image": "assets/reading/authentic-1-page-29.2d5b356bb3ed.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 30,
+      "printedPage": 28,
+      "image": "assets/reading/authentic-1-page-30.8df8398c95c8.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 31,
+      "printedPage": 29,
+      "image": "assets/reading/authentic-1-page-31.df6dab42045e.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 32,
+      "printedPage": 30,
+      "image": "assets/reading/authentic-1-page-32.e3095b86cb6c.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 33,
+      "printedPage": 31,
+      "image": "assets/reading/authentic-1-page-33.0c53d135da3c.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 34,
+      "printedPage": 32,
+      "image": "assets/reading/authentic-1-page-34.5e3d298e994d.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 35,
+      "printedPage": 33,
+      "image": "assets/reading/authentic-1-page-35.b5b84b0248bd.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 36,
+      "printedPage": 34,
+      "image": "assets/reading/authentic-1-page-36.6399c9742ee2.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 37,
+      "printedPage": 35,
+      "image": "assets/reading/authentic-1-page-37.a8197c0278c4.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 46,
+      "printedPage": 44,
+      "image": "assets/reading/authentic-1-page-46.ed54cde7d5b7.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 47,
+      "printedPage": 45,
+      "image": "assets/reading/authentic-1-page-47.3d3174e1eede.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 48,
+      "printedPage": 46,
+      "image": "assets/reading/authentic-1-page-48.4178d8be3b8a.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 49,
+      "printedPage": 47,
+      "image": "assets/reading/authentic-1-page-49.d5a00d297492.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 50,
+      "printedPage": 48,
+      "image": "assets/reading/authentic-1-page-50.9c403ecc37af.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 51,
+      "printedPage": 49,
+      "image": "assets/reading/authentic-1-page-51.c27121ffe942.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 52,
+      "printedPage": 50,
+      "image": "assets/reading/authentic-1-page-52.5e0321032430.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 53,
+      "printedPage": 51,
+      "image": "assets/reading/authentic-1-page-53.2969c747aac6.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 54,
+      "printedPage": 52,
+      "image": "assets/reading/authentic-1-page-54.aa828961ac40.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 55,
+      "printedPage": 53,
+      "image": "assets/reading/authentic-1-page-55.e40c4a774e29.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 64,
+      "printedPage": 62,
+      "image": "assets/reading/authentic-1-page-64.557424f69cff.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 65,
+      "printedPage": 63,
+      "image": "assets/reading/authentic-1-page-65.af31f0c44b45.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 66,
+      "printedPage": 64,
+      "image": "assets/reading/authentic-1-page-66.34ade85f65fc.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 67,
+      "printedPage": 65,
+      "image": "assets/reading/authentic-1-page-67.e85fa5d9b7ec.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 68,
+      "printedPage": 66,
+      "image": "assets/reading/authentic-1-page-68.b95b2a0d3375.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 69,
+      "printedPage": 67,
+      "image": "assets/reading/authentic-1-page-69.1a9fe006f989.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 70,
+      "printedPage": 68,
+      "image": "assets/reading/authentic-1-page-70.7bb67af0117c.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 71,
+      "printedPage": 69,
+      "image": "assets/reading/authentic-1-page-71.c60b048775a3.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 72,
+      "printedPage": 70,
+      "image": "assets/reading/authentic-1-page-72.cb9cd0955f60.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 73,
+      "printedPage": 71,
+      "image": "assets/reading/authentic-1-page-73.a3e9258178b5.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 22,
+      "printedPage": 20,
+      "image": "assets/listening/authentic-1-page-22.07bed6f58ef6.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 23,
+      "printedPage": 21,
+      "image": "assets/listening/authentic-1-page-23.c763dfccbafc.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 24,
+      "printedPage": 22,
+      "image": "assets/listening/authentic-1-page-24.c8d723858f76.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 25,
+      "printedPage": 23,
+      "image": "assets/listening/authentic-1-page-25.1b6d85d9b5e0.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 26,
+      "printedPage": 24,
+      "image": "assets/listening/authentic-1-page-26.ccb6eb5157d5.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 27,
+      "printedPage": 25,
+      "image": "assets/listening/authentic-1-page-27.4c05f5e8ac48.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 40,
+      "printedPage": 38,
+      "image": "assets/listening/authentic-1-page-40.2863d3943bd4.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 41,
+      "printedPage": 39,
+      "image": "assets/listening/authentic-1-page-41.779d3783981b.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 42,
+      "printedPage": 40,
+      "image": "assets/listening/authentic-1-page-42.e736925f0a35.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 43,
+      "printedPage": 41,
+      "image": "assets/listening/authentic-1-page-43.c8fbd283cd77.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 44,
+      "printedPage": 42,
+      "image": "assets/listening/authentic-1-page-44.58eb773bc141.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 45,
+      "printedPage": 43,
+      "image": "assets/listening/authentic-1-page-45.b6ebb311b622.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 58,
+      "printedPage": 56,
+      "image": "assets/listening/authentic-1-page-58.7c39f8e6a291.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 59,
+      "printedPage": 57,
+      "image": "assets/listening/authentic-1-page-59.46289732f8bf.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 60,
+      "printedPage": 58,
+      "image": "assets/listening/authentic-1-page-60.e416e0df181b.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 61,
+      "printedPage": 59,
+      "image": "assets/listening/authentic-1-page-61.e6f10755d7da.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 62,
+      "printedPage": 60,
+      "image": "assets/listening/authentic-1-page-62.2022901c1666.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 63,
+      "printedPage": 61,
+      "image": "assets/listening/authentic-1-page-63.bcd31394c45b.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 76,
+      "printedPage": 74,
+      "image": "assets/listening/authentic-1-page-76.e6ab5002360d.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 77,
+      "printedPage": 75,
+      "image": "assets/listening/authentic-1-page-77.9e10334629c7.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 78,
+      "printedPage": 76,
+      "image": "assets/listening/authentic-1-page-78.7c70c4706370.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 79,
+      "printedPage": 77,
+      "image": "assets/listening/authentic-1-page-79.348f9f768744.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 80,
+      "printedPage": 78,
+      "image": "assets/listening/authentic-1-page-80.9f2e58446994.webp",
+      "width": 1350,
+      "height": 1813
+    },
+    {
+      "pdfPage": 81,
+      "printedPage": 79,
+      "image": "assets/listening/authentic-1-page-81.dc1589ca59f0.webp",
+      "width": 1350,
+      "height": 1813
+    }
+  ]
+}
