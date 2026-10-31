@@ -1,7 +1,7 @@
 {
   "book": "Simply PET",
-  "source": "User-supplied Test N Part N.mp3 files",
-  "processing": "Original MP3 bytes preserved; no trimming, resampling or re-encoding.",
+  "source": "User-supplied Simply PET recordings; MP3 and M4A replacements preserved.",
+  "processing": "Original audio bytes and file formats preserved; no trimming, resampling or re-encoding.",
   "tracks": [
     {
       "test": 1,
@@ -227,31 +227,18 @@
     {
       "test": 4,
       "part": 2,
-      "sourceFilename": "Test 4 Part 2.mp3",
-      "sourceSha256": "e63dce286274642aa2c6918e62734b038999672fdc00a3ba451ed87411302211",
-      "asset": "audio/simply-pet/test-4-part-2.e63dce286274.mp3",
-      "bytes": 8501880,
-      "durationSeconds": 531.367,
-      "codec_name": "mp3",
-      "sample_rate": "44100",
+      "sourceFilename": "Test 4 Part 2.m4a",
+      "sourceSha256": "c30e236fdb6ef3ec7cdfa3e4a81f03a472fb73f09a668a19c6673defeb85a4cc",
+      "asset": "audio/simply-pet/test-4-part-2.c30e236fdb6e.m4a",
+      "bytes": 13803188,
+      "durationSeconds": 570.56,
+      "codec_name": "aac",
+      "sample_rate": "48000",
       "channels": 2,
       "decodeReview": {
         "decoder": "FFmpeg",
-        "status": "warning",
-        "errors": [
-          "[mp3float] invalid new backstep -1",
-          "[mp3float] Header missing",
-          "[aist#0:0/mp3] Error submitting packet to decoder: Invalid data found when processing input",
-          "[aist#0:0/mp3] Error processing packet in decoder: Invalid data found when processing input"
-        ]
-      },
-      "playbackReview": {
-        "browser": "Chrome",
-        "initialPlayback": "passed",
-        "seekSeconds": 265.683749,
-        "seekResult": "browser-playback-error",
-        "userReport": "User reports normal playback.",
-        "replacementDecision": "Not established; no automatic replacement request."
+        "status": "passed",
+        "errors": []
       }
     },
     {
@@ -325,31 +312,18 @@
     {
       "test": 5,
       "part": 3,
-      "sourceFilename": "Test 5 Part 3.mp3",
-      "sourceSha256": "022147c26053aacffe18545a865aab492332211362e73bbec47befbeacb7ec3b",
-      "asset": "audio/simply-pet/test-5-part-3.022147c26053.mp3",
-      "bytes": 4586195,
-      "durationSeconds": 286.637,
+      "sourceFilename": "Test 5 Part 3(1).mp3",
+      "sourceSha256": "58ac110b4b2efe7d73ebd93c4895b5ea056b6839d310ab71dff9131fd8ac9599",
+      "asset": "audio/simply-pet/test-5-part-3.58ac110b4b2e.mp3",
+      "bytes": 3322629,
+      "durationSeconds": 268.278,
       "codec_name": "mp3",
       "sample_rate": "44100",
       "channels": 2,
       "decodeReview": {
         "decoder": "FFmpeg",
-        "status": "warning",
-        "errors": [
-          "[mp3float] invalid new backstep -1",
-          "[mp3float] Header missing",
-          "[aist#0:0/mp3] Error submitting packet to decoder: Invalid data found when processing input",
-          "[aist#0:0/mp3] Error processing packet in decoder: Invalid data found when processing input"
-        ]
-      },
-      "playbackReview": {
-        "browser": "Chrome",
-        "initialPlayback": "passed",
-        "seekSeconds": 143.318594,
-        "seekResult": "browser-playback-error",
-        "userReport": "User reports normal playback.",
-        "replacementDecision": "Not established; no automatic replacement request."
+        "status": "passed",
+        "errors": []
       }
     },
     {
@@ -576,5 +550,25 @@
   ],
   "testCount": 8,
   "trackCount": 32,
-  "reviewPolicy": "Decoder diagnostics are recorded for investigation. They do not by themselves establish audible corruption or require replacement. Students see help only when their player reports a playback error."
+  "reviewPolicy": "Decoder diagnostics are recorded for investigation. They do not by themselves establish audible corruption or require replacement. Students see help only when their player reports a playback error.",
+  "replacements": [
+    {
+      "test": 4,
+      "part": 2,
+      "previousAsset": "audio/simply-pet/test-4-part-2.e63dce286274.mp3",
+      "previousSha256": "e63dce286274642aa2c6918e62734b038999672fdc00a3ba451ed87411302211",
+      "replacementAsset": "audio/simply-pet/test-4-part-2.c30e236fdb6e.m4a",
+      "replacementSha256": "c30e236fdb6ef3ec7cdfa3e4a81f03a472fb73f09a668a19c6673defeb85a4cc",
+      "reason": "User supplied a replacement recording."
+    },
+    {
+      "test": 5,
+      "part": 3,
+      "previousAsset": "audio/simply-pet/test-5-part-3.022147c26053.mp3",
+      "previousSha256": "022147c26053aacffe18545a865aab492332211362e73bbec47befbeacb7ec3b",
+      "replacementAsset": "audio/simply-pet/test-5-part-3.58ac110b4b2e.mp3",
+      "replacementSha256": "58ac110b4b2efe7d73ebd93c4895b5ea056b6839d310ab71dff9131fd8ac9599",
+      "reason": "User supplied a replacement recording."
+    }
+  ]
 }

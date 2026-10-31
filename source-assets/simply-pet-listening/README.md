@@ -1,31 +1,52 @@
-# Simply PET listening audio
+# Simply PET Listening
 
-The user supplied Test 1–8, Parts 1–4: thirty-two original stereo MP3 files.
-WordHop keeps their original bytes, including the full recording and pauses.
-`source-manifest.json` records each filename, SHA-256, duration, size and codec.
-Hashed copies are served from `dist/audio/simply-pet/`.
+The user supplied the 176-page Simply B1 Preliminary for Schools student
+book (GLOBAL ELT, 2019, revised 2020 exam) and all 32 audio recordings.
+The site contains 8 tests, 32 parts, 200 questions and 32 original book pages.
 
-To import supplied files (requires ffprobe and ffmpeg):
+`source-manifest.json` records original audio filenames, checksums, durations,
+codecs and full FFmpeg decode checks. The clean replacements are Test 4
+Part 2.m4a (AAC, 48 kHz) and Test 5 Part 3(1).mp3 (MP3, 44.1 kHz).
+All selected recordings decode completely without errors. Bytes and formats
+are unchanged. Earlier hashed assets are retained for older tabs; the
+replacement history and catalog identify the currently selected recordings.
 
 ```sh
 python3 -B scripts/import_simply_pet_audio.py /absolute/path/to/audio-directory
 ```
 
-The importer adds a `listening` array only to the matching Simply PET tests.
-It preserves vocabulary, reading exercises, IDs and existing audio entries.
-If vocabulary is reimported, run this importer afterwards to restore its links.
-All eight supplied tests have four listening parts.
+The importer accepts MP3/M4A and optional numeric filename suffixes.
 
-Each listening part has a direct hash route. Only one native audio player is
-mounted at a time, with `preload="none"` and no autoplay. Switching part, test
-or study tab stops playback and releases the previous source. Speed controls
-use the native player's pitch-preserving playback. Playback is not tied to
-the game's sound-effects toggle.
+`questions.json` records all printed prompts and choice descriptions.
+Picture options remain visible in original book images. Parts 3 and 4 share
+a page. Test 8 starts at PDF page 132, a different offset from preceding tests.
+`exercise-manifest.json` records source PDF hash, exact pages and image paths.
 
-The decoder check passed without diagnostics for thirty supplied files.
-FFmpeg reports frame errors for Test 4 Part 2 and Test 5 Part 3. These are
-recorded as decoder warnings, rather than a claim that the original recordings
-must be replaced. Both started playing in Chrome; seeking to their midpoints
-caused a player error in the tested browser. The user reports normal playback.
-The player shows recovery help only after an actual media error. Original
-recordings remain unchanged, and no replacement is automatically requested.
+`answer-key.json` contains WordHop-authored keys, accepted variants, English
+explanations, recording evidence and timestamps. The student book contains
+no publisher Listening key/transcript. All 48 gap answers were reviewed with
+the printed gap, grammar and word limit. Resolved listening traps are in
+`review-record.json`. These are not presented as a publisher-provided key.
+
+To regenerate pages and hashed data, install PyMuPDF and Pillow, then run:
+
+```sh
+python3 -B scripts/import_pet_listening_exercises.py /absolute/path/to/Simply-PET.pdf
+```
+
+Source PDF and intermediate transcription files are not committed.
+Images are under `dist/assets/listening/`; exercise JSON under `dist/listening/`.
+
+One native player is mounted, with preload="none" and no autoplay.
+Part/test/tab navigation stops and releases the previous source. Checking
+answers and retrying the current part preserve playback. Audio is independent
+of game sound effects. Lazy question requests can be retried; stale responses
+cannot replace a different view. Attempts use `wordhop.listening.v1` and
+scores are recalculated from the current key. Reading and vocabulary keep
+their existing data and progress.
+
+```sh
+node qa/check-listening.cjs
+python3 -B scripts/build_github_pages.py
+python3 -B qa/check_github_pages.py
+```

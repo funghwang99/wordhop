@@ -1,0 +1,2503 @@
+{
+  "origin": "WordHop-authored from the user-supplied recordings; not a publisher-provided key.",
+  "tests": [
+    {
+      "test": 1,
+      "id": "simply-pet-test-1",
+      "parts": [
+        {
+          "id": "part-1",
+          "transcript": "transcripts/test-1-part-1.json",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She decides to bake a chocolate cake for dessert. The family is already serving chicken and tells her she need not bring drinks.",
+              "evidence": "Maybe I’ll make a chocolate cake.",
+              "evidenceStart": 141.72,
+              "evidenceEnd": 143.84
+            },
+            {
+              "number": 2,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Her leg is sore because the bicycle landed on it. The hand only has a small cut, and she did not hit her head.",
+              "evidence": "The bike landed on my leg though and now it’s very sore.",
+              "evidenceStart": 163.88,
+              "evidenceEnd": 167.9
+            },
+            {
+              "number": 3,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The butcher found the dog looking through his shop window at sausages and kept her for Bill. The park is where she ran away.",
+              "evidence": "I got a phone call from the butcher to say she was looking through his window at the sausages.",
+              "evidenceStart": 244.3,
+              "evidenceEnd": 255.04
+            },
+            {
+              "number": 4,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She wants to watch the special report about pilots. She finds watching volleyball boring and is willing to miss the music show.",
+              "evidence": "There’s a special report on pilots.",
+              "evidenceStart": 365.08,
+              "evidenceEnd": 371.08
+            },
+            {
+              "number": 5,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The singing picture represents the karaoke DVD, which he enjoyed most. Car racing and basketball are the other DVDs he received.",
+              "evidence": "I enjoyed having a good sing more than anything.",
+              "evidenceStart": 409.88,
+              "evidenceEnd": 412.64
+            },
+            {
+              "number": 6,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She tried surfing after getting advice from the instructor. Swimming and water skiing were activities she was already doing.",
+              "evidence": "I had a chat with the surfboarding instructor and he told me how to do it safely.",
+              "evidenceStart": 482.98,
+              "evidenceEnd": 488.38
+            },
+            {
+              "number": 7,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "All novels at Books Galore have a 50% discount, so books are half price. Fruit and meat are mentioned without that offer.",
+              "evidence": "Books Galore has 50% off all novels today.",
+              "evidenceStart": 571.2,
+              "evidenceEnd": 580.64
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "transcript": "transcripts/test-1-part-2.json",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The mother particularly enjoyed the cake and had a second piece. The apple juice and the pictures are discussed by other members of the group.",
+              "evidence": "The cake was fantastic. It was really delicious.",
+              "evidenceStart": 32.76,
+              "evidenceEnd": 41.72
+            },
+            {
+              "number": 9,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He is excited about the freedom to travel without relying on his parents. His brother explicitly says he was too excited to worry about crashing.",
+              "evidence": "He was too excited to be worried. In fact, it was great fun.",
+              "evidenceStart": 157.96,
+              "evidenceEnd": 165.3
+            },
+            {
+              "number": 10,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She agrees that they should find jobs and suggests looking online. Her concern about tiredness means they should choose suitable work, not abandon the idea.",
+              "evidence": "Good idea. We can look online to find a job.",
+              "evidenceStart": 260.06,
+              "evidenceEnd": 266.34
+            },
+            {
+              "number": 11,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Both think the characters behave unrealistically. One speaker enjoyed the action, so they do not agree that there should have been less of it.",
+              "evidence": "The characters were not very realistic. ... Yes, I have to agree with you there.",
+              "evidenceStart": 337.74,
+              "evidenceEnd": 353.7
+            },
+            {
+              "number": 12,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He was reluctant to go but was surprised by how much he enjoyed the museum. He says he would not want to visit again.",
+              "evidence": "Well, surprisingly, I had a great time.",
+              "evidenceStart": 422.86,
+              "evidenceEnd": 428.84
+            },
+            {
+              "number": 13,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "They say she brings lessons to life and is different from their other teachers. She gives little homework, but they do not say she never gives any.",
+              "evidence": "She really brings the lessons to life. She’s not like the other teachers.",
+              "evidenceStart": 535.98,
+              "evidenceEnd": 541.28
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "transcript": "transcripts/test-1-part-3.json",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "jobs",
+              "accepted": [
+                "jobs"
+              ],
+              "explanation": "She chose the project topic about jobs rather than the environment. The plural “jobs” matches the topic she names.",
+              "evidence": "I chose the first project which focuses on jobs.",
+              "evidenceStart": 57.78,
+              "evidenceEnd": 60.98
+            },
+            {
+              "number": 15,
+              "answer": "primary school",
+              "accepted": [
+                "primary school"
+              ],
+              "explanation": "Before becoming a pilot, her father taught in a primary school. Both words belong in the gap after “a”.",
+              "evidence": "He taught in a primary school and he really enjoyed it.",
+              "evidenceStart": 79.44,
+              "evidenceEnd": 82.64
+            },
+            {
+              "number": 16,
+              "answer": "80",
+              "accepted": [
+                "80",
+                "eighty"
+              ],
+              "explanation": "There were 80 holidaymakers travelling as passengers. The additional six people were working on the plane.",
+              "evidence": "A plane with 80 happy holiday makers on their way to Italy.",
+              "evidenceStart": 92.44,
+              "evidenceEnd": 99.42
+            },
+            {
+              "number": 17,
+              "answer": "weather",
+              "accepted": [
+                "weather"
+              ],
+              "explanation": "Bad weather and difficult passengers are the two unexpected problems mentioned. The gap follows the adjective “bad”.",
+              "evidence": "Unexpected things happen during a flight, such as bad weather or difficult passengers.",
+              "evidenceStart": 119.16,
+              "evidenceEnd": 126.36
+            },
+            {
+              "number": 18,
+              "answer": "control",
+              "accepted": [
+                "control"
+              ],
+              "explanation": "Nervous travellers want control of their lives and feel they must give it up on a plane. “Control” completes “lose ___ of their life”.",
+              "evidence": "They need to be in control of their life, and when they get on a plane, they have to give up that control.",
+              "evidenceStart": 133.34,
+              "evidenceEnd": 144.2
+            },
+            {
+              "number": 19,
+              "answer": "coffee",
+              "accepted": [
+                "coffee"
+              ],
+              "explanation": "He has coffee after take-off to help him stay awake and ready for problems. “Coffee” completes “a cup of ___”.",
+              "evidence": "He always has a coffee to make him feel extra awake and ready for anything.",
+              "evidenceStart": 149.1,
+              "evidenceEnd": 161.04
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "transcript": "transcripts/test-1-part-4.json",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He began writing after leaving hospital, while recovering at home in bed. He says he had not previously been much of a reader.",
+              "evidence": "When I was allowed home, I had several months in bed ... I was very bored and just started to write.",
+              "evidenceStart": 47.56,
+              "evidenceEnd": 57.04
+            },
+            {
+              "number": 21,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The book eventually earned money for Darren and his family. He does not say writing made him talk more or become one of the happiest teenagers.",
+              "evidence": "The book would become something that helped me and my family earn money.",
+              "evidenceStart": 76.44,
+              "evidenceEnd": 81.2
+            },
+            {
+              "number": 22,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He did not believe his writing was good and never intended anyone to read it. He was not waiting to finish therapy or a second book.",
+              "evidence": "I never for a second thought the book was any good.",
+              "evidenceStart": 88.76,
+              "evidenceEnd": 94.92
+            },
+            {
+              "number": 23,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "His family were worried about his feelings and thought they were reading a diary. His sister sent the manuscript to publishers later.",
+              "evidence": "They were very worried about me and thought I was writing a diary about my feelings.",
+              "evidenceStart": 111.2,
+              "evidenceEnd": 116.24
+            },
+            {
+              "number": 24,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He initially assumed that a friend was playing a joke. He only believed the offer when the publisher’s letter arrived.",
+              "evidence": "I just thought it was a friend being silly and having some fun.",
+              "evidenceStart": 132.96,
+              "evidenceEnd": 139.04
+            },
+            {
+              "number": 25,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "His immediate aim is to finish his exams and study literature after school, which corresponds to university. Writing more books is only a possibility for later.",
+              "evidence": "I want to study literature after school. Then I might write another book.",
+              "evidenceStart": 156.68,
+              "evidenceEnd": 162.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 2,
+      "id": "simply-pet-test-2",
+      "parts": [
+        {
+          "id": "part-1",
+          "transcript": "transcripts/test-2-part-1.json",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She needs the shirt immediately, so she will pay the shop’s reduced price of £11.89. £16.89 is the old price and £10.50 is the online price.",
+              "evidence": "It’s reduced by £5, from £16.89 to £11.89.",
+              "evidenceStart": 63.68,
+              "evidenceEnd": 72.44
+            },
+            {
+              "number": 2,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They finally agree to share a pizza. Fried chicken is the first idea, and burgers are only listed as another option.",
+              "evidence": "I’m going to have a pizza. Actually, why don’t we share one now that I think about it?",
+              "evidenceStart": 166.24,
+              "evidenceEnd": 172.16
+            },
+            {
+              "number": 3,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "They agree to cycle, with one borrowing the other’s brother’s bicycle. The father is at work, and they reject the bus suggestion.",
+              "evidence": "It’ll be better to go by bike. You can borrow my brother’s bike.",
+              "evidenceStart": 238.18,
+              "evidenceEnd": 245.18
+            },
+            {
+              "number": 4,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The family eventually accepted a holiday at a beach resort. Their mountain flight was cancelled, and they did not take the city offer.",
+              "evidence": "We were offered a package holiday and a lovely beach resort. It was great.",
+              "evidenceStart": 316.9,
+              "evidenceEnd": 324.94
+            },
+            {
+              "number": 5,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She has obtained a new mouse. The printer is unavailable until next week and the keyboard has been ordered.",
+              "evidence": "Other than a new mouse. That was easy to get.",
+              "evidenceStart": 385.24,
+              "evidenceEnd": 396.78
+            },
+            {
+              "number": 6,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Snow is forecast for Saturday evening. The strong winds are for Saturday morning, and sunshine returns on Sunday.",
+              "evidence": "In the evening there will be a strong chance of snow.",
+              "evidenceStart": 498.26,
+              "evidenceEnd": 506.98
+            },
+            {
+              "number": 7,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She is interested in basketball and only needs permission for the course fee. Football and hockey are ruled out because they are outdoors.",
+              "evidence": "Basketball looks interesting. I’m also the right height.",
+              "evidenceStart": 591.02,
+              "evidenceEnd": 599.26
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "transcript": "transcripts/test-2-part-2.json",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She prefers the dinosaurs and finds the historical-life section boring. She also says she would like some cake, so food is not the thing that disinterests her.",
+              "evidence": "I preferred the section about dinosaurs. I find this section a bit boring.",
+              "evidenceStart": 35.0,
+              "evidenceEnd": 41.24
+            },
+            {
+              "number": 9,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Both teachers are very happy with his project and want him to present it to the school. There is no disagreement about his high mark.",
+              "evidence": "They said they were very happy with my project ... They also want me to present my project in front of the whole school.",
+              "evidenceStart": 140.96,
+              "evidenceEnd": 154.88
+            },
+            {
+              "number": 10,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She nearly hit the children and the dog escaped, but she actually crashed into the bush.",
+              "evidence": "I ended up going into the bush.",
+              "evidenceStart": 232.64,
+              "evidenceEnd": 241.22
+            },
+            {
+              "number": 11,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She promises to buy him dinner for helping her train. She refuses to share the prize money, and the pool visit is for practice before the competition.",
+              "evidence": "I will buy you dinner for helping me, but forget about the prize money.",
+              "evidenceStart": 313.12,
+              "evidenceEnd": 318.24
+            },
+            {
+              "number": 12,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She was frightened when the tigers showed their teeth. The monkeys and the elephants’ water-throwing are described as funny.",
+              "evidence": "Those tigers were scary. I was frightened when they showed their teeth.",
+              "evidenceStart": 397.46,
+              "evidenceEnd": 402.5
+            },
+            {
+              "number": 13,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He thinks the main actors do not suit their roles. The film was not frightening and was too long, so the other two options do not fit.",
+              "evidence": "The main characters were played by two well-known actors, but I think that these roles don’t suit them.",
+              "evidenceStart": 480.18,
+              "evidenceEnd": 490.38
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "transcript": "transcripts/test-2-part-3.json",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "8.40",
+              "accepted": [
+                "8.40",
+                "8:40",
+                "08.40",
+                "08:40",
+                "8.40 am",
+                "8:40 am",
+                "8.40 a.m.",
+                "8:40 a.m.",
+                "eight forty",
+                "twenty to nine"
+              ],
+              "explanation": "Students must arrive at 8.40; the coach leaves later at 9.10. The question asks when to meet, not when to leave.",
+              "evidence": "The coach will be leaving the school at 9.10, so you all need to be there at 8.40.",
+              "evidenceStart": 57.06,
+              "evidenceEnd": 64.82
+            },
+            {
+              "number": 15,
+              "answer": "notebook",
+              "accepted": [
+                "notebook"
+              ],
+              "explanation": "The teacher corrects “book” to the more specific “notebook”. Students can use their phones for photographs.",
+              "evidence": "You need to bring a book, I mean a notebook with you.",
+              "evidenceStart": 73.44,
+              "evidenceEnd": 80.08
+            },
+            {
+              "number": 16,
+              "answer": "painting class",
+              "accepted": [
+                "painting class",
+                "painting"
+              ],
+              "explanation": "The morning activity is a special painting class in the gardens. The teacher specifically rules out a guided tour.",
+              "evidence": "We will go to the gardens where we will have a special painting class.",
+              "evidenceStart": 99.9,
+              "evidenceEnd": 104.44
+            },
+            {
+              "number": 17,
+              "answer": "boat",
+              "accepted": [
+                "boat"
+              ],
+              "explanation": "They will travel down the river by boat in the afternoon. “Boat” follows “trip on a” in the notes.",
+              "evidence": "We will be going on a boat down the river.",
+              "evidenceStart": 122.38,
+              "evidenceEnd": 125.34
+            },
+            {
+              "number": 18,
+              "answer": "Tuesday afternoon",
+              "accepted": [
+                "Tuesday afternoon"
+              ],
+              "explanation": "The projects must be handed in by Tuesday afternoon. The teacher explicitly rejects Wednesday morning; Friday afternoon is when the projects will be marked.",
+              "evidence": "Need to be handed in by Tuesday afternoon. Not Wednesday morning.",
+              "evidenceStart": 134.96,
+              "evidenceEnd": 141.48,
+              "evidenceSource": "transcripts/refined-test-2-part-3.json"
+            },
+            {
+              "number": 19,
+              "answer": "arundel",
+              "accepted": [
+                "arundel"
+              ],
+              "explanation": "The teacher spells the missing website name A-R-U-N-D-E-L. Only that name is needed between “www.” and “.castle.com”.",
+              "evidence": "I’ll spell that for you. That’s A R U N D E L.",
+              "evidenceStart": 151.56,
+              "evidenceEnd": 163.36
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "transcript": "transcripts/test-2-part-4.json",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "His ambition began when the family moved beneath Heathrow’s flight path and he watched planes every day. His first flight and toy planes came earlier.",
+              "evidence": "Every day I would watch the planes. It was then that I decided to become an airline pilot.",
+              "evidenceStart": 53.94,
+              "evidenceEnd": 60.1
+            },
+            {
+              "number": 21,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The family moved to a cottage in a small village. A town was nearby, but it was not where they lived.",
+              "evidence": "We moved to a nice cottage in a small village.",
+              "evidenceStart": 66.98,
+              "evidenceEnd": 71.14
+            },
+            {
+              "number": 22,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He learned through flying lessons, first bought by his father and later paid for with his own earnings. He studied literature at university.",
+              "evidence": "My father bought me some flying lessons.",
+              "evidenceStart": 76.82,
+              "evidenceEnd": 81.62
+            },
+            {
+              "number": 23,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "His first paid flying work was in private helicopters. Small passenger aircraft and large jets came later.",
+              "evidence": "I started flying private helicopters for businessmen.",
+              "evidenceStart": 97.7,
+              "evidenceEnd": 101.2
+            },
+            {
+              "number": 24,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Travelling alone in a small aircraft let him visit small airports and meet local people. He had friends and family but chose to travel independently.",
+              "evidence": "I was able to learn new things, to meet the local people and enjoy their culture.",
+              "evidenceStart": 127.52,
+              "evidenceEnd": 132.72
+            },
+            {
+              "number": 25,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Heavy rain during a storm forced the landing. The lack of fuel delayed his departure afterward.",
+              "evidence": "I couldn’t fly, as the rain was too heavy, so I had to make an emergency landing.",
+              "evidenceStart": 143.68,
+              "evidenceEnd": 153.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 3,
+      "id": "simply-pet-test-3",
+      "parts": [
+        {
+          "id": "part-1",
+          "transcript": "transcripts/test-3-part-1.json",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The cookery programme comes first, before the recycling programme at nine. The football match is much later.",
+              "evidence": "I really want to watch my favourite cookery program first.",
+              "evidenceStart": 62.9,
+              "evidenceEnd": 69.78
+            },
+            {
+              "number": 2,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He stayed up finishing a difficult maths project. His mother suggests television, while painting was his friend George’s work.",
+              "evidence": "We had a difficult project on maths, and it took a lot of time to finish it.",
+              "evidenceStart": 139.76,
+              "evidenceEnd": 144.28
+            },
+            {
+              "number": 3,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She saw the old computers. The car exhibition was closed and she did not reach the mobile-phone section.",
+              "evidence": "I’ve never noticed how different and huge old computers were before.",
+              "evidenceStart": 218.18,
+              "evidenceEnd": 223.22
+            },
+            {
+              "number": 4,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The £95 amount is what his father paid after the discount. £20 was deducted, so it must not be subtracted from £95 again.",
+              "evidence": "My father paid £95. ... The amount of money I told you before was after that discount.",
+              "evidenceStart": 285.48,
+              "evidenceEnd": 318.24
+            },
+            {
+              "number": 5,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She accepts the story about a police officer because she wants action. Travel books are her usual reading, and she rejects the assumption about romance.",
+              "evidence": "It has a great story about difficult situations a police officer has to deal with every day. It sounds perfect.",
+              "evidenceStart": 396.48,
+              "evidenceEnd": 411.2
+            },
+            {
+              "number": 6,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She baked a cake. Pizza was an abandoned plan, and Jade brought soup made by her mother.",
+              "evidence": "Then I decided to bake a lovely cake.",
+              "evidenceStart": 469.36,
+              "evidenceEnd": 471.84
+            },
+            {
+              "number": 7,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The birds were his favourite animals on this particular trip. Cows are his general favourites, while the rabbits came second this time.",
+              "evidence": "The birds in the trees were the most attractive animals for me this time.",
+              "evidenceStart": 534.3,
+              "evidenceEnd": 538.62
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "transcript": "transcripts/test-3-part-2.json",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He values being able to walk there quickly and being close to school. He would not have chosen the colours, and the house is small.",
+              "evidence": "I can walk there in 10 minutes ... My grandma’s house is next to my school.",
+              "evidenceStart": 62.6,
+              "evidenceEnd": 70.44
+            },
+            {
+              "number": 9,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They decide to ask her brother Jack for advice about concerts she would enjoy. Cinema is mentioned as an interest, not their final present choice.",
+              "evidence": "Her brother, Jack, could give us some suggestions. ... I am going to see Jack this afternoon after class and ask him what he thinks.",
+              "evidenceStart": 122.56,
+              "evidenceEnd": 136.08
+            },
+            {
+              "number": 10,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Both agree that too many tickets were sold and there was not enough room to move. They disagree about the volume and do not object to expensive tickets in principle.",
+              "evidence": "They sold more tickets than they should have done. I was thinking the same thing.",
+              "evidenceStart": 216.66,
+              "evidenceEnd": 221.66
+            },
+            {
+              "number": 11,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Peter’s parents returned a day early and found the forbidden party. There were only ten guests and the house was not very dirty.",
+              "evidence": "I’ll never forget the look on his face when they came home a day early.",
+              "evidenceStart": 312.96,
+              "evidenceEnd": 321.88
+            },
+            {
+              "number": 12,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She is sad that the rules require her to take her parents, so her friend cannot share the prize trip. Her parents can travel with her.",
+              "evidence": "I have to go with my parents, so I can’t take you.",
+              "evidenceStart": 392.08,
+              "evidenceEnd": 398.32
+            },
+            {
+              "number": 13,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The boy thinks the new student is quiet and finding it hard to meet people. He describes her as interesting rather than boring or unfriendly.",
+              "evidence": "She seems to be a little bit quiet.",
+              "evidenceStart": 500.9,
+              "evidenceEnd": 508.22
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "transcript": "transcripts/test-3-part-3.json",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "train",
+              "accepted": [
+                "train"
+              ],
+              "explanation": "Train is the third transport option alongside bus and boat. The sentence already includes the other two.",
+              "evidence": "You can either go by train or bus from the airport.",
+              "evidenceStart": 61.74,
+              "evidenceEnd": 66.28
+            },
+            {
+              "number": 15,
+              "answer": "10.15",
+              "accepted": [
+                "10.15",
+                "10:15",
+                "10.15 am",
+                "10:15 am",
+                "10.15 a.m.",
+                "10:15 a.m.",
+                "ten fifteen",
+                "quarter past ten"
+              ],
+              "explanation": "They set off at 10.15 and arrived at 11.30. The question asks for their departure time.",
+              "evidence": "We set off at 10.15 and we arrived there at 11.30.",
+              "evidenceStart": 94.26,
+              "evidenceEnd": 99.24
+            },
+            {
+              "number": 16,
+              "answer": "30",
+              "accepted": [
+                "30",
+                "30.00",
+                "thirty"
+              ],
+              "explanation": "The museum card cost £30. £20 is the cost of the separate three-day boat ticket.",
+              "evidence": "We also bought a museum card for £30.",
+              "evidenceStart": 116.38,
+              "evidenceEnd": 123.46
+            },
+            {
+              "number": 17,
+              "answer": "bridges",
+              "accepted": [
+                "bridges"
+              ],
+              "explanation": "She most enjoyed walking over Venice’s bridges and watching boats below. The plural “bridges” matches the recording.",
+              "evidence": "The thing I enjoyed most was walking over the many beautiful bridges.",
+              "evidenceStart": 133.44,
+              "evidenceEnd": 139.92
+            },
+            {
+              "number": 18,
+              "answer": "fish",
+              "accepted": [
+                "fish"
+              ],
+              "explanation": "She calls fish the nicest food to eat in Venice. Pizza and pasta restaurants are common but are not her recommendation.",
+              "evidence": "The nicest thing to eat in Venice is fish.",
+              "evidenceStart": 149.6,
+              "evidenceEnd": 153.18
+            },
+            {
+              "number": 19,
+              "answer": "toy boats",
+              "accepted": [
+                "toy boats"
+              ],
+              "explanation": "Her parents bought toy boats for the cousins. Julie herself bought sweets, so those are not the answer.",
+              "evidence": "My parents bought some toy boats for our cousins.",
+              "evidenceStart": 161.96,
+              "evidenceEnd": 164.96
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "transcript": "transcripts/test-3-part-4.json",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Her parents worked long hours, so she needed an activity while they were away. There was only one small court nearby.",
+              "evidence": "My parents used to work many hours every day, so I had to find something to do.",
+              "evidenceStart": 44.7,
+              "evidenceEnd": 49.78
+            },
+            {
+              "number": 21,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She attributes her ability to spending her time outside playing repeatedly. Her talent developed through practice rather than being described as innate.",
+              "evidence": "I stayed outside and I played and played and naturally I became really talented.",
+              "evidenceStart": 69.66,
+              "evidenceEnd": 76.22
+            },
+            {
+              "number": 22,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Her school teachers first noticed her ability, and one persuaded her parents to support her. Her parents were told about her potential afterward.",
+              "evidence": "My teachers noticed how good I was. ... One of my teachers told my parents that I could do really well in my sport.",
+              "evidenceStart": 84.06,
+              "evidenceEnd": 98.54
+            },
+            {
+              "number": 23,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Her proudest moment was leading the team into the opening ceremony while carrying the flag. She says this mattered more than winning the medal.",
+              "evidence": "I got to hold the flag to lead our team around the stadium ... That was actually the proudest moment.",
+              "evidenceStart": 111.34,
+              "evidenceEnd": 121.66
+            },
+            {
+              "number": 24,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She wants to study hard and enter university, possibly to become a doctor. She is unsure about pursuing an Olympic medal next.",
+              "evidence": "I want to study hard and enter university.",
+              "evidenceStart": 140.7,
+              "evidenceEnd": 144.18
+            },
+            {
+              "number": 25,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She is certain she wants to be successful and happy, whichever career she chooses. Being a doctor or a basketball player remains undecided.",
+              "evidence": "To become a successful, happy woman, either as a doctor or as a basketball player.",
+              "evidenceStart": 153.84,
+              "evidenceEnd": 165.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 4,
+      "id": "simply-pet-test-4",
+      "parts": [
+        {
+          "id": "part-1",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She enjoys sightseeing in cities and taking photographs. She says she dislikes the sun and does not enjoy shopping much.",
+              "evidence": "I like to take photos of everything. My hobby is photography.",
+              "evidenceStart": 68.18,
+              "evidenceEnd": 73.26
+            },
+            {
+              "number": 2,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "They agree to watch a film on television. The rain stops the cinema plan, and one of them dislikes board games.",
+              "evidence": "There’s a good film on television at 8 o’clock. That sounds great.",
+              "evidenceStart": 150.88,
+              "evidenceEnd": 160.46
+            },
+            {
+              "number": 3,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The trainers cost £60.50 before a 50% discount, so she paid £30.25. The £70.25 was her mother’s supermarket bill.",
+              "evidence": "But I got a 50% discount. […] Only £30.25",
+              "evidenceStart": 211.48,
+              "evidenceEnd": 221.84
+            },
+            {
+              "number": 4,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He asks to replace the grapes with a banana, and his sister agrees. He refuses the apple.",
+              "evidence": "Please can I have a banana instead? Sure. I will get one out of the fridge.",
+              "evidenceStart": 312.72,
+              "evidenceEnd": 317.56
+            },
+            {
+              "number": 5,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "His red T-shirt has ice cream on it, so he needs a new one. The shorts and missing hat are both found.",
+              "evidence": "It has ice cream on it. I’m gonna have to get a new one",
+              "evidenceStart": 385.0,
+              "evidenceEnd": 390.4
+            },
+            {
+              "number": 6,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They settle on calling each other on their mobile phones. Email is impossible because a computer is broken, and writing letters is rejected.",
+              "evidence": "We both have mobile phones. We can call each other.",
+              "evidenceStart": 515.7,
+              "evidenceEnd": 517.94
+            },
+            {
+              "number": 7,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "He now wants to learn the trumpet because it is easy to carry and loud. Drums were an earlier plan, and he also likes guitar.",
+              "evidence": "The trumpet is easier to carry around with me though. That’s why I want to learn that instrument.",
+              "evidenceStart": 554.72,
+              "evidenceEnd": 564.8
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The problem was the cafe assistant’s rudeness. Orange juice was available, and the captain seemed kind.",
+              "evidence": "I then asked him for a sandwich, but he didn’t have any of that either. He was very rude.",
+              "evidenceStart": 39.8,
+              "evidenceEnd": 46.24
+            },
+            {
+              "number": 9,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The lower price was particularly important to his parents. The house’s location and bedroom count are mentioned, but they are not the main reason.",
+              "evidence": "It was actually cheaper. That’s very important for my parents.",
+              "evidenceStart": 132.84,
+              "evidenceEnd": 142.84
+            },
+            {
+              "number": 10,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Her teacher rewarded the best project with a ruler. Disneyland tickets are only a suggestion for a future reward.",
+              "evidence": "The teacher said it was the best project in class, and she gave me a nice ruler as a present.",
+              "evidenceStart": 236.16,
+              "evidenceEnd": 242.94
+            },
+            {
+              "number": 11,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They travelled by train first, then had to use a bus because part of the railway was closed. A taxi was only suggested afterwards.",
+              "evidence": "When we got to Birmingham, the train guard told us we had to get a bus.",
+              "evidenceStart": 331.6,
+              "evidenceEnd": 338.4
+            },
+            {
+              "number": 12,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He suggests starting a hobby, especially photography. The online information is about joining a club, rather than chatting online.",
+              "evidence": "Why don’t you start a new hobby? I think you like taking photos, don’t you?",
+              "evidenceStart": 421.24,
+              "evidenceEnd": 425.12
+            },
+            {
+              "number": 13,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They both agree that he looks different from their other teachers. They disagree about whether he is strange and difficult to understand.",
+              "evidence": "He doesn’t look anything like our other teachers. That’s for sure.",
+              "evidenceStart": 519.8,
+              "evidenceEnd": 524.84
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "5",
+              "accepted": [
+                "5",
+                "5.00",
+                "5:00",
+                "05:00",
+                "05.00",
+                "five",
+                "five o’clock",
+                "five o'clock"
+              ],
+              "explanation": "He leaves at 4.30 and the studio is half an hour away, so he arrives at 5 a.m. The gap asks for his arrival time.",
+              "evidence": "As the studio is only half an hour away I’m there at 5",
+              "evidenceStart": 68.08,
+              "evidenceEnd": 77.46
+            },
+            {
+              "number": 15,
+              "answer": "make-up",
+              "accepted": [
+                "make-up",
+                "makeup",
+                "make up"
+              ],
+              "explanation": "The make-up lady prepares his face after the hairdresser finishes. The noun completes “does his make-up.”",
+              "evidence": "When she finishes doing my hair […] the makeup lady comes to me and prepares me for filming.",
+              "evidenceStart": 87.22,
+              "evidenceEnd": 95.76
+            },
+            {
+              "number": 16,
+              "answer": "police officer",
+              "accepted": [
+                "police officer"
+              ],
+              "explanation": "He is playing a police officer in the current film. The monster was a role in his previous film.",
+              "evidence": "At the moment, I’m playing a police officer",
+              "evidenceStart": 95.76,
+              "evidenceEnd": 100.64
+            },
+            {
+              "number": 17,
+              "answer": "director",
+              "accepted": [
+                "director"
+              ],
+              "explanation": "The film director is sometimes late, delaying the start. “Film” is already printed before the gap, so only “director” is needed.",
+              "evidence": "The film director is either late",
+              "evidenceStart": 118.7,
+              "evidenceEnd": 124.32
+            },
+            {
+              "number": 18,
+              "answer": "clothes",
+              "accepted": [
+                "clothes"
+              ],
+              "explanation": "After filming he changes out of his costume and into his normal clothes. “Usual” is already given, so the missing noun is “clothes.”",
+              "evidence": "I get changed back into my normal clothes.",
+              "evidenceStart": 137.32,
+              "evidenceEnd": 141.7
+            },
+            {
+              "number": 19,
+              "answer": "dinner",
+              "accepted": [
+                "dinner"
+              ],
+              "explanation": "He has dinner when he gets home and then goes to bed.",
+              "evidence": "A car then takes me home where I have dinner and go to bed",
+              "evidenceStart": 141.7,
+              "evidenceEnd": 147.24
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Her father might move to New York for work, so she wanted to find out whether she liked living in America. Travel and time away from parents were other students’ reasons.",
+              "evidence": "My father has been offered a job in New York, and I wanted to see if I would like it there or not.",
+              "evidenceStart": 51.86,
+              "evidenceEnd": 62.2
+            },
+            {
+              "number": 21,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Her parents helped her do something she was excited about and trusted that she would be safe. They did not try to stop her.",
+              "evidence": "They always do whatever they can to help me do the things I want to do.",
+              "evidenceStart": 71.0,
+              "evidenceEnd": 78.2
+            },
+            {
+              "number": 22,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Her original host-family arrangement changed. She actually stayed with a couple who had no children and two dogs.",
+              "evidence": "A rich couple called John and Candy, who didn’t have any children, although they did have a couple of dogs.",
+              "evidenceStart": 94.72,
+              "evidenceEnd": 103.04
+            },
+            {
+              "number": 23,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The American home was very large and beautifully decorated. It was noisier than her English home and had a much larger garden.",
+              "evidence": "It was also really big […] Also, it was beautifully decorated",
+              "evidenceStart": 114.2,
+              "evidenceEnd": 130.84
+            },
+            {
+              "number": 24,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She found being away from her brother and sister difficult. Her friends were on the exchange, and the hosts’ dogs helped her miss her dog less.",
+              "evidence": "It was quite difficult to be so far away from my brother and sister",
+              "evidenceStart": 151.06,
+              "evidenceEnd": 156.58
+            },
+            {
+              "number": 25,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Learning to live without her parents showed her that she was braver than she had thought. That is a gain in confidence.",
+              "evidence": "It was really good for me to learn how to live without my parents. I’m braver than I thought I was.",
+              "evidenceStart": 167.78,
+              "evidenceEnd": 177.62
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 5,
+      "id": "simply-pet-test-5",
+      "parts": [
+        {
+          "id": "part-1",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She originally expected to travel by rail, but the trains were cancelled. She eventually came by car; flying was only a suggestion.",
+              "evidence": "At first we had thought of coming by rail",
+              "evidenceStart": 57.1,
+              "evidenceEnd": 62.44
+            },
+            {
+              "number": 2,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She bought the short striped skirt. The long belted skirt was uncomfortable, and she disliked the other skirt’s buttons.",
+              "evidence": "It’s got stripes.",
+              "evidenceStart": 137.36,
+              "evidenceEnd": 140.52
+            },
+            {
+              "number": 3,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Saturday will be milder but still cloudy. The storm is forecast for Friday, and sunshine for Sunday.",
+              "evidence": "This will be followed by milder weather on Saturday. Still cloudy though.",
+              "evidenceStart": 216.26,
+              "evidenceEnd": 221.9
+            },
+            {
+              "number": 4,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He has already bought “Climbing Mount Everest,” matching the mountains on the cover. The animal and sailing books are still on order.",
+              "evidence": "I’ve already bought one called Climbing Mount Everest.",
+              "evidenceStart": 291.22,
+              "evidenceEnd": 294.22
+            },
+            {
+              "number": 5,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She corrects herself and says maths came first, followed by science. Art was moved to the end because the teacher was delayed.",
+              "evidence": "Oh no. First we had maths and then science.",
+              "evidenceStart": 377.38,
+              "evidenceEnd": 381.94
+            },
+            {
+              "number": 6,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She is calling about being late for a haircut. The dentist and chemist were earlier stops that delayed her.",
+              "evidence": "If I’m too late for a cut, I can re-book for the weekend",
+              "evidenceStart": 480.32,
+              "evidenceEnd": 485.02
+            },
+            {
+              "number": 7,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "His mother will bring soft drinks home from work. Pizza and ice cream are already in the freezer.",
+              "evidence": "Now you need some soft drinks.",
+              "evidenceStart": 584.64,
+              "evidenceEnd": 586.64
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Full membership works out cheaper than paying registration and individual class fees. Her discount was a special student/new-member offer, not a discount for everybody.",
+              "evidence": "Without full membership, you have to pay a registration fee […] and then also pay for each class. So membership actually works out cheaper.",
+              "evidenceStart": 44.8,
+              "evidenceEnd": 59.26
+            },
+            {
+              "number": 9,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He says he is generally happy with his online purchases and finds online shopping stress free. Difficulty deciding and anxiety refer to shopping in physical shops.",
+              "evidence": "Generally I’ve been happy with what I bought, so it works for me. Stress free shopping.",
+              "evidenceStart": 141.64,
+              "evidenceEnd": 153.46
+            },
+            {
+              "number": 10,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She and her cousin wanted different activities: she liked walking, while her cousin preferred reading and films. She would not repeat the holiday.",
+              "evidence": "We had different ideas about how to spend our days.",
+              "evidenceStart": 266.32,
+              "evidenceEnd": 273.24
+            },
+            {
+              "number": 11,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The girl likes the topic and examples but says the article still contains spelling and grammar mistakes. Those need correcting before submission.",
+              "evidence": "But it still has some spelling and grammatical mistakes.",
+              "evidenceStart": 322.88,
+              "evidenceEnd": 326.38
+            },
+            {
+              "number": 12,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Although the series has weaknesses, it makes him laugh. He criticises the acting rather than praising it.",
+              "evidence": "Despite all that, it makes me laugh",
+              "evidenceStart": 401.42,
+              "evidenceEnd": 407.02
+            },
+            {
+              "number": 13,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Her parents are amazed by her improvement in maths and grateful to the new teacher. The possible class change concerns her friend.",
+              "evidence": "My parents are amazed as they had given up with my maths. They feel grateful to him.",
+              "evidenceStart": 502.4,
+              "evidenceEnd": 512.78
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "history",
+              "accepted": [
+                "history"
+              ],
+              "explanation": "He studied history at university, despite doing DJ work and loving music.",
+              "evidence": "In fact, I was a history student",
+              "evidenceStart": 43.48,
+              "evidenceEnd": 48.32
+            },
+            {
+              "number": 15,
+              "answer": "tea",
+              "accepted": [
+                "tea"
+              ],
+              "explanation": "He drinks a large cup of tea before presenting. Coffee is what others drink, and juice comes after the show.",
+              "evidence": "Everyone eats and drinks loads of strong coffee, but I’m a tea man myself. One big cup",
+              "evidenceStart": 57.76,
+              "evidenceEnd": 66.44
+            },
+            {
+              "number": 16,
+              "answer": "interviews",
+              "accepted": [
+                "interviews",
+                "doing interviews"
+              ],
+              "explanation": "Doing interviews is his favourite part of the job because he meets interesting people. The plural “interviews” matches the activity he describes.",
+              "evidence": "The best thing of all is when I get to do interviews.",
+              "evidenceStart": 75.48,
+              "evidenceEnd": 79.16
+            },
+            {
+              "number": 17,
+              "answer": "name",
+              "accepted": [
+                "name"
+              ],
+              "explanation": "He once forgot a politician’s name during an interview. He specifically rules out forgetting dates and times.",
+              "evidence": "Once in the middle of talking to a politician, I forgot their name.",
+              "evidenceStart": 94.48,
+              "evidenceEnd": 102.78
+            },
+            {
+              "number": 18,
+              "answer": "reporter",
+              "accepted": [
+                "reporter"
+              ],
+              "explanation": "He would now choose to be a reporter because he enjoys talking to people. Teaching and acting were earlier interests.",
+              "evidence": "If I changed careers now, I would definitely be a reporter",
+              "evidenceStart": 111.38,
+              "evidenceEnd": 120.88
+            },
+            {
+              "number": 19,
+              "answer": "Hatfield House",
+              "accepted": [
+                "Hatfield House"
+              ],
+              "explanation": "The charity event is at Hatfield House. He spells H-A-T-F-I-E-L-D, confirming the place name.",
+              "evidence": "The charity event I am doing at Hatfield House […] it’s spelled H A T F I E L D House.",
+              "evidenceStart": 129.6,
+              "evidenceEnd": 141.52
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "A school project to help local people prompted the fundraising. He says his village is peaceful and that the youth club prevents boredom.",
+              "evidence": "We have to do a project at school to help the local people and it seemed like a good idea.",
+              "evidenceStart": 56.62,
+              "evidenceEnd": 62.74
+            },
+            {
+              "number": 21,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "He set up a Facebook page and emailed people. Posters were not allowed, and phoning everyone was impractical.",
+              "evidence": "I emailed people and I set up a Facebook page to let everyone know about it.",
+              "evidenceStart": 72.3,
+              "evidenceEnd": 79.76
+            },
+            {
+              "number": 22,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He expected fundraising to take time, although he believed hard work would succeed. He did not expect easy or immediate results.",
+              "evidence": "I wasn’t expecting to have good results quickly.",
+              "evidenceStart": 97.32,
+              "evidenceEnd": 99.68
+            },
+            {
+              "number": 23,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The cooking competition attracted only ten entrants and raised less money than he expected. Eating cake cheered him up, but the fundraising result was disappointing.",
+              "evidence": "Only 10 people took part […] raised a disappointing amount of money.",
+              "evidenceStart": 117.58,
+              "evidenceEnd": 123.9
+            },
+            {
+              "number": 24,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The dog show was his favourite: it was fun, drew a crowd, and raised a lot. He was less excited by the Sunday sale.",
+              "evidence": "The dog show was really amazing […] it was brilliant fun.",
+              "evidenceStart": 133.88,
+              "evidenceEnd": 144.78
+            },
+            {
+              "number": 25,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "He plans to raise money again for another useful local cause. The youth-club improvements are finished, and he does not want to take up cooking.",
+              "evidence": "I think I’ll probably start raising money again to do something useful for our town.",
+              "evidenceStart": 335.34,
+              "evidenceEnd": 344.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 6,
+      "id": "simply-pet-test-6",
+      "parts": [
+        {
+          "id": "part-1",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They agree on chicken with vegetables, specifically beans and carrots. The mother rejects chips even when fish is suggested.",
+              "evidence": "We can have the chicken as you first said, but we’ll just eat some healthy food with it. […] beans and carrots.",
+              "evidenceStart": 68.56,
+              "evidenceEnd": 78.96
+            },
+            {
+              "number": 2,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She accepts the suggestion to wear jeans with a nice blouse. The dress is too smart for the party, and the T-shirt is replaced by the blouse.",
+              "evidence": "The jeans are fine, but why not wear a nice blouse? Okay, good idea.",
+              "evidenceStart": 187.22,
+              "evidenceEnd": 192.62
+            },
+            {
+              "number": 3,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The cafe is explicitly the final stop, where the group can relax. The zoo is visited first, and the museum is another stop.",
+              "evidence": "Get to the cafe and wait for us there, as that will be the last place to visit today",
+              "evidenceStart": 220.02,
+              "evidenceEnd": 230.52
+            },
+            {
+              "number": 4,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He found the hat in his sister’s school bag. The desk and the pavement outside school were places he considered, not where it was.",
+              "evidence": "My sister’s school bag, where I noticed it was in this morning.",
+              "evidenceStart": 316.84,
+              "evidenceEnd": 322.02
+            },
+            {
+              "number": 5,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They finally agree on a long walk at the beach. An injured shoulder prevents both swimming and cycling.",
+              "evidence": "I guess it will have to be what you suggested then. But let’s go to the beach at least",
+              "evidenceStart": 392.2,
+              "evidenceEnd": 408.04
+            },
+            {
+              "number": 6,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Roberto says he only had a headache. The high temperature was Sonia’s guess, and the cough is Sonia’s own illness.",
+              "evidence": "No, it’s only a terrible headache.",
+              "evidenceStart": 464.54,
+              "evidenceEnd": 466.94
+            },
+            {
+              "number": 7,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The toys are half price for today. The clothes shop is opening, and the bakery is advertised, but no discounts are mentioned for them.",
+              "evidence": "Toys for you has many toys half-price just for today",
+              "evidenceStart": 523.92,
+              "evidenceEnd": 536.2
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He thinks the dog barks because its owners leave it alone all day. He points out that it already gets two long walks.",
+              "evidence": "He obviously isn’t happy being left all day.",
+              "evidenceStart": 49.92,
+              "evidenceEnd": 54.36
+            },
+            {
+              "number": 9,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She left because she had a terrible headache and needed medical attention. Her father collected her after the teacher called him; it was not a planned appointment.",
+              "evidence": "I had a terrible headache and I couldn’t enjoy the film.",
+              "evidenceStart": 134.18,
+              "evidenceEnd": 137.78
+            },
+            {
+              "number": 10,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Both agree that maths now takes more thought and used to be easier. They like the subject and teacher, and one reassures the other about the exam.",
+              "evidence": "It used to be so much easier. I was thinking the same thing",
+              "evidenceStart": 217.62,
+              "evidenceEnd": 225.14
+            },
+            {
+              "number": 11,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The museum was unexpectedly closed, so the trip changed to a zoo visit. The teacher was embarrassed, and the students enjoyed the replacement.",
+              "evidence": "The museum was closed all day […] I hadn’t been to a zoo for years",
+              "evidenceStart": 301.46,
+              "evidenceEnd": 318.42
+            },
+            {
+              "number": 12,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He is angry about supporters attacking each other. The players and their coach are praised.",
+              "evidence": "I don’t understand why supporters of the two teams attack each other at football matches. It really makes me angry.",
+              "evidenceStart": 398.64,
+              "evidenceEnd": 409.46
+            },
+            {
+              "number": 13,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "He is especially impressed by the building’s design, including its glass roof, and compares it to a work of art. The pool and gym are good but expected facilities.",
+              "evidence": "I thought it was fantastic, especially the big glass roof […] more like a work of art than a leisure centre.",
+              "evidenceStart": 488.98,
+              "evidenceEnd": 510.76
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "15 June",
+              "accepted": [
+                "15 June",
+                "15th June",
+                "June 15",
+                "June 15th",
+                "June fifteenth",
+                "15/6",
+                "15/06",
+                "15.6",
+                "15.06",
+                "15-6",
+                "15-06",
+                "06/15"
+              ],
+              "explanation": "The teacher first changes Monday 13 June to Wednesday 14, then corrects the date to Wednesday 15 June. The final correction is the answer.",
+              "evidence": "Sorry, I mean Wednesday 15th June.",
+              "evidenceStart": 69.14,
+              "evidenceEnd": 80.48
+            },
+            {
+              "number": 15,
+              "answer": "map",
+              "accepted": [
+                "map"
+              ],
+              "explanation": "Each group receives a map to find its way. Technology will not be available, and “a” is already printed before the gap.",
+              "evidence": "You will have to use the map that each group will be given.",
+              "evidenceStart": 107.5,
+              "evidenceEnd": 112.12
+            },
+            {
+              "number": 16,
+              "answer": "4 km",
+              "accepted": [
+                "4 km",
+                "4km",
+                "4 kilometres",
+                "4 kilometers",
+                "four kilometres",
+                "four kilometers",
+                "four km"
+              ],
+              "explanation": "They walk four kilometres up the hill and are collected near the top. Twelve kilometres is the coach journey from school, and eight would be the round-trip walk they will not do.",
+              "evidence": "You will have to walk the 4km to the top.",
+              "evidenceStart": 125.1,
+              "evidenceEnd": 130.46
+            },
+            {
+              "number": 17,
+              "answer": "Walsh",
+              "accepted": [
+                "Walsh"
+              ],
+              "explanation": "The doctor responsible for health issues is Mr Walsh. The speaker spells W-A-L-S-H; “Mr” is already provided in the question.",
+              "evidence": "His name is Mr Walsh. That’s W-A-L-S-H.",
+              "evidenceStart": 339.2,
+              "evidenceEnd": 353.06
+            },
+            {
+              "number": 18,
+              "answer": "comfortable boots",
+              "accepted": [
+                "comfortable boots",
+                "boots"
+              ],
+              "explanation": "They need comfortable boots because the paths are difficult. Sandals and beach shoes are explicitly ruled out.",
+              "evidence": "You need to make sure that you are wearing comfortable boots",
+              "evidenceStart": 185.56,
+              "evidenceEnd": 192.56
+            },
+            {
+              "number": 19,
+              "answer": "7",
+              "accepted": [
+                "7",
+                "7.00",
+                "7:00",
+                "07:00",
+                "07.00",
+                "seven",
+                "seven o’clock",
+                "seven o'clock"
+              ],
+              "explanation": "The coach collects them at 6 p.m., but the estimated arrival at school is 7 p.m. The gap asks for the return time at school.",
+              "evidence": "We should be back at school at 7pm.",
+              "evidenceStart": 209.12,
+              "evidenceEnd": 218.7
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Her supportive drama teacher inspired her to help children in the same way. Her parents and classmates had discouraged her acting ambitions.",
+              "evidence": "I had an amazing drama teacher at school that really helped me to believe in myself.",
+              "evidenceStart": 44.14,
+              "evidenceEnd": 56.06
+            },
+            {
+              "number": 21,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She says teachers must connect with students and make them interested. Subject knowledge alone does not make someone able to teach.",
+              "evidence": "You have to be able to connect with your students first.",
+              "evidenceStart": 84.74,
+              "evidenceEnd": 88.26
+            },
+            {
+              "number": 22,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She gets students to stand, jump, walk, and clap to restore their energy. She rejects extra homework and exams as a solution.",
+              "evidence": "I get them to stand up and jump up and down for a minute",
+              "evidenceStart": 108.5,
+              "evidenceEnd": 113.5
+            },
+            {
+              "number": 23,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She is pleased with her work and what she has achieved, which expresses pride in her teaching career.",
+              "evidence": "I think I do a really good job and I’m really pleased with what I have achieved over the years.",
+              "evidenceStart": 134.5,
+              "evidenceEnd": 142.0
+            },
+            {
+              "number": 24,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Her parents are proud of her teaching success and relieved that she did not pursue acting. They are satisfied with her career progress.",
+              "evidence": "Certainly, they are proud of me.",
+              "evidenceStart": 147.0,
+              "evidenceEnd": 149.5
+            },
+            {
+              "number": 25,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She wants to remain in the classroom and keep improving her teaching. She rejects becoming a headteacher or trying acting.",
+              "evidence": "I want to stay in the classroom and be the best that I can be at what I do now.",
+              "evidenceStart": 167.7,
+              "evidenceEnd": 172.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 7,
+      "id": "simply-pet-test-7",
+      "parts": [
+        {
+          "id": "part-1",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She decides to become a nurse because she enjoys looking after sick people. Shop assistant is an earlier possibility, and teacher is her friend’s suggestion.",
+              "evidence": "But I like better to work as a nurse. I enjoy looking after people who are sick. So that’s what I’ll do.",
+              "evidenceStart": 78.1,
+              "evidenceEnd": 85.46
+            },
+            {
+              "number": 2,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The boy’s first suggestion is pizza, and he returns to that first choice at the end. The girl decides to have salad after rejecting the burgers.",
+              "evidence": "Okay then, I’ll take my first choice.",
+              "evidenceStart": 167.96,
+              "evidenceEnd": 181.46
+            },
+            {
+              "number": 3,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She has given up table tennis because she has no time. She now practises volleyball and still has weekly guitar lessons.",
+              "evidence": "Although I’ve given up, as I don’t have enough time to play anymore",
+              "evidenceStart": 229.5,
+              "evidenceEnd": 234.26
+            },
+            {
+              "number": 4,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He wants help choosing a new coat for the trip to Iceland. He will borrow his brother’s scarf, and his mum will buy his gloves online.",
+              "evidence": "I need you to help me buy a new coat, as next month I’ll be going on a school trip to Iceland.",
+              "evidenceStart": 310.38,
+              "evidenceEnd": 315.22
+            },
+            {
+              "number": 5,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "His sister has short hair and glasses, but she is not wearing her usual hat in this photo. That matches picture B.",
+              "evidence": "she also wears glasses ... in this picture she doesn’t wear this terrible hat",
+              "evidenceStart": 389.4,
+              "evidenceEnd": 397.44
+            },
+            {
+              "number": 6,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "They finally decide to see the first suggestion, the adventure film, despite its poor reviews. The romantic film is rejected and they have already seen the detective film.",
+              "evidence": "So I guess we ignore the reviews and see the first one.",
+              "evidenceStart": 475.2,
+              "evidenceEnd": 486.94
+            },
+            {
+              "number": 7,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She would prefer an island holiday by the sea. She dislikes the mountain and city holidays her parents usually choose.",
+              "evidence": "I’d prefer to go to an island and not to the mountains",
+              "evidenceStart": 534.8,
+              "evidenceEnd": 540.88
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The boy describes seeing her push younger children around and order them to fetch a drink. This shows that he thinks she is impolite to other children.",
+              "evidence": "I saw her pushing some younger kids around in the break and telling them to go and get her something to drink.",
+              "evidenceStart": 38.52,
+              "evidenceEnd": 43.82
+            },
+            {
+              "number": 9,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Both friends say the group’s earlier songs were more original. They do not say it copied a particular song.",
+              "evidence": "They used to be so original back then, but I still think this is a good song.",
+              "evidenceStart": 130.68,
+              "evidenceEnd": 135.88
+            },
+            {
+              "number": 10,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "He returned an item that was the wrong size, but waited six months for his refund. He does not describe repeated deliveries or being unable to return it.",
+              "evidence": "The size was all wrong and then it took six months to get a refund.",
+              "evidenceStart": 213.2,
+              "evidenceEnd": 221.24
+            },
+            {
+              "number": 11,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The boy thinks the teacher is being unfair. Although his friend is initially sympathetic, she disputes his claim about nationality and points out that he does not participate much in class. They agree that his exam marks were good.",
+              "evidence": "To be fair you are not the most active student in class.",
+              "evidenceStart": 324.76,
+              "evidenceEnd": 331.76
+            },
+            {
+              "number": 12,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He says the book was better because the film omitted events explaining the boy’s behaviour. He also thinks the scenery makes the film worth seeing.",
+              "evidence": "The film did not show any of the events which explained the reasons behind the boy’s actions",
+              "evidenceStart": 404.66,
+              "evidenceEnd": 409.32
+            },
+            {
+              "number": 13,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He now feels confident: his blog is doing well and readers have left nice comments. The confusion he describes belongs to when he first started.",
+              "evidence": "now I’m very familiar with it and my blog’s doing pretty well",
+              "evidenceStart": 480.2,
+              "evidenceEnd": 486.2
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "West London",
+              "accepted": [
+                "West London"
+              ],
+              "explanation": "The student locates Chiswick Park in West London. The two words complete the location note.",
+              "evidence": "in West London",
+              "evidenceStart": 54.64,
+              "evidenceEnd": 62.34
+            },
+            {
+              "number": 15,
+              "answer": "furniture",
+              "accepted": [
+                "furniture"
+              ],
+              "explanation": "The house contains important paintings and furniture. Use the uncountable noun furniture, with no added article.",
+              "evidence": "there are important paintings and furniture in it",
+              "evidenceStart": 83.28,
+              "evidenceEnd": 95.08
+            },
+            {
+              "number": 16,
+              "answer": "18",
+              "accepted": [
+                "18",
+                "eighteen",
+                "18.00"
+              ],
+              "explanation": "The house tour costs £18 per person. £38 is the family ticket price, so it does not fit the individual-ticket note.",
+              "evidence": "They last an hour and cost £18 per person. There are also family tickets that cost £38.",
+              "evidenceStart": 95.08,
+              "evidenceEnd": 104.22
+            },
+            {
+              "number": 17,
+              "answer": "plants",
+              "accepted": [
+                "plants"
+              ],
+              "explanation": "He says visitors can buy plants and souvenirs in the flower shop. The plural plants completes the note before “and souvenirs.”",
+              "evidence": "There is also a flower shop where you can buy plants and souvenirs.",
+              "evidenceStart": 129.72,
+              "evidenceEnd": 134.5
+            },
+            {
+              "number": 18,
+              "answer": "50",
+              "accepted": [
+                "50",
+                "fifty",
+                "50.00"
+              ],
+              "explanation": "The garden tour costs £50 for a group of ten. £6 is the individual price.",
+              "evidence": "The garden tour is 6 pounds per person or 50 for a group of 10.",
+              "evidenceStart": 134.5,
+              "evidenceEnd": 139.18
+            },
+            {
+              "number": 19,
+              "answer": "7 June",
+              "accepted": [
+                "7 June",
+                "7th June",
+                "June 7",
+                "June 7th",
+                "7th of June",
+                "07 June",
+                "7/6",
+                "07/06",
+                "7-6",
+                "07-06"
+              ],
+              "explanation": "Music Week starts on 7 June. The 13 June date is when it ends.",
+              "evidence": "if you’re in London from 7th June there is a music week",
+              "evidenceStart": 279.2,
+              "evidenceEnd": 284.66
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Parkour athletes cross an area using only their bodies. Miguel explicitly says they use no equipment.",
+              "evidence": "without using any equipment, only the ability of their body",
+              "evidenceStart": 58.18,
+              "evidenceEnd": 63.46
+            },
+            {
+              "number": 21,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Miguel identifies self-control as the main difficulty, especially controlling fear of heights and other challenges.",
+              "evidence": "There is no room for being scared ... the mind needs to control any worries about height or difficulties",
+              "evidenceStart": 78.32,
+              "evidenceEnd": 88.48
+            },
+            {
+              "number": 22,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "The UK has already recognised Parkour as a sport. Its inclusion in school sport is described as a future possibility.",
+              "evidence": "the UK has become the first country in the world to recognise it as a sport",
+              "evidenceStart": 91.96,
+              "evidenceEnd": 100.52
+            },
+            {
+              "number": 23,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "The video increased negative reactions because an athlete was filmed on ancient buildings. People said this should be forbidden; Miguel does not say the video itself was banned.",
+              "evidence": "This was not helped by the video ... Many people didn’t like him",
+              "evidenceStart": 130.2,
+              "evidenceEnd": 141.4
+            },
+            {
+              "number": 24,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The publicity from the competition can bring athletes career opportunities. It is a real challenge and can be watched on television as well as social media.",
+              "evidence": "they become famous and get offered career opportunities",
+              "evidenceStart": 157.06,
+              "evidenceEnd": 167.2
+            },
+            {
+              "number": 25,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Miguel wants to finish school and possibly study sports at university. He says he does not want to become a professional Parkour trainer.",
+              "evidence": "I would like to finish my school first and maybe study sports at university.",
+              "evidenceStart": 174.68,
+              "evidenceEnd": 179.76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 8,
+      "id": "simply-pet-test-8",
+      "parts": [
+        {
+          "id": "part-1",
+          "questions": [
+            {
+              "number": 1,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "They will see the pictures of famous athletes at the end of the tour. The landscape pictures come first, and the jewellery display comes before the athletes.",
+              "evidence": "Next door are pictures of famous athletes ... We’ll visit that at the end of the tour",
+              "evidenceStart": 65.72,
+              "evidenceEnd": 76.32
+            },
+            {
+              "number": 2,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Mum will order more soft drinks online. The boy will buy the fresh vegetables and bread in town.",
+              "evidence": "I got the soft drinks yesterday. But I’ll order a few more.",
+              "evidenceStart": 160.1,
+              "evidenceEnd": 164.06
+            },
+            {
+              "number": 3,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Heavy rain and thunderstorms start tonight and continue for two days, so tomorrow will be rainy. The sunshine is forecast for the weekend.",
+              "evidence": "heavy rain and thunderstorms starting from tonight and continuing for two days until Friday",
+              "evidenceStart": 254.94,
+              "evidenceEnd": 264.26
+            },
+            {
+              "number": 4,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "He wanted badminton, and that is what they finally played. Rugby was unavailable because of a competition, and hockey was closed on Sundays.",
+              "evidence": "I said I’d rather play badminton ... we did what I wanted in the end",
+              "evidenceStart": 332.24,
+              "evidenceEnd": 357.14
+            },
+            {
+              "number": 5,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "He confirms that he skied and tried horse riding. When asked about ice skating, he says he has never tried it.",
+              "evidence": "Did you do ice skating too? No, in fact I haven’t tried it at all.",
+              "evidenceStart": 419.22,
+              "evidenceEnd": 424.74
+            },
+            {
+              "number": 6,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She will bring a cake for dessert because the person who planned to make one did not do so. Sausages and burgers are already provided.",
+              "evidence": "a chocolate cake, but she didn’t at last, so you can bring this",
+              "evidenceStart": 507.56,
+              "evidenceEnd": 513.36
+            },
+            {
+              "number": 7,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Ice creams will be sold outside the theatre café during the interval. Programmes are sold at the entrance, while juice is available at the bar.",
+              "evidence": "They will also be selling ice creams during a short 15 minute interval outside the theatre cafe.",
+              "evidenceStart": 573.44,
+              "evidenceEnd": 580.36
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "questions": [
+            {
+              "number": 8,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She says she would be embarrassed to appear on television with everyone watching her. Her reason is shyness about being watched.",
+              "evidence": "you have to have a lot of courage to go on TV and have everyone watch you. I’d be embarrassed to do that.",
+              "evidenceStart": 67.38,
+              "evidenceEnd": 74.88
+            },
+            {
+              "number": 9,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "Two holes appeared when she wore the jumper. She likes how it suits her, and next week is the school performance rather than a return date.",
+              "evidence": "As soon as I wore it, a huge hole appeared in the sleeve. And then another one here.",
+              "evidenceStart": 107.88,
+              "evidenceEnd": 114.24
+            },
+            {
+              "number": 10,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "The worst problem was waking up very early because of the light, leaving her exhausted. The weather was fine, and insects were a lesser annoyance.",
+              "evidence": "getting woken up by the light so early is awful. I’m exhausted.",
+              "evidenceStart": 211.68,
+              "evidenceEnd": 219.28
+            },
+            {
+              "number": 11,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "They both agree that using a calculator is an advantage because it makes the work quicker. They disagree about which teacher is better.",
+              "evidence": "he allows us to use a calculator is an advantage. You’re right there. At least it makes everything quicker.",
+              "evidenceStart": 306.86,
+              "evidenceEnd": 315.02
+            },
+            {
+              "number": 12,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "War films make him feel depressed, so he wants a more positive subject. He does not complain about a lack of action or all historical films.",
+              "evidence": "I get depressed by war movies. I’d prefer more positive topic.",
+              "evidenceStart": 396.68,
+              "evidenceEnd": 400.44
+            },
+            {
+              "number": 13,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "He is currently watching the romantic comedy because he switched on too early. He had intended to arrive during the adverts before his action film, which has not started yet.",
+              "evidence": "I didn’t expect you to be watching a romantic comedy. Actually, I switched on too early, that’s why",
+              "evidenceStart": 462.8,
+              "evidenceEnd": 470.44
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "questions": [
+            {
+              "number": 14,
+              "answer": "views",
+              "accepted": [
+                "views"
+              ],
+              "explanation": "The walking holiday offers amazing views as well as an escape from the crowds. The plural views fits after “excellent.”",
+              "evidence": "the amazing views really make it worth it",
+              "evidenceStart": 78.08,
+              "evidenceEnd": 84.4
+            },
+            {
+              "number": 15,
+              "answer": "15 April",
+              "accepted": [
+                "15 April",
+                "15th April",
+                "April 15",
+                "April 15th",
+                "15th of April",
+                "15/4",
+                "15/04",
+                "15-4",
+                "15-04"
+              ],
+              "explanation": "The last Everest trip now leaves on 15 April. A 25 April departure existed only until last year.",
+              "evidence": "the last one leaves on the 15th of April",
+              "evidenceStart": 100.0,
+              "evidenceEnd": 108.34
+            },
+            {
+              "number": 16,
+              "answer": "food markets",
+              "accepted": [
+                "food markets"
+              ],
+              "explanation": "Travellers can shop for ingredients at the food markets. Both words are needed for the specific shopping location.",
+              "evidence": "you will get a chance to shop for ingredients at the food markets",
+              "evidenceStart": 121.12,
+              "evidenceEnd": 134.26
+            },
+            {
+              "number": 17,
+              "answer": "rice balls",
+              "accepted": [
+                "rice balls"
+              ],
+              "explanation": "The cookery class at the Panda Rescue Centre teaches visitors to make panda rice balls. “Panda” is already printed, so the gap takes only rice balls.",
+              "evidence": "learn to make panda rice balls",
+              "evidenceStart": 141.08,
+              "evidenceEnd": 148.18
+            },
+            {
+              "number": 18,
+              "answer": "chocolate",
+              "accepted": [
+                "chocolate"
+              ],
+              "explanation": "The Mexico tour includes a visit to the Chocolate Museum. Chocolate completes the note before “museum.”",
+              "evidence": "You get to go to the Chocolate Museum and see how it is produced",
+              "evidenceStart": 154.54,
+              "evidenceEnd": 160.14
+            },
+            {
+              "number": 19,
+              "answer": "exodus",
+              "accepted": [
+                "exodus"
+              ],
+              "explanation": "The company name is spelled E-X-O-D-U-S. Write only exodus because the rest of the website address is already printed.",
+              "evidence": "I’ll spell that for you. It’s E-X-O-D-U-S.",
+              "evidenceStart": 175.9,
+              "evidenceEnd": 186.68
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "questions": [
+            {
+              "number": 20,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "Sarah used YouTube to find out how to start a blog. This is learning from the internet, rather than a college course or a friend.",
+              "evidence": "I looked on YouTube to get information as to how to start a blog.",
+              "evidenceStart": 196.02,
+              "evidenceEnd": 202.82
+            },
+            {
+              "number": 21,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "As a teenager herself, she understands how people of her generation feel. She also says older people are interesting and can offer good advice.",
+              "evidence": "I’m a teenager ... I know how they feel",
+              "evidenceStart": 69.74,
+              "evidenceEnd": 79.98
+            },
+            {
+              "number": 22,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "She was unsure whether anyone would be interested or read her blog. She had plenty of free time, so time was not her initial worry.",
+              "evidence": "I wasn’t sure how well it would do, and if anyone would even be interested in what I had to say.",
+              "evidenceStart": 87.34,
+              "evidenceEnd": 94.18
+            },
+            {
+              "number": 23,
+              "answer": "C",
+              "accepted": [
+                "C"
+              ],
+              "explanation": "She spends four to five hours on the blog every day, including weekends. The work can happen during the day or in the evening.",
+              "evidence": "I work on it every day for about four to five hours, even at the weekends.",
+              "evidenceStart": 110.48,
+              "evidenceEnd": 116.32
+            },
+            {
+              "number": 24,
+              "answer": "A",
+              "accepted": [
+                "A"
+              ],
+              "explanation": "She highlights pollution and protecting animals and plants. These concerns show that the environment interests teenagers most.",
+              "evidence": "pollution and protection of animals and plants",
+              "evidenceStart": 138.76,
+              "evidenceEnd": 148.44
+            },
+            {
+              "number": 25,
+              "answer": "B",
+              "accepted": [
+                "B"
+              ],
+              "explanation": "Replies to the blog have taught her about many different subjects. She specifically says she has not made new friends through it and is not a computer expert.",
+              "evidence": "I have learned a lot about many different subjects through the replies that people sent to my blog.",
+              "evidenceStart": 166.08,
+              "evidenceEnd": 174.4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "needsReview": []
+}

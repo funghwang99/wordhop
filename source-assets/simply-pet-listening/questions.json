@@ -1,0 +1,2086 @@
+{
+  "tests": [
+    {
+      "test": 1,
+      "id": "simply-pet-test-1",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            35,
+            36
+          ],
+          "printedPages": [
+            34,
+            35
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What will the girl bring to the dinner?",
+              "options": {
+                "A": "A cake.",
+                "B": "Three bottles of drink.",
+                "C": "A roast chicken."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "Where is the girl hurting now?",
+              "options": {
+                "A": "Her leg (arrow pointing to her lower leg).",
+                "B": "Her arm (arrow pointing to her upper arm).",
+                "C": "Her head (arrow pointing to her head)."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "Where was the dog found?",
+              "options": {
+                "A": "In a park with benches and a lamp post.",
+                "B": "Outside the front door of a house.",
+                "C": "Outside a butcher’s shop."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "What programme does the girl want to watch on TV today?",
+              "options": {
+                "A": "A singing programme.",
+                "B": "A programme showing an airline pilot.",
+                "C": "A volleyball match."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "Which DVD did the boy like most?",
+              "options": {
+                "A": "A DVD with two singers performing on its label.",
+                "B": "A DVD with a racing car on its label.",
+                "C": "A DVD with basketball players on its label."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "Which sport did the girl do for the first time last summer?",
+              "options": {
+                "A": "Water skiing.",
+                "B": "Swimming.",
+                "C": "Surfing."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "What can you buy half price today?",
+              "options": {
+                "A": "Fruit.",
+                "B": "Books.",
+                "C": "Meat (a piece of steak)."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            37
+          ],
+          "printedPages": [
+            36
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about a family visit to a cafe.\n\nWhat did the girl’s mother like best?",
+              "options": {
+                "A": "the apple juice",
+                "B": "the pictures hanging on the walls",
+                "C": "the cake along with her drink"
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear a boy talking about his big brother learning to drive.\n\nHow did the boy’s brother feel about his first lesson?",
+              "options": {
+                "A": "quite nervous as he was afraid of crashing",
+                "B": "excited to have the chance to get around on his own",
+                "C": "bored as he already knew how to drive"
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear two friends talking about getting a Saturday job.\n\nThe girl thinks that",
+              "options": {
+                "A": "it’s a good idea to look for a job.",
+                "B": "they would both be too tired.",
+                "C": "they should take any job they can get."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a film they have seen.\n\nWhat do they agree on?",
+              "options": {
+                "A": "The film was better than they had expected.",
+                "B": "The characters were not believable.",
+                "C": "There should have been less action."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear a boy telling his friend about a school trip to a museum.\n\nHow did he feel about it?",
+              "options": {
+                "A": "He would be willing to visit it again soon.",
+                "B": "He thought it was a waste of time.",
+                "C": "It was more interesting than he had expected."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about a new teacher.\n\nThey think the new teacher is",
+              "options": {
+                "A": "more interesting than the rest of the teachers.",
+                "B": "funny and never gives them any homework.",
+                "C": "too serious sometimes."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            38
+          ],
+          "printedPages": [
+            37
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Andreana’s project is about ________."
+            },
+            {
+              "number": 15,
+              "prompt": "After university, her father worked as a teacher in a ________."
+            },
+            {
+              "number": 16,
+              "prompt": "On his first flight ________ passengers were travelling to Italy on his plane."
+            },
+            {
+              "number": 17,
+              "prompt": "Difficult passengers and bad ________ are problems that a pilot has to deal with."
+            },
+            {
+              "number": 18,
+              "prompt": "Andreana’s father says that some plane travellers feel that they lose ________ of their life when flying."
+            },
+            {
+              "number": 19,
+              "prompt": "She says that he drinks a cup of ________ just after his plane has taken off."
+            }
+          ],
+          "context": "You will hear a student called Andreana giving a presentation to her class about her father’s job.",
+          "heading": "Flying High"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            38
+          ],
+          "printedPages": [
+            37
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "When did Darren first start to write stories?",
+              "options": {
+                "A": "after reading a lot while he was a child",
+                "B": "when he was recovering from an illness",
+                "C": "while he was in hospital"
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "Writing helped Darren to",
+              "options": {
+                "A": "help his family financially.",
+                "B": "talk more to his friends and family.",
+                "C": "become one of the happiest teenagers."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "Why didn’t Darren send his book to a publisher?",
+              "options": {
+                "A": "He wanted to write a second book first.",
+                "B": "He wanted to finish his therapy first.",
+                "C": "He didn’t think it was good enough."
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "Darren’s family read his book because",
+              "options": {
+                "A": "they were anxious about his feelings.",
+                "B": "they always liked the stories he writes in his diary.",
+                "C": "they wanted his sister to make a copy of it."
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "How did Darren feel when the publisher emailed him?",
+              "options": {
+                "A": "He was excited about the opportunity he was offered.",
+                "B": "He thought it was a joke.",
+                "C": "He was angry at his parents for going behind his back."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "What does Darren plan to do next?",
+              "options": {
+                "A": "write another book immediately",
+                "B": "get a proper job",
+                "C": "go to university"
+              }
+            }
+          ],
+          "context": "You will hear an interview with a young writer called Darren."
+        }
+      ]
+    },
+    {
+      "test": 2,
+      "id": "simply-pet-test-2",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            49,
+            50
+          ],
+          "printedPages": [
+            48,
+            49
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "How much will the girl pay to buy a new T-shirt?",
+              "options": {
+                "A": "£11.89",
+                "B": "£10.50",
+                "C": "£16.89"
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "What food will the boy have?",
+              "options": {
+                "A": "A roast chicken.",
+                "B": "A slice of pizza.",
+                "C": "A hamburger."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "How will they get to the park?",
+              "options": {
+                "A": "By bicycle.",
+                "B": "By car.",
+                "C": "By bus."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "Where did the boy go on holiday last summer?",
+              "options": {
+                "A": "In the mountains.",
+                "B": "At a tropical beach.",
+                "C": "In a city."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "What did the girl collect from the shop today?",
+              "options": {
+                "A": "A computer keyboard.",
+                "B": "A printer.",
+                "C": "A computer mouse."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "What will the weather be like on Saturday evening?",
+              "options": {
+                "A": "Snow falling over a landscape.",
+                "B": "Windy weather (a wind face blowing and a tree bending).",
+                "C": "Sunny weather (a sun over the landscape)."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "What sport will the girl learn?",
+              "options": {
+                "A": "Hockey.",
+                "B": "Basketball.",
+                "C": "Football."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            51
+          ],
+          "printedPages": [
+            50
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about their trip to the museum.\n\nThe girl isn’t interested in",
+              "options": {
+                "A": "the way people lived a long time ago.",
+                "B": "the dinosaurs section.",
+                "C": "having anything to eat or drink."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear a boy telling a friend about his meeting with the headteacher.\n\nThe headteacher and the history teacher",
+              "options": {
+                "A": "were disappointed by the boy’s project.",
+                "B": "disagreed about the mark on the boy’s project.",
+                "C": "were excited with the boy’s project."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear two friends talking about what they did in the snow.\n\nWhat did the girl crash into at the bottom of the hill?",
+              "options": {
+                "A": "two children",
+                "B": "a bush",
+                "C": "a dog"
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a swimming competition.\n\nWhat will the girl do for the boy after the competition?",
+              "options": {
+                "A": "take him out to eat somewhere",
+                "B": "share the prize with him",
+                "C": "take him to the swimming pool"
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about their day at the zoo.\n\nWhat was the girl scared by?",
+              "options": {
+                "A": "the monkeys’ toys",
+                "B": "the water from the elephants",
+                "C": "the tigers’ teeth"
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about the film they saw at the cinema last night.\n\nWhy didn’t the boy enjoy the film?",
+              "options": {
+                "A": "It was very frightening.",
+                "B": "The acting was terrible.",
+                "C": "It was too short."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            52
+          ],
+          "printedPages": [
+            51
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Time to meet at school gate: ________"
+            },
+            {
+              "number": 15,
+              "prompt": "Need to bring: a ________"
+            },
+            {
+              "number": 16,
+              "prompt": "Morning activity: ________ in the garden"
+            },
+            {
+              "number": 17,
+              "prompt": "Afternoon activity: trip on a ________"
+            },
+            {
+              "number": 18,
+              "prompt": "Hand in projects by: ________"
+            },
+            {
+              "number": 19,
+              "prompt": "Castle website: www.________.castle.com"
+            }
+          ],
+          "context": "You will hear a teacher telling a group of students about a trip they are going on.",
+          "heading": "School Trip to the Castle"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            52
+          ],
+          "printedPages": [
+            51
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Omar first became interested in flying planes when",
+              "options": {
+                "A": "he first went on an aeroplane.",
+                "B": "he moved to a house near an airport.",
+                "C": "he played with his toy aeroplanes."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "Where did Omar’s family move to after living next to the airport?",
+              "options": {
+                "A": "to a town",
+                "B": "to a city",
+                "C": "to a village"
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "How did Omar learn to fly?",
+              "options": {
+                "A": "His father taught him.",
+                "B": "He took flying lessons.",
+                "C": "He took a university course."
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "Omar started his career as a pilot flying",
+              "options": {
+                "A": "a helicopter.",
+                "B": "a small plane.",
+                "C": "a large jet."
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "Omar wanted to fly around the world on his own because",
+              "options": {
+                "A": "he didn’t have any friends.",
+                "B": "he wanted to meet new people.",
+                "C": "there wasn’t enough space in the plane."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "Why did Omar have to make an emergency landing?",
+              "options": {
+                "A": "It was raining a lot.",
+                "B": "He didn’t have any more fuel.",
+                "C": "It was very cloudy."
+              }
+            }
+          ],
+          "context": "You will hear an interview with a young pilot called Omar."
+        }
+      ]
+    },
+    {
+      "test": 3,
+      "id": "simply-pet-test-3",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            63,
+            64
+          ],
+          "printedPages": [
+            62,
+            63
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which programme will they watch first?",
+              "options": {
+                "A": "A football programme.",
+                "B": "A cooking programme showing a chef.",
+                "C": "A recycling programme showing children collecting cans."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "Why did the boy go to bed late?",
+              "options": {
+                "A": "He was painting.",
+                "B": "He was doing maths homework.",
+                "C": "He was watching television."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "What did the girl see at the science museum?",
+              "options": {
+                "A": "A desktop computer.",
+                "B": "A taxi.",
+                "C": "An old mobile phone."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "How much was the restaurant bill?",
+              "options": {
+                "A": "£75.00",
+                "B": "£20.00",
+                "C": "£95.00"
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "Which book will the girl borrow from her friend?",
+              "options": {
+                "A": "A book with a heart on the cover.",
+                "B": "A book with an aeroplane flying around a globe on the cover.",
+                "C": "A book with a police officer on the cover."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "What did the girl cook?",
+              "options": {
+                "A": "A ring-shaped cake with fruit beside it.",
+                "B": "A pizza.",
+                "C": "A bowl of soup."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "Which animal did the boy enjoy seeing best?",
+              "options": {
+                "A": "A rabbit.",
+                "B": "A cow.",
+                "C": "A bird."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            65
+          ],
+          "printedPages": [
+            64
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear a boy talking to a friend about his grandma’s house.\n\nWhat does the boy like most about it?",
+              "options": {
+                "A": "its decoration",
+                "B": "its location",
+                "C": "its size"
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two friends talking about a birthday present for their friend, Mary.\n\nWhat do they decide to do?",
+              "options": {
+                "A": "buy her cinema tickets for the weekend",
+                "B": "ask her brother what music she likes",
+                "C": "tell Mary to choose her birthday present herself"
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear two friends talking about a concert.\n\nWhat do they agree on?",
+              "options": {
+                "A": "It was too crowded.",
+                "B": "It was too noisy.",
+                "C": "It was much too expensive."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a party they went to.\n\nWhat happened?",
+              "options": {
+                "A": "Too many people came to the party.",
+                "B": "The house was in a mess after the party.",
+                "C": "Someone returned home early."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a competition.\n\nThe girl feels",
+              "options": {
+                "A": "sad that she can’t share the prize with the person she really wants to.",
+                "B": "disappointed that her friend didn’t win a prize as well.",
+                "C": "proud of herself but unhappy that her parents can’t travel with her."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You hear two friends talking about a new student.\n\nWhat does the boy say about the student?",
+              "options": {
+                "A": "She is unfriendly.",
+                "B": "She is shy.",
+                "C": "She is boring."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            66
+          ],
+          "printedPages": [
+            65
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "You can use bus, ________ or boat to go to Venice from the airport."
+            },
+            {
+              "number": 15,
+              "prompt": "Julie and her parents started their journey to Arsenale at ________."
+            },
+            {
+              "number": 16,
+              "prompt": "The museum card costs £________."
+            },
+            {
+              "number": 17,
+              "prompt": "Julie’s favourite place to walk was over ________."
+            },
+            {
+              "number": 18,
+              "prompt": "The best food to eat in Venice is ________."
+            },
+            {
+              "number": 19,
+              "prompt": "Julie’s parents bought some ________ for her relatives."
+            }
+          ],
+          "context": "You will hear a student called Julie talking to her class about her trip to Venice.",
+          "heading": "Julie’s trip to Venice"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            66
+          ],
+          "printedPages": [
+            65
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Why did Isabella start to play basketball?",
+              "options": {
+                "A": "She didn’t have someone at home to play with.",
+                "B": "Her parents who worked at a court encouraged her.",
+                "C": "There were many basketball courts near her house."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "Why does Isabella think she is such a good basketball player?",
+              "options": {
+                "A": "She is naturally talented.",
+                "B": "She practises a lot.",
+                "C": "She watches basketball on TV."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "Who was the first to tell Isabella that she could play basketball as a professional?",
+              "options": {
+                "A": "her teachers at school",
+                "B": "her mum and dad",
+                "C": "the students in her class"
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "What was Isabella most proud of?",
+              "options": {
+                "A": "winning a medal",
+                "B": "participating at an international event",
+                "C": "carrying her country’s flag"
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "What are Isabella’s plans for the future?",
+              "options": {
+                "A": "to concentrate on her studies",
+                "B": "to take part in the Olympics",
+                "C": "to win more gold medals"
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "In ten years from now Isabella will definitely want to be",
+              "options": {
+                "A": "an incredible doctor.",
+                "B": "a basketball player.",
+                "C": "a successful woman."
+              }
+            }
+          ],
+          "context": "You will hear an interview with a young basketball player called Isabella."
+        }
+      ]
+    },
+    {
+      "test": 4,
+      "id": "simply-pet-test-4",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            77,
+            78
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What does the girl like to do when she is on holiday?",
+              "options": {
+                "A": "Spending time on a beach.",
+                "B": "Taking photographs while sightseeing in a city.",
+                "C": "Shopping in a shopping centre."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "What are they going to do this evening?",
+              "options": {
+                "A": "Watch television at home.",
+                "B": "Go to the cinema.",
+                "C": "Play a board game."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "How much did the girl pay for the pair of trainers?",
+              "options": {
+                "A": "£30.25",
+                "B": "£60.50",
+                "C": "£70.25"
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "What fruit did the boy's sister put in his lunch box in the end?",
+              "options": {
+                "A": "An apple.",
+                "B": "A banana.",
+                "C": "A bunch of grapes."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "What will the boy need to buy for his holiday?",
+              "options": {
+                "A": "A cap.",
+                "B": "A pair of shorts.",
+                "C": "A T-shirt."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "How will they communicate with each other?",
+              "options": {
+                "A": "Writing letters.",
+                "B": "Talking on the phone.",
+                "C": "Sending emails on a computer."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "Which instrument does the boy want to learn to play?",
+              "options": {
+                "A": "A trumpet.",
+                "B": "An electric bass guitar.",
+                "C": "A drum kit."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            79
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about their school trip on the river.\n\nWhat problem did the boy have on the boat?",
+              "options": {
+                "A": "There wasn’t any fresh juice.",
+                "B": "The cafe assistant wasn’t polite at all.",
+                "C": "All the staff were very rude to the students."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear a boy telling a friend about his new house.\n\nWhat was the main reason the boy’s family moved to the new house?",
+              "options": {
+                "A": "It has fewer bedrooms.",
+                "B": "It is nearer the city centre.",
+                "C": "It is cheaper."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear two friends talking about school.\n\nThe girl is feeling pleased because she",
+              "options": {
+                "A": "received a reward for her project.",
+                "B": "won tickets to Disneyland.",
+                "C": "got high marks at the end of the term."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear a boy talking about a train journey he had with his parents.\n\nWhy did their journey take a long time?",
+              "options": {
+                "A": "They had to travel all the way by bus.",
+                "B": "They had to travel part of the journey by bus.",
+                "C": "They travelled all the way in a taxi."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear a girl telling her friend about her summer course.\n\nThe boy suggests that the girl should",
+              "options": {
+                "A": "study more.",
+                "B": "take up a hobby.",
+                "C": "chat with people online."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about their new teacher.\n\nThey agree that",
+              "options": {
+                "A": "he looks a little strange.",
+                "B": "he is different from the other teachers.",
+                "C": "he speaks fast and nobody can understand him."
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            80
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "heading": "A Film Actor",
+          "context": "You will hear a film actor called Roger talking on the school radio about his typical day on a film set.",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Roger arrives at the film studio at ________ a.m.",
+              "type": "short-answer"
+            },
+            {
+              "number": 15,
+              "prompt": "A woman does his ________ after someone has brushed his hair.",
+              "type": "short-answer"
+            },
+            {
+              "number": 16,
+              "prompt": "Roger is playing a ________ in this new film.",
+              "type": "short-answer"
+            },
+            {
+              "number": 17,
+              "prompt": "Filming is delayed because the film ________ is often late.",
+              "type": "short-answer"
+            },
+            {
+              "number": 18,
+              "prompt": "When filming ends, Roger puts on his usual ________.",
+              "type": "short-answer"
+            },
+            {
+              "number": 19,
+              "prompt": "Roger has ________ after he gets home and sleeps early.",
+              "type": "short-answer"
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            80
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "context": "You will hear an interview with a 16-year-old girl called Jenny, who went on a school exchange to America for a month.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Why did Jenny get involved in the school exchange project?",
+              "options": {
+                "A": "to get the chance to travel to many different countries",
+                "B": "to see if she liked the American way of life",
+                "C": "to see what being away from her parents was like"
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "How did Jenny’s parents deal with her going to America for a month?",
+              "options": {
+                "A": "They were very worried.",
+                "B": "They tried to stop her from going.",
+                "C": "They supported her."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "Who did Jenny live with in America?",
+              "options": {
+                "A": "a family with lots of children",
+                "B": "a family with three children and two dogs",
+                "C": "a couple with no children and two dogs"
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "How was the home in America different from Jenny’s home in England?",
+              "options": {
+                "A": "bigger and more beautiful",
+                "B": "more beautiful and less noisy",
+                "C": "more noisy with a smaller garden"
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "What Jenny missed most was",
+              "options": {
+                "A": "her family.",
+                "B": "her friends.",
+                "C": "her dog."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "What did Jenny gain from the exchange project?",
+              "options": {
+                "A": "new friends",
+                "B": "confidence",
+                "C": "a job"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 5,
+      "id": "simply-pet-test-5",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            91,
+            92
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "How had the girl expected to travel?",
+              "options": {
+                "A": "By train.",
+                "B": "By plane.",
+                "C": "By car."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "Which skirt did the girl buy?",
+              "options": {
+                "A": "A plain straight skirt with a belt.",
+                "B": "A flared skirt with horizontal stripes.",
+                "C": "A short denim skirt with buttons down the front."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "What is the weather forecast for Saturday?",
+              "options": {
+                "A": "Stormy weather, with rain and lightning.",
+                "B": "Sunny weather.",
+                "C": "Cloudy weather."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "Which book has the boy already bought?",
+              "options": {
+                "A": "A book with a sailing ship on its cover.",
+                "B": "A book with wild animals on its cover.",
+                "C": "A book with mountains on its cover."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "Which lesson did the girl have first?",
+              "options": {
+                "A": "Maths.",
+                "B": "Art.",
+                "C": "Science, shown by laboratory glassware."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "Who is the girl phoning?",
+              "options": {
+                "A": "A dentist.",
+                "B": "A hairdresser.",
+                "C": "A pharmacist."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "What is the boy’s mother going to get?",
+              "options": {
+                "A": "A pizza.",
+                "B": "Bottled drinks.",
+                "C": "Ice creams."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            93
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about a new sports centre.\n\nWhat does the girl say about it?",
+              "options": {
+                "A": "Everybody gets a membership discount.",
+                "B": "It’s worth becoming a full member.",
+                "C": "Members pay extra for some classes."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two friends talking about shopping online.\n\nHow does the boy feel about it?",
+              "options": {
+                "A": "He finds it difficult to decide what to buy.",
+                "B": "He finds online shopping stressful.",
+                "C": "He finds online shopping satisfactory."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a girl telling a friend about a holiday she’s been on.\n\nWhat does the girl say about herself and her cousin?",
+              "options": {
+                "A": "They both liked outdoor activities.",
+                "B": "They enjoyed most of their time together.",
+                "C": "They had little in common."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear a boy asking a girl about an article he has written.\n\nThe girl tells the boy to",
+              "options": {
+                "A": "give more examples.",
+                "B": "change the subject.",
+                "C": "correct some mistakes."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a new television series.\n\nWhat does the boy think about it?",
+              "options": {
+                "A": "The acting is quite good.",
+                "B": "He finds it amusing.",
+                "C": "It should be in English."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear a girl talking about a new teacher.\n\nHow do the girl’s parents feel?",
+              "options": {
+                "A": "negative towards her new maths teacher",
+                "B": "worried about her changing class",
+                "C": "surprised by her progress in maths"
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            94
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "heading": "Radio Presenter",
+          "context": "You will hear a man called Jack Pindar talking to a group of students about his job as a radio presenter.",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "At university Jack studied ________.",
+              "type": "short-answer"
+            },
+            {
+              "number": 15,
+              "prompt": "Before the show Jack drinks ________.",
+              "type": "short-answer"
+            },
+            {
+              "number": 16,
+              "prompt": "Jack’s favourite part of the job is ________.",
+              "type": "short-answer"
+            },
+            {
+              "number": 17,
+              "prompt": "Jack was embarrassed when he couldn’t remember a ________.",
+              "type": "short-answer"
+            },
+            {
+              "number": 18,
+              "prompt": "If Jack wasn’t a radio presenter he would be a ________.",
+              "type": "short-answer"
+            },
+            {
+              "number": 19,
+              "prompt": "Jack will be doing a charity show at ________ at the weekend.",
+              "type": "short-answer"
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            94
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "context": "You will hear an interview with a 17-year-old boy called Daniel, who arranged some events to raise money to improve a local youth club.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Daniel decided to try to raise money because",
+              "options": {
+                "A": "there was a lot of crime in his neighbourhood.",
+                "B": "he and his friends were bored.",
+                "C": "it was part of a school project."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "How did Daniel let people know about the events?",
+              "options": {
+                "A": "He used social media.",
+                "B": "He put posters in public places.",
+                "C": "He phoned everyone."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "Daniel says that in the beginning he thought",
+              "options": {
+                "A": "he wouldn’t raise enough money.",
+                "B": "it would be easy to raise the money.",
+                "C": "it would take a long time to raise the money."
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "How did Daniel feel after the first event?",
+              "options": {
+                "A": "excited",
+                "B": "disappointed",
+                "C": "angry"
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "Daniel’s favourite event was",
+              "options": {
+                "A": "the Sunday sale.",
+                "B": "the cooking competition.",
+                "C": "the dog show."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "In the future, Daniel plans to",
+              "options": {
+                "A": "do more work for charity.",
+                "B": "open another youth club.",
+                "C": "become a better cook."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 6,
+      "id": "simply-pet-test-6",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            105,
+            106
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What will they eat?",
+              "options": {
+                "A": "Chicken and chips.",
+                "B": "Roast chicken with beans and carrots.",
+                "C": "Fish and chips."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "What will the girl wear to the party?",
+              "options": {
+                "A": "A button-front blouse and jeans.",
+                "B": "A long dress.",
+                "C": "A T-shirt and jeans."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "Where will the student’s tour of the city centre end?",
+              "options": {
+                "A": "A large building with columns and front steps.",
+                "B": "A zoo.",
+                "C": "A cafe."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "Where was the boy’s hat?",
+              "options": {
+                "A": "On the ground outside the school entrance.",
+                "B": "On a desk in a classroom.",
+                "C": "In a school bag."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "What will they do on Friday?",
+              "options": {
+                "A": "Swim underwater with goggles and flippers.",
+                "B": "Walk on the beach.",
+                "C": "Go cycling."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "What was wrong with the boy?",
+              "options": {
+                "A": "He had a headache.",
+                "B": "He had a cough.",
+                "C": "He had a fever and was in bed with a thermometer."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "What is on special offer today?",
+              "options": {
+                "A": "Clothes.",
+                "B": "Toys.",
+                "C": "Cupcakes."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            107
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about a neighbour’s dog.\n\nThe boy thinks the dog",
+              "options": {
+                "A": "needs more walks.",
+                "B": "is left alone for too long.",
+                "C": "is unfriendly."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two friends talking about a film.\n\nWhy did the girl leave the cinema early?",
+              "options": {
+                "A": "She had an appointment with her dad.",
+                "B": "She didn’t like the film.",
+                "C": "She felt unwell."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear two friends talking about the maths lesson.\n\nWhat do they agree on?",
+              "options": {
+                "A": "They don’t like the teacher.",
+                "B": "The work is getting harder.",
+                "C": "They won’t pass the exam."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a school trip they went on.\n\nWhat happened?",
+              "options": {
+                "A": "There was a change of plan.",
+                "B": "Their teacher got angry.",
+                "C": "The students were disappointed."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a football match.\n\nWho was the boy angry with?",
+              "options": {
+                "A": "the coach",
+                "B": "the players",
+                "C": "the fans"
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about a new leisure centre.\n\nWhat did the boy like most about it?",
+              "options": {
+                "A": "the design of the building",
+                "B": "the gym’s equipment",
+                "C": "the swimming pool"
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            108
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "heading": "School Geography Trip",
+          "context": "You will hear a teacher telling a group of students about a geography trip.",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Date of Geography trip: Wednesday ________",
+              "type": "short-answer"
+            },
+            {
+              "number": 15,
+              "prompt": "Each group will be given: a ________",
+              "type": "short-answer"
+            },
+            {
+              "number": 16,
+              "prompt": "Length of walk: ________",
+              "type": "short-answer"
+            },
+            {
+              "number": 17,
+              "prompt": "Person responsible for health issues: Mr ________",
+              "type": "short-answer"
+            },
+            {
+              "number": 18,
+              "prompt": "Type of shoes to wear: ________",
+              "type": "short-answer"
+            },
+            {
+              "number": 19,
+              "prompt": "Coach arrives at school at: ________ p.m.",
+              "type": "short-answer"
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            108
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "context": "You will hear an interview with a young teacher called Carol.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Who inspired Carol to become a teacher?",
+              "options": {
+                "A": "her parents",
+                "B": "her drama teacher",
+                "C": "her classmates"
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "What is the most important thing about being a teacher, according to Carol?",
+              "options": {
+                "A": "show how much they know about their subject",
+                "B": "be more intelligent than their students",
+                "C": "communicate well with their students"
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "What does Carol have her students do if they aren’t working well?",
+              "options": {
+                "A": "extra homework",
+                "B": "a written test",
+                "C": "physical exercise"
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "How does Carol feel about her career as a teacher?",
+              "options": {
+                "A": "proud",
+                "B": "anxious",
+                "C": "disappointed"
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "Carol’s parents",
+              "options": {
+                "A": "are disappointed with what she has achieved so far.",
+                "B": "are very satisfied with her career progress.",
+                "C": "feel sorry they didn’t let her become an actor."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "What does Carol want to do in the future?",
+              "options": {
+                "A": "be a headteacher",
+                "B": "continue to teach",
+                "C": "do some acting"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 7,
+      "id": "simply-pet-test-7",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            119,
+            120
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which job has the girl decided to do?",
+              "options": {
+                "A": "Working as a shop assistant behind a till.",
+                "B": "Teaching children in a classroom.",
+                "C": "Working as a nurse beside a patient in bed."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "What will the boy order?",
+              "options": {
+                "A": "A burger.",
+                "B": "A pizza.",
+                "C": "A bowl of salad."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "Which activity does the girl not do anymore?",
+              "options": {
+                "A": "Playing table tennis.",
+                "B": "Playing volleyball.",
+                "C": "Playing the guitar."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "What does the boy want to buy tomorrow?",
+              "options": {
+                "A": "A pair of gloves.",
+                "B": "A jacket.",
+                "C": "A scarf."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "Which is the boy’s sister?",
+              "options": {
+                "A": "A girl with long wavy hair, without glasses or a hat.",
+                "B": "A girl with short hair and glasses, without a hat.",
+                "C": "A girl with short hair, glasses and a hat."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "What sort of film will they see?",
+              "options": {
+                "A": "A romantic film, shown by a couple embracing in front of a heart.",
+                "B": "An action or superhero film, shown by a superhero with a shield.",
+                "C": "A detective film, shown by a detective with a magnifying glass."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "Where does the girl want to go on holiday?",
+              "options": {
+                "A": "A city with tall buildings.",
+                "B": "A beach with palm trees.",
+                "C": "The mountains."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            121
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about a new girl in their class.\nWhat is the boy’s opinion of her?",
+              "options": {
+                "A": "She’s the best student in the maths class.",
+                "B": "She’s not polite with other children.",
+                "C": "She’s pleasant to hang out with."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two friends talking about a group’s new song.\nThey agree that",
+              "options": {
+                "A": "their new song is as good as their old ones.",
+                "B": "they aren’t as creative anymore.",
+                "C": "they have copied another band’s song."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a girl telling a friend about something she bought online.\nWhat does the boy say about his experience?",
+              "options": {
+                "A": "He didn’t get his money back immediately.",
+                "B": "He kept being sent the wrong size.",
+                "C": "He was not able to return the item."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about their teacher.\nWhat do they disagree about?",
+              "options": {
+                "A": "whether their teacher is being reasonable or not",
+                "B": "which student got the highest mark",
+                "C": "whether the boy’s exam marks were good"
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a new film.\nWhat does the boy think?",
+              "options": {
+                "A": "The film was better than the book.",
+                "B": "The book was more detailed than the film.",
+                "C": "The film was not worth watching just for the scenery."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about blogs.\nHow does the boy feel about his blog now?",
+              "options": {
+                "A": "confused by online information about blogs",
+                "B": "confident that he has a nice blog",
+                "C": "disappointed by the comments he has received"
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            122
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "context": "You will hear a student giving a review of his visit to Chiswick House and Gardens to his class.",
+          "heading": "Chiswick House and Gardens Review",
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Chiswick Park is in: ________"
+            },
+            {
+              "number": 15,
+              "prompt": "Chiswick House contains: paintings and ________"
+            },
+            {
+              "number": 16,
+              "prompt": "Individual ticket for House tour costs: £ ________"
+            },
+            {
+              "number": 17,
+              "prompt": "Things to buy in flower shop: ________ and souvenirs"
+            },
+            {
+              "number": 18,
+              "prompt": "Group ticket cost for garden tour: £ ________"
+            },
+            {
+              "number": 19,
+              "prompt": "Starting date of Music Week: ________"
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            122
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "context": "You will hear an interview with a young athlete called Miguel.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "What are Parkour athletes expected to do?",
+              "options": {
+                "A": "use their body as well as equipment to move across an area.",
+                "B": "use equipment efficiently to get from one point to another.",
+                "C": "use only their body to move across a challenging area."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "What do most athletes find hard to do, according to Miguel?",
+              "options": {
+                "A": "use every part of their body",
+                "B": "control their fear",
+                "C": "use equipment to jump from great heights"
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "Miguel says that, in the UK, Parkour",
+              "options": {
+                "A": "has already been recognised as a sport.",
+                "B": "has already been part of school sports.",
+                "C": "is a well-paid sport to be involved in."
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "What does Miguel say about the video?",
+              "options": {
+                "A": "It was positive for the sport.",
+                "B": "It had a negative effect.",
+                "C": "It was prohibited."
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "What does Miguel say about the competition in Santorini?",
+              "options": {
+                "A": "People can only watch it online.",
+                "B": "It will be quite easy for him to do well in it.",
+                "C": "He could be offered a job because of it."
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "In the future Miguel wants to",
+              "options": {
+                "A": "study sports at university.",
+                "B": "deal with Parkour as a job.",
+                "C": "stop school to practise Parkour."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 8,
+      "id": "simply-pet-test-8",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "pdfPages": [
+            132,
+            133
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What will the children see last?",
+              "options": {
+                "A": "A framed painting of a city and river.",
+                "B": "A display of necklaces and other jewellery.",
+                "C": "A boy wearing a medal."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 2,
+              "prompt": "What is the boy’s mum going to order?",
+              "options": {
+                "A": "A loaf of bread.",
+                "B": "A selection of vegetables.",
+                "C": "Bottles of soft drink."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 3,
+              "prompt": "What is the weather forecast for tomorrow?",
+              "options": {
+                "A": "Cloudy weather.",
+                "B": "Rainy weather.",
+                "C": "Sunny weather."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 4,
+              "prompt": "What did the boy do on Sunday?",
+              "options": {
+                "A": "Played rugby.",
+                "B": "Played hockey.",
+                "C": "Played badminton."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 5,
+              "prompt": "Which activity hasn’t the boy done while on holiday?",
+              "options": {
+                "A": "Skiing.",
+                "B": "Ice skating.",
+                "C": "Horse riding."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 6,
+              "prompt": "What will the girl bring for the picnic?",
+              "options": {
+                "A": "Sausages.",
+                "B": "Burgers.",
+                "C": "A cake."
+              },
+              "visualOptions": true
+            },
+            {
+              "number": 7,
+              "prompt": "Where can you buy ice cream?",
+              "options": {
+                "A": "An entrance area where people are queuing beside a rope barrier.",
+                "B": "A coffee shop.",
+                "C": "A bar with people sitting on high stools."
+              },
+              "visualOptions": true
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "pdfPages": [
+            134
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about a new TV show.\nWhy does the girl say that she wouldn’t take part in it?",
+              "options": {
+                "A": "She doesn’t like failing.",
+                "B": "She feels shy when other people watch her.",
+                "C": "She doesn’t have enough talent as a singer."
+              }
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear a girl telling her friend about a new jumper she has bought.\nWhat’s the problem about her jumper?",
+              "options": {
+                "A": "She didn’t like it when she took it home.",
+                "B": "She can’t return it until next week.",
+                "C": "She found two holes in it when she got home."
+              }
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a girl telling a friend about a camping trip.\nWhat did she dislike most?",
+              "options": {
+                "A": "There were a lot of insects in the tent.",
+                "B": "The weather was bad.",
+                "C": "She couldn’t get enough sleep."
+              }
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a lesson.\nWhat do they agree about?",
+              "options": {
+                "A": "Maths is difficult to understand.",
+                "B": "The other teacher is better.",
+                "C": "Using a calculator is helpful."
+              }
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a film.\nWhat was the boy’s complaint about it?",
+              "options": {
+                "A": "There was not enough action.",
+                "B": "The subject upsets him.",
+                "C": "He’s tired of history movies."
+              }
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about TV programmes.\nWhat is the boy watching at the moment?",
+              "options": {
+                "A": "a romantic comedy",
+                "B": "adverts",
+                "C": "an action film"
+              }
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "pdfPages": [
+            135
+          ],
+          "instruction": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "context": "You will hear a teacher giving some information to students about a special destination for their school trip.",
+          "heading": "Amazing Holidays",
+          "contextLines": [
+            "Benefits of The Great Wall of China tour: not overcrowded",
+            "Benefits of The Great Wall of China tour: excellent (14) ________",
+            "Mount Everest: last trip is on (15) ________",
+            "Cookery holidays: China or Vietnam tour: go to (16) ________ for shopping",
+            "Cookery holidays: Panda Rescue Centre: class on making panda (17) ________",
+            "Cookery holidays: Mexico Food Adventure: visit the (18) ________ museum",
+            "For more information: (19) www.________.holiday.com"
+          ],
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Benefits of The Great Wall of China tour: not overcrowded; excellent ________"
+            },
+            {
+              "number": 15,
+              "prompt": "Mount Everest: last trip is on ________"
+            },
+            {
+              "number": 16,
+              "prompt": "Cookery holidays: China or Vietnam tour: go to ________ for shopping"
+            },
+            {
+              "number": 17,
+              "prompt": "Cookery holidays: Panda Rescue Centre: class on making panda ________"
+            },
+            {
+              "number": 18,
+              "prompt": "Cookery holidays: Mexico Food Adventure: visit the ________ museum"
+            },
+            {
+              "number": 19,
+              "prompt": "For more information: www.________.holiday.com"
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "pdfPages": [
+            135
+          ],
+          "instruction": "For each question, choose the correct answer.",
+          "context": "You will hear an interview with a 16-year-old girl called Sarah, who writes a blog for and about teenagers.",
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "How did Sarah learn how to start a blog?",
+              "options": {
+                "A": "She learned from the internet.",
+                "B": "She did a course at college.",
+                "C": "She asked someone she knew."
+              }
+            },
+            {
+              "number": 21,
+              "prompt": "Why did Sarah choose to focus on teenagers?",
+              "options": {
+                "A": "They are more interesting than older people.",
+                "B": "She doesn’t like older people.",
+                "C": "She understands how they feel better."
+              }
+            },
+            {
+              "number": 22,
+              "prompt": "How did Sarah feel when she first started to write her blog?",
+              "options": {
+                "A": "worried that she wouldn’t have time to do it",
+                "B": "anxious that no one would read it",
+                "C": "confident that it would be a big success"
+              }
+            },
+            {
+              "number": 23,
+              "prompt": "How much time does Sarah spend writing her blog?",
+              "options": {
+                "A": "about four hours every weekend",
+                "B": "four to five hours every evening",
+                "C": "four to five hours a day"
+              }
+            },
+            {
+              "number": 24,
+              "prompt": "What does Sarah say teenagers are most interested in now?",
+              "options": {
+                "A": "the environment",
+                "B": "sport",
+                "C": "education"
+              }
+            },
+            {
+              "number": 25,
+              "prompt": "What effect has Sarah’s blog had on her life?",
+              "options": {
+                "A": "She’s made lots of new friends.",
+                "B": "She’s gained useful knowledge in various subjects.",
+                "C": "She’s become an expert at using a computer."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

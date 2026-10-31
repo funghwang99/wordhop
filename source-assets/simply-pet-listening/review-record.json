@@ -1,0 +1,23 @@
+{
+  "questionCount": 200,
+  "typedGapCount": 48,
+  "typedGapReview": "All 48 gap answers checked against the printed sentence, recording, grammatical form and word limit.",
+  "resolved": [
+    {
+      "test": 2,
+      "question": 18,
+      "answer": "Tuesday afternoon",
+      "reason": "Both repeated plays say Tuesday afternoon, not Wednesday morning. Friday afternoon is the marking deadline."
+    },
+    {
+      "test": 7,
+      "question": 11,
+      "answer": "A",
+      "reason": "The friend initially sympathises but challenges nationality as the reason and defends the participation judgement. Both speakers agree the exam marks were good."
+    }
+  ],
+  "recordingReplacements": [
+    "Test 4 Part 2.m4a",
+    "Test 5 Part 3(1).mp3"
+  ]
+}
