@@ -34,3 +34,5 @@ for(const meta of catalog.units){
 }
 console.log(`PASS: all ${catalog.units.length} units include every word once in each game; all matching sets complete.`);
 console.log('PASS: old short-round settings migrate to All words; progress, scores and sound preferences survive. New explicit short-round choices persist.');
+
+require('./check-clear-results.cjs');
