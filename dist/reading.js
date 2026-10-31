@@ -21,6 +21,16 @@
     if (!part || typeof part !== 'object' || !part.answers || typeof part.answers !== 'object' || Array.isArray(part.answers)) test[partId] = {answers:{}, checked:false};
     return test[partId];
   }
+  function clearResults(unitId) {
+    const next = {...progress};
+    delete next[unitId];
+    try { localStorage.setItem(storageKey,JSON.stringify({version:1,tests:next})); }
+    catch { return false; }
+    clearTimeout(saveTimer); saveTimer = null;
+    progress = next;
+    if (active?.unit.id === unitId) active = null;
+    return true;
+  }
   function selections(value) { return (Array.isArray(value)?value:String(value??'').split(/[\s,;]+/)).map(normal).filter(Boolean); }
   function grade(question, value) {
     if (question.unscored) return null;
@@ -127,5 +137,5 @@
     if (action === 'retry') { progress[active.unit.id][active.part.id] = {answers:{},checked:false}; persist(); draw(active,active.data); document.querySelector('[data-reading-number]')?.focus({preventScroll:true}); }
   });
   window.addEventListener('beforeunload',persist);
-  window.WordHopReading = {render,validate,grade};
+  window.WordHopReading = {render,validate,grade,clearResults};
 })();
