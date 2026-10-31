@@ -2,9 +2,9 @@
 
 English vocabulary flashcards, games, reading and listening exercises for PET and IELTS courses.
 
-The current content includes Simply PET with eight Reading Tests and 250 words,
-and Basic IELTS Reading with Units 4–12 and 414 words. The total is 664 words
-across 17 units or tests.
+The current content includes Simply PET with eight tests and 250 words,
+Authentic 1 with four tests and 243 words, and Basic IELTS Reading with
+Units 4–12 and 414 words. The total is 907 words across 21 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
 choice or fill-in-the-blank games without a word bank. Rounds default to all
@@ -134,3 +134,18 @@ for older tabs, while the current catalog selects the clean replacements.
 Source records and import commands are under `source-assets/simply-pet-listening/`.
 Run `node qa/check-listening.cjs` to check all track mappings, checksums,
 200 keys, accepted forms, pages and evidence timestamps before publishing.
+
+## Authentic 1
+
+The PET course also includes Authentic 1 (Cambridge B1 Preliminary 1 With Answers):
+four tests, 243 supplied vocabulary entries, 128 Reading questions on 40 original
+pages, and 100 Listening questions on 24 original pages with 16 complete recordings.
+All answers were checked against the supplied publisher keys. English explanations
+and post-submission answer replays work in the same way as Simply PET.
+
+The complete recordings are encoded as 96 kbps mono MP3 for efficient delivery;
+decoded content length is preserved and all source and served recordings pass
+FFmpeg decoding. The vocabulary source contains no illustrations. Source records,
+documented definition corrections and reproducible import instructions are under
+`source-assets/authentic-1/`. `qa/check-listening.cjs` also runs the Authentic 1
+checks, covering every source entry, publisher key mapping and reviewed replay cue.
