@@ -50,7 +50,7 @@ assert.deepEqual(replaced.map(t=>[t.sourceFilename,t.bytes,t.codec_name]),[['Tes
 const gradingContext={window:{addEventListener(){}},document:{addEventListener(){}},localStorage:{getItem(){return null;}},setTimeout,clearTimeout};
 vm.createContext(gradingContext);
 for(const module of ['reading.js','listening.js'])vm.runInContext(fs.readFileSync(path.join(root,'dist',module),'utf8'),gradingContext);
-const {validate,grade}=gradingContext.window.WordHopListening;
+const {validate,grade,cueRange}=gradingContext.window.WordHopListening;
 const exercises=JSON.parse(fs.readFileSync(path.join(root,'source-assets/simply-pet-listening/exercise-manifest.json')));
 const questions=JSON.parse(fs.readFileSync(path.join(root,'source-assets/simply-pet-listening/questions.json')));
 const keys=JSON.parse(fs.readFileSync(path.join(root,'source-assets/simply-pet-listening/answer-key.json')));
@@ -71,6 +71,7 @@ for(const unit of catalog.units){
    questionCount++;if(!q.options)gapCount++;
    assert.equal(q.prompt,original.parts[i].questions[j].prompt);
    for(const field of ['answer','accepted','explanation','evidence','evidenceStart','evidenceEnd'])assert.deepEqual(q[field],key.parts[i].questions[j][field]);
+   const cue=cueRange(q,unit.listening[i].duration);assert.ok(cue&&cue.start>=0&&cue.end>cue.start&&cue.end<=unit.listening[i].duration);
    assert.ok(q.evidenceStart>=0&&q.evidenceEnd>q.evidenceStart&&q.evidenceEnd<=unit.listening[i].duration+1);
    for(const answer of q.accepted)assert.equal(grade(q,'  '+answer.toUpperCase().replace(/ /g,'  ')+'  '),true);
    assert.equal(grade(q,''),false);assert.equal(grade(q,'clearly incorrect answer'),false);
@@ -86,3 +87,5 @@ const deadline=keys.tests.find(t=>t.test===2).parts[2].questions.find(q=>q.numbe
 assert.equal(grade(deadline,'Tuesday afternoon'),true);assert.equal(grade(deadline,'Wednesday morning'),false);assert.equal(grade(deadline,'Friday afternoon'),false);
 console.log('PASS: 8 complete Listening tests / 32 parts / 200 questions / 32 original pages, including all picture choices and 48 typed gaps.');
 console.log('PASS: all keys, explanations, evidence timestamps, accepted forms, case/spacing, wrong/blank answers and both clean audio replacements checked.');
+
+require('./check-listening-replay.cjs');
