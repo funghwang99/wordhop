@@ -1,0 +1,83 @@
+{
+  "bookPdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
+  "publisherKeySha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+  "keyPdfPage": 6,
+  "keyPrintedPage": 173,
+  "questions": 37,
+  "scoredQuestions": 36,
+  "pages": [
+    {
+      "pdfPage": 108,
+      "printedPage": 108,
+      "image": "assets/reading/basic-ielts-page-108.c0e701920c9a.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 109,
+      "printedPage": 109,
+      "image": "assets/reading/basic-ielts-page-109.df3e495e02e0.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 110,
+      "printedPage": 110,
+      "image": "assets/reading/basic-ielts-page-110.296520268030.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 111,
+      "printedPage": 111,
+      "image": "assets/reading/basic-ielts-page-111.a811d5a14b14.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 112,
+      "printedPage": 112,
+      "image": "assets/reading/basic-ielts-page-112.8f40ee95b7f0.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 113,
+      "printedPage": 113,
+      "image": "assets/reading/basic-ielts-page-113.4ef421168b58.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 114,
+      "printedPage": 114,
+      "image": "assets/reading/basic-ielts-page-114.2eb1f926ea4d.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 115,
+      "printedPage": 115,
+      "image": "assets/reading/basic-ielts-page-115.db8d84442926.webp",
+      "width": 1350,
+      "height": 1951
+    }
+  ],
+  "sourceReview": [
+    {
+      "part": "part-2",
+      "question": 2,
+      "printedPage": 114,
+      "publisherKeyPrintedPage": 173,
+      "publisherAnswer": "C",
+      "status": "Resolved by retaining the publisher answer for reference and excluding the inaccurate source question from automatic scoring.",
+      "reason": "In context, negative means harmful or adverse. The printed choices are 'without helpful changes', 'without careful planning' and 'without active qualities'; none accurately defines that sense."
+    }
+  ],
+  "unscored": [
+    {
+      "part": "part-2",
+      "number": 2
+    }
+  ]
+}
