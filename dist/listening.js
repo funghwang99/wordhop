@@ -1,39 +1,112 @@
 'use strict';
 (() => {
+const storageKey='wordhop.listening.v1',cache=new Map();
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let player=null;
+const grade=(question,value)=>window.WordHopReading.grade(question,value);
+let player=null,active=null,progress={},saveTimer=null,saveWarning=false;
+try{const saved=JSON.parse(localStorage.getItem(storageKey)||'{}');if(saved?.version===1&&saved.tests&&typeof saved.tests==='object'&&!Array.isArray(saved.tests))progress=saved.tests;}catch{}
+function persist(){
+ clearTimeout(saveTimer);saveTimer=null;
+ try{localStorage.setItem(storageKey,JSON.stringify({version:1,tests:progress}));}
+ catch{if(!saveWarning){active?.toast?.('Your browser could not save your listening answers. You can still complete and check this part.');saveWarning=true;}}
+}
+function attempt(unitId,partId){
+ const test=progress[unitId]||={};
+ if(!test[partId]||typeof test[partId]!=='object'||!test[partId].answers||typeof test[partId].answers!=='object'||Array.isArray(test[partId].answers))test[partId]={answers:{},checked:false};
+ return test[partId];
+}
 function stop(){
- if(!player)return;
- player.pause();player.removeAttribute('src');player.load();player=null;
+ if(saveTimer)persist();active=null;
+ if(player){player.pause();player.removeAttribute('src');player.load();player=null;}
 }
 function time(seconds){const value=Math.floor(seconds);return Math.floor(value/60)+':'+String(value%60).padStart(2,'0');}
-function render({unit,header,partId,path}){
- stop();
- const tracks=unit.listening,index=Math.max(0,tracks.findIndex(part=>part.id===partId)),part=tracks[index];
- const testTitle=unit.title.replace(/^Reading /,'');
- const link=(track,label,css='btn')=>`<a class="${css}" href="${esc(path+'/listening/'+track.id)}" data-nav="${esc(path+'/listening/'+track.id)}">${esc(label)}</a>`;
+function current(context){return active===context&&context.isCurrent();}
+function validate(data,unitId){
+ if(data?.id!==unitId||!Array.isArray(data.parts)||data.parts.length!==4||!data.source?.title||!data.source.publisher)throw new Error('Listening data mismatch');
+ const numbers=[];
+ for(const [index,part]of data.parts.entries()){
+  if(part.id!=='part-'+(index+1)||!Array.isArray(part.questions)||part.questions.length!==[7,6,6,6][index]||!Array.isArray(part.pages)||!part.pages.length||typeof part.instructions!=='string')throw new Error('Invalid listening part');
+  for(const page of part.pages)if(!/^assets\/listening\/[\w.-]+\.webp$/.test(page.image)||!(page.width>0)||!(page.height>0))throw new Error('Invalid listening page');
+  for(const q of part.questions){
+   if(!Number.isInteger(q.number)||!q.prompt||typeof q.answer!=='string'||!q.answer.trim()||!q.explanation?.trim()||!q.evidence?.trim())throw new Error('Incomplete listening answer');
+   if(!Array.isArray(q.accepted)||!q.accepted.includes(q.answer)||q.accepted.some(a=>typeof a!=='string'||!a.trim()))throw new Error('Invalid accepted answers');
+   if(index===2?q.options!==undefined:(!Array.isArray(q.options)||q.options.join(',')!=='A,B,C'||!q.options.includes(q.answer)))throw new Error('Invalid listening options');
+   numbers.push(q.number);
+  }
+ }
+ if(numbers.join(',')!==Array.from({length:25},(_,i)=>i+1).join(','))throw new Error('Incomplete listening test');
+ return data;
+}
+function load(unit){
+ if(!cache.has(unit.listeningFile))cache.set(unit.listeningFile,fetch(unit.listeningFile).then(r=>{if(!r.ok)throw new Error('Listening unavailable');return r.json();}).then(data=>validate(data,unit.id)).catch(error=>{cache.delete(unit.listeningFile);throw error;}));
+ return cache.get(unit.listeningFile);
+}
+function updateCompletion(context){
+ if(!context.data)return;
+ document.querySelector('#listening-completion').textContent=context.data.parts.filter(p=>attempt(context.unit.id,p.id).checked).length+'/4 parts checked';
+ for(const p of context.data.parts){const indicator=document.querySelector(`[data-listening-status="${p.id}"]`);if(indicator)indicator.innerHTML=attempt(context.unit.id,p.id).checked?'<span class="visually-hidden">, checked</span><span aria-hidden="true"> ✓</span>':'';}
+}
+function inputMarkup(q,saved){
+ const id='listening-q-'+q.number,value=String(saved.answers[q.number]??''),disabled=saved.checked?'disabled':'';
+ const control=q.options
+  ?`<select id="${id}" name="q-${q.number}" data-listening-number="${q.number}" ${disabled}><option value="">Choose</option>${q.options.map(option=>`<option value="${option}" ${option.toLowerCase()===value.trim().toLowerCase()?'selected':''}>${option}</option>`).join('')}</select>`
+  :`<input id="${id}" name="q-${q.number}" data-listening-number="${q.number}" value="${esc(value)}" maxlength="80" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Your answer" ${disabled}>`;
+ return `<div class="reading-answer-row${saved.checked?(grade(q,value)?' reading-correct':' reading-incorrect'):''}"><label for="${id}">Question ${q.number}<span class="visually-hidden">: ${esc(q.prompt)}</span></label>${control}${saved.checked?`<span class="reading-answer-state">${grade(q,value)?'Correct':value.trim()?'Review':'Not answered'}</span>`:''}</div>`;
+}
+function drawAnswers(context){
+ if(!current(context)||!context.part)return;
+ const part=context.part,saved=attempt(context.unit.id,part.id),correct=part.questions.filter(q=>grade(q,saved.answers[q.number])).length;
+ document.querySelector('#listening-answers').innerHTML=`<form class="reading-answer-sheet" data-listening-form="true"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>${esc(part.instructions)}${part.id==='part-3'?' No word bank.':''}</p></div>${saved.checked?`<strong class="reading-score" tabindex="-1" role="status">${correct}/${part.questions.length} correct</strong>`:''}</div><div class="reading-answer-inputs">${part.questions.map(q=>inputMarkup(q,saved)).join('')}</div><div class="reading-submit-row">${saved.checked?'<button class="btn" type="button" data-listening-action="retry">Try this part again</button>':'<button class="btn btn-primary" type="submit">Check answers</button>'}<button class="text-button" type="button" data-listening-action="back-to-page">Back to book page ↑</button></div></form>
+ ${saved.checked?`<section class="reading-solutions" aria-labelledby="listening-solutions-title"><h3 id="listening-solutions-title">Answer key &amp; explanations</h3><p class="reading-solution-note">WordHop answer key and explanations based on the recording.</p>${part.questions.map(q=>{const value=String(saved.answers[q.number]??''),ok=grade(q,value);return `<article class="reading-solution ${ok?'reading-correct':'reading-incorrect'}"><div class="reading-solution-top"><h4>Question ${q.number} · ${esc(q.answer)}</h4><span>${ok?'Correct':'Review'}</span></div><p class="reading-your-answer">Your answer: <strong>${value.trim()?esc(value):'Not answered'}</strong>${q.accepted.length>1?` · Also accepted: ${q.accepted.filter(a=>a!==q.answer).map(esc).join(', ')}`:''}</p><p>${esc(q.explanation)}</p><blockquote><span>Evidence from the recording</span>${esc(q.evidence)}</blockquote></article>`;}).join('')}</section>`:'<p class="reading-key-note">Check your answers to see the key and an explanation for every question. Unanswered questions receive no mark.</p>'}`;
+ updateCompletion(context);
+}
+function drawBook(context,data){
+ if(!current(context))return;context.data=data;context.part=data.parts.find(p=>p.id===context.track.id);
+ const part=context.part,pages=part.pages;
+ document.querySelector('#listening-exercises').innerHTML=`<div class="reading-part-heading listening-book-heading"><div><h3>Book questions</h3><p>Questions ${part.questions[0].number}–${part.questions.at(-1).number} · Book ${pages.length===1?'page':'pages'} ${pages.map(p=>p.printedPage).join('–')}</p></div><div class="reading-page-actions"><button class="btn" type="button" data-listening-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="${esc(pages[0].image)}" target="_blank" rel="noopener">Open full-size page ↗</a></div></div>
+ ${['part-3','part-4'].includes(part.id)?`<p class="reading-key-note">Parts 3 and 4 share this book page. Part ${part.id==='part-3'?'3 is in the upper':'4 is in the lower'} half.</p>`:''}
+ <div class="reading-page" tabindex="0" aria-label="Original listening instructions, questions and pictures">${pages.map((page,index)=>`<img src="${esc(page.image)}" width="${page.width}" height="${page.height}" alt="${esc(context.testTitle)}, Listening ${esc(part.title)}, book page ${page.printedPage}. Original instructions, questions and answer choices." decoding="async" ${index?'loading="lazy"':''}>`).join('')}</div><div id="listening-answers"></div><p class="reading-source-note">Original questions: ${esc(data.source.title)}. ${esc(data.source.publisher)}.</p>`;
+ drawAnswers(context);
+}
+function loadExercises(context){
+ document.querySelector('#listening-exercises').innerHTML='<p class="notice" role="status">Loading book questions…</p>';
+ load(context.unit).then(data=>drawBook(context,data)).catch(()=>{if(current(context))document.querySelector('#listening-exercises').innerHTML='<div class="notice" role="alert">The book questions could not be loaded. Check your connection and try again.</div><button class="btn" type="button" data-listening-action="reload">Try again</button>';});
+}
+function render(context){
+ stop();active=context;
+ const {unit,header,partId,path}=context,tracks=unit.listening,index=Math.max(0,tracks.findIndex(part=>part.id===partId)),part=tracks[index];
+ context.track=part;context.testTitle=unit.title.replace(/^Reading /,'');
+ const link=(track,label)=>`<a class="btn" href="${esc(path+'/listening/'+track.id)}" data-nav="${esc(path+'/listening/'+track.id)}">${esc(label)}</a>`;
  document.querySelector('#main').innerHTML=header+`<section class="listening-view" aria-labelledby="listening-title">
- <div class="listening-intro"><div><h2 id="listening-title">Listening</h2><p>Choose a part, then press Play. Pause, replay or change the speed as you practise.</p></div><span class="listening-count">${tracks.length} audio parts</span></div>
- <nav class="listening-parts" aria-label="Listening parts">${tracks.map((track,i)=>`<a class="listening-part ${i===index?'active':''}" href="${esc(path+'/listening/'+track.id)}" data-nav="${esc(path+'/listening/'+track.id)}" ${i===index?'aria-current="page"':''}><strong>${esc(track.title)}</strong><span>${time(track.duration)}</span></a>`).join('')}</nav>
- <div class="listening-player-card"><div class="listening-player-heading"><div><p class="section-label">${esc(testTitle)} · Listening</p><h3>${esc(part.title)}</h3></div><span class="listening-duration">${time(part.duration)}</span></div>
- <audio id="listening-audio" controls preload="none" src="${esc(part.src)}" aria-label="${esc(testTitle+' '+part.title+' listening audio')}">Your browser does not support audio playback.</audio>
+ <div class="listening-intro"><div><h2 id="listening-title">Listening</h2><p>Listen, answer the book questions, then check the key and explanations. Your answers are saved on this device.</p></div><span class="listening-count" id="listening-completion">${tracks.length} audio parts</span></div>
+ <nav class="listening-parts" aria-label="Listening parts">${tracks.map((track,i)=>`<a class="listening-part ${i===index?'active':''}" href="${esc(path+'/listening/'+track.id)}" data-nav="${esc(path+'/listening/'+track.id)}" ${i===index?'aria-current="page"':''}><strong>${esc(track.title)}<span data-listening-status="${track.id}"></span></strong><span>${time(track.duration)}</span></a>`).join('')}</nav>
+ <div class="listening-player-card"><div class="listening-player-heading"><div><p class="section-label">${esc(context.testTitle)} · Listening</p><h3>${esc(part.title)}</h3></div><span class="listening-duration">${time(part.duration)}</span></div>
+ <audio id="listening-audio" controls preload="none" src="${esc(part.src)}" aria-label="${esc(context.testTitle+' '+part.title+' listening audio')}">Your browser does not support audio playback.</audio>
  <div class="listening-tools"><label for="listening-speed">Playback speed <select id="listening-speed" aria-label="Playback speed"><option value="0.75">0.75×</option><option value="1" selected>1× · Normal</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><a class="text-button" href="${esc(part.src)}" target="_blank" rel="noopener">Open audio file ↗</a></div>
  <div id="listening-error" class="notice" role="alert" hidden><span id="listening-error-message"></span> <button class="text-button" id="listening-retry" type="button">Reload audio</button></div>
- </div><div class="listening-navigation">${index?link(tracks[index-1],'← Previous part'):'<span></span>'}${index<tracks.length-1?link(tracks[index+1],'Next part →'):'<span></span>'}</div></section>`;
- player=document.querySelector('#listening-audio');
- const audio=player,error=document.querySelector('#listening-error');
- audio.addEventListener('error',()=>{
-  if(player!==audio)return;
-  document.querySelector('#listening-error-message').textContent=audio.error&&[3,4].includes(audio.error.code)
-   ?'Your browser could not play this audio. Try reloading it and playing from the beginning, or open the audio file.'
-   :'Audio could not be loaded. Check your connection, then try again.';
-  error.hidden=false;
- });
+ </div><div id="listening-exercises"></div><div class="listening-navigation">${index?link(tracks[index-1],'← Previous part'):'<span></span>'}${index<tracks.length-1?link(tracks[index+1],'Next part →'):'<span></span>'}</div></section>`;
+ player=document.querySelector('#listening-audio');const audio=player,error=document.querySelector('#listening-error');
+ audio.addEventListener('error',()=>{if(player!==audio)return;document.querySelector('#listening-error-message').textContent=audio.error&&[3,4].includes(audio.error.code)?'Your browser could not play this audio. Try reloading it and playing from the beginning, or open the audio file.':'Audio could not be loaded. Check your connection, then try again.';error.hidden=false;});
  audio.addEventListener('canplay',()=>{if(player===audio)error.hidden=true;});
  document.querySelector('#listening-speed').addEventListener('change',event=>{audio.playbackRate=Number(event.target.value);});
  document.querySelector('#listening-retry').addEventListener('click',()=>{error.hidden=true;audio.load();});
+ if(unit.listeningFile)loadExercises(context);
 }
-window.WordHopListening={render,stop};
-window.addEventListener('pagehide',()=>player?.pause());
+function remember(event){const control=event.target.closest('[data-listening-number]');if(!control||!active?.part||!current(active))return;const saved=attempt(active.unit.id,active.part.id);if(saved.checked)return;saved.answers[Number(control.dataset.listeningNumber)]=control.value;clearTimeout(saveTimer);saveTimer=setTimeout(persist,250);}
+document.addEventListener('input',remember);document.addEventListener('change',remember);
+document.addEventListener('submit',event=>{
+ if(!event.target.matches('[data-listening-form]')||!active?.part||!current(active))return;event.preventDefault();const context=active,saved=attempt(context.unit.id,context.part.id);if(saved.checked)return;
+ for(const control of event.target.querySelectorAll('[data-listening-number]'))saved.answers[Number(control.dataset.listeningNumber)]=control.value;
+ saved.checked=true;persist();context.onGrade?.(context.part.questions.every(q=>grade(q,saved.answers[q.number])));drawAnswers(context);
+ document.querySelector('#listening-answers .reading-score')?.focus({preventScroll:true});document.querySelector('#listening-answers')?.scrollIntoView({behavior:'smooth',block:'start'});
+});
+document.addEventListener('click',event=>{
+ const button=event.target.closest('[data-listening-action]');if(!button||!active||!current(active))return;const action=button.dataset.listeningAction;
+ if(action==='reload'){loadExercises(active);return;}
+ if(action==='zoom'){const page=document.querySelector('#listening-exercises .reading-page'),zoomed=page.classList.toggle('is-zoomed');button.setAttribute('aria-pressed',String(zoomed));button.textContent=zoomed?'Fit page':'Zoom page';return;}
+ if(action==='back-to-page'){document.querySelector('#listening-exercises .reading-page').scrollIntoView({behavior:'smooth',block:'start'});return;}
+ if(action==='retry'&&active.part){progress[active.unit.id][active.part.id]={answers:{},checked:false};persist();drawAnswers(active);document.querySelector('[data-listening-number]')?.focus({preventScroll:true});}
+});
+window.addEventListener('pagehide',()=>{if(saveTimer)persist();player?.pause();});
+window.WordHopListening={render,stop,validate,grade};
 })();
-

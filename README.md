@@ -1,6 +1,6 @@
 # WordHop
 
-English vocabulary flashcards, games, reading exercises and listening audio for PET and IELTS courses.
+English vocabulary flashcards, games, reading and listening exercises for PET and IELTS courses.
 
 The current content includes Simply PET with eight Reading Tests and 250 words,
 and Basic IELTS Reading with Units 4–12 and 414 words. The total is 664 words
@@ -36,6 +36,7 @@ python3 -B scripts/build_github_pages.py
 python3 -B qa/check_github_pages.py
 node qa/check-all-words.cjs
 node qa/check-readings.cjs
+node qa/check-listening.cjs
 ```
 
 Serve `_site/` with a static server to preview the built app. Edit source files
@@ -48,7 +49,7 @@ The import scripts and source provenance are included under `scripts/` and
 `source-assets/`. To import slides or the supplied Simply PET tables, use the
 commands in each source folder's README. Content import requires Python, lxml
 and Pillow. Original vocabulary and reading source documents are not part of this repository;
-the supplied listening MP3s are served with the website.
+the supplied listening recordings are served with the website.
 
 Importers update the catalog and hashed unit JSON in `dist/`. The Pages build
 then prepares the correct relative URLs automatically. Stable word IDs preserve
@@ -107,20 +108,27 @@ The Unit 12 source and importer are documented in `source-assets/unit-12/`.
 
 ## Simply PET listening
 
-Tests 1–8 each include four supplied audio parts, thirty-two MP3 recordings in total.
-Open a test, select Listening and choose a Part. The player supports seeking,
-pause/replay and 0.75×, 1×, 1.25× or 1.5× speed. Audio starts only when the
-student presses Play; selecting another part or leaving the view stops it.
-Only the selected track is mounted, with no audio preloading or autoplay.
-The original stereo MP3 bytes are preserved. All eight tests have listening audio.
+Tests 1–8 each include all four Listening parts: 200 original questions,
+32 recordings and 32 original book pages, including picture choices.
+Open a test, select Listening and choose a Part. Use the A/B/C selectors or
+enter short answers without a word bank, then select Check answers to see
+the score, key, English explanation and recording evidence for every question.
+Try this part again clears only that part. Answers and checked parts persist
+in the same browser under `wordhop.listening.v1`, separately from Reading
+and vocabulary. Keys and explanations were prepared for WordHop from the
+supplied recordings; the student-book PDF does not provide a publisher key.
 
-Source checksums, durations and the import command are recorded under
-`source-assets/simply-pet-listening/`. Run `node qa/check-listening.cjs` to check
-the track mapping and original file integrity. This also runs before publishing.
+The player supports seeking, replay and 0.75×, 1×, 1.25× or 1.5× speed.
+Checking answers and retrying preserve audio position. Switching part or
+leaving Listening stops and releases the player. Only the selected track is
+mounted, with no preloading or autoplay. Book pages and question data load
+on demand; pages can be zoomed or opened at full size.
 
-The decoder check passed without diagnostics for thirty recordings. Test 4
-Part 2 and Test 5 Part 3 have decoder diagnostics recorded for investigation.
-Both started playing in Chrome, while midpoint seeking caused a player error
-in the tested browser. The player offers recovery help only after an actual
-media error; diagnostics alone do not request replacement recordings.
+The user supplied clean replacements for Test 4 Part 2 (AAC/M4A) and Test 5
+Part 3 (MP3). Their original bytes and formats are preserved. All 32 selected
+recordings pass full FFmpeg decoding. Earlier hashed audio files are retained
+for older tabs, while the current catalog selects the clean replacements.
 
+Source records and import commands are under `source-assets/simply-pet-listening/`.
+Run `node qa/check-listening.cjs` to check all track mappings, checksums,
+200 keys, accepted forms, pages and evidence timestamps before publishing.

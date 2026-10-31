@@ -61,7 +61,7 @@ function resetStudy(words){study={unitId:route.unit.id,words:words||route.unit.w
 function renderUnit(){
  if(screen==='listening'){
   if(!route.unit.listening?.length)setUnitView('flash',true);
-  else{window.WordHopListening.render({unit:route.unit,header:unitHeader(),partId:route.listeningPart,path:unitPath(route.unit)});return;}
+  else{const unit=route.unit,partId=route.listeningPart;window.WordHopListening.render({unit,header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>screen==='listening'&&route?.unit?.id===unit.id&&route.listeningPart===partId,toast,onGrade:correct=>playFeedbackSound(correct)});return;}
  }
  if(!Array.isArray(route.unit.words)){
   const unit=route.unit;
