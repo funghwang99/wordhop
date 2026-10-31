@@ -1,0 +1,949 @@
+{
+  "tests": [
+    {
+      "test": 3,
+      "id": "authentic-1-test-3",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            58,
+            59
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Why was the man late?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The bus was delayed at traffic lights in the town centre. His car had broken down earlier, but the delay on this journey was caused by traffic, not the rain.",
+              "evidence": "We were moving along quite fast until we got to the traffic lights in the town centre. I don't think they were working properly, and there were long delays before we got moving again.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Why is the main road closed today?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The road is closed because a movie is being filmed. The bike race happened previously, and the street party is next weekend.",
+              "evidence": "They're filming a movie, and people can come and watch.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Where do they decide to have the wedding anniversary party?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "They choose a river cruise with a meal on board. The restaurant is too far away, and they had a garden party last year.",
+              "evidence": "We could always take them on a river cruise, and eat on board. That's not a bad idea",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What does the man decide to order?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "After hearing the woman's recommendation, he decides to try the pizza. Chicken was his previous order, and pasta was only his first idea today.",
+              "evidence": "I had the pizza last time I came here – it was delicious. I can really recommend it. Oh! If it's as good as you say, I'll try it.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Which armchair is the man going to buy?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He accepts the woman's suggestion of the plain armchair, which is the right size. The chair with a cushion is too large.",
+              "evidence": "If I were you, I'd get this plain one. It's a nice size: not too big, not too small. That's true. I like the look of the one over there, with the cushion, but it's too large for the space I have available. So have you decided? Yes, I'll go for the one you suggested.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Which concert has the woman arranged to attend?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "She already has tickets for Billy Ryan, the folk singer who plays guitar. The rock concert is the man's plan, and she does not choose the suggested jazz concert.",
+              "evidence": "You know Billy Ryan the folk singer and guitar player? Well, I've got tickets for that.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Which tomatoes will the man use?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He agrees to leave the small fresh tomatoes whole, following the woman's advice. He does not slice them or use a tin.",
+              "evidence": "Why don't you leave the tomatoes whole? The recipe says to cut them into slices. I suppose these ones are small enough to use as they are though.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            60,
+            61
+          ],
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear two friends talking about doing exercise. Why is the man finding it difficult to do exercise?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "His main difficulty is finding time because he works all day and often late. Sports facilities are available, and price is not the main obstacle he gives.",
+              "evidence": "I know, but it's when to go. I'm at work all day, often till late.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two people talking in a restaurant. They agree that",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The woman praises her salmon and the man praises his tuna, so both enjoyed their fish dishes. They do not agree about the soup or dessert.",
+              "evidence": "But the salmon was wonderful. It took a while to come, but my tuna was gorgeous.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a woman telling her friend about her neighbours. What problem does she have with her neighbours?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "She is bothered by the empty boxes left outside. She says the neighbours greet her and that their noise does not prevent her from sleeping.",
+              "evidence": "But what bothers me is the mess they've left outside – loads of empty boxes from when they moved in.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a new museum. What does the woman say about it?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "She wants to look around the museum again. She says it closes too early, so its opening hours do not suit her.",
+              "evidence": "I wouldn't mind having another look around. I'll have to wait until next weekend as that's when I'm not working.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear a man talking to a colleague about a hotel he stayed in. He complains that",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The hotel was advertised as being within walking distance of the city centre, but it was not. He heard little traffic noise and had enough room for himself.",
+              "evidence": "it wasn't walking distance from the city centre, which is how it was advertised",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two passengers talking on an aeroplane. How does the woman feel about flying?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Flying is a convenient option for the long journeys required by her new job. She finds the seat uncomfortable, so she does not describe flying as relaxing.",
+              "evidence": "the long distances I need to travel for it just make flying a better option than the train",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "instructions": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "pdfPages": [
+            62
+          ],
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "Bus leaves at: ______ a.m.",
+              "answer": "8.15",
+              "publisherAnswer": "8.15 / quarter past 8 / quarter past eight",
+              "accepted": [
+                "8.15",
+                "8:15",
+                "quarter past 8",
+                "quarter past eight"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The bus leaves at quarter past eight, which is 8.15 a.m. Eight o'clock is the meeting time, and 8.30 was the usual departure time.",
+              "evidence": "We're meeting at eight o'clock in the morning as the bus will go at exactly quarter past eight."
+            },
+            {
+              "number": 15,
+              "prompt": "Meet before trip at: hotel ______",
+              "answer": "entrance",
+              "publisherAnswer": "entrance",
+              "accepted": [
+                "entrance"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Passengers must meet at the hotel entrance to get on the bus. The guide specifically says not to meet at the reception desk.",
+              "evidence": "please meet at the entrance to the hotel rather than at the reception desk"
+            },
+            {
+              "number": 16,
+              "prompt": "First stop: ruin of a ______",
+              "answer": "palace",
+              "publisherAnswer": "palace",
+              "accepted": [
+                "palace"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "The first stop is a ruin that used to be a palace. The ancient theatre was part of a different tour the previous day.",
+              "evidence": "Our first stop will be at a magnificent ruin just outside Gulum. It used to be a palace."
+            },
+            {
+              "number": 17,
+              "prompt": "Lunch at: The ______ Restaurant",
+              "answer": "Wakizi",
+              "publisherAnswer": "Wakizi",
+              "accepted": [
+                "Wakizi"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Lunch is at the Wakizi Restaurant on the Gulum River. The guide spells its name W-A-K-I-Z-I.",
+              "evidence": "Afterwards we'll drive on to the Wakizi Restaurant on the Gulum River for lunch. That's spelt W-A-K-I-Z-I"
+            },
+            {
+              "number": 18,
+              "prompt": "Afternoon activity: ______ or beach volleyball",
+              "answer": "diving",
+              "publisherAnswer": "diving",
+              "accepted": [
+                "diving"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Diving is one of the afternoon activities at the beach. Sailing is unavailable because there is not enough wind.",
+              "evidence": "One option is to go diving. The variety of fish species on this part of the coast is quite amazing."
+            },
+            {
+              "number": 19,
+              "prompt": "Bring: ______",
+              "answer": "suncream",
+              "publisherAnswer": "sun(-)cream",
+              "accepted": [
+                "suncream",
+                "sun-cream",
+                "sun cream"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "Passengers need to bring suncream because temperatures will be high, even if it is cloudy. Towels and beach chairs will be provided.",
+              "evidence": "We'll provide towels and beach chairs, but please don't forget the sun-cream as the temperatures are very high"
+            }
+          ],
+          "context": "You will hear a tour guide talking about arrangements for a day trip to a place called Gulum.",
+          "heading": "Day trip to Gulum"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            63
+          ],
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "How did James become interested in trees?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "A friend of his mother who cared for trees offered him a summer job. This work sparked his interest, rather than climbing trees as a child.",
+              "evidence": "Mom had a friend who was an arborist – someone who takes care of trees – and he offered me a job one summer.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 21,
+              "prompt": "What surprised James when he first learnt to climb trees?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He expected only young, fit people, but the class also included children, middle-aged people and older people. The variety of learners surprised him.",
+              "evidence": "I was expecting everyone in the class to be young and fit, because I thought you needed to be strong to climb trees. In fact there were middle-aged climbers, children – even old people!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "What does James enjoy most about his teaching work?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He particularly enjoys teaching people such as scientists who need to climb trees for their jobs. Being outside is enjoyable too, but it is not his main answer.",
+              "evidence": "Particularly teaching those whose jobs involve having to go up trees, like scientists, for example.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "James travels around the USA a lot because",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "There is little demand for tree climbing in his home area during winter, so he works in other places. Visiting many states is a result of this, not the reason he gives.",
+              "evidence": "no-one wants to climb trees there in the winter. So I move around.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "What does James like about sleeping in trees?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He enjoys the views of the night sky. He mentions getting used to the discomfort and being woken by birds, rather than praising these experiences.",
+              "evidence": "It's such a great place to get views of the night sky.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "When James climbs in the rainforests, he moves more slowly because",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 129,
+              "explanation": "He moves slowly to avoid damaging the rainforest environment. Fast movement can also attract insects, but he does not slow down to study them.",
+              "evidence": "It's an important environment, so you need to be careful not to damage it.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ],
+          "context": "You will hear an interview with a man called James Sweeney who works as a tree-climbing instructor."
+        }
+      ]
+    },
+    {
+      "test": 4,
+      "id": "authentic-1-test-4",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            76,
+            77
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "How will the man travel to the city centre?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He accepts the suggestion of taking the underground, which is nearby and faster than a taxi. The bus takes a long route.",
+              "evidence": "What about the underground? It's a short walk from here and the trains go every 10 minutes. It'd be faster than a taxi. That sounds perfect. I'll do that.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What did the girl dislike at the hostel she stayed in?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She disliked being bitten by mosquitoes because the beds had no mosquito nets. She says the monkeys did not bother her, and there was no mouse problem during her stay.",
+              "evidence": "our beds didn't have mosquito nets, so we got bitten almost every night",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "What is the man going to order for lunch?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He decides to have salmon, his usual choice. He rejects the spicy curry, and the pizza is what the woman is having.",
+              "evidence": "Mmm. Nice idea, but I've heard it's very spicy. I've made up my mind. I'll have what I always have!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What sport would the woman like to try?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She wants to try badminton. Golf costs too much, and she thinks tennis requires a lot of strength.",
+              "evidence": "I'm not that good at racket sports but I wouldn't mind giving badminton a go.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Which book is the man reading?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "His current novel is about a man crossing the Pacific Ocean alone. Flying features in the author's other books, and the astronaut story is a future book.",
+              "evidence": "This one's set at sea – a guy who crosses the Pacific Ocean on his own",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Where does the man suggest going at the weekend?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He suggests the new art exhibition at the museum. The beach may be affected by a storm, and the cinema has nothing he wants to see.",
+              "evidence": "There's a new art exhibition on at the museum – definitely worth seeing, or so I've heard.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "How much is the latest smartphone in the store today?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The latest model currently costs £599. Its usual price is £699, while £499 is the price of last year's model.",
+              "evidence": "For an amazing £599, the most up-to-date smartphone is now available.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            78,
+            79
+          ],
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "You will hear a brother and sister talking about a gift for their cousin. Why do they decide to buy the gift online?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The microwave is heavy, so carrying it home on a bus would be difficult. The woman also mentions online offers, but the listed reason they discuss is its weight.",
+              "evidence": "And besides, it weighs so much, can you imagine trying to take it on the bus?",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "You will hear two colleagues discussing their holiday travel plans. The man thinks that the woman should",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "He suggests flying to avoid spending so much time travelling. He does not suggest changing the destination or staying away longer.",
+              "evidence": "Wouldn't it be better if you flew? You wouldn't waste so much time getting to where you're going.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "You will hear a man talking to a friend about a fitness training session. The man cannot attend today’s session because",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "His doctor has told him to take things easy before his foot operation. His cold has already ended, and the operation has not happened yet.",
+              "evidence": "But my doctor told me to take things easy anyway",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 11,
+              "prompt": "You will hear two friends talking about a play they’ve just seen. What does the woman say about the play?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She expected much better performances, so the acting disappointed her. She liked the costumes and thought the second half was less interesting.",
+              "evidence": "actually I expected the performances to be a lot better",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "You will hear two friends talking about a film and its soundtrack. What does the woman say about the soundtrack?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "Although the film is for children, its music appeals to a much wider range of people. She says it makes people want to move and is as good as the film.",
+              "evidence": "The music's definitely popular with a much wider range of people.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "You will hear two friends talking about the news. They agree that",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The woman checks the news every morning before anything else, and the man says he does the same. They prefer different ways of reading it and disagree about celebrity news.",
+              "evidence": "I make sure I do it every morning before anything else. So do I. I need to for my job.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Part 3",
+          "instructions": "For each question, write the correct answer in the gap. Write one or two words or a number or a date or a time.",
+          "pdfPages": [
+            80
+          ],
+          "questions": [
+            {
+              "number": 14,
+              "prompt": "The walk will take ______ hours.",
+              "answer": "5",
+              "publisherAnswer": "five / 5",
+              "accepted": [
+                "5",
+                "five"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "They will use the longer of the two routes: the five-hour route, which has fewer hills. Four hours is the other route's duration.",
+              "evidence": "one of which takes four hours, and the other five. We'll be taking the longer one"
+            },
+            {
+              "number": 15,
+              "prompt": "Walkers should be careful of ______ along the route.",
+              "answer": "bikes",
+              "publisherAnswer": "bikes / bicycles",
+              "accepted": [
+                "bikes",
+                "bicycles"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The guide tells walkers to look out for bikes. Cars will not be a problem because the route avoids public roads.",
+              "evidence": "Please look out for bikes, though. Cars aren't a problem, as our route avoids public roads."
+            },
+            {
+              "number": 16,
+              "prompt": "Walkers will have lunch near the ______.",
+              "answer": "lake",
+              "publisherAnswer": "lake",
+              "accepted": [
+                "lake"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "The guide has chosen a place by the lake for lunch because the café is closed. The waterfall is for a shorter photo stop.",
+              "evidence": "I've picked a great place to eat by the lake"
+            },
+            {
+              "number": 17,
+              "prompt": "Walkers are likely to see wildlife including ______.",
+              "answer": "butterflies",
+              "publisherAnswer": "butterflies",
+              "accepted": [
+                "butterflies"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "There are many butterflies at this time of year. Frogs live in the forest but remain hidden during the day.",
+              "evidence": "You'll be pleased to know that there are lots of butterflies at this time of year."
+            },
+            {
+              "number": 18,
+              "prompt": "At the end of the walk, people can visit a ______.",
+              "answer": "castle",
+              "publisherAnswer": "castle",
+              "accepted": [
+                "castle"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "There is a small castle to visit at the end of the walk. There is no souvenir shop there.",
+              "evidence": "There is a castle, though. It's not very big, but it is interesting"
+            },
+            {
+              "number": 19,
+              "prompt": "It’s possible to take a ______ back to the place where the walk started.",
+              "answer": "bus",
+              "publisherAnswer": "bus (service)",
+              "accepted": [
+                "bus",
+                "bus service"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "A bus service is the only available return option. The trains no longer run there, and taxis will not come that far out of town.",
+              "evidence": "There's a bus service, although you may have to wait a while."
+            }
+          ],
+          "context": "You will hear a guide giving some information about a walk in the countryside.",
+          "heading": "Countryside walk"
+        },
+        {
+          "id": "part-4",
+          "title": "Part 4",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            81
+          ],
+          "questions": [
+            {
+              "number": 20,
+              "prompt": "Laura first became interested in poetry",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She became interested by spending time reading the poetry books at home. Her father owned the books, but she does not say he taught her poetry.",
+              "evidence": "there were always lots of poetry books on the shelves around the house. I used to spend hours looking at them.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 21,
+              "prompt": "What made Laura decide to become a professional poet?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "Winning a poetry competition made her decide to write poetry full-time. She had been studying journalism, not taking a poetry course.",
+              "evidence": "two months later found out I'd come first. That's when I knew I wanted to do this full-time.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "What is Laura’s new book about?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "Her new collection focuses on connections with people close to her. Buildings were a topic in earlier books, while the environment was only her original plan for this one.",
+              "evidence": "In this one, though, I focus on connections with the people I'm close to.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "What does Laura say about reading poetry written a long time ago?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She admires the care and skill used to construct older poems. Different vocabulary and style do not stop her appreciating them.",
+              "evidence": "you soon notice how carefully the poems have been put together. I think they took more skill to write than many modern ones do.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "How does Laura feel about her new job teaching at a university?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She is grateful that experienced colleagues share ideas with her. She is not fully sure how much her students learn, and she expected the preparation workload.",
+              "evidence": "Thankfully the other teachers have a lot more experience than me and are happy to share their ideas.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "In the future, Laura would like to",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 142,
+              "explanation": "She hopes to turn some of her earlier poems into songs. She will read at a festival rather than organise one, and she continues to have ideas for poems.",
+              "evidence": "I'm hoping to turn some of my previous work into songs",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ],
+          "context": "You will hear an interview with a young poet called Laura Dickson."
+        }
+      ]
+    }
+  ],
+  "needsReview": [],
+  "sourceNotes": [
+    {
+      "test": 4,
+      "number": 10,
+      "pdfPage": 145,
+      "note": "The publisher transcript contains a stray repeated line about ordering online after the Q10 conversation; it belongs to Q8. It is omitted from evidence and explanation. The official Q10 key and correct rest advice are clear."
+    }
+  ],
+  "verification": {
+    "publisherKeyPdfPages": [
+      129,
+      142
+    ],
+    "publisherKeysVisuallyChecked": true,
+    "questionPdfPages": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "transcriptPdfPages": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "audioTimings": "Pending ASR alignment supplied by root; no positions invented."
+  }
+}

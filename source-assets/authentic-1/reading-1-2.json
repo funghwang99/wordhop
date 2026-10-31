@@ -1,0 +1,1295 @@
+{
+  "tests": [
+    {
+      "test": 1,
+      "id": "authentic-1-test-1",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Short messages and notices",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            10,
+            11
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What does the College Shop notice mean?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The shop is offering reduced prices until Friday, so students can take advantage of a current special offer. The notice does not make shopping there compulsory.",
+              "evidence": "prices reduced until Friday.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Why is Jake writing to Max?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Jake says he can no longer come on the shopping trip because his aunt is visiting. He is cancelling the existing arrangement.",
+              "evidence": "I’m afraid I’ll no longer be able to come on the shopping trip tomorrow.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "What does the pizza special offer mean?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The words “any pizza” mean that every pizza is included in the offer. Ordering by 7 p.m. gives a second pizza at half price.",
+              "evidence": "Order any pizza by 7 p.m. and get another one half-price!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What does Mr Wood want students to do?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Mr Wood says the school could recycle better and asks for suggestions. He wants students to propose ways to improve the recycling system.",
+              "evidence": "we could do better! Please put any suggestions in the box outside my office.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Why is Mel texting Sam?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Mel admits that she was frightened by the film, although she did not say so at the cinema. This explains her preference for a comedy next time.",
+              "evidence": "I didn’t say at the time but I was a bit frightened!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Book reviews",
+          "instructions": "The people all want to find a book to read. Choose the most suitable book (A–H) for each person.",
+          "pdfPages": [
+            12,
+            13
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "prompt": "Which book would be most suitable for Ahmed?",
+              "answer": "G",
+              "publisherAnswer": "G",
+              "accepted": [
+                "G"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Night Light is a first-person account of a real athlete’s life. The author describes the difficulties he faced as a blind person, matching Ahmed’s interest in autobiographies about overcoming problems.",
+              "evidence": "He talks about his life as a blind person, and describes the challenges he faced",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Which book would be most suitable for Pritti?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Action Plan contains interviews with famous athletes about how they succeeded. It explains their training, food and preparation, giving Pritti the detail she wants about top sportspeople.",
+              "evidence": "interviews about what they’ve done to succeed in their careers.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Which book would be most suitable for Conal?",
+              "answer": "E",
+              "publisherAnswer": "E",
+              "accepted": [
+                "E"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Days in the Sun explains how the countryside inspired an author and how he improved his writing. It is aimed partly at readers hoping to have their own work published.",
+              "evidence": "He describes in detail how he improved his style",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Which book would be most suitable for Elif?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Endless Days tells the true story of the first pilots to cross the Atlantic. It also explains why their achievement matters to the modern world, covering both the historical adventure and its influence.",
+              "evidence": "the first pilots to fly across the Atlantic.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Which book would be most suitable for Stefan?",
+              "answer": "H",
+              "publisherAnswer": "H",
+              "accepted": [
+                "H"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Our Lives describes life in different parts of the world and gives recipes for traditional meals. It therefore meets Stefan’s interests in both cultures and cooking.",
+              "evidence": "It also includes recipes for traditional meals from these places.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Cyclist Vicky Harmiston",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            14,
+            15
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "prompt": "When Vicky first started cycling, what was an advantage for her?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The race track was near Vicky’s school, making daily training easy to attend. The text does not say that her brother gave her a bike.",
+              "evidence": "The track was near her school",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "Why does Vicky say she stopped cycle racing?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Vicky explains that she was getting tired of racing and no longer felt excited by it. This loss of enjoyment, rather than her age, caused her to retire.",
+              "evidence": "I began to get a bit tired of the whole thing",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "What does the charity CycleZone do for young people?",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "CycleZone wants young people to believe in themselves and their abilities. This means it helps them gain confidence, rather than training them specifically for races.",
+              "evidence": "We want them to learn to believe in themselves and their own abilities.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 14,
+              "prompt": "According to Vicky, what do some people believe celebrities can do?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Some people think celebrities promote themselves so much that the public misses the charity’s actual work. Vicky reports this criticism before giving her own more positive opinion.",
+              "evidence": "prevents the public from seeing the real work of the charity.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 15,
+              "prompt": "What would Vicky say on her blog?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Vicky was a good swimmer as well as a cyclist, and she calls trying track cycling her best decision. Option C correctly combines her sporting ability with her satisfaction about her career choice.",
+              "evidence": "She says that was the best decision she ever made.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "At home together",
+          "instructions": "Five sentences have been removed from the text. Choose the correct sentence (A–H) for each gap. There are three extra sentences which you do not need to use.",
+          "pdfPages": [
+            16,
+            17
+          ],
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Choose the sentence for gap 16 in “At home together”.",
+              "answer": "G",
+              "publisherAnswer": "G",
+              "accepted": [
+                "G"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "G explains Taimi’s uncertainty: sharing Rudolf House with unrelated young people was a new experience. This connects her question about how the plan would work to her doubts about having anything in common.",
+              "evidence": "she wondered how it was going to work.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Choose the sentence for gap 17 in “At home together”.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "D explains why Jonatan could appear outside Taimi’s room and begin speaking to her. The reference to her open door fits the morning visit described immediately before and after the gap.",
+              "evidence": "Then, one morning a few days later, a young man appeared outside her room.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "Choose the sentence for gap 18 in “At home together”.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Jonatan has just asked Taimi to tell him about herself, so A supplies her response about her childhood. “She also told him” then adds further personal information to that first story.",
+              "evidence": "She also told him about her family and how much she loved making art.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Choose the sentence for gap 19 in “At home together”.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Jonatan’s family had moved away while his training course was still in Helsinki. B gives the consequence: he needed accommodation, which leads naturally to discovering the housing programme.",
+              "evidence": "he’d been living in Helsinki with his mother and younger brother until they moved away.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Choose the sentence for gap 20 in “At home together”.",
+              "answer": "E",
+              "publisherAnswer": "E",
+              "accepted": [
+                "E"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The preceding sentences describe the application and interview process. E gives its outcome and identifies Jonatan as one of the three successful applicants, allowing the text to finish with his friendship with Taimi.",
+              "evidence": "They had face-to-face interviews and wrote short essays about why they wanted to live there.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-5",
+          "title": "The invention of crisps",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            18
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "prompt": "Gap 21: He was extremely _____ of his cookery skills.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The adjective “proud” takes “of”: a chef can be proud of his skills. The other choices do not fit this adjective-and-preposition combination.",
+              "evidence": "of his cookery skills",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "Gap 22: customers who were _____ to eating only the best food.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“Be used to” means be accustomed to something and is followed here by the -ing form “eating”. These customers regularly expected the best food.",
+              "evidence": "to eating only the best food.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "Gap 23: He _____ that they should be replaced.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "A dissatisfied customer can demand that the food should be replaced. “Demanded” fits both the strong request and the following that-clause.",
+              "evidence": "that they should be replaced.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "Gap 24: The customer’s negative _____ made Crum extremely angry.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The remarks about the potatoes being thick, soft and tasteless are negative comments. They explain why Crum became angry.",
+              "evidence": "They’re too thick",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "Gap 25: an absolutely _____ global industry.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“Absolutely huge” is a natural combination describing something extremely large. “Huge” fits the scale of the global crisp industry.",
+              "evidence": "an absolutely",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 26,
+              "prompt": "Gap 26: his fried potatoes were actually _____ to taste disgusting.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“Were intended to” describes Crum’s deliberate purpose. He wanted the potatoes to taste bad, even though the customer unexpectedly enjoyed them.",
+              "evidence": "He’ll hate them",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-6",
+          "title": "Moving house",
+          "instructions": "For each question, write the correct answer. Write one word for each gap.",
+          "pdfPages": [
+            19
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "prompt": "Gap 27: _____ wasn’t until I started to pack a few days ago that I realised how much stuff I had.",
+              "answer": "It",
+              "publisherAnswer": "It",
+              "accepted": [
+                "It"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "Use the fixed structure “It wasn’t until … that …” to emphasise when the realisation happened. The missing subject is “It”.",
+              "evidence": "wasn’t until I started to pack a few days ago that I realised"
+            },
+            {
+              "number": 28,
+              "prompt": "Gap 28: moving house is one of the _____ stressful things I’ve ever done.",
+              "answer": "most",
+              "publisherAnswer": "most",
+              "accepted": [
+                "most"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“One of the” is followed by a superlative. The superlative of “stressful” is “most stressful”.",
+              "evidence": "stressful things I’ve ever done!"
+            },
+            {
+              "number": 29,
+              "prompt": "Gap 29: I was sad to leave my old house — after _____, I’d lived there my whole life.",
+              "answer": "all",
+              "publisherAnswer": "all",
+              "accepted": [
+                "all"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“After all” introduces a reason or explanation. Sam explains his sadness by saying he had lived there his whole life.",
+              "evidence": "I’d lived there my whole life so I have lots of good memories."
+            },
+            {
+              "number": 30,
+              "prompt": "Gap 30: I’m looking _____ to being in this new house.",
+              "answer": "forward",
+              "publisherAnswer": "forward",
+              "accepted": [
+                "forward"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“Look forward to” means feel pleased or excited about something in the future. Here “to” is followed by the -ing form “being”.",
+              "evidence": "to being in this new house."
+            },
+            {
+              "number": 31,
+              "prompt": "Gap 31: It’s not as big as the old one, but _____ least it’s got a great garden.",
+              "answer": "at",
+              "publisherAnswer": "at",
+              "accepted": [
+                "at"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "The fixed expression “at least” introduces a positive point despite a disadvantage. The garden compensates for the house being smaller.",
+              "evidence": "least it’s got a great garden."
+            },
+            {
+              "number": 32,
+              "prompt": "Gap 32: Are you free then? Why don’t you come along _____ you are?",
+              "answer": "if",
+              "publisherAnswer": "if",
+              "accepted": [
+                "if"
+              ],
+              "publisherKeyPdfPage": 98,
+              "explanation": "“If you are” means if Alex is free. It introduces the condition under which Alex can attend the party.",
+              "evidence": "Are you free then?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "test": 2,
+      "id": "authentic-1-test-2",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Short messages and notices",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            28,
+            29
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Why is Jenny emailing Lara?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Jenny suggests a website with train discounts as a way for Lara to visit interesting UK cities. She is recommending a way to do the sightseeing Lara already wants to do.",
+              "evidence": "This might be a good way to do it!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What will the “Sweet Memories” lecture cover?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "The lecture is about the unusual history behind sweets, so it will present surprising facts about them. The invitation does not ask the audience to discuss their own favourites.",
+              "evidence": "The unusual story behind candy",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Why is Jack texting Dan about the wildlife book?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Jack wants to borrow the same library book after Dan returns it. He asks Dan to tell him when that will happen.",
+              "evidence": "Text me when you’re going to return it",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What does the tomato sauce label tell customers?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "The sauce must be used within six weeks of opening and before the printed date. Six weeks is therefore the maximum time after first using it.",
+              "evidence": "After opening, keep in fridge and use within six weeks",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "What condition applies to the free first drum lesson?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "The first lesson is free only when someone signs up for two months. Students must therefore commit to a particular study period to receive it.",
+              "evidence": "when signing up for two months!",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Websites on the environment",
+          "instructions": "The young people are interested in protecting the environment. Choose the most suitable website (A–H) for each person.",
+          "pdfPages": [
+            30,
+            31
+          ],
+          "questions": [
+            {
+              "number": 6,
+              "prompt": "Which website would be most suitable for Ethan?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Ourworld.org lists sites with the latest scientific results, suggests home experiments using solar power and provides information on environmental groups worldwide. It meets all three of Ethan’s requirements.",
+              "evidence": "there are experiments to do like making your own power using sunlight!",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Which website would be most suitable for Mario?",
+              "answer": "E",
+              "publisherAnswer": "E",
+              "accepted": [
+                "E"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Eco.org helps visitors check the environmental effect of their transport and suggests changes. It also helps them find and contact local groups with the same interests.",
+              "evidence": "search for one to join in your area.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Which website would be most suitable for Sylvia?",
+              "answer": "F",
+              "publisherAnswer": "F",
+              "accepted": [
+                "F"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Planetmatters.org offers a message board for questions to scientists and ideas for reusing unwanted objects. Sylvia can both ask experts about their work and avoid throwing things away.",
+              "evidence": "There’s a message board so you can post questions to them",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Which website would be most suitable for Declan?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Cleanplanet.org shows how materials become new products, includes international recycling videos and discusses fashion companies’ environmental effects. This covers recycling and environmentally responsible clothing.",
+              "evidence": "watch clips showing different methods used around the world.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Which website would be most suitable for Tasha?",
+              "answer": "H",
+              "publisherAnswer": "H",
+              "accepted": [
+                "H"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Oneworld.org includes introductory information, a home electricity-saving guide and gifts made from discarded materials. These match Tasha’s college project, family energy savings and shopping plans.",
+              "evidence": "a useful guide on using less electricity at home",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-3",
+          "title": "Basketball player",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            32,
+            33
+          ],
+          "questions": [
+            {
+              "number": 11,
+              "prompt": "What does Luka say about his childhood?",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Luka enjoyed telling friends about his father’s basketball success, especially after a win. He felt proud of his father even though he preferred reading to watching the games.",
+              "evidence": "I loved telling my friends how good my dad was",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "How did Luka feel before his first match at secondary school?",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Luka doubted that his skills were ready for a real match, although his teacher was confident. His parents’ attendance made him even more nervous.",
+              "evidence": "I thought I’d need to develop my skills before I took part in a real match",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "What was the most difficult thing about moving to the USA for Luka?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Luka directly says he did not enjoy living far from his parents at first. He already spent little time with friends, and his English soon improved.",
+              "evidence": "I can’t say I enjoyed my first experience of living far from my parents.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 14,
+              "prompt": "What did Luka have to do before becoming a professional player?",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "He was already tall enough but was too light for his height. He needed to gain weight before turning professional.",
+              "evidence": "had been much too light for my height, so had to get that right first.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 15,
+              "prompt": "What would be a good way to introduce this article?",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Luka describes how he became a professional basketball player after his father and grandfather. B accurately presents both his personal account and the sporting family background.",
+              "evidence": "My dad was a professional basketball player in Germany, as his father had been before him",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-4",
+          "title": "Adventures in the air",
+          "instructions": "Five sentences have been removed from the text. Choose the correct sentence (A–H) for each gap. There are three extra sentences which you do not need to use.",
+          "pdfPages": [
+            34,
+            35
+          ],
+          "questions": [
+            {
+              "number": 16,
+              "prompt": "Choose the sentence for gap 16 in “Adventures in the air”.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "C explains that Larry’s dream began when he was a boy. It fits between the reference to wanting to fly for a long time and the statement that almost twenty years passed before he did it.",
+              "evidence": "It took almost 20 years, however, for his dream to finally come true.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Choose the sentence for gap 17 in “Adventures in the air”.",
+              "answer": "F",
+              "publisherAnswer": "F",
+              "accepted": [
+                "F"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "F signals the unexpected result of Larry’s experiment. The next sentence describes the problem: he rose several kilometres instead of just a few metres.",
+              "evidence": "floated several kilometres into the sky rather than just a few metres!",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 18,
+              "prompt": "Choose the sentence for gap 18 in “Adventures in the air”.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "After Larry’s dangerous flight and worry, D supplies the safe landing that ends his adventure. The text can then move on to the publicity and the beginning of the sport.",
+              "evidence": "Larry felt very worried.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Choose the sentence for gap 19 in “Adventures in the air”.",
+              "answer": "G",
+              "publisherAnswer": "G",
+              "accepted": [
+                "G"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Leo already held a pilot’s licence, but G contrasts conventional flying with his present preference for balloons. The following quotation explains why he enjoys cluster ballooning.",
+              "evidence": "Leo had got his pilot’s licence several years before",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Choose the sentence for gap 20 in “Adventures in the air”.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "B contrasts the silence of cluster balloons with the noise of older hot-air balloons. “They” in the final sentence then refers to those old-fashioned balloons, adding that they were less safe too.",
+              "evidence": "The balloons are usually completely silent.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-5",
+          "title": "Whale songs",
+          "instructions": "For each question, choose the correct answer.",
+          "pdfPages": [
+            36
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "prompt": "Gap 21: In the 1960s it was _____ that humpbacks communicate with each other by making beautiful noises.",
+              "answer": "C",
+              "publisherAnswer": "C",
+              "accepted": [
+                "C"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "“It was discovered that” introduces a fact that people learned through investigation. The whales’ existing behaviour was discovered, rather than invented.",
+              "evidence": "humpbacks communicate with each other by making beautiful noises.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "Gap 22: A record was _____ in 1970 called Songs of the humpback whale.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "A record can be “produced”, meaning made for people to listen to and buy. This also fits the passive structure “was produced”.",
+              "evidence": "which sold millions of copies.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "Gap 23: in _____ centuries people had thought that whales had simple brains.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "“Previous centuries” means centuries before the discovery being described. It is the natural phrase for contrasting earlier beliefs with new knowledge.",
+              "evidence": "people had thought that whales had simple brains, like fish.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "Gap 24: they were _____ in recordings of sounds from our planet.",
+              "answer": "B",
+              "publisherAnswer": "B",
+              "accepted": [
+                "B"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "“Included in” means made part of something. The whale songs were one part of a collection of sounds from Earth.",
+              "evidence": "in recordings of sounds from our planet",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "Gap 25: recordings which were _____ into space in 1977.",
+              "answer": "A",
+              "publisherAnswer": "A",
+              "accepted": [
+                "A"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "“Sent into space” describes recordings being transported away from Earth. The following hope that other creatures might find them confirms that they were sent out.",
+              "evidence": "they might be found by intelligent creatures far out in space.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            },
+            {
+              "number": 26,
+              "prompt": "Gap 26: to show the wide _____ of life on our planet.",
+              "answer": "D",
+              "publisherAnswer": "D",
+              "accepted": [
+                "D"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "“A wide variety of” means many different types. The recordings represented the range of living things on Earth.",
+              "evidence": "of life on our planet.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "part-6",
+          "title": "My travel blog",
+          "instructions": "For each question, write the correct answer. Write one word for each gap.",
+          "pdfPages": [
+            37
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "prompt": "Gap 27: I am only 20 and to _____ honest, I was nervous about exploring a new city alone.",
+              "answer": "be",
+              "publisherAnswer": "be",
+              "accepted": [
+                "be"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "“To be honest” is a fixed expression used to introduce a truthful admission. Here the writer admits feeling nervous.",
+              "evidence": "honest, I was nervous about exploring a new city alone."
+            },
+            {
+              "number": 28,
+              "prompt": "Gap 28: become more familiar _____ the city.",
+              "answer": "with",
+              "publisherAnswer": "with",
+              "accepted": [
+                "with"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "The adjective “familiar” takes the preposition “with” when it means knowing a place or subject better.",
+              "evidence": "I hoped the tour would help me to become more familiar"
+            },
+            {
+              "number": 29,
+              "prompt": "Gap 29: We also learnt loads _____ interesting facts about Danish culture.",
+              "answer": "of",
+              "publisherAnswer": "of",
+              "accepted": [
+                "of"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Use “loads of” before a noun phrase to mean a lot of something. Here it describes the large number of facts learned.",
+              "evidence": "interesting facts about Danish culture."
+            },
+            {
+              "number": 30,
+              "prompt": "Gap 30: At the end of the tour, he gave _____ all suggestions.",
+              "answer": "us",
+              "publisherAnswer": "us",
+              "accepted": [
+                "us"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "The object pronoun “us” refers to the writer and the other people on the tour. It follows “gave”, while “all” means everyone in that group received suggestions.",
+              "evidence": "We also learnt"
+            },
+            {
+              "number": 31,
+              "prompt": "Gap 31: the best places _____ eat and visit.",
+              "answer": "to",
+              "publisherAnswer": "to",
+              "accepted": [
+                "to"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Use a to-infinitive after “places” to state what people can do there: “places to eat and visit”.",
+              "evidence": "eat and visit."
+            },
+            {
+              "number": 32,
+              "prompt": "Gap 32: I actually had a lot more fun on the walking tour _____ I’d expected.",
+              "answer": "than",
+              "publisherAnswer": "than",
+              "accepted": [
+                "than"
+              ],
+              "publisherKeyPdfPage": 110,
+              "explanation": "Comparative expressions such as “more fun” take “than” when comparing the experience with an expectation.",
+              "evidence": "I actually had a lot more fun on the walking tour"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "needsReview": []
+}
