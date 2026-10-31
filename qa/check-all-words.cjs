@@ -36,3 +36,4 @@ console.log(`PASS: all ${catalog.units.length} units include every word once in 
 console.log('PASS: old short-round settings migrate to All words; progress, scores and sound preferences survive. New explicit short-round choices persist.');
 
 require('./check-clear-results.cjs');
+require('./check-unit-13.cjs');
