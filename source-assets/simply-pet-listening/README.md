@@ -37,6 +37,13 @@ python3 -B scripts/import_pet_listening_exercises.py /absolute/path/to/Simply-PE
 Source PDF and intermediate transcription files are not committed.
 Images are under `dist/assets/listening/`; exercise JSON under `dist/listening/`.
 
+After submission, each explanation has a Listen to this answer button. It
+seeks the existing player to the reviewed evidence timestamps, with 0.75 seconds
+of lead-in and 0.9 seconds after the excerpt, clamped to the track duration.
+Playback stops at the end; students can stop or replay and retain their chosen
+speed. Only checked parts expose these controls. Switching answers uses the
+same player, and retry/navigation cancels any pending replay.
+
 One native player is mounted, with preload="none" and no autoplay.
 Part/test/tab navigation stops and releases the previous source. Checking
 answers and retrying the current part preserve playback. Audio is independent
