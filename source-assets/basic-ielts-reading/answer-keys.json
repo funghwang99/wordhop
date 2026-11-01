@@ -5686,5 +5686,786 @@
         ]
       }
     ]
+  },
+  {
+    "id": "bir-unit-14",
+    "partLabel": "Passage",
+    "source": {
+      "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
+      "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
+      "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
+      "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–174.",
+      "explanationOrigin": "Written for WordHop and reviewed against the publisher key and original text.",
+      "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+      "answerKeyFilename": "Answer Key.pdf"
+    },
+    "parts": [
+      {
+        "id": "part-1",
+        "title": "Passage 1 · Victoria Explore",
+        "instructions": "Follow the original instructions on the book pages. Questions 1–4: choose A, B or C. Questions 5–14: complete the summary using words or phrases from the printed word box. Questions 15–23: choose TRUE, FALSE or NOT GIVEN.",
+        "pageNote": "Book page 120 finishes the vocabulary section of Passage 1 and begins the pre-reading section of Passage 2.",
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Low-floor accessible buses feature the absence of steps making it easier for everyone to use, especially people using wheelchairs, walkers or pushing baby strollers. What does 'accessible' mean?",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Accessible means easy for people to enter or use. The absence of steps makes the buses easier to use, especially for passengers with mobility needs.",
+            "evidence": "Low-floor accessible buses feature the absence of steps making it easier for everyone to use",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "prompt": "The transfer you receive will only be valid for the first connecting bus. What does 'valid' mean?",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Valid means officially acceptable for use. Legal is the closest printed choice; cheap and necessary do not explain whether the transfer can be used.",
+            "evidence": "The transfer you receive will only be valid for the first connecting bus.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "prompt": "When making trips crossing a zone boundary, passengers pay a two-zone fare when using cash or tickets. What does 'boundary' mean?",
+            "answer": "B",
+            "accepted": [
+              "B"
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "A boundary marks the limit between areas. Crossing the boundary means moving from one fare zone into the other.",
+            "evidence": "The transit service area is divided into two fare zones.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "prompt": "The Transit System is responsible for planning routes, setting fare levels, administering local funding and operating the system. What does 'administering' mean?",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Administering funds means managing them. The sentence lists responsibilities of the transit system, so managing is the closest meaning.",
+            "evidence": "administering local funding and operating the system",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "prompt": "In the Victoria by Bus guidebook, you will find lots of ________ which can be reached by buses.",
+            "answer": "attractions",
+            "accepted": [
+              "attractions"
+            ],
+            "publisherAnswer": "attractions",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The guidebook lists attractions that the buses serve. Attractions is also the matching word in the printed word box.",
+            "evidence": "The Victoria by Bus guidebook lists many attractions which are served by our buses"
+          },
+          {
+            "number": 6,
+            "prompt": "With regional buses, you can also get to all ________ like Sidney and Swartz Bay.",
+            "answer": "ferry terminals",
+            "accepted": [
+              "ferry terminals"
+            ],
+            "publisherAnswer": "ferry terminals",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The transit system serves all ferry terminals, including Sidney and Swartz Bay. The place names therefore identify ferry terminals.",
+            "evidence": "The transit system serves all ferry terminals (Sidney, Swartz Bay, Ogden Point and downtown)."
+          },
+          {
+            "number": 7,
+            "prompt": "________ buses enable people on wheelchairs and people with baby strollers to travel easily.",
+            "answer": "Low-floor",
+            "accepted": [
+              "Low-floor",
+              "low floor"
+            ],
+            "publisherAnswer": "Low-floor",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Low-floor buses have no entrance steps and can be lowered for wheelchair access. Low-floor is the phrase supplied in the word box.",
+            "evidence": "Low-floor accessible buses feature the absence of steps making it easier for everyone to use"
+          },
+          {
+            "number": 8,
+            "prompt": "Low-floor buses enable people on wheelchairs and people with ________ to travel easily.",
+            "answer": "baby strollers",
+            "accepted": [
+              "baby strollers"
+            ],
+            "publisherAnswer": "baby strollers",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The accessible buses help people pushing baby strollers as well as people using wheelchairs or walkers.",
+            "evidence": "especially people using wheelchairs, walkers or pushing baby strollers"
+          },
+          {
+            "number": 9,
+            "prompt": "The ________ bus-stop sign indicates a one-route bus stop.",
+            "answer": "long skinny",
+            "accepted": [
+              "long skinny"
+            ],
+            "publisherAnswer": "long skinny",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The long skinny signs mark stops served by only one route, whereas rectangular signs list all the routes at a stop.",
+            "evidence": "The long skinny ones identify a bus stop served by one route only."
+          },
+          {
+            "number": 10,
+            "prompt": "The ________ bus-stop sign identifies all the bus routes served at that stop.",
+            "answer": "rectangular",
+            "accepted": [
+              "rectangular"
+            ],
+            "publisherAnswer": "rectangular",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Rectangular signs show every route that picks up or drops off passengers at the stop.",
+            "evidence": "The rectangular signs indicate all the bus routes which will pick up or drop off at that bus stop."
+          },
+          {
+            "number": 11,
+            "prompt": "The rectangular sign identifies all the bus routes ________ there at that stop.",
+            "answer": "served",
+            "accepted": [
+              "served"
+            ],
+            "publisherAnswer": "served",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Served is the word from the printed box that completes the summary. The passage explains that rectangular signs identify the routes operating at a stop.",
+            "evidence": "The rectangular signs indicate all the bus routes which will pick up or drop off at that bus stop."
+          },
+          {
+            "number": 12,
+            "prompt": "At many bus stops downtown, you can find the bus routes schedule on the ________.",
+            "answer": "information tubes",
+            "accepted": [
+              "information tubes"
+            ],
+            "publisherAnswer": "information tubes",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Many downtown stops have information tubes listing the bus schedules. These are the containers mentioned in the summary.",
+            "evidence": "Many downtown bus stops have information tubes which list the schedule of bus routes serving that bus stop."
+          },
+          {
+            "number": 13,
+            "prompt": "You may pay cash or use the tickets when you board and with a ________ from the driver you can get on the first connecting bus for free.",
+            "answer": "transfer",
+            "accepted": [
+              "transfer"
+            ],
+            "publisherAnswer": "transfer",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Passengers who need another bus should request a transfer from the driver. Transfers are free and valid for the first connecting bus.",
+            "evidence": "ask your driver for a ‘transfer’ when you get on the bus"
+          },
+          {
+            "number": 14,
+            "prompt": "With a transfer from the driver you can get on the first ________ bus for free.",
+            "answer": "connecting",
+            "accepted": [
+              "connecting"
+            ],
+            "publisherAnswer": "connecting",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The transfer is valid for the first connecting bus. Connecting describes the next bus used to continue the trip.",
+            "evidence": "The transfer you receive will only be valid for the first connecting bus."
+          },
+          {
+            "number": 15,
+            "prompt": "Buses normally run after midnight on Sundays.",
+            "answer": "FALSE",
+            "accepted": [
+              "FALSE"
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Buses run seven days a week, usually from 6 a.m. until midnight. The normal service period therefore does not extend after midnight on Sundays.",
+            "evidence": "Buses run seven days a week, usually from 6 a.m. until midnight.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 16,
+            "prompt": "Suburban buses offer the same frequency as all the other buses do.",
+            "answer": "FALSE",
+            "accepted": [
+              "FALSE"
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Many suburban routes cannot provide the high frequency of the busier urban routes. The frequencies are therefore not all the same.",
+            "evidence": "Many of our suburban routes cannot offer the high frequency as some of our busier urban routes.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 17,
+            "prompt": "The entry level of the bus can be changed to help people with a disability.",
+            "answer": "TRUE",
+            "accepted": [
+              "TRUE"
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The bus entrance can be lowered close to the sidewalk so that passengers using wheelchairs can board with a ramp.",
+            "evidence": "The entry level of the bus can be lowered to within four inches of a standard sidewalk",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 18,
+            "prompt": "The route number is displayed in four places on the bus.",
+            "answer": "TRUE",
+            "accepted": [
+              "TRUE"
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The route number appears on the front, the left side, the right side and the rear window. These make four locations.",
+            "evidence": "on the front and both the left and right side panels of the bus; the route number appears in the bus’s rear window too",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 19,
+            "prompt": "The names of the buses will always remain the same.",
+            "answer": "FALSE",
+            "accepted": [
+              "FALSE"
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The passage explicitly says that the name sometimes changes when the bus changes direction. The word always makes the statement false.",
+            "evidence": "sometimes the name changes when the bus changes direction",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 20,
+            "prompt": "You can ask for another transfer when you get on the second connecting bus.",
+            "answer": "FALSE",
+            "accepted": [
+              "FALSE"
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The transfer issued for the journey is valid only for the first connecting bus. It does not provide a further free transfer for a second connection.",
+            "evidence": "The transfer you receive will only be valid for the first connecting bus.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 21,
+            "prompt": "The fare will be doubled when you are travelling through two zones.",
+            "answer": "NOT GIVEN",
+            "accepted": [
+              "NOT GIVEN"
+            ],
+            "publisherAnswer": "NOT GIVEN",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The passage says that a trip crossing the zone boundary requires a two-zone fare. It does not give the prices or say that the two-zone fare is twice the one-zone fare.",
+            "evidence": "When making trips crossing a zone boundary, passengers pay a two-zone fare when using cash or tickets.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 22,
+            "prompt": "A day pass is recommended when you plan to take several buses.",
+            "answer": "TRUE",
+            "accepted": [
+              "TRUE"
+            ],
+            "publisherAnswer": "TRUE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The Save Money section recommends a day pass for several trips, because it can be used as many times as needed in one day.",
+            "evidence": "If you plan to make several trips, consider a day pass and save money.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          },
+          {
+            "number": 23,
+            "prompt": "Discount fares are available to all students who are between 15 and 20.",
+            "answer": "FALSE",
+            "accepted": [
+              "FALSE"
+            ],
+            "publisherAnswer": "FALSE",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The reduced student fare requires a valid GoCard and applies to students aged 15–20 up to grade 12. Students who do not live in British Columbia must pay the adult fare, so the discount is not available to all students in that age range.",
+            "evidence": "for students 15–20 (to grade 12) who carry a valid GoCard. All others must pay the adult fare, including students who do not live in British Columbia.",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "pdfPage": 116,
+            "printedPage": 116,
+            "image": "assets/reading/basic-ielts-page-116.7288f3f93239.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 117,
+            "printedPage": 117,
+            "image": "assets/reading/basic-ielts-page-117.f087c6dfe5a2.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 118,
+            "printedPage": 118,
+            "image": "assets/reading/basic-ielts-page-118.f4f3f0c568de.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 119,
+            "printedPage": 119,
+            "image": "assets/reading/basic-ielts-page-119.6392c04e0ed0.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 120,
+            "printedPage": 120,
+            "image": "assets/reading/basic-ielts-page-120.cf87df839476.webp",
+            "width": 1350,
+            "height": 1951
+          }
+        ]
+      },
+      {
+        "id": "part-2",
+        "title": "Passage 2 · U.S. Public Schools: What’s Wrong with Them",
+        "instructions": "Follow the original instructions on the book pages. Questions 1–4: choose A, B or C. Questions 5–11: choose the most suitable heading A–H for each paragraph. Questions 12–16: choose A, B, C or D. Question 17: choose FOUR letters A–G.",
+        "pageNote": "Book page 120 starts with the vocabulary section for Passage 1; Passage 2 begins with the pre-reading section below.",
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "For example, according to recent studies, the number of high school students who cannot read is increasing, not decreasing. What does 'decreasing' mean?",
+            "answer": "B",
+            "accepted": [
+              "B"
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Decreasing means becoming less in quantity or number. The sentence contrasts it with increasing.",
+            "evidence": "the number of high school students who cannot read is increasing, not decreasing",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 2,
+            "prompt": "Even students who graduate from high school and go to college show a depressing lack of knowledge. What does 'depressing' mean?",
+            "answer": "C",
+            "accepted": [
+              "C"
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Depressing describes something that makes people feel discouraged or unhappy. The lack of knowledge is discouraging, rather than exciting.",
+            "evidence": "show a depressing lack of knowledge",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 3,
+            "prompt": "Often students who do not want to learn behave badly and disturb classes. What does 'disturb' mean?",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "To disturb a class is to interrupt its normal activity or order. Changing the usual order is the closest printed definition.",
+            "evidence": "Often students who do not want to learn behave badly and disturb classes.",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 4,
+            "prompt": "Finally, according to some people, television is also to blame for the lack of success of the public schools. What does 'to blame' mean?",
+            "answer": "C",
+            "accepted": [
+              "C"
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "To be to blame means to be held responsible for a problem. Some people hold television responsible for the schools’ lack of success.",
+            "evidence": "television is also to blame for the lack of success of the public schools",
+            "options": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "number": 5,
+            "prompt": "Choose the most suitable heading for Paragraph 1.",
+            "answer": "B",
+            "accepted": [
+              "B"
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 1 introduces parents’ general dissatisfaction with public education and explains that they disagree about which problems matter. The matching heading is General dissatisfaction of parents.",
+            "evidence": "There are many people in the U.S. today who are not satisfied with the education that their children are receiving in the public schools.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 6,
+            "prompt": "Choose the most suitable heading for Paragraph 2.",
+            "answer": "C",
+            "accepted": [
+              "C"
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 2 gives evidence that students are not learning enough, including problems with reading, mathematics and geography. The heading is Not learning enough in schools.",
+            "evidence": "their children are not learning enough in school",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 7,
+            "prompt": "Choose the most suitable heading for Paragraph 3.",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 3 explains possible reasons for poor learning, such as large classes, teachers’ subject knowledge, disruptive students and television. The heading asks why students are not learning enough.",
+            "evidence": "There are a number of possible reasons for the increase in the number of students who are not receiving a good basic education.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 8,
+            "prompt": "Choose the most suitable heading for Paragraph 4.",
+            "answer": "D",
+            "accepted": [
+              "D"
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 4 presents four questions that solutions must address, covering class size, teacher quality, disruption and television. It therefore outlines a number of problems that need solving.",
+            "evidence": "Any solutions to this problem will have to answer at least four questions.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 9,
+            "prompt": "Choose the most suitable heading for Paragraph 5.",
+            "answer": "H",
+            "accepted": [
+              "H"
+            ],
+            "publisherAnswer": "H",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 5 introduces conservative parents who object to particular ideas, lessons and books. Its focus is the dissatisfaction of some conservatives.",
+            "evidence": "A second group of people is dissatisfied with the public schools for very different reasons. These people usually have very conservative beliefs about life.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 10,
+            "prompt": "Choose the most suitable heading for Paragraph 6.",
+            "answer": "E",
+            "accepted": [
+              "E"
+            ],
+            "publisherAnswer": "E",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 6 describes efforts to change school programmes by influencing school boards and electing members who share these parents’ beliefs.",
+            "evidence": "They put pressure on the people on the local school boards. They also elect to the school boards people who share their ideas.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 11,
+            "prompt": "Choose the most suitable heading for Paragraph 7.",
+            "answer": "F",
+            "accepted": [
+              "F"
+            ],
+            "publisherAnswer": "F",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 7 describes disagreement with the conservatives and the wider debate over who should decide programmes and books. The heading is Discussion and disagreement about education.",
+            "evidence": "there is a lot of discussion about very important questions in education",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "number": 12,
+            "prompt": "According to the passage, the first group of critics is worried about what?",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The first group believes that children are not learning enough in school. The passage supports this with examples of poor reading, mathematics and geography knowledge.",
+            "evidence": "According to these parents, their children are not learning enough in school",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 13,
+            "prompt": "What do recent studies show?",
+            "answer": "A",
+            "accepted": [
+              "A"
+            ],
+            "publisherAnswer": "A",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The studies show an increase in the number of high school students who cannot read. This supports the choice that more students cannot read.",
+            "evidence": "the number of high school students who cannot read is increasing, not decreasing",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 14,
+            "prompt": "What doesn’t the writer give as a reason why students in public schools do not learn enough?",
+            "answer": "B",
+            "accepted": [
+              "B"
+            ],
+            "publisherAnswer": "B",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 3 names teachers’ weaknesses, disruptive students and television as possible reasons. Books are discussed later as a separate concern of conservative parents, not as a reason for poor learning in this paragraph.",
+            "evidence": "classes are sometimes too large ... many teachers who do not know enough ... students who do not want to learn behave badly ... television is also to blame",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 15,
+            "prompt": "What does the second group of people criticise about the public schools?",
+            "answer": "C",
+            "accepted": [
+              "C"
+            ],
+            "publisherAnswer": "C",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "The second group disagrees with ideas that children encounter at school. Their objection concerns the content and values taught, rather than an inability to understand the textbooks.",
+            "evidence": "they disagree with many of the ideas which their children learn and read about in school",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 16,
+            "prompt": "How does the second group of critics solve its dissatisfaction with the public schools?",
+            "answer": "D",
+            "accepted": [
+              "D"
+            ],
+            "publisherAnswer": "D",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "They elect school-board members who share their ideas, so D is the closest choice about putting sympathetic people on the boards. The passage explicitly says that this group does not withdraw its children from public schools.",
+            "evidence": "They also elect to the school boards people who share their ideas.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "number": 17,
+            "prompt": "Which FOUR reasons can explain why students do not learn enough in public schools?",
+            "answer": "A, C, E, F",
+            "accepted": [
+              "A, C, E, F"
+            ],
+            "publisherAnswer": "A, C, E, F",
+            "publisherKeyPrintedPage": 174,
+            "explanation": "Paragraph 3 identifies overcrowded classes (A), teachers who lack enough subject knowledge (C), students who disrupt lessons (E), and young people who do not spend time on homework (F). It does not say that school buildings are too small, that there are too few training programmes, or that television programmes are poor quality.",
+            "evidence": "there are often between forty and fifty students in a class ... many teachers who do not know enough about the subjects ... behave badly and disturb classes ... Young people do not take time for their homework.",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "multiple": 4
+          }
+        ],
+        "pages": [
+          {
+            "pdfPage": 120,
+            "printedPage": 120,
+            "image": "assets/reading/basic-ielts-page-120.cf87df839476.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 121,
+            "printedPage": 121,
+            "image": "assets/reading/basic-ielts-page-121.15975b76741f.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 122,
+            "printedPage": 122,
+            "image": "assets/reading/basic-ielts-page-122.c9bc94bd49f1.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 123,
+            "printedPage": 123,
+            "image": "assets/reading/basic-ielts-page-123.79335adb8803.webp",
+            "width": 1350,
+            "height": 1951
+          },
+          {
+            "pdfPage": 124,
+            "printedPage": 124,
+            "image": "assets/reading/basic-ielts-page-124.6d67215b0a9f.webp",
+            "width": 1350,
+            "height": 1951
+          }
+        ]
+      }
+    ]
   }
 ]

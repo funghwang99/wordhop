@@ -1,14 +1,14 @@
 {
   "bookId": "basic-ielts-reading",
-  "units": 10,
-  "passages": 20,
-  "questions": 356,
-  "uniqueOriginalPages": 68,
+  "units": 11,
+  "passages": 22,
+  "questions": 396,
+  "uniqueOriginalPages": 77,
   "source": {
     "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
     "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
     "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
-    "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–173.",
+    "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–174.",
     "explanationOrigin": "Written for WordHop and reviewed against the publisher key and original text.",
     "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
     "answerKeyFilename": "Answer Key.pdf"
@@ -493,14 +493,150 @@
       "height": 1621,
       "image": "assets/reading/basic-ielts-reading-page-107.ebc65ff234b9.webp",
       "bytes": 50722
+    },
+    {
+      "pdfPage": 108,
+      "printedPage": 108,
+      "image": "assets/reading/basic-ielts-page-108.c0e701920c9a.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 350560
+    },
+    {
+      "pdfPage": 109,
+      "printedPage": 109,
+      "image": "assets/reading/basic-ielts-page-109.df3e495e02e0.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 237692
+    },
+    {
+      "pdfPage": 110,
+      "printedPage": 110,
+      "image": "assets/reading/basic-ielts-page-110.296520268030.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 189598
+    },
+    {
+      "pdfPage": 111,
+      "printedPage": 111,
+      "image": "assets/reading/basic-ielts-page-111.a811d5a14b14.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 302696
+    },
+    {
+      "pdfPage": 112,
+      "printedPage": 112,
+      "image": "assets/reading/basic-ielts-page-112.8f40ee95b7f0.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 473972
+    },
+    {
+      "pdfPage": 113,
+      "printedPage": 113,
+      "image": "assets/reading/basic-ielts-page-113.4ef421168b58.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 368414
+    },
+    {
+      "pdfPage": 114,
+      "printedPage": 114,
+      "image": "assets/reading/basic-ielts-page-114.2eb1f926ea4d.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 275984
+    },
+    {
+      "pdfPage": 115,
+      "printedPage": 115,
+      "image": "assets/reading/basic-ielts-page-115.db8d84442926.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 234346
+    },
+    {
+      "pdfPage": 116,
+      "printedPage": 116,
+      "image": "assets/reading/basic-ielts-page-116.7288f3f93239.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 311692
+    },
+    {
+      "pdfPage": 117,
+      "printedPage": 117,
+      "image": "assets/reading/basic-ielts-page-117.f087c6dfe5a2.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 237332
+    },
+    {
+      "pdfPage": 118,
+      "printedPage": 118,
+      "image": "assets/reading/basic-ielts-page-118.f4f3f0c568de.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 223640
+    },
+    {
+      "pdfPage": 119,
+      "printedPage": 119,
+      "image": "assets/reading/basic-ielts-page-119.6392c04e0ed0.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 303594
+    },
+    {
+      "pdfPage": 120,
+      "printedPage": 120,
+      "image": "assets/reading/basic-ielts-page-120.cf87df839476.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 307184
+    },
+    {
+      "pdfPage": 121,
+      "printedPage": 121,
+      "image": "assets/reading/basic-ielts-page-121.15975b76741f.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 277564
+    },
+    {
+      "pdfPage": 122,
+      "printedPage": 122,
+      "image": "assets/reading/basic-ielts-page-122.c9bc94bd49f1.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 221678
+    },
+    {
+      "pdfPage": 123,
+      "printedPage": 123,
+      "image": "assets/reading/basic-ielts-page-123.79335adb8803.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 209936
+    },
+    {
+      "pdfPage": 124,
+      "printedPage": 124,
+      "image": "assets/reading/basic-ielts-page-124.6d67215b0a9f.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 162186
     }
   ],
   "previousSourceCopySha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Units 12 and 13 use the complete supplied PDF; their original book pages were verified from that file.",
+  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Units 12–14 use the complete supplied PDF; their original book pages were verified from that file.",
   "publisherAnswerKey": {
     "title": "Basic IELTS Reading publisher Answer Key",
     "sourceFilename": "Answer Key.pdf",
     "sourceSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
-    "reviewedQuestionCount": 356
+    "reviewedQuestionCount": 396
   }
 }
