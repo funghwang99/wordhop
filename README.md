@@ -4,7 +4,7 @@ English vocabulary flashcards, games, reading and listening exercises for PET an
 
 The current content includes Simply PET with eight tests and 250 words,
 Authentic 1 with four tests and 243 words, and Basic IELTS Reading with
-Units 4–13 and 442 words. The total is 935 words across 22 units or tests.
+Units 4–14 and 476 words. The total is 969 words across 23 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
 choice or fill-in-the-blank games without a word bank. Rounds default to all
@@ -88,14 +88,14 @@ Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
 (a temperature goal versus an original prediction). Source pages and answer
 provenance are recorded under `source-assets/simply-pet-reading/`.
 
-Basic IELTS Reading Units 4–13 also include their original reading pages and
-numbered exercises: 20 passages, 356 questions and 68 book pages. This covers
+Basic IELTS Reading Units 4–14 also include their original reading pages and
+numbered exercises: 22 passages, 396 questions and 77 book pages. This covers
 multiple choice, short answers and completion, True/False/Not Given,
 Yes/No/Not Given, matching headings and phrases, and multi-select questions.
 All pages of a passage remain together, with later pages loaded lazily.
 
-All 356 Basic IELTS Reading questions in Units 4–13 have been checked against
-the separately supplied publisher `Answer Key.pdf`, book key pages 169–173.
+All 396 Basic IELTS Reading questions in Units 4–14 have been checked against
+the separately supplied publisher `Answer Key.pdf`, book key pages 169–174.
 English explanations are written for WordHop and reviewed against the key
 and original passages. Numeric answers in Unit 11's note-completion table
 accept the corresponding figures. The publisher transcription and correction
@@ -166,3 +166,17 @@ on eight book pages (108–115), publisher-checked answers and English explanati
 Passage 2 Question 2 is documented but unscored because none of its choices
 accurately defines negative in context; the other 36 questions are scored.
 Source records and reproducible import instructions are under `source-assets/unit-13/`.
+
+## Basic IELTS Reading Unit 14
+
+Unit 14 adds every supplied vocabulary entry and illustration: 34 flashcards
+and all three games. The PPTX cover says 35 words, but there are 34 vocabulary
+slides (25 for Passage 1 and nine for Passage 2); the textbook word tube has no
+slide or picture in the supplied deck. Original definitions and examples are
+preserved, with Harbor and criticize accepted alongside the British spellings.
+
+Victoria Explore and U.S. Public Schools: What's Wrong with Them include all
+40 original numbered questions on nine book pages (116–124), publisher-checked
+answers and English explanations. All 40 questions are scored; Passage 2
+Question 17 requires four distinct choices and accepts them in any order.
+Source records and reproducible import instructions are under `source-assets/unit-14/`.

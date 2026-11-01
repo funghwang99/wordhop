@@ -1,0 +1,920 @@
+[
+  {
+    "id": "bir-u14-accessible",
+    "slide": 2,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "accessible",
+      "pos": "adj.",
+      "definition": "easy for people, including those with disabilities, to enter or use",
+      "example": "Low-floor buses are accessible to passengers using wheelchairs."
+    },
+    "image": {
+      "media": "ppt/media/image1.jpeg",
+      "originalSha256": "ac7645bd7386bb4aa6169a594a6e46384ce64e9720442bb435bbf8cdd2febf6f",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 47599,
+      "publishedBytes": 10258,
+      "image": "/assets/unit-14/accessible.ad80eb307eb1.webp"
+    }
+  },
+  {
+    "id": "bir-u14-administer",
+    "slide": 3,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "administer",
+      "pos": "v.",
+      "definition": "to manage or organise a system, activity, or funds",
+      "example": "The transit system administers local funding and operates bus services."
+    },
+    "image": {
+      "media": "ppt/media/image2.jpeg",
+      "originalSha256": "b6d8d787ddb182165b2bd28de137796a27cd841ca2ca5192529246d895f23526",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 36191,
+      "publishedBytes": 7550,
+      "image": "/assets/unit-14/administer.d0aaf877abd3.webp"
+    }
+  },
+  {
+    "id": "bir-u14-automate",
+    "slide": 4,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "automate",
+      "pos": "v.",
+      "definition": "to make a process operate automatically, often using computers",
+      "example": "The bus company automated its information service to help passengers plan trips."
+    },
+    "image": {
+      "media": "ppt/media/image3.jpeg",
+      "originalSha256": "faa841bbe841abe294c0b6a8cb678e9f3a51c63737764ab4b8d2d72d03452d71",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 49501,
+      "publishedBytes": 10472,
+      "image": "/assets/unit-14/automate.1331c13d6bb0.webp"
+    }
+  },
+  {
+    "id": "bir-u14-boundary",
+    "slide": 5,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "boundary",
+      "pos": "n.",
+      "definition": "a line separating one area from another",
+      "example": "Passengers crossing a fare-zone boundary must pay a two-zone fare."
+    },
+    "image": {
+      "media": "ppt/media/image4.jpeg",
+      "originalSha256": "661f51bd5bd33bde61f5725eccf5676b1046a45eb67ec644b43de5816e081fbc",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 680,
+      "height": 340,
+      "originalBytes": 70228,
+      "publishedBytes": 17108,
+      "image": "/assets/unit-14/boundary.6a0c096b6ca1.webp"
+    }
+  },
+  {
+    "id": "bir-u14-charm",
+    "slide": 6,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "charm",
+      "pos": "n.",
+      "definition": "a pleasant and attractive quality",
+      "example": "The charm of the Victoria region attracts many visitors."
+    },
+    "image": {
+      "media": "ppt/media/image5.jpeg",
+      "originalSha256": "631b0c067c018525dad5b18f343ccea8d357a75be79ea5d9e17581c775eeb972",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 463,
+      "height": 280,
+      "originalBytes": 16991,
+      "publishedBytes": 8406,
+      "image": "/assets/unit-14/charm.195e45afe220.webp"
+    }
+  },
+  {
+    "id": "bir-u14-complement",
+    "slide": 7,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "complement",
+      "pos": "v.",
+      "definition": "to combine well with something and make it more attractive or complete",
+      "example": "The farmlands complement the old English setting of Oak Bay Village."
+    },
+    "image": {
+      "media": "ppt/media/image6.jpeg",
+      "originalSha256": "758f82560a91b38858d4d97166db2659f311358591ed93b2f7c8123cc423748d",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 540,
+      "height": 360,
+      "originalBytes": 45798,
+      "publishedBytes": 18322,
+      "image": "/assets/unit-14/complement.2bbe47f2f6f4.webp"
+    }
+  },
+  {
+    "id": "bir-u14-convenience",
+    "slide": 8,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "convenience",
+      "pos": "n.",
+      "definition": "the quality of being easy or useful; convenience stores sell everyday items",
+      "example": "Prepaid bus fares are available at convenience stores."
+    },
+    "image": {
+      "media": "ppt/media/image7.jpeg",
+      "originalSha256": "584d72a8c24993dcce042bb51705097d005793370e137f1157734c05c5197776",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 43357,
+      "publishedBytes": 9408,
+      "image": "/assets/unit-14/convenience.0dfb338c6a6d.webp"
+    }
+  },
+  {
+    "id": "bir-u14-dramatic",
+    "slide": 9,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "dramatic",
+      "pos": "adj.",
+      "definition": "very striking or impressive",
+      "example": "Visitors can admire the dramatic scenery of the Sooke Hills."
+    },
+    "image": {
+      "media": "ppt/media/image8.jpeg",
+      "originalSha256": "ec856b1b465af0cc5fbddd569c3b1059cd7e8e253ac2f8fc5dce2d111d8ff46d",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 65053,
+      "publishedBytes": 22048,
+      "image": "/assets/unit-14/dramatic.efa0088d92f6.webp"
+    }
+  },
+  {
+    "id": "bir-u14-embrace",
+    "slide": 10,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "embrace",
+      "pos": "v.",
+      "definition": "to surround or include something",
+      "example": "The coastal views and hills embrace the city of Victoria."
+    },
+    "image": {
+      "media": "ppt/media/image9.jpeg",
+      "originalSha256": "c7ec7436c79bdc918c1a416de143bb9e006d60f1db5d07cb1dbecc1ddc12092b",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 17694,
+      "publishedBytes": 3890,
+      "image": "/assets/unit-14/embrace.4b6ca59ba33e.webp"
+    }
+  },
+  {
+    "id": "bir-u14-explorer",
+    "slide": 11,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "explorer",
+      "pos": "n.",
+      "definition": "a person who travels around a place to discover it",
+      "example": "An explorer can discover Victoria by travelling on local buses."
+    },
+    "image": {
+      "media": "ppt/media/image10.jpeg",
+      "originalSha256": "b67439c2b71de0a4f1557bf953ed8f545cf0e3a9ad52c1076dc8ff06b45635cf",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 63280,
+      "publishedBytes": 15492,
+      "image": "/assets/unit-14/explorer.b37117164c66.webp"
+    }
+  },
+  {
+    "id": "bir-u14-ferry",
+    "slide": 12,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "ferry",
+      "pos": "n.",
+      "definition": "a boat that regularly carries passengers or vehicles across water",
+      "example": "The buses connect travellers with several ferry terminals."
+    },
+    "image": {
+      "media": "ppt/media/image11.jpeg",
+      "originalSha256": "86d02468703902ddd9c0fb47d7c56839ec1de1c6859a5f7e44294db864acd5a4",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 541,
+      "height": 360,
+      "originalBytes": 1413894,
+      "publishedBytes": 38114,
+      "image": "/assets/unit-14/ferry.6cc4a05e89ca.webp"
+    }
+  },
+  {
+    "id": "bir-u14-frequency",
+    "slide": 13,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "frequency",
+      "pos": "n.",
+      "definition": "how often something happens or a service operates",
+      "example": "Some suburban buses have a lower frequency than busy urban routes."
+    },
+    "image": {
+      "media": "ppt/media/image12.jpeg",
+      "originalSha256": "fe5dd707e071fb5ee70d0c98433c889a5988865f1ba51b5bbaab313f165a2663",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 16555,
+      "publishedBytes": 7708,
+      "image": "/assets/unit-14/frequency.695fd6b548c1.webp"
+    }
+  },
+  {
+    "id": "bir-u14-harbour",
+    "slide": 14,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "harbour",
+      "pos": "n.",
+      "definition": "a sheltered area of water where boats can stay",
+      "example": "Tourists can enjoy views of Esquimalt Harbour."
+    },
+    "image": {
+      "media": "ppt/media/image13.jpeg",
+      "originalSha256": "75bb1cc342df73f94ebbc2c2390afb3bce33060fb77c49f1e28a440f438d7c62",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 37838,
+      "publishedBytes": 25386,
+      "image": "/assets/unit-14/harbour.c010dbe17058.webp"
+    }
+  },
+  {
+    "id": "bir-u14-identify",
+    "slide": 15,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "identify",
+      "pos": "v.",
+      "definition": "to recognise or tell which person or thing something is",
+      "example": "Bus-stop signs help passengers identify the correct route."
+    },
+    "image": {
+      "media": "ppt/media/image14.jpeg",
+      "originalSha256": "9e3e924a2706397084298007a7e8f15c5af189c0ee2d066ad29228f051c41f2e",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 340,
+      "height": 340,
+      "originalBytes": 8459,
+      "publishedBytes": 5446,
+      "image": "/assets/unit-14/identify.fedb83104d4c.webp"
+    }
+  },
+  {
+    "id": "bir-u14-marine",
+    "slide": 16,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "marine",
+      "pos": "adj.",
+      "definition": "relating to the sea",
+      "example": "Passengers can enjoy marine views of the harbour."
+    },
+    "image": {
+      "media": "ppt/media/image15.jpeg",
+      "originalSha256": "725ab8f0a14b5464cdc0ae09386a359627ca0a95f648364de41a7105e0d1efa4",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 180,
+      "height": 360,
+      "originalBytes": 235782,
+      "publishedBytes": 24172,
+      "image": "/assets/unit-14/marine.4270b59c2e5f.webp"
+    }
+  },
+  {
+    "id": "bir-u14-panel",
+    "slide": 17,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "panel",
+      "pos": "n.",
+      "definition": "a flat section of a surface, such as the side of a bus",
+      "example": "The route number appears on the side panels of the bus."
+    },
+    "image": {
+      "media": "ppt/media/image16.jpeg",
+      "originalSha256": "7e27035ece6210ec94afeaefe5016643e3b831cc2dda2f14d98544f997e66ac5",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 21248,
+      "publishedBytes": 4088,
+      "image": "/assets/unit-14/panel.dde438db766c.webp"
+    }
+  },
+  {
+    "id": "bir-u14-partnership",
+    "slide": 18,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "partnership",
+      "pos": "n.",
+      "definition": "an arrangement in which organisations work together",
+      "example": "Victoria Regional Transit operates in partnership with BC Transit."
+    },
+    "image": {
+      "media": "ppt/media/image17.jpeg",
+      "originalSha256": "69b09a71801a87430db52dcaa68ff09dd371c374ede74f448d159ffdb22352d1",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 47765,
+      "publishedBytes": 9260,
+      "image": "/assets/unit-14/partnership.77e5e7a8f047.webp"
+    }
+  },
+  {
+    "id": "bir-u14-prepay",
+    "slide": 19,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "prepay",
+      "pos": "v.",
+      "definition": "to pay for something before using it",
+      "example": "Passengers can prepay for travel by buying a day pass in advance."
+    },
+    "image": {
+      "media": "ppt/media/image18.jpeg",
+      "originalSha256": "37cc66fbd0a63c94238275765e37d18c370dcec2877bec0466b8ac333eda14e5",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 17552,
+      "publishedBytes": 9312,
+      "image": "/assets/unit-14/prepay.901060682d25.webp"
+    }
+  },
+  {
+    "id": "bir-u14-ramp",
+    "slide": 20,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "ramp",
+      "pos": "n.",
+      "definition": "a sloping surface connecting two different levels",
+      "example": "A bus ramp helps people using wheelchairs get on board."
+    },
+    "image": {
+      "media": "ppt/media/image19.jpeg",
+      "originalSha256": "02942a15595e39e05fc116ff69e1e8dd43ef2ee706844314d78e4e9ac192c471",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 12339,
+      "publishedBytes": 6474,
+      "image": "/assets/unit-14/ramp.3977cb6dfad0.webp"
+    }
+  },
+  {
+    "id": "bir-u14-rear",
+    "slide": 21,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "rear",
+      "pos": "adj.",
+      "definition": "located at the back of something",
+      "example": "The route number is also shown in the bus's rear window."
+    },
+    "image": {
+      "media": "ppt/media/image20.jpeg",
+      "originalSha256": "1a6624bcee5d9cafa548042c1d39ec32a533be31c7635a3cb2bfec0336c43865",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 480,
+      "height": 360,
+      "originalBytes": 88946,
+      "publishedBytes": 24138,
+      "image": "/assets/unit-14/rear.2e270f18ff72.webp"
+    }
+  },
+  {
+    "id": "bir-u14-skinny",
+    "slide": 22,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "skinny",
+      "pos": "adj.",
+      "definition": "very thin or narrow",
+      "example": "A long, skinny sign marks a bus stop served by just one route."
+    },
+    "image": {
+      "media": "ppt/media/image21.jpeg",
+      "originalSha256": "60bdb3b20e502e020e16f89065d898495798ee41104cfecf93bdfebcba82f292",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 182,
+      "height": 360,
+      "originalBytes": 12092,
+      "publishedBytes": 4068,
+      "image": "/assets/unit-14/skinny.2d1d294bb54a.webp"
+    }
+  },
+  {
+    "id": "bir-u14-stroller",
+    "slide": 23,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "stroller",
+      "pos": "n.",
+      "definition": "a small chair with wheels used to push a baby or young child",
+      "example": "Low-floor buses are easier for parents pushing baby strollers."
+    },
+    "image": {
+      "media": "ppt/media/image22.jpeg",
+      "originalSha256": "0243735ee0d09bd9d2eb698d417c0286a1aff51e5f4d53db7dad29fe3d6650ab",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 10831,
+      "publishedBytes": 5070,
+      "image": "/assets/unit-14/stroller.11b35299ecc4.webp"
+    }
+  },
+  {
+    "id": "bir-u14-terminal",
+    "slide": 24,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "terminal",
+      "pos": "n.",
+      "definition": "a station or place where bus or ferry routes begin or end",
+      "example": "The transit system serves several ferry terminals."
+    },
+    "image": {
+      "media": "ppt/media/image23.jpeg",
+      "originalSha256": "54872e1b41d022a4c348e8b16671834488babd2e06ac3c22c7629aed92ed8778",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 477,
+      "height": 360,
+      "originalBytes": 82929,
+      "publishedBytes": 29122,
+      "image": "/assets/unit-14/terminal.1939036ae63c.webp"
+    }
+  },
+  {
+    "id": "bir-u14-transfer",
+    "slide": 25,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "transfer",
+      "pos": "n.",
+      "definition": "a ticket allowing a passenger to change to a connecting bus",
+      "example": "Ask the driver for a free transfer if you need another bus."
+    },
+    "image": {
+      "media": "ppt/media/image24.jpeg",
+      "originalSha256": "1be1cd645e52c249bf845b2f7fdb215f3ca150828bc28ccd48fb6ca7d4060405",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 53224,
+      "publishedBytes": 9952,
+      "image": "/assets/unit-14/transfer.78a9519dd333.webp"
+    }
+  },
+  {
+    "id": "bir-u14-transit",
+    "slide": 26,
+    "passage": 1,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "transit",
+      "pos": "n.",
+      "definition": "a system of public transport carrying passengers",
+      "example": "Victoria's public transit system runs seven days a week."
+    },
+    "image": {
+      "media": "ppt/media/image25.jpeg",
+      "originalSha256": "1ad9bba8696d1ea41615e5a48e24494a1fbf1f537932876ffedba4503196b365",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 680,
+      "height": 340,
+      "originalBytes": 47006,
+      "publishedBytes": 37246,
+      "image": "/assets/unit-14/transit.ba9a6b98876f.webp"
+    }
+  },
+  {
+    "id": "bir-u14-behave",
+    "slide": 27,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "behave",
+      "pos": "v.",
+      "definition": "to act in a particular way, especially well or badly",
+      "example": "Some students behave badly and interrupt lessons."
+    },
+    "image": {
+      "media": "ppt/media/image26.jpeg",
+      "originalSha256": "bb9942674a91a7c92b3639c05a585247ac6aac19bcb8b2938fbf300074c03d0b",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 680,
+      "height": 302,
+      "originalBytes": 66527,
+      "publishedBytes": 25084,
+      "image": "/assets/unit-14/behave.3866d137ce3c.webp"
+    }
+  },
+  {
+    "id": "bir-u14-blame",
+    "slide": 28,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "blame",
+      "pos": "v.",
+      "definition": "to say that someone or something is responsible for a problem",
+      "example": "Some people blame television for problems in public education."
+    },
+    "image": {
+      "media": "ppt/media/image27.jpeg",
+      "originalSha256": "4737713aeae36590e135ebe03a64a5af0ca84daedba545fe72dd0c6b04be2db6",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 31983,
+      "publishedBytes": 7200,
+      "image": "/assets/unit-14/blame.f282207591fb.webp"
+    }
+  },
+  {
+    "id": "bir-u14-board",
+    "slide": 29,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "board",
+      "pos": "n.",
+      "definition": "a group of people responsible for managing an organisation",
+      "example": "Parents put pressure on members of the local school board."
+    },
+    "image": {
+      "media": "ppt/media/image28.jpeg",
+      "originalSha256": "a74e3908142457a27e61d6c88d8c94f39f719e2d7404159f1accd0b51d3d0538",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 47475,
+      "publishedBytes": 11756,
+      "image": "/assets/unit-14/board.1affb810253f.webp"
+    }
+  },
+  {
+    "id": "bir-u14-criticise",
+    "slide": 30,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "criticise",
+      "pos": "v.",
+      "definition": "to express disapproval of someone or something",
+      "example": "Some history books criticise mistakes made by the U.S. in the past."
+    },
+    "image": {
+      "media": "ppt/media/image29.jpeg",
+      "originalSha256": "1a364d8d046fe9f7e9afacaac19844c8fef6f3f073f3a1fb1e81dd8be7758cd4",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 190,
+      "height": 360,
+      "originalBytes": 37060,
+      "publishedBytes": 7916,
+      "image": "/assets/unit-14/criticise.93f0cf4cb074.webp"
+    }
+  },
+  {
+    "id": "bir-u14-decrease",
+    "slide": 31,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "decrease",
+      "pos": "v.",
+      "definition": "to become smaller in number or amount",
+      "example": "The number of students who struggle with reading is not decreasing."
+    },
+    "image": {
+      "media": "ppt/media/image30.jpeg",
+      "originalSha256": "6dd18d89d9e4629215b2fab0ae20a49b5065d9c86579a38bd2bfb86ec9887e16",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 6575,
+      "publishedBytes": 2312,
+      "image": "/assets/unit-14/decrease.c8335dcd610a.webp"
+    }
+  },
+  {
+    "id": "bir-u14-depress",
+    "slide": 32,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "depress",
+      "pos": "v.",
+      "definition": "to make someone feel sad, unhappy, or discouraged",
+      "example": "Poor examination results can depress both teachers and parents."
+    },
+    "image": {
+      "media": "ppt/media/image31.jpeg",
+      "originalSha256": "76b38f93b1a19849c8a4d864a59da321ed2dcd0a5f6c68e7767412b3621b778a",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 453,
+      "height": 360,
+      "originalBytes": 21345,
+      "publishedBytes": 8250,
+      "image": "/assets/unit-14/depress.ab67b377a068.webp"
+    }
+  },
+  {
+    "id": "bir-u14-disturb",
+    "slide": 33,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "disturb",
+      "pos": "v.",
+      "definition": "to interrupt a class or prevent people from working peacefully",
+      "example": "Students who talk loudly can disturb the whole class."
+    },
+    "image": {
+      "media": "ppt/media/image32.jpeg",
+      "originalSha256": "491eda9f0e9fda0167b29feda00067d77ebba68a03df2c8db959aec2eb99459b",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 471,
+      "height": 360,
+      "originalBytes": 38296,
+      "publishedBytes": 12344,
+      "image": "/assets/unit-14/disturb.088a4c4cf3b9.webp"
+    }
+  },
+  {
+    "id": "bir-u14-divorce",
+    "slide": 34,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "divorce",
+      "pos": "v.",
+      "definition": "to legally end a marriage",
+      "example": "Some schoolbooks describe parents who have divorced."
+    },
+    "image": {
+      "media": "ppt/media/image33.jpeg",
+      "originalSha256": "dd1b650c0efd3407dcff0bcb35d966f27f3df82f3706f27364299935a5c739e5",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 46344,
+      "publishedBytes": 10162,
+      "image": "/assets/unit-14/divorce.62dcff1c8ebb.webp"
+    }
+  },
+  {
+    "id": "bir-u14-object",
+    "slide": 35,
+    "passage": 2,
+    "source": "Unit 14 Vocabulary.pptx",
+    "original": {
+      "term": "object",
+      "pos": "v.",
+      "definition": "to express disagreement or opposition, often followed by \"to\"",
+      "example": "Some parents object to teachers hitting their children."
+    },
+    "image": {
+      "media": "ppt/media/image34.png",
+      "originalSha256": "91d940c0bab890b20cf4b090d9b454f03fcc4d679575c53c2f666c2c50e180b9",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 50959,
+      "publishedBytes": 16956,
+      "image": "/assets/unit-14/object.7ccc86c20066.webp"
+    }
+  }
+]

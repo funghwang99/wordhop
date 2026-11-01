@@ -16,7 +16,7 @@ assert.deepEqual([manifest.testCount,manifest.wordCount,manifest.readingQuestion
 assert.deepEqual([audio.trackCount,audio.tracks.length],[16,16]);
 assert.deepEqual(vocabulary.needsReview,[]);
 const units=catalog.units.filter(u=>u.bookId==='authentic-1');assert.equal(units.length,4);
-assert.equal(catalog.units.length,22);assert.equal(catalog.units.reduce((n,u)=>n+u.wordCount,0),935);
+assert.equal(catalog.units.length,23);assert.equal(catalog.units.reduce((n,u)=>n+u.wordCount,0),969);
 const context={window:{addEventListener(){}},document:{addEventListener(){}},localStorage:{getItem(){return null;}},setTimeout,clearTimeout};
 vm.createContext(context);
 for(const module of ['reading.js','listening.js'])vm.runInContext(fs.readFileSync(path.join(dist,module),'utf8'),context);

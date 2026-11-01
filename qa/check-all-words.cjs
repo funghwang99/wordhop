@@ -37,3 +37,4 @@ console.log('PASS: old short-round settings migrate to All words; progress, scor
 
 require('./check-clear-results.cjs');
 require('./check-unit-13.cjs');
+require('./check-unit-14.cjs');
