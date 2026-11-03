@@ -1,6 +1,12 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const source=fs.readFileSync(path.join(__dirname,'../dist/flappy.js'),'utf8');
+const sprite=fs.readFileSync(path.join(__dirname,'../dist/assets/flappy-bird-yellow-v3.png'));
+assert.equal(sprite.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+assert.equal(sprite.readUInt32BE(16),76);
+assert.equal(sprite.readUInt32BE(20),54);
+assert.match(source,/this\.birdSprite\.src='assets\/flappy-bird-yellow-v3\.png'/);
+assert.match(source,/c\.drawImage\(this\.birdSprite/);
 const context={window:{},clearTimeout(){}};
 vm.createContext(context);
 vm.runInContext(source.replace('window.WordHopFlappy={','window.__FlappyVocabClass=FlappyVocab;window.WordHopFlappy={'),context);
