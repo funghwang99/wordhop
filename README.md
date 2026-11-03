@@ -188,8 +188,8 @@ The pixel-art bird can be controlled with Space/Arrow Up or tapping the game.
 The flight pauses when the bird reaches each pipe and a question asks students
 to choose the right word for an English definition. Choices unlock only after
 a short tap-safety delay, and students must confirm their selected answer.
-Correct answers earn 10 points; a passed pipe adds 5 points. Incorrect answers
-and collisions cost one of three hearts.
+Correct answers earn 10 points; a passed pipe adds 5 points. Incorrect answers cost one of three hearts. Colliding with a pipe,
+the ground, or the ceiling ends the run immediately, without opening a question.
 
 All 36 Unit 10 vocabulary words are supported, including illustrations and
 examples. Results, play again, missed-word review and clear saved results use
