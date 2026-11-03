@@ -1,7 +1,7 @@
 /* WordHop Flappy Vocab v2 — self-contained original pixel-art canvas game. */
 'use strict';
 (() => {
- const W=900,H=480,GROUND=442,BIRD_HALF_W=34,BIRD_HALF_H=24,PIPE_W=88,PIPE_CAP=8,PIPE_SPEED=160,APPROACH_MARGIN=20;
+ const W=900,H=480,GROUND=442,BIRD_HALF_W=38,BIRD_HALF_H=27,PIPE_W=88,PIPE_CAP=8,PIPE_SPEED=160,APPROACH_MARGIN=20;
  const clamp=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));
  const shuffle=xs=>{const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
  const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -32,6 +32,11 @@
     <div class="fv-below"><span><b>SPACE</b> / <b>↑</b> / tap to flap</span><button class="fv-small" type="button" data-fv="pause">Pause</button></div>
     <div class="fv-sr" id="fv-announcer" role="status" aria-live="polite"></div></section>`;
    this.canvas=this.root.querySelector('#fv-canvas');this.ctx=this.canvas.getContext('2d',{alpha:false});
+   // Dedicated lightweight pixel sprite cut from the user's approved illustration.
+   // An image asset keeps the eye, yellow body and striped orange beak crisp.
+   this.birdSprite=new Image();
+   this.birdSprite.decoding='async';
+   this.birdSprite.src='assets/flappy-bird-yellow-v3.png';
    this.ctx.imageSmoothingEnabled=false;this.overlay=this.root.querySelector('#fv-overlay');
    this.root.addEventListener('click',this.onClick);window.addEventListener('keydown',this.onKey);
    document.addEventListener('visibilitychange',this.onVisibility);window.addEventListener('pointerup',this.onPointerRelease);
@@ -46,7 +51,7 @@
   onPointerRelease(){this.flightPointerActive=false;}
   show(html){this.root.classList.add('fv-has-overlay');this.overlay.hidden=false;this.overlay.innerHTML=html;this.root.querySelector('[data-fv="pause"]').hidden=true;}
   hide(){this.root.classList.remove('fv-has-overlay');this.overlay.innerHTML='';this.overlay.hidden=true;this.root.querySelector('[data-fv="pause"]').hidden=this.state!=='playing';}
-  showReady(){this.show(`<div class="fv-panel fv-ready"><span class="fv-kicker">PIXEL ADVENTURE · WORDHOP</span><div class="fv-title-sprite" aria-hidden="true">🐦</div><h2>Flappy Vocab</h2><p>Fly through the gap to unlock a vocabulary question. Hit a pipe, the ground or the ceiling and it is Game Over. Wrong answers cost one heart.</p><div class="fv-rule"><span>♥ ♥ ♥</span> 3 hearts · ${this.words.length} vocabulary gates</div><button class="fv-button" type="button" data-fv="start">Start flying →</button></div>`);}
+  showReady(){this.show(`<div class="fv-panel fv-ready"><span class="fv-kicker">PIXEL ADVENTURE · WORDHOP</span><img class="fv-title-sprite" src="assets/flappy-bird-yellow-v3.png" alt="" aria-hidden="true"><h2>Flappy Vocab</h2><p>Fly through the gap to unlock a vocabulary question. Hit a pipe, the ground or the ceiling and it is Game Over. Wrong answers cost one heart.</p><div class="fv-rule"><span>♥ ♥ ♥</span> 3 hearts · ${this.words.length} vocabulary gates</div><button class="fv-button" type="button" data-fv="start">Start flying →</button></div>`);}
   start(){if(!this.words.length){this.show('<div class="fv-panel"><h2>No vocabulary yet</h2></div>');return;}this.state='playing';this.hide();this.bird.y=H/2;this.bird.vy=-135;this.spawn();this.canvas.focus({preventScroll:true});}
   spawn(){if(this.next>=this.words.length)return;const word=this.words[this.next++];this.pipes.push({x:W+42,word,gapY:193+Math.random()*80,gap:190,asked:false,unlocked:false,passed:false,hit:false});}
   flap(){this.bird.vy=-245;}
@@ -179,24 +184,19 @@
   }
   paintBird(c){
    c.save();c.translate(q4(this.bird.x),q4(this.bird.y));
-   // Hand-drawn original chunky sprite: white bird, big eyes and orange-red beak.
-   const P=4;const pixels=[
-    '.....KKKKKKK......',
-    '...KKWWWWWWWKK....',
-    '..KWWWWWWWWWWWK...',
-    '.KWWWWKKWWKKWWWK..',
-    '.KWWWWKWWKWWKWWK..',
-    '.KWWWWKBBKBBKWWK..',
-    '.KWWWWKWWKWWKWWKK.',
-    '.KWWWWWKKWWKKWOORK',
-    '..KWWWWWWWWWWWORRK',
-    '..KKWWWWWWWWWKRRRK',
-    '....KWWWWWWWKKK...',
-    '.....KKKKKKK......'];
-   const colors={K:'#352233',W:'#ffffff',B:'#151a26',O:'#ffba3e',R:'#f05b30'};
-   for(let y=0;y<pixels.length;y++)for(let x=0;x<pixels[y].length;x++){const key=pixels[y][x];if(colors[key]){c.fillStyle=colors[key];c.fillRect(x*P-37,y*P-26,P,P);}}
-   const wingY=Math.sin(this.tick*20)>0?9:4;
-   c.fillStyle='#362434';c.fillRect(-22,wingY,22,12);c.fillStyle='#fff8de';c.fillRect(-19,wingY+3,15,5);
+   if(this.birdSprite?.complete&&this.birdSprite.naturalWidth){
+    // True pixel-art image, sized to the physical hitbox used by pipe collisions.
+    c.imageSmoothingEnabled=false;
+    c.drawImage(this.birdSprite,-BIRD_HALF_W,-BIRD_HALF_H,BIRD_HALF_W*2,BIRD_HALF_H*2);
+   }else{
+    // Initial frames while the image downloads: a compact yellow bird fallback.
+    c.fillStyle='#382735';c.fillRect(-29,-22,53,44);
+    c.fillStyle='#fff33e';c.fillRect(-25,-18,42,36);
+    c.fillStyle='#ffffff';c.fillRect(3,-19,21,22);
+    c.fillStyle='#352233';c.fillRect(14,-14,6,12);
+    c.fillStyle='#ff7054';c.fillRect(14,6,21,6);c.fillRect(14,16,19,6);
+    c.fillStyle='#ffffff';c.fillRect(-27,-2,19,14);
+   }
    c.restore();
   }
   paintGateFlash(c){const p=this.current;if(!p)return;const opacity=.25+.4*Math.abs(Math.sin(this.tick*20));
