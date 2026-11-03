@@ -7,7 +7,7 @@ Authentic 1 with four tests and 243 words, and Basic IELTS Reading with
 Units 4–14 and 476 words. The total is 969 words across 23 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
-choice or fill-in-the-blank games without a word bank. Rounds default to all
+choice or fill-in-the-blank games without a word bank. Unit 10 of Basic IELTS Reading also includes Flappy Vocab. Rounds default to all
 words. The app includes card animations, pronunciation, feedback sounds and
 browser-local progress and results.
 
@@ -180,3 +180,19 @@ Victoria Explore and U.S. Public Schools: What's Wrong with Them include all
 answers and English explanations. All 40 questions are scored; Passage 2
 Question 17 requires four distinct choices and accepts them in any order.
 Source records and reproducible import instructions are under `source-assets/unit-14/`.
+
+## Flappy Vocab – Unit 10
+
+Only **Basic IELTS Reading – Unit 10** has **Flappy Vocab** under Practice.
+The pixel-art bird can be controlled with Space/Arrow Up or tapping the game.
+The flight pauses when the bird reaches each pipe and a question asks students
+to choose the right word for an English definition. Choices unlock only after
+a short tap-safety delay, and students must confirm their selected answer.
+Correct answers earn 10 points; a passed pipe adds 5 points. Incorrect answers
+and collisions cost one of three hearts.
+
+All 36 Unit 10 vocabulary words are supported, including illustrations and
+examples. Results, play again, missed-word review and clear saved results use
+the same local browser storage as the existing games. Other units keep their
+original three games. The feature is implemented without external dependencies
+in `dist/flappy.js` and `dist/flappy.css`.
