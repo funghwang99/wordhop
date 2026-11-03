@@ -35,6 +35,7 @@ for(const meta of catalog.units){
 console.log(`PASS: all ${catalog.units.length} units include every word once in each selected game; all matching sets complete.`);
 console.log('PASS: old short-round settings migrate to All words; progress, scores and sound preferences survive. New explicit short-round choices persist.');
 
+require('./check-flappy-collision.cjs');
 require('./check-clear-results.cjs');
 require('./check-unit-13.cjs');
 require('./check-unit-14.cjs');
