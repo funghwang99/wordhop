@@ -1,18 +1,27 @@
 /* WordHop Flappy Vocab v2 — self-contained original pixel-art canvas game. */
 'use strict';
 (() => {
- const W=900,H=480,GROUND=442,R=15,PIPE_W=88,PIPE_SPEED=160,APPROACH_MARGIN=26;
+ const W=900,H=480,GROUND=442,BIRD_HALF_W=34,BIRD_HALF_H=24,PIPE_W=88,PIPE_CAP=8,PIPE_SPEED=160,APPROACH_MARGIN=20;
  const clamp=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));
  const shuffle=xs=>{const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
  const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const q4=n=>Math.round(n/4)*4;
+ // Bird hitbox follows the pixel sprite; the cap extends beyond the pipe body.
+ // Use the same opening geometry for collisions and question triggers.
+ const insideGap=(bird,pipe)=>{
+  const top=pipe.gapY-pipe.gap/2+2,bottom=pipe.gapY+pipe.gap/2;
+  return bird.y-BIRD_HALF_H>=top&&bird.y+BIRD_HALF_H<=bottom;
+ };
+ const overlapsPipe=(bird,pipe)=>
+  pipe.x-PIPE_CAP<bird.x+BIRD_HALF_W&&pipe.x+PIPE_W+PIPE_CAP>bird.x-BIRD_HALF_W;
+
  let active=null;
  class FlappyVocab {
   constructor(container,config){
    this.root=container;this.opts=config;this.words=config.words||[];this.pool=config.pool||this.words;
    this.lives=3;this.correct=0;this.attempted=0;this.score=0;this.passed=0;
    this.bird={x:192,y:218,vy:0};this.pipes=[];this.next=0;this.state='ready';this.last=0;this.raf=0;
-   this.invulnerable=0;this.tick=0;this.current=null;this.choices=[];this.selectedIndex=-1;
+   this.tick=0;this.current=null;this.choices=[];this.selectedIndex=-1;
    this.approachRemaining=0;this.wasApproaching=false;this.answerReady=false;this.answerUnlockAt=0;
    this.answerTimer=0;this.lastFlapPointerTime=-1e9;this.flightPointerActive=false;
    this.onKey=this.onKey.bind(this);this.onVisibility=this.onVisibility.bind(this);this.onClick=this.onClick.bind(this);
@@ -37,7 +46,7 @@
   onPointerRelease(){this.flightPointerActive=false;}
   show(html){this.root.classList.add('fv-has-overlay');this.overlay.hidden=false;this.overlay.innerHTML=html;this.root.querySelector('[data-fv="pause"]').hidden=true;}
   hide(){this.root.classList.remove('fv-has-overlay');this.overlay.innerHTML='';this.overlay.hidden=true;this.root.querySelector('[data-fv="pause"]').hidden=this.state!=='playing';}
-  showReady(){this.show(`<div class="fv-panel fv-ready"><span class="fv-kicker">PIXEL ADVENTURE · WORDHOP</span><div class="fv-title-sprite" aria-hidden="true">🐦</div><h2>Flappy Vocab</h2><p>Fly to each green pipe. When you reach it, the flight freezes for a vocabulary challenge. Choose your answer, then confirm.</p><div class="fv-rule"><span>♥ ♥ ♥</span> 3 hearts · ${this.words.length} vocabulary gates</div><button class="fv-button" type="button" data-fv="start">Start flying →</button></div>`);}
+  showReady(){this.show(`<div class="fv-panel fv-ready"><span class="fv-kicker">PIXEL ADVENTURE · WORDHOP</span><div class="fv-title-sprite" aria-hidden="true">🐦</div><h2>Flappy Vocab</h2><p>Fly through the gap to unlock a vocabulary question. Hit a pipe, the ground or the ceiling and it is Game Over. Wrong answers cost one heart.</p><div class="fv-rule"><span>♥ ♥ ♥</span> 3 hearts · ${this.words.length} vocabulary gates</div><button class="fv-button" type="button" data-fv="start">Start flying →</button></div>`);}
   start(){if(!this.words.length){this.show('<div class="fv-panel"><h2>No vocabulary yet</h2></div>');return;}this.state='playing';this.hide();this.bird.y=H/2;this.bird.vy=-135;this.spawn();this.canvas.focus({preventScroll:true});}
   spawn(){if(this.next>=this.words.length)return;const word=this.words[this.next++];this.pipes.push({x:W+42,word,gapY:193+Math.random()*80,gap:190,asked:false,unlocked:false,passed:false,hit:false});}
   flap(){this.bird.vy=-245;}
@@ -57,31 +66,41 @@
    else if(this.state==='approach'){this.tick+=dt;this.approachRemaining-=dt;if(this.approachRemaining<=0)this.ask(this.current);}
    this.render();if(this.state!=='destroyed')this.raf=requestAnimationFrame(t=>this.frame(t));
   }
-  update(dt){this.tick+=dt;this.invulnerable=Math.max(0,this.invulnerable-dt);
+  update(dt){this.tick+=dt;
    this.bird.vy+=800*dt;this.bird.y+=this.bird.vy*dt;
-   if(this.bird.y<R+4){this.bird.y=R+4;this.bird.vy=75;this.damage('Ceiling hit!');}
-   if(this.bird.y>GROUND-R){this.bird.y=GROUND-R;this.bird.vy=-245;this.damage('Ground hit!');}
-   if(this.state!=='playing')return;
-   for(const pipe of this.pipes){pipe.x-=PIPE_SPEED*dt;
-    // Trigger only when the bird is right beside the leading edge of the pipe.
-    // The subsequent approach freeze is visible before any question appears.
-    if(!pipe.asked&&pipe.x<=this.bird.x+R+APPROACH_MARGIN){
-     pipe.x=this.bird.x+R+APPROACH_MARGIN;pipe.asked=true;this.current=pipe;
-     this.state='approach';this.approachRemaining=.34;this.bird.vy=0;
-     this.root.querySelector('#fv-announcer').textContent='Pipe reached. Vocabulary challenge approaching.';
+   if(this.bird.y-BIRD_HALF_H<=0){this.crash('You hit the ceiling!');return;}
+   if(this.bird.y+BIRD_HALF_H>=GROUND){this.crash('You hit the ground!');return;}
+   for(const pipe of this.pipes)pipe.x-=PIPE_SPEED*dt;
+   // Physical impacts always take priority over vocabulary questions.
+   for(const pipe of this.pipes){
+    if(overlapsPipe(this.bird,pipe)&&!insideGap(this.bird,pipe)){
+     this.crash('You hit a pipe!');return;
+    }
+   }
+   for(const pipe of this.pipes){
+    // Only a bird entirely inside the opening can unlock the gate.
+    if(!pipe.asked&&insideGap(this.bird,pipe)
+     &&pipe.x-PIPE_CAP<=this.bird.x+BIRD_HALF_W+APPROACH_MARGIN){
+     pipe.x=this.bird.x+BIRD_HALF_W+PIPE_CAP+APPROACH_MARGIN;
+     pipe.asked=true;this.current=pipe;this.state='approach';
+     this.approachRemaining=.34;this.bird.vy=0;
+     this.root.querySelector('#fv-announcer').textContent='Safe flight through the gap. Vocabulary challenge approaching.';
      return;
     }
-    if(pipe.asked&&!pipe.hit&&this.invulnerable<=0&&pipe.x<this.bird.x+R&&pipe.x+PIPE_W>this.bird.x-R){
-     const top=pipe.gapY-pipe.gap/2,bot=pipe.gapY+pipe.gap/2;
-     if(this.bird.y-R<top||this.bird.y+R>bot){pipe.hit=true;this.damage('You hit a pipe!');if(this.state!=='playing')return;}
+    if(!pipe.passed&&pipe.x+PIPE_W+PIPE_CAP<this.bird.x-BIRD_HALF_W){
+     pipe.passed=true;this.passed++;this.score+=5;this.refreshHUD();
     }
-    if(!pipe.passed&&pipe.x+PIPE_W<this.bird.x-R){pipe.passed=true;this.passed++;this.score+=5;this.refreshHUD();}
    }
-   this.pipes=this.pipes.filter(p=>p.x+PIPE_W>-40);
+   this.pipes=this.pipes.filter(p=>p.x+PIPE_W+PIPE_CAP>-40);
    if(this.next<this.words.length&&(!this.pipes.length||this.pipes[this.pipes.length-1].x<W-350))this.spawn();
    if(this.passed===this.words.length)this.complete(false);
   }
-  damage(message){if(this.invulnerable>0||this.state!=='playing')return;this.lives=Math.max(0,this.lives-1);this.invulnerable=1.05;this.opts.onCollision?.();this.root.querySelector('#fv-announcer').textContent=`${message} ${this.lives} hearts left.`;this.refreshHUD();if(!this.lives)this.complete(true);}
+  crash(message){
+   if(this.state!=='playing')return;
+   this.lives=0;this.refreshHUD();this.opts.onCollision?.();
+   this.root.querySelector('#fv-announcer').textContent=message+' Game over.';
+   this.complete(true,message);
+  }
   makeOptions(correct){const distinct=new Set([String(correct.term).toLowerCase().trim()]);const alternatives=shuffle(this.pool).filter(w=>{const k=String(w.term).toLowerCase().trim();if(distinct.has(k))return false;distinct.add(k);return true;}).slice(0,3);return shuffle([correct,...alternatives]).map(w=>({id:w.id,label:w.term}));}
   ask(pipe){if(this.state!=='approach'||!pipe)return;this.state='question';this.choices=this.makeOptions(pipe.word);this.selectedIndex=-1;this.answerReady=false;
    this.answerUnlockAt=performance.now()+620;
@@ -112,9 +131,9 @@
    this.root.querySelector('#fv-announcer').textContent=ok?'Correct answer. Ten points.':'Incorrect answer. One heart lost.';
   }
   continueAfterAnswer(){if(this.state!=='feedback')return;if(!this.lives){this.complete(true);return;}
-   this.state='playing';this.current=null;this.hide();this.bird.vy=-95;this.invulnerable=Math.max(this.invulnerable,.68);this.last=0;this.canvas.focus({preventScroll:true});
+   this.state='playing';this.current=null;this.hide();this.bird.vy=-95;this.last=0;this.canvas.focus({preventScroll:true});
   }
-  complete(early){if(['finished','destroyed'].includes(this.state))return;this.state='finished';clearTimeout(this.answerTimer);this.hide();this.opts.onFinish?.({score:this.score,passed:this.passed,endedEarly:!!early,correct:this.correct,attempted:this.attempted});}
+  complete(early,crashReason=''){if(['finished','destroyed'].includes(this.state))return;this.state='finished';clearTimeout(this.answerTimer);this.hide();this.opts.onFinish?.({score:this.score,passed:this.passed,endedEarly:!!early,correct:this.correct,attempted:this.attempted,crashReason});}
   render(){const c=this.ctx;if(!c)return;c.imageSmoothingEnabled=false;
    c.fillStyle='#4bc0c7';c.fillRect(0,0,W,H);
    this.paintClouds(c);this.paintCity(c);
@@ -160,7 +179,6 @@
   }
   paintBird(c){
    c.save();c.translate(q4(this.bird.x),q4(this.bird.y));
-   if(this.invulnerable>0&&Math.floor(this.tick*12)%2)c.globalAlpha=.5;
    // Hand-drawn original chunky sprite: white bird, big eyes and orange-red beak.
    const P=4;const pixels=[
     '.....KKKKKKK......',
@@ -186,5 +204,5 @@
    c.save();c.fillStyle='#ffffff';c.strokeStyle='#38272e';c.lineWidth=3;c.font='bold 26px monospace';c.textAlign='center';c.strokeText('WORD GATE!',W/2,60);c.fillText('WORD GATE!',W/2,60);c.restore();
   }
  }
- window.WordHopFlappy={mount(element,config){if(active)active.destroy();active=new FlappyVocab(element,config);return active;},stop(){if(active){active.destroy();active=null;}},getActive(){return active;}};
+ window.WordHopFlappy={geometry:{insideGap,overlapsPipe,BIRD_HALF_W,BIRD_HALF_H,PIPE_CAP},mount(element,config){if(active)active.destroy();active=new FlappyVocab(element,config);return active;},stop(){if(active){active.destroy();active=null;}},getActive(){return active;}};
 })();
