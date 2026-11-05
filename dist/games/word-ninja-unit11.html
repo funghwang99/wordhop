@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#111833"><meta name="description" content="Word Ninja, 2D IELTS vocabulary arcade game with 51 Unit 11 words."><title>Word Ninja · WordHop Arcade · Unit 11</title><style>
+:root{color-scheme:dark;--paper:#fff4db;--dim:#d1bfc7;--mint:#90f5d0;--gold:#f9cb69;--pink:#ff9cbd;--bg:#0b1227;--edge:#85698266}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#090f22;color:var(--paper);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+body{background:radial-gradient(ellipse 70% 29% at 50% 0%,#39476d 0,transparent 90%),linear-gradient(#111833,#0b1226 56%,#080e21);overflow-x:hidden}
+button,select{font:inherit}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible{outline:3px solid #a6ffe2;outline-offset:3px}
+.wrap{max-width:1050px;margin:auto;padding:14px 24px 35px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:17px}
+.logo{display:flex;align-items:center;gap:10px;min-width:0}.brandmark{height:37px;width:37px;display:grid;place-items:center;border-radius:11px;background:linear-gradient(145deg,#fa9e94,#f9c772);color:#39233e;font-size:20px;font-weight:1000;box-shadow:0 6px 22px #f9ab7850;transform:rotate(-5deg)}
+.logo strong{font-size:17px;letter-spacing:-.6px}.logo em{font-style:normal;color:#94f5d0}.course{font-size:11px;color:#dbd2e1;letter-spacing:1.5px;text-transform:uppercase;font-weight:850;text-align:right}
+.heading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:13px}.heading h1{font-size:clamp(27px,4vw,43px);margin:0;font-weight:1000;letter-spacing:-1.8px;line-height:1}.heading h1 span{color:#fb9cae}.heading p{font-size:12px;line-height:1.3;color:#c4b4c9;margin:7px 0 0}.badge{font-weight:900;font-size:10px;letter-spacing:1.7px;color:#a3f4d7;border:1px solid #56b99d7b;padding:8px 12px;border-radius:100px;background:#193b3a66;white-space:nowrap}
+.game-shell{background:#17203c;border:1px solid #736a9177;border-radius:19px;padding:13px;box-shadow:0 30px 80px #0008,inset 0 1px #ffffff20}
+.hud{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:9px;margin-bottom:10px}.stat{border:1px solid #5c638b63;background:#111a326b;border-radius:12px;min-height:57px;padding:8px 13px;display:flex;flex-direction:column;justify-content:center}.stat label{font-size:10px;letter-spacing:1.6px;font-weight:900;color:#bdb4cb}.stat strong{font-size:22px;letter-spacing:-.6px;font-weight:950;font-variant-numeric:tabular-nums}.stat.hearts strong{color:#ff91ab;letter-spacing:2px}
+.prompt{position:relative;display:grid;grid-template-columns:105px minmax(0,1fr) 88px;align-items:center;gap:12px;padding:14px 16px;margin-bottom:10px;border:1px solid #8b6f82ac;border-radius:13px;background:linear-gradient(112deg,#3e3652,#322e4f 53%,#283d55);min-height:88px;overflow:hidden}
+.prompt:before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 0% 50%,#f7ba7130,transparent 38%)}
+.prompt-label{z-index:1;color:#fdd78e;font-size:10px;letter-spacing:1.2px;font-weight:950;line-height:1.65}.prompt-label b{display:block;font-size:25px;color:#fff0df;letter-spacing:-1px}.definition{z-index:1;font-size:clamp(16px,2.5vw,22px);line-height:1.25;font-weight:850;letter-spacing:-.35px}.timer{z-index:1;text-align:center;justify-self:end;min-width:70px}.timer strong{font-size:25px;display:block;font-weight:950;font-variant-numeric:tabular-nums}.timer span{font-size:9px;font-weight:900;letter-spacing:1px;color:#bdb4cc}.timer.danger strong{color:#ff9b8f}
+.timerline{height:5px;margin-bottom:10px;background:#253149;border-radius:9px;overflow:hidden}.timerline span{display:block;height:100%;width:100%;background:linear-gradient(90deg,#f5bd72,#f390a9);transform-origin:left;transition:transform .12s linear}
+.stage{position:relative;overflow:hidden;border:1px solid #d1a99372;border-radius:12px;min-height:450px;height:clamp(450px,48vw,540px);background:#251c3b;isolation:isolate}
+canvas{display:block;width:100%;height:100%;touch-action:none;user-select:none;cursor:crosshair}
+.toast{position:absolute;z-index:4;top:12px;left:50%;transform:translate(-50%,-15px) scale(.94);opacity:0;pointer-events:none;text-align:center;width:min(80%,500px);padding:13px;border-radius:15px;border:1px solid #b2f9c7;background:#102c38de;box-shadow:0 16px 40px #130c25a3;transition:opacity .18s,transform .18s}
+.toast.active{opacity:1;transform:translate(-50%,0) scale(1)}.toast.bad{border-color:#ff9eaf;background:#502939e8}.toast strong{display:block;font-size:22px;letter-spacing:-.5px}.toast small{font-size:13px;color:#f7e6ea}
+.overlay{position:absolute;inset:0;z-index:6;display:flex;justify-content:center;align-items:center;padding:15px;overflow-y:auto;background:#110f2cb6;backdrop-filter:blur(8px)}.overlay[hidden]{display:none}
+.panel{position:relative;width:min(100%,515px);max-height:100%;overflow-y:auto;padding:clamp(19px,4vw,32px);text-align:center;border-radius:23px;background:linear-gradient(145deg,#332e4d 0,#252943 76%,#1d253b);border:1px solid #c5a28c9c;box-shadow:0 26px 70px #09081dba,inset 0 1px #ffffff2c}
+.eyebrow{font-size:10px;font-weight:950;color:#9fe9d0;letter-spacing:2px;text-transform:uppercase}.panel h2{font-size:clamp(38px,7vw,61px);line-height:.98;letter-spacing:-2.7px;margin:15px 0 12px;font-weight:1000;color:#fff0d8;text-shadow:0 4px #552c48}.panel h2 span{color:#ffaab0}.panel p{font-size:14px;margin:0 auto 18px;max-width:400px;line-height:1.45;color:#e1ccda}.panel .mascot{font-size:57px;display:block;filter:drop-shadow(0 7px 0 #1f1c33);transform:rotate(-9deg)}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:15px auto 20px;max-width:395px;text-align:left}.field label{display:block;font-size:10px;color:#d0bed1;font-weight:900;letter-spacing:1.2px;margin-bottom:7px}.field select{width:100%;height:43px;padding:8px 10px;color:#ffeacf;background:#1c253c;border:1px solid #706780;border-radius:11px;outline:0;font-weight:800;font-size:13px}
+.play-button{width:min(100%,345px);min-height:50px;border:0;border-radius:14px;background:linear-gradient(120deg,#ffc576,#ff8f9b);box-shadow:0 8px 0 #9e5270,0 15px 35px #ea776940;color:#3c2343;font-weight:1000;letter-spacing:.3px;font-size:16px}.play-button:active{transform:translateY(5px);box-shadow:0 3px 0 #9e5270,0 5px 25px #ea776930}
+.panel .tiny{margin:17px auto 0;color:#bdaec2;font-size:11px}.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:17px 0}.result-grid div{border-radius:12px;background:#131f38;border:1px solid #75647d66;padding:12px 5px}.result-grid strong{display:block;font-size:24px;color:#ffe5b2}.result-grid span{font-size:10px;color:#c6b5cf;font-weight:750}
+.review-title{text-align:left;font-size:10px;font-weight:950;letter-spacing:1.5px;color:#ffc4c8;margin:13px 3px 8px}.reviews{max-height:128px;overflow:auto;text-align:left;background:#141e36;border-radius:12px;padding:5px 11px;margin-bottom:18px}.reviews article{padding:7px 3px;border-bottom:1px solid #ffffff20}.reviews article:last-child{border-bottom:0}.reviews b{display:block;color:#ffbdad;font-size:13px}.reviews small{font-size:11px;color:#d9cbd6}
+.under{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:11px 4px 0}.under p{font-size:12px;color:#d1beca;margin:0}.under b{color:#fff0d1}.actions{display:flex;align-items:center;gap:8px}.small-btn{border:1px solid #706b8d;background:#252845;color:#efdfed;padding:9px 12px;border-radius:9px;font-weight:800;font-size:12px;min-height:36px}.small-btn:hover{background:#38405c}.small-btn:disabled{opacity:.45;cursor:not-allowed}
+.endnote{display:flex;justify-content:space-between;align-items:center;color:#887f9d;font-size:11px;padding:11px 3px}.endnote b{color:#c6b4cf}
+.prompt-label span{display:block;font-size:10px;letter-spacing:.6px;color:#9ff6da}.prompt-label b{margin-top:5px}.definition{overflow-wrap:break-word;}
+@media(max-width:660px){.wrap{padding:10px 9px 27px}.topbar{margin-bottom:10px}.logo strong{font-size:15px}.brandmark{width:31px;height:31px;font-size:17px}.course{font-size:9px;letter-spacing:.6px}.heading{margin-bottom:10px}.heading h1{font-size:29px}.heading p{font-size:10px}.badge{font-size:8px;padding:6px 8px}.game-shell{padding:7px;border-radius:13px}.hud{gap:4px;margin-bottom:7px}.stat{padding:7px 5px;min-height:46px;text-align:center;border-radius:8px}.stat label{font-size:8px;letter-spacing:.6px}.stat strong{font-size:17px}.stat.hearts strong{letter-spacing:0}.prompt{grid-template-columns:73px minmax(0,1fr) 43px;gap:6px;padding:9px;min-height:102px;margin-bottom:7px}.prompt-label{font-size:8px;letter-spacing:.4px;overflow-wrap:anywhere}.prompt-label b{font-size:15px}.definition{font-size:clamp(12px,3.25vw,16px);line-height:1.22}.timer{min-width:45px}.timer strong{font-size:19px}.timer span{font-size:8px}.timerline{margin-bottom:7px}.stage{height:min(110vw,510px);min-height:400px}.under{padding-top:9px}.under p{font-size:10px;line-height:1.25}.small-btn{font-size:10px;padding:8px}.toast{width:95%;padding:10px}.toast strong{font-size:18px}.toast small{font-size:11px}.panel{padding:22px 17px}.panel h2{font-size:43px}.panel .mascot{font-size:50px}.endnote{font-size:9px}}
+@media(max-width:365px){.stage{min-height:365px}.heading h1{font-size:25px}.prompt{grid-template-columns:67px minmax(0,1fr) 40px}.definition{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.toast,.play-button{transition:none}}
+
+
+body.embedded{background:#0d1429;min-height:0;overflow:hidden}
+body.embedded .wrap{max-width:100%;padding:4px 6px 8px}
+body.embedded .topbar,body.embedded .heading,body.embedded .foot{display:none}
+body.embedded .game-shell{margin:0}
+body.embedded .stage{height:clamp(270px,50vw,470px);aspect-ratio:auto}
+@media(max-width:660px){body.embedded .wrap{padding:2px}body.embedded .stage{height:375px}}
+</style></head>
+<body><div class="wrap">
+<header class="topbar"><div class="logo"><span class="brandmark">W</span><strong>WORDHOP <em>ARCADE</em></strong></div><span class="course">BASIC IELTS READING · UNIT 11</span></header>
+<div class="heading"><div><h1>WORD <span>NINJA</span> <span aria-hidden="true">⚔</span></h1><p>IELTS vocabulary: context, paraphrase, collocations and word forms.</p></div><div class="badge">2D · 51 WORDS</div></div>
+<main class="game-shell" aria-label="Word Ninja playable demo">
+<div class="hud"><div class="stat"><label>SCORE</label><strong id="score">0</strong></div><div class="stat"><label>COMBO</label><strong id="combo">×0</strong></div><div class="stat hearts"><label>HEARTS</label><strong id="hearts">♥ ♥ ♥</strong></div><div class="stat"><label>BEST</label><strong id="best">0</strong></div></div>
+<div class="prompt"><div class="prompt-label"><span id="taskType">IELTS TASK</span> <b id="wordCounter">0/51</b></div><div class="definition" id="definition">Read the IELTS task and slice the best answer!</div><div class="timer" id="timerChip"><strong id="timeText">∞</strong><span>TIME</span></div></div>
+<div class="timerline" aria-hidden="true"><span id="timeBar"></span></div>
+<div class="stage" id="stage"><canvas id="gameCanvas" tabindex="0" aria-label="Fruit slicing game. Swipe across the fruit with the best IELTS vocabulary answer. Avoid the bomb."></canvas><div class="toast" id="toast" aria-live="polite"></div><div class="overlay" id="overlay"></div></div>
+<div class="under"><p><b>SWIPE</b> across the correct fruit <span aria-hidden="true">✦</span> Avoid the bomb</p><div class="actions"><button class="small-btn" type="button" id="soundBtn" aria-label="Toggle sound">Sound on</button><button class="small-btn" type="button" id="pauseBtn" disabled>Pause</button></div></div>
+</main>
+<footer class="endnote"><span>WordHop · Unit 11 vocabulary</span><span>Independent preview · <b>Not on GitHub</b></span></footer>
+</div><script>
+/* WordHop Arcade · Word Ninja. Original offline 2D Canvas game, no external assets or libraries. */
+'use strict';
+(() => {
+const QUESTION_BANK = [
+ {
+  "term": "abuse",
+  "type": "WORD FORM",
+  "prompt": "The children had been ____ by adults responsible for their care.",
+  "answer": "abused",
+  "choices": [
+   "abused",
+   "abusive",
+   "abuse"
+  ],
+  "explanation": "The passive construction had been requires the past participle abused."
+ },
+ {
+  "term": "assault",
+  "type": "COLLOCATION",
+  "prompt": "The suspect was charged with ____ following a physical attack.",
+  "answer": "assault",
+  "choices": [
+   "assault",
+   "insult",
+   "crossfire"
+  ],
+  "explanation": "Charged with assault is the legal collocation for a violent physical attack."
+ },
+ {
+  "term": "bystander",
+  "type": "PARAPHRASE",
+  "prompt": "The witness saw the incident but took no part in it. Which noun best describes this person?",
+  "answer": "bystander",
+  "choices": [
+   "bystander",
+   "victim",
+   "criminal"
+  ],
+  "explanation": "A bystander observes an event without participating in it."
+ },
+ {
+  "term": "conservative",
+  "type": "CONTEXT",
+  "prompt": "The committee favoured a ____ approach, resisting major changes to its teaching methods.",
+  "answer": "conservative",
+  "choices": [
+   "conservative",
+   "communicative",
+   "electronic"
+  ],
+  "explanation": "Conservative describes a preference for established methods rather than change."
+ },
+ {
+  "term": "cop",
+  "type": "PARAPHRASE",
+  "prompt": "The novel uses an informal word for a police officer. Which word is it?",
+  "answer": "cop",
+  "choices": [
+   "cop",
+   "criminal",
+   "bystander"
+  ],
+  "explanation": "Cop is informal English for a police officer; it is not suitable for most formal IELTS essays."
+ },
+ {
+  "term": "criminal",
+  "type": "WORD FORM",
+  "prompt": "The police are investigating possible ____ activity involving the stolen equipment.",
+  "answer": "criminal",
+  "choices": [
+   "criminal",
+   "criminally",
+   "crime"
+  ],
+  "explanation": "Criminal is the adjective modifying activity; criminally is an adverb."
+ },
+ {
+  "term": "crisis",
+  "type": "COLLOCATION",
+  "prompt": "The charity provided emergency support to families in ____.",
+  "answer": "crisis",
+  "choices": [
+   "crisis",
+   "insult",
+   "issue"
+  ],
+  "explanation": "Families in crisis is an established phrase referring to serious difficulty."
+ },
+ {
+  "term": "crossfire",
+  "type": "CONTEXT",
+  "prompt": "Several uninvolved residents were caught in the ____ between two armed groups.",
+  "answer": "crossfire",
+  "choices": [
+   "crossfire",
+   "motive",
+   "assault"
+  ],
+  "explanation": "Crossfire refers to gunfire exchanged by opposing groups, which can endanger bystanders."
+ },
+ {
+  "term": "desensitise",
+  "type": "WORD FORM",
+  "prompt": "Repeated exposure to disturbing images may ____ viewers to violent content.",
+  "answer": "desensitise",
+  "choices": [
+   "desensitise",
+   "desensitised",
+   "desensitisation"
+  ],
+  "explanation": "After may, use the base-form verb desensitise, not a past participle or noun."
+ },
+ {
+  "term": "drug",
+  "type": "COLLOCATION",
+  "prompt": "The police launched an investigation into illegal ____ trafficking.",
+  "answer": "drug",
+  "choices": [
+   "drug",
+   "violence",
+   "criminal"
+  ],
+  "explanation": "Drug trafficking is the established term for the illegal trade in drugs."
+ },
+ {
+  "term": "fund",
+  "type": "PARAPHRASE",
+  "prompt": "An organisation set aside money specifically to support disadvantaged children. Which noun means this reserve?",
+  "answer": "fund",
+  "choices": [
+   "fund",
+   "tax",
+   "syllabus"
+  ],
+  "explanation": "A fund is money reserved or collected for a particular purpose."
+ },
+ {
+  "term": "insult",
+  "type": "CONTEXT",
+  "prompt": "The disagreement began with a verbal ____, not a physical attack.",
+  "answer": "insult",
+  "choices": [
+   "insult",
+   "assault",
+   "crisis"
+  ],
+  "explanation": "An insult is an offensive remark; an assault is a physical attack."
+ },
+ {
+  "term": "issue",
+  "type": "PARAPHRASE",
+  "prompt": "The article appeared in one particular edition of a weekly magazine. Which noun means edition?",
+  "answer": "issue",
+  "choices": [
+   "issue",
+   "syllabus",
+   "transcript"
+  ],
+  "explanation": "An issue is one published edition of a newspaper or magazine."
+ },
+ {
+  "term": "juvenile",
+  "type": "WORD FORM",
+  "prompt": "The court operates a specialist programme for ____ offenders under the age of eighteen.",
+  "answer": "juvenile",
+  "choices": [
+   "juvenile",
+   "juveniles",
+   "juvenility"
+  ],
+  "explanation": "Juvenile functions as an adjective before offenders; juveniles is the plural noun."
+ },
+ {
+  "term": "motive",
+  "type": "COLLOCATION",
+  "prompt": "Investigators struggled to establish a clear ____ for the attack.",
+  "answer": "motive",
+  "choices": [
+   "motive",
+   "context",
+   "sample"
+  ],
+  "explanation": "Motive for an attack means the underlying reason for carrying it out."
+ },
+ {
+  "term": "neglect",
+  "type": "CONTEXT",
+  "prompt": "The review criticised institutions that continued to ____ children’s basic needs.",
+  "answer": "neglect",
+  "choices": [
+   "neglect",
+   "compose",
+   "conduct"
+  ],
+  "explanation": "Neglect means to fail to provide necessary care or attention."
+ },
+ {
+  "term": "non-profit",
+  "type": "COLLOCATION",
+  "prompt": "The shelter is run by a ____ organisation that reinvests its income in public services.",
+  "answer": "non-profit",
+  "choices": [
+   "non-profit",
+   "conservative",
+   "communicative"
+  ],
+  "explanation": "A non-profit organisation exists for a purpose other than distributing profit to owners."
+ },
+ {
+  "term": "racism",
+  "type": "PARAPHRASE",
+  "prompt": "The report describes prejudice and unequal treatment based on racial background. Which noun is most precise?",
+  "answer": "racism",
+  "choices": [
+   "racism",
+   "violence",
+   "neglect"
+  ],
+  "explanation": "Racism concerns prejudice or discrimination on the basis of race."
+ },
+ {
+  "term": "rural",
+  "type": "WORD FORM",
+  "prompt": "The research focused on ____ communities far from large cities.",
+  "answer": "rural",
+  "choices": [
+   "rural",
+   "rurally",
+   "rurality"
+  ],
+  "explanation": "Rural is the adjective for countryside communities; rurally is an adverb."
+ },
+ {
+  "term": "sneaker",
+  "type": "CONTEXT",
+  "prompt": "The athlete replaced his worn-out ____ before the competition.",
+  "answer": "sneakers",
+  "choices": [
+   "sneakers",
+   "transcripts",
+   "syllabuses"
+  ],
+  "explanation": "Sneakers are casual or sports shoes. The plural fits the singular possessive his in this context."
+ },
+ {
+  "term": "spill",
+  "type": "WORD FORM",
+  "prompt": "The pupil accidentally ____ water onto the research notes yesterday.",
+  "answer": "spilled",
+  "choices": [
+   "spilled",
+   "spill",
+   "spilling"
+  ],
+  "explanation": "Yesterday requires a past-tense verb; spilled is the past form of spill."
+ },
+ {
+  "term": "state",
+  "type": "COLLOCATION",
+  "prompt": "Academic writers should ____ their main argument clearly in the introduction.",
+  "answer": "state",
+  "choices": [
+   "state",
+   "comment",
+   "compose"
+  ],
+  "explanation": "State an argument means express it directly and clearly."
+ },
+ {
+  "term": "suburban",
+  "type": "PARAPHRASE",
+  "prompt": "The school lies in a residential area just outside the city centre. Which adjective best fits?",
+  "answer": "suburban",
+  "choices": [
+   "suburban",
+   "rural",
+   "electronic"
+  ],
+  "explanation": "Suburban refers to residential districts on the outskirts of a city."
+ },
+ {
+  "term": "sufficient",
+  "type": "CONTEXT",
+  "prompt": "The sample was not ____ to justify such a broad conclusion.",
+  "answer": "sufficient",
+  "choices": [
+   "sufficient",
+   "obvious",
+   "oral"
+  ],
+  "explanation": "Sufficient means enough; the sentence questions whether the evidence is adequate."
+ },
+ {
+  "term": "suicide",
+  "type": "PARAPHRASE",
+  "prompt": "The public-health report discusses deaths caused by individuals intentionally ending their own lives. Which noun is used?",
+  "answer": "suicide",
+  "choices": [
+   "suicide",
+   "assault",
+   "neglect"
+  ],
+  "explanation": "Suicide is the formal noun for intentionally ending one’s own life."
+ },
+ {
+  "term": "torturer",
+  "type": "WORD FORM",
+  "prompt": "The survivor was able to identify one of the ____.",
+  "answer": "torturers",
+  "choices": [
+   "torturers",
+   "torture",
+   "torturous"
+  ],
+  "explanation": "One of the takes a plural count noun: torturers, meaning people who inflict severe suffering."
+ },
+ {
+  "term": "victim",
+  "type": "COLLOCATION",
+  "prompt": "A support worker was assigned to assist the ____ of the robbery.",
+  "answer": "victim",
+  "choices": [
+   "victim",
+   "motive",
+   "criminal"
+  ],
+  "explanation": "Victim of a crime identifies the person harmed by it."
+ },
+ {
+  "term": "violence",
+  "type": "CONTEXT",
+  "prompt": "The initiative aims to reduce youth ____ through education and early intervention.",
+  "answer": "violence",
+  "choices": [
+   "violence",
+   "syllabus",
+   "analysis"
+  ],
+  "explanation": "Violence is behaviour involving physical force that harms people."
+ },
+ {
+  "term": "analysis",
+  "type": "WORD FORM",
+  "prompt": "Researchers carried out a detailed ____ of the discussion transcripts.",
+  "answer": "analysis",
+  "choices": [
+   "analysis",
+   "analyse",
+   "analytical"
+  ],
+  "explanation": "Detailed is an adjective; analysis is the noun it modifies."
+ },
+ {
+  "term": "comment",
+  "type": "COLLOCATION",
+  "prompt": "The tutor asked students to make a constructive ____ on a classmate’s draft.",
+  "answer": "comment",
+  "choices": [
+   "comment",
+   "process",
+   "syllabus"
+  ],
+  "explanation": "Make a constructive comment is a natural phrase for giving useful feedback."
+ },
+ {
+  "term": "communicative",
+  "type": "PARAPHRASE",
+  "prompt": "An activity requires learners to exchange ideas and negotiate meaning. Which adjective describes it?",
+  "answer": "communicative",
+  "choices": [
+   "communicative",
+   "traditional",
+   "rural"
+  ],
+  "explanation": "Communicative activities involve an exchange of information or ideas."
+ },
+ {
+  "term": "compose",
+  "type": "CONTEXT",
+  "prompt": "Participants were asked to ____ a short argumentative essay together.",
+  "answer": "compose",
+  "choices": [
+   "compose",
+   "conduct",
+   "participate"
+  ],
+  "explanation": "Compose means write or create a piece of text."
+ },
+ {
+  "term": "conduct",
+  "type": "COLLOCATION",
+  "prompt": "The researchers plan to ____ a controlled experiment next semester.",
+  "answer": "conduct",
+  "choices": [
+   "conduct",
+   "compose",
+   "reflect"
+  ],
+  "explanation": "Conduct an experiment means organise and carry it out."
+ },
+ {
+  "term": "confident",
+  "type": "WORD FORM",
+  "prompt": "Regular feedback increased the students’ ____ in their writing abilities.",
+  "answer": "confidence",
+  "choices": [
+   "confidence",
+   "confident",
+   "confidently"
+  ],
+  "explanation": "The possessive students’ requires a noun: confidence."
+ },
+ {
+  "term": "context",
+  "type": "PARAPHRASE",
+  "prompt": "Without the surrounding situation, the speaker’s remark is hard to interpret. Which noun means that situation?",
+  "answer": "context",
+  "choices": [
+   "context",
+   "sample",
+   "syllabus"
+  ],
+  "explanation": "Context is the situation that gives an utterance its meaning."
+ },
+ {
+  "term": "conversational",
+  "type": "CONTEXT",
+  "prompt": "The researcher used a relaxed, ____ tone to encourage open discussion.",
+  "answer": "conversational",
+  "choices": [
+   "conversational",
+   "rural",
+   "significantly"
+  ],
+  "explanation": "Conversational describes language that resembles natural spoken interaction."
+ },
+ {
+  "term": "electronic",
+  "type": "COLLOCATION",
+  "prompt": "The platform stores ____ records rather than paper documents.",
+  "answer": "electronic",
+  "choices": [
+   "electronic",
+   "oral",
+   "rural"
+  ],
+  "explanation": "Electronic records are held digitally, in contrast with paper documents."
+ },
+ {
+  "term": "linguist",
+  "type": "PARAPHRASE",
+  "prompt": "A specialist who studies the structure and use of human language is a ____.",
+  "answer": "linguist",
+  "choices": [
+   "linguist",
+   "economist",
+   "bystander"
+  ],
+  "explanation": "A linguist studies language scientifically, not economic systems."
+ },
+ {
+  "term": "network",
+  "type": "CONTEXT",
+  "prompt": "The computers were connected through a local ____ so students could exchange documents.",
+  "answer": "network",
+  "choices": [
+   "network",
+   "syllabus",
+   "semester"
+  ],
+  "explanation": "A computer network connects devices and enables the sharing of information."
+ },
+ {
+  "term": "obvious",
+  "type": "WORD FORM",
+  "prompt": "It was ____ from the results that the online group participated more frequently.",
+  "answer": "obvious",
+  "choices": [
+   "obvious",
+   "obviously",
+   "obviousness"
+  ],
+  "explanation": "It was + adjective + that requires obvious, not an adverb or noun."
+ },
+ {
+  "term": "oral",
+  "type": "COLLOCATION",
+  "prompt": "The assessment required an ____ presentation delivered aloud instead of a written report.",
+  "answer": "oral",
+  "choices": [
+   "oral",
+   "electronic",
+   "suburban"
+  ],
+  "explanation": "Oral presentation refers to spoken delivery rather than written work."
+ },
+ {
+  "term": "participate",
+  "type": "WORD FORM",
+  "prompt": "The study measured learners’ ____ in online classroom discussions.",
+  "answer": "participation",
+  "choices": [
+   "participation",
+   "participate",
+   "participatory"
+  ],
+  "explanation": "Learners’ requires a noun: participation, meaning taking part."
+ },
+ {
+  "term": "process",
+  "type": "PARAPHRASE",
+  "prompt": "Drafting, revising and proofreading form a sequence of steps in academic writing. Which noun describes it?",
+  "answer": "process",
+  "choices": [
+   "process",
+   "sample",
+   "context"
+  ],
+  "explanation": "A process is a sequence of actions leading to an outcome."
+ },
+ {
+  "term": "sample",
+  "type": "CONTEXT",
+  "prompt": "Instead of analysing every essay, researchers selected a representative ____ of sixty papers.",
+  "answer": "sample",
+  "choices": [
+   "sample",
+   "transcript",
+   "syllabus"
+  ],
+  "explanation": "A sample is a smaller selection examined to represent a larger collection."
+ },
+ {
+  "term": "semester",
+  "type": "COLLOCATION",
+  "prompt": "The research project continued throughout the spring ____.",
+  "answer": "semester",
+  "choices": [
+   "semester",
+   "analysis",
+   "process"
+  ],
+  "explanation": "Spring semester is an academic term for a teaching period."
+ },
+ {
+  "term": "significantly",
+  "type": "WORD FORM",
+  "prompt": "Test scores improved ____ after students received additional writing practice.",
+  "answer": "significantly",
+  "choices": [
+   "significantly",
+   "significant",
+   "significance"
+  ],
+  "explanation": "Improved is modified by an adverb, significantly."
+ },
+ {
+  "term": "syllabus",
+  "type": "PARAPHRASE",
+  "prompt": "The document lists the topics, readings and assessment requirements for a course. Which word identifies it?",
+  "answer": "syllabus",
+  "choices": [
+   "syllabus",
+   "transcript",
+   "journal"
+  ],
+  "explanation": "A syllabus outlines course content and often assessment requirements."
+ },
+ {
+  "term": "traditional",
+  "type": "CONTEXT",
+  "prompt": "The control group received ____ face-to-face lessons rather than online instruction.",
+  "answer": "traditional",
+  "choices": [
+   "traditional",
+   "electronic",
+   "communicative"
+  ],
+  "explanation": "Traditional here contrasts established classroom teaching with online delivery."
+ },
+ {
+  "term": "transcript",
+  "type": "COLLOCATION",
+  "prompt": "The researcher prepared a verbatim ____ of the recorded interview.",
+  "answer": "transcript",
+  "choices": [
+   "transcript",
+   "syllabus",
+   "sample"
+  ],
+  "explanation": "A verbatim transcript is a word-for-word written record of speech."
+ },
+ {
+  "term": "virtually",
+  "type": "PARAPHRASE",
+  "prompt": "Nearly all students joined the online discussion. Which adverb can replace nearly?",
+  "answer": "virtually",
+  "choices": [
+   "virtually",
+   "significantly",
+   "traditionally"
+  ],
+  "explanation": "Virtually all means almost all; significantly and traditionally do not express that quantity."
+ },
+ {
+  "term": "whereas",
+  "type": "CONTEXT",
+  "prompt": "One class met in person, ____ the other communicated exclusively online.",
+  "answer": "whereas",
+  "choices": [
+   "whereas",
+   "virtually",
+   "significantly"
+  ],
+  "explanation": "Whereas introduces a contrast between the two classroom arrangements."
+ }
+];
+const WORDS=QUESTION_BANK.map(q=>({term:q.term,definition:q.explanation,example:q.prompt}));
+const TASK_TYPES=['CONTEXT','COLLOCATION','PARAPHRASE','WORD FORM'];
+function makeQuestionDeck(n){
+ const categories=shuffle(TASK_TYPES),buckets=Object.fromEntries(categories.map(t=>[t,shuffle(QUESTION_BANK.filter(q=>q.type===t))]));
+ const chosen=[];while(chosen.length<n){for(const type of categories){if(buckets[type].length)chosen.push(buckets[type].pop());if(chosen.length===n)break;}}
+ return chosen;
+}
+const $ = s => document.querySelector(s), clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+const rand=(a,b)=>Math.random()*(b-a)+a;
+const shuffle=x=>{const a=[...x];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const SAVE_KEY='wordhop.arcade.word-ninja.unit11.ielts.v1';
+const el={task:$('#taskType'),stage:$('#stage'),canvas:$('#gameCanvas'),overlay:$('#overlay'),toast:$('#toast'),def:$('#definition'),count:$('#wordCounter'),score:$('#score'),combo:$('#combo'),hearts:$('#hearts'),best:$('#best'),time:$('#timeText'),timer:$('#timerChip'),bar:$('#timeBar'),sound:$('#soundBtn'),pause:$('#pauseBtn')};
+const ctx=el.canvas.getContext('2d',{alpha:false});
+const TYPES=['watermelon','orange','strawberry','apple','kiwi','peach','plum'];
+const state={phase:'menu',deck:[],index:0,total:10,mode:'zen',timeLimit:0,remain:0,score:0,best:0,lives:3,combo:0,correct:0,attempted:0,missed:[],waveAge:0,feedbackRemaining:0,fruits:[],bomb:null,particles:[],halves:[],trail:[],petals:[],sound:true,audio:null,raf:0,last:0,elapsed:0,W:900,H:500,pointer:null,toastRemaining:0,toastBad:false,showBomb:true,shakes:0,roundEnded:false};
+try{let x=JSON.parse(localStorage.getItem(SAVE_KEY)||'{}');if(Number.isFinite(x.best))state.best=x.best;if(typeof x.sound==='boolean')state.sound=x.sound;}catch{}
+function persist(){try{localStorage.setItem(SAVE_KEY,JSON.stringify({best:state.best,sound:state.sound}));}catch{}}
+function initAudio(){if(!state.sound)return null;try{const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return null;state.audio??=new AC();if(state.audio.state==='suspended')state.audio.resume();return state.audio;}catch{return null;}}
+function tone(freq,duration=.1,type='sine',vol=.05,delay=0){const a=initAudio();if(!a)return;try{const o=a.createOscillator(),g=a.createGain(),t=a.currentTime+delay;o.type=type;o.frequency.setValueAtTime(freq,t);o.frequency.exponentialRampToValueAtTime(Math.max(50,freq*.75),t+duration);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(.0003,vol),t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+duration);o.connect(g);g.connect(a.destination);o.start(t);o.stop(t+duration+.01)}catch{}}
+function soundSlice(ok){tone(ok?620:220,.09,'triangle',.065);tone(ok?940:170,.15,'sine',.03,.055);if(ok&&state.combo>1)tone(1250,.11,'sine',.035,.13)}
+function soundBomb(){tone(95,.27,'sawtooth',.09);tone(65,.23,'triangle',.065,.07)}
+function refreshHUD(){el.score.textContent=state.score.toLocaleString('en-US');el.combo.textContent='×'+state.combo;el.hearts.textContent='♥ '.repeat(state.lives)+'♡ '.repeat(3-state.lives);el.hearts.setAttribute('aria-label',state.lives+' hearts remaining');el.best.textContent=Math.max(state.score,state.best).toLocaleString('en-US');el.count.textContent=(state.phase==='menu'?'0':state.phase==='feedback'||state.phase==='end'?Math.min(state.index,state.total):Math.min(state.index+1,state.total))+'/'+state.total;el.pause.disabled=!['playing','paused','feedback'].includes(state.phase);el.pause.textContent=state.phase==='paused'?'Resume':'Pause';el.sound.textContent=state.sound?'Sound on':'Sound off';el.timer.classList.toggle('danger',state.mode==='arcade'&&state.remain<3.5);el.time.textContent=state.mode==='zen'?'∞':Math.ceil(state.remain);el.bar.style.transform=state.mode==='zen'?'scaleX(1)':'scaleX('+clamp(state.remain/state.timeLimit,0,1)+')';}
+function overlay(html){el.overlay.hidden=false;el.overlay.innerHTML=html;}
+function hideOverlay(){el.overlay.hidden=true;el.overlay.innerHTML='';}
+function menu(){state.phase='menu';state.fruits=[];state.bomb=null;state.particles=[];state.halves=[];state.trail=[];state.pointer=null;state.roundEnded=false;el.def.textContent='Read the IELTS task and slice the best answer!';el.task.textContent='IELTS TASK';refreshHUD();overlay(`<section class="panel" aria-label="Word Ninja start menu"><span class="eyebrow">WORDHOP · UNIT 11</span><span class="mascot" aria-hidden="true">🍉</span><h2>WORD <span>NINJA</span></h2><p>Slice the best answer. Context, paraphrase, collocations and word forms alternate every round.</p><div class="choices"><div class="field"><label for="sizePick">WORDS</label><select id="sizePick"><option value="10">10 words</option><option value="20">20 words</option><option value="51" selected>All 51 words</option></select></div><div class="field"><label for="modePick">MODE</label><select id="modePick"><option value="zen">Practice · No timer</option><option value="arcade">Arcade · 22 seconds</option></select></div></div><button class="play-button" type="button" data-act="start">⚔ START SLICING</button><div class="tiny">IELTS B1+ to B2 · 3 hearts · Mouse or touch · Offline</div></section>`);}
+function startGame(){const size=Number($('#sizePick')?.value)||51;state.total=[10,20,51].includes(size)?size:51;state.mode=$('#modePick')?.value==='arcade'?'arcade':'zen';state.timeLimit=22;state.deck=makeQuestionDeck(state.total);state.index=0;state.correct=0;state.attempted=0;state.score=0;state.combo=0;state.lives=3;state.missed=[];state.halves=[];state.particles=[];state.trail=[];state.shakes=0;state.elapsed=0;state.roundEnded=false;state.phase='playing';state.last=0;initAudio();hideOverlay();nextWave();el.canvas.focus({preventScroll:true});}
+function nextWave(){if(state.lives<=0){finish(false);return;}if(state.index>=state.total){finish(true);return;}state.phase='playing';state.waveAge=0;state.remain=state.timeLimit;state.feedbackRemaining=0;state.trail=[];state.bomb=null;const q=state.deck[state.index];const options=shuffle(q.choices).map(term=>({term}));const W=state.W,H=state.H,r=clamp(W*.09,35,56);let kinds=shuffle(TYPES);state.fruits=options.map((word,i)=>({word,correct:word.term===q.answer,kind:kinds[i],radius:r,x:W*([.17,.5,.83][i]),y:H+80,targetY:H*(i===1?.49:.53),seed:rand(0,30),tilt:rand(-.12,.12),sliced:false,alive:true,index:i,color:kinds[i]}));state.showBomb=state.index>=2&&Math.random()<.35;
+if(state.showBomb)state.bomb={x:W*(Math.random()<.5?.335:.665),y:H+60,targetY:H*.30,r:clamp(W*.052,19,30),seed:rand(0,10),sliced:false};el.def.textContent=q.prompt;el.task.textContent=q.type;hideToast();refreshHUD();}
+function showToast(title,subtitle,bad=false,seconds=1.15){el.toast.className='toast active'+(bad?' bad':'');el.toast.innerHTML='<strong>'+esc(title)+'</strong><small>'+esc(subtitle)+'</small>';state.toastRemaining=seconds;}
+function hideToast(){el.toast.className='toast';el.toast.textContent='';state.toastRemaining=0;}
+function fadeToNext(delay=1.25){state.phase='feedback';state.feedbackRemaining=delay;state.pointer=null;refreshHUD();}
+function loseHeart(){state.lives=Math.max(0,state.lives-1);state.combo=0;state.shakes=.32;refreshHUD();}
+function resolveFruit(f){if(state.phase!=='playing'||!f||f.sliced)return;f.sliced=true;const ok=f.correct;state.attempted++;const answer=state.deck[state.index];if(ok){state.correct++;state.combo++;const bonus=Math.min(100,(state.combo-1)*20);state.score+=100+bonus;showToast('PERFECT SLICE!  +'+(100+bonus),state.combo>1?'COMBO ×'+state.combo+'  ·  '+answer.answer:answer.answer+'  ·  '+answer.explanation,false,1.23);soundSlice(true);}
+else {state.missed.push(answer);loseHeart();showToast('WRONG FRUIT  −1 ♥','Best answer: '+answer.answer,true,1.45);soundSlice(false)}
+state.halves.push({x:f.x,y:f.y,r:f.radius,kind:f.kind,age:0,vx:-145,vy:-110,rot:0,rotation:-.95,side:-1},{x:f.x,y:f.y,r:f.radius,kind:f.kind,age:0,vx:145,vy:-75,rot:0,rotation:.95,side:1});emitJuice(f.x,f.y,f.kind,ok?29:17);state.fruits.forEach(q=>{q.alive=false;});state.bomb=null;state.index++;refreshHUD();fadeToNext(ok?1.32:1.48);}
+function resolveBomb(){if(state.phase!=='playing'||!state.bomb||state.bomb.sliced)return;let b=state.bomb;b.sliced=true;state.bomb=null;loseHeart();emitBlast(b.x,b.y);soundBomb();showToast('BOOM!  −1 ♥','Watch out for bombs!',true,1.0);if(state.lives<=0){fadeToNext(.95);}else state.toastRemaining=1.0;}
+function missWave(){if(state.phase!=='playing')return;state.missed.push(state.deck[state.index]);state.attempted++;state.index++;loseHeart();state.fruits.forEach(f=>f.alive=false);state.bomb=null;showToast('MISSED!  −1 ♥','Best answer: '+state.deck[state.index-1].answer,true,1.35);tone(175,.17,'triangle',.05);fadeToNext(1.38);}
+function finish(completed){if(state.roundEnded)return;state.roundEnded=true;state.phase='end';state.best=Math.max(state.best,state.score);persist();refreshHUD();
+try{if(window.parent!==window&&new URLSearchParams(location.search).has('embed'))window.parent.postMessage({type:'wordhop-ninja-unit11-result',unitId:'bir-unit-11',total:state.total,correct:state.correct,attempted:state.attempted,score:state.score,completed:!!completed,missed:state.missed.map(q=>q.term)},location.origin);}catch{}
+const misses=state.missed.map(q=>'<article><b>'+esc(q.term)+' → '+esc(q.answer)+'</b><small>'+esc(q.explanation)+'</small></article>').join('');overlay(`<section class="panel" aria-label="Game results"><span class="eyebrow">${completed?'YOU MASTERED THE DOJO':'TIME TO TRAIN AGAIN'}</span><span class="mascot" aria-hidden="true">${completed?'🏆':'🍊'}</span><h2>${completed?'NINJA <span>MASTER!</span>':'GAME <span>OVER</span>'}</h2><p>${completed?'All words cleared. Great slicing!':'No hearts left. Try again and beat your score.'}</p><div class="result-grid"><div><strong>${state.score}</strong><span>POINTS</span></div><div><strong>${state.correct}/${state.attempted}</strong><span>CORRECT</span></div><div><strong>${state.index}/${state.total}</strong><span>WORDS</span></div></div>${misses?'<div class="review-title">WORDS TO REVIEW</div><div class="reviews">'+misses+'</div>':'<p style="color:#b9ffe1">Perfect vocabulary round!</p>'}<button class="play-button" data-act="menu">PLAY AGAIN ↗</button></section>`);}
+function pause(){if(!['playing','feedback'].includes(state.phase))return;state.phasePrior=state.phase;state.phase='paused';refreshHUD();overlay(`<section class="panel" aria-label="Game paused"><span class="eyebrow">GAME PAUSED</span><span class="mascot" aria-hidden="true">🍋</span><h2>TAKE A <span>BREAK</span></h2><p>Your fruit and score are frozen.</p><button class="play-button" data-act="resume">RESUME SLICING →</button><div class="tiny"><button class="small-btn" type="button" data-act="quit">Quit run</button></div></section>`)}
+function resume(){if(state.phase!=='paused')return;state.phase=state.phasePrior||'playing';hideOverlay();state.last=0;refreshHUD();el.canvas.focus({preventScroll:true});}
+function updateSize(){const b=el.stage.getBoundingClientRect(),w=Math.max(200,b.width),h=Math.max(220,b.height),dpr=Math.min(window.devicePixelRatio||1,2);let beforeW=state.W,beforeH=state.H;state.W=w;state.H=h;el.canvas.width=Math.round(w*dpr);el.canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.imageSmoothingEnabled=true;if(beforeW&&beforeH&&state.fruits.length){for(const f of state.fruits){f.x=f.x*w/beforeW;f.y=f.y*h/beforeH;f.targetY*=h/beforeH;f.radius=clamp(w*.09,35,56);}if(state.bomb){state.bomb.x*=w/beforeW;state.bomb.y*=h/beforeH;state.bomb.targetY*=h/beforeH;state.bomb.r=clamp(w*.052,19,30);}state.particles=[];state.halves=[];}reseedPetals();}
+function reseedPetals(){state.petals=Array.from({length:35},()=>({x:rand(0,state.W),y:rand(0,state.H),z:rand(.3,1.3),drift:rand(.6,1.8),seed:rand(0,10),size:rand(2,6),speed:rand(7,18)}));}
+function emitJuice(x,y,kind,n=25){const cs={watermelon:['#fc5065','#ffb9b7','#c8f17d'],orange:['#ffad3b','#ffe2a7'],strawberry:['#e44767','#ffadbc'],apple:['#ef4f61','#ffd08d'],kiwi:['#8bdc59','#eeffd2'],peach:['#ff989d','#fff0ba'],plum:['#bd6ce6','#ffd3ed']}[kind]||['#ffaaa6'];for(let i=0;i<n;i++){const angle=rand(-Math.PI,Math.PI),v=rand(55,260);state.particles.push({x,y,vx:Math.cos(angle)*v,vy:Math.sin(angle)*v-85,life:rand(.55,1.15),max:1.15,r:rand(2,7),color:cs[i%cs.length],type:'juice',spin:rand(-3,3)});}}
+function emitBlast(x,y){for(let i=0;i<42;i++){const ang=rand(0,Math.PI*2),sp=rand(80,340);state.particles.push({x,y,vx:Math.cos(ang)*sp,vy:Math.sin(ang)*sp,life:rand(.35,.85),max:.9,r:rand(3,9),color:shuffle(['#ffc271','#ff5769','#fbf0ce','#e67f37'])[0],type:'spark'});}}
+function update(dt){state.elapsed+=dt;if(state.shakes>0)state.shakes=Math.max(0,state.shakes-dt);for(const p of state.petals){p.y+=p.speed*dt;p.x+=Math.sin(state.elapsed*p.drift+p.seed)*.21;p.x+=5*dt;if(p.y>state.H+20){p.y=-20;p.x=rand(0,state.W)}if(p.x>state.W+10)p.x=-10;}
+for(let i=state.particles.length-1;i>=0;i--){let p=state.particles[i];p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=440*dt;p.vx*=Math.pow(.989,dt*60);p.life-=dt;if(p.life<=0)state.particles.splice(i,1);}
+for(let i=state.halves.length-1;i>=0;i--){let p=state.halves[i];p.age+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=600*dt;p.rot+=p.rotation*dt*3;if(p.age>1.7)state.halves.splice(i,1);}
+for(let i=state.trail.length-1;i>=0;i--){state.trail[i].life-=dt;if(state.trail[i].life<=0)state.trail.splice(i,1);}
+if(state.toastRemaining>0){state.toastRemaining-=dt;if(state.toastRemaining<=0)hideToast();}
+if(state.phase==='playing'){
+state.waveAge+=dt;const t=clamp(state.waveAge/.85,0,1),ease=1-Math.pow(1-t,3);
+for(const f of state.fruits){f.y=state.H+f.radius*1.8+(f.targetY-state.H-f.radius*1.8)*ease+Math.sin(state.elapsed*2.7+f.seed)*Math.min(7,t*10);f.x=state.W*([.17,.5,.83][f.index])+Math.sin(state.elapsed*1.3+f.seed)*Math.min(state.W*.011,9);f.tilt=Math.sin(state.elapsed*2.3+f.seed)*.10;}
+if(state.bomb){let b=state.bomb;b.y=state.H+80+(b.targetY-state.H-80)*ease+Math.sin(state.elapsed*2.1+b.seed)*6;}
+if(state.mode==='arcade'&&state.waveAge>.85){state.remain=Math.max(0,state.remain-dt);el.time.textContent=Math.ceil(state.remain);el.bar.style.transform='scaleX('+state.remain/state.timeLimit+')';el.timer.classList.toggle('danger',state.remain<3.5);if(state.remain<=0)missWave();}
+}
+if(state.phase==='feedback'){state.feedbackRemaining-=dt;if(state.feedbackRemaining<=0){if(!state.lives)finish(false);else nextWave();}}
+}
+function fillRound(x,y,w,h,r,c){ctx.fillStyle=c;ctx.beginPath();ctx.roundRect(x,y,w,h,Math.min(r,w/2,h/2));ctx.fill();}
+function path(points,fill){ctx.beginPath();points.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.closePath();ctx.fillStyle=fill;ctx.fill();}
+function drawBackground(){const W=state.W,H=state.H;
+const bg=ctx.createLinearGradient(0,0,0,H);bg.addColorStop(0,'#332b58');bg.addColorStop(.46,'#655272');bg.addColorStop(.72,'#b56d75');bg.addColorStop(1,'#45283e');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
+// Glowing moon and mountain silhouettes create a distinctive orchard-dojo atmosphere.
+const mx=W*.76,my=H*.19,mr=Math.min(96,W*.15);let halo=ctx.createRadialGradient(mx,my,1,mx,my,mr*2.6);halo.addColorStop(0,'#ffecb650');halo.addColorStop(.55,'#ffbda42d');halo.addColorStop(1,'#ffa79800');ctx.fillStyle=halo;ctx.fillRect(mx-mr*3,my-mr*3,mr*6,mr*6);
+ctx.fillStyle='#ffe2b0';ctx.beginPath();ctx.arc(mx,my,mr*.70,0,Math.PI*2);ctx.fill();ctx.fillStyle='#e6b9a777';ctx.beginPath();ctx.arc(mx-mr*.2,my+mr*.09,mr*.14,0,7);ctx.arc(mx+mr*.15,my-mr*.2,mr*.09,0,7);ctx.fill();
+path([[0,H*.62],[W*.14,H*.38],[W*.33,H*.61],[W*.52,H*.31],[W*.72,H*.59],[W*.91,H*.43],[W,H*.54],[W,H],[0,H]],'#483d64');
+path([[0,H*.68],[W*.14,H*.52],[W*.3,H*.72],[W*.49,H*.49],[W*.64,H*.68],[W*.83,H*.53],[W,H*.69],[W,H],[0,H]],'#38334f');
+ctx.fillStyle='#322b45';ctx.fillRect(0,H*.72,W,H*.28);
+// Layered hand-painted dojo gates (original motif, not game assets).
+function gate(x,y,s,alpha){ctx.save();ctx.globalAlpha=alpha;ctx.translate(x,y);ctx.scale(s,s);fillRound(-64,-9,128,11,3,'#382c44');fillRound(-51,0,12,75,3,'#422d42');fillRound(39,0,12,75,3,'#422d42');fillRound(-73,-18,146,9,3,'#ba6572');fillRound(-57,-25,114,5,2,'#f9bb9d');ctx.restore();}
+gate(W*.22,H*.48,clamp(W/800,.38,.8),.4);gate(W*.7,H*.59,clamp(W/770,.44,.85),.5);
+// Faint Japanese-style lanterns hang at the side, with warm light pools.
+for(const sign of [-1,1]){const x=sign<0?W*.065:W*.94;const l=ctx.createRadialGradient(x,H*.31,3,x,H*.31,W*.23);l.addColorStop(0,'#f4bc8755');l.addColorStop(1,'#f0ab6600');ctx.fillStyle=l;ctx.fillRect(x-W*.23,H*.12,W*.46,H*.39);ctx.strokeStyle='#1e1c37';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H*.245);ctx.stroke();fillRound(x-11,H*.245,22,40,9,'#f4c995');ctx.strokeStyle='#624354';ctx.lineWidth=2;ctx.strokeRect(x-11,H*.26,22,28);}
+// Foreground wood panels give a convincing slicing-table ground.
+let floor=ctx.createLinearGradient(0,H*.80,0,H);floor.addColorStop(0,'#714756');floor.addColorStop(1,'#241c35');ctx.fillStyle=floor;ctx.fillRect(0,H*.82,W,H*.18);ctx.strokeStyle='#e6a47f40';ctx.lineWidth=2;for(let j=0;j<11;j++){let yy=H*.82+j*H*.022;ctx.beginPath();ctx.moveTo(0,yy);ctx.lineTo(W,yy);ctx.stroke();}for(let j=0;j<9;j++){let xx=j*W/8;ctx.beginPath();ctx.moveTo(xx,H*.83);ctx.lineTo(xx,H);ctx.stroke();}
+// Black bamboo stalks with leaf clusters frame the action without hiding fruit.
+function bamboo(left){ctx.save();if(!left){ctx.translate(W,0);ctx.scale(-1,1)}for(let i=0;i<3;i++){let x=6+i*15;ctx.strokeStyle=['#26253f','#2d3146','#312b47'][i];ctx.lineWidth=7-i;ctx.beginPath();ctx.moveTo(x,H);ctx.bezierCurveTo(x-18,H*.5,x+15,H*.3,x-17,-35);ctx.stroke();for(let j=0;j<5;j++){let py=H*(.17+j*.17),px=x+Math.sin(py/77)*10;ctx.save();ctx.translate(px,py);ctx.rotate(-.6+j*.15);path([[0,0],[32,-7],[10,7]],'#282a42');path([[0,0],[25,11],[9,4]],'#34354e');ctx.restore();}}ctx.restore()};bamboo(true);bamboo(false);
+// Sakura petals move independently through the foreground.
+for(const p of state.petals){ctx.save();ctx.globalAlpha=.30*p.z;ctx.translate(p.x,p.y);ctx.rotate(Math.sin(state.elapsed+p.seed));ctx.fillStyle='#ffd4d8';ctx.beginPath();ctx.ellipse(0,0,p.size,p.size*.55,.35,0,7);ctx.fill();ctx.restore();}
+// Bottom dark gradient keeps gameplay focus in the center.
+let shade=ctx.createLinearGradient(0,0,0,H);shade.addColorStop(0,'#10112600');shade.addColorStop(.8,'#0b0d1e00');shade.addColorStop(1,'#080d1d6b');ctx.fillStyle=shade;ctx.fillRect(0,0,W,H);
+}
+const PALETTE={watermelon:{main:'#55c65d',light:'#b9f0a0',dark:'#276e43',pulp:'#f56a7b'},orange:{main:'#ffad40',light:'#ffe18c',dark:'#d95e35',pulp:'#ffe7a0'},strawberry:{main:'#f34f69',light:'#ffa2a9',dark:'#a93156',pulp:'#ffbac2'},apple:{main:'#eb5571',light:'#ffb3b0',dark:'#9d294a',pulp:'#ffe0a7'},kiwi:{main:'#95c95c',light:'#ddf9b2',dark:'#547a37',pulp:'#c9fb79'},peach:{main:'#ff9a80',light:'#ffe3af',dark:'#e7686a',pulp:'#ffdcad'},plum:{main:'#a471d2',light:'#d6a5ed',dark:'#613a86',pulp:'#eac4ef'}};
+function fruitBody(kind,r){const c=PALETTE[kind],g=ctx.createRadialGradient(-r*.42,-r*.45,1,0,0,r*1.3);g.addColorStop(0,c.light);g.addColorStop(.30,c.main);g.addColorStop(1,c.dark);ctx.fillStyle=g;ctx.strokeStyle='#2b244488';ctx.lineWidth=2;
+ctx.beginPath();if(kind==='strawberry'){ctx.moveTo(0,r*.97);ctx.bezierCurveTo(-r*.83,r*.28,-r*1.19,-r*.8,-r*.45,-r*.90);ctx.bezierCurveTo(-r*.08,-r*1.13,r*.08,-r*1.13,r*.45,-r*.9);ctx.bezierCurveTo(r*1.19,-r*.8,r*.83,r*.28,0,r*.97);}else ctx.ellipse(0,0,r*.98,r*(kind==='orange'?.94:1),0,0,Math.PI*2);ctx.fill();ctx.stroke();
+if(kind==='watermelon'){ctx.beginPath();ctx.arc(0,0,r*.80,0,7);ctx.fillStyle='#ecffb0';ctx.fill();ctx.beginPath();ctx.arc(0,0,r*.71,0,7);ctx.fillStyle='#f76f80';ctx.fill();for(let i=0;i<7;i++){let a=i*2.2,rr=r*.46;ctx.fillStyle='#47344c';ctx.save();ctx.translate(Math.cos(a)*rr,Math.sin(a)*rr);ctx.rotate(a);ctx.beginPath();ctx.ellipse(0,0,2,4.3,0,0,7);ctx.fill();ctx.restore();}}
+if(kind==='kiwi'){ctx.beginPath();ctx.arc(0,0,r*.80,0,7);ctx.fillStyle='#d8ff9d';ctx.fill();ctx.beginPath();ctx.arc(0,0,r*.25,0,7);ctx.fillStyle='#fff4cc';ctx.fill();for(let i=0;i<14;i++){let a=i*Math.PI/7;ctx.save();ctx.translate(Math.cos(a)*r*.52,Math.sin(a)*r*.52);ctx.rotate(a);fillRound(-1.5,-3,3,6,1.2,'#414a35');ctx.restore();}}
+if(kind==='orange'){for(let i=0;i<13;i++){let a=i*2.4,rr=r*.65;ctx.fillStyle='#ffdf9b7a';ctx.beginPath();ctx.arc(Math.cos(a)*rr,Math.sin(a)*rr,1.6,0,7);ctx.fill();}}
+if(kind==='strawberry'){for(let i=0;i<11;i++){let a=i*2.5,rr=r*(.35+(i%2)*.22);ctx.save();ctx.translate(Math.cos(a)*rr,Math.sin(a)*rr);ctx.rotate(a);fillRound(-1.5,-2,3,5,1,'#fff4ac');ctx.restore();}}
+if(['apple','plum','peach'].includes(kind)){const hi=ctx.createRadialGradient(-r*.3,-r*.5,0,-r*.3,-r*.5,r*.60);hi.addColorStop(0,'#fff6edb0');hi.addColorStop(1,'#ffffff00');ctx.fillStyle=hi;ctx.fillRect(-r,-r,r*2,r*2);}
+// Cut-out highlights and short stems create recognisable silhouettes.
+if(kind!=='watermelon'&&kind!=='kiwi'){
+ ctx.strokeStyle='#503746';ctx.lineWidth=Math.max(3,r*.08);ctx.lineCap='round';ctx.beginPath();ctx.moveTo(0,-r*.88);ctx.lineTo(r*.08,-r*1.12);ctx.stroke();
+ ctx.fillStyle='#65bf77';ctx.beginPath();ctx.ellipse(r*.25,-r*1.05,r*.29,r*.13,-.38,0,Math.PI*2);ctx.fill();
+}
+}
+function drawFruit(f){const r=f.radius;ctx.save();ctx.translate(f.x,f.y);ctx.rotate(f.tilt||0);
+ctx.save();ctx.shadowColor='#120b2e80';ctx.shadowBlur=16;ctx.shadowOffsetY=9;fruitBody(f.kind,r);ctx.restore();
+ctx.save();ctx.globalAlpha=.31;ctx.fillStyle='#ffffff';ctx.beginPath();ctx.ellipse(-r*.44,-r*.36,r*.15,r*.32,-.5,0,Math.PI*2);ctx.fill();ctx.restore();ctx.restore();drawWordLabel(f.x,f.y+r*.79,f.word.term,r);}
+function drawWordLabel(x,y,text,r){const W=state.W;const maxW=clamp(W*.29,87,171);const lines=wrapLabel(text,maxW-17,W<500?12:15);const font=W<500?12:15,lineHeight=font+2;let width=Math.max(W<500?75:92,...lines.map(line=>measureText(line,font)+23));width=Math.min(width,maxW);let height=lines.length*lineHeight+14;ctx.save();ctx.shadowColor='#0b0b20a6';ctx.shadowBlur=9;ctx.shadowOffsetY=4;fillRound(x-width/2,y,width,height,9,'#1d203de7');ctx.shadowColor='transparent';ctx.strokeStyle='#fce5c4c9';ctx.lineWidth=1.25;ctx.strokeRect(x-width/2+3,y+3,width-6,height-6);ctx.fillStyle='#fff7e5';ctx.font='900 '+font+'px ui-sans-serif,system-ui,Arial';ctx.textAlign='center';ctx.textBaseline='middle';for(let i=0;i<lines.length;i++)ctx.fillText(lines[i],x,y+height/2+(i-(lines.length-1)/2)*lineHeight,maxW-13);ctx.restore();}
+function measureText(str,font){ctx.save();ctx.font='900 '+font+'px ui-sans-serif,system-ui,Arial';const n=ctx.measureText(str).width;ctx.restore();return n;}
+function wrapLabel(text,width,font){if(measureText(text,font)<=width)return[text];if(!text.includes(' '))return[text];const arr=text.split(' '),lines=[''];for(let word of arr){let k=lines.length-1,t=(lines[k]+' '+word).trim();if(measureText(t,font)>width&&lines[k])lines.push(word);else lines[k]=t;}return lines.slice(0,3);}
+function drawBomb(b){if(!b)return;const x=b.x,y=b.y,r=b.r;ctx.save();ctx.translate(x,y);ctx.rotate(Math.sin(state.elapsed*4+b.seed)*.13);ctx.shadowColor='#160b2499';ctx.shadowBlur=18;ctx.shadowOffsetY=9;let g=ctx.createRadialGradient(-r*.5,-r*.6,2,0,0,r*1.3);g.addColorStop(0,'#62536b');g.addColorStop(.4,'#322b44');g.addColorStop(1,'#120e28');ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.fill();ctx.lineWidth=3;ctx.strokeStyle='#fd90a9';ctx.stroke();ctx.shadowBlur=0;fillRound(-r*.2,-r*1.18,r*.4,r*.3,3,'#ac8e83');ctx.strokeStyle='#ffd6a1';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(0,-r*1.1);ctx.quadraticCurveTo(r*.3,-r*1.5,r*.44,-r*1.48);ctx.stroke();ctx.fillStyle='#ffe3a3';ctx.beginPath();ctx.arc(r*.49,-r*1.50,4+Math.sin(state.elapsed*21)*2,0,7);ctx.fill();ctx.strokeStyle='#ff8f9f';ctx.lineWidth=3;for(let i=-1;i<=1;i++){ctx.beginPath();ctx.moveTo(i*9-4,-4);ctx.lineTo(i*9+3,3);ctx.moveTo(i*9+3,-4);ctx.lineTo(i*9-4,3);ctx.stroke()}ctx.restore();}
+function drawHalves(){for(const p of state.halves){ctx.save();ctx.globalAlpha=clamp((1.75-p.age)/.55,0,1);ctx.translate(p.x,p.y);ctx.rotate(p.rot);ctx.beginPath();if(p.side===-1)ctx.rect(-p.r-3,-p.r-6,p.r+5,2*p.r+12);else ctx.rect(0,-p.r-6,p.r+6,2*p.r+12);ctx.clip();fruitBody(p.kind,p.r);ctx.restore();ctx.save();ctx.globalAlpha=clamp(1-p.age/1.1,0,1);ctx.translate(p.x,p.y);ctx.rotate(p.rot);ctx.fillStyle=PALETTE[p.kind].pulp;ctx.fillRect(p.side<0?-4:0,-p.r*.73,4,p.r*1.46);ctx.restore();}}
+function drawParticles(){for(const p of state.particles){ctx.save();ctx.globalAlpha=clamp(p.life/p.max,0,1);ctx.fillStyle=p.color;ctx.beginPath();ctx.ellipse(p.x,p.y,p.r,p.r*(p.type==='juice'?.7:1),p.spin+p.x*.003,0,7);ctx.fill();ctx.restore();}}
+function drawTrail(){if(!state.trail.length)return;const t=state.trail;for(let i=1;i<t.length;i++){const a=t[i-1],b=t[i],alpha=clamp(Math.min(a.life,b.life)/.34,0,1);ctx.save();ctx.lineCap='round';ctx.strokeStyle='rgba(105,250,223,'+(alpha*.25)+')';ctx.lineWidth=20*alpha;ctx.shadowColor='#aaffee';ctx.shadowBlur=14;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();ctx.strokeStyle='rgba(255,253,222,'+alpha+')';ctx.lineWidth=4*alpha;ctx.shadowBlur=8;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();ctx.restore();}}
+function paint(){const W=state.W,H=state.H;if(!W||!H)return;ctx.save();if(state.shakes>0){let amt=state.shakes*11;ctx.translate(rand(-amt,amt),rand(-amt,amt));}drawBackground();if(state.phase==='playing'||state.phase==='feedback'||state.phase==='paused'){
+for(const f of state.fruits){if(f.alive&&state.phase==='playing')drawFruit(f);}if(state.bomb&&state.phase==='playing')drawBomb(state.bomb);
+}drawHalves();drawParticles();drawTrail();ctx.restore();}
+function frame(timestamp){const dt=state.last?Math.min(.05,(timestamp-state.last)/1000):0;state.last=timestamp;if(state.phase!=='paused')update(dt);paint();state.raf=requestAnimationFrame(frame);}
+function point(e){const r=el.canvas.getBoundingClientRect();return{x:(e.clientX-r.left),y:(e.clientY-r.top)};}
+function segmentCircle(a,b,c,r){const dx=b.x-a.x,dy=b.y-a.y,ll=dx*dx+dy*dy;if(!ll)return null;const t=clamp(((c.x-a.x)*dx+(c.y-a.y)*dy)/ll,0,1),xx=a.x+t*dx,yy=a.y+t*dy;return((xx-c.x)**2+(yy-c.y)**2<r*r)?t:null;}
+function trySlice(a,b){if(state.phase!=='playing'||state.waveAge<.35)return;let hits=[];for(const f of state.fruits){if(!f.alive||f.sliced)continue;const t=segmentCircle(a,b,f,f.radius*.83);if(t!==null)hits.push({t,type:'fruit',item:f})}if(state.bomb){let t=segmentCircle(a,b,state.bomb,state.bomb.r*.96);if(t!==null)hits.push({t,type:'bomb'})}if(!hits.length)return;hits.sort((x,y)=>x.t-y.t);if(hits[0].type==='fruit')resolveFruit(hits[0].item);else resolveBomb();}
+function down(e){if(state.phase!=='playing')return;if(e.button!==undefined&&e.button!==0)return;e.preventDefault();let p=point(e);state.pointer={id:e.pointerId,last:p,travel:0,start:p};state.trail.push({...p,life:.36});try{el.canvas.setPointerCapture(e.pointerId)}catch{}initAudio();}
+function move(e){if(!state.pointer||state.pointer.id!==e.pointerId)return;e.preventDefault();let p=point(e),old=state.pointer.last;state.pointer.last=p;state.pointer.travel+=Math.hypot(p.x-old.x,p.y-old.y);if(Math.hypot(p.x-old.x,p.y-old.y)>2){state.trail.push({...p,life:.36});if(state.trail.length>20)state.trail.shift();trySlice(old,p);}}
+function up(e){if(!state.pointer||state.pointer.id!==e.pointerId)return;e.preventDefault();let p=point(e);if(state.pointer.travel<15){ // A short tap slices too, for accessibility on small screens.
+ const a={x:p.x-14,y:p.y-8},b={x:p.x+14,y:p.y+8};state.trail.push({...a,life:.3},{...b,life:.35});trySlice(a,b);
+}state.pointer=null;}
+el.canvas.addEventListener('pointerdown',down);el.canvas.addEventListener('pointermove',move);el.canvas.addEventListener('pointerup',up);el.canvas.addEventListener('pointercancel',()=>state.pointer=null);
+el.overlay.addEventListener('click',e=>{let b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act;if(a==='start')startGame();if(a==='resume')resume();if(a==='quit')menu();if(a==='menu')menu();});
+el.pause.addEventListener('click',()=>state.phase==='paused'?resume():pause());el.sound.addEventListener('click',()=>{state.sound=!state.sound;persist();refreshHUD();if(state.sound)tone(590,.08);});
+window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==window.parent)return;if(e.data?.type==='wordhop-ninja-unit11-clear'){localStorage.removeItem(SAVE_KEY);state.best=0;refreshHUD();}});
+window.addEventListener('keydown',e=>{if(e.code==='Escape'||e.key.toLowerCase()==='p'){if(state.phase==='playing'||state.phase==='feedback')pause();else if(state.phase==='paused')resume();} });
+window.addEventListener('blur',()=>{if(state.phase==='playing')pause()});document.addEventListener('visibilitychange',()=>{if(document.hidden&&state.phase==='playing')pause()});
+if(new URLSearchParams(location.search).has('embed'))document.body.classList.add('embedded');
+window.addEventListener('resize',updateSize);if(window.ResizeObserver)new ResizeObserver(updateSize).observe(el.stage);
+updateSize();menu();refreshHUD();state.raf=requestAnimationFrame(frame);
+if(new URLSearchParams(location.search).has('debug')||window.__wordNinjaTestEnabled)window.__wordNinjaTest={WORDS,QUESTION_BANK,config:(n=10,mode='zen')=>{menu();$('#sizePick').value=String(n);$('#modePick').value=mode;startGame();},snapshot:()=>({phase:state.phase,index:state.index,score:state.score,hearts:state.lives,combo:state.combo,correct:state.correct,total:state.total,waveAge:state.waveAge,answer:state.deck[state.index]?.answer,taskType:state.deck[state.index]?.type,prompt:state.deck[state.index]?.prompt,deckTypes:state.deck.map(q=>q.type),deckTerms:state.deck.map(q=>q.term),fruits:state.fruits.map(f=>({term:f.word.term,x:f.x,y:f.y,r:f.radius,correct:f.correct})),bomb:state.bomb?{x:state.bomb.x,y:state.bomb.y}:null,halves:state.halves.length,particles:state.particles.length,missed:state.missed.map(q=>q.term)}),forceSlice:(correct=true)=>{const f=state.fruits.find(f=>f.correct===correct);if(f)resolveFruit(f);},forceBomb:()=>{if(!state.bomb)state.bomb={x:state.W*.5,y:state.H*.3,r:30,seed:1};resolveBomb();},forceMiss:()=>missWave(),advance:()=>{if(state.phase==='feedback'){state.feedbackRemaining=0;update(.02);}}};
+})();
+
+</script></body></html>
