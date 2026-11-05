@@ -196,3 +196,22 @@ examples. Results, play again, missed-word review and clear saved results use
 the same local browser storage as the existing games. Other units keep their
 original three games. The feature is implemented without external dependencies
 in `dist/flappy.js` and `dist/flappy.css`.
+
+## Arcade games by unit
+
+Each Basic IELTS Reading unit is assigned at most one dedicated arcade game.
+- **Unit 10:** Flappy Vocab (pixel bird, pipe gates).
+- **Unit 11:** Word Ninja (original HTML5 Canvas fruit-slicing game).
+
+Word Ninja uses **all 51 verified Unit 11 vocabulary entries**. Its 51 custom
+IELTS questions cycle through contextual completion, paraphrase, collocation
+and word formation (13/13/13/12). Full or shorter 10/20-word rounds, a
+practice mode without a timer, and an arcade mode with 22 seconds per question
+are offered. Mouse swipes, touch swipes, hearts, bombs, scoring, combos and
+missed-word review remain available. The game lives at
+`dist/games/word-ninja-unit11.html` and has no external dependencies.
+
+The Word Ninja embed reports completed sessions back to the main WordHop
+results history; the Unit 11 clear-results control also resets its saved
+high score. The original Matching, Multiple choice and Fill in the blanks
+practice activities remain available in all units.
