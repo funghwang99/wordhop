@@ -45,7 +45,7 @@ html = (ROOT / '_site/index.html').read_text()
 for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'styles.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 # Word Ninja is a self-contained nested page: preserve it in the published site.
-for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html']:
+for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html', 'games/word-hopper-unit14.html']:
     assert (ROOT / '_site' / game_path).read_bytes() == (ROOT / 'dist' / game_path).read_bytes()
     for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
         resolved = urljoin(base, game_path)
