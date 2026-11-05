@@ -1,0 +1,684 @@
+{
+  "id": "bir-unit-16",
+  "partLabel": "Passage",
+  "needsReview": [],
+  "sourceReview": [],
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Passage 1 · Which Is Better, Tap Water or Bottled Water?",
+      "instructions": "Follow the original instructions on the book pages. Questions 1–4: choose A, B or C. Questions 5–12: use NO MORE THAN THREE WORDS taken from the passage. Questions 13–20: choose YES, NO or NOT GIVEN.",
+      "pdfPages": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "pageNote": "Book page 137 contains the vocabulary list for Passage 1 and also begins the pre-reading section of Passage 2.",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "If a farm well contains bacteria, drinking bottled water is an alternative to installing expensive filters. What does 'alternative' mean?",
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "publisherAnswer": "B",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "An alternative is another choice. Here drinking bottled water is another option instead of installing an expensive filter.",
+          "evidence": "drinking bottled water is an alternative to installing expensive filters",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Americans were using drinking water containing a hazardous level of lead. What does 'hazardous' mean?",
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "publisherAnswer": "B",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "Hazardous means dangerous. The passage describes a level of lead that calls for action to reduce it.",
+          "evidence": "If the level of lead in the drinking water is more than 5 parts per million, steps should be taken to reduce the level.",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Most public and private water suppliers use chlorine as a disinfectant. What does 'disinfectant' mean?",
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "publisherAnswer": "A",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "A disinfectant is used to destroy bacteria. The passage identifies chlorine as a disinfectant and then says ozone, like chlorine, kills bacteria.",
+          "evidence": "Ozone, like chlorine, kills bacteria.",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "The taste of water usually depends upon the minerals that have been dissolved from rocks. What does 'dissolved' mean?",
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "publisherAnswer": "B",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "In context, the minerals have mixed into the water from the rocks. The closest printed choice is B, caused to become liquid.",
+          "evidence": "the minerals that have been dissolved from rocks",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What kind of wells is comparatively easier to be contaminated?",
+          "answer": "Private wells",
+          "accepted": [
+            "Private wells"
+          ],
+          "publisherAnswer": "Private wells",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The opening paragraph locates most contamination problems in private wells and small water companies, rather than public supplies. The question asks for the type of wells.",
+          "evidence": "Most problems with water contamination are not with public water supplies, but with private wells and small water companies."
+        },
+        {
+          "number": 6,
+          "prompt": "What is suggested when it is too expensive to install filters for a farm well?",
+          "answer": "Drinking bottled water",
+          "accepted": [
+            "Drinking bottled water"
+          ],
+          "publisherAnswer": "Drinking bottled water",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage presents drinking bottled water as an alternative to installing expensive filters for a farm well containing bacteria.",
+          "evidence": "drinking bottled water is an alternative to installing expensive filters"
+        },
+        {
+          "number": 7,
+          "prompt": "What is given as an example of chemicals which are sometimes impossible to remove?",
+          "answer": "Pesticides",
+          "accepted": [
+            "Pesticides"
+          ],
+          "publisherAnswer": "Pesticides",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "After mentioning wells contaminated with pesticides, the writer says removing these chemicals can be too expensive or even impossible.",
+          "evidence": "Other wells are contaminated with pesticides. Removal of these chemicals may be too expensive or even impossible."
+        },
+        {
+          "number": 8,
+          "prompt": "According to an estimate given by EPA in 1986, what should be reduced?",
+          "answer": "Level of lead",
+          "accepted": [
+            "Level of lead",
+            "the lead level",
+            "lead level"
+          ],
+          "publisherAnswer": "Level of lead",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "In the account given by this textbook, the EPA estimate concerns hazardous lead in drinking water. The following sentence says steps should be taken to reduce the level.",
+          "evidence": "steps should be taken to reduce the level"
+        },
+        {
+          "number": 9,
+          "prompt": "What is very important in determining whether bottled water is safer than tap water?",
+          "answer": "Laboratory test results",
+          "accepted": [
+            "Laboratory test results"
+          ],
+          "publisherAnswer": "Laboratory test results",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The writer states that deciding whether bottled water is safer requires comparing laboratory test results.",
+          "evidence": "The only way to determine if bottled water is safer to drink than water from the tap is to compare laboratory test results."
+        },
+        {
+          "number": 10,
+          "prompt": "Besides making improper claims, what else are the bottled water companies forbidden to do?",
+          "answer": "Listing the minerals",
+          "accepted": [
+            "Listing the minerals"
+          ],
+          "publisherAnswer": "Listing the minerals",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "According to this passage, the FDA requirements described in the textbook prohibit labels from listing the minerals in the water.",
+          "evidence": "requirements prohibit bottled water labels from listing the minerals the water contains"
+        },
+        {
+          "number": 11,
+          "prompt": "What may affect chemical reactions if bottled water is used in laboratories?",
+          "answer": "Minerals",
+          "accepted": [
+            "Minerals"
+          ],
+          "publisherAnswer": "Minerals",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The discussion of distilled water says laboratories use it where minerals could interfere with chemical reactions.",
+          "evidence": "Distilled water is also used in chemical laboratories where minerals might interfere with chemical reactions."
+        },
+        {
+          "number": 12,
+          "prompt": "What may cause a problem when people drink water from some deep wells?",
+          "answer": "Sulfur",
+          "accepted": [
+            "Sulfur",
+            "Taste of sulfur",
+            "Sulphur",
+            "Taste of sulphur"
+          ],
+          "publisherAnswer": "Sulfur",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "Some deep wells pass through rock with a high sulfur content. The passage says the taste of sulfur can make that water unacceptable for drinking.",
+          "evidence": "The taste of sulfur may make water from these wells unacceptable for drinking."
+        },
+        {
+          "number": 13,
+          "prompt": "Bottled water is generally considered safer than all tap water.",
+          "answer": "NO",
+          "accepted": [
+            "NO"
+          ],
+          "publisherAnswer": "NO",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The statement makes an unrestricted comparison with all tap water. The passage limits the safety advantage to tap water that has not been properly treated.",
+          "evidence": "Bottled water is only safer than tap water that has not been properly treated to remove contaminants.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 14,
+          "prompt": "Action should be taken when the level of lead in drinking water is too high.",
+          "answer": "YES",
+          "accepted": [
+            "YES"
+          ],
+          "publisherAnswer": "YES",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "This agrees with the passage, which says steps should be taken to reduce the lead level when it exceeds the level described in the textbook.",
+          "evidence": "steps should be taken to reduce the level",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 15,
+          "prompt": "The owner of a private well should present a sample analysis to EPA.",
+          "answer": "NOT GIVEN",
+          "accepted": [
+            "NOT GIVEN"
+          ],
+          "publisherAnswer": "NOT GIVEN",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage says an owner should have a sample analysed by an approved laboratory. It does not say that the analysis must be presented to the EPA.",
+          "evidence": "the owner should have a water sample analysed by an approved laboratory",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 16,
+          "prompt": "The FDA thinks that minerals contained in bottled water are quite beneficial to health.",
+          "answer": "NO",
+          "accepted": [
+            "NO"
+          ],
+          "publisherAnswer": "NO",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The textbook says the FDA believes the mineral amounts are so small that there is little, if any, added benefit. That contradicts quite beneficial.",
+          "evidence": "the amounts are so small that there is little if any added benefit from drinking bottled water",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 17,
+          "prompt": "Drinking bottled water is considered as equally beneficial as exercising.",
+          "answer": "NO",
+          "accepted": [
+            "NO"
+          ],
+          "publisherAnswer": "NO",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The writer says any benefits from bottled water would be very small compared with exercising, eating properly or not smoking. They are not presented as equal.",
+          "evidence": "any benefits would be very small when compared to exercising, eating properly or not smoking",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 18,
+          "prompt": "According to the passage, drinking bottled water sometimes could be a waste of money.",
+          "answer": "YES",
+          "accepted": [
+            "YES"
+          ],
+          "publisherAnswer": "YES",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "When tap water is not contaminated, the writer says bottled water may offer few benefits and may simply drain money from the buyer’s wallet.",
+          "evidence": "It may simply be draining money from your wallet.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 19,
+          "prompt": "A study by Consumer Reports magazines shows that it is not always safe to drink bottled water.",
+          "answer": "YES",
+          "accepted": [
+            "YES"
+          ],
+          "publisherAnswer": "YES",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The reported tests found toxic chemicals above the standards in a few bottled-water brands. This supports the statement that bottled water is not always safe.",
+          "evidence": "the levels of some toxic chemicals in a few brands of bottled water exceeded the standards",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 20,
+          "prompt": "Lots of bottling companies use ozone to bring water a better flavour.",
+          "answer": "NOT GIVEN",
+          "accepted": [
+            "NOT GIVEN"
+          ],
+          "publisherAnswer": "NOT GIVEN",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The publisher key distinguishes a reported effect from a stated purpose. The passage says most companies use ozone to purify water and that the water has a better flavour. It does not explicitly say companies use ozone for the purpose of improving flavour, so the official answer is NOT GIVEN.",
+          "evidence": "Most bottling companies purify the water with ozone. ... It is more expensive to use, but the water has a better flavour.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part-2",
+      "title": "Passage 2 · Job-Sharing: Half a Job Is Better than None",
+      "instructions": "Follow the original instructions on the book pages. Questions 1–6: match words with definitions A–F. Questions 7–12: choose YES, NO or NOT GIVEN. Questions 13–22: complete the notes using words or phrases from the printed word box.",
+      "pdfPages": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "pageNote": "Book page 137 also contains the vocabulary list for Passage 1 above the pre-reading section of Passage 2.",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Match spouse with its definition.",
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "publisherAnswer": "D",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "A spouse is a husband or wife. The first paragraph discusses a household with one full-time and one part-time spouse.",
+          "evidence": "one full-time and one part-time spouse",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Match pitfall with its definition.",
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "publisherAnswer": "A",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "A pitfall is an unexpected danger or difficulty. The passage introduces problems involving benefits and pensions as financial pitfalls.",
+          "evidence": "But there are financial pitfalls for the job-sharers.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Match promotion with its definition.",
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "publisherAnswer": "B",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "Promotion is advancement to a higher rank or position. The passage says employers may offer ordinary part-time workers no chance of promotion.",
+          "evidence": "offer no chance of promotion",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "Match voluntary with its definition.",
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "publisherAnswer": "F",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The matching choice F describes acting willingly. In the passage, the two employees voluntarily choose to share one full-time position; their salary is divided between them.",
+          "evidence": "two people voluntarily share the responsibility of one full-time position",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "Match survey with its definition.",
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "publisherAnswer": "C",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The exercise matches survey with C, a general view. In the passage, the EOC survey gathers an overview of how job-sharing works and its effects on employers and workers.",
+          "evidence": "a survey carried out by the EOC shows that they can profit in various ways from sharing",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "Match complement with its definition.",
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "publisherAnswer": "E",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "To complement something is to make it complete. Two workers can bring different skills that complete or support one another.",
+          "evidence": "At best, two workers can complement one another’s skills.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "It is suggested that wives should try job-sharing.",
+          "answer": "NOT GIVEN",
+          "accepted": [
+            "NOT GIVEN"
+          ],
+          "publisherAnswer": "NOT GIVEN",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage says the full-time and part-time roles of spouses could vary with preference, life stage and career needs. It does not recommend job-sharing specifically for wives.",
+          "evidence": "which was the husband and which was the wife would vary according to taste, time of life and career requirements",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "Job-sharers volunteer to share the responsibility of one full-time job.",
+          "answer": "YES",
+          "accepted": [
+            "YES"
+          ],
+          "publisherAnswer": "YES",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "This directly matches the EOC definition: two people voluntarily share responsibility for one full-time position.",
+          "evidence": "two people voluntarily share the responsibility of one full-time position",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 9,
+          "prompt": "The job-sharers may enjoy employment rights which common part-timers do not have.",
+          "answer": "YES",
+          "accepted": [
+            "YES"
+          ],
+          "publisherAnswer": "YES",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage says job-sharers who each work at least 15 hours a week enjoy certain employment rights unavailable to ordinary part-time workers.",
+          "evidence": "they enjoy certain employment rights that ordinary part-time workers do not have",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 10,
+          "prompt": "Not qualifying for any benefits is one of the disadvantages part-timers have.",
+          "answer": "NO",
+          "accepted": [
+            "NO"
+          ],
+          "publisherAnswer": "NO",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage says part-timers have fewer benefits, which does not mean they receive no benefits at all. The statement changes fewer to none.",
+          "evidence": "Part-timers usually earn less per hour than full-timers, have fewer benefits and less job security.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 11,
+          "prompt": "Part-timers are not considered ambitious, but they will still be promoted.",
+          "answer": "NO",
+          "accepted": [
+            "NO"
+          ],
+          "publisherAnswer": "NO",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage says employers may think part-timers have no ambitions and consequently offer no chance of promotion. The promise that they will still be promoted contradicts this.",
+          "evidence": "Employers often think that working part-time means that a person has no ambitions and so offer no chance of promotion.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 12,
+          "prompt": "Now there are more men than women who want to job-share.",
+          "answer": "NOT GIVEN",
+          "accepted": [
+            "NOT GIVEN"
+          ],
+          "publisherAnswer": "NOT GIVEN",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The text reports a growing number of men wanting to job-share. It provides no comparison between the total numbers of interested men and women.",
+          "evidence": "A growing number of men want to job-share",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "number": 13,
+          "prompt": "Attractive to people who wish to spend their free time ________ at home.",
+          "answer": "studying",
+          "accepted": [
+            "studying"
+          ],
+          "publisherAnswer": "studying",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage says job-sharing allows people to study at home in their free time. The printed word box supplies the form studying to follow spend their free time.",
+          "evidence": "It allows people to study at home in their free time"
+        },
+        {
+          "number": 14,
+          "prompt": "Attractive to people with a ________.",
+          "answer": "disability",
+          "accepted": [
+            "disability"
+          ],
+          "publisherAnswer": "disability",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The text says disabled people, and people who stay at home to care for them, can work through job-sharing. Disability is the noun in the word box that fits after a.",
+          "evidence": "disabled people or those who otherwise stay at home to look after them, can work"
+        },
+        {
+          "number": 15,
+          "prompt": "An ideal way to move into ________.",
+          "answer": "retirement",
+          "accepted": [
+            "retirement"
+          ],
+          "publisherAnswer": "retirement",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The passage explicitly describes job-sharing as an ideal way for people to ease into retirement.",
+          "evidence": "Job-sharing is also an ideal way for people to ease into retirement."
+        },
+        {
+          "number": 16,
+          "prompt": "Years of ________ brought to the job by some skilled job-sharers.",
+          "answer": "experience",
+          "accepted": [
+            "experience"
+          ],
+          "publisherAnswer": "experience",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "Employers can benefit because skilled workers who cannot work full-time can still bring years of experience to a job.",
+          "evidence": "Skilled workers who cannot work full-time can bring years of experience to a job."
+        },
+        {
+          "number": 17,
+          "prompt": "Sets of ideas brought to the job could be ________.",
+          "answer": "doubled",
+          "accepted": [
+            "doubled"
+          ],
+          "publisherAnswer": "doubled",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The survey respondent says two people can bring twice as much experience, sets of ideas and discussion to one job. Doubled expresses twice as much.",
+          "evidence": "two people bring to one job twice as much experience, sets of ideas and discussion"
+        },
+        {
+          "number": 18,
+          "prompt": "________ in the skills between two workers.",
+          "answer": "Complement",
+          "accepted": [
+            "Complement"
+          ],
+          "publisherAnswer": "Complement",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "Two workers can complement one another’s skills. The note uses the word complement from the printed word box to describe this advantage.",
+          "evidence": "At best, two workers can complement one another’s skills."
+        },
+        {
+          "number": 19,
+          "prompt": "Have problems while ________.",
+          "answer": "unemployed",
+          "accepted": [
+            "unemployed"
+          ],
+          "publisherAnswer": "unemployed",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The first financial pitfall concerns what happens if a job-sharer becomes unemployed. Claiming the benefit requires availability for full-time work.",
+          "evidence": "If you become unemployed, you should be eligible for Unemployment Benefit. But you have to sign on as being available for full-time work."
+        },
+        {
+          "number": 20,
+          "prompt": "Unable to claim ________.",
+          "answer": "benefits",
+          "accepted": [
+            "benefits"
+          ],
+          "publisherAnswer": "benefits",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "Under the rules described in the textbook, someone who cannot work full-time cannot claim the benefit unless prepared to sign on for full-time employment. Benefits is the word-box answer.",
+          "evidence": "those who chose to job-share because they could not work full-time cannot claim the benefit unless they are prepared to sign on for full-time employment"
+        },
+        {
+          "number": 21,
+          "prompt": "Not qualified to join the ________ of the company.",
+          "answer": "pension schemes",
+          "accepted": [
+            "pension schemes"
+          ],
+          "publisherAnswer": "pension schemes",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "The pension section says many job-sharers may be ineligible to join company pension schemes. This matches the disadvantage in the note.",
+          "evidence": "Many job-sharers may be ineligible to join company pension schemes."
+        },
+        {
+          "number": 22,
+          "prompt": "Smaller ________ for those who have job-shared for last 5 years.",
+          "answer": "pension",
+          "accepted": [
+            "pension"
+          ],
+          "publisherAnswer": "pension",
+          "publisherKeyPrintedPage": 175,
+          "explanation": "In the example, a person who works full-time for 15 years and then job-shares for five years may receive a much smaller pension when the scheme uses final salary.",
+          "evidence": "will receive a very much smaller pension than if she or he had worked those last five years full-time"
+        }
+      ]
+    }
+  ]
+}
