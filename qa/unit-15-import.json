@@ -1,0 +1,23 @@
+{
+  "source": "Unit 15 Vocabulary.pptx",
+  "sourceSha256": "f98b5234d99a41fd68e101277d79b19bb52bff10393da3f6a471704c99906d6a",
+  "slideCount": 43,
+  "declaredCoverWords": 42,
+  "words": 42,
+  "passageCounts": [
+    23,
+    19
+  ],
+  "imageCards": 40,
+  "textOnlyWords": [
+    "via",
+    "despite"
+  ],
+  "gameExamples": {
+    "academic": "The university supports academic research in many subjects.",
+    "military": "Military personnel need reliable communication during emergencies."
+  },
+  "originalImageBytes": 2418153,
+  "publishedImageBytes": 547132,
+  "unitDataBytes": 17124
+}
