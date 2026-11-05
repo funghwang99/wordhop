@@ -16,7 +16,8 @@ button:focus-visible,select:focus-visible{outline:3px solid #a6ffe2;outline-offs
 .hud{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:9px;margin-bottom:10px}.stat{border:1px solid #5c638b63;background:#111a326b;border-radius:12px;min-height:57px;padding:8px 13px;display:flex;flex-direction:column;justify-content:center}.stat label{font-size:10px;letter-spacing:1.6px;font-weight:900;color:#bdb4cb}.stat strong{font-size:22px;letter-spacing:-.6px;font-weight:950;font-variant-numeric:tabular-nums}.stat.hearts strong{color:#ff91ab;letter-spacing:2px}
 .prompt{position:relative;display:grid;grid-template-columns:105px minmax(0,1fr) 88px;align-items:center;gap:12px;padding:14px 16px;margin-bottom:10px;border:1px solid #8b6f82ac;border-radius:13px;background:linear-gradient(112deg,#3e3652,#322e4f 53%,#283d55);min-height:88px;overflow:hidden}
 .prompt:before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 0% 50%,#f7ba7130,transparent 38%)}
-.prompt-label{z-index:1;color:#fdd78e;font-size:10px;letter-spacing:1.2px;font-weight:950;line-height:1.65}.prompt-label b{display:block;font-size:25px;color:#fff0df;letter-spacing:-1px}.definition{z-index:1;font-size:clamp(16px,2.5vw,22px);line-height:1.25;font-weight:850;letter-spacing:-.35px}.timer{z-index:1;text-align:center;justify-self:end;min-width:70px}.timer strong{font-size:25px;display:block;font-weight:950;font-variant-numeric:tabular-nums}.timer span{font-size:9px;font-weight:900;letter-spacing:1px;color:#bdb4cc}.timer.danger strong{color:#ff9b8f}
+.prompt-label{z-index:1;color:#fdd78e;font-size:10px;letter-spacing:1.2px;font-weight:950;line-height:1.65}.prompt-label b{display:block;font-size:25px;color:#fff0df;letter-spacing:-1px}.definition{z-index:1;font-size:clamp(16px,2.5vw,22px);line-height:1.25;font-weight:850;letter-spacing:-.35px}.definition .paraphrase-focus{display:inline;box-decoration-break:clone;-webkit-box-decoration-break:clone;background:#ffe28b;color:#282038;border-radius:4px;padding:.05em .16em;box-shadow:0 0 0 1px #ffe9a4;font-weight:1000}
+.timer{z-index:1;text-align:center;justify-self:end;min-width:70px}.timer strong{font-size:25px;display:block;font-weight:950;font-variant-numeric:tabular-nums}.timer span{font-size:9px;font-weight:900;letter-spacing:1px;color:#bdb4cc}.timer.danger strong{color:#ff9b8f}
 .timerline{height:5px;margin-bottom:10px;background:#253149;border-radius:9px;overflow:hidden}.timerline span{display:block;height:100%;width:100%;background:linear-gradient(90deg,#f5bd72,#f390a9);transform-origin:left;transition:transform .12s linear}
 .stage{position:relative;overflow:hidden;border:1px solid #d1a99372;border-radius:12px;min-height:450px;height:clamp(450px,48vw,540px);background:#251c3b;isolation:isolate}
 canvas{display:block;width:100%;height:100%;touch-action:none;user-select:none;cursor:crosshair}
@@ -94,7 +95,8 @@ const QUESTION_BANK = [
    "victim",
    "criminal"
   ],
-  "explanation": "A bystander observes an event without participating in it."
+  "explanation": "A bystander observes an event without participating in it.",
+  "highlight": "saw the incident but took no part in it"
  },
  {
   "term": "conservative",
@@ -118,7 +120,8 @@ const QUESTION_BANK = [
    "criminal",
    "bystander"
   ],
-  "explanation": "Cop is informal English for a police officer; it is not suitable for most formal IELTS essays."
+  "explanation": "Cop is informal English for a police officer; it is not suitable for most formal IELTS essays.",
+  "highlight": "an informal word for a police officer"
  },
  {
   "term": "criminal",
@@ -190,7 +193,8 @@ const QUESTION_BANK = [
    "tax",
    "syllabus"
   ],
-  "explanation": "A fund is money reserved or collected for a particular purpose."
+  "explanation": "A fund is money reserved or collected for a particular purpose.",
+  "highlight": "set aside money specifically to support disadvantaged children"
  },
  {
   "term": "insult",
@@ -214,7 +218,8 @@ const QUESTION_BANK = [
    "syllabus",
    "transcript"
   ],
-  "explanation": "An issue is one published edition of a newspaper or magazine."
+  "explanation": "An issue is one published edition of a newspaper or magazine.",
+  "highlight": "one particular edition"
  },
  {
   "term": "juvenile",
@@ -274,7 +279,8 @@ const QUESTION_BANK = [
    "violence",
    "neglect"
   ],
-  "explanation": "Racism concerns prejudice or discrimination on the basis of race."
+  "explanation": "Racism concerns prejudice or discrimination on the basis of race.",
+  "highlight": "prejudice and unequal treatment based on racial background"
  },
  {
   "term": "rural",
@@ -334,7 +340,8 @@ const QUESTION_BANK = [
    "rural",
    "electronic"
   ],
-  "explanation": "Suburban refers to residential districts on the outskirts of a city."
+  "explanation": "Suburban refers to residential districts on the outskirts of a city.",
+  "highlight": "a residential area just outside the city centre"
  },
  {
   "term": "sufficient",
@@ -358,7 +365,8 @@ const QUESTION_BANK = [
    "assault",
    "neglect"
   ],
-  "explanation": "Suicide is the formal noun for intentionally ending one’s own life."
+  "explanation": "Suicide is the formal noun for intentionally ending one’s own life.",
+  "highlight": "intentionally ending their own lives"
  },
  {
   "term": "torturer",
@@ -430,7 +438,8 @@ const QUESTION_BANK = [
    "traditional",
    "rural"
   ],
-  "explanation": "Communicative activities involve an exchange of information or ideas."
+  "explanation": "Communicative activities involve an exchange of information or ideas.",
+  "highlight": "exchange ideas and negotiate meaning"
  },
  {
   "term": "compose",
@@ -478,7 +487,8 @@ const QUESTION_BANK = [
    "sample",
    "syllabus"
   ],
-  "explanation": "Context is the situation that gives an utterance its meaning."
+  "explanation": "Context is the situation that gives an utterance its meaning.",
+  "highlight": "surrounding situation"
  },
  {
   "term": "conversational",
@@ -514,7 +524,8 @@ const QUESTION_BANK = [
    "economist",
    "bystander"
   ],
-  "explanation": "A linguist studies language scientifically, not economic systems."
+  "explanation": "A linguist studies language scientifically, not economic systems.",
+  "highlight": "specialist who studies the structure and use of human language"
  },
  {
   "term": "network",
@@ -574,7 +585,8 @@ const QUESTION_BANK = [
    "sample",
    "context"
   ],
-  "explanation": "A process is a sequence of actions leading to an outcome."
+  "explanation": "A process is a sequence of actions leading to an outcome.",
+  "highlight": "a sequence of steps"
  },
  {
   "term": "sample",
@@ -622,7 +634,8 @@ const QUESTION_BANK = [
    "transcript",
    "journal"
   ],
-  "explanation": "A syllabus outlines course content and often assessment requirements."
+  "explanation": "A syllabus outlines course content and often assessment requirements.",
+  "highlight": "lists the topics, readings and assessment requirements for a course"
  },
  {
   "term": "traditional",
@@ -658,7 +671,8 @@ const QUESTION_BANK = [
    "significantly",
    "traditionally"
   ],
-  "explanation": "Virtually all means almost all; significantly and traditionally do not express that quantity."
+  "explanation": "Virtually all means almost all; significantly and traditionally do not express that quantity.",
+  "highlight": "Nearly"
  },
  {
   "term": "whereas",
@@ -701,7 +715,8 @@ function hideOverlay(){el.overlay.hidden=true;el.overlay.innerHTML='';}
 function menu(){state.phase='menu';state.fruits=[];state.bomb=null;state.particles=[];state.halves=[];state.trail=[];state.pointer=null;state.roundEnded=false;el.def.textContent='Read the IELTS task and slice the best answer!';el.task.textContent='IELTS TASK';refreshHUD();overlay(`<section class="panel" aria-label="Word Ninja start menu"><span class="eyebrow">WORDHOP · UNIT 11</span><span class="mascot" aria-hidden="true">🍉</span><h2>WORD <span>NINJA</span></h2><p>Slice the best answer. Context, paraphrase, collocations and word forms alternate every round.</p><div class="choices"><div class="field"><label for="sizePick">WORDS</label><select id="sizePick"><option value="10">10 words</option><option value="20">20 words</option><option value="51" selected>All 51 words</option></select></div><div class="field"><label for="modePick">MODE</label><select id="modePick"><option value="zen">Practice · No timer</option><option value="arcade">Arcade · 22 seconds</option></select></div></div><button class="play-button" type="button" data-act="start">⚔ START SLICING</button><div class="tiny">IELTS B1+ to B2 · 3 hearts · Mouse or touch · Offline</div></section>`);}
 function startGame(){const size=Number($('#sizePick')?.value)||51;state.total=[10,20,51].includes(size)?size:51;state.mode=$('#modePick')?.value==='arcade'?'arcade':'zen';state.timeLimit=22;state.deck=makeQuestionDeck(state.total);state.index=0;state.correct=0;state.attempted=0;state.score=0;state.combo=0;state.lives=3;state.missed=[];state.halves=[];state.particles=[];state.trail=[];state.shakes=0;state.elapsed=0;state.roundEnded=false;state.phase='playing';state.last=0;initAudio();hideOverlay();nextWave();el.canvas.focus({preventScroll:true});}
 function nextWave(){if(state.lives<=0){finish(false);return;}if(state.index>=state.total){finish(true);return;}state.phase='playing';state.waveAge=0;state.remain=state.timeLimit;state.feedbackRemaining=0;state.trail=[];state.bomb=null;const q=state.deck[state.index];const options=shuffle(q.choices).map(term=>({term}));const W=state.W,H=state.H,r=clamp(W*.09,35,56);let kinds=shuffle(TYPES);state.fruits=options.map((word,i)=>({word,correct:word.term===q.answer,kind:kinds[i],radius:r,x:W*([.17,.5,.83][i]),y:H+80,targetY:H*(i===1?.49:.53),seed:rand(0,30),tilt:rand(-.12,.12),sliced:false,alive:true,index:i,color:kinds[i]}));state.showBomb=state.index>=2&&Math.random()<.35;
-if(state.showBomb)state.bomb={x:W*(Math.random()<.5?.335:.665),y:H+60,targetY:H*.30,r:clamp(W*.052,19,30),seed:rand(0,10),sliced:false};el.def.textContent=q.prompt;el.task.textContent=q.type;hideToast();refreshHUD();}
+if(state.showBomb)state.bomb={x:W*(Math.random()<.5?.335:.665),y:H+60,targetY:H*.30,r:clamp(W*.052,19,30),seed:rand(0,10),sliced:false};el.def.innerHTML=questionMarkup(q);el.task.textContent=q.type;hideToast();refreshHUD();}
+function questionMarkup(q){const prompt=String(q.prompt||'');if(q.type==='PARAPHRASE'){const target=String(q.highlight||'');const index=target?prompt.indexOf(target):-1;if(index>=0)return esc(prompt.slice(0,index))+'<mark class="paraphrase-focus">'+esc(target)+'</mark>'+esc(prompt.slice(index+target.length));}return esc(prompt);}
 function showToast(title,subtitle,bad=false,seconds=1.15){el.toast.className='toast active'+(bad?' bad':'');el.toast.innerHTML='<strong>'+esc(title)+'</strong><small>'+esc(subtitle)+'</small>';state.toastRemaining=seconds;}
 function hideToast(){el.toast.className='toast';el.toast.textContent='';state.toastRemaining=0;}
 function fadeToNext(delay=1.25){state.phase='feedback';state.feedbackRemaining=delay;state.pointer=null;refreshHUD();}
