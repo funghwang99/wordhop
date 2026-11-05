@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "bir-u16-alternative",
+    "slide": 2,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "alternative",
+      "pos": "n.",
+      "definition": "another choice or option that can be used instead of something else",
+      "example": "Bottled water may be a safer alternative when well water is polluted."
+    },
+    "gameExample": "Bottled water may be a safer alternative when well water is polluted.",
+    "image": {
+      "media": "ppt/media/image1.jpeg",
+      "originalSha256": "bfa4d7cdf49ff7fe0e820786ac3d7d27f409a6a8407be422d62c36e8f64c1f42",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 540,
+      "height": 360,
+      "originalBytes": 31068,
+      "publishedBytes": 23594,
+      "image": "/assets/unit-16/alternative.ccc92c803f09.webp"
+    }
+  },
+  {
+    "id": "bir-u16-bacteria",
+    "slide": 3,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "bacteria",
+      "pos": "n.",
+      "definition": "tiny living organisms, some of which can cause disease",
+      "example": "A private well may contain harmful bacteria."
+    },
+    "gameExample": "A private well may contain harmful bacteria.",
+    "image": {
+      "media": "ppt/media/image2.jpeg",
+      "originalSha256": "4ecf2bc1ff739508e4fea3fd8ce762e2797c16257a117cbc1b490bc007c5d916",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 359,
+      "height": 360,
+      "originalBytes": 51593,
+      "publishedBytes": 11690,
+      "image": "/assets/unit-16/bacteria.531f863493bc.webp"
+    }
+  },
+  {
+    "id": "bir-u16-brand",
+    "slide": 4,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "brand",
+      "pos": "n.",
+      "definition": "a product name used by a particular company",
+      "example": "Some brands of bottled water may contain unwanted chemicals."
+    },
+    "gameExample": "Some brands of bottled water may contain unwanted chemicals.",
+    "image": {
+      "media": "ppt/media/image3.jpeg",
+      "originalSha256": "f7890a6146ebf5962bdacf8ee9c1a42316b7f3b324cd4adfb14cf2fcd00090df",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 493,
+      "height": 360,
+      "originalBytes": 25575,
+      "publishedBytes": 13016,
+      "image": "/assets/unit-16/brand.d04570d32390.webp"
+    }
+  },
+  {
+    "id": "bir-u16-claim",
+    "slide": 5,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "claim",
+      "pos": "n., v.",
+      "definition": "a statement that something is true; to state that something is true",
+      "example": "A company may claim its water is healthier, but that claim needs evidence."
+    },
+    "gameExample": "The company made a claim about the purity of its water.",
+    "image": {
+      "media": "ppt/media/image4.jpeg",
+      "originalSha256": "14ec500c32a3b54a0bc8abafb386f9512f8424fe08860ef93a8ee732527688d7",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 9129,
+      "publishedBytes": 3768,
+      "image": "/assets/unit-16/claim.5e0b9d3ef6d3.webp"
+    }
+  },
+  {
+    "id": "bir-u16-contaminant",
+    "slide": 6,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "contaminant",
+      "pos": "n.",
+      "definition": "a harmful or unwanted substance that makes something impure",
+      "example": "Laboratory tests can detect a contaminant in drinking water."
+    },
+    "gameExample": "Laboratory tests can detect a contaminant in drinking water.",
+    "image": {
+      "media": "ppt/media/image5.jpeg",
+      "originalSha256": "84e62265a4d4d9dbcf0f91e34da62aff7bc13ae169b5185409799bf7e85fa1d3",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 600,
+      "height": 360,
+      "originalBytes": 26643,
+      "publishedBytes": 18686,
+      "image": "/assets/unit-16/contaminant.3b8aa802cddc.webp"
+    }
+  },
+  {
+    "id": "bir-u16-contamination",
+    "slide": 7,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "contamination",
+      "pos": "n.",
+      "definition": "the presence of harmful or unwanted substances in something",
+      "example": "Water contamination can make a private well unsafe."
+    },
+    "gameExample": "Water contamination can make a private well unsafe.",
+    "image": {
+      "media": "ppt/media/image6.jpeg",
+      "originalSha256": "3629f35eb0f3359ca1980f80670c050c58cf4ab2a3dc96f4208f95b4f4568187",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 202,
+      "height": 360,
+      "originalBytes": 81028,
+      "publishedBytes": 21130,
+      "image": "/assets/unit-16/contamination.94864af4df55.webp"
+    }
+  },
+  {
+    "id": "bir-u16-disinfectant",
+    "slide": 8,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "disinfectant",
+      "pos": "n.",
+      "definition": "a substance used to kill harmful microorganisms",
+      "example": "Some water suppliers use chlorine as a disinfectant."
+    },
+    "gameExample": "Some water suppliers use chlorine as a disinfectant.",
+    "image": {
+      "media": "ppt/media/image7.jpeg",
+      "originalSha256": "3453a52b80b8b75cfa182878f7fb55095a65df86beafd25b2c87eab4ce02ef21",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 404,
+      "height": 280,
+      "originalBytes": 22840,
+      "publishedBytes": 12176,
+      "image": "/assets/unit-16/disinfectant.2bde5a2eef4b.webp"
+    }
+  },
+  {
+    "id": "bir-u16-dissolve",
+    "slide": 9,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "dissolve",
+      "pos": "v.",
+      "definition": "to mix into a liquid and become part of it",
+      "example": "Minerals can dissolve in water as it passes through rocks."
+    },
+    "gameExample": "Minerals can dissolve in water as it passes through rocks.",
+    "image": {
+      "media": "ppt/media/image8.jpeg",
+      "originalSha256": "1871ad2eb88c28b9943dd814c470eb67537eb4c143aa04a4c470a8be5c341788",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 9024,
+      "publishedBytes": 4732,
+      "image": "/assets/unit-16/dissolve.284592b42624.webp"
+    }
+  },
+  {
+    "id": "bir-u16-distil",
+    "slide": 10,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "distil",
+      "pos": "v.",
+      "definition": "to purify a liquid by heating it and cooling the resulting vapour",
+      "example": "Companies may distil water to remove dissolved minerals."
+    },
+    "gameExample": "Companies may distil water to remove dissolved minerals.",
+    "image": {
+      "media": "ppt/media/image9.jpeg",
+      "originalSha256": "86f5059b8c624cb123ad75840e32bd57027c359464f537b8e0f71bf639f08463",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 512,
+      "height": 360,
+      "originalBytes": 40182,
+      "publishedBytes": 16414,
+      "image": "/assets/unit-16/distil.e90660e0d078.webp"
+    }
+  },
+  {
+    "id": "bir-u16-drain",
+    "slide": 11,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "drain",
+      "pos": "v.",
+      "definition": "to use up or take away money or another resource gradually",
+      "example": "Buying expensive bottled water can drain money from your wallet."
+    },
+    "gameExample": "Buying expensive bottled water can drain money from your wallet.",
+    "image": {
+      "media": "ppt/media/image10.jpeg",
+      "originalSha256": "076e472579de45dfb7026f4f7fc5bb982fb81c02c5f65439c9a7e9ce297b9945",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 43803,
+      "publishedBytes": 11592,
+      "image": "/assets/unit-16/drain.e2416a431ad3.webp"
+    }
+  },
+  {
+    "id": "bir-u16-filter",
+    "slide": 12,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "filter",
+      "pos": "n.",
+      "definition": "a device that removes unwanted substances from a liquid",
+      "example": "Installing a water filter can be costly for some households."
+    },
+    "gameExample": "Installing a water filter can be costly for some households.",
+    "image": {
+      "media": "ppt/media/image11.jpeg",
+      "originalSha256": "b6bede5a9ca229cce43f68d3bcd5bf62a0bd4ccaed2745dd15b16690b6086db8",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 31311,
+      "publishedBytes": 5188,
+      "image": "/assets/unit-16/filter.8dd09447ffdd.webp"
+    }
+  },
+  {
+    "id": "bir-u16-gasoline",
+    "slide": 13,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "gasoline",
+      "pos": "n.",
+      "definition": "liquid fuel used in cars and other engines",
+      "example": "Leaks from underground gasoline tanks can pollute well water."
+    },
+    "gameExample": "Leaks from underground gasoline tanks can pollute well water.",
+    "image": {
+      "media": "ppt/media/image12.jpeg",
+      "originalSha256": "e96679a13b2d86e29344be2fb07ed280d194b55e00b403db400cf2677d1219ca",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 674,
+      "height": 360,
+      "originalBytes": 15117,
+      "publishedBytes": 7318,
+      "image": "/assets/unit-16/gasoline.ab5ff8a717cc.webp"
+    }
+  },
+  {
+    "id": "bir-u16-hazardous",
+    "slide": 14,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "hazardous",
+      "pos": "adj.",
+      "definition": "dangerous, especially to health or safety",
+      "example": "A high level of lead can make drinking water hazardous."
+    },
+    "gameExample": "A high level of lead can make drinking water hazardous.",
+    "image": {
+      "media": "ppt/media/image13.jpeg",
+      "originalSha256": "d086e0a836979316a1620ace41915b9093a3e0642cb44524d5500a9640daa9b5",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 30232,
+      "publishedBytes": 8360,
+      "image": "/assets/unit-16/hazardous.7af0b51809ef.webp"
+    }
+  },
+  {
+    "id": "bir-u16-interfere",
+    "slide": 15,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "interfere",
+      "pos": "v.",
+      "definition": "to prevent something from working or happening normally",
+      "example": "Minerals in water may interfere with chemical reactions."
+    },
+    "gameExample": "Minerals in water may interfere with chemical reactions.",
+    "image": {
+      "media": "ppt/media/image14.jpeg",
+      "originalSha256": "de020cc6ad16181b49106cdc55ca556132a67cd54ec6f7037dd5f9ad5d1fd55d",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 454,
+      "height": 340,
+      "originalBytes": 14935,
+      "publishedBytes": 11090,
+      "image": "/assets/unit-16/interfere.fa3349760f9c.webp"
+    }
+  },
+  {
+    "id": "bir-u16-label",
+    "slide": 16,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "label",
+      "pos": "n., v.",
+      "definition": "information attached to a product; to attach or print this information",
+      "example": "Companies label their bottles, but a label may not list every mineral."
+    },
+    "gameExample": "Read the label on the bottle before choosing a drink.",
+    "image": {
+      "media": "ppt/media/image15.jpeg",
+      "originalSha256": "ce66657b06d2c5ed6ef679fc520d144ff5d4e4b6f4e5576191f631345b28d5fa",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 327,
+      "height": 360,
+      "originalBytes": 70394,
+      "publishedBytes": 6972,
+      "image": "/assets/unit-16/label.907350ce7953.webp"
+    }
+  },
+  {
+    "id": "bir-u16-lead",
+    "slide": 17,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "lead",
+      "pos": "n.",
+      "definition": "a toxic heavy metal that may be present in drinking water",
+      "example": "Drinking water containing too much lead can be unsafe."
+    },
+    "gameExample": "Drinking water containing too much lead can be unsafe.",
+    "image": {
+      "media": "ppt/media/image16.jpeg",
+      "originalSha256": "917cda344bf954b9246e85a4be7f0b9412848e1d4d9762fefdb18e076048afb9",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 560,
+      "height": 275,
+      "originalBytes": 8335,
+      "publishedBytes": 3644,
+      "image": "/assets/unit-16/lead.113713b7e134.webp"
+    }
+  },
+  {
+    "id": "bir-u16-leak",
+    "slide": 18,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "leak",
+      "pos": "v.",
+      "definition": "to escape through a small hole or crack",
+      "example": "Fuel can leak from underground tanks into nearby wells."
+    },
+    "gameExample": "Fuel can leak from underground tanks into nearby wells.",
+    "image": {
+      "media": "ppt/media/image17.jpeg",
+      "originalSha256": "9873ec4866bfe2347da7fe0ec902d4eaea76662eaa58fb760c0e2df8557a9907",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 453,
+      "height": 340,
+      "originalBytes": 36445,
+      "publishedBytes": 7152,
+      "image": "/assets/unit-16/leak.53236968c89d.webp"
+    }
+  },
+  {
+    "id": "bir-u16-pesticide",
+    "slide": 19,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "pesticide",
+      "pos": "n.",
+      "definition": "a chemical used to kill insects or other organisms that damage crops",
+      "example": "A pesticide used on a farm may reach nearby water supplies."
+    },
+    "gameExample": "A pesticide used on a farm may reach nearby water supplies.",
+    "image": {
+      "media": "ppt/media/image18.jpeg",
+      "originalSha256": "0dadce5d1ce3c1f7d7d5ea832b58db22ef897daf74840b1b672b6dafbd64ffcf",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 432,
+      "height": 360,
+      "originalBytes": 59940,
+      "publishedBytes": 16860,
+      "image": "/assets/unit-16/pesticide.d1855600ae4d.webp"
+    }
+  },
+  {
+    "id": "bir-u16-purify",
+    "slide": 20,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "purify",
+      "pos": "v.",
+      "definition": "to remove harmful or unwanted substances from something",
+      "example": "Some bottling companies purify water using ozone."
+    },
+    "gameExample": "Some bottling companies purify water using ozone.",
+    "image": {
+      "media": "ppt/media/image19.jpeg",
+      "originalSha256": "83933b4aac6f8347e22214326df55dec8207aec3d54dc3703bf9a31a37f03f75",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 30727,
+      "publishedBytes": 6956,
+      "image": "/assets/unit-16/purify.9461829d9d25.webp"
+    }
+  },
+  {
+    "id": "bir-u16-sufficiently",
+    "slide": 21,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "sufficiently",
+      "pos": "adv.",
+      "definition": "enough to achieve a particular result or meet a need",
+      "example": "If lead levels cannot be reduced sufficiently, bottled water may be needed."
+    },
+    "gameExample": "If lead levels cannot be reduced sufficiently, bottled water may be needed.",
+    "image": {
+      "media": "ppt/media/image20.jpeg",
+      "originalSha256": "274e0b00ffac100ad9f641ce99410706ffdb20ccc5a31b1b628ebdde76125556",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 22211,
+      "publishedBytes": 4156,
+      "image": "/assets/unit-16/sufficiently.bb6412a31f1f.webp"
+    }
+  },
+  {
+    "id": "bir-u16-supplier",
+    "slide": 22,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "supplier",
+      "pos": "n.",
+      "definition": "a person or company that provides something to others",
+      "example": "A public water supplier should make its test results available."
+    },
+    "gameExample": "A public water supplier should make its test results available.",
+    "image": {
+      "media": "ppt/media/image21.jpeg",
+      "originalSha256": "1c5b3531855446dfd26f8ebfaf75cf2b213cf63596534fbfbf20bd847cf63a48",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 468,
+      "height": 360,
+      "originalBytes": 57160,
+      "publishedBytes": 17228,
+      "image": "/assets/unit-16/supplier.53c3fc932ae6.webp"
+    }
+  },
+  {
+    "id": "bir-u16-tap",
+    "slide": 23,
+    "passage": 1,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "tap",
+      "pos": "n.",
+      "definition": "a device that controls water flowing from a pipe",
+      "example": "Some people prefer bottled water to water from the tap."
+    },
+    "gameExample": "Some people prefer bottled water to water from the tap.",
+    "image": {
+      "media": "ppt/media/image22.jpeg",
+      "originalSha256": "20976e147d00f177fe6e2b6a360cfa419051754d7cbc7c76117a9d1b6b7cc9d7",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 302,
+      "height": 360,
+      "originalBytes": 46254,
+      "publishedBytes": 9456,
+      "image": "/assets/unit-16/tap.3e36836aaef0.webp"
+    }
+  },
+  {
+    "id": "bir-u16-ambition",
+    "slide": 24,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "ambition",
+      "pos": "n.",
+      "definition": "a strong desire to achieve success or a particular goal",
+      "example": "Her ambition is to advance in her career while sharing a job."
+    },
+    "gameExample": "Her ambition is to advance in her career while sharing a job.",
+    "image": {
+      "media": "ppt/media/image23.jpeg",
+      "originalSha256": "59e3d53444e9c3c167e5535c8132c8313912093ca066e8a489e797f6934a891f",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 34092,
+      "publishedBytes": 7076,
+      "image": "/assets/unit-16/ambition.98c39eeba9e7.webp"
+    }
+  },
+  {
+    "id": "bir-u16-benefit",
+    "slide": 25,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "benefit",
+      "pos": "n.",
+      "definition": "an advantage; something provided by an employer in addition to pay",
+      "example": "Some job-sharers receive employment benefits that ordinary part-timers do not."
+    },
+    "gameExample": "Some job-sharers receive employment benefits that ordinary part-timers do not.",
+    "image": {
+      "media": "ppt/media/image24.jpeg",
+      "originalSha256": "e6d78d75d062c831cb2e0f80509aa60c7af48398b602ad5340b793615e546f9b",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 15758,
+      "publishedBytes": 5852,
+      "image": "/assets/unit-16/benefit.7d2cde828b8e.webp"
+    }
+  },
+  {
+    "id": "bir-u16-beware",
+    "slide": 26,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "beware",
+      "pos": "v.",
+      "definition": "to be careful about a possible danger or problem",
+      "example": "Workers should beware of pension rules before agreeing to job-share."
+    },
+    "gameExample": "Workers should beware of pension rules before agreeing to job-share.",
+    "image": {
+      "media": "ppt/media/image25.jpeg",
+      "originalSha256": "b8c4666ccb9d59332039440d0c44f50cb9732ae87a146ffef1a4e77a0556512a",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 24079,
+      "publishedBytes": 5480,
+      "image": "/assets/unit-16/beware.e4b6273223e5.webp"
+    }
+  },
+  {
+    "id": "bir-u16-block",
+    "slide": 27,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "block",
+      "pos": "n.",
+      "definition": "something that prevents movement or progress; an obstacle",
+      "example": "Pension rules can become a stumbling block for job-sharers."
+    },
+    "gameExample": "Pension rules can become a stumbling block for job-sharers.",
+    "image": {
+      "media": "ppt/media/image26.jpeg",
+      "originalSha256": "b58e0524c1a11b08c7ebc3367f52a1188f81fda1ad47a3cb61a061f0021219f6",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 597,
+      "height": 360,
+      "originalBytes": 61791,
+      "publishedBytes": 11376,
+      "image": "/assets/unit-16/block.68ed208e592b.webp"
+    }
+  },
+  {
+    "id": "bir-u16-career",
+    "slide": 28,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "career",
+      "pos": "n.",
+      "definition": "the jobs or profession a person develops over their working life",
+      "example": "Job-sharing can allow people to continue their careers with fewer hours."
+    },
+    "gameExample": "Job-sharing can allow people to continue their careers with fewer hours.",
+    "image": {
+      "media": "ppt/media/image27.jpeg",
+      "originalSha256": "8ab0ac42eea44549cb3e42e482f95472f505efab9e7f4ba5189268b405e9668b",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 465,
+      "height": 360,
+      "originalBytes": 25877,
+      "publishedBytes": 16040,
+      "image": "/assets/unit-16/career.1170779a2393.webp"
+    }
+  },
+  {
+    "id": "bir-u16-combination",
+    "slide": 29,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "combination",
+      "pos": "n.",
+      "definition": "a joining or mixture of two or more things",
+      "example": "A combination of work and family care suits some employees."
+    },
+    "gameExample": "A combination of work and family care suits some employees.",
+    "image": {
+      "media": "ppt/media/image28.jpeg",
+      "originalSha256": "f6f8886392ae0aad7965dc928f701f06f79851d17c2d5a25300df9cc0afd0226",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 8707,
+      "publishedBytes": 4098,
+      "image": "/assets/unit-16/combination.161b226dbb80.webp"
+    }
+  },
+  {
+    "id": "bir-u16-disable",
+    "slide": 30,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "disable",
+      "pos": "v.",
+      "definition": "to make someone unable to do something, especially because of injury or illness",
+      "example": "An illness may disable someone from working full-time."
+    },
+    "gameExample": "An illness may disable someone from working full-time.",
+    "image": {
+      "media": "ppt/media/image29.jpeg",
+      "originalSha256": "5a25d1f13b070c7b6bf136a73d259e963bb5db014a94c4214ce8fa9993544385",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 62757,
+      "publishedBytes": 17548,
+      "image": "/assets/unit-16/disable.774cbbf0db20.webp"
+    }
+  },
+  {
+    "id": "bir-u16-earnings",
+    "slide": 31,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "earnings",
+      "pos": "n.",
+      "definition": "the money a person receives from working",
+      "example": "Lower annual earnings can affect a worker's future pension."
+    },
+    "gameExample": "Lower annual earnings can affect a worker's future pension.",
+    "image": {
+      "media": "ppt/media/image30.jpeg",
+      "originalSha256": "23611c49b809c3360e6619b930777e66e5895c6bd41c97fe4379a00766b146f1",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 479,
+      "height": 360,
+      "originalBytes": 29757,
+      "publishedBytes": 8502,
+      "image": "/assets/unit-16/earnings.2e005847c5f1.webp"
+    }
+  },
+  {
+    "id": "bir-u16-eligible",
+    "slide": 32,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "eligible",
+      "pos": "adj.",
+      "definition": "meeting the conditions required to receive or do something",
+      "example": "Not all part-time workers are eligible for a company pension."
+    },
+    "gameExample": "Not all part-time workers are eligible for a company pension.",
+    "image": {
+      "media": "ppt/media/image31.jpeg",
+      "originalSha256": "de5ae342df6ad04edd30f30255e19788ad679b7075e5bbde55a978b26ce8d378",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 260,
+      "height": 280,
+      "originalBytes": 8467,
+      "publishedBytes": 3790,
+      "image": "/assets/unit-16/eligible.f4a4e854fa27.webp"
+    }
+  },
+  {
+    "id": "bir-u16-financial",
+    "slide": 33,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "financial",
+      "pos": "adj.",
+      "definition": "relating to money or the management of money",
+      "example": "Job-sharing may have financial disadvantages for some workers."
+    },
+    "gameExample": "Job-sharing may have financial disadvantages for some workers.",
+    "image": {
+      "media": "ppt/media/image32.jpeg",
+      "originalSha256": "22b0ae82bba7a6a396abe504ee9aff3c041e81f9ebc0b05c140b5aea3fb2c863",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 15048,
+      "publishedBytes": 8346,
+      "image": "/assets/unit-16/financial.f963c5b35949.webp"
+    }
+  },
+  {
+    "id": "bir-u16-firm",
+    "slide": 34,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "firm",
+      "pos": "n.",
+      "definition": "a company or business organisation",
+      "example": "She continued working at the same firm after switching to job-sharing."
+    },
+    "gameExample": "She continued working at the same firm after switching to job-sharing.",
+    "image": {
+      "media": "ppt/media/image33.png",
+      "originalSha256": "dbc6af6dbc41fbc425c3dcb01f32a02d0ab3622b506573a507715a70fb160f09",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 14980,
+      "publishedBytes": 9426,
+      "image": "/assets/unit-16/firm.422c895860e9.webp"
+    }
+  },
+  {
+    "id": "bir-u16-ideal",
+    "slide": 35,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "ideal",
+      "pos": "adj.",
+      "definition": "best or most suitable for a particular purpose",
+      "example": "Job-sharing may be an ideal way to move gradually into retirement."
+    },
+    "gameExample": "Job-sharing may be an ideal way to move gradually into retirement.",
+    "image": {
+      "media": "ppt/media/image34.png",
+      "originalSha256": "0e827c82dc26446f356a4a8e4c26a5ed9733071441d081393f76b1f171c3388a",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 29160,
+      "publishedBytes": 16442,
+      "image": "/assets/unit-16/ideal.79e06c7d2139.webp"
+    }
+  },
+  {
+    "id": "bir-u16-occupational",
+    "slide": 36,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "occupational",
+      "pos": "adj.",
+      "definition": "connected with a job, profession or employment",
+      "example": "Some occupational pension schemes exclude employees with short hours."
+    },
+    "gameExample": "Some occupational pension schemes exclude employees with short hours.",
+    "image": {
+      "media": "ppt/media/image35.jpeg",
+      "originalSha256": "0b249c1f197e7c3217f1388f617e3e0cdac747f507f20275e57e3e52d5df6ff3",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 63305,
+      "publishedBytes": 14706,
+      "image": "/assets/unit-16/occupational.3c1763b01a49.webp"
+    }
+  },
+  {
+    "id": "bir-u16-pension",
+    "slide": 37,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "pension",
+      "pos": "n.",
+      "definition": "money regularly paid to someone after retirement",
+      "example": "Working part-time for several years may reduce a person's pension."
+    },
+    "gameExample": "Working part-time for several years may reduce a person's pension.",
+    "image": {
+      "media": "ppt/media/image36.jpeg",
+      "originalSha256": "2e582e8afb836567164fc5fd682842cd96c473c7e178fa66a6fb5a59f1231d55",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 489,
+      "height": 360,
+      "originalBytes": 20286,
+      "publishedBytes": 10762,
+      "image": "/assets/unit-16/pension.a1b54294bdb2.webp"
+    }
+  },
+  {
+    "id": "bir-u16-pitfall",
+    "slide": 38,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "pitfall",
+      "pos": "n.",
+      "definition": "a hidden difficulty or danger in a plan or activity",
+      "example": "One pitfall of job-sharing is losing some pension rights."
+    },
+    "gameExample": "One pitfall of job-sharing is losing some pension rights.",
+    "image": {
+      "media": "ppt/media/image37.jpeg",
+      "originalSha256": "acd26e89f12971210340eed059e98308d8892f1745abe3e0d6056168210a712c",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 540,
+      "height": 360,
+      "originalBytes": 17970,
+      "publishedBytes": 6146,
+      "image": "/assets/unit-16/pitfall.c6edcd70344e.webp"
+    }
+  },
+  {
+    "id": "bir-u16-promotion",
+    "slide": 39,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "promotion",
+      "pos": "n.",
+      "definition": "advancement to a higher position or rank at work",
+      "example": "Some part-time employees have little chance of promotion."
+    },
+    "gameExample": "Some part-time employees have little chance of promotion.",
+    "image": {
+      "media": "ppt/media/image38.jpeg",
+      "originalSha256": "dff8d0ffd1a6fc0231c7153b480fe6a2009151ca92fbd078af06aedf2e6f97ef",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 539,
+      "height": 360,
+      "originalBytes": 25194,
+      "publishedBytes": 7766,
+      "image": "/assets/unit-16/promotion.9ae1e76e031a.webp"
+    }
+  },
+  {
+    "id": "bir-u16-retirement",
+    "slide": 40,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "retirement",
+      "pos": "n.",
+      "definition": "the period when a person stops working, usually because of age",
+      "example": "Job-sharing can help older workers ease into retirement."
+    },
+    "gameExample": "Job-sharing can help older workers ease into retirement.",
+    "image": {
+      "media": "ppt/media/image39.jpeg",
+      "originalSha256": "ff356d1231d816cce349363ffe8c1531d866021e8a91cfeca8903763f278465e",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 338,
+      "height": 340,
+      "originalBytes": 12798,
+      "publishedBytes": 9946,
+      "image": "/assets/unit-16/retirement.ad17d06be8a8.webp"
+    }
+  },
+  {
+    "id": "bir-u16-scheme",
+    "slide": 41,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "scheme",
+      "pos": "n.",
+      "definition": "an organised plan or system for a particular purpose",
+      "example": "Workers should check the rules of their company pension scheme."
+    },
+    "gameExample": "Workers should check the rules of their company pension scheme.",
+    "image": {
+      "media": "ppt/media/image40.jpeg",
+      "originalSha256": "80c1048b2d535b7ada7070cf2f38dd58a3e835628c49bde60ad93e74ef200637",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 33883,
+      "publishedBytes": 6784,
+      "image": "/assets/unit-16/scheme.13774fb7f494.webp"
+    }
+  },
+  {
+    "id": "bir-u16-spouse",
+    "slide": 42,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "spouse",
+      "pos": "n.",
+      "definition": "a husband or wife",
+      "example": "One spouse may work part-time while the other works full-time."
+    },
+    "gameExample": "One spouse may work part-time while the other works full-time.",
+    "image": {
+      "media": "ppt/media/image41.jpeg",
+      "originalSha256": "971740d5905b9bbcfe5f35fe554120b550447453d35916a53773d3af15803c69",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 225,
+      "height": 360,
+      "originalBytes": 15748,
+      "publishedBytes": 6828,
+      "image": "/assets/unit-16/spouse.a7afa6fc2d09.webp"
+    }
+  },
+  {
+    "id": "bir-u16-stumble",
+    "slide": 43,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "stumble",
+      "pos": "v.",
+      "definition": "to trip or have difficulty while moving or making progress",
+      "example": "A job-sharing arrangement may stumble over complicated pension rules."
+    },
+    "gameExample": "A job-sharing arrangement may stumble over complicated pension rules.",
+    "image": {
+      "media": "ppt/media/image42.jpeg",
+      "originalSha256": "5f61080d3946e0f5592f40c59d895e1e5cb7cdd0b79fef79017fe827ea8765fc",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 377,
+      "height": 360,
+      "originalBytes": 23323,
+      "publishedBytes": 5306,
+      "image": "/assets/unit-16/stumble.093dcc5c8945.webp"
+    }
+  },
+  {
+    "id": "bir-u16-survey",
+    "slide": 44,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "survey",
+      "pos": "n.",
+      "definition": "a study that collects information or opinions from a group of people",
+      "example": "A survey found that employers can benefit from job-sharing."
+    },
+    "gameExample": "A survey found that employers can benefit from job-sharing.",
+    "image": {
+      "media": "ppt/media/image43.jpeg",
+      "originalSha256": "4327280ce2cb647f204342523e98b7c33f743c87b9b82ed835d2fde7bee39afd",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 473,
+      "height": 360,
+      "originalBytes": 248094,
+      "publishedBytes": 12460,
+      "image": "/assets/unit-16/survey.8a4979bf123f.webp"
+    }
+  },
+  {
+    "id": "bir-u16-voluntarily",
+    "slide": 45,
+    "passage": 2,
+    "source": "Unit 16 Vocabulary.pptx",
+    "original": {
+      "term": "voluntarily",
+      "pos": "adv.",
+      "definition": "by choice, without being forced",
+      "example": "Two employees voluntarily share the duties of one full-time position."
+    },
+    "gameExample": "Two employees voluntarily share the duties of one full-time position.",
+    "image": {
+      "media": "ppt/media/image44.jpeg",
+      "originalSha256": "37a0d7ebbc6a3c8c181466af3bcd4302ab02e4e312bbdcf7d1e9cdd6a2804e84",
+      "crop": {
+        "l": 0.0,
+        "t": 0.0,
+        "r": 0.0,
+        "b": 0.0
+      },
+      "width": 360,
+      "height": 360,
+      "originalBytes": 28533,
+      "publishedBytes": 14694,
+      "image": "/assets/unit-16/voluntarily.4cbf4792cb01.webp"
+    }
+  }
+]

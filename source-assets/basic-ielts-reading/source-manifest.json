@@ -1,14 +1,14 @@
 {
   "bookId": "basic-ielts-reading",
-  "units": 12,
-  "passages": 24,
-  "questions": 436,
-  "uniqueOriginalPages": 85,
+  "units": 13,
+  "passages": 26,
+  "questions": 478,
+  "uniqueOriginalPages": 93,
   "source": {
     "title": "Basic IELTS Reading by Zhang Juan (Vietnamese edition, 2019)",
     "publisher": "Nhan Tri Viet / Beijing Language and Culture University Press",
     "sourcePdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
-    "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–174.",
+    "answerKeyOrigin": "Checked against the supplied publisher Answer Key, book pages 169–175.",
     "explanationOrigin": "Written for WordHop and reviewed against the publisher key and original text.",
     "answerKeyPdfSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
     "answerKeyFilename": "Answer Key.pdf"
@@ -693,14 +693,78 @@
       "width": 1350,
       "height": 1951,
       "bytes": 156264
+    },
+    {
+      "pdfPage": 133,
+      "printedPage": 133,
+      "image": "assets/reading/basic-ielts-page-133.24ec941dbd11.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 445902
+    },
+    {
+      "pdfPage": 134,
+      "printedPage": 134,
+      "image": "assets/reading/basic-ielts-page-134.ed856062c8a5.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 486308
+    },
+    {
+      "pdfPage": 135,
+      "printedPage": 135,
+      "image": "assets/reading/basic-ielts-page-135.64e0fc20208a.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 208632
+    },
+    {
+      "pdfPage": 136,
+      "printedPage": 136,
+      "image": "assets/reading/basic-ielts-page-136.f2bc6a5b6948.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 237818
+    },
+    {
+      "pdfPage": 137,
+      "printedPage": 137,
+      "image": "assets/reading/basic-ielts-page-137.1f421c1d7fac.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 313876
+    },
+    {
+      "pdfPage": 138,
+      "printedPage": 138,
+      "image": "assets/reading/basic-ielts-page-138.f0c24c95e226.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 280338
+    },
+    {
+      "pdfPage": 139,
+      "printedPage": 139,
+      "image": "assets/reading/basic-ielts-page-139.2d237d1d9093.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 223708
+    },
+    {
+      "pdfPage": 140,
+      "printedPage": 140,
+      "image": "assets/reading/basic-ielts-page-140.0b1b351e746b.webp",
+      "width": 1350,
+      "height": 1951,
+      "bytes": 297108
     }
   ],
   "previousSourceCopySha256": "f6d7d707b2334c8c2bb5822af5c588cdca9e619450413426a453093969edd7d5",
-  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Units 12–15 use the complete supplied PDF; their original book pages were verified from that file.",
+  "sourceCopyNote": "Earlier unit JSON retains the fingerprint of the partial local source copy used during its import. Units 12–16 use the complete supplied PDF; their original book pages were verified from that file.",
   "publisherAnswerKey": {
     "title": "Basic IELTS Reading publisher Answer Key",
     "sourceFilename": "Answer Key.pdf",
     "sourceSha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
-    "reviewedQuestionCount": 436
+    "reviewedQuestionCount": 478
   }
 }

@@ -4,7 +4,7 @@ English vocabulary flashcards, games, reading and listening exercises for PET an
 
 The current content includes Simply PET with eight tests and 250 words,
 Authentic 1 with four tests and 243 words, and Basic IELTS Reading with
-Units 4–15 and 518 words. The total is 1011 words across 24 units or tests.
+Units 4–16 and 562 words. The total is 1055 words across 25 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
 choice or fill-in-the-blank games without a word bank. Unit 10 of Basic IELTS Reading also includes Flappy Vocab. Rounds default to all
@@ -88,14 +88,14 @@ Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
 (a temperature goal versus an original prediction). Source pages and answer
 provenance are recorded under `source-assets/simply-pet-reading/`.
 
-Basic IELTS Reading Units 4–15 also include their original reading pages and
-numbered exercises: 24 passages, 436 questions and 85 book pages. This covers
+Basic IELTS Reading Units 4–16 also include their original reading pages and
+numbered exercises: 26 passages, 478 questions and 93 book pages. This covers
 multiple choice, short answers and completion, True/False/Not Given,
 Yes/No/Not Given, matching headings and phrases, and multi-select questions.
 All pages of a passage remain together, with later pages loaded lazily.
 
-All 436 Basic IELTS Reading questions in Units 4–15 have been checked against
-the separately supplied publisher `Answer Key.pdf`, book key pages 169–174.
+All 478 Basic IELTS Reading questions in Units 4–16 have been checked against
+the separately supplied publisher `Answer Key.pdf`, book key pages 169–175.
 English explanations are written for WordHop and reviewed against the key
 and original passages. Numeric answers in Unit 11's note-completion table
 accept the corresponding figures. The publisher transcription and correction
@@ -264,3 +264,15 @@ In WordHop it is available only in Unit 13; Unit 10 retains Flappy Vocab, Unit 1
 retains Word Ninja, and Unit 12 retains Word Invaders. Embedded game results
 are recorded in WordHop practice history, and the Unit 13 clear-results
 action also resets Word Cannon's browser-local high score.
+
+## Basic IELTS Reading Unit 16
+
+Unit 16 adds all 44 supplied vocabulary entries and original illustrations,
+flashcards and the three standard practice games. The original examples
+remain on the cards; separate cloze contexts for claim and label avoid
+repetitions that would reveal the answer. Distill is accepted alongside distil.
+
+Which Is Better, Tap Water or Bottled Water? and Job-Sharing include all
+42 numbered questions on eight original book pages (133–140), publisher-checked
+answers and English explanations. Both passage views preserve shared page 137.
+Source records and reproducible imports are in `source-assets/unit-16/`.
