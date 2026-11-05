@@ -245,3 +245,22 @@ WordHop results history. Clear saved results also clears its local high score.
 Unit 11 Word Ninja now highlights the target phrase in all **13** paraphrasing
 tasks, as verified by the automated test suite. Unit 10 retains Flappy Vocab;
 Unit 11 retains Word Ninja; Unit 12 uses Word Invaders.
+
+## Word Cannon – Basic IELTS Reading Unit 13
+
+Unit 13 has one dedicated arcade game: **Word Cannon – Eco Rescue**, alongside
+standard Matching, Multiple Choice, and Fill-in-the-Blank activities. It contains
+all **28 verified Unit 13 vocabulary entries**, with 7 context, 7 collocation,
+7 paraphrasing, and 7 word-formation IELTS questions. Every paraphrasing
+question highlights the specific phrase to replace.
+
+Students use a 2D cannon to aim at floating answer balloons, with ballistic
+shots, effects, bombs, combos, Practice and Arcade modes and mobile touch
+controls. Short rounds of 10 or 20 words and all 28 words are supported. The
+game is self-contained in `dist/games/word-cannon-unit13.html`, with no
+external libraries or assets, so it also works at nested GitHub Pages URLs.
+
+In WordHop it is available only in Unit 13; Unit 10 retains Flappy Vocab, Unit 11
+retains Word Ninja, and Unit 12 retains Word Invaders. Embedded game results
+are recorded in WordHop practice history, and the Unit 13 clear-results
+action also resets Word Cannon's browser-local high score.
