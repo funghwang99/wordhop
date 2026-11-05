@@ -4,7 +4,7 @@ English vocabulary flashcards, games, reading and listening exercises for PET an
 
 The current content includes Simply PET with eight tests and 250 words,
 Authentic 1 with four tests and 243 words, and Basic IELTS Reading with
-Units 4–14 and 476 words. The total is 969 words across 23 units or tests.
+Units 4–15 and 518 words. The total is 1011 words across 24 units or tests.
 
 Students study illustrated flashcards, then practise with matching, multiple
 choice or fill-in-the-blank games without a word bank. Unit 10 of Basic IELTS Reading also includes Flappy Vocab. Rounds default to all
@@ -88,13 +88,13 @@ Test 7 Question 4 (finest versus natural ingredients), and Test 8 Question 11
 (a temperature goal versus an original prediction). Source pages and answer
 provenance are recorded under `source-assets/simply-pet-reading/`.
 
-Basic IELTS Reading Units 4–14 also include their original reading pages and
-numbered exercises: 22 passages, 396 questions and 77 book pages. This covers
+Basic IELTS Reading Units 4–15 also include their original reading pages and
+numbered exercises: 24 passages, 436 questions and 85 book pages. This covers
 multiple choice, short answers and completion, True/False/Not Given,
 Yes/No/Not Given, matching headings and phrases, and multi-select questions.
 All pages of a passage remain together, with later pages loaded lazily.
 
-All 396 Basic IELTS Reading questions in Units 4–14 have been checked against
+All 436 Basic IELTS Reading questions in Units 4–15 have been checked against
 the separately supplied publisher `Answer Key.pdf`, book key pages 169–174.
 English explanations are written for WordHop and reviewed against the key
 and original passages. Numeric answers in Unit 11's note-completion table
@@ -180,6 +180,19 @@ Victoria Explore and U.S. Public Schools: What's Wrong with Them include all
 answers and English explanations. All 40 questions are scored; Passage 2
 Question 17 requires four distinct choices and accepts them in any order.
 Source records and reproducible import instructions are under `source-assets/unit-14/`.
+
+## Basic IELTS Reading Unit 15
+
+Unit 15 adds all 42 supplied vocabulary entries, 40 original pictures,
+flashcards and the three standard practice games. The via and despite slides
+contain no picture, so those cards retain the supplied text. Original examples
+remain on the cards; two separate cloze contexts for academic and military
+avoid unblanked repetitions that would reveal the answer.
+
+Getting Started with E-mail! and Educating Our Mobile Children include all
+40 original numbered questions on eight book pages (125–132), publisher-checked
+answers and English explanations. Source records and reproducible imports
+are documented in `source-assets/unit-15/`.
 
 ## Flappy Vocab – Unit 10
 

@@ -1,0 +1,68 @@
+{
+  "bookPdfSha256": "2d78b4ef41d3d7dc9eb13111bd9943f28bbd934cc6fdce286e1c6176ea54cbd6",
+  "publisherKeySha256": "35b3900f58e744955429b0160ad775233cf1d2b9f5285bb4e9e746f6d4b66c95",
+  "keyPdfPage": 7,
+  "keyPrintedPage": 174,
+  "questions": 40,
+  "scoredQuestions": 40,
+  "pages": [
+    {
+      "pdfPage": 125,
+      "printedPage": 125,
+      "image": "assets/reading/basic-ielts-page-125.80cca08af0f3.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 126,
+      "printedPage": 126,
+      "image": "assets/reading/basic-ielts-page-126.8cb2923dbc3d.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 127,
+      "printedPage": 127,
+      "image": "assets/reading/basic-ielts-page-127.0cba79f581fc.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 128,
+      "printedPage": 128,
+      "image": "assets/reading/basic-ielts-page-128.2ee71920f59a.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 129,
+      "printedPage": 129,
+      "image": "assets/reading/basic-ielts-page-129.430f15faa451.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 130,
+      "printedPage": 130,
+      "image": "assets/reading/basic-ielts-page-130.cdf14c0e76e9.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 131,
+      "printedPage": 131,
+      "image": "assets/reading/basic-ielts-page-131.58cb66ad41f4.webp",
+      "width": 1350,
+      "height": 1951
+    },
+    {
+      "pdfPage": 132,
+      "printedPage": 132,
+      "image": "assets/reading/basic-ielts-page-132.7bf9f0024080.webp",
+      "width": 1350,
+      "height": 1951
+    }
+  ],
+  "sourceReview": [],
+  "unscored": []
+}
