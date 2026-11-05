@@ -22,6 +22,14 @@ for(const q of qs){
  assert.equal(new Set(q.choices).size,3);
  assert.ok(q.choices.includes(q.answer));
 }
+const paraphrases=qs.filter(q=>q.type==='PARAPHRASE');
+assert.equal(paraphrases.length,13);
+for(const q of paraphrases){
+ assert.ok(typeof q.highlight==='string'&&q.highlight.length>=4,'Missing highlighted text: '+q.term);
+ assert.equal(q.prompt.split(q.highlight).length,2,'Highlight must target exactly one phrase: '+q.term);
+}
+assert.ok(source.includes('el.def.innerHTML=questionMarkup(q)'), 'Questions must render marked-up paraphrase focus');
+assert.ok(source.includes('<mark class="paraphrase-focus">'), 'Missing paraphrase mark element');
 assert.deepEqual(Object.keys(counts).sort(),['COLLOCATION','CONTEXT','PARAPHRASE','WORD FORM']);
 assert.deepEqual(Object.values(counts).sort((a,b)=>a-b),[12,13,13,13]);
 const script=source.match(/<script>\s*([\s\S]*?)<\/script>/);

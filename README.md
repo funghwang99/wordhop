@@ -228,3 +228,20 @@ The Word Ninja embed reports completed sessions back to the main WordHop
 results history; the Unit 11 clear-results control also resets its saved
 high score. The original Matching, Multiple choice and Fill in the blanks
 practice activities remain available in all units.
+
+## Word Invaders – Basic IELTS Reading Unit 12
+
+Unit 12 has exactly one dedicated arcade game, **Word Invaders**, alongside the standard
+vocabulary exercises. It covers all **35 verified Unit 12 words** using an original
+2D UFO-shooting game with lasers, combos, Practice and Arcade modes, mouse,
+keyboard and touch controls. Its 35 IELTS tasks rotate among context completion
+(9), paraphrasing (9), collocations (9) and word formation (8).
+All paraphrasing tasks highlight only the word/phrase students must replace.
+
+The self-contained `dist/games/word-invaders-unit12.html` uses no external
+libraries. Completed embedded sessions report scores and missed words to the
+WordHop results history. Clear saved results also clears its local high score.
+
+Unit 11 Word Ninja now highlights the target phrase in all **13** paraphrasing
+tasks, as verified by the automated test suite. Unit 10 retains Flappy Vocab;
+Unit 11 retains Word Ninja; Unit 12 uses Word Invaders.

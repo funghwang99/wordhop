@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const root=path.join(__dirname,'../dist');
 const source=fs.readFileSync(path.join(root,'app.js'),'utf8');
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'data.js'),'utf8').replace(/^window\.WQ_CATALOG = /,'').replace(/;\s*$/,''));
-const modes={match:{},quiz:{},cloze:{},flappy:{},ninja:{}};
+const modes={match:{},quiz:{},cloze:{},flappy:{},ninja:{},invaders:{}};
 const init=source.slice(source.indexOf('let state='),source.indexOf('let route='));
 function boot(saved){const context={catalog,modes,key:'wordquest.courses.v2',localStorage:{getItem:()=>saved===null?null:JSON.stringify(saved)}};vm.createContext(context);const state=vm.runInContext(init+'\nstate;',context);return{context,state};}
 assert.equal(boot(null).state.count,'all');
@@ -23,7 +23,7 @@ vm.runInContext(source.slice(source.indexOf('function nextMatch('),source.indexO
 for(const meta of catalog.units){
  const words=JSON.parse(fs.readFileSync(path.join(root,meta.dataFile.replace(/^\//,'')),'utf8')).words;
  const expected=words.map(w=>w.id).sort();context.route={unit:{...meta,words}};
- for(const mode of (meta.id==='bir-unit-10'?['match','quiz','cloze','flappy']:meta.id==='bir-unit-11'?['match','quiz','cloze','ninja']:['match','quiz','cloze'])){
+ for(const mode of (meta.id==='bir-unit-10'?['match','quiz','cloze','flappy']:meta.id==='bir-unit-11'?['match','quiz','cloze','ninja']:meta.id==='bir-unit-12'?['match','quiz','cloze','invaders']:['match','quiz','cloze'])){
   context.startGame(mode);assert.deepEqual(Array.from(context.game.items,w=>w.id).sort(),expected);
   if(mode==='match'){
    const covered=[];
@@ -37,6 +37,7 @@ console.log('PASS: old short-round settings migrate to All words; progress, scor
 
 require('./check-flappy-collision.cjs');
 require('./check-unit-11-ninja.cjs');
+require('./check-unit-12-invaders.cjs');
 require('./check-clear-results.cjs');
 require('./check-unit-13.cjs');
 require('./check-unit-14.cjs');
