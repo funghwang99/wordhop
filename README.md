@@ -276,3 +276,23 @@ Which Is Better, Tap Water or Bottled Water? and Job-Sharing include all
 42 numbered questions on eight original book pages (133–140), publisher-checked
 answers and English explanations. Both passage views preserve shared page 137.
 Source records and reproducible imports are in `source-assets/unit-16/`.
+
+## Word Hopper – Basic IELTS Reading Unit 14
+
+Unit 14 uses **Word Hopper – Harbour Hop** as its single dedicated arcade game.
+All **34 verified Unit 14 words** appear once per full round. IELTS questions
+alternate between Context Completion (9), Collocations & Usage (9),
+Paraphrasing (8) and Word Formation (8); every paraphrase prompt highlights
+exactly the phrase to replace.
+
+Students **choose among three visible answer cards before hopping**; the chosen
+answer gets a subtle mint border/checkmark and its dock is marked. The HOP
+button activates only after a choice is made. The frog automatically jumps
+to the selected dock and the game grades the landing. Desktop and mobile
+controls, Practice and Arcade modes, sounds, scores, missed-word review,
+and smaller 10/20-question rounds are supported.
+
+The game runs entirely offline in `dist/games/word-hopper-unit14.html`,
+embedded in WordHop's Unit 14 Practice screen. Its result messages feed
+WordHop's local history. Clear saved results for Unit 14 also removes the
+game's browser-local high score. The arcade games of Units 10–13 are preserved.
