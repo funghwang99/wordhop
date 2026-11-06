@@ -313,3 +313,22 @@ Writing pages and data load on demand without downloading the full books.
 
 Sources, page mappings and the reproducible import are documented in
 `source-assets/pet-writing/`.
+
+## Word Courier – Basic IELTS Reading Unit 15
+
+Unit 15 has one dedicated arcade game: **Word Courier – Type to Deliver**,
+alongside the standard vocabulary practice activities. The game includes
+all **42 verified Unit 15 vocabulary words**, with contextual completion (11),
+collocations (10), paraphrasing (10) and word formation (11). Every answer must
+be typed (there is no word bank or multiple choice), and all paraphrasing tasks
+highlight the precise phrase being replaced.
+
+The standalone game in `dist/games/word-courier-unit15.html` has a 2D message
+delivery animation, Practice and Arcade modes, 10/20/42 question rounds,
+keyboard and mobile typing support, hints, combo points and a local best score.
+**Enter, mobile Send, and the DELIVER button share the same submit handler**.
+
+The embedded Unit 15 game reports completed sessions to WordHop's local
+practice history, and Clear saved results also clears its high score.
+Unit 10 has Flappy Vocab, Unit 11 Word Ninja, Unit 12 Word Invaders,
+Unit 13 Word Cannon and Unit 14 Word Hopper.
