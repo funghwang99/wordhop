@@ -1,0 +1,228 @@
+{
+  "tests": 12,
+  "parts": 24,
+  "prompts": 36,
+  "uniqueOriginalPages": 24,
+  "books": [
+    {
+      "bookId": "simply-pet",
+      "source": {
+        "title": "Simply B1 Preliminary for Schools: 8 Complete Practice Tests (2019, revised exam from 2020)",
+        "publisher": "GLOBAL ELT",
+        "filename": "Simply PET - 8 Practice tests (2020)(3).pdf",
+        "sha256": "f5e184c54780c02c3e4e4f39b3cf9fde47a659f0558b00495163fce78cd62630"
+      },
+      "tests": 8,
+      "parts": 16,
+      "prompts": 24,
+      "pages": [
+        {
+          "pdfPage": 33,
+          "printedPage": 32,
+          "image": "assets/writing/simply-pet-page-33.48dc989cd672.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 222512
+        },
+        {
+          "pdfPage": 34,
+          "printedPage": 33,
+          "image": "assets/writing/simply-pet-page-34.260333cbb5ab.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 266136
+        },
+        {
+          "pdfPage": 47,
+          "printedPage": 46,
+          "image": "assets/writing/simply-pet-page-47.820bafcfedad.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 233012
+        },
+        {
+          "pdfPage": 48,
+          "printedPage": 47,
+          "image": "assets/writing/simply-pet-page-48.c02b7f68a97d.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 269254
+        },
+        {
+          "pdfPage": 61,
+          "printedPage": 60,
+          "image": "assets/writing/simply-pet-page-61.bbf773f11f01.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 229418
+        },
+        {
+          "pdfPage": 62,
+          "printedPage": 61,
+          "image": "assets/writing/simply-pet-page-62.6cff6d8a34b0.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 275674
+        },
+        {
+          "pdfPage": 75,
+          "printedPage": 74,
+          "image": "assets/writing/simply-pet-page-75.144efe81fa81.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 229016
+        },
+        {
+          "pdfPage": 76,
+          "printedPage": 75,
+          "image": "assets/writing/simply-pet-page-76.d6614dd6d7ad.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 268288
+        },
+        {
+          "pdfPage": 89,
+          "printedPage": 88,
+          "image": "assets/writing/simply-pet-page-89.6fd2de7aa432.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 237076
+        },
+        {
+          "pdfPage": 90,
+          "printedPage": 89,
+          "image": "assets/writing/simply-pet-page-90.d63833fd005a.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 294752
+        },
+        {
+          "pdfPage": 103,
+          "printedPage": 102,
+          "image": "assets/writing/simply-pet-page-103.e2f2f657c132.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 230138
+        },
+        {
+          "pdfPage": 104,
+          "printedPage": 103,
+          "image": "assets/writing/simply-pet-page-104.0d364c1d59b7.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 267352
+        },
+        {
+          "pdfPage": 117,
+          "printedPage": 116,
+          "image": "assets/writing/simply-pet-page-117.5ab6811de539.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 230528
+        },
+        {
+          "pdfPage": 118,
+          "printedPage": 117,
+          "image": "assets/writing/simply-pet-page-118.b4eade0b4156.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 274592
+        },
+        {
+          "pdfPage": 130,
+          "printedPage": 129,
+          "image": "assets/writing/simply-pet-page-130.5f861b356c85.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 233522
+        },
+        {
+          "pdfPage": 131,
+          "printedPage": 130,
+          "image": "assets/writing/simply-pet-page-131.d1886c5eea81.webp",
+          "width": 1350,
+          "height": 1939,
+          "bytes": 262256
+        }
+      ]
+    },
+    {
+      "bookId": "authentic-1",
+      "source": {
+        "title": "B1 Preliminary 1 With Answers: Authentic Practice Tests",
+        "publisher": "Cambridge University Press",
+        "filename": "AUTHENTIC PRACTICE TESTS(4).pdf",
+        "sha256": "492cb871679ccec89b3b50935a21ae5911a2a2adccd655dfd63607a1522d69fe"
+      },
+      "tests": 4,
+      "parts": 8,
+      "prompts": 12,
+      "pages": [
+        {
+          "pdfPage": 20,
+          "printedPage": 18,
+          "image": "assets/writing/authentic-1-page-20.7333b7e2ba6d.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 189488
+        },
+        {
+          "pdfPage": 21,
+          "printedPage": 19,
+          "image": "assets/writing/authentic-1-page-21.7d81b9b943ce.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 115976
+        },
+        {
+          "pdfPage": 38,
+          "printedPage": 36,
+          "image": "assets/writing/authentic-1-page-38.1e6af65149ea.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 190074
+        },
+        {
+          "pdfPage": 39,
+          "printedPage": 37,
+          "image": "assets/writing/authentic-1-page-39.2d6b5ebf5899.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 129640
+        },
+        {
+          "pdfPage": 56,
+          "printedPage": 54,
+          "image": "assets/writing/authentic-1-page-56.872fb118d885.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 207960
+        },
+        {
+          "pdfPage": 57,
+          "printedPage": 55,
+          "image": "assets/writing/authentic-1-page-57.b7463effea54.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 117376
+        },
+        {
+          "pdfPage": 74,
+          "printedPage": 72,
+          "image": "assets/writing/authentic-1-page-74.b5a39e9ec658.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 185296
+        },
+        {
+          "pdfPage": 75,
+          "printedPage": 73,
+          "image": "assets/writing/authentic-1-page-75.a11ff330418e.webp",
+          "width": 1350,
+          "height": 1813,
+          "bytes": 120860
+        }
+      ]
+    }
+  ]
+}
