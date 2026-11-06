@@ -353,3 +353,15 @@ The game is embedded in Unit 16's Practice menu and reports game results
 back to WordHop's local history. Clear saved results for Unit 16 also
 clears the Word Circuit local best score. Other Basic IELTS Reading
 Units 10–15 retain their existing arcade games.
+
+## Vietnamese support for PET
+
+Simply PET and Authentic 1 show Vietnamese vocabulary meanings and Reading/
+Listening explanations for A2–B1 learners: all 493 definitions and 684 question
+explanations. The same meanings are used in flashcards, matching, multiple
+choice, answer feedback and missed-word review. English vocabulary, examples,
+original tasks, keys and evidence quotes are preserved. IELTS support remains
+in English.
+
+Reviewed translations, English source fingerprints and the reimport command
+are documented under `source-assets/locales/pet-vi/`.

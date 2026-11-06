@@ -1,0 +1,1601 @@
+{
+  "language": "vi",
+  "items": [
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Cửa hàng đang giảm giá đến thứ Sáu, nên học sinh có thể mua hàng với giá ưu đãi trong thời gian này. Thông báo không bắt buộc học sinh phải mua ở đó."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Jake nói rằng cậu không thể đi mua sắm vào ngày mai nữa vì cô/dì của cậu đến thăm. Cậu viết để hủy kế hoạch đã hẹn với Max."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "“Any pizza” nghĩa là loại pizza nào cũng được áp dụng ưu đãi. Nếu đặt trước hoặc đúng 7 giờ tối, khách được mua chiếc thứ hai với giá bằng một nửa."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Thầy Wood cho rằng trường có thể làm tốt hơn việc tái chế và muốn nhận các ý kiến đóng góp. Thầy muốn học sinh đề xuất cách cải thiện việc tái chế ở trường."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Mel thừa nhận rằng bộ phim làm cô hơi sợ, dù lúc ở rạp cô không nói ra. Vì vậy, lần sau cô muốn xem phim hài."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Night Light kể về cuộc đời có thật của một vận động viên bằng lời của chính người đó. Tác giả nói về những khó khăn khi bị mù, phù hợp với việc Ahmed thích đọc tự truyện về những người vượt qua khó khăn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Action Plan có các cuộc phỏng vấn vận động viên nổi tiếng về cách họ đạt thành công. Sách nói rõ về việc tập luyện, ăn uống và chuẩn bị, đúng với những điều Pritti muốn biết về các vận động viên hàng đầu."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Days in the Sun giải thích việc vùng nông thôn đã truyền cảm hứng cho một tác giả và cách ông cải thiện lối viết. Sách cũng dành cho những người mong muốn tác phẩm của mình được xuất bản, nên phù hợp với Conal."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Endless Days kể câu chuyện có thật về những phi công đầu tiên bay qua Đại Tây Dương. Sách còn giải thích ý nghĩa của thành tựu đó đối với thế giới ngày nay, phù hợp với việc Elif quan tâm cả cuộc phiêu lưu trong lịch sử lẫn ảnh hưởng của nó."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Our Lives mô tả cuộc sống ở nhiều nơi trên thế giới và có công thức nấu các món ăn truyền thống. Vì vậy, sách đáp ứng cả sở thích tìm hiểu văn hóa và nấu ăn của Stefan."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Đường đua ở gần trường của Vicky, nên cô dễ dàng đến tập hằng ngày. Bài đọc không nói rằng anh trai đã tặng cô một chiếc xe đạp."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Vicky nói rằng cô bắt đầu chán việc đua xe và không còn thấy hào hứng. Cô giải nghệ vì không còn yêu thích việc đó, chứ không phải vì tuổi tác."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "CycleZone muốn người trẻ tin vào bản thân và khả năng của mình. Vì vậy, tổ chức giúp họ tự tin hơn, chứ không chuyên huấn luyện họ để thi đấu."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Một số người cho rằng người nổi tiếng quảng bá bản thân quá nhiều, khiến công chúng không thấy được công việc thực sự của tổ chức từ thiện. Vicky nêu ý kiến phê bình này trước khi đưa ra quan điểm tích cực hơn của mình."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Vicky bơi giỏi và cũng đạp xe giỏi; cô nói thử đua xe đạp lòng chảo là quyết định đúng đắn nhất của mình. C kết hợp đúng năng khiếu thể thao của cô với sự hài lòng về lựa chọn nghề nghiệp."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "G giải thích vì sao Taimi băn khoăn: sống chung ở Rudolf House với những người trẻ không phải người thân là trải nghiệm mới với bà. Câu này nối ý bà chưa biết kế hoạch sẽ diễn ra thế nào với việc bà nghi ngờ hai bên có điểm chung."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "D giải thích vì sao Jonatan có thể xuất hiện trước phòng Taimi và bắt đầu trò chuyện. Chi tiết cánh cửa phòng bà đang mở phù hợp với lần ghé thăm vào buổi sáng được kể ngay trước và sau chỗ trống."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "Jonatan vừa đề nghị Taimi kể về bản thân, nên A đưa ra lời đáp của bà về tuổi thơ. Cụm “She also told him” sau đó bổ sung thêm thông tin cá nhân sau câu chuyện đầu tiên này."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "Gia đình Jonatan đã chuyển đi, trong khi khóa đào tạo của anh vẫn ở Helsinki. B nêu kết quả là anh cần tìm chỗ ở, rồi nối sang việc anh biết đến chương trình nhà ở."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Các câu trước nói về quá trình nộp đơn và phỏng vấn. E nêu kết quả và cho biết Jonatan là một trong ba người được chọn, rồi bài đọc kết thúc bằng tình bạn giữa anh và Taimi."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "Tính từ “proud” đi với giới từ “of”: “proud of his cookery skills” là tự hào về tài nấu ăn của mình. Các lựa chọn khác không phù hợp với cấu trúc này."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "“Be used to” nghĩa là đã quen với điều gì và ở đây được theo sau bằng động từ thêm -ing: “eating”. Những khách hàng này đã quen với việc chỉ ăn những món ngon nhất."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Demanded” nghĩa là yêu cầu một cách kiên quyết, phù hợp với việc khách không hài lòng và muốn đổi món ăn. Từ này cũng đi được với mệnh đề “that they should be replaced” phía sau."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "Những lời nói khoai tây quá dày, mềm và nhạt đều là các nhận xét tiêu cực, tức “negative comments”. Chính những nhận xét đó khiến Crum rất tức giận."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Absolutely huge” là cách kết hợp tự nhiên, nghĩa là cực kỳ lớn. “Huge” phù hợp để nói về quy mô rất lớn của ngành khoai tây chiên giòn trên toàn cầu."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Were intended to” diễn tả mục đích có chủ ý của Crum. Ông muốn khoai tây có vị rất tệ, dù khách hàng lại bất ngờ thích chúng."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "Cấu trúc “It wasn’t until … that …” nhấn mạnh rằng mãi đến một thời điểm nào đó, việc gì mới xảy ra. Vì vậy, chủ ngữ còn thiếu ở đây là “It”."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "Sau “one of the” cần dùng dạng so sánh nhất. Với “stressful”, dạng đó là “most stressful”, nghĩa là gây căng thẳng nhất."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“After all” được dùng để đưa ra lý do hoặc lời giải thích. Sam buồn vì đã sống ở ngôi nhà đó cả đời và có nhiều kỷ niệm đẹp."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "“Look forward to” nghĩa là mong chờ một việc trong tương lai. Ở đây “to” đi với “being”, nên từ cần điền là “forward”."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "Cụm cố định “at least” nghĩa là ít nhất, dùng để nêu một điểm tốt dù có điều chưa thuận lợi. Khu vườn đẹp là điểm bù lại cho việc ngôi nhà nhỏ hơn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“If you are” ở đây có nghĩa là nếu Alex rảnh. “If” đưa ra điều kiện để Alex có thể đến dự tiệc."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Người đàn ông nhớ đã đặt ví xuống trong phòng chờ trước khi vội đi bắt chuyến tàu tiếp theo. Ông vẫn còn ví lúc mua đồ ăn ở cửa hàng, nên nghĩ mình để quên ví trong phòng chờ."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Buổi nói chuyện ngày mai nói về hoa dại trong công viên và vườn. Sông ngòi là chủ đề trước đó, còn rừng mưa sẽ được nói đến vào tháng sau."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Món người phụ nữ thường ăn trưa là salad. Khi biết mọi món ăn trưa đều có kèm bánh mì tươi, cô chọn món quen thuộc, tức là salad."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Người phụ nữ biết đến triển lãm qua đài phát thanh. Cô chưa thấy quảng cáo về triển lãm trên trang web của phòng tranh hay trên các áp phích trong thị trấn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Anh trai cô muốn làm nhân viên bán hàng, nhưng cửa hàng chỉ cần bảo vệ. Vì vậy, anh được nhận vào làm bảo vệ."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Chuyến tàu của cô đã bị hủy và hàng chờ taxi quá dài. Cô quyết định về nhà lấy ô tô riêng vì cách đó sẽ nhanh hơn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Người đàn ông nói khúc côn cầu trên băng diễn ra quá nhanh nên cuối cùng đã bỏ chơi. Ông vẫn thích cả trượt ván tuyết lẫn trượt tuyết."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Người phụ nữ gợi ý anh nói chuyện với anh trai cô, một tay đua xe đạp chuyên nghiệp. Người anh có thể đưa ra lời khuyên hữu ích và độc lập, nên cô đang khuyên anh hỏi một chuyên gia."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Khó khăn chính của người đàn ông là giáo viên nói quá nhanh. Ngữ pháp dễ hơn ông nghĩ, còn các buổi học kéo dài một giờ lại kết thúc quá sớm đối với ông."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Chuyến đi chợ dưới mưa không dễ chịu, nhưng chiều hôm sau cô được ngồi trên ghế sofa xem TV. Cô thích khoảng thời gian nghỉ ngơi đó vì đó là điều cô rất cần."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Người phụ nữ nói đồ ăn có vẻ toàn là đồ đóng hộp hoặc đông lạnh, và người đàn ông đồng ý. Cả hai cho rằng nhà hàng sẽ tốt hơn nếu dùng thực phẩm tươi hơn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Người đàn ông nói ông vẫn đang làm quen với việc đeo kính, nên thay đổi mới ở ngoại hình là cặp kính. Ông đã cạo râu và vẫn mặc chiếc áo khoác cũ."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Người phụ nữ nghĩ cuộc họp sẽ bị hủy vì John bị ốm. Câu “I can’t believe that. Without John?” cho thấy cô ngạc nhiên khi biết cuộc họp vẫn diễn ra."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Người dạy hát các bài trong nhạc kịch là Susan Brokley. Người nói đánh vần họ của cô là B-R-O-K-L-E-Y, nên điền “Brokley”."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Buổi hòa nhạc bắt đầu lúc 8 giờ 30 tối, tức “half past eight”. 8 giờ chỉ là giờ nhà hát mở cửa, chưa phải giờ bắt đầu."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Người biểu diễn được yêu cầu mặc màu xanh dương, tức “blue”, để trang phục trông đồng đều. Màu đen được nhắc đến như màu truyền thống khi biểu diễn hòa nhạc, nhưng lần này không bắt buộc mặc màu đó."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Có thể lấy sơ đồ các phòng từ nhân viên lễ tân, tức “receptionist”. Giáo viên và bảo vệ có thể chỉ đường, nhưng họ không phải người cung cấp sơ đồ."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Học sinh nên mang thức ăn đến hội trường, tức “hall”, để ăn. Nhà bếp dùng để chuẩn bị thức ăn và không có chỗ ngồi ăn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Phí đỗ xe mỗi ngày là 3 bảng, nên điền “3”. 20 bảng là giá vé tháng, còn 15 bảng là tổng tiền cho cả tuần."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Sau khi học xong, Mickey được một người bạn mời đến phụ việc ở tiệm làm tóc. Anh nhận lời rồi làm luôn ở đó, chứ không chủ định chọn nghề theo bố mẹ."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Mickey cho rằng nên làm xen kẽ nhiều việc, như cắt tóc cho nam, nữ và nhuộm tóc. Anh vẫn dành thời gian nghỉ và không ngại làm muộn."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Điều Mickey thích nhất là trò chuyện, trao đổi tin tức với những khách quen quay lại cắt tóc. Anh ít hứng thú hơn với việc nghĩ ra kiểu tóc mới cho họ."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Mickey thấy các khóa học bắt buộc về sức khỏe và an toàn rất nhàm chán. Khách hàng thô lỗ không làm anh bận tâm, và anh sẵn lòng chia sẻ kiến thức."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Sau khi cắt tóc, Mickey thường thấy vẫn có điều mình có thể làm tốt hơn nên luôn cố gắng cải thiện. Điều này cho thấy anh muốn tiếp tục học hỏi."
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Mickey nói nhiều người mắc sai lầm khi nghĩ mình đã học hết mọi thứ. Anh khuyên người muốn làm nghề tóc hãy tiếp tục học, đừng cho rằng mình đã biết tất cả."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Jenny giới thiệu một trang web có vé tàu giảm giá để Lara đi thăm các thành phố thú vị ở Anh. Cô đang gợi ý cách thực hiện chuyến tham quan mà Lara đã muốn đi."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Buổi nói chuyện nói về câu chuyện lịch sử khác thường đằng sau kẹo, nên người nghe sẽ biết những sự thật bất ngờ về kẹo. Lời mời không yêu cầu khán giả thảo luận về loại kẹo họ thích."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Jack muốn mượn cuốn sách về động vật hoang dã sau khi Dan trả nó cho thư viện. Vì vậy, Jack nhờ Dan nhắn tin khi chuẩn bị trả sách."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Nước sốt phải được dùng trong vòng sáu tuần sau khi mở và trước ngày in trên nhãn. Vì vậy, sáu tuần là thời gian tối đa có thể giữ nước sốt sau lần mở đầu tiên."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Buổi học đầu tiên chỉ miễn phí khi người học đăng ký hai tháng. Vì vậy, muốn được miễn phí buổi đó thì phải đăng ký học trong thời gian quy định."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Ourworld.org giới thiệu các trang có kết quả khoa học mới nhất, gợi ý thí nghiệm tại nhà về năng lượng mặt trời và cung cấp thông tin về các nhóm môi trường trên thế giới. Trang này đáp ứng cả ba yêu cầu của Ethan."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Eco.org giúp Mario kiểm tra tác động của phương tiện đi lại đến môi trường và gợi ý cách thay đổi. Trang này cũng giúp cậu tìm và liên hệ với các nhóm gần nơi ở có cùng mối quan tâm."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Planetmatters.org có bảng tin để Sylvia đặt câu hỏi cho các nhà khoa học và có ý tưởng tái sử dụng đồ không còn cần đến. Như vậy, cô vừa hỏi được chuyên gia về công việc của họ, vừa tránh phải vứt đồ đi."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Cleanplanet.org giải thích cách biến vật liệu cũ thành sản phẩm mới, có video về tái chế ở nhiều nước và nói về ảnh hưởng của các công ty thời trang đến môi trường. Những nội dung này phù hợp với việc Declan quan tâm đến tái chế và quần áo ít gây hại cho môi trường."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Oneworld.org có thông tin nhập môn, hướng dẫn tiết kiệm điện ở nhà và quà tặng làm từ vật liệu bị bỏ đi. Những nội dung này phù hợp với bài tập ở trường, nhu cầu tiết kiệm điện cho gia đình và kế hoạch mua sắm của Tasha."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Luka thích kể với bạn bè bố mình chơi bóng rổ giỏi thế nào, nhất là sau khi bố thắng trận. Cậu tự hào về bố dù thích đọc sách hơn là xem các trận đấu."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Luka nghĩ mình cần rèn kỹ năng thêm trước khi chơi một trận đấu thực sự, dù giáo viên tin cậu đã sẵn sàng. Việc bố mẹ đến xem khiến cậu càng lo lắng."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Luka nói rõ rằng lúc đầu cậu không thích việc sống xa bố mẹ. Cậu vốn đã dành ít thời gian cho bạn bè, còn tiếng Anh của cậu sớm tiến bộ, nên khó khăn nhất là xa bố mẹ."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Luka đã đủ cao nhưng cân nặng lại quá thấp so với chiều cao. Trước khi trở thành cầu thủ chuyên nghiệp, cậu phải tăng cân."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Luka kể lại cách mình trở thành cầu thủ bóng rổ chuyên nghiệp, tiếp nối bố và ông. B giới thiệu đúng cả câu chuyện của Luka lẫn truyền thống thể thao trong gia đình."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "C cho biết ước mơ của Larry bắt đầu từ khi ông còn là một cậu bé. Câu này phù hợp giữa ý ông đã muốn bay từ lâu và ý phải gần 20 năm sau ước mơ mới thành hiện thực."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "F báo hiệu kết quả bất ngờ của thử nghiệm. Câu tiếp theo nêu rõ vấn đề: Larry bay lên cao vài kilômét, thay vì chỉ vài mét như dự định."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "Sau chuyến bay nguy hiểm và sự lo lắng của Larry, D kể việc ông hạ cánh an toàn, kết thúc cuộc phiêu lưu. Sau đó, bài đọc mới chuyển sang sự chú ý của công chúng và sự ra đời của môn thể thao này."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "Leo đã có bằng phi công, nhưng G đối chiếu việc lái máy bay thông thường với sở thích bay bằng bóng bay hiện tại của ông. Lời trích dẫn tiếp theo giải thích vì sao ông thích kiểu bay bằng chùm bóng bay."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "B đối chiếu sự yên lặng của chùm bóng bay với tiếng ồn của khinh khí cầu kiểu cũ. “They” ở câu cuối chỉ những khinh khí cầu kiểu cũ đó và bổ sung rằng chúng cũng kém an toàn hơn."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "“It was discovered that” nghĩa là người ta phát hiện ra một sự thật qua tìm hiểu. Hành vi giao tiếp của cá voi đã tồn tại sẵn và được phát hiện, chứ không phải do người ta phát minh ra."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "Một đĩa nhạc có thể được “produced”, nghĩa là được sản xuất để mọi người nghe và mua. Từ này cũng phù hợp với cấu trúc bị động “was produced”."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Previous centuries” nghĩa là những thế kỷ trước đó. Cụm này phù hợp để đối chiếu quan niệm cũ về não cá voi với kiến thức mới được phát hiện."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "“Included in” nghĩa là được đưa vào làm một phần của thứ gì đó. Tiếng hát của cá voi là một phần trong các bản ghi âm thanh từ Trái Đất."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Sent into space” nghĩa là được gửi vào không gian. Việc người ta hy vọng sinh vật thông minh ngoài không gian có thể tìm thấy các bản ghi cho thấy chúng đã được gửi đi."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“A wide variety of” nghĩa là nhiều loại khác nhau. Các bản ghi thể hiện sự đa dạng của sinh vật trên Trái Đất, nên điền “variety”."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "“To be honest” là cụm cố định dùng khi muốn nói thật hoặc thừa nhận điều gì. Ở đây, người viết thừa nhận mình lo lắng, nên từ cần điền là “be”."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“Familiar” đi với “with” khi nói về việc biết hoặc hiểu rõ một nơi hay chủ đề. Vì vậy, “familiar with the city” nghĩa là quen thuộc với thành phố."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“Loads of” đi trước danh từ, nghĩa là rất nhiều. Ở đây người viết đã học được rất nhiều điều thú vị về văn hóa Đan Mạch, nên điền “of”."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "“Us” là đại từ làm tân ngữ, chỉ người viết và những người cùng tham gia chuyến tham quan. “Gave us all suggestions” nghĩa là người hướng dẫn đưa ra gợi ý cho tất cả họ."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "Sau “places”, có thể dùng “to” cùng động từ nguyên mẫu để nói có thể làm gì ở đó. Vì vậy, “places to eat and visit” là những nơi để ăn uống và tham quan."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“More fun” là dạng so sánh hơn và cần “than” để nối với điều được so sánh. Người viết nói chuyến đi bộ tham quan thú vị hơn mình mong đợi."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Người đàn ông chợt nhận ra đã để quên đèn pin. Lần này anh đã nhớ mang túi ngủ và đã có giày đi bộ đường dài, nên đồ còn thiếu là đèn pin."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Chuyến bay bị hoãn và dự kiến phải đến 12 giờ 15 mới cất cánh. Các giờ khác là giờ khởi hành ban đầu và hạn chót làm thủ tục."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Gia đình đã mua vé giảm giá để thăm một lâu đài. Đi nhà hát chỉ là ý tưởng ban đầu, còn phòng tranh là nơi họ đã đến trong một lần đi chơi trước."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Sau khi xem giá, hai người thống nhất gọi một bình nước máy. Họ không chọn nước đóng chai hay các cốc nước có ga và không có ga riêng lẻ."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Người đàn ông thích chụp nước, đặc biệt là cảnh mưa, và chỉ cho người nghe xem một ảnh do mình chụp. Những ảnh sa mạc và hồ là của người khác."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Người đàn ông gợi ý đi tàu điện ngầm đến ga Greenoaks rồi đi bộ một đoạn ngắn. Taxi chỉ được gợi ý cho chuyến về nhà."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Sáng nay, miền bắc được dự báo có những đợt tuyết rơi dày. Sương mù ở miền nam, còn gió mạnh hơn dự kiến xuất hiện vào buổi tối."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cậu muốn mời cả bạn ở trường lẫn đồng đội bóng đá, nhưng nhóm quá đông sẽ không phù hợp để đi xe đạp. Cậu thất vọng vì phải chọn giữa hai nhóm."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Người phụ nữ nhận xét số khán giả ít hơn nhiều so với thường lệ, và người đàn ông cho rằng do trời lạnh. Cả hai đồng ý là có ít người xem, dù họ không đồng ý về mức độ thú vị của trận đấu và trọng tài."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Người đàn ông gặp khó khăn trên đường trượt dành cho người giỏi và phải bỏ cuộc. Các bạn thấy việc đó buồn cười, khiến anh thấy mình ngốc nghếch và xấu hổ về khả năng trượt tuyết."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Người phụ nữ thích đọc ý kiến trên mạng của những người đang sở hữu xe. Cô tin trải nghiệm của họ hơn quảng cáo hoặc thông tin trên TV."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Việc tổ chức cuộc thi chiếm rất nhiều thời gian của cô, kể cả hầu hết các buổi tối. Cô không làm giám khảo và thích xem hơn là biểu diễn."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Mọi nơi đều ở gần nên người phụ nữ đi bộ khắp nơi và khỏe hơn lúc sống ở nông thôn. Cô bất ngờ vì việc chuyển đến thành phố lại có lợi cho sức khỏe như vậy."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Dù hiện nay biết nhiều về máy tính, Kelly nói cô đã học ngành nghệ thuật ở đại học. Vì vậy, điền “art”."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Kelly khen phần mềm của công ty, nhưng nói chính con người ở đó khiến nơi làm việc tuyệt vời. Vì vậy, lý do cô thích đi làm là “people”."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Bộ phận của Kelly phụ trách tạo các con vật trong câu chuyện, nên điền “animals”. Các bộ phận khác làm nhân vật con người và các tòa nhà."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Kelly vừa bắt đầu học diễn xuất để hiểu rõ hơn về việc làm phim, nên điền “acting”. Khóa học viết của cô là vào năm ngoái."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Công ty Kelly dùng máy tính và mất tám tháng để làm một phim hoạt hình dài, nên điền “eight months”. Hai năm là thời gian cần cho cách làm truyền thống bằng từng hình vẽ riêng."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Kelly nói dự án tiếp theo là làm nội dung cho một trang web, nên điền “website”. Đây sẽ là thử thách mới sau công việc làm phim hài cho trẻ em."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Anh trai Joel bơi rất giỏi, nên Rosie tập thường xuyên để có thể bơi nhanh bằng anh. Mong muốn theo kịp anh trai là động lực khiến cô bơi nhiều từ nhỏ."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Tập luyện và thi đấu đôi khi khiến Rosie phải nghỉ học, và điều đó làm cô buồn. Cô vẫn thích trò chuyện trên đường đi và vẫn gặp bạn bè khi có thể."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Rosie đã tập luyện chăm chỉ nên mong mình đạt kết quả tốt. Điều khiến cô ngạc nhiên là mọi người muốn đọc và xem các cuộc phỏng vấn cô sau chiến thắng."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Một công ty đồ thể thao đã trả tiền vé máy bay và cung cấp dụng cụ mang thương hiệu của họ. Bố mẹ Rosie vẫn tốn nhiều tiền khách sạn, nên cô cần hỗ trợ thêm chi phí chỗ ở."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Huấn luyện viên mới đã góp ý để Rosie đổi cách di chuyển cánh tay trong nước, giúp cô bơi nhanh hơn. Chế độ tập thể lực và ăn uống của cô vẫn như trước."
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Rosie sẽ tham gia khóa tập huấn mùa hè cùng nhiều vận động viên bơi lội mà cô chưa từng gặp. Cô không thi đấu ở đó và sẽ nghỉ ngắn ngày trước khi tập huấn."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Ali nói anh phải làm muộn và sẽ ăn tại chỗ làm. Vì vậy, Zara nên ăn tối trước mà không chờ anh, không cần mua hay chuẩn bị thức ăn cho anh."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Mặt bàn có chỗ bị hỏng, nên không phải tất cả đồ nội thất đều ở tình trạng hoàn hảo. Chỉ có thể liên hệ với người bán sau 7 giờ tối."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Thông báo nói dụng cụ tennis này chỉ dành cho thành viên câu lạc bộ. Hỏi tại quầy lễ tân là cách để thành viên thuê dụng cụ, không có nghĩa là người ngoài cũng được dùng."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Olivia bị ốm nhưng vẫn khuyến khích Aiden đến câu lạc bộ chạy bộ mà không có cô. Cô trấn an rằng mọi người trong nhóm sẵn lòng giúp người mới."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Trước buổi học tiếp theo, học sinh phải tìm hiểu các bức tranh phong cảnh nổi tiếng để thảo luận trên lớp. Việc xem tranh trên máy tính không có nghĩa là họ phải vẽ tranh bằng máy tính."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Carston Castle có các chuyến tham quan do chuyên gia hướng dẫn, từng diễn ra các trận chiến nổi tiếng và có tầm nhìn ra biển. Nơi này phù hợp với sở thích lịch sử và mong muốn thăm lâu đài gần bờ biển có hướng dẫn viên của Alan."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Durston Castle vẫn là nơi ở của gia đình Durston, đúng với yêu cầu của Yoshiko. Cô còn có thể ngắm khu vườn đẹp và khám phá đường hầm bí mật cùng các phòng ngầm khác thường."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Sawbridge Castle trưng bày đồ nội thất mà cư dân trước đây từng dùng và có thông tin lịch sử được ghi âm để nghe qua tai nghe. Bảo tàng đồ chơi cũng phù hợp với con nhỏ của Paulo và Maria."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Castle Woodward tạo không khí xưa qua trang phục của nhân viên và món ăn làm theo công thức cổ. Các bức tranh gốc về những người từng sống ở đây cũng đáp ứng sở thích xem nghệ thuật lâu đời của Kerim."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Marlin Castle chỉ còn lại một số phần và nằm giữa hồ, với tháp cao để ngắm cảnh. Các buổi nói chuyện về dơi, chim và bướm cũng đáp ứng mong muốn tìm hiểu động vật hoang dã của Jake."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Việc tham gia câu lạc bộ kịch ở trường giúp Ana tự tin hơn. Sau đó, cô có thể vui vẻ hát trước khán giả trong buổi biểu diễn cuối kỳ."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Ana thấy giáo viên khóa sáng tác không chú ý đến mình và viết Something to Say về sự bực bội đó. Khóa học hữu ích vì đã cho cô một chủ đề để viết bài hát."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Ban đầu Ana lo công ty sẽ bảo cô phải hát gì. Joss trấn an cô rằng chuyện đó sẽ không xảy ra, nên cô đồng ý làm việc với anh."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Ana nói khi cuộc sống khó khăn, cô có nhiều điều để viết hơn lúc vui vẻ. Ví dụ cô đưa ra là Decision, một bài hát về trải nghiệm cá nhân khiến cô buồn."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Ana rất vui khi đọc bình luận của những người yêu thích bài hát và tìm ra ý nghĩa mới trong lời mỗi lần nghe. Vì vậy, D phù hợp với việc cô trân trọng những người nghe kỹ các bài hát của mình."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "Câu trước liệt kê những dịch vụ công ty tổ chức cung cấp. E bổ sung các điểm dừng ăn nhẹ và uống nước sau mỗi 50 km; cụm “Even with these” sau đó chỉ những điểm dừng hữu ích này."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "Steve đã từng đạp xe đường dài ở châu Âu, nên biết phần nào chuyến đi khó khăn này sẽ như thế nào. A nối hai ý đó và dẫn sang ví dụ về việc ăn uống đầy đủ."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "“Doing that” chỉ việc ăn bữa sáng nhiều thức ăn mỗi ngày. D giải thích rằng thói quen này cung cấp năng lượng để Steve tiếp tục đạp xe."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "Đoạn trước vừa nói về chặng leo núi khó khăn. H mở sang những thử thách khác, rồi câu sau đưa ví dụ về cái nóng dữ dội ở sa mạc Mojave."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Bản đồ vừa cho biết lộ trình ngày hôm sau, vừa cho biết người đi xe đã đi được bao xa. B nêu công dụng thứ hai, và câu sau minh họa bằng đường màu đen dần tiến lên trên bản đồ."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "“Common food” nghĩa là thực phẩm quen thuộc và được dùng rộng rãi. Cụm này phù hợp với câu mở đầu nói người trên khắp thế giới thích ăn mật ong."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "“Affects” nghĩa là ảnh hưởng đến, phù hợp vì loại hoa ong tìm đến ảnh hưởng cả vị lẫn màu mật ong. Chủ ngữ số ít “type” cũng cần động từ “affects”."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Actually” đưa ra một sự thật có thể khiến người đọc bất ngờ: có hơn 300 loại mật ong. Các trạng từ khác không phù hợp với cách dùng này."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "“In ancient times” nghĩa là vào thời cổ đại. Cụm này phù hợp với ý khi đường còn hiếm, người ta dùng mật ong để thêm vào thức ăn thay cho đường."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Cure” dùng với bệnh hoặc vấn đề sức khỏe, nghĩa là chữa khỏi. “Mend” và “repair” thường nói về sửa đồ vật, còn “assist” nghĩa là giúp đỡ, không phải chữa bệnh."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Nowadays” nghĩa là ngày nay. Từ này đối chiếu cách dùng mật ong hiện tại với cách dùng vào thời cổ đại vừa được nói đến."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "Cấu trúc “so + tính từ + that” diễn tả mức độ dẫn đến một kết quả. Emma lo đến mức không thể hỏi ai giúp, nên cần điền “so”."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“Every student” nghĩa là mọi học sinh, xét từng người, nên phù hợp trước danh từ số ít “student” và động từ “has”. “Each student” cũng đúng với nghĩa tương tự."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“If” nghĩa là nếu, nêu tình huống học sinh nên hỏi người khác giúp: khi không chắc phải đi đâu. “When” hoặc “whenever” cũng phù hợp, với nghĩa khi hoặc bất cứ khi nào gặp tình huống đó."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "“Why not” là cách quen thuộc để đưa ra lời gợi ý. Emma gợi ý dành giờ nghỉ với các bạn cùng lớp để kết bạn, nên điền “why”."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "Cấu trúc gợi ý là “How about + động từ thêm -ing”. Vì sau chỗ trống là “joining”, từ cần điền là “about”."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“There are” dùng để nói có nhiều thứ gì đó. Ở đây nói có nhiều câu lạc bộ để lựa chọn, nên cần “There” trước động từ số nhiều “are”."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Xe buýt của người đàn ông bị chậm ở đèn giao thông trong trung tâm thị trấn. Ô tô của anh đã hỏng trước đó, nhưng lần đi này anh đến muộn do tình hình giao thông, không phải do mưa."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Hôm nay đường chính bị đóng vì người ta đang quay phim. Cuộc đua xe đạp đã diễn ra trước đó, còn tiệc đường phố là vào cuối tuần sau."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Hai người chọn tổ chức tiệc kỷ niệm ngày cưới trên chuyến du thuyền sông và ăn trên tàu. Nhà hàng quá xa, còn tiệc trong vườn thì họ đã tổ chức năm ngoái."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Sau khi nghe người phụ nữ giới thiệu, anh quyết định thử pizza. Gà là món anh gọi lần trước, còn mì Ý chỉ là ý định ban đầu hôm nay."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Anh chọn chiếc ghế bành trơn theo gợi ý của người phụ nữ vì nó có kích thước vừa phải. Chiếc ghế có gối tựa quá lớn so với chỗ trống ở nhà anh."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Người phụ nữ đã có vé xem Billy Ryan, ca sĩ nhạc dân gian kiêm người chơi guitar. Buổi nhạc rock là kế hoạch của người đàn ông; cô cũng không chọn buổi nhạc jazz được gợi ý."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Theo lời người phụ nữ, anh đồng ý dùng những quả cà chua tươi nhỏ và để nguyên quả. Anh không cắt lát hay dùng cà chua đóng hộp."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Khó khăn chính của người đàn ông là không tìm được thời gian tập vì làm việc cả ngày và thường đến muộn. Có sẵn nơi tập, còn giá cả không phải trở ngại chính anh nêu ra."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Người phụ nữ khen món cá hồi, còn người đàn ông khen món cá ngừ, nên cả hai đều thích món cá của mình. Họ không có cùng ý kiến về súp hay món tráng miệng."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Điều khiến người phụ nữ khó chịu là hàng xóm để nhiều thùng rỗng bừa bộn bên ngoài sau khi chuyển đến. Họ vẫn chào cô và tiếng ồn của họ không khiến cô mất ngủ."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Người phụ nữ muốn tham quan bảo tàng thêm lần nữa nhưng cho rằng nơi này đóng cửa quá sớm. Giờ mở cửa không phù hợp với lịch làm việc của cô, nên cô phải chờ đến cuối tuần sau."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Khách sạn được quảng cáo là có thể đi bộ đến trung tâm thành phố, nhưng thực tế không như vậy. Anh ít nghe tiếng xe cộ và phòng cũng đủ rộng cho một người, nên điều anh phàn nàn là vị trí."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Công việc mới đòi hỏi người phụ nữ đi những quãng đường dài, nên cô thấy máy bay tiện hơn tàu. Cô thấy ghế ngồi không thoải mái, nên không cho rằng đi máy bay là cách thư giãn."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Xe buýt khởi hành đúng 8 giờ 15 sáng, tức “quarter past eight”, nên điền “8.15”. 8 giờ là giờ tập trung, còn 8 giờ 30 là giờ khởi hành thường lệ trước đó."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Hành khách phải tập trung ở lối vào khách sạn để lên xe, nên điền “entrance”. Hướng dẫn viên nói rõ là không tập trung ở quầy lễ tân."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Điểm dừng đầu tiên là tàn tích của một cung điện, nên điền “palace”. Nhà hát cổ thuộc chuyến tham quan khác vào ngày hôm trước."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Đoàn sẽ ăn trưa tại Wakizi Restaurant bên sông Gulum. Hướng dẫn viên đánh vần tên nhà hàng là W-A-K-I-Z-I, nên điền “Wakizi”."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Một hoạt động buổi chiều ở bãi biển là lặn, tức “diving”. Không thể đi thuyền buồm vì không có đủ gió."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Hành khách cần mang kem chống nắng, tức “suncream”, vì nhiệt độ rất cao dù có thể nhiều mây. Khăn tắm và ghế bãi biển sẽ được cung cấp."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Một người bạn của mẹ James làm nghề chăm sóc cây đã cho anh một việc làm vào mùa hè. Chính công việc đó khiến anh quan tâm đến cây, chứ không phải việc leo cây khi còn nhỏ."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "James tưởng chỉ có người trẻ, khỏe mới tham gia, nhưng lớp còn có trẻ em, người trung niên và cả người lớn tuổi. Sự đa dạng về người học khiến anh bất ngờ."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "James đặc biệt thích dạy những người cần leo cây để làm việc, chẳng hạn các nhà khoa học. Anh cũng thích ở ngoài trời, nhưng đó không phải điều anh thích nhất được nêu trong câu trả lời."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Vào mùa đông, nơi James sống hầu như không có người muốn leo cây, nên anh phải làm việc ở nơi khác. Việc đi được nhiều bang là kết quả của điều đó, không phải lý do anh di chuyển."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "James thích ngủ trên cây vì có thể ngắm bầu trời đêm rất đẹp. Anh nói phải quen với sự không thoải mái và bị chim đánh thức, chứ không nói thích những điều đó."
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "James di chuyển chậm trong rừng mưa để tránh làm hại môi trường. Di chuyển nhanh cũng có thể thu hút côn trùng, nhưng anh không đi chậm để nghiên cứu chúng."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Anne báo cho Eric biết cô sắp đến và vé đã được đặt rồi. Cô cũng hỏi sẽ gặp anh ở đâu tại nhà hát, nên tin nhắn nói về kế hoạch hai người đã hẹn."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Buổi nói chuyện chỉ có chỗ cho tối đa 30 học sinh, nên ai muốn tham dự cần đăng ký sớm. Buổi này dành cho học sinh năm cuối và nói về cách làm việc tốt sau khi bắt đầu một công việc."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Đồ thủy tinh, nhựa và kim loại phải được rửa sạch trước khi mang đến trung tâm tái chế. Nhân viên giúp mọi người tìm đúng thùng, chứ không rửa đồ giúp họ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Gabriel hỏi Nora rằng ngoài cô ra thì anh nên mua vé cho những ai. Anh muốn cô gợi ý thêm người có thể thích tham dự buổi khiêu vũ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Khi chọn món, khách có thể hỏi người phục vụ về nguyên liệu trong món ăn. Thông báo không nói rằng thực đơn đã liệt kê tất cả nguyên liệu."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "The End of Summer dựa trên một tiểu thuyết, có các ngôi sao truyền hình đóng vai chính và có nhiều phong cách âm nhạc. Vì vậy, chương trình đáp ứng cả ba yêu cầu của Erika."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "The Final Whistle kể chuyện có thật về một cầu thủ bóng rổ, với nhiều câu đùa và đoạn hội thoại thú vị. Chương trình chỉ có rất ít bài hát, nên phần nói nhiều hơn phần hát, đúng với mong muốn của Guillermo."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "No Exit dùng phim và công nghệ hiện đại để tạo hiệu ứng, có câu chuyện hài lãng mạn và được diễn trong nhà máy cũ. Những điểm này phù hợp với mong muốn của Neelam."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Mary Wright là vở kịch lấy bối cảnh thế kỷ 16, có âm nhạc gây sợ và trang phục đúng với thời kỳ đó. Chương trình có cả không khí đáng sợ lẫn bối cảnh lịch sử chân thực mà Oumar muốn."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Keeping Time có những bài hát hay nhất của một nhóm nhạc nổi tiếng với thành viên đến từ ba châu lục. Chương trình kết hợp những ảnh hưởng âm nhạc quốc tế đó với múa ba lê, phù hợp với Mira."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Louise đã mơ đến thăm vùng này từ khi xem nó trên TV lúc nhỏ. Cô phải thuyết phục Harry đưa mình đi và không có cùng niềm say mê thuyền với anh."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Dù bận việc, Louise tin lời Harry rằng anh đã thu xếp mọi thứ. Vì vậy, ngay trước khi lên đường, cô yên tâm rằng họ đã chuẩn bị đầy đủ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Sương mù khiến Louise không nhìn được cảnh ở xa, nên cô chú ý đến những đường nét đẹp do thuyền tạo ra trên mặt nước. Điều cô ngắm là mặt biển ngay gần thuyền."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Louise thích cảm giác không cần bận tâm ngày trôi nhanh hay chậm. Họ vẫn phải nấu ăn và giường thì cứng, nên hai chi tiết đó không giải thích điều cô thích."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Trang nhật ký đúng nhắc đến chương trình TV và mối liên hệ của gia đình với vùng này: ông bà cố của Louise từng sống ở đó. Cả hai chi tiết đều khớp với lý do ban đầu khiến cô muốn đến Canada."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "G giới thiệu vật trưng bày đầu tiên mà khách nhìn thấy khi đến. Câu sau cho biết đó là một con voi nhiều màu làm từ rác, giải thích vì sao nó trông như bước ra từ phim hoạt hình."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "B đưa ra danh sách các đồ vật mà khách sẽ tìm trong con voi. “Them all” ở câu sau chỉ tất cả đồ vật trong danh sách đó."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "Con voi tượng trưng cho 900 kg rác mà một người thải ra trong một năm. H nhận xét rằng khi tận mắt thấy lượng rác đó có hình dạng cụ thể, người xem sẽ thấy sốc."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "E cho biết rác đến từ 20 thị trấn trong vùng. Cụm “these places” ở câu sau nhắc lại chính các thị trấn đó."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Giám đốc nói khách tham quan kể cho bạn bè những gì có thể tái chế. D rút ra kết luận rằng chuyến thăm vừa vui, vừa giúp khách truyền đạt kiến thức mới cho người khác."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "“Developed” nghĩa là xây dựng hoặc phát triển một thứ cho mục đích cụ thể. Ở đây, bố của Bell đã phát triển một hệ thống giúp người khiếm thính giao tiếp."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "Cấu trúc cố định là “make it possible for someone to do something”, nghĩa là khiến ai có thể làm gì. Bell muốn giúp mọi người có thể nói chuyện với nhau từ xa."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Long distances” là cụm tự nhiên để nói về những khoảng cách xa. Các tính từ khác không kết hợp phù hợp với “distances” trong ngữ cảnh này."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "Việc biến âm thanh thành điện rồi đổi trở lại là một nhiệm vụ kỹ thuật khó, nên “challenge” phù hợp. Đoạn sau cũng gọi đây là một vấn đề cần nhiều tháng làm việc chăm chỉ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“It” chỉ vấn đề kỹ thuật vừa được nhắc đến, và ta dùng “solve a problem” để nói giải quyết một vấn đề. “Succeeded” cần cấu trúc khác, chẳng hạn “succeeded in solving it”."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Spilt” diễn tả việc vô tình làm đổ chất lỏng lên thứ gì đó. Trong lúc làm việc ở phòng thí nghiệm, Bell đã làm đổ chất lỏng nguy hiểm lên quần áo."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "“Ever since” nghĩa là kể từ một thời điểm trong quá khứ cho đến nay. Harry đã muốn học đàn từ khi còn nhỏ, nên điền “since” trước “I was young”."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“Me” làm tân ngữ của động từ “encouraged”. Harry nói việc xem nghệ sĩ piano biểu diễn đã khích lệ chính mình bắt đầu học đàn."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“For lessons” nói mục đích đến nhà giáo viên là để học đàn. Sau giới từ “for” là danh từ “lessons”."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "“At the same time” nghĩa là cùng một lúc. Harry thấy khó vừa đọc nốt nhạc vừa chọn đúng phím đàn, nên điền “same”."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "“One day” nghĩa là một ngày nào đó trong tương lai, phù hợp với hy vọng của Harry về khả năng chơi đàn sau này. “Some day” cũng dùng được với nghĩa tương tự."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "Sau tính từ so sánh hơn “better”, dùng “than” để so sánh hai người. Harry hy vọng sau này mình sẽ chơi piano giỏi hơn Oliver."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Người đàn ông đồng ý đi tàu điện ngầm vì ga ở gần và đi nhanh hơn taxi. Xe buýt phải đi vòng xa, nên anh không chọn cách đó."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Cô gái không thích việc gần như đêm nào cũng bị muỗi đốt vì giường không có màn. Khỉ không làm phiền cô, và trong thời gian cô ở đó cũng không có vấn đề về chuột."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Người đàn ông quyết định gọi món quen thuộc là cá hồi. Anh không chọn cà ri vì quá cay, còn pizza là món người phụ nữ sẽ ăn."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Người phụ nữ muốn thử cầu lông. Golf quá tốn kém, còn cô nghĩ tennis cần nhiều sức mạnh."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Cuốn tiểu thuyết anh đang đọc kể về một người đàn ông một mình vượt Thái Bình Dương. Chuyện bay xuất hiện trong các sách khác của tác giả, còn truyện về phi hành gia là cuốn sẽ viết sau này."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Người đàn ông gợi ý xem triển lãm nghệ thuật mới ở bảo tàng. Bãi biển có thể bị ảnh hưởng bởi bão, còn rạp phim không có phim anh muốn xem."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Mẫu điện thoại mới nhất hôm nay có giá 599 bảng. Giá thông thường của nó là 699 bảng, còn 499 bảng là giá mẫu năm ngoái."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Lò vi sóng quá nặng nên sẽ khó mang về bằng xe buýt. Người phụ nữ cũng nhắc đến ưu đãi trên mạng, nhưng lý do phù hợp với đáp án là trọng lượng của món quà."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Người đàn ông gợi ý đi máy bay để người phụ nữ không mất quá nhiều thời gian di chuyển. Anh không đề nghị đổi điểm đến hay kéo dài kỳ nghỉ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Bác sĩ đã dặn anh nghỉ ngơi, tránh vận động nhiều trước khi phẫu thuật bàn chân, nên hôm nay anh không thể đến buổi tập. Anh đã hết cảm và cuộc phẫu thuật vẫn chưa diễn ra."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Người phụ nữ đã mong diễn xuất tốt hơn nhiều, nên cô thất vọng về phần diễn. Cô thích trang phục và thấy nửa sau của vở kịch kém thú vị hơn."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Dù bộ phim dành cho trẻ em, nhạc phim lại được nhiều nhóm người khác nhau yêu thích. Cô nói âm nhạc khiến người nghe muốn nhún nhảy và hay ngang với bộ phim."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Người phụ nữ đọc tin tức mỗi sáng trước khi làm bất cứ việc gì khác, và người đàn ông nói anh cũng vậy. Họ thích các cách đọc tin khác nhau và không cùng ý kiến về tin người nổi tiếng."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Đoàn chọn tuyến dài hơn trong hai tuyến, kéo dài năm giờ nhưng ít đồi hơn, nên điền “5”. Bốn giờ là thời gian đi tuyến còn lại."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Hướng dẫn viên nhắc người đi bộ chú ý xe đạp, tức “bikes”. Ô tô không phải vấn đề vì lộ trình không đi trên đường giao thông công cộng."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Hướng dẫn viên chọn chỗ ăn trưa bên hồ vì quán cà phê đóng cửa, nên điền “lake”. Thác nước chỉ là điểm dừng ngắn để chụp ảnh."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Vào thời điểm này trong năm có nhiều bướm, nên điền “butterflies”. Trong rừng cũng có ếch nhưng ban ngày chúng ẩn nấp, nên khó nhìn thấy."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Cuối chuyến đi có thể tham quan một lâu đài nhỏ, nên điền “castle”. Ở đó không có cửa hàng quà lưu niệm."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Xe buýt là phương tiện duy nhất có thể dùng để quay về điểm xuất phát, nên điền “bus”. Tàu không còn chạy ở đó, còn taxi không đến nơi xa thị trấn như vậy."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Laura bắt đầu thích thơ khi dành nhiều giờ đọc các sách thơ có sẵn trong nhà. Sách là của bố cô, nhưng cô không nói rằng bố đã dạy mình làm thơ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Sau khi giành giải nhất một cuộc thi thơ, Laura quyết định viết thơ toàn thời gian. Trước đó cô đang học báo chí, không phải theo học một khóa thơ."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Tập thơ mới của Laura nói về mối quan hệ với những người gần gũi với cô. Các tòa nhà là chủ đề trong sách trước; môi trường chỉ là ý tưởng ban đầu cho tập này."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Laura ngưỡng mộ sự cẩn thận và kỹ năng khi xây dựng các bài thơ xưa. Từ vựng và phong cách khác ngày nay không khiến cô bớt yêu thích chúng."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Laura biết ơn vì những đồng nghiệp có kinh nghiệm sẵn lòng chia sẻ ý tưởng. Cô chưa chắc sinh viên học được bao nhiêu từ mình, còn lượng việc chuẩn bị thì cô đã lường trước."
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Laura muốn chuyển một số bài thơ trước đây của mình thành bài hát. Cô sẽ đọc thơ tại lễ hội, không tổ chức lễ hội, và vẫn tiếp tục có ý tưởng viết thơ."
+    }
+  ]
+}

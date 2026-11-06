@@ -1,0 +1,1405 @@
+{
+  "language": "vi",
+  "items": [
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Cô gái quyết định làm bánh sô-cô-la để tráng miệng. Gia đình đã có món gà và bảo cô không cần mang đồ uống."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Chân cô gái đang đau vì chiếc xe đạp đổ đè lên đó. Tay cô chỉ bị xước nhẹ và đầu không bị va đập."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Người bán thịt tìm thấy con chó đang nhìn xúc xích qua cửa kính cửa hàng và giữ nó lại cho Bill. Công viên là nơi nó bỏ chạy trước đó."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cô gái muốn xem phóng sự đặc biệt về phi công. Cô thấy xem bóng chuyền khá chán và sẵn sàng bỏ qua chương trình ca nhạc."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Hình các ca sĩ tượng trưng cho đĩa karaoke, loại đĩa cậu thích nhất vì được hát. Đua xe và bóng rổ là nội dung của hai đĩa khác cậu nhận được."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Cô gái thử lướt sóng sau khi được người hướng dẫn chỉ cách chơi an toàn. Bơi và trượt nước là những môn cô đã chơi từ trước."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Books Galore giảm giá 50% cho tất cả tiểu thuyết, tức là sách còn nửa giá. Trái cây và thịt không có ưu đãi này."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Mẹ cô gái thích bánh nhất và ăn thêm miếng thứ hai. Nước ép táo và các bức tranh là những điều các thành viên khác trong nhóm nhắc đến."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Anh trai cậu rất hào hứng vì sắp có thể tự đi lại mà không cần bố mẹ đưa đón. Anh quá háo hức nên không lo đâm xe."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Cô gái đồng ý tìm việc và đề nghị tìm trên mạng. Việc lo bị mệt chỉ có nghĩa là họ cần chọn công việc phù hợp."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Cả hai đều thấy cách hành xử của nhân vật thiếu thực tế. Một người thích các cảnh hành động, nên họ không cùng cho rằng phim cần ít hành động hơn."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Ban đầu cậu không muốn đi, nhưng lại bất ngờ thấy chuyến tham quan bảo tàng rất thú vị. Dù vậy, cậu nói mình không muốn quay lại."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Họ thấy cô giáo làm bài học sinh động hơn và khác với các giáo viên còn lại. Cô giao ít bài tập, chứ họ không nói cô hoàn toàn không giao bài."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Cô chọn đề tài về việc làm, thay vì môi trường. Từ số nhiều “jobs” đúng với tên chủ đề cô nhắc đến."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Trước khi làm phi công, bố cô từng dạy ở trường tiểu học. Chỗ trống sau “a” cần cả hai từ “primary school”."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Có 80 hành khách đang đi nghỉ trên chuyến bay. Sáu người còn lại là những người làm việc trên máy bay."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Thời tiết xấu và hành khách khó tính là hai vấn đề bất ngờ được nhắc đến. Từ “weather” đứng sau tính từ “bad” để nói về thời tiết xấu."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Một số hành khách hay lo lắng muốn tự kiểm soát cuộc sống và cảm thấy mất điều đó khi đi máy bay. “Control” hoàn thành cụm “lose control of their life”."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Bố cô uống cà phê sau khi máy bay cất cánh để tỉnh táo và sẵn sàng xử lý vấn đề. “Coffee” hoàn thành cụm “a cup of coffee”."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Darren bắt đầu viết sau khi ra viện, trong lúc nằm dưỡng bệnh ở nhà. Trước đó, anh không phải người đọc nhiều sách."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Cuốn sách cuối cùng đã giúp Darren và gia đình kiếm tiền. Anh không nói việc viết sách khiến mình nói chuyện nhiều hơn hay trở thành một thiếu niên rất hạnh phúc."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Darren không nghĩ cuốn sách đủ hay và chưa từng định cho người khác đọc. Anh không phải đang chờ kết thúc điều trị hay viết xong cuốn thứ hai."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Gia đình lo lắng về cảm xúc của Darren và tưởng anh đang viết nhật ký. Sau đó, chị/em gái anh mới gửi bản thảo tới các nhà xuất bản."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Lúc đầu Darren nghĩ một người bạn đang đùa mình. Anh chỉ tin lời đề nghị khi nhận được thư của nhà xuất bản."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Trước mắt Darren muốn thi xong rồi học văn ở đại học. Viết thêm sách chỉ là khả năng anh cân nhắc sau đó."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Cô gái cần áo ngay nên sẽ trả giá đã giảm tại cửa hàng là £11.89. £16.89 là giá cũ, còn £10.50 là giá mua trên mạng."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Cuối cùng họ đồng ý ăn chung một chiếc pizza. Gà rán là ý tưởng ban đầu, còn bánh hamburger chỉ được nhắc như một lựa chọn khác."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Họ thống nhất đi xe đạp; một người sẽ mượn xe của anh/em trai người kia. Bố đang đi làm và họ không chọn xe buýt."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cuối cùng gia đình nhận chuyến nghỉ ở khu nghỉ dưỡng ven biển. Chuyến bay tới vùng núi bị hủy và họ không chọn kỳ nghỉ trong thành phố."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Cô gái đã lấy được chuột máy tính mới. Phải đến tuần sau mới có máy in, còn bàn phím mới chỉ được đặt hàng."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Dự báo cho biết tối thứ Bảy có khả năng tuyết rơi. Gió mạnh xảy ra vào sáng thứ Bảy, còn đến Chủ nhật trời mới có nắng."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Cô gái thích bóng rổ và chỉ còn cần xin phép về học phí. Cô loại bóng đá và khúc côn cầu vì hai môn này diễn ra ngoài trời."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cô gái thích khu khủng long hơn và thấy khu giới thiệu cuộc sống thời xưa khá chán. Cô vẫn muốn ăn bánh, nên không phải cô không hứng thú với đồ ăn."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Cả hai giáo viên đều rất hài lòng về dự án và muốn cậu trình bày trước toàn trường. Họ không bất đồng về điểm cao của cậu."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Cô suýt đâm vào bọn trẻ và con chó chạy thoát, nhưng vật cô thực sự đâm vào là bụi cây."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Cô hứa sẽ mua bữa tối cho cậu để cảm ơn việc giúp tập luyện. Cô không đồng ý chia tiền thưởng; đi bơi là để luyện tập trước cuộc thi."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Cô sợ khi những con hổ nhe răng. Các con khỉ và việc voi phun nước lại được cô kể là buồn cười."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Cậu thấy các diễn viên chính không hợp vai. Phim không đáng sợ và quá dài, nên hai lựa chọn còn lại không phù hợp."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Học sinh phải có mặt lúc 8.40, còn xe khởi hành lúc 9.10. Câu hỏi hỏi giờ tập trung."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Giáo viên sửa “book” thành “notebook”, tức sổ ghi chép. Học sinh có thể dùng điện thoại để chụp ảnh."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Hoạt động buổi sáng là một lớp học vẽ đặc biệt trong khu vườn. Giáo viên nói rõ sẽ không có chuyến tham quan với hướng dẫn viên."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Buổi chiều họ sẽ đi thuyền dọc dòng sông. Sau cụm “trip on a” cần từ “boat”."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Hạn nộp dự án là chiều thứ Ba. Giáo viên bác bỏ sáng thứ Tư; chiều thứ Sáu là lúc chấm dự án."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Giáo viên đánh vần tên còn thiếu là A-R-U-N-D-E-L. Chỉ điền “arundel” giữa “www.” và “.castle.com”."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Anh bắt đầu muốn làm phi công khi gia đình chuyển tới nơi nằm dưới đường bay vào Heathrow và anh thấy máy bay mỗi ngày. Chuyến bay đầu tiên và máy bay đồ chơi có từ trước đó."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Gia đình chuyển tới một ngôi nhà nhỏ trong làng. Có thị trấn ở gần, nhưng họ không sống trong thị trấn."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Anh học lái máy bay qua các buổi học: ban đầu bố trả tiền, sau đó anh tự trả bằng tiền kiếm được. Ở đại học, anh học văn."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Công việc bay có trả lương đầu tiên của anh là lái trực thăng tư nhân. Anh chỉ lái máy bay chở khách nhỏ và máy bay phản lực lớn về sau."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Đi một mình bằng máy bay nhỏ giúp anh ghé các sân bay nhỏ và gặp người địa phương. Anh có bạn bè và gia đình nhưng chủ động chọn đi một mình."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Mưa lớn trong cơn bão buộc anh phải hạ cánh. Việc thiếu nhiên liệu chỉ khiến anh chậm khởi hành sau đó."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Chương trình nấu ăn phát trước, rồi đến chương trình tái chế lúc chín giờ. Trận bóng đá được chiếu muộn hơn nhiều."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Cậu thức khuya để hoàn thành một dự án toán khó. Xem ti vi chỉ là điều mẹ cậu đoán, còn vẽ tranh là công việc của bạn George."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Cô đã xem những chiếc máy tính cũ. Khu trưng bày ô tô đóng cửa và cô chưa đến được khu điện thoại di động."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "£95 là số tiền bố cậu đã trả sau khi được giảm giá. £20 đã được trừ rồi, nên không trừ tiếp khỏi £95."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Cô chọn truyện về một cảnh sát vì muốn đọc truyện có hành động. Sách du lịch là loại cô thường đọc, còn cô bác bỏ suy đoán rằng mình muốn đọc truyện tình cảm."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Cô đã làm bánh. Kế hoạch làm pizza bị bỏ, còn Jade mang súp do mẹ bạn ấy nấu."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Trong chuyến đi này, cậu thích các loài chim nhất và xếp thỏ thứ hai. Bò là con vật cậu thường thích nhất, chứ không phải lựa chọn của lần này."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cậu thích việc có thể đi bộ đến đó nhanh và nhà gần trường. Cậu không thích màu sắc của ngôi nhà lắm và nhà cũng nhỏ."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Họ quyết định nhờ Jack, anh/em trai cô ấy, tư vấn về buổi hòa nhạc phù hợp. Điện ảnh chỉ được nhắc là sở thích, chưa phải món quà cuối cùng."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Cả hai đồng ý rằng quá nhiều vé được bán ra khiến mọi người không đủ chỗ di chuyển. Họ bất đồng về âm lượng và không cho rằng vé đắt luôn là vấn đề."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Bố mẹ Peter về sớm một ngày và phát hiện bữa tiệc mà họ không cho phép tổ chức. Chỉ có mười khách và nhà không quá bẩn."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Cô buồn vì quy định yêu cầu phải đi cùng bố mẹ, nên bạn cô không thể cùng hưởng chuyến đi trúng thưởng. Bố mẹ cô có thể đi cùng."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Cậu cho rằng học sinh mới ít nói và đang khó làm quen với mọi người. Cậu thấy bạn ấy thú vị, không cho rằng bạn ấy nhàm chán hay thiếu thân thiện."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "“Train” là phương tiện thứ ba bên cạnh xe buýt và thuyền. Hai phương tiện kia đã có sẵn trong câu."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Họ khởi hành lúc 10.15 và đến nơi lúc 11.30. Câu hỏi yêu cầu giờ xuất phát."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Thẻ bảo tàng giá £30. £20 là giá vé đi thuyền ba ngày riêng biệt."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Cô thích nhất việc đi bộ qua những cây cầu ở Venice và ngắm thuyền bên dưới. Bài nghe dùng từ số nhiều “bridges”."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Cô nói cá là món ăn ngon nhất nên thử ở Venice. Nhà hàng pizza và mì Ý có nhiều, nhưng đó không phải món cô khuyên chọn."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Bố mẹ Julie mua thuyền đồ chơi cho các anh/chị/em họ. Chính Julie mua kẹo, nên kẹo không phải đáp án."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Bố mẹ làm việc nhiều giờ nên cô cần một hoạt động khi họ vắng nhà. Gần nhà chỉ có một sân bóng nhỏ."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Cô cho rằng mình chơi giỏi nhờ dành nhiều thời gian tập đi tập lại ngoài trời. Khả năng đó phát triển qua luyện tập."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Các giáo viên ở trường là người đầu tiên nhận ra khả năng của cô; một người đã thuyết phục bố mẹ ủng hộ cô. Bố mẹ chỉ biết tiềm năng của cô sau đó."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Khoảnh khắc cô tự hào nhất là cầm cờ dẫn đội vào lễ khai mạc. Cô nói điều này có ý nghĩa hơn cả giành huy chương."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Cô muốn học chăm chỉ và vào đại học, có thể để trở thành bác sĩ. Cô chưa chắc về việc tiếp tục theo đuổi huy chương Olympic."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Dù chọn nghề nào, cô chắc chắn muốn thành công và hạnh phúc. Cô vẫn chưa quyết định làm bác sĩ hay vận động viên bóng rổ."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Cô thích tham quan các thành phố và chụp ảnh. Cô nói mình không thích nắng và cũng không thích mua sắm lắm."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Họ đồng ý xem phim trên ti vi. Trời mưa khiến kế hoạch đến rạp bị hủy, còn một người không thích chơi trò chơi trên bàn."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Giày thể thao có giá gốc £60.50 và được giảm 50%, nên cô trả £30.25. £70.25 là hóa đơn siêu thị của mẹ cô."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cậu xin đổi chùm nho lấy một quả chuối và chị/em gái đồng ý. Cậu không muốn quả táo."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Áo phông đỏ của cậu bị dính kem nên cậu cần áo mới. Quần soóc và chiếc mũ bị thất lạc đều đã tìm thấy."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Họ quyết định gọi cho nhau bằng điện thoại di động. Một máy tính bị hỏng nên không thể gửi email, còn viết thư không được chọn."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Giờ cậu muốn học kèn trumpet vì dễ mang theo và có âm thanh lớn. Trống là ý định trước đây; cậu cũng thích đàn ghi-ta."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Vấn đề là nhân viên quán cà phê cư xử bất lịch sự. Quán có nước cam và người thuyền trưởng có vẻ tử tế."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Giá thấp hơn là lý do đặc biệt quan trọng với bố mẹ cậu. Vị trí và số phòng ngủ được nhắc đến nhưng không phải lý do chính."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Giáo viên thưởng cho cô một chiếc thước vì có dự án tốt nhất. Vé Disneyland chỉ là gợi ý cho phần thưởng trong tương lai."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Họ đi tàu trước, rồi phải chuyển sang xe buýt vì một đoạn đường sắt đóng cửa. Taxi chỉ được đề xuất sau đó."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Cậu gợi ý bắt đầu một sở thích mới, nhất là chụp ảnh. Thông tin trên mạng nói về tham gia câu lạc bộ, không phải trò chuyện trực tuyến."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Cả hai đều thấy thầy trông khác các giáo viên còn lại. Họ không đồng ý với nhau về việc thầy có kỳ lạ và khó hiểu hay không."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Anh rời nhà lúc 4.30 và mất nửa giờ tới trường quay, nên đến lúc 5 giờ sáng. Chỗ trống hỏi giờ đến."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Sau khi thợ làm tóc xong, người trang điểm sẽ chuẩn bị khuôn mặt cho anh. “Make-up” hoàn thành cụm “does his make-up”."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Trong bộ phim hiện tại, anh đóng vai cảnh sát. Quái vật là vai anh đóng ở bộ phim trước."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Đạo diễn đôi khi đến muộn, khiến việc quay phim bắt đầu chậm. Trước chỗ trống đã có “film”, nên chỉ cần điền “director”."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Sau khi quay, anh cởi trang phục diễn và thay quần áo thường ngày. “Usual” đã có sẵn, nên chỗ trống cần danh từ “clothes”."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Khi về nhà, anh ăn tối rồi đi ngủ. Vì vậy, chỗ trống cần “dinner”."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Bố có thể chuyển đến New York làm việc nên cô muốn biết mình có thích sống ở Mỹ không. Du lịch và sống xa bố mẹ là lý do của những học sinh khác."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Bố mẹ giúp cô thực hiện điều cô háo hức muốn làm và tin cô sẽ an toàn. Họ không cố ngăn cản cô."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Kế hoạch về gia đình chủ nhà ban đầu đã thay đổi. Thực tế, cô ở cùng một cặp vợ chồng không có con và nuôi hai con chó."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Ngôi nhà ở Mỹ rất rộng và được trang trí đẹp. Nhà ồn ào hơn nhà cô ở Anh và có khu vườn lớn hơn nhiều."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Cô thấy khó khăn khi phải xa anh/chị/em của mình. Bạn bè đi cùng chương trình trao đổi, còn chó của chủ nhà giúp cô bớt nhớ chó ở nhà."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Sống xa bố mẹ giúp cô nhận ra mình can đảm hơn tưởng tượng. Trải nghiệm đó khiến cô tự tin hơn."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Ban đầu cô định đi tàu nhưng các chuyến tàu bị hủy. Cuối cùng cô đến bằng ô tô; đi máy bay chỉ là một gợi ý."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Cô mua chiếc váy ngắn có sọc. Váy dài có thắt lưng không thoải mái, còn cô không thích các cúc trên chiếc váy kia."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Thứ Bảy trời ấm hơn nhưng vẫn nhiều mây. Bão được dự báo vào thứ Sáu, còn Chủ nhật mới có nắng."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cậu đã mua cuốn “Climbing Mount Everest”, khớp với hình núi trên bìa. Sách về động vật và đi thuyền buồm vẫn đang được đặt hàng."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Cô tự sửa lại rằng môn toán học đầu tiên, sau đó là khoa học. Mỹ thuật được chuyển xuống cuối vì giáo viên đến muộn."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Cô gọi để báo sẽ đến muộn giờ cắt tóc. Việc ghé nha sĩ và hiệu thuốc trước đó khiến cô bị chậm."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Mẹ cậu sẽ mang nước ngọt về từ chỗ làm. Pizza và kem đã có sẵn trong tủ đông."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Đăng ký thành viên đầy đủ rẻ hơn trả riêng phí đăng ký và từng buổi học. Ưu đãi cô nhận được dành riêng cho học sinh, sinh viên hoặc thành viên mới, không phải cho tất cả mọi người."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Cậu nói nhìn chung mình hài lòng với hàng mua trên mạng và thấy mua sắm trực tuyến không căng thẳng. Khó lựa chọn và lo lắng là cảm giác của cậu khi mua ở cửa hàng."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Cô thích đi bộ, còn người họ hàng đi cùng thích đọc sách và xem phim. Hai người muốn làm các hoạt động khác nhau và cô không muốn đi nghỉ như vậy lần nữa."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Cô gái thích chủ đề và ví dụ nhưng nói bài viết vẫn có lỗi chính tả và ngữ pháp. Cần sửa những lỗi này trước khi nộp."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Dù loạt phim có những điểm yếu, nó vẫn khiến cậu bật cười. Cậu chê diễn xuất, chứ không khen phần này."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Bố mẹ rất ngạc nhiên vì cô tiến bộ môn toán và biết ơn giáo viên mới. Việc có thể chuyển lớp là chuyện của bạn cô."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Anh học lịch sử ở đại học, dù từng làm DJ và rất yêu âm nhạc. Vì vậy, chỗ trống cần “history”."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Anh uống một cốc trà lớn trước khi dẫn chương trình. Người khác uống cà phê, còn anh uống nước ép sau chương trình."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Phỏng vấn là phần việc anh thích nhất vì được gặp những người thú vị. Bài nghe dùng từ số nhiều “interviews”."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Có lần anh quên tên một chính trị gia trong lúc phỏng vấn. Anh nói rõ mình không quên ngày hay giờ."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Bây giờ anh sẽ chọn làm phóng viên vì thích nói chuyện với mọi người. Dạy học và diễn xuất là những sở thích trước đây."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Sự kiện từ thiện diễn ra tại Hatfield House. Anh đánh vần H-A-T-F-I-E-L-D để xác nhận tên địa điểm."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Một dự án ở trường nhằm giúp người địa phương khiến cậu bắt đầu gây quỹ. Cậu nói làng mình yên bình và câu lạc bộ thanh thiếu niên giúp mọi người đỡ buồn chán."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Cậu lập trang Facebook và gửi email cho mọi người. Không được dán áp phích, còn gọi điện cho từng người thì không thực tế."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Cậu dự tính việc gây quỹ sẽ mất thời gian, dù tin rằng cố gắng sẽ thành công. Cậu không nghĩ sẽ dễ dàng hay có kết quả ngay."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Cuộc thi nấu ăn chỉ có mười người tham gia và quyên được ít tiền hơn dự kiến. Ăn bánh giúp cậu vui lên, nhưng kết quả gây quỹ vẫn khiến cậu thất vọng."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Cậu thích nhất buổi thi dành cho chó vì vui, thu hút đông người và gây được nhiều quỹ. Cậu ít hào hứng hơn với buổi bán hàng Chủ nhật."
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Cậu định tiếp tục gây quỹ cho một việc hữu ích khác ở địa phương. Việc cải thiện câu lạc bộ đã xong và cậu không muốn theo đuổi nấu ăn."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Họ thống nhất ăn gà với rau, cụ thể là đậu và cà rốt. Người mẹ không đồng ý ăn khoai tây chiên, kể cả khi có gợi ý ăn cá."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Cô đồng ý mặc quần bò với áo kiểu đẹp. Váy liền quá trang trọng cho bữa tiệc, còn áo phông được thay bằng áo kiểu."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Quán cà phê được nói rõ là điểm dừng cuối để cả nhóm thư giãn. Họ đến sở thú đầu tiên và cũng ghé bảo tàng."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cậu tìm thấy mũ trong cặp đi học của chị/em gái. Bàn học và vỉa hè ngoài trường chỉ là những nơi cậu nghĩ có thể đã để mũ."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Cuối cùng họ chọn đi bộ một quãng dài ở bãi biển. Vai bị thương khiến một người không thể bơi hay đạp xe."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Roberto nói mình chỉ bị đau đầu. Sốt cao là điều Sonia đoán, còn ho là triệu chứng của chính Sonia."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Đồ chơi được bán nửa giá trong hôm nay. Cửa hàng quần áo khai trương và tiệm bánh được quảng cáo, nhưng không có thông tin giảm giá ở hai nơi đó."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cậu nghĩ con chó sủa vì chủ để nó ở nhà một mình cả ngày. Cậu chỉ ra rằng nó đã được đi dạo hai lần, mỗi lần khá lâu."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Cô về vì bị đau đầu dữ dội và cần được khám. Bố đến đón sau khi giáo viên gọi điện, không phải vì đã có lịch hẹn trước."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Cả hai đồng ý rằng môn toán giờ cần suy nghĩ nhiều hơn và trước đây dễ hơn. Họ thích môn học và giáo viên; một người còn trấn an người kia về kỳ thi."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Bảo tàng bất ngờ đóng cửa nên chuyến đi được đổi thành tham quan sở thú. Giáo viên thấy ngượng, còn học sinh lại thích hoạt động thay thế."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Cậu tức giận vì các cổ động viên đánh nhau. Cậu khen các cầu thủ và huấn luyện viên."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Cậu đặc biệt ấn tượng với thiết kế tòa nhà, gồm cả mái kính, và ví nó như tác phẩm nghệ thuật. Bể bơi và phòng tập tốt nhưng là những tiện ích cậu đã mong đợi."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Ban đầu giáo viên đổi thứ Hai ngày 13 tháng 6 sang thứ Tư ngày 14, rồi sửa lại thành thứ Tư ngày 15 tháng 6. Lần sửa cuối cùng mới là đáp án."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Mỗi nhóm được phát một bản đồ để tìm đường. Không có thiết bị công nghệ để dùng và trước chỗ trống đã có “a”."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Họ đi bộ 4 km lên đồi rồi được đón gần đỉnh. 12 km là quãng đường xe đi từ trường; 8 km là quãng đi bộ cả lên lẫn xuống mà họ sẽ không thực hiện."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Người phụ trách sức khỏe là bác sĩ Walsh. Tên được đánh vần W-A-L-S-H; câu hỏi đã có sẵn “Mr”."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Họ cần bốt thoải mái vì đường đi khó. Người nói nhấn mạnh không được mang dép xăng-đan hay giày đi biển."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Xe đón họ lúc 6 giờ tối, nhưng dự kiến về đến trường lúc 7 giờ tối. Chỗ trống hỏi giờ về đến trường."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Cô giáo dạy kịch đã ủng hộ và truyền cảm hứng để cô muốn giúp trẻ em theo cách tương tự. Bố mẹ và bạn học trước đây lại không ủng hộ ước mơ diễn xuất của cô."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Cô nói giáo viên phải kết nối với học sinh và khiến các em hứng thú. Chỉ biết rõ môn học chưa có nghĩa là có thể dạy tốt."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Cô cho học sinh đứng lên, nhảy, đi bộ và vỗ tay để lấy lại năng lượng. Cô không chọn giao thêm bài tập hay tổ chức kiểm tra để giải quyết việc này."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Cô hài lòng với công việc và những điều mình đã đạt được. Điều đó cho thấy cô tự hào về sự nghiệp dạy học."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Bố mẹ tự hào về thành công dạy học của cô và nhẹ nhõm vì cô không theo nghề diễn. Họ hài lòng với sự phát triển nghề nghiệp của cô."
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Cô muốn tiếp tục dạy trong lớp và cải thiện cách giảng dạy. Cô không muốn làm hiệu trưởng hay thử diễn xuất."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Cô quyết định làm y tá vì thích chăm sóc người ốm. Nhân viên bán hàng là lựa chọn trước đó, còn giáo viên là gợi ý của bạn cô."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Cậu đề xuất pizza đầu tiên và cuối cùng quay lại lựa chọn đó. Cô gái chọn salad sau khi không chọn bánh hamburger."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Cô đã bỏ bóng bàn vì không có thời gian. Hiện cô tập bóng chuyền và vẫn học ghi-ta hằng tuần."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cậu muốn được giúp chọn áo khoác mới cho chuyến đi Iceland. Cậu sẽ mượn khăn của anh/em trai, còn mẹ sẽ mua găng tay trên mạng."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Chị/em gái cậu có tóc ngắn và đeo kính, nhưng trong ảnh này không đội chiếc mũ thường dùng. Những chi tiết đó khớp với hình B."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Cuối cùng họ chọn gợi ý đầu tiên là phim phiêu lưu, dù phim bị đánh giá thấp. Họ không chọn phim tình cảm và đã xem phim trinh thám rồi."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Cô muốn đi nghỉ ở biển trên một hòn đảo. Cô không thích những kỳ nghỉ ở vùng núi hay thành phố mà bố mẹ thường chọn."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cậu kể đã thấy cô ấy xô đẩy các em nhỏ hơn và sai các em đi lấy đồ uống. Điều này cho thấy cậu nghĩ cô ấy bất lịch sự với trẻ khác."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Cả hai đều thấy các bài hát trước đây của nhóm độc đáo hơn. Họ không nói nhóm đã sao chép một bài hát cụ thể."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Cậu trả lại món hàng sai kích cỡ nhưng phải chờ sáu tháng mới được hoàn tiền. Cậu không nói hàng bị giao nhiều lần hay mình không thể trả hàng."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Cậu cho rằng giáo viên đối xử không công bằng. Ban đầu bạn cậu thông cảm, nhưng sau đó không đồng ý với lý do về quốc tịch và nhắc rằng cậu ít tham gia bài học; cả hai công nhận điểm thi của cậu tốt."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Cậu thấy sách hay hơn vì phim bỏ những sự việc giải thích cách hành xử của cậu bé trong truyện. Cậu cũng cho rằng phong cảnh khiến phim đáng xem."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Giờ cậu cảm thấy tự tin vì blog phát triển tốt và độc giả để lại lời nhận xét tích cực. Cảm giác bối rối chỉ có lúc cậu mới bắt đầu."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Học sinh nói Chiswick Park nằm ở West London. Cần cả hai từ để hoàn thành thông tin vị trí."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Ngôi nhà có các bức tranh và đồ nội thất quan trọng. “Furniture” là danh từ không đếm được, không thêm mạo từ."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Giá tham quan nhà là £18 mỗi người. £38 là vé gia đình nên không phù hợp với chỗ ghi giá vé cá nhân."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Khách có thể mua cây và quà lưu niệm ở cửa hàng hoa. Từ số nhiều “plants” đứng trước cụm “and souvenirs”."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Chuyến tham quan vườn có giá £50 cho nhóm mười người. £6 là giá dành cho một người."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Tuần lễ âm nhạc bắt đầu ngày 7 tháng 6. Ngày 13 tháng 6 là ngày kết thúc."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Người tập Parkour vượt qua một khu vực chỉ bằng cơ thể mình. Miguel nói rõ họ không dùng thiết bị."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Miguel cho rằng khó khăn chính là tự kiểm soát bản thân, đặc biệt là kiểm soát nỗi sợ độ cao và những thử thách khác."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Vương quốc Anh đã công nhận Parkour là một môn thể thao. Đưa môn này vào hoạt động thể thao ở trường mới chỉ là khả năng trong tương lai."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Đoạn video khiến có thêm phản ứng tiêu cực vì quay một vận động viên trên các công trình cổ. Mọi người nói hành động đó nên bị cấm; Miguel không nói chính video đã bị cấm."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Sự chú ý từ cuộc thi có thể mang lại cơ hội nghề nghiệp cho vận động viên. Đây là thử thách thực sự và có thể xem trên ti vi cũng như mạng xã hội."
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Miguel muốn học xong phổ thông và có thể học ngành thể thao ở đại học. Cậu nói mình không muốn trở thành huấn luyện viên Parkour chuyên nghiệp."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Cuối chuyến tham quan, họ sẽ xem tranh về các vận động viên nổi tiếng. Tranh phong cảnh được xem đầu tiên, còn khu trang sức được xem trước tranh vận động viên."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Mẹ sẽ đặt thêm nước ngọt trên mạng. Cậu bé sẽ mua rau tươi và bánh mì trong thị trấn."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Mưa lớn và giông bắt đầu tối nay rồi kéo dài hai ngày, nên ngày mai sẽ có mưa. Cuối tuần mới được dự báo có nắng."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Cậu muốn chơi cầu lông và cuối cùng họ đã chơi môn đó. Không thể chơi bóng bầu dục vì có cuộc thi, còn sân khúc côn cầu đóng cửa vào Chủ nhật."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Cậu xác nhận đã trượt tuyết và thử cưỡi ngựa. Khi được hỏi về trượt băng, cậu nói mình chưa bao giờ thử."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 6,
+      "explanationVi": "Cô sẽ mang bánh để tráng miệng vì người định làm bánh đã không làm. Xúc xích và bánh hamburger đã có sẵn."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-1",
+      "number": 7,
+      "explanationVi": "Kem sẽ được bán ngoài quán cà phê của nhà hát trong giờ nghỉ giữa buổi. Tờ giới thiệu chương trình bán ở lối vào, còn nước ép có ở quầy bar."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cô nói sẽ thấy ngượng nếu xuất hiện trên ti vi và bị mọi người nhìn. Lý do là cô ngại được nhiều người chú ý."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Khi cô mặc áo len, trên áo xuất hiện hai lỗ thủng. Cô thích dáng áo hợp với mình; tuần sau là buổi diễn ở trường, không phải ngày trả áo."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Vấn đề tệ nhất là ánh sáng khiến cô thức dậy quá sớm và rất mệt. Thời tiết tốt, còn côn trùng chỉ là điều gây khó chịu ít hơn."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 11,
+      "explanationVi": "Cả hai đồng ý rằng dùng máy tính cầm tay có lợi vì làm bài nhanh hơn. Họ không đồng ý về việc giáo viên nào tốt hơn."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 12,
+      "explanationVi": "Phim chiến tranh khiến cậu buồn nên cậu muốn một chủ đề tích cực hơn. Cậu không phàn nàn rằng phim thiếu hành động hay mọi phim lịch sử đều không hay."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-2",
+      "number": 13,
+      "explanationVi": "Hiện cậu đang xem phim hài tình cảm vì bật ti vi quá sớm. Cậu định bật vào lúc quảng cáo trước phim hành động, nhưng phim đó vẫn chưa bắt đầu."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Chuyến đi bộ mang đến cảnh đẹp tuyệt vời và giúp du khách tránh xa đám đông. Sau “excellent” cần danh từ số nhiều “views”."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Hiện chuyến Everest cuối cùng khởi hành ngày 15 tháng 4. Lịch khởi hành ngày 25 tháng 4 chỉ còn áp dụng đến năm ngoái."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 16,
+      "explanationVi": "Du khách có thể mua nguyên liệu tại các chợ thực phẩm. Cần cả hai từ “food markets” để nêu đúng nơi mua sắm."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 17,
+      "explanationVi": "Lớp nấu ăn ở Trung tâm Cứu hộ Gấu trúc dạy làm món cơm viên được gọi là “panda rice balls”. Vì câu đã có “panda”, chỗ trống chỉ cần “rice balls”."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 18,
+      "explanationVi": "Chuyến đi Mexico có hoạt động thăm bảo tàng sô-cô-la. “Chocolate” hoàn thành tên đứng trước “museum”."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-3",
+      "number": 19,
+      "explanationVi": "Tên công ty được đánh vần E-X-O-D-U-S. Chỉ điền “exodus” vì các phần khác của địa chỉ trang web đã có sẵn."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Sarah dùng YouTube để tìm hiểu cách bắt đầu viết blog. Đó là học qua internet, không phải qua khóa học ở trường hay từ bạn bè."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 21,
+      "explanationVi": "Vì bản thân cũng là thiếu niên, Sarah hiểu cảm xúc của những người cùng thế hệ. Cô cũng thấy người lớn tuổi thú vị và có thể đưa ra lời khuyên tốt."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 22,
+      "explanationVi": "Ban đầu cô không chắc có ai quan tâm hay đọc blog của mình không. Cô có nhiều thời gian rảnh nên thời gian không phải điều khiến cô lo."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 23,
+      "explanationVi": "Cô dành bốn đến năm giờ viết blog mỗi ngày, kể cả cuối tuần. Cô có thể làm vào ban ngày hoặc buổi tối."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 24,
+      "explanationVi": "Cô nhấn mạnh vấn đề ô nhiễm và việc bảo vệ động vật, thực vật. Những chủ đề này cho thấy thiếu niên quan tâm nhất đến môi trường."
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "skill": "listening",
+      "partId": "part-4",
+      "number": 25,
+      "explanationVi": "Những phản hồi trên blog giúp cô học được nhiều chủ đề khác nhau. Cô nói rõ chưa kết bạn mới qua blog và không phải chuyên gia máy tính."
+    }
+  ]
+}

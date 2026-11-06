@@ -1,0 +1,1005 @@
+{
+  "language": "vi",
+  "words": [
+    {
+      "id": "simply-pet-t1-annual",
+      "definitionVi": "diễn ra mỗi năm một lần"
+    },
+    {
+      "id": "simply-pet-t1-urgent",
+      "definitionVi": "khẩn cấp, cần được xử lý ngay"
+    },
+    {
+      "id": "simply-pet-t1-confirm",
+      "definitionVi": "xác nhận một thông tin hoặc việc đã đặt trước"
+    },
+    {
+      "id": "simply-pet-t1-sightseeing",
+      "definitionVi": "việc đi tham quan những địa điểm thú vị khi du lịch"
+    },
+    {
+      "id": "simply-pet-t1-theme",
+      "definitionVi": "chủ đề chính của một cuộc thi, sách hoặc tác phẩm"
+    },
+    {
+      "id": "simply-pet-t1-designer",
+      "definitionVi": "người thiết kế, vẽ kế hoạch để tạo ra sản phẩm"
+    },
+    {
+      "id": "simply-pet-t1-gossip",
+      "definitionVi": "chuyện bàn tán về đời tư người khác, có thể không đúng"
+    },
+    {
+      "id": "simply-pet-t1-reality-tv",
+      "definitionVi": "chương trình truyền hình ghi lại người thật trong tình huống đời thường"
+    },
+    {
+      "id": "simply-pet-t1-fantasy",
+      "definitionVi": "truyện hoặc phim kỳ ảo, có thế giới khác xa đời thực"
+    },
+    {
+      "id": "simply-pet-t1-target",
+      "definitionVi": "nhắm quảng cáo vào một nhóm người cụ thể"
+    },
+    {
+      "id": "simply-pet-t1-up-to-date",
+      "definitionVi": "được cập nhật với thông tin mới nhất"
+    },
+    {
+      "id": "simply-pet-t1-unique",
+      "definitionVi": "độc nhất, không có cái nào khác giống hệt"
+    },
+    {
+      "id": "simply-pet-t1-fabulous",
+      "definitionVi": "rất tuyệt vời; xuất sắc"
+    },
+    {
+      "id": "simply-pet-t1-contain",
+      "definitionVi": "chứa, có thứ gì đó ở bên trong"
+    },
+    {
+      "id": "simply-pet-t1-column",
+      "definitionVi": "chuyên mục được một người viết thường xuyên về một chủ đề"
+    },
+    {
+      "id": "simply-pet-t1-bullying",
+      "definitionVi": "hành vi cố ý bắt nạt, làm người khác đau hoặc sợ"
+    },
+    {
+      "id": "simply-pet-t1-fiction",
+      "definitionVi": "truyện hư cấu với nhân vật và sự kiện do tác giả tưởng tượng"
+    },
+    {
+      "id": "simply-pet-t1-enthusiast",
+      "definitionVi": "người rất yêu thích một hoạt động hoặc chủ đề"
+    },
+    {
+      "id": "simply-pet-t1-inspiring",
+      "definitionVi": "truyền cảm hứng, khiến người khác muốn hành động"
+    },
+    {
+      "id": "simply-pet-t1-bravery",
+      "definitionVi": "lòng dũng cảm khi đối mặt với nguy hiểm hoặc khó khăn"
+    },
+    {
+      "id": "simply-pet-t1-responsibly",
+      "definitionVi": "một cách có trách nhiệm, biết suy nghĩ trước khi hành động"
+    },
+    {
+      "id": "simply-pet-t1-standard",
+      "definitionVi": "mức độ chất lượng của một thứ"
+    },
+    {
+      "id": "simply-pet-t1-survival",
+      "definitionVi": "sự sống sót hoặc tiếp tục tồn tại"
+    },
+    {
+      "id": "simply-pet-t1-ban",
+      "definitionVi": "cấm, chính thức không cho phép làm điều gì"
+    },
+    {
+      "id": "simply-pet-t1-youth-club",
+      "definitionVi": "câu lạc bộ để thanh thiếu niên gặp gỡ và sinh hoạt"
+    },
+    {
+      "id": "simply-pet-t1-recently",
+      "definitionVi": "gần đây, cách thời điểm hiện tại không lâu"
+    },
+    {
+      "id": "simply-pet-t1-permanently",
+      "definitionVi": "vĩnh viễn, không thay đổi hoặc quay lại như trước"
+    },
+    {
+      "id": "simply-pet-t1-combine",
+      "definitionVi": "kết hợp các thứ hoặc hoạt động với nhau"
+    },
+    {
+      "id": "simply-pet-t1-exclusive",
+      "definitionVi": "chỉ dành riêng cho một người hoặc một nhóm nhỏ"
+    },
+    {
+      "id": "simply-pet-t1-crew",
+      "definitionVi": "tập thể những người cùng làm việc trên tàu hoặc máy bay"
+    },
+    {
+      "id": "simply-pet-t1-pedestrian",
+      "definitionVi": "người đi bộ trên đường"
+    },
+    {
+      "id": "simply-pet-t1-settle",
+      "definitionVi": "định cư, sống lâu dài tại một nơi"
+    },
+    {
+      "id": "simply-pet-t2-volunteer",
+      "definitionVi": "tự nguyện làm việc mà không đòi được trả tiền"
+    },
+    {
+      "id": "simply-pet-t2-candle",
+      "definitionVi": "cây nến bằng sáp, có bấc để đốt sáng"
+    },
+    {
+      "id": "simply-pet-t2-decoration",
+      "definitionVi": "việc trang trí để làm một nơi hoặc đồ vật đẹp hơn"
+    },
+    {
+      "id": "simply-pet-t2-sailor",
+      "definitionVi": "thủy thủ, người làm việc trên tàu thuyền"
+    },
+    {
+      "id": "simply-pet-t2-navy",
+      "definitionVi": "hải quân, lực lượng quân đội hoạt động trên biển"
+    },
+    {
+      "id": "simply-pet-t2-folder",
+      "definitionVi": "bìa kẹp dùng để giữ các tờ giấy rời"
+    },
+    {
+      "id": "simply-pet-t2-freeze",
+      "definitionVi": "làm đông lạnh để bảo quản thực phẩm"
+    },
+    {
+      "id": "simply-pet-t2-freezer",
+      "definitionVi": "tủ đông dùng điện để giữ thực phẩm ở nhiệt độ rất thấp"
+    },
+    {
+      "id": "simply-pet-t2-race-track",
+      "definitionVi": "đường đua dành cho ngựa"
+    },
+    {
+      "id": "simply-pet-t2-reassure",
+      "definitionVi": "trấn an, giúp ai đó bớt lo lắng"
+    },
+    {
+      "id": "simply-pet-t2-career-advisor",
+      "definitionVi": "người tư vấn giúp lựa chọn nghề nghiệp phù hợp"
+    },
+    {
+      "id": "simply-pet-t2-advisor",
+      "definitionVi": "chuyên gia đưa ra lời khuyên trong lĩnh vực mình hiểu rõ"
+    },
+    {
+      "id": "simply-pet-t2-basic",
+      "definitionVi": "cơ bản, đơn giản và dành cho người mới bắt đầu"
+    },
+    {
+      "id": "simply-pet-t2-medical",
+      "definitionVi": "thuộc về y tế và việc chữa bệnh hoặc chấn thương"
+    },
+    {
+      "id": "simply-pet-t2-training",
+      "definitionVi": "quá trình đào tạo kỹ năng cho công việc hoặc hoạt động"
+    },
+    {
+      "id": "simply-pet-t2-spectator",
+      "definitionVi": "khán giả trực tiếp xem một trận đấu hoặc buổi biểu diễn"
+    },
+    {
+      "id": "simply-pet-t2-tradition",
+      "definitionVi": "truyền thống, nếp sinh hoạt được duy trì qua nhiều thế hệ"
+    },
+    {
+      "id": "simply-pet-t2-paperwork",
+      "definitionVi": "các giấy tờ cần hoàn thành cho công việc hoặc thủ tục"
+    },
+    {
+      "id": "simply-pet-t2-e-ticket",
+      "definitionVi": "vé điện tử được lưu trên điện thoại hoặc máy tính"
+    },
+    {
+      "id": "simply-pet-t2-hold-luggage",
+      "definitionVi": "hành lý ký gửi, được chở trong khoang hàng của máy bay"
+    },
+    {
+      "id": "simply-pet-t2-cabin-crew",
+      "definitionVi": "đội ngũ tiếp viên chăm sóc hành khách trên máy bay"
+    },
+    {
+      "id": "simply-pet-t2-clue",
+      "definitionVi": "manh mối giúp tìm lời giải cho một vấn đề hoặc bí ẩn"
+    },
+    {
+      "id": "simply-pet-t2-prediction",
+      "definitionVi": "lời dự đoán về điều sẽ xảy ra trong tương lai"
+    },
+    {
+      "id": "simply-pet-t2-common",
+      "definitionVi": "phổ biến, thường thấy ở nhiều nơi hoặc với nhiều người"
+    },
+    {
+      "id": "simply-pet-t2-allowance",
+      "definitionVi": "khoản tiền được cho đều đặn để chi tiêu"
+    },
+    {
+      "id": "simply-pet-t2-come-round",
+      "definitionVi": "đến thăm, nhất là đến nhà ai đó"
+    },
+    {
+      "id": "simply-pet-t2-sound-effects",
+      "definitionVi": "các hiệu ứng âm thanh được thêm vào phim hoặc chương trình"
+    },
+    {
+      "id": "simply-pet-t3-participate",
+      "definitionVi": "tham gia vào một hoạt động"
+    },
+    {
+      "id": "simply-pet-t3-staffroom",
+      "definitionVi": "phòng dành cho giáo viên nghỉ ngơi và sinh hoạt ở trường"
+    },
+    {
+      "id": "simply-pet-t3-customer-service",
+      "definitionVi": "bộ phận chăm sóc, giải đáp và hỗ trợ khách hàng"
+    },
+    {
+      "id": "simply-pet-t3-postage",
+      "definitionVi": "cước phí gửi thư hoặc bưu kiện qua bưu điện"
+    },
+    {
+      "id": "simply-pet-t3-originally",
+      "definitionVi": "ban đầu, vào thời điểm đầu tiên"
+    },
+    {
+      "id": "simply-pet-t3-essential",
+      "definitionVi": "thiết yếu, hoàn toàn cần thiết"
+    },
+    {
+      "id": "simply-pet-t3-space",
+      "definitionVi": "không gian vũ trụ bên ngoài khí quyển Trái Đất"
+    },
+    {
+      "id": "simply-pet-t3-exploration",
+      "definitionVi": "việc thám hiểm, tìm hiểu một nơi chưa được biết rõ"
+    },
+    {
+      "id": "simply-pet-t3-finest",
+      "definitionVi": "có chất lượng tốt nhất trong cùng loại"
+    },
+    {
+      "id": "simply-pet-t3-global",
+      "definitionVi": "thuộc về hoặc ảnh hưởng đến toàn thế giới"
+    },
+    {
+      "id": "simply-pet-t3-artwork",
+      "definitionVi": "tranh, ảnh hoặc hình vẽ minh họa trong sách, báo"
+    },
+    {
+      "id": "simply-pet-t3-institution",
+      "definitionVi": "một tổ chức lớn như trường đại học, ngân hàng hoặc bệnh viện"
+    },
+    {
+      "id": "simply-pet-t3-dodo",
+      "definitionVi": "loài chim lớn không biết bay, nay đã tuyệt chủng"
+    },
+    {
+      "id": "simply-pet-t3-earthquake",
+      "definitionVi": "trận động đất làm mặt đất rung chuyển"
+    },
+    {
+      "id": "simply-pet-t3-crystal",
+      "definitionVi": "hạt tinh thể có hình dạng đều đặn, như tinh thể muối"
+    },
+    {
+      "id": "simply-pet-t3-hands-on",
+      "definitionVi": "có được qua việc trực tiếp thực hành"
+    },
+    {
+      "id": "simply-pet-t3-educational",
+      "definitionVi": "mang tính giáo dục, giúp người xem học thêm kiến thức"
+    },
+    {
+      "id": "simply-pet-t3-virtual-reality",
+      "definitionVi": "thực tế ảo, thế giới do máy tính tạo ra để người dùng trải nghiệm"
+    },
+    {
+      "id": "simply-pet-t3-anytime",
+      "definitionVi": "bất cứ lúc nào, không cần hẹn trước"
+    },
+    {
+      "id": "simply-pet-t3-entire",
+      "definitionVi": "toàn bộ, không bỏ sót phần nào"
+    },
+    {
+      "id": "simply-pet-t3-curiosity",
+      "definitionVi": "vật lạ hoặc hiếm khiến người ta muốn tìm hiểu"
+    },
+    {
+      "id": "simply-pet-t3-gardening",
+      "definitionVi": "việc làm vườn và chăm sóc cây"
+    },
+    {
+      "id": "simply-pet-t3-express",
+      "definitionVi": "bày tỏ cảm xúc, suy nghĩ hoặc ý kiến"
+    },
+    {
+      "id": "simply-pet-t3-pathway",
+      "definitionVi": "lối đi nhỏ dành cho người đi bộ"
+    },
+    {
+      "id": "simply-pet-t3-come-out",
+      "definitionVi": "được tiết lộ hoặc trở nên được mọi người biết đến"
+    },
+    {
+      "id": "simply-pet-t3-seed",
+      "definitionVi": "hạt giống có thể mọc thành cây mới"
+    },
+    {
+      "id": "simply-pet-t3-personality",
+      "definitionVi": "tính cách thể hiện qua suy nghĩ, cảm xúc và hành vi"
+    },
+    {
+      "id": "simply-pet-t3-weakness",
+      "definitionVi": "sự yếu sức, thiếu sức mạnh thể chất"
+    },
+    {
+      "id": "simply-pet-t3-struggle",
+      "definitionVi": "cố gắng rất nhiều để làm một việc khó"
+    },
+    {
+      "id": "simply-pet-t3-devote",
+      "definitionVi": "dành nhiều thời gian hoặc công sức cho ai hoặc việc gì"
+    },
+    {
+      "id": "simply-pet-t3-decorative",
+      "definitionVi": "dùng để trang trí, làm cho thứ gì đó đẹp hơn"
+    },
+    {
+      "id": "simply-pet-t3-psychologist",
+      "definitionVi": "nhà tâm lý học, người nghiên cứu suy nghĩ và hành vi con người"
+    },
+    {
+      "id": "simply-pet-t3-reach-out-to-sb",
+      "definitionVi": "chủ động liên hệ với ai để giúp đỡ hoặc xin hỗ trợ"
+    },
+    {
+      "id": "simply-pet-t3-enthusiasm",
+      "definitionVi": "sự hào hứng, nhiệt tình muốn tham gia một việc"
+    },
+    {
+      "id": "simply-pet-t3-passion",
+      "definitionVi": "niềm đam mê sâu sắc dành cho một người hoặc hoạt động"
+    },
+    {
+      "id": "simply-pet-t3-limitation",
+      "definitionVi": "sự giới hạn về mức độ hoặc số lượng được phép"
+    },
+    {
+      "id": "simply-pet-t3-obey",
+      "definitionVi": "tuân theo mệnh lệnh, quy định hoặc luật lệ"
+    },
+    {
+      "id": "simply-pet-t3-invention",
+      "definitionVi": "sự phát minh ra một thứ chưa từng có trước đó"
+    },
+    {
+      "id": "simply-pet-t3-enormous",
+      "definitionVi": "khổng lồ, có kích thước rất lớn"
+    },
+    {
+      "id": "simply-pet-t3-limited",
+      "definitionVi": "có số lượng hoặc mức độ bị giới hạn"
+    },
+    {
+      "id": "simply-pet-t3-thrilled",
+      "definitionVi": "rất vui và phấn khích"
+    },
+    {
+      "id": "simply-pet-t3-worldwide",
+      "definitionVi": "có mặt hoặc xảy ra trên khắp thế giới"
+    },
+    {
+      "id": "simply-pet-t4-magical",
+      "definitionVi": "kỳ diệu, tạo cảm giác đặc biệt và đầy thích thú"
+    },
+    {
+      "id": "simply-pet-t4-throughout",
+      "definitionVi": "suốt từ đầu đến cuối một khoảng thời gian"
+    },
+    {
+      "id": "simply-pet-t4-standard",
+      "definitionVi": "thông thường, không thuộc loại đặc biệt"
+    },
+    {
+      "id": "simply-pet-t4-suite",
+      "definitionVi": "phòng khách sạn gồm nhiều phòng nối với nhau"
+    },
+    {
+      "id": "simply-pet-t4-deluxe",
+      "definitionVi": "cao cấp, sang trọng và rất tiện nghi"
+    },
+    {
+      "id": "simply-pet-t4-inform",
+      "definitionVi": "thông báo, cung cấp thông tin cho ai"
+    },
+    {
+      "id": "simply-pet-t4-footwear",
+      "definitionVi": "giày dép và những thứ mang ở chân"
+    },
+    {
+      "id": "simply-pet-t4-come-up",
+      "definitionVi": "xuất hiện hoặc trở nên sẵn có, như một cơ hội"
+    },
+    {
+      "id": "simply-pet-t4-part-time",
+      "definitionVi": "bán thời gian, chỉ làm một phần số giờ thông thường"
+    },
+    {
+      "id": "simply-pet-t4-suffer",
+      "definitionVi": "chịu đau đớn về thể chất hoặc tinh thần"
+    },
+    {
+      "id": "simply-pet-t4-oven",
+      "definitionVi": "lò nướng có cửa, dùng để làm chín thức ăn"
+    },
+    {
+      "id": "simply-pet-t4-bakery",
+      "definitionVi": "tiệm làm hoặc bán bánh mì và bánh ngọt"
+    },
+    {
+      "id": "simply-pet-t4-attempt",
+      "definitionVi": "lần cố gắng làm một việc khó"
+    },
+    {
+      "id": "simply-pet-t4-bucket",
+      "definitionVi": "cái xô có quai, thường dùng để đựng nước"
+    },
+    {
+      "id": "simply-pet-t4-slow-down",
+      "definitionVi": "giảm nhịp độ hoạt động hoặc làm việc"
+    },
+    {
+      "id": "simply-pet-t4-federal",
+      "definitionVi": "thuộc chính phủ liên bang, quản lý cả nước"
+    },
+    {
+      "id": "simply-pet-t4-internet-banking",
+      "definitionVi": "dịch vụ ngân hàng qua mạng để chuyển tiền và quản lý tài khoản"
+    },
+    {
+      "id": "simply-pet-t4-dial-up",
+      "definitionVi": "kết nối mạng qua đường dây điện thoại kiểu cũ, tốc độ chậm"
+    },
+    {
+      "id": "simply-pet-t4-complex",
+      "definitionVi": "phức tạp, có nhiều phần nên khó hiểu"
+    },
+    {
+      "id": "simply-pet-t4-satellite",
+      "definitionVi": "vệ tinh nhân tạo bay quanh Trái Đất để thu thập thông tin"
+    },
+    {
+      "id": "simply-pet-t4-device",
+      "definitionVi": "thiết bị được tạo ra để làm một việc cụ thể"
+    },
+    {
+      "id": "simply-pet-t4-affective",
+      "definitionVi": "thuộc về cảm xúc và tình cảm"
+    },
+    {
+      "id": "simply-pet-t4-alarm",
+      "definitionVi": "tín hiệu báo động bằng âm thanh hoặc ánh sáng"
+    },
+    {
+      "id": "simply-pet-t4-emergency-services",
+      "definitionVi": "các lực lượng ứng phó khẩn cấp như công an, cứu hỏa, cấp cứu"
+    },
+    {
+      "id": "simply-pet-t4-operator",
+      "definitionVi": "nhân viên tổng đài giúp kết nối các cuộc gọi"
+    },
+    {
+      "id": "simply-pet-t4-vehicle",
+      "definitionVi": "phương tiện có động cơ để chở người hoặc hàng, như ô tô"
+    },
+    {
+      "id": "simply-pet-t5-reception",
+      "definitionVi": "quầy lễ tân đón khách tại khách sạn hoặc văn phòng"
+    },
+    {
+      "id": "simply-pet-t5-charge",
+      "definitionVi": "thu phí, yêu cầu trả tiền cho một dịch vụ"
+    },
+    {
+      "id": "simply-pet-t5-replace",
+      "definitionVi": "thay thế một người hoặc vật bằng người hoặc vật khác"
+    },
+    {
+      "id": "simply-pet-t5-deposit",
+      "definitionVi": "tiền đặt cọc trả trước một phần tổng chi phí"
+    },
+    {
+      "id": "simply-pet-t5-permit",
+      "definitionVi": "cho phép ai làm điều gì"
+    },
+    {
+      "id": "simply-pet-t5-prohibit",
+      "definitionVi": "chính thức cấm một hành động"
+    },
+    {
+      "id": "simply-pet-t5-weather-forecast",
+      "definitionVi": "bản dự báo thời tiết trong những ngày sắp tới"
+    },
+    {
+      "id": "simply-pet-t5-predict",
+      "definitionVi": "dự đoán điều có khả năng xảy ra trong tương lai"
+    },
+    {
+      "id": "simply-pet-t5-illustration",
+      "definitionVi": "hình minh họa trong sách hoặc tạp chí"
+    },
+    {
+      "id": "simply-pet-t5-retire",
+      "definitionVi": "nghỉ hưu, ngừng làm việc vì tuổi cao hoặc sức khỏe yếu"
+    },
+    {
+      "id": "simply-pet-t5-crime",
+      "definitionVi": "hành vi phạm pháp có thể bị trừng phạt"
+    },
+    {
+      "id": "simply-pet-t5-treat",
+      "definitionVi": "một trải nghiệm đặc biệt, thú vị để tự thưởng hoặc được thưởng"
+    },
+    {
+      "id": "simply-pet-t5-find",
+      "definitionVi": "vật quý giá hoặc người đặc biệt được tìm thấy"
+    },
+    {
+      "id": "simply-pet-t5-civilisation",
+      "definitionVi": "nền văn minh có văn hóa và cách tổ chức xã hội riêng"
+    },
+    {
+      "id": "simply-pet-t5-sea-turtle",
+      "definitionVi": "rùa biển, loài bò sát có mai và chủ yếu sống dưới biển"
+    },
+    {
+      "id": "simply-pet-t5-majority",
+      "definitionVi": "đa số, phần lớn hơn của một nhóm"
+    },
+    {
+      "id": "simply-pet-t5-speedboat",
+      "definitionVi": "xuồng cao tốc có động cơ mạnh"
+    },
+    {
+      "id": "simply-pet-t5-fisherman",
+      "definitionVi": "ngư dân, người đánh bắt cá để kiếm sống"
+    },
+    {
+      "id": "simply-pet-t5-jellyfish",
+      "definitionVi": "con sứa có cơ thể mềm, gần như trong suốt"
+    },
+    {
+      "id": "simply-pet-t5-memorable",
+      "definitionVi": "đáng nhớ, để lại ấn tượng khó quên"
+    },
+    {
+      "id": "simply-pet-t5-form",
+      "definitionVi": "hình thành, bắt đầu xuất hiện hoặc tồn tại"
+    },
+    {
+      "id": "simply-pet-t5-spoilt",
+      "definitionVi": "bị hỏng, không còn dùng hoặc ăn được"
+    },
+    {
+      "id": "simply-pet-t5-fall-in-love",
+      "definitionVi": "bắt đầu yêu ai đó theo nghĩa tình cảm lãng mạn"
+    },
+    {
+      "id": "simply-pet-t5-get-away",
+      "definitionVi": "trốn thoát hoặc thoát khỏi một nơi"
+    },
+    {
+      "id": "simply-pet-t5-persuade",
+      "definitionVi": "thuyết phục ai làm gì bằng lý lẽ"
+    },
+    {
+      "id": "simply-pet-t5-waterfall",
+      "definitionVi": "thác nước chảy từ trên cao xuống"
+    },
+    {
+      "id": "simply-pet-t5-feed",
+      "definitionVi": "cho người hoặc động vật ăn"
+    },
+    {
+      "id": "simply-pet-t5-spring-water",
+      "definitionVi": "nước lấy từ mạch nước tự nhiên"
+    },
+    {
+      "id": "simply-pet-t5-admire",
+      "definitionVi": "ngưỡng mộ, kính trọng ai vì phẩm chất hoặc thành tích"
+    },
+    {
+      "id": "simply-pet-t5-extraordinary",
+      "definitionVi": "phi thường, rất khác lạ và gây ngạc nhiên"
+    },
+    {
+      "id": "simply-pet-t5-marathon",
+      "definitionVi": "cuộc chạy đua đường dài 42,195 km"
+    },
+    {
+      "id": "simply-pet-t6-appliance",
+      "definitionVi": "đồ điện gia dụng, như máy giặt hoặc lò nướng"
+    },
+    {
+      "id": "simply-pet-t6-strictly",
+      "definitionVi": "một cách nghiêm ngặt, không cho phép ngoại lệ"
+    },
+    {
+      "id": "simply-pet-t6-shut-down",
+      "definitionVi": "tắt hoặc ngừng hoạt động"
+    },
+    {
+      "id": "simply-pet-t6-character",
+      "definitionVi": "nhân vật trong truyện, phim hoặc vở kịch"
+    },
+    {
+      "id": "simply-pet-t6-relate-to-sth",
+      "definitionVi": "đồng cảm vì đã trải qua hoàn cảnh hoặc cảm xúc tương tự"
+    },
+    {
+      "id": "simply-pet-t6-action-packed",
+      "definitionVi": "đầy cảnh hành động và những sự kiện hồi hộp"
+    },
+    {
+      "id": "simply-pet-t6-nominate",
+      "definitionVi": "đề cử ai làm ứng viên cho một giải thưởng"
+    },
+    {
+      "id": "simply-pet-t6-award",
+      "definitionVi": "giải thưởng chính thức cho thành tích đạt được"
+    },
+    {
+      "id": "simply-pet-t6-beast",
+      "definitionVi": "con thú lớn hoặc hoang dã có thể nguy hiểm"
+    },
+    {
+      "id": "simply-pet-t6-car-mechanic",
+      "definitionVi": "thợ sửa chữa ô tô"
+    },
+    {
+      "id": "simply-pet-t6-surrounding",
+      "definitionVi": "ở xung quanh một địa điểm"
+    },
+    {
+      "id": "simply-pet-t6-junior-school",
+      "definitionVi": "trường tiểu học ở Anh dành cho trẻ từ 7 đến 11 tuổi"
+    },
+    {
+      "id": "simply-pet-t6-apprenticeship",
+      "definitionVi": "giai đoạn học nghề bằng cách vừa làm vừa được hướng dẫn"
+    },
+    {
+      "id": "simply-pet-t6-catering-school",
+      "definitionVi": "trường đào tạo nấu ăn chuyên nghiệp"
+    },
+    {
+      "id": "simply-pet-t6-informative",
+      "definitionVi": "cung cấp nhiều thông tin hữu ích"
+    },
+    {
+      "id": "simply-pet-t6-regularly",
+      "definitionVi": "đều đặn, lặp lại thường xuyên"
+    },
+    {
+      "id": "simply-pet-t6-cater",
+      "definitionVi": "cung cấp thức ăn và đồ uống cho một nhóm khách"
+    },
+    {
+      "id": "simply-pet-t6-portion",
+      "definitionVi": "khẩu phần ăn dành cho một người"
+    },
+    {
+      "id": "simply-pet-t6-homemade",
+      "definitionVi": "được tự làm hoặc nấu tại nhà"
+    },
+    {
+      "id": "simply-pet-t6-pressure",
+      "definitionVi": "áp lực, cảm giác căng thẳng khi phải đáp ứng yêu cầu"
+    },
+    {
+      "id": "simply-pet-t6-memorise",
+      "definitionVi": "học thuộc để có thể nhớ lại"
+    },
+    {
+      "id": "simply-pet-t6-strategy",
+      "definitionVi": "chiến lược, kế hoạch cụ thể để đạt mục tiêu"
+    },
+    {
+      "id": "simply-pet-t6-flash-card",
+      "definitionVi": "thẻ học có từ hoặc hình ảnh giúp ghi nhớ"
+    },
+    {
+      "id": "simply-pet-t6-take-advantage-of",
+      "definitionVi": "tận dụng cơ hội hoặc điều kiện có lợi"
+    },
+    {
+      "id": "simply-pet-t6-master",
+      "definitionVi": "học và luyện tập đến mức thành thạo"
+    },
+    {
+      "id": "simply-pet-t6-complex",
+      "definitionVi": "phức tạp, gồm nhiều phần khác nhau liên kết với nhau"
+    },
+    {
+      "id": "simply-pet-t6-arrangement",
+      "definitionVi": "sự sắp xếp hoặc thỏa thuận về cách thực hiện một việc"
+    },
+    {
+      "id": "simply-pet-t6-rough",
+      "definitionVi": "khó khăn, có nhiều trục trặc hoặc điều khó chịu"
+    },
+    {
+      "id": "simply-pet-t6-employer",
+      "definitionVi": "người hoặc công ty thuê người khác làm việc"
+    },
+    {
+      "id": "simply-pet-t6-bossy",
+      "definitionVi": "hay ra lệnh, thích sai bảo người khác"
+    },
+    {
+      "id": "simply-pet-t6-credit-card",
+      "definitionVi": "thẻ tín dụng cho phép mua trước và trả tiền sau"
+    },
+    {
+      "id": "simply-pet-t6-habit",
+      "definitionVi": "thói quen lặp lại thường xuyên mà không cần suy nghĩ"
+    },
+    {
+      "id": "simply-pet-t6-high-street",
+      "definitionVi": "phố chính của thị trấn, tập trung nhiều cửa hàng"
+    },
+    {
+      "id": "simply-pet-t7-crash",
+      "definitionVi": "vụ tai nạn xe gây hư hại hoặc làm người bị thương"
+    },
+    {
+      "id": "simply-pet-t7-in-progress",
+      "definitionVi": "đang diễn ra, chưa kết thúc"
+    },
+    {
+      "id": "simply-pet-t7-flag",
+      "definitionVi": "lá cờ có màu sắc hoặc hình tượng trưng cho quốc gia hay nhóm"
+    },
+    {
+      "id": "simply-pet-t7-fine",
+      "definitionVi": "khoản tiền phạt vì vi phạm luật hoặc quy định"
+    },
+    {
+      "id": "simply-pet-t7-wealthy",
+      "definitionVi": "giàu có, sở hữu nhiều tiền và tài sản"
+    },
+    {
+      "id": "simply-pet-t7-wave",
+      "definitionVi": "con sóng nhô lên trên mặt biển"
+    },
+    {
+      "id": "simply-pet-t7-public-transport",
+      "definitionVi": "phương tiện công cộng chạy theo tuyến và giờ cố định"
+    },
+    {
+      "id": "simply-pet-t7-resort",
+      "definitionVi": "khu nghỉ mát, nơi người ta đến nghỉ và du lịch"
+    },
+    {
+      "id": "simply-pet-t7-savings",
+      "definitionVi": "tiền tiết kiệm được để dành cho sau này"
+    },
+    {
+      "id": "simply-pet-t7-coast",
+      "definitionVi": "vùng đất ven biển"
+    },
+    {
+      "id": "simply-pet-t7-reasonable",
+      "definitionVi": "biết suy xét hợp lý và thực tế"
+    },
+    {
+      "id": "simply-pet-t7-interrupt",
+      "definitionVi": "ngắt lời hoặc làm một hoạt động tạm dừng"
+    },
+    {
+      "id": "simply-pet-t7-junk-food",
+      "definitionVi": "đồ ăn ít dinh dưỡng, thường nhiều đường, muối hoặc chất béo"
+    },
+    {
+      "id": "simply-pet-t7-reduce",
+      "definitionVi": "giảm bớt số lượng, kích thước hoặc mức độ"
+    },
+    {
+      "id": "simply-pet-t7-sell-by-date",
+      "definitionVi": "ngày cuối cùng cửa hàng được phép bán sản phẩm"
+    },
+    {
+      "id": "simply-pet-t7-provide",
+      "definitionVi": "cung cấp thứ mà ai đó cần"
+    },
+    {
+      "id": "simply-pet-t7-social-service",
+      "definitionVi": "dịch vụ của chính quyền hỗ trợ người gặp khó khăn"
+    },
+    {
+      "id": "simply-pet-t7-get-rid-of-sth",
+      "definitionVi": "loại bỏ, vứt hoặc cho đi thứ không còn muốn giữ"
+    },
+    {
+      "id": "simply-pet-t7-promote",
+      "definitionVi": "khuyến khích, thúc đẩy hoặc ủng hộ một hoạt động"
+    },
+    {
+      "id": "simply-pet-t7-compete",
+      "definitionVi": "thi đấu, cố gắng giành chiến thắng trước người khác"
+    },
+    {
+      "id": "simply-pet-t7-finish-line",
+      "definitionVi": "vạch đích, nơi kết thúc một cuộc đua"
+    },
+    {
+      "id": "simply-pet-t7-challenge",
+      "definitionVi": "thử thách cần nhiều nỗ lực để vượt qua"
+    },
+    {
+      "id": "simply-pet-t7-awesome",
+      "definitionVi": "rất ấn tượng, khiến người ta kinh ngạc và thán phục"
+    },
+    {
+      "id": "simply-pet-t7-madness",
+      "definitionVi": "hành vi điên rồ, thiếu suy nghĩ hoặc nguy hiểm"
+    },
+    {
+      "id": "simply-pet-t7-firework",
+      "definitionVi": "quả pháo hoa phát ra ánh sáng nhiều màu khi nổ"
+    },
+    {
+      "id": "simply-pet-t7-gunpowder",
+      "definitionVi": "thuốc súng, chất nổ dùng trong vũ khí hoặc pháo hoa"
+    },
+    {
+      "id": "simply-pet-t7-set-sth-off",
+      "definitionVi": "làm thứ gì bắt đầu hoạt động hoặc phát nổ"
+    },
+    {
+      "id": "simply-pet-t7-performance",
+      "definitionVi": "buổi biểu diễn ca hát, nhảy múa, diễn kịch hoặc âm nhạc"
+    },
+    {
+      "id": "simply-pet-t7-presentation",
+      "definitionVi": "bài thuyết trình cung cấp thông tin về một chủ đề"
+    },
+    {
+      "id": "simply-pet-t7-delighted",
+      "definitionVi": "rất vui mừng và hài lòng"
+    },
+    {
+      "id": "simply-pet-t7-affect",
+      "definitionVi": "ảnh hưởng, làm ai hoặc điều gì thay đổi"
+    },
+    {
+      "id": "simply-pet-t7-rubbish",
+      "definitionVi": "rác, những thứ bị bỏ đi vì không còn dùng được"
+    },
+    {
+      "id": "simply-pet-t7-argue",
+      "definitionVi": "cãi nhau vì bất đồng ý kiến"
+    },
+    {
+      "id": "simply-pet-t7-take-care-of-sb-sth",
+      "definitionVi": "chăm sóc, đáp ứng nhu cầu và bảo vệ ai hoặc thứ gì"
+    },
+    {
+      "id": "simply-pet-t8-arrange",
+      "definitionVi": "sắp xếp, lên kế hoạch để một việc diễn ra"
+    },
+    {
+      "id": "simply-pet-t8-payment",
+      "definitionVi": "khoản tiền đã thanh toán"
+    },
+    {
+      "id": "simply-pet-t8-membership",
+      "definitionVi": "tư cách thành viên của một câu lạc bộ hoặc tổ chức"
+    },
+    {
+      "id": "simply-pet-t8-recover",
+      "definitionVi": "hồi phục sức khỏe sau khi bị bệnh hoặc chấn thương"
+    },
+    {
+      "id": "simply-pet-t8-climate-change",
+      "definitionVi": "biến đổi khí hậu, sự thay đổi lâu dài của khí hậu Trái Đất"
+    },
+    {
+      "id": "simply-pet-t8-cure",
+      "definitionVi": "chữa khỏi bệnh cho ai"
+    },
+    {
+      "id": "simply-pet-t8-session",
+      "definitionVi": "buổi hoặc khoảng thời gian dành cho một hoạt động"
+    },
+    {
+      "id": "simply-pet-t8-warn",
+      "definitionVi": "cảnh báo về vấn đề hoặc nguy hiểm có thể xảy ra"
+    },
+    {
+      "id": "simply-pet-t8-global-warming",
+      "definitionVi": "sự nóng lên toàn cầu, khi nhiệt độ trung bình Trái Đất tăng dần"
+    },
+    {
+      "id": "simply-pet-t8-leader",
+      "definitionVi": "người lãnh đạo, hướng dẫn và quản lý một nhóm"
+    },
+    {
+      "id": "simply-pet-t8-responsibility",
+      "definitionVi": "trách nhiệm, việc mình có bổn phận phải làm"
+    },
+    {
+      "id": "simply-pet-t8-failure",
+      "definitionVi": "sự hỏng hóc khiến máy móc hoặc hệ thống ngừng hoạt động"
+    },
+    {
+      "id": "simply-pet-t8-reaction",
+      "definitionVi": "phản ứng, cách cảm thấy hoặc hành động trước một sự việc"
+    },
+    {
+      "id": "simply-pet-t8-accept",
+      "definitionVi": "chấp nhận, đồng ý nhận lời mời hoặc thứ được đề nghị"
+    },
+    {
+      "id": "simply-pet-t8-communicate",
+      "definitionVi": "giao tiếp, trao đổi thông tin bằng lời nói, chữ viết hoặc cử chỉ"
+    },
+    {
+      "id": "simply-pet-t8-socialise",
+      "definitionVi": "giao lưu, dành thời gian vui vẻ với người khác"
+    },
+    {
+      "id": "simply-pet-t8-regret",
+      "definitionVi": "hối tiếc, ước rằng chuyện đã xảy ra có thể khác đi"
+    },
+    {
+      "id": "simply-pet-t8-smelly",
+      "definitionVi": "có mùi hôi hoặc khó chịu"
+    },
+    {
+      "id": "simply-pet-t8-main",
+      "definitionVi": "chính, quan trọng nhất"
+    },
+    {
+      "id": "simply-pet-t8-sight",
+      "definitionVi": "danh thắng hoặc công trình nổi tiếng mà du khách đến ngắm"
+    },
+    {
+      "id": "simply-pet-t8-attraction",
+      "definitionVi": "địa điểm hoặc hoạt động thu hút khách vì thú vị, vui vẻ"
+    },
+    {
+      "id": "simply-pet-t8-sum",
+      "definitionVi": "tổng của hai hoặc nhiều số được cộng lại"
+    },
+    {
+      "id": "simply-pet-t8-foreigner",
+      "definitionVi": "người nước ngoài, đến từ một quốc gia khác"
+    },
+    {
+      "id": "simply-pet-t8-arrest",
+      "definitionVi": "bắt giữ người bị nghi đã phạm tội"
+    },
+    {
+      "id": "simply-pet-t8-unbelievable",
+      "definitionVi": "khó tin, gây ngạc nhiên đến mức không thể tin nổi"
+    }
+  ]
+}
