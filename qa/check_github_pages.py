@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'styles.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'writing.js', 'styles.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 # Word Ninja is a self-contained nested page: preserve it in the published site.
 for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html', 'games/word-hopper-unit14.html']:
@@ -80,6 +80,31 @@ for unit in built['units']:
                 assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
 assert reading_parts == 98 and reading_questions == 862
 print('PASS: all reading tests, original pages and keys resolve inside GitHub Pages project paths.')
+
+writing_tests = writing_parts = writing_prompts = 0
+writing_pages = set()
+for unit in built['units']:
+    if not unit.get('writingFile'):
+        continue
+    writing_tests += 1
+    writing_path = ROOT / '_site' / unit['writingFile']
+    data = json.loads(writing_path.read_text())
+    assert data == json.loads((ROOT / 'dist' / unit['writingFile']).read_text())
+    assert hashlib.sha256(writing_path.read_bytes()).hexdigest()[:12] in writing_path.name
+    for part in data['parts']:
+        writing_parts += 1
+        writing_prompts += len(part['questions'])
+        for page in part['pages']:
+            image = page['image']
+            writing_pages.add(image)
+            assert (ROOT / '_site' / image).read_bytes() == (ROOT / 'dist' / image).read_bytes()
+            for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
+                for resource in [unit['writingFile'], image]:
+                    resolved = urljoin(base, resource)
+                    assert resolved.startswith(base)
+                    assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
+assert (writing_tests, writing_parts, writing_prompts, len(writing_pages)) == (12, 24, 36, 24)
+print('PASS: all 12 Writing tests, 36 prompts and 24 original pages resolve at every supported project path.')
 
 audio_count = 0
 for unit in built['units']:

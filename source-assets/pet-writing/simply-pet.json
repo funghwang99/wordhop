@@ -1,0 +1,395 @@
+{
+  "bookId": "simply-pet",
+  "source": {
+    "title": "Simply B1 Preliminary for Schools: 8 Complete Practice Tests (2019, revised exam from 2020)",
+    "publisher": "GLOBAL ELT",
+    "filename": "Simply PET - 8 Practice tests (2020)(3).pdf",
+    "sha256": "f5e184c54780c02c3e4e4f39b3cf9fde47a659f0558b00495163fce78cd62630"
+  },
+  "tests": [
+    {
+      "id": "simply-pet-test-1",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            33
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · Paul's birthday",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            34
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · Smartphones",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · Not enough money",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-2",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            47
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · Winter holidays",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            48
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · Travel",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · An unbelievable day",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-3",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            61
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · Sunday",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            62
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · TV programmes",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · A life-changing train journey",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-4",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            75
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · Cinema",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            76
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · Pets",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · The approaching car",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-5",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            89
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · School exchange",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            90
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · An interesting place",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · An unexpected sound",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-6",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            103
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · Joining the gym",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            104
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · Eating out",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · A day at the beach",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-7",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            117
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · Your birthday",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            118
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · My best friend",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · Helping a puppy",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simply-pet-test-8",
+      "parts": [
+        {
+          "id": "part-1",
+          "title": "Part 1 · Email",
+          "instructions": "You must answer Question 1. Read the email and write your reply using all the notes. Write your answer in about 100 words.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            130
+          ],
+          "questions": [
+            {
+              "id": "question-1",
+              "number": 1,
+              "title": "Email · My visit",
+              "genre": "email",
+              "targetWords": 100
+            }
+          ]
+        },
+        {
+          "id": "part-2",
+          "title": "Part 2 · Article or story",
+          "instructions": "Choose one question: Question 2 (article) or Question 3 (story). Write your answer in about 100 words. For the story, begin with the sentence given on the book page.",
+          "requiredQuestions": 1,
+          "pdfPages": [
+            131
+          ],
+          "questions": [
+            {
+              "id": "question-2",
+              "number": 2,
+              "title": "Article · My worst holiday ever!",
+              "genre": "article",
+              "targetWords": 100
+            },
+            {
+              "id": "question-3",
+              "number": 3,
+              "title": "Story · Something was wrong",
+              "genre": "story",
+              "targetWords": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

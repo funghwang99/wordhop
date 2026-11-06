@@ -63,8 +63,8 @@ website address to a GitHub Pages address does not automatically transfer that
 browser's saved progress. No student accounts or shared database are required.
 
 Every test or unit has a **Clear saved results** button above its study tabs.
-After confirmation it removes all saved Reading and Listening answers and game
-history for that test on the current device. The next visit starts with blank
+After confirmation it removes all saved Reading and Listening answers, Writing
+drafts and game history for that test on the current device. The next visit starts with blank
 answer sheets. Other tests, viewed flashcards, sound and round-size preferences
 are preserved. Cancelling the dialog keeps the results. Clearing ends a current
 round, stops its audio and cancels pending autosave; storage errors are reported.
@@ -296,3 +296,20 @@ The game runs entirely offline in `dist/games/word-hopper-unit14.html`,
 embedded in WordHop's Unit 14 Practice screen. Its result messages feed
 WordHop's local history. Clear saved results for Unit 14 also removes the
 game's browser-local high score. The arcade games of Units 10–13 are preserved.
+
+## PET Writing
+
+Simply PET Tests 1–8 and Authentic 1 Tests 1–4 each have a Writing tab with both
+original parts. The 24 full book pages contain all 36 prompts, including email
+annotations, article questions, story opening sentences and Simply's Writing
+Tutor panels. Part 1 requires Question 1; Part 2 offers Question 2 or Question 3.
+The original instructions ask for about 100 words per answer.
+
+Students can write below the prompt and see a live word count. Drafts are saved
+per test, part and question on the same device. Switching between the article
+and story retains both drafts. Clear saved results also clears Writing drafts
+for the selected test, while other tests and flashcard progress are preserved.
+Writing pages and data load on demand without downloading the full books.
+
+Sources, page mappings and the reproducible import are documented in
+`source-assets/pet-writing/`.
