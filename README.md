@@ -332,3 +332,24 @@ The embedded Unit 15 game reports completed sessions to WordHop's local
 practice history, and Clear saved results also clears its high score.
 Unit 10 has Flappy Vocab, Unit 11 Word Ninja, Unit 12 Word Invaders,
 Unit 13 Word Cannon and Unit 14 Word Hopper.
+
+## Word Circuit – Basic IELTS Reading Unit 16
+
+Unit 16 has one dedicated arcade game: **Word Circuit – Restore the Grid**.
+The game covers all **44 verified Unit 16 vocabulary entries** in four
+balanced IELTS exercise types: 11 contextual completions, 11 collocations,
+11 focused paraphrases and 11 word-formation tasks. Each answer is entered
+by typing the missing word; there are no answer options or word banks.
+For paraphrase prompts, the exact phrase to replace is highlighted.
+
+Word Circuit is a standalone 2D HTML5 game in
+`dist/games/word-circuit-unit16.html`. The game combines typing with
+interactive circuit-rotation puzzles every five words. Practice and Arcade
+modes, 10/20/44-word rounds, keyboard/mobile controls, hints, combo scores,
+three hearts, timers and missed-word review are supported. Both Enter and
+the SEND button use the same form submission handler.
+
+The game is embedded in Unit 16's Practice menu and reports game results
+back to WordHop's local history. Clear saved results for Unit 16 also
+clears the Word Circuit local best score. Other Basic IELTS Reading
+Units 10–15 retain their existing arcade games.
