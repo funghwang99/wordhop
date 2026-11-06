@@ -1,0 +1,901 @@
+{
+  "language": "vi",
+  "items": [
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Adam nhờ George nhắn tin nếu đến muộn để cả nhóm biết có nên chờ hay không. Adam không hỏi George đang đi chuyến xe buýt nào."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Sally nói họ đã đi bộ quanh Rome để xem những địa điểm nổi tiếng. Đây là việc đi tham quan, không phải lời than phiền vì đi bộ mệt."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Tina muốn John xem trang web của khách sạn rồi cho biết có muốn cô ấy đặt phòng hay không. Tina là người đề nghị đặt phòng, chứ không phải John."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Thư viện đóng cửa lúc 2 giờ chiều thứ Sáu và đến thứ Hai mới mở lại. Vì vậy, thư viện đóng cửa suốt cuối tuần."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Mọi bài dự thi đều phải theo chủ đề động vật. Người dự thi không cần có thú cưng, và hai nhóm tuổi được thi riêng."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Young World viết về thiên nhiên, các vấn đề môi trường và cách bảo vệ môi trường. Nội dung này phù hợp với sự quan tâm của Tony dành cho động vật và thế giới tự nhiên."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Twist tập trung vào thời trang của người nổi tiếng và giúp người đọc tìm phong cách riêng. Tạp chí phù hợp với sở thích thiết kế quần áo của Gemma vì không tập trung vào chuyện đời tư của người nổi tiếng."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Live your Life đưa ra lời khuyên về sức khỏe và các vấn đề cá nhân, trong đó có sự tự tin. Tạp chí đáp ứng cả mong muốn khỏe hơn của Martin lẫn khó khăn khi làm quen với trường mới."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "J-14 đưa tin về những ngôi sao trẻ hiện nay, trong đó có các ca sĩ nhạc pop. Nick và Tony muốn biết thêm về cuộc sống và hoạt động của những ngôi sao này."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Teen Ink đăng bài của các bạn tuổi thiếu niên, gồm truyện và thơ. Vì vậy, Georgia có thể đọc các tác phẩm do người cùng tuổi với mình viết."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Simon miêu tả nơi nghỉ là đơn giản nhưng ấm áp và dễ chịu. Nơi đó không sang trọng, nhưng cũng không khiến khách khó chịu."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Simon cho rằng khách du lịch chưa hiểu những vấn đề họ gây ra và cần được hướng dẫn rõ cách cư xử khi ở gần những con ngựa nhỏ. Anh không đề nghị cấm tất cả khách du lịch đến đây."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Bài đọc cho biết xe cộ gây nguy hiểm cho những con ngựa nhỏ vì khách du lịch lái xe quá nhanh trên các con đường xuyên rừng."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Trải nghiệm này làm Simon thay đổi kế hoạch học tập: giờ anh muốn học đại học về một ngành liên quan đến động vật. Anh vẫn thích cuộc sống thành phố và dự định quay lại giúp đỡ."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Toàn bài kể về việc giúp những con ngựa nhỏ, tìm hiểu các mối nguy hiểm với chúng và mong muốn làm việc với động vật. Đáp án A thể hiện đúng ý chính này."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "Câu trước nói các bạn trẻ không có gì để làm. D nêu kết quả: các bạn thấy buồn chán và khó kết bạn, qua đó giải thích vì sao cần có câu lạc bộ."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "Trước chỗ trống là lời đề nghị cho dùng một cửa hàng bỏ trống. G giải thích vì sao chủ cửa hàng cho dùng lâu dài, rồi câu sau nói thêm rằng không phải trả tiền."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "Câu trước nhắc đến việc đưa bàn ghế vào tòa nhà. A giải thích rằng số bàn ghế này được mọi người tặng, trước khi bài đọc kể thêm những thiết bị khác được tặng."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "Các từ “There” và “the cafe” ở phía sau cần nhắc lại một địa điểm đã được giới thiệu. H giới thiệu quán cà phê nơi các bạn trẻ có thể mua đồ uống và đồ ăn nhẹ."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Câu trước giới thiệu em gái của người viết. C nói về tiếng ồn do cô em tạo ra, nối trực tiếp với việc khó tập trung ở câu sau."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "Cụm “away from the crowds” nghĩa là tránh xa những nơi đông người. Cụm này phù hợp với các công viên đặc biệt, ít khách đến tham quan."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "Thêm đảo Zanzibar vào chuyến đi giúp tạo nên một kỳ nghỉ trọn vẹn, vừa có biển vừa có động vật hoang dã. Các động từ còn lại không diễn tả việc tạo ra trải nghiệm này một cách phù hợp."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Located in” dùng để nói các công viên nằm ở đâu. “Invented” và những lựa chọn còn lại không phù hợp để nói về vị trí địa lý."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "Cụm “compared with” dùng để so sánh trải nghiệm đi xem động vật hoang dã ở miền nam với trải nghiệm ở miền bắc đất nước."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Tourist destination” nghĩa là điểm đến du lịch. Ở đây, người viết nói miền bắc Tanzania là nơi khách du lịch thường đến hơn."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Exploring” nghĩa là đến thăm và khám phá một nơi. Từ này phù hợp để nói du khách có thể làm gì tại các bãi biển sau chuyến đi xem động vật hoang dã."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "Dùng “since” với thì hiện tại hoàn thành để chỉ mốc bắt đầu của một việc vẫn tiếp tục đến nay. Ở đây, người viết bắt đầu có bạn qua thư từ khi 12 tuổi."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“Each other” nghĩa là “nhau”: cả hai người bạn đều viết thư cho người kia."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "Chỗ trống cần từ nối để chỉ một người là “someone”. Cả “who” và “that” đều có thể mở đầu phần thông tin cho biết đó là người như thế nào."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "“If” nêu điều kiện cho lời khuyên: nếu muốn cải thiện một ngôn ngữ, bạn nên chọn bạn qua thư nói ngôn ngữ đó. “When” cũng phù hợp trong ngữ cảnh này."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "“Is” hoàn thành ý nói cuộc sống của người bạn qua thư thực sự như thế nào. “Works” cũng đúng ngữ pháp khi nói về cách cuộc sống đó diễn ra."
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“People of all ages” nghĩa là mọi lứa tuổi đều có thể tham gia. Cụm này làm rõ rằng việc kết bạn qua thư không chỉ dành cho người trẻ."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Jane muốn được giúp hiểu bài tập địa lý về sông. Cô nhờ John đến nhà mình, không phải gặp ở trường hay giải thích núi hình thành như thế nào."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Mẹ của Jim nói rõ rằng tối nay bà sẽ đi làm về muộn. Bà để tiền để Jim tự lo bữa tối."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Sự cố điện khiến đèn và tủ đông ngừng hoạt động, nên cửa hàng không thể bán thực phẩm hôm nay. Thực phẩm đã được chuyển đi, không phải đã bán hết."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Thông báo miêu tả một con mèo bị lạc và cho số điện thoại để người nhìn thấy mèo liên hệ. Mục đích là giúp chủ tìm lại thú cưng."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Quảng cáo mời khách đặt tiệc sinh nhật tại Bob's Burger Bar. Quảng cáo đưa ra một thực đơn đặc biệt cố định, không nói khách có thể chọn thực đơn trên mạng."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Môn trượt tuyết diễn ra trên núi có tuyết vào mùa đông, và người xem mang theo đồ uống nóng. Các chi tiết này phù hợp với trang phục, việc leo núi của Jane và việc cô không thích các sự kiện thể thao mùa hè."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Cricket là môn yên tĩnh, được chơi vào mùa hè, cho phép người xem ăn ngoài trời và được hoãn khi trời mưa. Tất cả các điểm này đều phù hợp với sở thích của Paul."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Cổ động viên bóng đá đi xem các trận sân khách, có thể đứng hò reo và mua đồ ăn nóng ở sân vận động. Người xem bóng bầu dục thường ngồi tại chỗ, nên bóng đá phù hợp hơn."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Bóng chuyền bãi biển được chơi trên các bãi biển công cộng vào mùa hè. Helen có thể vừa đi xem vừa bơi và tắm nắng ở biển."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Quần vợt có số chỗ ngồi hạn chế; người xem mang theo đồ ăn và phải giữ im lặng khi trận đấu đang diễn ra. Những chi tiết này giải thích việc Carol đặt chỗ trước và việc nhân viên yêu cầu giữ yên lặng."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "“One by one” nghĩa là từng học sinh nói chuyện riêng với người tư vấn. Họ không gặp người tư vấn theo lớp hay theo nhóm."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Người tư vấn xem điểm để biết học sinh giỏi môn nào hơn. Từ đó, họ gợi ý nghề nghiệp hoặc khóa học phù hợp."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Sinh viên y khoa còn phải tiếp tục học tại bệnh viện sau khi học đại học. Vì vậy, học xong chương trình đại học chưa có nghĩa là họ đã học xong mọi thứ."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Người tư vấn giúp học sinh chuẩn bị CV và hướng dẫn cách tìm, nộp đơn xin việc. Họ không tự đảm nhận toàn bộ việc đào tạo hay đưa học sinh đến nơi làm việc."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Cuối bài, Sam bớt lo vì biết có thể nhờ người tư vấn nghề nghiệp giúp đỡ khi cần. Sam sẽ trấn an bạn rằng trường có sự hỗ trợ này."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "E giải thích thông điệp năm 1826 cho biết điều gì: cuộc đua lúc đó đã là một truyền thống. Ý này nối hợp lý với câu sau rằng không ai biết chính xác cuộc đua bắt đầu khi nào."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "Câu trước nói mọi người đến từ khắp nơi trên thế giới. C củng cố ý này bằng cách nêu một số quốc gia có người từng thắng cuộc."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "“It” chỉ miếng phô mai lớn vừa được miêu tả. A bổ sung một đặc điểm của miếng phô mai, trước khi bài đọc nói cách thả nó lăn xuống đồi."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "Đoạn văn đang nói về luật của cuộc đua. G hoàn thành phần hướng dẫn bằng cách giải thích ai thắng và nhận được phần thưởng gì."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Bài đọc vừa miêu tả các chấn thương nghiêm trọng. “That's why” nêu kết quả của việc đó: cần có xe cứu thương và nhân viên y tế ở chân đồi."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "“Too embarrassed to ask” nghĩa là quá ngại nên không dám hỏi. Người viết có nhiều câu hỏi nhưng cảm thấy không thoải mái khi nêu ra."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "“Tips” là những lời khuyên ngắn, hữu ích và dễ áp dụng. Phần còn lại của bài viết đưa ra đúng loại lời khuyên này cho người đi máy bay lần đầu."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Necessary paperwork” nghĩa là các giấy tờ cần thiết cho chuyến đi, chẳng hạn như hộ chiếu còn hiệu lực."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "“Give someone access to” nghĩa là cho phép ai vào hoặc sử dụng một nơi. Thẻ lên máy bay cho phép hành khách lên máy bay."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Check in” là cụm từ dùng khi làm thủ tục gửi hành lý cho hãng hàng không trước chuyến bay. Vì “in” đã có sẵn, chỗ trống cần điền “check”."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Overhead locker” là ngăn để hành lý phía trên ghế ngồi trên máy bay. Đây là nơi phù hợp để cất hành lý xách tay."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "“Go out” nghĩa là ra khỏi nhà để gặp gỡ hoặc vui chơi. Cụm này đối lập với kế hoạch ở nhà vào tối thứ Bảy này của người viết."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“Stay at home” nói về quyết định ở nhà. Sau “need to”, dùng động từ nguyên mẫu “stay”, cùng dạng với “relax”; “be” cũng tạo thành câu đúng ngữ pháp."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“Are going to watch” diễn tả dự định xem phim vào buổi tối. “Planning” và “intending” cũng có thể đứng trước “to watch” để nói cùng kế hoạch này."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "Cấu trúc “There is” dùng để giới thiệu thứ gì đó có sẵn hoặc đang tồn tại. Ở đây, cấu trúc này giới thiệu lượng kem có trong tủ đông."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "Chủ ngữ “my sister” là một người nên cần trợ động từ số ít “has”. “Has” kết hợp với “already gone” để tạo thì hiện tại hoàn thành."
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“Unless” nghĩa là “trừ khi”. Người chị hoặc em gái sẽ không làm phiền cả nhóm, trừ khi cô ấy về nhà sớm."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Người dự thi dưới 18 tuổi cần được cha mẹ cho phép. Cuộc thi cũng quy định độ tuổi tối thiểu, nên không phải ai cũng được tham gia."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Thông báo cấm khách vào phòng nhân viên vào bất kỳ lúc nào. Khách cần giúp đỡ phải đến quầy dịch vụ khách hàng."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Mary để quên nhật ký ở nhà Sally và nhờ Sally gửi qua bưu điện. Mary nói sẽ trả lại tiền cước gửi sau."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Người bán chỉ xem xét mức giá trên £40, nên mức giá dưới £40 không phù hợp. Quảng cáo nói người mua phải tự đến lấy xe đạp và xe đã được dùng một ít."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Thông báo nói hồ bơi sẽ mở lại vào giờ bình thường, tức 8 giờ sáng thứ Hai. Hồ bơi đóng cửa từ chiều thứ Năm, không phải sáng thứ Năm."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Tate Modern có nghệ thuật hiện đại, một tòa nhà thú vị và một nhà hàng. Vì vậy, nơi này đáp ứng cả ba mong muốn của Amara và Nira: xem nghệ thuật, tìm hiểu kiến trúc và có chỗ ăn trưa."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Imperial War Museum giới thiệu trải nghiệm của con người trong chiến tranh, từ hai cuộc thế chiến đến những cuộc chiến gần đây. Nội dung này phù hợp với sự quan tâm của Greg về lịch sử và gia đình."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Science Museum có các hoạt động để khách trực tiếp tham gia, trong đó có trải nghiệm không gian bằng thực tế ảo. Michael có thể làm các hoạt động liên quan đến không gian thay vì chỉ xem đồ trưng bày."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Victoria and Albert Museum có cả khu trưng bày thời trang và bộ sưu tập ảnh lớn. Cả hai đều phù hợp với sở thích sáng tạo của Annabel."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Natural History Museum tập trung vào thực vật, động vật và đá, với các phần trưng bày đặc biệt như mô hình khủng long và chim dodo. Đây là nơi phù hợp nhất với sở thích tìm hiểu thiên nhiên của Daniel."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Đoạn mở đầu nêu nhiều mục đích của việc làm vườn: làm đẹp, tiết kiệm hoặc kiếm tiền và thể hiện bản thân. Beth muốn cho thấy làm vườn có thể mang nhiều ý nghĩa khác nhau."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Beth thích những khu vườn có các hàng cây cho thu hoạch và ít đồ trang trí. Vì vậy, khu vườn lý tưởng của cô đơn giản, không phức tạp hay có quá nhiều đồ trang trí."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Beth khuyên tìm đồ miễn phí và dùng lại những vật liệu người khác đã bỏ đi. Cô không nói người làm vườn tuyệt đối không được tiêu tiền."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Beth nói rõ cô đã học được nhiều điều, rồi chia sẻ một số bài học thực tế. Bài đọc cho thấy cô có kiến thức hữu ích nhờ kinh nghiệm."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Beth thích làm vườn và hy vọng biến sở thích này thành nghề nghiệp. A thể hiện cả sự yêu thích của cô lẫn mong muốn kiếm tiền từ công việc này trong tương lai."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "Cụm “To you” ở câu sau hướng đến những bạn trẻ được giới thiệu trong D: các bạn sợ theo đuổi điều mình yêu thích. Sau đó, người viết động viên các bạn ấy."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "H đối chiếu trực tiếp các quy tắc “black and white” rõ ràng, cứng nhắc với một “grey area”, tức phần chưa có ranh giới rõ ràng. Câu này cũng dẫn vào ý rằng tuân theo các quy tắc cứng nhắc có thể không phải cách tốt nhất."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "Câu trước nói sự nhiệt tình có thể giúp một người đạt mục tiêu. A đối chiếu người đó với những người có tài hơn nhưng có thể không thành công."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "F trả lời lời chê rằng một ước mơ thiếu thực tế: người có ước mơ không nhất thiết phải biết chính xác cách thực hiện nó. Ý này nối với câu sau, trong đó người viết bác bỏ những giới hạn như vậy."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "Câu trước giới thiệu hy vọng. C giải thích hy vọng là niềm tin, và “It” ở câu sau nhắc lại ý tưởng có sức mạnh này."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "“Inventions” là danh từ đếm được số nhiều nên đi với “so many” và phù hợp với ví dụ về điện thoại thông minh. Bài viết nói về những công nghệ mới được tạo ra; “equipment” là danh từ không đếm được nên không phù hợp sau “so many”."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "“Enormous” nghĩa là rất lớn. Từ này phù hợp với câu tiếp theo nói công nghệ đã thay đổi hoàn toàn cuộc sống của con người."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Has appeared” nghĩa là đã xuất hiện. Khác với các lựa chọn còn lại ở đây, cách dùng này không cần thêm tân ngữ hay trợ động từ để tạo câu bị động."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "“Shocked at” diễn tả việc rất ngạc nhiên khi biết mình dành bao nhiêu thời gian cho công nghệ. Các đáp án khác không phù hợp bằng cả về nghĩa lẫn cách kết hợp với giới từ “at”."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Depend on” là cách kết hợp đúng giữa động từ và giới từ, nghĩa là dựa vào. Ở đây, mọi người dựa vào internet để làm nhiều việc khác nhau."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Face-to-face discussion” là cuộc trò chuyện trực tiếp với người khác. Cụm này phù hợp khi nói chuyện với bạn bè, gia đình hoặc đồng nghiệp, còn bài giảng, hội nghị hay buổi phỏng vấn thì không phù hợp."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "Dùng “on” trước một ngày cụ thể. Câu này nêu đúng ngày bảo tàng mở cửa."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“From all over the world” nghĩa là từ nhiều nơi khác nhau trên khắp thế giới."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“So quickly” nhấn mạnh bộ sưu tập tăng lên nhanh thế nào, trước khi câu văn giải thích nguyên nhân. “Very” cũng có thể dùng để nhấn mạnh trong câu này."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "“In order to” dùng để nêu mục đích. Ở đây, sách hướng dẫn giúp khách biết vị trí các đồ vật và lên kế hoạch tham quan."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "“Run out of time” nghĩa là hết thời gian. Người viết nhắc rằng có quá nhiều thứ để xem trong một lần tham quan."
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“See everything” nghĩa là xem hết các phần trưng bày của bảo tàng, điều mà người viết cho rằng khó làm được trong một ngày. Câu cuối xác nhận họ chỉ xem được một nửa."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 1,
+      "explanationVi": "Người dự thi phải dưới 18 tuổi nên người lớn không được tham gia. Câu chuyện phải nói về những con người và nơi chốn kỳ diệu, không phải một chuyện có thật đã xảy ra với bản thân."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 2,
+      "explanationVi": "Quảng cáo cần người làm vườn vào hai ngày cố định mỗi tuần trong suốt mùa hè: thứ Ba và thứ Sáu. Người ứng tuyển được yêu cầu gọi điện, không phải gửi email."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 3,
+      "explanationVi": "Peter nói đã cho Andrew mượn sách địa lý và giờ cần gấp để ôn bài kiểm tra. Như vậy, Andrew là người mượn sách của Peter."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 4,
+      "explanationVi": "Tàu đi qua nhà ga bị ngập mà không dừng lại, nên hành khách không thể xuống ở đó. Nhân viên đang khắc phục sự cố."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-1",
+      "number": 5,
+      "explanationVi": "Mẹ của John nhờ anh mua vài món đồ khi vào thị trấn. Bà ưu tiên sữa nắp màu xanh dương; sữa nắp màu xanh lá chỉ là lựa chọn thay thế."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 6,
+      "explanationVi": "Super Extra đủ chỗ cho ba người, có cửa sổ nhìn ra biển và tủ quần áo lớn. Giá phòng đã gồm đồ uống và đồ ăn nhẹ trong tủ lạnh; những người này không yêu cầu có ban công."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 7,
+      "explanationVi": "Deluxe Super có hai phòng ngủ, ban công lớn và phục vụ bữa ăn tại phòng trên tàu. Những đặc điểm này phù hợp với mong muốn có một chuyến du lịch biển thật sang trọng của gia đình."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 8,
+      "explanationVi": "Phòng Standard rẻ nhất và dành cho người chủ yếu chỉ về phòng để ngủ. Donna không cần cửa sổ hay các tiện nghi thêm."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 9,
+      "explanationVi": "Deluxe có các phòng ngủ riêng và phòng khách. Phần giới thiệu Deluxe không nói có phục vụ bữa ăn tại phòng như Deluxe Super."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-2",
+      "number": 10,
+      "explanationVi": "Suite có hai phòng ngủ riêng, mỗi phòng có giường đôi và lối ra ban công, cùng tủ lạnh có đồ uống và đồ ăn nhẹ. Những đặc điểm này đáp ứng yêu cầu của cả hai người đi du lịch."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 11,
+      "explanationVi": "Mẹ của Paula tìm thấy quảng cáo trên báo và chỉ cho cô xem. Paula nộp đơn qua mạng, nhưng cô không biết đến công việc lần đầu qua mạng."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 12,
+      "explanationVi": "Người quản lý gọi điện sau khi Paula từ buổi phỏng vấn về đến nhà. Vì vậy, ông báo cô được nhận việc ngay trong ngày họ gặp nhau."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 13,
+      "explanationVi": "Paula đến sở thú trước giờ mở cửa nên thấy cổng vẫn khóa. Người quản lý đến sau đó, lúc 9 giờ."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 14,
+      "explanationVi": "Người quản lý đưa cho Paula một bộ đồng phục mặc bên ngoài quần áo thường và một đôi ủng. Cô không thay quần áo thường bằng đồng phục hay lập tức đi dọn chuồng sư tử."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-3",
+      "number": 15,
+      "explanationVi": "Paula gặp khó khăn khi tìm việc nhưng cuối cùng đã có một công việc cuối tuần mà cô yêu thích. Cô sẽ khuyên bạn tiếp tục tìm một công việc phù hợp."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 16,
+      "explanationVi": "Câu trước giới thiệu gia đình bị mắc kẹt phía trên tiệm bánh. C giải thích cách họ thoát ra khi không thể đi xuống bằng cầu thang."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 17,
+      "explanationVi": "Các ngôi nhà được xây gần đến mức gần như chạm nhau, nên lửa dễ lan từ nhà này sang nhà khác. F nêu kết quả đó trước khi người viết nói thêm về hai khó khăn khác là thời tiết khô và gió mạnh."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 18,
+      "explanationVi": "A nói về nỗ lực chung để dập lửa. Câu sau dùng “Even the king” để bổ sung một ví dụ đặc biệt gây ngạc nhiên: ngay cả nhà vua cũng đến giúp."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 19,
+      "explanationVi": "“This” nhắc lại việc phá các tòa nhà để tạo khoảng trống. E giải thích rằng việc đó làm lửa lan chậm hơn, dù chưa dập tắt được lửa ngay."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-4",
+      "number": 20,
+      "explanationVi": "H mở đầu đoạn nói về những tác động mà bài đọc xem là có ích. Đoạn này xuất hiện sau phần miêu tả sự phá hủy và việc nhiều người mất nhà cửa."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 21,
+      "explanationVi": "“Available to the public” nghĩa là người dân nói chung có thể tiếp cận hoặc sử dụng. Cụm này phù hợp với việc internet được mở cho nhiều người sử dụng hơn trước."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 22,
+      "explanationVi": "Ngân hàng có thể “offer”, tức cung cấp, một dịch vụ như ngân hàng trực tuyến. Các lựa chọn còn lại không phải động từ thường dùng để diễn tả việc cung cấp dịch vụ này."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 23,
+      "explanationVi": "“Dial-up connection” là kết nối internet qua đường dây điện thoại."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 24,
+      "explanationVi": "Máy tính gửi các tín hiệu qua đường dây điện thoại. “Signals” có nghĩa là tín hiệu nên phù hợp; “signs” và những lựa chọn còn lại không diễn tả cách truyền thông tin này."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 25,
+      "explanationVi": "“Make phone calls” là gọi điện đi, còn “receive phone calls” là nhận cuộc gọi đến. Đây là hai cách nói thông dụng đi cùng nhau trong câu."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-5",
+      "number": 26,
+      "explanationVi": "“Network” là mạng kết nối các thiết bị với nhau. Câu văn liệt kê những thiết bị khác nhau được internet kết nối."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 27,
+      "explanationVi": "“Ones” thay cho danh từ số nhiều “services” để tránh lặp từ. Điền lại “services” cũng đúng ngữ pháp."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 28,
+      "explanationVi": "“Have to” diễn tả điều người gọi phải làm. “Need to” cũng là cách đúng để đưa ra cùng hướng dẫn trước động từ “dial”."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 29,
+      "explanationVi": "“24 hours a day” nghĩa là hoạt động liên tục suốt 24 giờ mỗi ngày. Cụm này đi cùng “7 days a week”, tức 7 ngày mỗi tuần."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 30,
+      "explanationVi": "Câu trước nêu mục tiêu đến nơi trong 8 phút. “Not” cho biết đôi khi không thể đến một nơi xa xôi trong thời gian đó."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 31,
+      "explanationVi": "“Each” nói riêng về từng dịch vụ khẩn cấp và phù hợp với dạng số ít “service has”. “Every” cũng đúng cả về nghĩa lẫn ngữ pháp."
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "skill": "reading",
+      "partId": "part-6",
+      "number": 32,
+      "explanationVi": "“Drive through red lights” nghĩa là lái xe đi qua khi đèn giao thông đang đỏ thay vì dừng lại. Đây là việc người lái xe khẩn cấp đôi khi cần làm."
+    }
+  ]
+}

@@ -48,3 +48,4 @@ require('./check-unit-14.cjs');
 require('./check-unit-15.cjs');
 require('./check-unit-16.cjs');
 require('./check-writing.cjs');
+require('./check-pet-vietnamese.cjs');

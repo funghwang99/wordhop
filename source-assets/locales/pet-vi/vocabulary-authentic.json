@@ -1,0 +1,977 @@
+{
+  "language": "vi",
+  "words": [
+    {
+      "id": "authentic-1-t1-essential",
+      "definitionVi": "thiết yếu; rất quan trọng và cần thiết"
+    },
+    {
+      "id": "authentic-1-t1-supplies",
+      "definitionVi": "vật dụng, nguyên liệu cần cho một hoạt động"
+    },
+    {
+      "id": "authentic-1-t1-special-offer",
+      "definitionVi": "ưu đãi đặc biệt chỉ có trong thời gian ngắn"
+    },
+    {
+      "id": "authentic-1-t1-apart-from",
+      "definitionVi": "ngoài ... ra; bên cạnh"
+    },
+    {
+      "id": "authentic-1-t1-arrangement",
+      "definitionVi": "sự sắp xếp hoặc thỏa thuận về việc sẽ làm"
+    },
+    {
+      "id": "authentic-1-t1-cancel",
+      "definitionVi": "hủy bỏ một sự kiện hoặc hoạt động đã lên kế hoạch"
+    },
+    {
+      "id": "authentic-1-t1-recycle",
+      "definitionVi": "tái chế vật liệu đã dùng để sử dụng lại"
+    },
+    {
+      "id": "authentic-1-t1-waste",
+      "definitionVi": "rác thải; vật liệu không cần nữa và bị vứt bỏ"
+    },
+    {
+      "id": "authentic-1-t1-suggestion",
+      "definitionVi": "lời gợi ý; ý tưởng được đưa ra để cân nhắc"
+    },
+    {
+      "id": "authentic-1-t1-improve",
+      "definitionVi": "cải thiện; làm cho tốt hơn trước"
+    },
+    {
+      "id": "authentic-1-t1-admit",
+      "definitionVi": "thừa nhận một việc là đúng, nhất là sau khi đã phủ nhận"
+    },
+    {
+      "id": "authentic-1-t1-invitation",
+      "definitionVi": "lời mời đến dự sự kiện hoặc đến chơi"
+    },
+    {
+      "id": "authentic-1-t1-especially",
+      "definitionVi": "đặc biệt là; nhất là"
+    },
+    {
+      "id": "authentic-1-t1-deal-with",
+      "definitionVi": "giải quyết một vấn đề hoặc xử lý một tình huống"
+    },
+    {
+      "id": "authentic-1-t1-difficulty",
+      "definitionVi": "khó khăn; điều không dễ làm"
+    },
+    {
+      "id": "authentic-1-t1-achieve",
+      "definitionVi": "đạt được mục tiêu nhờ cố gắng"
+    },
+    {
+      "id": "authentic-1-t1-develop",
+      "definitionVi": "phát triển kỹ năng, khả năng hoặc phẩm chất"
+    },
+    {
+      "id": "authentic-1-t1-influence",
+      "definitionVi": "sự ảnh hưởng đến suy nghĩ, cảm xúc hoặc hành vi của người khác"
+    },
+    {
+      "id": "authentic-1-t1-variety",
+      "definitionVi": "sự đa dạng; nhiều loại khác nhau"
+    },
+    {
+      "id": "authentic-1-t1-culture",
+      "definitionVi": "văn hóa; niềm tin, phong tục, nghệ thuật và lối sống chung"
+    },
+    {
+      "id": "authentic-1-t1-practical-advice",
+      "definitionVi": "lời khuyên thiết thực, hữu ích trong tình huống thực tế"
+    },
+    {
+      "id": "authentic-1-t1-contribute-to",
+      "definitionVi": "đóng góp, góp phần vào một hoạt động hoặc kết quả"
+    },
+    {
+      "id": "authentic-1-t1-instruction",
+      "definitionVi": "lời hoặc bước hướng dẫn cách làm một việc"
+    },
+    {
+      "id": "authentic-1-t1-athlete",
+      "definitionVi": "vận động viên; người thi đấu thể thao"
+    },
+    {
+      "id": "authentic-1-t1-competition",
+      "definitionVi": "cuộc thi; cuộc tranh tài để giành chiến thắng"
+    },
+    {
+      "id": "authentic-1-t1-career",
+      "definitionVi": "sự nghiệp; công việc theo đuổi trong nhiều năm"
+    },
+    {
+      "id": "authentic-1-t1-challenge",
+      "definitionVi": "thử thách; việc khó đòi hỏi khả năng và cố gắng"
+    },
+    {
+      "id": "authentic-1-t1-journalist",
+      "definitionVi": "nhà báo; người viết tin tức cho báo chí hoặc các phương tiện truyền thông"
+    },
+    {
+      "id": "authentic-1-t1-publish",
+      "definitionVi": "xuất bản; đưa bài viết hoặc thông tin ra công chúng"
+    },
+    {
+      "id": "authentic-1-t1-educational",
+      "definitionVi": "mang tính giáo dục, giúp người ta học hỏi"
+    },
+    {
+      "id": "authentic-1-t1-detailed",
+      "definitionVi": "chi tiết; cung cấp nhiều thông tin cụ thể"
+    },
+    {
+      "id": "authentic-1-t1-historical",
+      "definitionVi": "thuộc về lịch sử hoặc những sự kiện trong quá khứ"
+    },
+    {
+      "id": "authentic-1-t1-inspire",
+      "definitionVi": "truyền cảm hứng, khiến ai muốn làm hoặc sáng tạo điều gì"
+    },
+    {
+      "id": "authentic-1-t1-successful",
+      "definitionVi": "thành công; đạt kết quả mong muốn"
+    },
+    {
+      "id": "authentic-1-t1-convince",
+      "definitionVi": "thuyết phục ai tin hoặc làm điều gì"
+    },
+    {
+      "id": "authentic-1-t1-competitive",
+      "definitionVi": "mang tính thi đấu, cố gắng giành chiến thắng"
+    },
+    {
+      "id": "authentic-1-t1-champion",
+      "definitionVi": "nhà vô địch; người hoặc đội thắng cuộc thi"
+    },
+    {
+      "id": "authentic-1-t1-decision",
+      "definitionVi": "quyết định; lựa chọn sau khi cân nhắc"
+    },
+    {
+      "id": "authentic-1-t1-effort",
+      "definitionVi": "sự nỗ lực; công sức bỏ ra để làm việc khó"
+    },
+    {
+      "id": "authentic-1-t1-charity",
+      "definitionVi": "tổ chức từ thiện giúp người gặp khó khăn"
+    },
+    {
+      "id": "authentic-1-t1-advertise",
+      "definitionVi": "quảng cáo, giới thiệu công khai để thu hút sự chú ý"
+    },
+    {
+      "id": "authentic-1-t1-celebrity",
+      "definitionVi": "người nổi tiếng, nhất là trong giải trí hoặc thể thao"
+    },
+    {
+      "id": "authentic-1-t1-be-involved-in",
+      "definitionVi": "tham gia hoặc có liên quan đến một hoạt động"
+    },
+    {
+      "id": "authentic-1-t1-care-home",
+      "definitionVi": "nhà dưỡng lão; nơi chăm sóc người cao tuổi"
+    },
+    {
+      "id": "authentic-1-t1-look-after",
+      "definitionVi": "chăm sóc, trông nom ai hoặc thứ gì"
+    },
+    {
+      "id": "authentic-1-t1-local-council",
+      "definitionVi": "hội đồng địa phương quản lý các dịch vụ công"
+    },
+    {
+      "id": "authentic-1-t1-housing-programme",
+      "definitionVi": "chương trình cung cấp nhà ở cho người dân"
+    },
+    {
+      "id": "authentic-1-t1-unlikely",
+      "definitionVi": "ít có khả năng xảy ra hoặc là sự thật"
+    },
+    {
+      "id": "authentic-1-t1-invention",
+      "definitionVi": "phát minh; thứ mới được tạo ra lần đầu"
+    },
+    {
+      "id": "authentic-1-t1-by-accident",
+      "definitionVi": "tình cờ; không có ý định từ trước"
+    },
+    {
+      "id": "authentic-1-t1-extremely",
+      "definitionVi": "cực kỳ; ở mức độ rất cao"
+    },
+    {
+      "id": "authentic-1-t1-complain-about",
+      "definitionVi": "phàn nàn về điều làm mình không hài lòng"
+    },
+    {
+      "id": "authentic-1-t1-flavour",
+      "definitionVi": "hương vị riêng của món ăn hoặc thức uống"
+    },
+    {
+      "id": "authentic-1-t1-replace",
+      "definitionVi": "thay thế vật cũ hoặc hỏng bằng vật mới"
+    },
+    {
+      "id": "authentic-1-t1-negative",
+      "definitionVi": "tiêu cực; thể hiện sự chê bai hoặc không hài lòng"
+    },
+    {
+      "id": "authentic-1-t1-slice",
+      "definitionVi": "lát; miếng thức ăn mỏng và phẳng được cắt ra"
+    },
+    {
+      "id": "authentic-1-t1-global",
+      "definitionVi": "mang tính toàn cầu; liên quan đến cả thế giới"
+    },
+    {
+      "id": "authentic-1-t1-industry",
+      "definitionVi": "ngành sản xuất hoặc dịch vụ"
+    },
+    {
+      "id": "authentic-1-t1-get-rid-of",
+      "definitionVi": "loại bỏ hoặc vứt đi thứ không muốn giữ"
+    },
+    {
+      "id": "authentic-1-t1-stressful",
+      "definitionVi": "gây căng thẳng, lo lắng hoặc áp lực"
+    },
+    {
+      "id": "authentic-1-t1-look-forward-to",
+      "definitionVi": "háo hức mong chờ điều sắp xảy ra"
+    },
+    {
+      "id": "authentic-1-t1-memories",
+      "definitionVi": "những kỷ niệm; điều còn nhớ về quá khứ"
+    },
+    {
+      "id": "authentic-1-t2-discount",
+      "definitionVi": "khoản giảm so với giá thông thường"
+    },
+    {
+      "id": "authentic-1-t2-slightly",
+      "definitionVi": "hơi; một chút về mức độ hoặc số lượng"
+    },
+    {
+      "id": "authentic-1-t2-recommend",
+      "definitionVi": "giới thiệu, đề xuất điều gì là lựa chọn tốt"
+    },
+    {
+      "id": "authentic-1-t2-childhood",
+      "definitionVi": "tuổi thơ; thời gian còn là trẻ em"
+    },
+    {
+      "id": "authentic-1-t2-unusual",
+      "definitionVi": "khác thường; không giống điều thường thấy"
+    },
+    {
+      "id": "authentic-1-t2-provide",
+      "definitionVi": "cung cấp thứ ai cần hoặc có thể sử dụng"
+    },
+    {
+      "id": "authentic-1-t2-available",
+      "definitionVi": "có sẵn để mua, lấy hoặc sử dụng"
+    },
+    {
+      "id": "authentic-1-t2-maximum",
+      "definitionVi": "tối đa; lớn nhất có thể hoặc được cho phép"
+    },
+    {
+      "id": "authentic-1-t2-session",
+      "definitionVi": "buổi; khoảng thời gian dành cho một hoạt động"
+    },
+    {
+      "id": "authentic-1-t2-attend",
+      "definitionVi": "tham dự một sự kiện, cuộc họp hoặc buổi học"
+    },
+    {
+      "id": "authentic-1-t2-environmental",
+      "definitionVi": "thuộc về môi trường tự nhiên và việc bảo vệ môi trường"
+    },
+    {
+      "id": "authentic-1-t2-organisation",
+      "definitionVi": "tổ chức; nhóm người cùng làm việc vì một mục đích"
+    },
+    {
+      "id": "authentic-1-t2-energy-production",
+      "definitionVi": "việc sản xuất năng lượng để con người sử dụng"
+    },
+    {
+      "id": "authentic-1-t2-up-to-date",
+      "definitionVi": "được cập nhật với thông tin mới nhất"
+    },
+    {
+      "id": "authentic-1-t2-negative-effect",
+      "definitionVi": "tác động tiêu cực; kết quả có hại hoặc không mong muốn"
+    },
+    {
+      "id": "authentic-1-t2-reduce",
+      "definitionVi": "giảm, làm cho ít đi hoặc nhỏ hơn"
+    },
+    {
+      "id": "authentic-1-t2-expert",
+      "definitionVi": "chuyên gia; người hiểu biết sâu về một lĩnh vực"
+    },
+    {
+      "id": "authentic-1-t2-opportunity",
+      "definitionVi": "cơ hội; hoàn cảnh thuận lợi để làm điều gì"
+    },
+    {
+      "id": "authentic-1-t2-international",
+      "definitionVi": "mang tính quốc tế; liên quan đến nhiều quốc gia"
+    },
+    {
+      "id": "authentic-1-t2-recycled",
+      "definitionVi": "được tái chế từ vật liệu đã qua sử dụng"
+    },
+    {
+      "id": "authentic-1-t2-compare",
+      "definitionVi": "so sánh để tìm điểm giống và khác nhau"
+    },
+    {
+      "id": "authentic-1-t2-suitable",
+      "definitionVi": "phù hợp với một người hoặc mục đích cụ thể"
+    },
+    {
+      "id": "authentic-1-t2-issue",
+      "definitionVi": "vấn đề quan trọng được mọi người thảo luận"
+    },
+    {
+      "id": "authentic-1-t2-renewable-energy",
+      "definitionVi": "năng lượng tái tạo từ các nguồn được bổ sung tự nhiên"
+    },
+    {
+      "id": "authentic-1-t2-amount",
+      "definitionVi": "lượng; số lượng của một thứ gì đó"
+    },
+    {
+      "id": "authentic-1-t2-process",
+      "definitionVi": "quy trình; các bước thực hiện để đạt kết quả"
+    },
+    {
+      "id": "authentic-1-t2-solution",
+      "definitionVi": "giải pháp; cách giải quyết một vấn đề"
+    },
+    {
+      "id": "authentic-1-t2-inform",
+      "definitionVi": "thông báo, cung cấp thông tin cho ai"
+    },
+    {
+      "id": "authentic-1-t2-protect",
+      "definitionVi": "bảo vệ ai hoặc điều gì khỏi nguy hại"
+    },
+    {
+      "id": "authentic-1-t2-professional",
+      "definitionVi": "chuyên nghiệp; làm một hoạt động như nghề được trả công"
+    },
+    {
+      "id": "authentic-1-t2-opposite",
+      "definitionVi": "trái ngược; hoàn toàn khác với điều kia"
+    },
+    {
+      "id": "authentic-1-t2-confident",
+      "definitionVi": "tự tin vào khả năng làm tốt một việc"
+    },
+    {
+      "id": "authentic-1-t2-take-part-in",
+      "definitionVi": "tham gia một hoạt động hoặc sự kiện"
+    },
+    {
+      "id": "authentic-1-t2-coach",
+      "definitionVi": "huấn luyện viên thể thao"
+    },
+    {
+      "id": "authentic-1-t2-nervous",
+      "definitionVi": "hồi hộp, lo lắng về điều sắp xảy ra"
+    },
+    {
+      "id": "authentic-1-t2-specialist",
+      "definitionVi": "có chuyên môn sâu trong một lĩnh vực cụ thể"
+    },
+    {
+      "id": "authentic-1-t2-training",
+      "definitionVi": "việc tập luyện hoặc học kỹ năng cho công việc, thể thao"
+    },
+    {
+      "id": "authentic-1-t2-abroad",
+      "definitionVi": "ở hoặc đến nước ngoài"
+    },
+    {
+      "id": "authentic-1-t2-progress",
+      "definitionVi": "sự tiến bộ; sự phát triển hướng tới mục tiêu"
+    },
+    {
+      "id": "authentic-1-t2-performance",
+      "definitionVi": "phong độ; mức độ làm tốt một hoạt động hoặc môn thể thao"
+    },
+    {
+      "id": "authentic-1-t2-regret",
+      "definitionVi": "hối tiếc về điều đã làm hoặc chưa làm"
+    },
+    {
+      "id": "authentic-1-t2-balloon-flight",
+      "definitionVi": "chuyến bay bằng khinh khí cầu"
+    },
+    {
+      "id": "authentic-1-t2-cluster-ballooning",
+      "definitionVi": "hoạt động bay nhờ nhiều bóng bay buộc thành chùm để nâng một người"
+    },
+    {
+      "id": "authentic-1-t2-float",
+      "definitionVi": "nổi trên mặt nước hoặc trôi lơ lửng trong không khí"
+    },
+    {
+      "id": "authentic-1-t2-attach",
+      "definitionVi": "gắn, buộc hoặc nối một vật vào vật khác"
+    },
+    {
+      "id": "authentic-1-t2-helium",
+      "definitionVi": "khí hê-li; loại khí rất nhẹ thường dùng để bơm bóng bay"
+    },
+    {
+      "id": "authentic-1-t2-mountain-range",
+      "definitionVi": "dãy núi; nhiều ngọn núi nối tiếp nhau"
+    },
+    {
+      "id": "authentic-1-t2-land-safely",
+      "definitionVi": "hạ cánh an toàn sau một chuyến bay"
+    },
+    {
+      "id": "authentic-1-t2-licence",
+      "definitionVi": "giấy phép chính thức để làm hoặc sử dụng thứ gì"
+    },
+    {
+      "id": "authentic-1-t2-discover",
+      "definitionVi": "khám phá, phát hiện điều gì lần đầu"
+    },
+    {
+      "id": "authentic-1-t2-communicate",
+      "definitionVi": "giao tiếp, trao đổi thông tin hoặc ý tưởng"
+    },
+    {
+      "id": "authentic-1-t2-intelligent",
+      "definitionVi": "thông minh; có khả năng học và hiểu tốt"
+    },
+    {
+      "id": "authentic-1-t2-amazed",
+      "definitionVi": "rất ngạc nhiên, nhất là trước điều ấn tượng"
+    },
+    {
+      "id": "authentic-1-t2-ancient",
+      "definitionVi": "cổ xưa; thuộc về thời rất xa xưa"
+    },
+    {
+      "id": "authentic-1-t2-recording",
+      "definitionVi": "bản ghi âm hoặc ghi hình có thể phát lại"
+    },
+    {
+      "id": "authentic-1-t2-creature",
+      "definitionVi": "sinh vật, đặc biệt là động vật"
+    },
+    {
+      "id": "authentic-1-t2-on-my-own",
+      "definitionVi": "một mình; không có người đi cùng hoặc giúp đỡ"
+    },
+    {
+      "id": "authentic-1-t2-explore",
+      "definitionVi": "khám phá một nơi để tìm hiểu thêm về nơi đó"
+    },
+    {
+      "id": "authentic-1-t2-familiar-with",
+      "definitionVi": "quen thuộc với điều gì do đã biết hoặc trải nghiệm"
+    },
+    {
+      "id": "authentic-1-t2-unfortunately",
+      "definitionVi": "thật không may; dùng khi nói về điều đáng tiếc"
+    },
+    {
+      "id": "authentic-1-t2-fantastic",
+      "definitionVi": "tuyệt vời; rất hay hoặc rất thú vị"
+    },
+    {
+      "id": "authentic-1-t2-suggestion",
+      "definitionVi": "lời gợi ý; ý tưởng được đưa ra để cân nhắc"
+    },
+    {
+      "id": "authentic-1-t3-traditional",
+      "definitionVi": "theo truyền thống, phong tục hoặc cách làm lâu đời"
+    },
+    {
+      "id": "authentic-1-t3-damage",
+      "definitionVi": "sự hư hại; thiệt hại gây ra cho thứ gì"
+    },
+    {
+      "id": "authentic-1-t3-equipment",
+      "definitionVi": "thiết bị, dụng cụ cần cho một hoạt động"
+    },
+    {
+      "id": "authentic-1-t3-membership",
+      "definitionVi": "tư cách thành viên của câu lạc bộ hoặc tổ chức"
+    },
+    {
+      "id": "authentic-1-t3-reception",
+      "definitionVi": "quầy lễ tân; nơi đón tiếp và hỗ trợ khách"
+    },
+    {
+      "id": "authentic-1-t3-encourage",
+      "definitionVi": "động viên, giúp ai có thêm tự tin để làm điều gì"
+    },
+    {
+      "id": "authentic-1-t3-inspire",
+      "definitionVi": "truyền cảm hứng, khiến ai muốn làm hoặc sáng tạo điều gì"
+    },
+    {
+      "id": "authentic-1-t3-research",
+      "definitionVi": "việc nghiên cứu kỹ để tìm hiểu hoặc phát hiện sự thật"
+    },
+    {
+      "id": "authentic-1-t3-historical-event",
+      "definitionVi": "sự kiện lịch sử; việc quan trọng đã xảy ra trong quá khứ"
+    },
+    {
+      "id": "authentic-1-t3-coast",
+      "definitionVi": "bờ biển; vùng đất sát biển"
+    },
+    {
+      "id": "authentic-1-t3-guided-tour",
+      "definitionVi": "chuyến tham quan có người hướng dẫn và thuyết minh"
+    },
+    {
+      "id": "authentic-1-t3-antique",
+      "definitionVi": "cổ, lâu đời và thường có giá trị cao"
+    },
+    {
+      "id": "authentic-1-t3-atmosphere",
+      "definitionVi": "bầu không khí; cảm giác chung của một nơi hoặc sự kiện"
+    },
+    {
+      "id": "authentic-1-t3-costume",
+      "definitionVi": "trang phục để hóa thân thành người ở thời khác hoặc trong truyện"
+    },
+    {
+      "id": "authentic-1-t3-ruins",
+      "definitionVi": "tàn tích; phần còn lại của công trình cổ đã đổ nát"
+    },
+    {
+      "id": "authentic-1-t3-wildlife",
+      "definitionVi": "động vật và thực vật sống trong tự nhiên"
+    },
+    {
+      "id": "authentic-1-t3-valuable",
+      "definitionVi": "có giá trị cao về tiền bạc hoặc tầm quan trọng"
+    },
+    {
+      "id": "authentic-1-t3-secret-tunnel",
+      "definitionVi": "đường hầm bí mật, được giấu dưới đất hoặc trong công trình"
+    },
+    {
+      "id": "authentic-1-t3-beneath",
+      "definitionVi": "ở bên dưới một vật hoặc địa điểm"
+    },
+    {
+      "id": "authentic-1-t3-admire",
+      "definitionVi": "ngắm nhìn với sự thích thú hoặc ngưỡng mộ"
+    },
+    {
+      "id": "authentic-1-t3-medieval",
+      "definitionVi": "thuộc thời Trung cổ trong lịch sử châu Âu"
+    },
+    {
+      "id": "authentic-1-t3-original",
+      "definitionVi": "nguyên gốc; có từ ban đầu, không phải bản sao"
+    },
+    {
+      "id": "authentic-1-t3-generation",
+      "definitionVi": "thế hệ; nhóm người sinh ra trong cùng một thời kỳ"
+    },
+    {
+      "id": "authentic-1-t3-portrait",
+      "definitionVi": "tranh hoặc ảnh chân dung của một người"
+    },
+    {
+      "id": "authentic-1-t3-ancient",
+      "definitionVi": "cổ xưa; rất lâu đời"
+    },
+    {
+      "id": "authentic-1-t3-traditional-building",
+      "definitionVi": "công trình được xây theo kiểu hoặc phương pháp truyền thống"
+    },
+    {
+      "id": "authentic-1-t3-unchanged",
+      "definitionVi": "không thay đổi; vẫn giữ nguyên như trước"
+    },
+    {
+      "id": "authentic-1-t3-countryside",
+      "definitionVi": "vùng nông thôn; đất đai và làng mạc ngoài thành phố"
+    },
+    {
+      "id": "authentic-1-t3-attraction",
+      "definitionVi": "điểm tham quan thu hút du khách"
+    },
+    {
+      "id": "authentic-1-t3-singer-songwriter",
+      "definitionVi": "ca sĩ tự sáng tác những bài hát mình biểu diễn"
+    },
+    {
+      "id": "authentic-1-t3-musician",
+      "definitionVi": "nghệ sĩ chơi nhạc hoặc sáng tác nhạc"
+    },
+    {
+      "id": "authentic-1-t3-audience",
+      "definitionVi": "khán giả; những người xem hoặc nghe biểu diễn"
+    },
+    {
+      "id": "authentic-1-t3-confidence",
+      "definitionVi": "sự tự tin vào khả năng thành công của bản thân"
+    },
+    {
+      "id": "authentic-1-t3-songwriting",
+      "definitionVi": "việc hoặc kỹ năng sáng tác bài hát"
+    },
+    {
+      "id": "authentic-1-t3-lyrics",
+      "definitionVi": "lời bài hát"
+    },
+    {
+      "id": "authentic-1-t3-delighted",
+      "definitionVi": "rất vui mừng, hài lòng về điều gì"
+    },
+    {
+      "id": "authentic-1-t3-arrange",
+      "definitionVi": "sắp xếp, lên kế hoạch cho một sự kiện hoặc hoạt động"
+    },
+    {
+      "id": "authentic-1-t3-personal-experience",
+      "definitionVi": "trải nghiệm cá nhân; điều đã xảy ra trong chính cuộc đời mình"
+    },
+    {
+      "id": "authentic-1-t3-cyclist",
+      "definitionVi": "người đi xe đạp, nhất là để chơi thể thao"
+    },
+    {
+      "id": "authentic-1-t3-mechanic",
+      "definitionVi": "thợ sửa chữa máy móc hoặc phương tiện"
+    },
+    {
+      "id": "authentic-1-t3-accommodation",
+      "definitionVi": "chỗ ở, chỗ lưu trú, nhất là khi đi xa"
+    },
+    {
+      "id": "authentic-1-t3-route",
+      "definitionVi": "lộ trình; đường đi từ nơi này đến nơi khác"
+    },
+    {
+      "id": "authentic-1-t3-effort",
+      "definitionVi": "sự nỗ lực; công sức cần để làm một việc"
+    },
+    {
+      "id": "authentic-1-t3-recover",
+      "definitionVi": "hồi phục sức khỏe hoặc sức lực sau khi ốm hay hoạt động nặng"
+    },
+    {
+      "id": "authentic-1-t3-reduce",
+      "definitionVi": "giảm, làm cho ít đi hoặc nhỏ hơn"
+    },
+    {
+      "id": "authentic-1-t3-tough",
+      "definitionVi": "rất gian nan, cần nhiều cố gắng"
+    },
+    {
+      "id": "authentic-1-t3-climb",
+      "definitionVi": "leo, đi lên núi, đồi hoặc nơi cao"
+    },
+    {
+      "id": "authentic-1-t3-temperature",
+      "definitionVi": "nhiệt độ; mức độ nóng hoặc lạnh"
+    },
+    {
+      "id": "authentic-1-t3-electronic-device",
+      "definitionVi": "thiết bị điện tử hoạt động bằng điện hoặc công nghệ máy tính"
+    },
+    {
+      "id": "authentic-1-t3-disappointed",
+      "definitionVi": "thất vọng vì kết quả không tốt như mong đợi"
+    },
+    {
+      "id": "authentic-1-t3-achieve",
+      "definitionVi": "đạt được mục tiêu nhờ cố gắng"
+    },
+    {
+      "id": "authentic-1-t3-produce",
+      "definitionVi": "tạo ra, sản xuất ra thứ gì"
+    },
+    {
+      "id": "authentic-1-t3-accurately",
+      "definitionVi": "một cách chính xác, không có sai sót"
+    },
+    {
+      "id": "authentic-1-t3-variety",
+      "definitionVi": "sự đa dạng; nhiều loại khác nhau"
+    },
+    {
+      "id": "authentic-1-t3-cure",
+      "definitionVi": "chữa khỏi bệnh hoặc vấn đề sức khỏe"
+    },
+    {
+      "id": "authentic-1-t3-sore-throat",
+      "definitionVi": "tình trạng đau rát ở cổ họng"
+    },
+    {
+      "id": "authentic-1-t3-plenty-of",
+      "definitionVi": "rất nhiều; có một lượng hoặc số lượng lớn"
+    },
+    {
+      "id": "authentic-1-t4-arrangement",
+      "definitionVi": "sự sắp xếp hoặc thỏa thuận về việc sẽ làm"
+    },
+    {
+      "id": "authentic-1-t4-remind",
+      "definitionVi": "nhắc ai nhớ điều cần làm"
+    },
+    {
+      "id": "authentic-1-t4-careers-talk",
+      "definitionVi": "buổi nói chuyện hướng nghiệp, cung cấp thông tin về nghề nghiệp"
+    },
+    {
+      "id": "authentic-1-t4-register",
+      "definitionVi": "đăng ký tên để tham gia một hoạt động"
+    },
+    {
+      "id": "authentic-1-t4-limited",
+      "definitionVi": "có hạn; không nhiều về số lượng hoặc quy mô"
+    },
+    {
+      "id": "authentic-1-t4-recycling-centre",
+      "definitionVi": "trung tâm thu gom và xử lý vật liệu để tái chế"
+    },
+    {
+      "id": "authentic-1-t4-separate",
+      "definitionVi": "tách riêng, chia các vật thành những nhóm khác nhau"
+    },
+    {
+      "id": "authentic-1-t4-ingredient",
+      "definitionVi": "nguyên liệu dùng để làm một món ăn"
+    },
+    {
+      "id": "authentic-1-t4-lead-role",
+      "definitionVi": "vai chính trong phim, vở kịch hoặc nhạc kịch"
+    },
+    {
+      "id": "authentic-1-t4-based-on",
+      "definitionVi": "được xây dựng dựa trên một tác phẩm, sự kiện hoặc nguồn gốc khác"
+    },
+    {
+      "id": "authentic-1-t4-contain",
+      "definitionVi": "chứa, có thứ gì ở bên trong hoặc là một phần"
+    },
+    {
+      "id": "authentic-1-t4-frightening",
+      "definitionVi": "gây sợ hãi"
+    },
+    {
+      "id": "authentic-1-t4-realistic",
+      "definitionVi": "chân thực; trông giống như ngoài đời"
+    },
+    {
+      "id": "authentic-1-t4-special-effects",
+      "definitionVi": "hiệu ứng đặc biệt được tạo bằng công nghệ để cảnh diễn sống động"
+    },
+    {
+      "id": "authentic-1-t4-unusual",
+      "definitionVi": "khác thường; không giống điều thường thấy"
+    },
+    {
+      "id": "authentic-1-t4-well-known",
+      "definitionVi": "nổi tiếng; được nhiều người biết đến"
+    },
+    {
+      "id": "authentic-1-t4-a-range-of",
+      "definitionVi": "một loạt các loại hoặc kiểu khác nhau"
+    },
+    {
+      "id": "authentic-1-t4-fiction",
+      "definitionVi": "truyện hư cấu; câu chuyện do tác giả tưởng tượng ra"
+    },
+    {
+      "id": "authentic-1-t4-amateur",
+      "definitionVi": "nghiệp dư; làm vì sở thích, không phải nghề kiếm tiền"
+    },
+    {
+      "id": "authentic-1-t4-professional",
+      "definitionVi": "chuyên nghiệp; làm nghề được trả công hoặc có kỹ năng thành thạo"
+    },
+    {
+      "id": "authentic-1-t4-atmosphere",
+      "definitionVi": "bầu không khí; cảm giác chung ở một nơi"
+    },
+    {
+      "id": "authentic-1-t4-character",
+      "definitionVi": "nhân vật trong truyện, phim hoặc vở kịch"
+    },
+    {
+      "id": "authentic-1-t4-hilarious",
+      "definitionVi": "cực kỳ hài hước, gây cười"
+    },
+    {
+      "id": "authentic-1-t4-performance",
+      "definitionVi": "buổi biểu diễn ca hát, diễn xuất hoặc chơi nhạc"
+    },
+    {
+      "id": "authentic-1-t4-comedy",
+      "definitionVi": "vở hài kịch, phim hài hoặc chương trình gây cười"
+    },
+    {
+      "id": "authentic-1-t4-entertaining",
+      "definitionVi": "hấp dẫn, thú vị khi xem hoặc nghe"
+    },
+    {
+      "id": "authentic-1-t4-advertise",
+      "definitionVi": "quảng cáo, giới thiệu công khai để thu hút sự chú ý"
+    },
+    {
+      "id": "authentic-1-t4-variety",
+      "definitionVi": "sự đa dạng; nhiều loại khác nhau"
+    },
+    {
+      "id": "authentic-1-t4-guided-tour",
+      "definitionVi": "chuyến tham quan có người hướng dẫn và thuyết minh"
+    },
+    {
+      "id": "authentic-1-t4-definitely",
+      "definitionVi": "chắc chắn; không còn nghi ngờ gì"
+    },
+    {
+      "id": "authentic-1-t4-eventually",
+      "definitionVi": "cuối cùng, sau một thời gian dài hoặc nhiều việc xảy ra"
+    },
+    {
+      "id": "authentic-1-t4-crowded",
+      "definitionVi": "đông đúc, chật kín người"
+    },
+    {
+      "id": "authentic-1-t4-forecast",
+      "definitionVi": "bản dự báo điều có thể xảy ra, đặc biệt là thời tiết"
+    },
+    {
+      "id": "authentic-1-t4-limited-supplies",
+      "definitionVi": "lượng vật dụng hoặc vật tư cần thiết có hạn"
+    },
+    {
+      "id": "authentic-1-t4-delighted",
+      "definitionVi": "rất vui mừng, hài lòng về điều gì"
+    },
+    {
+      "id": "authentic-1-t4-admire",
+      "definitionVi": "ngắm nhìn với sự thích thú hoặc ngưỡng mộ"
+    },
+    {
+      "id": "authentic-1-t4-fascinating",
+      "definitionVi": "vô cùng thú vị, cuốn hút"
+    },
+    {
+      "id": "authentic-1-t4-recognise",
+      "definitionVi": "nhận ra người hoặc vật đã từng gặp, từng thấy"
+    },
+    {
+      "id": "authentic-1-t4-adventure",
+      "definitionVi": "cuộc phiêu lưu; trải nghiệm thú vị có thể có rủi ro"
+    },
+    {
+      "id": "authentic-1-t4-industrial",
+      "definitionVi": "thuộc về công nghiệp, nhà máy và sản xuất hàng hóa"
+    },
+    {
+      "id": "authentic-1-t4-deliver",
+      "definitionVi": "vận chuyển, giao thứ gì đến một người hoặc địa điểm"
+    },
+    {
+      "id": "authentic-1-t4-sculpture",
+      "definitionVi": "tác phẩm điêu khắc bằng đá, gỗ, kim loại hoặc vật liệu khác"
+    },
+    {
+      "id": "authentic-1-t4-entirely",
+      "definitionVi": "hoàn toàn; trong mọi phần"
+    },
+    {
+      "id": "authentic-1-t4-weigh",
+      "definitionVi": "có trọng lượng là; nặng bao nhiêu"
+    },
+    {
+      "id": "authentic-1-t4-average",
+      "definitionVi": "thông thường, điển hình"
+    },
+    {
+      "id": "authentic-1-t4-recycle",
+      "definitionVi": "tái chế vật liệu đã dùng để sử dụng lại"
+    },
+    {
+      "id": "authentic-1-t4-process",
+      "definitionVi": "quy trình; các bước thực hiện để đạt kết quả"
+    },
+    {
+      "id": "authentic-1-t4-according-to",
+      "definitionVi": "theo, căn cứ vào thông tin hoặc tiêu chí nào đó"
+    },
+    {
+      "id": "authentic-1-t4-director",
+      "definitionVi": "giám đốc; người phụ trách một tổ chức hoặc hoạt động"
+    },
+    {
+      "id": "authentic-1-t4-invent",
+      "definitionVi": "phát minh, tạo ra thiết bị hoặc phương pháp mới lần đầu"
+    },
+    {
+      "id": "authentic-1-t4-system",
+      "definitionVi": "hệ thống; các bộ phận liên kết và cùng hoạt động"
+    },
+    {
+      "id": "authentic-1-t4-communication",
+      "definitionVi": "sự giao tiếp, trao đổi thông tin hoặc ý tưởng"
+    },
+    {
+      "id": "authentic-1-t4-realise",
+      "definitionVi": "nhận ra, hiểu được một điều"
+    },
+    {
+      "id": "authentic-1-t4-engineer",
+      "definitionVi": "kỹ sư thiết kế, xây dựng hoặc sửa máy móc, công trình"
+    },
+    {
+      "id": "authentic-1-t4-challenge",
+      "definitionVi": "thử thách; việc khó đòi hỏi khả năng và cố gắng"
+    },
+    {
+      "id": "authentic-1-t4-succeed",
+      "definitionVi": "thành công, đạt kết quả mong muốn"
+    },
+    {
+      "id": "authentic-1-t4-laboratory",
+      "definitionVi": "phòng thí nghiệm khoa học"
+    },
+    {
+      "id": "authentic-1-t4-accidentally",
+      "definitionVi": "vô tình; không có ý định từ trước"
+    },
+    {
+      "id": "authentic-1-t4-spill",
+      "definitionVi": "làm đổ chất lỏng ra khỏi vật chứa"
+    },
+    {
+      "id": "authentic-1-t4-encourage",
+      "definitionVi": "động viên, giúp ai có thêm tự tin để làm điều gì"
+    },
+    {
+      "id": "authentic-1-t4-brilliant",
+      "definitionVi": "xuất sắc; thể hiện tài năng hoặc kỹ năng rất cao"
+    },
+    {
+      "id": "authentic-1-t4-read-musical-notes",
+      "definitionVi": "đọc hiểu các nốt nhạc để biết phải chơi âm nào"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ for(const [index,unit]of units.entries()){
  assert.deepEqual(unit.wordIds,vocab.words.map(w=>w.id));
  for(const [i,word]of vocab.words.entries()){
   assert.ok(!wordIds.has(word.id));wordIds.add(word.id);
-  const {id,...fields}=word;assert.deepEqual(fields,vocabulary.tests[index].words[i]);
+  const {id,definitionVi,...fields}=word;assert.deepEqual(fields,vocabulary.tests[index].words[i]);
   assert.equal(word.cloze.split('________').length,2);assert.equal(word.cloze.replace('________',word.answer),word.example);
   assert.ok(word.accepted.includes(word.answer));
  }
@@ -56,7 +56,7 @@ for(const [index,unit]of units.entries()){
     const bytes=fs.readFileSync(path.join(dist,page.image));assert.ok(page.image.includes(sha(bytes).slice(0,12)));pages[kind].add(page.image);
    }
    for(const [j,q]of part.questions.entries()){
-    totals[kind]++;assert.deepEqual(q,originalPart.questions[j]);
+    totals[kind]++;const {explanationVi,reviewNoteVi,...english}=q;assert.deepEqual(english,originalPart.questions[j]);
     assert.equal(q.publisherKeyPdfPage,publisherTest.keyPdfPage);
     assert.equal(module.grade(q,publisherTest.answers[q.number-1]),true);
     for(const answer of publisherTest.accepted[q.number]||[])assert.equal(module.grade(q,answer),true);

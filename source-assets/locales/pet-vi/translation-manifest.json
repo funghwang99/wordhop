@@ -1,0 +1,277 @@
+{
+  "language": "vi",
+  "books": [
+    {
+      "bookId": "simply-pet",
+      "tests": 8,
+      "words": 250,
+      "readingExplanations": 256,
+      "listeningExplanations": 200
+    },
+    {
+      "bookId": "authentic-1",
+      "tests": 4,
+      "words": 243,
+      "readingExplanations": 128,
+      "listeningExplanations": 100
+    }
+  ],
+  "words": 493,
+  "readingExplanations": 384,
+  "listeningExplanations": 300,
+  "sourceReviewNotes": 2,
+  "payloads": [
+    {
+      "unitId": "simply-pet-test-1",
+      "kind": "vocabulary",
+      "englishSha256": "02388693affaefcd210cfc86e0030942cca18777a4189d879bf72e49e208bb40",
+      "file": "units/simply-pet-test-1.ad14e00468ac.json",
+      "bytes": 12528
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "kind": "reading",
+      "englishSha256": "148f4a5767296525d1074935f6f155899f5859204f906c9d0cbf168aed7c030d",
+      "file": "readings/simply-pet-test-1.dd174cb6eb58.json",
+      "bytes": 17752
+    },
+    {
+      "unitId": "simply-pet-test-1",
+      "kind": "listening",
+      "englishSha256": "c817c892346f7788793719b80a6a44cd2e6159701c4198364835f61ead5d44d3",
+      "file": "listening/simply-pet-test-1.fde79e0ec9f0.json",
+      "bytes": 19236
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "kind": "vocabulary",
+      "englishSha256": "0829c994f81dcd98849d5658b7d3b5d0c5f59cc9411dc0116a5bc651aeed1efc",
+      "file": "units/simply-pet-test-2.326815e73f2e.json",
+      "bytes": 11314
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "kind": "reading",
+      "englishSha256": "a1d2de41c4ac276132f8420cde08d0d81080f6038e6778d6e0c5040523f458bb",
+      "file": "readings/simply-pet-test-2.7e7e955d7e45.json",
+      "bytes": 17131
+    },
+    {
+      "unitId": "simply-pet-test-2",
+      "kind": "listening",
+      "englishSha256": "c09db2e41a3977dd7b5dabaac190ac209d4e42db9b1afcbd11b3ed140f094807",
+      "file": "listening/simply-pet-test-2.1585e4e31f5c.json",
+      "bytes": 18323
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "kind": "vocabulary",
+      "englishSha256": "cabe9d1ff1f351b4ac8b5d0fbc9899202ceb18305b1c39bafe37728d3a1a628e",
+      "file": "units/simply-pet-test-3.587787dcab7a.json",
+      "bytes": 17041
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "kind": "reading",
+      "englishSha256": "9c84c9cd8bead81243d852f818d3a8e3100ff585709057c775453b4d8472cac1",
+      "file": "readings/simply-pet-test-3.272813023cf1.json",
+      "bytes": 17637
+    },
+    {
+      "unitId": "simply-pet-test-3",
+      "kind": "listening",
+      "englishSha256": "2ac71b61e87f83c5f588e7e58a3b3f6fd6c875934b7c8a3660c62b2ec2d5082e",
+      "file": "listening/simply-pet-test-3.b8634fa6787d.json",
+      "bytes": 18746
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "kind": "vocabulary",
+      "englishSha256": "d0bd8a98b457886c6788e9c185b881b4f5d45bda5036859827f42339655cee17",
+      "file": "units/simply-pet-test-4.12ff2b2ed700.json",
+      "bytes": 10837
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "kind": "reading",
+      "englishSha256": "4efea04e7d6f941ce685f8b1e8ef3209ae724529de04ea95520a20dc1f6fbccf",
+      "file": "readings/simply-pet-test-4.dacdf6e94921.json",
+      "bytes": 17155
+    },
+    {
+      "unitId": "simply-pet-test-4",
+      "kind": "listening",
+      "englishSha256": "6cb5a3a7f01338b927dff49fd3dee3b7eddc01b6bd559682fd9b84e72637b727",
+      "file": "listening/simply-pet-test-4.e075f83445e7.json",
+      "bytes": 18522
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "kind": "vocabulary",
+      "englishSha256": "99ea0db3b6551a0e24b150fc8746dca213329c41509b37aff6978baec26c0979",
+      "file": "units/simply-pet-test-5.fe3ab0240145.json",
+      "bytes": 12321
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "kind": "reading",
+      "englishSha256": "c272252d17fcd2996fc5670ee3a48c5dfb454036dc56c820222ec389e482ea33",
+      "file": "readings/simply-pet-test-5.d07ccaa570eb.json",
+      "bytes": 16980
+    },
+    {
+      "unitId": "simply-pet-test-5",
+      "kind": "listening",
+      "englishSha256": "6b834f2f8a7e4efb8aa6720e3b860130841e74bb42bca9f2934059277cba7656",
+      "file": "listening/simply-pet-test-5.b43cb259c043.json",
+      "bytes": 18594
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "kind": "vocabulary",
+      "englishSha256": "843b4ce42d910631e07e2d97af6cf444cdb5a741a940342b7b40977dfd302a42",
+      "file": "units/simply-pet-test-6.b5fd1b63c635.json",
+      "bytes": 13331
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "kind": "reading",
+      "englishSha256": "8a9df1fdd7d96dbde292bb0664849baa3eae2abba2a49caab0a7ed3d656f8788",
+      "file": "readings/simply-pet-test-6.8e18ac7700f0.json",
+      "bytes": 17211
+    },
+    {
+      "unitId": "simply-pet-test-6",
+      "kind": "listening",
+      "englishSha256": "de0a4b45be41ae4bbe214eb79c47c1977084f30f7375afefe957a33a0359c077",
+      "file": "listening/simply-pet-test-6.39f2ccd92bba.json",
+      "bytes": 18723
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "kind": "vocabulary",
+      "englishSha256": "9e9bfdf2dc2c068a5cff0b50484ffe87237a8ab20862234b37ffe3eb2222d77a",
+      "file": "units/simply-pet-test-7.01bb10b0ad1d.json",
+      "bytes": 13814
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "kind": "reading",
+      "englishSha256": "00c384763dd5e71b5daf94369005a832323fe97a0bada4e8a87193b5d0f7d597",
+      "file": "readings/simply-pet-test-7.f58e6faacb19.json",
+      "bytes": 18459
+    },
+    {
+      "unitId": "simply-pet-test-7",
+      "kind": "listening",
+      "englishSha256": "34920395bf01b695671678df3c957877945515c4f563f3c8fb3028a1ae486fa7",
+      "file": "listening/simply-pet-test-7.672f899a946a.json",
+      "bytes": 19436
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "kind": "vocabulary",
+      "englishSha256": "ee30b2229f169f16dcdbce595ad3fc2d27a707a63843d4b6f9b684ebc7fa64c3",
+      "file": "units/simply-pet-test-8.eacddb908bd2.json",
+      "bytes": 10279
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "kind": "reading",
+      "englishSha256": "72eccada2d748252fa96e4c19800935d19aa5a8ac106efb6cb484dd376bf8787",
+      "file": "readings/simply-pet-test-8.0f925b07ea55.json",
+      "bytes": 18176
+    },
+    {
+      "unitId": "simply-pet-test-8",
+      "kind": "listening",
+      "englishSha256": "67416aee0239853fb10cfdf25e0c425657e5d27df55f61be354052ab0f8c4347",
+      "file": "listening/simply-pet-test-8.0a321052ff88.json",
+      "bytes": 19310
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "kind": "vocabulary",
+      "englishSha256": "18040be3ce491ced48d387db6c913c16c430cd2ef6f35317baa52d3c2c7f9fc1",
+      "file": "units/authentic-1-test-1.729fe07f2880.json",
+      "bytes": 22486
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "kind": "reading",
+      "englishSha256": "2d4291c00be6da281283ba4c6bd8c9637b66a7daf9b13ba10da549f6965d37f1",
+      "file": "readings/authentic-1-test-1.4ea1ea5f527d.json",
+      "bytes": 23787
+    },
+    {
+      "unitId": "authentic-1-test-1",
+      "kind": "listening",
+      "englishSha256": "c915829aa9087c872506a5d3cb6abb0a8eb3efbd9d3d420dadb2cfde46136223",
+      "file": "listening/authentic-1-test-1.435eda86428e.json",
+      "bytes": 36061
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "kind": "vocabulary",
+      "englishSha256": "95cc072c1f0f8c8bdaa65aacd76ad10feb180ae50325cb5e78de914d0a26ee19",
+      "file": "units/authentic-1-test-2.d034123d8cd1.json",
+      "bytes": 22540
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "kind": "reading",
+      "englishSha256": "8c3c812f720e78df9e9f06e29c4c6a1d959755c2b6b1fde6ae769ed04f4ea67a",
+      "file": "readings/authentic-1-test-2.dc3dfc67f33a.json",
+      "bytes": 24055
+    },
+    {
+      "unitId": "authentic-1-test-2",
+      "kind": "listening",
+      "englishSha256": "cb82992be1d4d997e77b54bd802a92d96c8cda1a71c01a90412a89059f93ff7c",
+      "file": "listening/authentic-1-test-2.ef1ba178ef59.json",
+      "bytes": 36852
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "kind": "vocabulary",
+      "englishSha256": "e42799b396cad92770ce48988252c7ff57c86119c3510a7a3e1c7f3929206bec",
+      "file": "units/authentic-1-test-3.5864ed2006b6.json",
+      "bytes": 20828
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "kind": "reading",
+      "englishSha256": "37112e7dc6b2232a3f2c72d58a8fd1d04d7ef99c4b6d6057cea3fa5c07940541",
+      "file": "readings/authentic-1-test-3.0a4d6d602a74.json",
+      "bytes": 24469
+    },
+    {
+      "unitId": "authentic-1-test-3",
+      "kind": "listening",
+      "englishSha256": "249542ad31ea1f964e326764e1c11c273cf441ef4484635f2b213261130fc642",
+      "file": "listening/authentic-1-test-3.1f8dcb4d9654.json",
+      "bytes": 37059
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "kind": "vocabulary",
+      "englishSha256": "ccd249a69e21b3f68852a5487fbb1643af29c87baaf4ddb3fe241bde0c8f79d4",
+      "file": "units/authentic-1-test-4.4104a0d3c907.json",
+      "bytes": 22609
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "kind": "reading",
+      "englishSha256": "f0aac89db2efcdab1ca337da08f4bcaa92925644a688f35002ead18b1ddd2bf6",
+      "file": "readings/authentic-1-test-4.bc566c02ca05.json",
+      "bytes": 24016
+    },
+    {
+      "unitId": "authentic-1-test-4",
+      "kind": "listening",
+      "englishSha256": "1dd0178e7acd9b99db35bd623a2e11e8d7eece9b23861ab38926501f9ff2e1a0",
+      "file": "listening/authentic-1-test-4.200838edd3cd.json",
+      "bytes": 35542
+    }
+  ]
+}
