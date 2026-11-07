@@ -102,3 +102,15 @@
 /* Writing practice shares the original-page layout with Reading. */
 .writing-editor{margin:26px 0 16px;padding:25px;border:1px solid var(--line);border-radius:10px;background:#fff;scroll-margin-top:22px}.writing-editor-heading,.writing-editor-footer{display:flex;align-items:center;justify-content:space-between;gap:16px}.writing-editor-heading{margin:0 0 12px}.writing-editor-heading label{font-size:15px;font-weight:650}.writing-editor-heading span,.writing-editor-footer p{font-size:12px;line-height:1.7;color:var(--muted)}.writing-editor-footer{margin-top:12px;align-items:flex-start}.writing-editor-footer p{margin:0}.writing-editor-footer .text-button{font-size:12px;white-space:nowrap}.writing-editor textarea{display:block;width:100%;min-height:270px;resize:vertical;padding:16px;border:1px solid #cdd6e3;border-radius:7px;background:#fff;color:var(--text);font:inherit;font-size:16px;line-height:1.8}.writing-editor textarea:focus,.writing-editor select:focus{outline:2px solid var(--accent);outline-offset:2px}.writing-question-label{display:block;font-size:13px;font-weight:600;margin-bottom:8px}.writing-editor select{display:block;width:100%;max-width:100%;padding:11px 12px;margin-bottom:24px;border:1px solid #cdd6e3;border-radius:6px;font:inherit;font-size:14px;background:#fff;color:var(--text)}.writing-view .reading-part-heading>div:first-child{min-width:0;flex:1}.writing-view .reading-page-actions{max-width:360px}
 @media(max-width:760px){.writing-view .reading-page-actions{max-width:none}.writing-editor{padding:20px}.writing-editor-heading{align-items:flex-start;flex-direction:column;gap:7px}.writing-editor-footer{flex-direction:column;gap:10px}}
+
+.writing-submit{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.writing-submit h3{margin:0 0 6px;font-size:16px}
+.writing-submit p{margin:0;color:#566273;font-size:13px;line-height:1.6}
+.writing-submit-fields{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:12px;margin:14px 0}
+.writing-submit-fields label{display:grid;gap:6px;font-size:13px;font-weight:650}
+.writing-submit-fields input{width:100%;padding:10px 11px;border:1px solid #cdd6e3;border-radius:7px;background:#fff;color:var(--text);font:inherit;font-size:16px;font-weight:400}
+.writing-submit-fields input:focus{outline:2px solid var(--accent);outline-offset:2px}
+.writing-submit-footer{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.writing-submit-footer button:disabled{opacity:.68;cursor:default}
+.writing-submit-footer .is-error{color:var(--red)}
+@media(max-width:520px){.writing-submit-fields{grid-template-columns:1fr}}
