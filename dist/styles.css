@@ -106,11 +106,22 @@
 .writing-submit{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
 .writing-submit h3{margin:0 0 6px;font-size:16px}
 .writing-submit p{margin:0;color:#566273;font-size:13px;line-height:1.6}
-.writing-submit-fields{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:12px;margin:14px 0}
-.writing-submit-fields label{display:grid;gap:6px;font-size:13px;font-weight:650}
-.writing-submit-fields input{width:100%;padding:10px 11px;border:1px solid #cdd6e3;border-radius:7px;background:#fff;color:var(--text);font:inherit;font-size:16px;font-weight:400}
-.writing-submit-fields input:focus{outline:2px solid var(--accent);outline-offset:2px}
-.writing-submit-footer{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.writing-submit-footer{margin-top:12px;display:flex;align-items:center;flex-wrap:wrap;gap:12px}
 .writing-submit-footer button:disabled{opacity:.68;cursor:default}
 .writing-submit-footer .is-error{color:var(--red)}
-@media(max-width:520px){.writing-submit-fields{grid-template-columns:1fr}}
+
+.student-account{max-width:460px;margin:22px auto 50px;padding:clamp(20px,5vw,34px);border:1px solid var(--line);border-radius:10px;background:#fff}
+.student-account-kicker{color:var(--accent);font-size:11px;font-weight:750;letter-spacing:.12em}
+.student-account h1{margin:6px 0 10px;font-size:clamp(24px,4vw,30px);line-height:1.2}
+.student-account>p{color:#566273;line-height:1.6;margin:0 0 18px;overflow-wrap:anywhere}
+.student-account .student-username{font-size:13px}
+.student-signin{display:grid;gap:8px}
+.student-signin label{font-size:14px;font-weight:650}
+.student-signin input{width:100%;margin-bottom:8px;padding:10px 11px;border:1px solid #cdd6e3;border-radius:7px;background:#fff;color:var(--text);font:inherit;font-size:16px}
+.student-signin input:focus{outline:2px solid var(--accent);outline-offset:2px}
+.student-signin button{justify-self:start}
+.student-signin button:disabled,.student-signout button:disabled{opacity:.65;cursor:default}
+.student-signin p,.student-signout p{margin:0;color:#566273;font-size:13px;line-height:1.5}
+.student-signout{margin-top:12px}
+.student-signout p:not(:empty){margin-top:8px}
+@media(max-width:550px){.top-nav{flex-wrap:wrap;justify-content:flex-end}.top-nav #student-link{white-space:nowrap}}

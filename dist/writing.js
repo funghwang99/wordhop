@@ -1,15 +1,25 @@
 'use strict';
 (() => {
-  const storageKey = 'wordhop.writing.v1', cache = new Map();
-  const submissionEndpoint = 'https://wordhop.funghwang99.chatgpt.site/api/writing-submissions';
+  const baseStorageKey = 'wordhop.writing.v1', cache = new Map(), sending = new Set();
   const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-  let progress = {}, active = null, saveTimer = null, saveFailed = false;
-  const sending = new Set();
-  let studentName = '', classCode = '';
-  try {
-    const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
-    if (saved?.version === 1 && saved.tests && typeof saved.tests === 'object' && !Array.isArray(saved.tests)) progress = saved.tests;
-  } catch {}
+  let storageKey = baseStorageKey, active = null, saveTimer = null, saveFailed = false;
+  let progress = readProgress();
+
+  function readProgress() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+      if (saved?.version === 1 && saved.tests && typeof saved.tests === 'object' && !Array.isArray(saved.tests)) return saved.tests;
+    } catch {}
+    return {};
+  }
+  function selectStorage(student) {
+    const nextKey = student ? baseStorageKey + '.' + student.id : baseStorageKey;
+    if (nextKey === storageKey) return;
+    stop();
+    storageKey = nextKey;
+    progress = readProgress();
+    saveFailed = false;
+  }
 
   function wordCount(text) {
     return String(text).trim().split(/\s+/).filter(word => /[\p{L}\p{N}]/u.test(word)).length;
@@ -34,6 +44,7 @@
     active = null;
   }
   function clearResults(unitId) {
+    selectStorage(window.WordHopStudent?.current());
     const next = {...progress}; delete next[unitId];
     try { localStorage.setItem(storageKey, JSON.stringify({version:1, tests:next})); }
     catch { return false; }
@@ -69,15 +80,14 @@
     return saved;
   }
   function submissionKey(context) {
-    return [context.unit.id, context.part.id, context.question.id].join('/');
+    return [context.student?.id, context.unit.id, context.part.id, context.question.id].join('/');
   }
   function updateSubmission(context, message = '', error = false) {
     if (active !== context || !context.isCurrent()) return;
     const form = document.querySelector('#writing-submit-form');
     if (!form?.elements) return;
     const record = attempt(context.unit.id,context.part).submissions?.[context.question.id];
-    const sent = record?.submittedAt && record.studentName === form.elements.studentName.value.trim() &&
-      record.answer === document.querySelector('#writing-draft').value.trim();
+    const sent = record?.submittedAt && record.answer === document.querySelector('#writing-draft').value.trim();
     const busy = sending.has(submissionKey(context));
     const button = form.querySelector('button[type="submit"]');
     button.disabled = busy || Boolean(sent);
@@ -86,41 +96,40 @@
     feedback.textContent = message || (busy ? 'Sending your answer…' : sent ? 'Your teacher has received this answer.' : '');
     feedback.classList.toggle('is-error',error);
   }
-  async function submitWriting(context, form) {
+  async function submitWriting(context) {
     const key = submissionKey(context);
     if (sending.has(key)) return;
-    const {unit, part, question} = context;
+    const {unit, part, question, student} = context;
+    if (!student || window.WordHopStudent.current()?.id !== student.id) return;
     const saved = attempt(unit.id,part);
     const answer = document.querySelector('#writing-draft').value.trim();
-    studentName = form.elements.studentName.value.trim();
-    classCode = form.elements.classCode.value.trim().toUpperCase();
-    if (!studentName || !/^[A-F0-9]{10}$/.test(classCode) || !wordCount(answer)) {
-      updateSubmission(context,'Write an answer, enter your name and check your class code.',true);
+    if (!wordCount(answer)) {
+      updateSubmission(context,'Write an answer before submitting.',true);
       return;
     }
 
     saved.answers[question.id] = document.querySelector('#writing-draft').value;
     saved.submissions ??= {};
     let record = saved.submissions[question.id];
-    if (record?.studentName !== studentName || record.answer !== answer) {
+    if (record?.answer !== answer) {
       const id = Array.from(crypto.getRandomValues(new Uint8Array(16)), byte => byte.toString(16).padStart(2,'0')).join('');
-      record = saved.submissions[question.id] = {id,studentName,answer};
+      record = saved.submissions[question.id] = {id,answer};
     }
     if (record.submittedAt) return;
     persist();
     sending.add(key);
     updateSubmission(context);
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(),15000);
     let message = '', error = false;
     const stillSaved = () => progress[unit.id]?.[part.id] === saved && saved.submissions[question.id] === record;
     try {
-      const response = await fetch(submissionEndpoint,{
-        method:'POST', headers:{'Content-Type':'text/plain;charset=UTF-8'}, credentials:'omit',
-        body:JSON.stringify({id:record.id,studentName,code:classCode,unitId:unit.id,partId:part.id,questionId:question.id,answer}),
-        signal:controller.signal
+      const response = await window.WordHopStudent.request('writing-submissions',{
+        id:record.id,studentId:student.id,unitId:unit.id,partId:part.id,questionId:question.id,answer
       });
       const result = await response.json();
+      if (response.status === 401) {
+        window.WordHopStudent.expire(student.id);
+        return;
+      }
       if (!response.ok || !result.ok || result.id !== record.id || !Number.isFinite(Date.parse(result.submittedAt))) {
         if (response.status === 409 && stillSaved()) {
           delete saved.submissions[question.id];
@@ -131,13 +140,12 @@
       } else if (stillSaved()) {
         record.submittedAt = result.submittedAt;
         persist();
-        message = 'Your teacher has received this answer.';
+        message = 'Your teacher has received your submission.';
       }
     } catch {
       message = 'Could not confirm your submission. Please check your connection and try again.';
       error = true;
     } finally {
-      clearTimeout(timeout);
       sending.delete(key);
       if (active?.question && submissionKey(active) === key) updateSubmission(active,message,error);
     }
@@ -150,45 +158,43 @@
     context.question = q;
     const text = typeof saved.answers[q.id] === 'string' ? saved.answers[q.id] : '';
     const first = part.pages[0], last = part.pages.at(-1);
+    const student = context.student;
+    const signIn = '<a class="btn btn-primary" href="#/student" data-nav="#/student">Student sign in</a>';
     document.querySelector('#main').innerHTML = context.header + `<section class="writing-view reading-view" aria-label="Book writing test">
-      <div class="reading-intro"><div><h2>Writing</h2><p>Read the original task and instructions. Write your answer below; drafts save on this device.</p></div></div>
+      <div class="reading-intro"><div><h2>Writing</h2><p>Read the original task and instructions. ${student ? "Write your answer below. Drafts save on this device." : "Sign in to write and submit your answer."}</p></div></div>
       <nav class="reading-parts" aria-label="Writing parts">${data.parts.map(p => `<a class="reading-part-link${p.id === part.id ? ' active' : ''}" href="${esc(context.path)}/writing/${p.id}" data-nav="${esc(context.path)}/writing/${p.id}" ${p.id === part.id ? 'aria-current="page"' : ''}>Part ${esc(p.id.split('-')[1])}</a>`).join('')}</nav>
-      <div class="reading-part-heading"><div><h3>${esc(part.title)}</h3><p>${esc(part.instructions)}</p><p>Book ${part.pages.length === 1 ? 'page' : 'pages'} ${esc(first.printedPage)}${part.pages.length > 1 ? '–'+esc(last.printedPage) : ''}</p></div><div class="reading-page-actions"><button class="btn" type="button" data-writing-action="write">Start writing ↓</button><button class="btn" type="button" data-writing-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="${esc(first.image)}" target="_blank" rel="noopener">Open full-size page ↗</a></div></div>
+      <div class="reading-part-heading"><div><h3>${esc(part.title)}</h3><p>${esc(part.instructions)}</p><p>Book ${part.pages.length === 1 ? 'page' : 'pages'} ${esc(first.printedPage)}${part.pages.length > 1 ? '–'+esc(last.printedPage) : ''}</p></div><div class="reading-page-actions">${student || text ? '<button class="btn" type="button" data-writing-action="write">Start writing ↓</button>' : signIn}<button class="btn" type="button" data-writing-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="${esc(first.image)}" target="_blank" rel="noopener">Open full-size page ↗</a></div></div>
       <div class="reading-page writing-page" tabindex="0" aria-label="Original writing tasks and instructions">${part.pages.map((page,index) => `<img src="${esc(page.image)}" width="${page.width}" height="${page.height}" alt="${esc(context.title || context.unit.title)}, Writing ${esc(part.title)}, book page ${esc(page.printedPage)}. Original questions and instructions." decoding="async" ${index > 0 ? 'loading="lazy"' : ''}>`).join('')}</div>
       <section class="writing-editor" aria-label="Writing draft">
         ${part.questions.length > 1 ? `<label class="writing-question-label" for="writing-question">Choose ONE question</label><select id="writing-question" data-writing-question>${part.questions.map(option => `<option value="${esc(option.id)}" ${q.id === option.id ? 'selected' : ''}>Question ${option.number} · ${esc(option.title)}</option>`).join('')}</select>` : ''}
         <div class="writing-editor-heading"><label for="writing-draft">Your answer · Question ${q.number}</label><span id="writing-word-count">${wordCount(text)} words · Aim for about ${q.targetWords}</span></div>
-        <textarea id="writing-draft" data-writing-draft rows="12" maxlength="20000" spellcheck="true" placeholder="Write your ${esc(q.genre)} here…">${esc(text)}</textarea>
-        <div class="writing-editor-footer"><p id="writing-save-state" role="status" aria-live="polite">${saveFailed ? 'Draft could not be saved. Copy your writing before leaving.' : text ? 'Draft saved on this device.' : 'Your draft saves automatically on this device.'}</p><button class="text-button" type="button" data-writing-action="prompt">Back to prompt ↑</button></div>
-        <form id="writing-submit-form" class="writing-submit" aria-label="Submit writing">
+        <textarea id="writing-draft" data-writing-draft rows="12" maxlength="20000" spellcheck="true" ${student ? "" : "readonly"} placeholder="${student ? "Write your "+esc(q.genre)+" here…" : "Sign in to write your answer"}">${esc(text)}</textarea>
+        <div class="writing-editor-footer"><p id="writing-save-state" role="status" aria-live="polite">${saveFailed ? 'Draft could not be saved. Copy your writing before leaving.' : text ? 'Draft saved on this device.' : student ? 'Your draft saves automatically on this device.' : 'Sign in to start your draft.'}</p><button class="text-button" type="button" data-writing-action="prompt">Back to prompt ↑</button></div>
+        ${student ? `<form id="writing-submit-form" class="writing-submit" aria-label="Submit writing" method="post">
           <h3>Send to your teacher</h3>
-          <p>Enter your name and the class code from your teacher. Submit when your answer is ready.</p>
-          <div class="writing-submit-fields">
-            <label>Student name<input name="studentName" data-writing-submit-field autocomplete="name" maxlength="80" required value="${esc(studentName || saved.submissions?.[q.id]?.studentName)}"></label>
-            <label>Class code<input name="classCode" data-writing-submit-field autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="10" required value="${esc(classCode)}"></label>
-          </div>
+          <p>Submitting as <strong>${esc(student.name)}</strong>.</p>
           <div class="writing-submit-footer"><button class="btn btn-primary" type="submit">Submit writing</button><p id="writing-submit-status" role="status"></p></div>
-        </form>
+        </form>` : `<div class="writing-submit">
+          <h3>Sign in to submit</h3>
+          <p>${text ? 'This draft was saved while signed out. Copy it if you want to use it in your student account.' : 'Use the username and password from your teacher.'}</p>
+          <div class="writing-submit-footer">${signIn}</div>
+        </div>`}
       </section>
       <p class="reading-source-note">Original writing tasks and instructions: ${esc(data.source.title)}. ${esc(data.source.publisher)}.</p>
     </section>`;
     updateSubmission(context);
   }
   function render(context) {
-    stop(); active = context;
+    stop();
+    context.student = window.WordHopStudent?.current() || null;
+    selectStorage(context.student);
+    active = context;
     document.querySelector('#main').innerHTML = context.header + '<p class="notice" role="status">Loading writing tasks…</p>';
     load(context.unit).then(data => { context.data = data; draw(context,data); }).catch(() => {
       if (active === context && context.isCurrent()) document.querySelector('#main').innerHTML = context.header + '<div class="notice" role="alert">This writing test could not be loaded. Check your connection and try again.</div><button class="btn btn-primary" type="button" data-writing-action="reload">Try again</button>';
     });
   }
   document.addEventListener('input', event => {
-    const field = event.target.closest('[data-writing-submit-field]');
-    if (field && active?.question && active.isCurrent()) {
-      if (field.name === 'studentName') studentName = field.value;
-      if (field.name === 'classCode') classCode = field.value;
-      updateSubmission(active);
-      return;
-    }
     const control = event.target.closest('[data-writing-draft]');
     if (!control || !active?.question || !active.isCurrent()) return;
     attempt(active.unit.id,active.part).answers[active.question.id] = control.value;
@@ -199,7 +205,7 @@
   document.addEventListener('submit', event => {
     if (event.target.id !== 'writing-submit-form') return;
     event.preventDefault();
-    if (active?.question && active.isCurrent()) void submitWriting(active,event.target);
+    if (active?.question && active.isCurrent()) void submitWriting(active);
   });
   document.addEventListener('change', event => {
     const control = event.target.closest('[data-writing-question]');
