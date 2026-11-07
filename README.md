@@ -365,3 +365,35 @@ in English.
 
 Reviewed translations, English source fingerprints and the reimport command
 are documented under `source-assets/locales/pet-vi/`.
+
+## Word Rescue – Basic IELTS Reading Unit 4
+
+Unit 4 uses **Word Rescue – Escape & Protect** as its only dedicated
+arcade game, alongside the existing Matching, Multiple Choice and
+Fill in the Blanks practice activities. Its **46 verified Unit 4 words**
+appear once in a full round, spanning two themed rescue environments:
+Fire Drill (city) and Wildlife Rescue (forest). The 46 IELTS prompts
+rotate between Context Completion (12), Collocations (12),
+Paraphrasing (11) and Word Formation (11). Students type every answer
+without a word bank; all paraphrasing prompts highlight the phrase
+they must replace.
+
+The 2D sprite-based game features **20 clearly marked obstacle types**
+(10 city and 10 forest), varied and spaced jump patterns, visible
+warnings, on-screen mobile jump control, and a separate reward for
+collecting coins: 20 points per coin, then a heart or 100-point bonus
+for each group of five. Practice and Arcade modes, shorter 10/20-word
+rounds, sound, score and missed-word review are included.
+
+**Later ↻ never opens a rescue gate.** In Practice, it defers the
+word to the end of the current stage, costs 10 points and breaks the
+combo. The final word of a stage cannot be deferred further; a
+correct typed answer is required to continue. Arcade timeouts keep
+the gate locked and consume a heart. A 46-word round cannot be
+completed by repeatedly skipping questions.
+
+The self-contained game is at `dist/games/word-rescue-unit4.html`.
+WordHop embeds it only for Unit 4, saves results with attempted
+answers (including retries) and missed words, and resets the local
+high score when Unit 4 results are cleared. Other units' dedicated
+arcade games remain unchanged.
