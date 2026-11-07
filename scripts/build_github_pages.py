@@ -21,6 +21,28 @@ def relative_asset(value, folder):
     return relative
 
 
+def gate_game_pages(catalog):
+    books = {book['id']: book for book in catalog['books']}
+    units = {unit['id']: unit for unit in catalog['units']}
+    for page in (OUTPUT / 'games').glob('*.html'):
+        destination = '../'
+        match = re.search(r'-unit([0-9]+)\.html$', page.name)
+        unit = units.get('bir-unit-' + match[1]) if match else None
+        if unit:
+            book = books[unit['bookId']]
+            route = [book['trackId'], book.get('levelId'), book['id'], unit['id'], 'practice']
+            destination += '#/' + '/'.join(part for part in route if part)
+        guard = ('<script id="wordhop-game-entry">(() => {'
+                 'try { if (window.parent !== window && window.parent.WordHopStudent?.current()) return; } catch {}'
+                 'document.documentElement.style.visibility = "hidden";'
+                 f'location.replace({json.dumps(destination)});'
+                 '})();</script>')
+        html, count = re.subn(r'<head>', '<head>' + guard, page.read_text(), count=1, flags=re.IGNORECASE)
+        assert count == 1, page
+        page.write_text(html)
+
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -47,6 +69,7 @@ def build():
         if file.name not in retained_files:
             file.unlink()
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
     for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]

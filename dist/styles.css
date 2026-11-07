@@ -125,3 +125,5 @@
 .student-signout{margin-top:12px}
 .student-signout p:not(:empty){margin-top:8px}
 @media(max-width:550px){.top-nav{flex-wrap:wrap;justify-content:flex-end}.top-nav #student-link{white-space:nowrap}}
+
+.top-nav[hidden]{display:none}

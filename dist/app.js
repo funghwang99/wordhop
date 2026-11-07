@@ -1,6 +1,6 @@
 'use strict';
 (() => {
-const catalog=window.WQ_CATALOG;
+const catalog=window.WQ_CATALOG, studentAuth=window.WordHopStudent;
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const icon=n=>`<svg class="icon" aria-hidden="true"><use href="#i-${n}"/></svg>`;
@@ -66,7 +66,31 @@ function navigate(path){guard(()=>{clearTimeout(matchTimer);game=null;result=nul
 function setUnitView(next,replace=false){const path=unitPath(route.unit)+(next==='flash'?'':'/'+next);if(replace||path!==currentHash)history[replace?'replaceState':'pushState'](null,'',path);currentHash=path;route=parseRoute(path);screen=next;}
 function changeScreen(next){guard(()=>{clearTimeout(matchTimer);game=null;result=null;if(next==='practice'&&(screen==='game'||screen==='result')){history.back();return;}setUnitView(next);if(next==='flash'&&!study)resetStudy();render();window.scrollTo({top:0,behavior:'instant'});focusMain();});}
 function focusMain(){main.focus({preventScroll:true});}
-function render(){window.WordHopWriting.stop();window.WordHopFlappy?.stop();window.WordHopListening.stop();updateSoundButton();route=route||parseRoute(location.hash||'#/');for(const [id,selected] of [['courses-link',!route.history&&!route.student],['results-link',!!route.history],['student-link',!!route.student]]){const link=$('#'+id);link.classList.toggle('active',selected);link.setAttribute('aria-current',selected?'page':'false');}if(route.student)window.WordHopStudent.render(main,navigate);else if(route.history)renderHistory();else if(route.unit)renderUnit();else if(route.book)renderBook();else if(route.level)renderLevel();else if(route.track)renderTrack();else renderHome();}
+function render(){
+ window.WordHopWriting.stop();
+ window.WordHopFlappy?.stop();
+ window.WordHopListening.stop();
+ route=route||parseRoute(location.hash||'#/');
+ const signedIn=Boolean(studentAuth.current());
+ $('#wordhop-navigation').hidden=!signedIn;
+ if(!signedIn){
+  studentAuth.render(main,navigate,{keepRoute:!route.student});
+  return;
+ }
+ updateSoundButton();
+ for(const [id,selected] of [['courses-link',!route.history&&!route.student],['results-link',!!route.history],['student-link',!!route.student]]){
+  const link=$('#'+id);
+  link.classList.toggle('active',selected);
+  link.setAttribute('aria-current',selected?'page':'false');
+ }
+ if(route.student)studentAuth.render(main,navigate);
+ else if(route.history)renderHistory();
+ else if(route.unit)renderUnit();
+ else if(route.book)renderBook();
+ else if(route.level)renderLevel();
+ else if(route.track)renderTrack();
+ else renderHome();
+}
 function crumbs(){const p=[{label:'Courses',path:'#/'}];if(route.track)p.push({label:route.track.title,path:'#/'+route.track.id});if(route.level)p.push({label:route.level.title,path:'#/'+route.track.id+'/'+route.level.id});if(route.book)p.push({label:route.book.title,path:bookPath(route.book)});if(route.unit)p.push({label:unitTitle(route.unit),path:unitPath(route.unit)});return `<nav class="breadcrumbs" aria-label="Breadcrumb">${p.map((x,i)=>(i?'<span class="sep" aria-hidden="true">/</span>':'')+(i===p.length-1?`<span class="current" aria-current="page">${esc(x.label)}</span>`:`<a href="${esc(x.path)}" data-nav="${esc(x.path)}">${esc(x.label)}</a>`)).join('')}</nav>`;}
 function heading(title,subtitle,home=false){return `<div class="page-heading ${home?'home-heading':''}"><h1>${esc(title)}</h1><p>${esc(subtitle)}</p></div>`;}
 function card({path,label,title,description,meta,compact=false,empty=false}){return `<a class="nav-card ${compact?'compact':''} ${empty?'empty':''}" href="${esc(path)}" data-nav="${esc(path)}"><div class="nav-card-top"><span class="card-label ${empty?'neutral':''}">${esc(label)}</span>${icon('arrow')}</div><h2>${esc(title)}</h2>${description?`<p>${esc(description)}</p>`:''}${meta?`<span class="card-meta">${esc(meta)}</span>`:''}</a>`;}
@@ -85,23 +109,23 @@ function resetStudy(words){study={unitId:route.unit.id,words:words||route.unit.w
 function renderUnit(){
  if(screen==='writing'){
   if(!route.unit.writingFile)setUnitView('flash',true);
-  else{const unit=route.unit,partId=route.writingPart;window.WordHopWriting.render({unit,title:unitTitle(unit),header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>screen==='writing'&&route?.unit?.id===unit.id&&route.writingPart===partId,toast});return;}
+  else{const unit=route.unit,partId=route.writingPart;window.WordHopWriting.render({unit,title:unitTitle(unit),header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>Boolean(studentAuth.current())&&screen==='writing'&&route?.unit?.id===unit.id&&route.writingPart===partId,toast});return;}
  }
  if(screen==='listening'){
   if(!route.unit.listening?.length)setUnitView('flash',true);
-  else{const unit=route.unit,partId=route.listeningPart;window.WordHopListening.render({unit,header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>screen==='listening'&&route?.unit?.id===unit.id&&route.listeningPart===partId,toast,onGrade:correct=>playFeedbackSound(correct)});return;}
+  else{const unit=route.unit,partId=route.listeningPart;window.WordHopListening.render({unit,header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>Boolean(studentAuth.current())&&screen==='listening'&&route?.unit?.id===unit.id&&route.listeningPart===partId,toast,onGrade:correct=>playFeedbackSound(correct)});return;}
  }
  if(!Array.isArray(route.unit.words)){
   const unit=route.unit;
   main.innerHTML=crumbs()+heading(unit.title,route.book.title)+`<p class="notice" role="status">Loading vocabulary…</p>`;
-  loadUnitWords(unit).then(()=>{if(route?.unit?.id===unit.id)renderUnit();}).catch(()=>{
-   if(route?.unit?.id===unit.id)main.innerHTML=crumbs()+heading(unit.title,route.book.title)+`<div class="notice" role="alert">This unit could not be loaded. Please check your connection and try again.</div><button class="btn btn-primary" data-action="retry-unit">Try again</button>`;
+  loadUnitWords(unit).then(()=>{if(studentAuth.current()&&route?.unit?.id===unit.id)renderUnit();}).catch(()=>{
+   if(studentAuth.current()&&route?.unit?.id===unit.id)main.innerHTML=crumbs()+heading(unit.title,route.book.title)+`<div class="notice" role="alert">This unit could not be loaded. Please check your connection and try again.</div><button class="btn btn-primary" data-action="retry-unit">Try again</button>`;
   });
   return;
  }
  if(screen==='reading'){
   if(!route.unit.readingFile)setUnitView('flash',true);
-  else{const unit=route.unit,partId=route.readingPart;window.WordHopReading.render({unit,header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>screen==='reading'&&route?.unit?.id===unit.id&&route.readingPart===partId,toast,onGrade:correct=>playFeedbackSound(correct)});return;}
+  else{const unit=route.unit,partId=route.readingPart;window.WordHopReading.render({unit,header:unitHeader(),partId,path:unitPath(unit),isCurrent:()=>Boolean(studentAuth.current())&&screen==='reading'&&route?.unit?.id===unit.id&&route.readingPart===partId,toast,onGrade:correct=>playFeedbackSound(correct)});return;}
  }
  if((screen==='game'&&!game)||(screen==='result'&&!result))setUnitView('practice',true);
  if(screen==='game')renderGame();else if(screen==='result')renderResult();else if(screen==='practice')renderPractice();else{if(!study||study.unitId!==route.unit.id)resetStudy();renderFlash();}
@@ -334,7 +358,7 @@ window.addEventListener('message',event=>{
 });
 function renderHistory(){main.innerHTML=`<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="#/" data-nav="#/">Courses</a><span class="sep">/</span><span class="current">Results</span></nav>`+heading('Practice history','Rounds completed on this device.')+(state.history.length?`<div class="history-list">${state.history.slice().reverse().slice(0,30).map(r=>{const u=unitById(r.unitId),b=bookById(u.bookId);return `<div class="history-row"><div><h2>${esc(b.title)} · ${esc(u.title)}</h2><p>${modes[r.mode].title} · ${new Intl.DateTimeFormat('en-GB',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(r.at))}</p><a class="history-link" href="${unitPath(u)}" data-nav="${unitPath(u)}">Study this unit</a></div><div class="history-score"><strong>${Math.round(100*r.correct/Math.max(1,r.attempted))}%</strong><small>${r.correct}/${r.attempted} ${r.mode==='match'?'correct matches':'correct answers'}</small></div></div>`;}).join('')}</div>`:empty('No results yet','Complete a game to see your results here.','#/'))+`<p class="storage-note">Flashcard progress and results are saved in this browser. They do not sync across devices.</p>`;}
 function speak(){const term=study?.words[study.index]?.term;if(!term)return;if(!('speechSynthesis'in window)){toast('This device does not support word pronunciation.');return;}const speech=new SpeechSynthesisUtterance(term);speech.lang='en-GB';speech.rate=.85;speech.onerror=()=>toast('The word could not be read aloud. Check that an English voice is available on your device.');speechSynthesis.cancel();speechSynthesis.speak(speech);}
-function applyRoute(next){clearTimeout(matchTimer);window.WordHopStudent?.remember(currentHash,next);currentHash=next;route=parseRoute(next);screen=route.view||'flash';study=null;game=null;result=null;render();window.scrollTo({top:0,behavior:'instant'});focusMain();}
+function applyRoute(next){clearTimeout(matchTimer);studentAuth.remember(currentHash,next);currentHash=next;route=parseRoute(next);screen=route.view||'flash';study=null;game=null;result=null;render();window.scrollTo({top:0,behavior:'instant'});focusMain();}
 function handleRoute(){const next=location.hash||'#/';if(next===currentHash||modal.open)return;if(game&&!game.finished){const previous=currentHash;guard(()=>applyRoute(location.hash||'#/'),()=>history.pushState(null,'',previous));return;}applyRoute(next);}
 // Replacing a finished session does not affect previously stored results.
 function startFromButton(mode){if(game&&!game.finished){guard(()=>{game=null;startGame(mode);});}else startGame(mode);}
@@ -342,7 +366,7 @@ function startFromButton(mode){if(game&&!game.finished){guard(()=>{game=null;sta
 document.addEventListener('click',event=>{const el=event.target.closest('[data-nav],[data-screen],[data-action],[data-start],[data-answer],[data-left],[data-right]');if(!el||el.disabled)return;if(el.dataset.nav){event.preventDefault();navigate(el.dataset.nav);return;}if(el.dataset.screen){changeScreen(el.dataset.screen);return;}if(el.dataset.start){startFromButton(el.dataset.start);return;}if(el.dataset.answer!==undefined){answerQuiz(Number(el.dataset.answer));return;}if(el.dataset.left){chooseMatch('left',el.dataset.left);return;}if(el.dataset.right){chooseMatch('right',el.dataset.right);return;}switch(el.dataset.action){case'clear-results':confirmClearResults();break;case'retry-unit':renderUnit();break;case'flip':flipCard();break;case'previous-card':moveFlashCard(-1);break;case'next-card':moveFlashCard(1);break;case'speak':speak();break;case'skip':skip();break;case'next-question':if(game?.answered){game.index++;renderGame();}break;case'next-match':nextMatch();break;case'review-missed':{const words=route.unit.words.filter(w=>result.missed.includes(w.id));game=null;setUnitView('flash');resetStudy(words);renderFlash();window.scrollTo({top:0,behavior:'instant'});break;}case'stay':closeModal();break;case'leave':{const action=pendingAction;modal.close();pendingAction=null;pendingCancel=null;clearTimeout(matchTimer);game=null;action?.();break;}}});
 document.addEventListener('submit',event=>{if(event.target.id==='cloze-form'){event.preventDefault();answerCloze();}});
 document.addEventListener('change',event=>{if(event.target.id==='question-count'){const value=event.target.value;if(['10','20','all'].includes(value)){state.count=value==='all'?'all':Number(value);save();}}});
-document.addEventListener('keydown',event=>{if(modal.open||/INPUT|SELECT|TEXTAREA/.test(event.target.tagName))return;if(route.unit&&screen==='flash'&&study){if(event.key==='ArrowLeft'){event.preventDefault();moveFlashCard(-1);}if(event.key==='ArrowRight'){event.preventDefault();moveFlashCard(1);}}if(screen==='game'&&game?.mode==='quiz'&&!game.answered&&['1','2','3','4'].includes(event.key)){event.preventDefault();answerQuiz(Number(event.key)-1);}});
+document.addEventListener('keydown',event=>{if(!studentAuth.current()||modal.open||/INPUT|SELECT|TEXTAREA/.test(event.target.tagName))return;if(route.unit&&screen==='flash'&&study){if(event.key==='ArrowLeft'){event.preventDefault();moveFlashCard(-1);}if(event.key==='ArrowRight'){event.preventDefault();moveFlashCard(1);}}if(screen==='game'&&game?.mode==='quiz'&&!game.answered&&['1','2','3','4'].includes(event.key)){event.preventDefault();answerQuiz(Number(event.key)-1);}});
 $('.skip-link').addEventListener('click',event=>{event.preventDefault();main.focus();main.scrollIntoView({behavior:'instant'});});
 window.addEventListener('popstate',handleRoute);
 window.addEventListener('hashchange',handleRoute);
@@ -363,10 +387,12 @@ function updateSoundButton(){const button=$('#sound-toggle');button.setAttribute
 $('#sound-toggle').addEventListener('click',()=>{state.sound=!state.sound;save();updateSoundButton();if(state.sound)playFeedbackSound(true);});
 
 route=parseRoute(location.hash||'#/');screen=route.view||'flash';render();
-})();
-
-window.WordHopStudent.start(()=>{
- const link=$('#student-link');
- link.textContent=window.WordHopStudent.current()?'Student account':'Student sign in';
- if(route?.student||route?.view==='writing')render();
+studentAuth.start(()=>{
+ $('#student-link').textContent=studentAuth.current()?'Student account':'Student sign in';
+ clearTimeout(matchTimer);
+ study=null;game=null;result=null;
+ pendingAction=null;pendingCancel=null;
+ if(modal.open)modal.close();
+ render();
 });
+})();
