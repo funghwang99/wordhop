@@ -44,9 +44,15 @@ for unit in built['units']:
 html = (ROOT / '_site/index.html').read_text()
 for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
-# Word Ninja is a self-contained nested page: preserve it in the published site.
+# A direct game link returns to its unit, and embedded games keep their original content.
 for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html', 'games/word-hopper-unit14.html', 'games/word-courier-unit15.html', 'games/word-circuit-unit16.html']:
-    assert (ROOT / '_site' / game_path).read_bytes() == (ROOT / 'dist' / game_path).read_bytes()
+    game_html = (ROOT / '_site' / game_path).read_text()
+    game_guard = re.search(r'<script id="wordhop-game-entry">.*?</script>', game_html)
+    assert game_guard
+    number = re.search(r'-unit([0-9]+)\.html$', game_path)[1]
+    assert f'location.replace("../#/ielts/ielts-35-40/basic-ielts-reading/bir-unit-{number}/practice")' in game_guard[0]
+    assert 'window.parent.WordHopStudent?.current()' in game_guard[0]
+    assert game_html.replace(game_guard[0], '', 1) == (ROOT / 'dist' / game_path).read_text()
     for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
         resolved = urljoin(base, game_path)
         assert resolved.startswith(base)

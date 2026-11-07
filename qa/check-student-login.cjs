@@ -28,6 +28,7 @@ const send = () => submit({preventDefault(){}});
 
 (async()=>{
   responses.push(data(401,{ok:false}));
+  render();
   auth.start(render);
   await tick();
   assert.match(main.innerHTML,/Student sign in/);
