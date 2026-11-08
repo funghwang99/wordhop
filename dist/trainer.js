@@ -29,7 +29,7 @@
   if(!t){main.innerHTML=frame(head("B1 Preliminary for Schools Trainer","Six tests. Tests 1–2 separate Training activities from Exam Practice. Tests 3–6 contain full practice tests.")+tiles(TESTS.map(x=>tile(path(x.id),x.training?"Training + Exam Practice":"Practice Test",`Test ${x.id}`,"Reading · Writing · Listening · Speaking"))));return;}
   if(!r.mode||(r.mode!=="training"&&r.mode!=="exam")||(r.mode==="training"&&!t.training)){
    const modes=t.training?["training","exam"]:["exam"];
-   main.innerHTML=frame(back(BASE,"All tests")+head(`Test ${t.id}`,t.training?"Choose Training or Exam Practice. They are not mixed together.":"Choose the exam-style practice test.")+tiles(modes.map(m=>tile(path(t.id,m),m==="training"?"Guided practice":"Exam-style paper",m==="training"?"Training":"Exam Practice",m==="training"?"Warm-up activities organised by skill and part.":"Reading · Writing · Listening · Speaking"))));return;
+   main.innerHTML=frame(back(BASE,"All tests")+head(`Test ${t.id}`,t.training?"Choose Training or Exam Practice. They are not mixed together.":"Choose the exam-style practice test.")+`<button type="button" class="text-button trainer-clear" data-trainer-action="clear-test">Clear saved results for Test ${t.id}</button>`+tiles(modes.map(m=>tile(path(t.id,m),m==="training"?"Guided practice":"Exam-style paper",m==="training"?"Training":t.training?"Exam Practice":"Practice Test",m==="training"?"Warm-up activities organised by skill and part.":"Reading · Writing · Listening · Speaking"))));return;
   }
   if(!SKILLS[r.skill]){
    main.innerHTML=frame(back(path(t.id),`Test ${t.id}`)+head(`Test ${t.id} · ${r.mode==="training"?"Training":t.training?"Exam Practice":"Practice Test"}`,"Choose a skill. Page references refer to the printed Trainer book.")+tiles(Object.keys(SKILLS).map(s=>tile(path(t.id,r.mode,s),"Book pages "+t.pages[s],s[0].toUpperCase()+s.slice(1),SKILLS[s]+" parts"))));return;
@@ -61,7 +61,15 @@
  });
  document.addEventListener("click",e=>{
   const btn=e.target.closest("#trainer [data-trainer-action]");if(!btn||!latest)return;
-  e.preventDefault();const k=key(latest.route),v=attempt(k);
+  e.preventDefault();
+  if(btn.dataset.trainerAction==="clear-test"){
+    if(!window.confirm("Clear saved Trainer answers and scores for this test on this device?"))return;
+    const all=storage(),prefix=String(latest.route.test)+":";
+    for(const item of Object.keys(all))if(item.startsWith(prefix))delete all[item];
+    try{localStorage.setItem(studentKey(),JSON.stringify(all));}catch{window.alert("Could not clear saved results.");return;}
+    render(latest);return;
+  }
+  const k=key(latest.route),v=attempt(k);
   if(btn.dataset.trainerAction==="check")v.checked=true;
   else if(btn.dataset.trainerAction==="retry")v.answers={},v.checked=false;
   else return;
