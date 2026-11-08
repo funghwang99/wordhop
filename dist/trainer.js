@@ -32,7 +32,7 @@
    main.innerHTML=frame(back(BASE,"All tests")+head(`Test ${t.id}`,t.training?"Choose Training or Exam Practice. They are not mixed together.":"Choose the exam-style practice test.")+tiles(modes.map(m=>tile(path(t.id,m),m==="training"?"Guided practice":"Exam-style paper",m==="training"?"Training":"Exam Practice",m==="training"?"Warm-up activities organised by skill and part.":"Reading · Writing · Listening · Speaking"))));return;
   }
   if(!SKILLS[r.skill]){
-   main.innerHTML=frame(back(path(t.id),`Test ${t.id}`)+head(`Test ${t.id} · ${r.mode==="training"?"Training":"Exam Practice"}`,"Choose a skill. Page references refer to the printed Trainer book.")+tiles(Object.keys(SKILLS).map(s=>tile(path(t.id,r.mode,s),"Book pages "+t.pages[s],s[0].toUpperCase()+s.slice(1),SKILLS[s]+" parts"))));return;
+   main.innerHTML=frame(back(path(t.id),`Test ${t.id}`)+head(`Test ${t.id} · ${r.mode==="training"?"Training":t.training?"Exam Practice":"Practice Test"}`,"Choose a skill. Page references refer to the printed Trainer book.")+tiles(Object.keys(SKILLS).map(s=>tile(path(t.id,r.mode,s),"Book pages "+t.pages[s],s[0].toUpperCase()+s.slice(1),SKILLS[s]+" parts"))));return;
   }
   const count=SKILLS[r.skill],part=/^part-([1-6])$/.exec(r.part||"");
   if(!part||Number(part[1])>count){
