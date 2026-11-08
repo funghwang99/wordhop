@@ -9,7 +9,7 @@
   {id:6,training:false,pages:{reading:"148–157",writing:"158–159",listening:"160–164",speaking:"165"}}
  ];
  const SKILLS={reading:6,writing:2,listening:4,speaking:4};
- const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json"};
+ const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json"};
  const BASE="#/pet/trainer", cache=new Map();
  let latest=null;
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
