@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 # A direct game link returns to its unit, and embedded games keep their original content.
 for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html', 'games/word-hopper-unit14.html', 'games/word-courier-unit15.html', 'games/word-circuit-unit16.html', 'games/word-rescue-unit4.html']:
