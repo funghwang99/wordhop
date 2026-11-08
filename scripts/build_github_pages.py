@@ -71,7 +71,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'flappy.js', 'flappy.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[a-f0-9]+', asset + '?v=' + version, index)
         assert count == 1
