@@ -25,4 +25,23 @@ for(const [name,expected] of [['test-1-reading-part-1.json','ACCBA'],['test-2-re
   assert.ok(q.options[q.answer]);
  }
 }
+
+const audioIndex=JSON.parse(fs.readFileSync(path.join(root,'dist/trainer/audio-manifest.json'),'utf8'));
+const seen=new Set();
+assert.equal(audioIndex.tracks.length,39);
+for(const track of audioIndex.tracks){
+ assert.ok(track.test===1||track.test===2);
+ assert.ok(Number.isInteger(track.track)&&track.track>=1&&track.track<=39);
+ assert.match(track.file,/^test-[12]-track-\d{2}\.mp3$/);
+ assert.ok(!seen.has(track.track),'Duplicate track '+track.track);
+ seen.add(track.track);
+}
+for(let num=1;num<=39;num++)assert.ok(seen.has(num),'Missing track '+num);
+const exam=audioIndex.tracks.filter(x=>x.mode==='exam'&&x.skill==='listening');
+assert.equal(exam.length,8);
+assert.deepEqual(exam.map(x=>x.track),[3,6,9,12,28,32,35,36]);
+assert.match(script,/trainer-audio-slots/);
+assert.match(script,/method:"HEAD"/);
+console.log('Trainer original-audio metadata: 39 tracks and 8 exam Listening parts mapped.');
+
 console.log('Trainer integration, Test 1 and Test 2 Reading Part 1: verified.');

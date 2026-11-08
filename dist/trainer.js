@@ -11,6 +11,35 @@
  const SKILLS={reading:6,writing:2,listening:4,speaking:4};
  const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json"};
  const BASE="#/pet/trainer", cache=new Map();
+ let audioIndex=null,audioLoad=null;
+ const audioUrl=name=>new URL(name,document.baseURI).href;
+ function audioFor(context){
+  const box=document.querySelector("#trainer-audio-slots");
+  if(!box||!context)return;
+  const route=context.route||{},here=location.hash;
+  if(!audioIndex){
+   if(!audioLoad)audioLoad=fetch(audioUrl("trainer/audio-manifest.json")).then(r=>{if(!r.ok)throw Error("Missing manifest");return r.json();}).then(data=>{audioIndex=data;}).catch(()=>{audioIndex={tracks:[]};});
+   audioLoad.then(()=>{if(here===location.hash&&box.isConnected)audioFor(context);});
+   return;
+  }
+  const tracks=audioIndex.tracks.filter(x=>x.test===Number(route.test)&&x.mode===route.mode&&x.skill===route.skill&&x.part===route.part);
+  if(!tracks.length){box.innerHTML="";return;}
+  box.innerHTML='<p class="trainer-meta" role="status">Checking availability of the source audio…</p>';
+  Promise.all(tracks.map(async t=>{
+   const src=audioUrl("audio/trainer/"+t.file);
+   try{const res=await fetch(src,{method:"HEAD",cache:"no-store"});return {...t,src,available:res.ok};}catch{return {...t,src,available:false};}
+  })).then(items=>{
+   if(here!==location.hash||!box.isConnected)return;
+   const ready=items.filter(x=>x.available);
+   if(!ready.length){
+    box.innerHTML='<section class="trainer-empty"><h2>Source audio not published yet</h2><p>The recordings have been matched to this Part, but the original MP3 files are not yet hosted on WordHop. No broken players or invented recordings are shown.</p></section>';
+    return;
+   }
+   box.innerHTML='<section class="trainer-audio"><h2>Original recordings</h2><p>Use these recordings for listening or speaking practice. Exam questions and checked answer keys will be added separately.</p>'+
+    ready.map(t=>'<div class="trainer-audio-track"><strong>Track '+String(t.track).padStart(2,"0")+'</strong><span>'+esc(t.description)+'</span><audio controls preload="none" src="'+esc(t.src)+'" aria-label="Trainer test '+t.test+' track '+t.track+'"></audio></div>').join("")+
+    '</section>';
+  });
+ }
  let latest=null;
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
  const path=(t,m,s,p)=>BASE+[t,m,s,p].filter(Boolean).map(x=>"/"+encodeURIComponent(x)).join("");
@@ -43,7 +72,7 @@
   }
   const k=key(r),heading=`Test ${t.id} · ${r.skill[0].toUpperCase()+r.skill.slice(1)} · Part ${part[1]}`;
   const returnLink=back(path(t.id,r.mode,r.skill),"All parts");
-  if(!READY[k]){main.innerHTML=frame(returnLink+head(heading,"This Part is not available for student use yet.")+`<section class="trainer-empty"><h2>Content in preparation</h2><p>The source questions, audio and publisher-checked answer key have not been published. This Part will not be scored until they are verified.</p></section>`);return;}
+  if(!READY[k]){main.innerHTML=frame(returnLink+head(heading,"Full questions and automatic scoring are still in preparation.")+`<section class="trainer-empty"><h2>Exam content in preparation</h2><p>Publisher-checked questions and answers are not yet available for this Part. Once the original recordings are hosted, available audio tracks will appear below for listening or speaking practice.</p></section><div id="trainer-audio-slots"></div>`);audioFor(context);return;}
   if(!cache.has(k)){
    main.innerHTML=frame(returnLink+head(heading,"Loading original questions…")+`<p class="notice" role="status">Loading questions…</p>`);
    const currentHash=location.hash;
