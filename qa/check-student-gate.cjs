@@ -27,7 +27,7 @@ function openApp(initialHash = '') {
       if(!/<form class="student-sign(?:in|out)"/.test(value))return;
       const status = {}, button = {};
       form = {
-        isConnected:true,elements:{username:{value:'sample.01'},password:{value:'TEST-PASS'}},status,
+        isConnected:true,elements:{username:{value:'sample.01'},password:{value:'TEST-PASS'},remember:{checked:false}},status,
         querySelector(selector){return selector==='button'?button:status;},
         addEventListener(event,fn){if(event==='submit')this.submit=fn;}
       };
