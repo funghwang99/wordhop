@@ -50,7 +50,11 @@
   async function signIn(form, navigate, keepRoute) {
     if (working) return;
     const status = form.querySelector('[role="status"]'), button = form.querySelector('button');
-    const fields = {username:form.elements.username.value.trim(),password:form.elements.password.value};
+    const fields = {
+      username:form.elements.username.value.trim(),
+      password:form.elements.password.value,
+      remember:form.elements.remember.checked
+    };
     revision++;
     working = true; button.disabled = true; status.textContent = 'Signing in…';
     try {
@@ -108,7 +112,7 @@
       (account
         ? '<h1>Student account</h1><p>Signed in as <strong>'+esc(account.name)+'</strong>.</p>' +
             '<p class="student-username">'+esc(account.username)+'</p>' +
-            (memorySession ? '<p class="student-username">This browser keeps you signed in for this visit. Refreshing the page may ask you to sign in again.</p>' : '') +
+            (memorySession ? '<p class="student-username">Your browser blocked the sign-in cookie. You are signed in for this tab only.</p>' : '') +
             '<a class="btn btn-primary" href="'+esc(returnPath)+'" data-nav="'+esc(returnPath)+'">Continue studying</a>' +
             '<form class="student-signout" method="post"><button class="btn" type="submit">Sign out</button><p role="status"></p></form>'
           : '<h1>Student sign in</h1><p>Use the username and password from your teacher to open WordHop.</p>' +
@@ -117,6 +121,7 @@
             'autocapitalize="none" spellcheck="false" required minlength="3" maxlength="40">' +
             '<label for="student-password">Password</label><input id="student-password" name="password" type="password" ' +
             'autocomplete="current-password" required maxlength="32">' +
+            '<label class="student-remember"><input type="checkbox" name="remember"> <span>Keep me signed in for 7 days</span></label>' +
             '<button class="btn btn-primary" type="submit">Sign in</button><p role="status"></p></form>') + '</section>';
     const form = main.querySelector('form');
     form?.addEventListener('submit',event=>{

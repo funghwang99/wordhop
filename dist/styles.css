@@ -117,8 +117,10 @@
 .student-account .student-username{font-size:13px}
 .student-signin{display:grid;gap:8px}
 .student-signin label{font-size:14px;font-weight:650}
-.student-signin input{width:100%;margin-bottom:8px;padding:10px 11px;border:1px solid #cdd6e3;border-radius:7px;background:#fff;color:var(--text);font:inherit;font-size:16px}
+.student-signin input:not([type=checkbox]){width:100%;margin-bottom:8px;padding:10px 11px;border:1px solid #cdd6e3;border-radius:7px;background:#fff;color:var(--text);font:inherit;font-size:16px}
 .student-signin input:focus{outline:2px solid var(--accent);outline-offset:2px}
+.student-signin .student-remember{display:flex;align-items:center;gap:8px;width:fit-content;margin:0 0 10px;font-weight:500;cursor:pointer}
+.student-remember input{margin:0;width:16px;height:16px;accent-color:var(--accent)}
 .student-signin button{justify-self:start}
 .student-signin button:disabled,.student-signout button:disabled{opacity:.65;cursor:default}
 .student-signin p,.student-signout p{margin:0;color:#566273;font-size:13px;line-height:1.5}
