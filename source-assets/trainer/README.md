@@ -37,3 +37,9 @@ The new navigation is integrated under PET and passes through the main student's
 Test 1 Exam Practice Listening Parts 1–4 correspond to source tracks 03, 06, 09 and 12, as previously checked. These recordings still need to be transferred with the correct permissions, mapping, keys, answer replay ranges and explanations. No nonexistent audio links are exposed on the site.
 
 Run `node qa/check-trainer.cjs` before merging or publishing this branch.
+
+## Source audio map and player
+
+Audio track mappings for all 39 Test 1–2 recordings are in `source-assets/trainer/audio-manifest.json` and the student-facing `dist/trainer/audio-manifest.json`. The audio is mixed: Test 1 includes Writing and Speaking sample recordings as well as Listening; Test 2 includes Speaking samples too. Source track 37 (Test 2) still requires manual Part confirmation.
+
+When an original MP3 at `dist/audio/trainer/test-N-track-NN.mp3` is successfully hosted, its Part automatically displays a native audio player after a successful HEAD request. When assets have not been published, the interface shows an honest pending message and leaves answer grading disabled. `scripts/import_trainer_audio.py --source-dir PATH` prepares canonical filenames after all 39 originals are available locally; no synthetic or missing MP3 links are shown.
