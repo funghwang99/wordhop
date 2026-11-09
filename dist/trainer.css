@@ -2,3 +2,6 @@
 .trainer-clear{display:inline-block;margin:0 0 22px}
 
 .trainer-audio{margin:22px 0;padding:22px;border:1px solid #dbe4ee;border-radius:14px;background:#fff}.trainer-audio h2{font-size:1.15rem;margin:0 0 9px}.trainer-audio p{color:#5a6d83;line-height:1.5}.trainer-audio-track{display:grid;grid-template-columns:90px minmax(130px,1fr);gap:7px 15px;padding:13px 0;border-top:1px solid #e3e9f2}.trainer-audio-track audio{grid-column:1/-1;width:100%;max-width:620px}.trainer-audio-track span{color:#55677b}
+
+/* Match the shared WordHop book and test navigation while retaining Trainer exercise styles. */
+.trainer{max-width:1100px}.trainer .breadcrumbs{margin-bottom:20px}.trainer-head{margin:22px 0 24px}.trainer-head small{letter-spacing:.08em}.trainer-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}.trainer-tile{transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}.trainer-tile:hover{transform:translateY(-2px)}.trainer-tile:focus-visible{outline:3px solid #365da8;outline-offset:3px}.trainer-audio-track audio{min-height:48px}.trainer-tile p{margin-bottom:14px}@media(max-width:600px){.trainer-tile{min-height:unset}.trainer-head{margin:16px 0 20px}}
