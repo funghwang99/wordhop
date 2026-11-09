@@ -9,7 +9,7 @@ new Function(app);
 assert.match(html,/trainer\.js/);assert.match(html,/trainer\.css/);
 assert.match(app,/WordHopTrainer\.render/);
 assert.match(app,/parts\[i\]==='trainer'/);
-assert.match(app,/B1 Preliminary for Schools Trainer/);
+assert.match(app,/title:\x27Trainer\x27/);
 assert.match(script,/id:1,training:true/);
 assert.match(script,/id:2,training:true/);
 assert.match(script,/id:6,training:false/);
