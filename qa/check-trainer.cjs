@@ -26,6 +26,34 @@ for(const [name,expected] of [['test-1-reading-part-1.json','ACCBA'],['test-2-re
  }
 }
 
+
+for(const [name,expected,letters] of [
+ ['test-1-reading-part-2.json','BHDFA','ABCDEFGH'],
+ ['test-2-reading-part-2.json','CHEBF','ABCDEFGH'],
+ ['test-1-reading-part-3.json','DACBD','ABCD'],
+ ['test-2-reading-part-3.json','CABDA','ABCD']
+]){
+ const data=JSON.parse(fs.readFileSync(path.join(dist,'trainer',name),'utf8'));
+ assert.equal(data.questions.length,5,name+' must have five original questions');
+ assert.equal(data.questions.map(q=>q.answer).join(''),expected,name+' must match publisher key');
+ assert.deepEqual(data.questions.map(q=>q.id),['q'+(letters.length===8?6:11),'q'+(letters.length===8?7:12),'q'+(letters.length===8?8:13),'q'+(letters.length===8?9:14),'q'+(letters.length===8?10:15)]);
+ assert.ok(data.keySource&&data.bookPages&&data.title);
+ if(letters.length===8){
+  assert.equal(data.context.length,8);
+  assert.deepEqual(data.context.map(x=>x.letter).join(''),'ABCDEFGH');
+  for(const item of data.context)assert.ok(item.title&&item.description.length>40);
+ } else assert.ok(data.passage.length>500&&data.passageTitle);
+ for(const q of data.questions){
+  assert.deepEqual(Object.keys(q.options),[...letters]);
+  assert.ok(q.options[q.answer]);
+  assert.ok(q.explanationVi.length>40);
+ }
+ assert.ok(script.includes(name),'Part must be linked from Trainer navigation');
+}
+assert.match(script,/trainer-passage/);
+assert.match(script,/trainer-article/);
+console.log('Trainer Reading Parts 1–3 for Tests 1–2: 30 questions with verified publisher keys.');
+
 const audioIndex=JSON.parse(fs.readFileSync(path.join(root,'dist/trainer/audio-manifest.json'),'utf8'));
 const seen=new Set();
 assert.equal(audioIndex.tracks.length,39);
@@ -44,4 +72,4 @@ assert.match(script,/trainer-audio-slots/);
 assert.match(script,/method:"HEAD"/);
 console.log('Trainer original-audio metadata: 39 tracks and 8 exam Listening parts mapped.');
 
-console.log('Trainer integration, Test 1 and Test 2 Reading Part 1: verified.');
+console.log('Trainer six scored Reading Parts for Tests 1–2: verified.');
