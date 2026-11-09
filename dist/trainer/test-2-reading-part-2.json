@@ -1,0 +1,136 @@
+{
+  "title": "Test 2 · Exam Practice · Reading Part 2",
+  "instructions": "Questions 6–10. Match five visitors to the most suitable film studio (A–H). Three studios are not used.",
+  "bookPages": "57–58",
+  "keySource": "Teacher’s Notes & Keys, printed page 199",
+  "contextTitle": "Film studios",
+  "context": [
+    {
+      "letter": "A",
+      "title": "Grand Studios",
+      "description": "These studios have been the home of special effects for years! There’s plenty to look at and read, so allow lots of time for your visit. And our friendly guides around the studios are ready to help direct you to the most interesting sights. It’s best to book online in advance."
+    },
+    {
+      "letter": "B",
+      "title": "Movieworld",
+      "description": "You’ll find the best movies ever here, set far into the future! Use the interactive videos on our computers, to see how actors are turned into on-screen monsters, using amazing make-up, costumes and filming techniques, and models of dinosaurs are created to look as though they’re alive! There are video activities, and ‘tours’ of the studio to download."
+    },
+    {
+      "letter": "C",
+      "title": "Waverley Studios",
+      "description": "These studios are huge, with plenty of space for displaying the scenery and stages where big stars acted in scenes from famous films. Check the website to see exactly what the studio offers inside. And because you’re not shown around in groups, you can spend as much time there as you want!"
+    },
+    {
+      "letter": "D",
+      "title": "Screen World",
+      "description": "Many famous movies from the last century were made in these studios, and you can still see the costumes worn in them, and the original sets used in the films. There’s a useful digital guide you can buy here, so you’ll find your way through these studios really quickly!"
+    },
+    {
+      "letter": "E",
+      "title": "WestWays",
+      "description": "To visit this studio, get tickets in advance through the website, to avoid long queues – it’s very popular with people who love top movies from the 40s, many of which were filmed here. The studio also has a great selection of items from various movies, now on sale as souvenirs!"
+    },
+    {
+      "letter": "F",
+      "title": "FilmFun",
+      "description": "Come and visit amazingly realistic sets, from the streets of New York to the historical sites of Rome – and walk around them! The tour also includes a bus ride to places in the surrounding area which have appeared in films, with a staff member to tell you whatever you’d like to know."
+    },
+    {
+      "letter": "G",
+      "title": "Star Studios",
+      "description": "See a 360° online tour of these studios before you come – they’re huge! And during your visit, ride through what look like London and Paris streets, on original buses used in old films, and even try on costumes from films made here. Digital displays will give you plenty of information!"
+    },
+    {
+      "letter": "H",
+      "title": "FilmPark",
+      "description": "FilmPark has an amazing collection of old cars once used in films – and they still work! So, have a trip in one and see the studios as you’re driven around its huge city street scenes. There’s also a collection of original clothes that stars wore dressed in for their movies. Visitors get free photos of themselves as they leave."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q6",
+      "source": "Tom wants to look around the studio at his own speed, and visit the actual sets where films were made. His mum wants to see online what the studio is like before she buys tickets.",
+      "ask": "Which option (A–H) is the most suitable?",
+      "options": {
+        "A": "Grand Studios",
+        "B": "Movieworld",
+        "C": "Waverley Studios",
+        "D": "Screen World",
+        "E": "WestWays",
+        "F": "FilmFun",
+        "G": "Star Studios",
+        "H": "FilmPark"
+      },
+      "answer": "C",
+      "explanationVi": "C cho phép khách tự tham quan, không bị ràng buộc bởi đoàn hướng dẫn, và xem trước thông tin về phim trường trên website. Đây là hai điều Tom và mẹ yêu cầu."
+    },
+    {
+      "id": "q7",
+      "source": "Ingrid is interested in seeing costumes that famous actors have worn, and she’d also like to ride on a vehicle that originally appeared in a film. Ingrid’s mum wants a souvenir to remember their trip.",
+      "ask": "Which option (A–H) is the most suitable?",
+      "options": {
+        "A": "Grand Studios",
+        "B": "Movieworld",
+        "C": "Waverley Studios",
+        "D": "Screen World",
+        "E": "WestWays",
+        "F": "FilmFun",
+        "G": "Star Studios",
+        "H": "FilmPark"
+      },
+      "answer": "H",
+      "explanationVi": "H trưng bày trang phục gốc của diễn viên, cho khách đi thử xe từng xuất hiện trong phim và tặng ảnh lưu niệm."
+    },
+    {
+      "id": "q8",
+      "source": "Roberto wants to visit a studio where famous films were made many years ago, and buy something that appeared in one of the films. His dad wants to book online before they go.",
+      "ask": "Which option (A–H) is the most suitable?",
+      "options": {
+        "A": "Grand Studios",
+        "B": "Movieworld",
+        "C": "Waverley Studios",
+        "D": "Screen World",
+        "E": "WestWays",
+        "F": "FilmFun",
+        "G": "Star Studios",
+        "H": "FilmPark"
+      },
+      "answer": "E",
+      "explanationVi": "E nổi tiếng với các phim thập niên 1940, bán đồ lưu niệm từ các bộ phim và cho đặt vé qua website trước khi đến."
+    },
+    {
+      "id": "q9",
+      "source": "Simone likes science fiction films, and prefers looking at digital displays about how special effects are achieved to reading information. Simone’s dad wants to get a digital guide.",
+      "ask": "Which option (A–H) is the most suitable?",
+      "options": {
+        "A": "Grand Studios",
+        "B": "Movieworld",
+        "C": "Waverley Studios",
+        "D": "Screen World",
+        "E": "WestWays",
+        "F": "FilmFun",
+        "G": "Star Studios",
+        "H": "FilmPark"
+      },
+      "answer": "B",
+      "explanationVi": "B giới thiệu phim khoa học viễn tưởng, có video tương tác về kỹ xảo và nội dung tham quan dạng số có thể tải về."
+    },
+    {
+      "id": "q10",
+      "source": "Ben is interested in how scenes from famous cities are created in studios. He’d also like to visit film locations outside the studios, accompanied by a guide who can answer his questions.",
+      "ask": "Which option (A–H) is the most suitable?",
+      "options": {
+        "A": "Grand Studios",
+        "B": "Movieworld",
+        "C": "Waverley Studios",
+        "D": "Screen World",
+        "E": "WestWays",
+        "F": "FilmFun",
+        "G": "Star Studios",
+        "H": "FilmPark"
+      },
+      "answer": "F",
+      "explanationVi": "F có bối cảnh mô phỏng New York, Rome và chuyến xe tới các địa điểm quay phim ngoài phim trường với nhân viên hướng dẫn."
+    }
+  ]
+}
