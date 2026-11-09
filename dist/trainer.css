@@ -81,3 +81,12 @@
 .trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choice{min-height:68px}
 @media(max-width:760px){.trainer-passage{padding:20px}.trainer-passage-grid{grid-template-columns:1fr}}
 @media(max-width:480px){.trainer-passage{padding:16px}.trainer-passage-item{padding:14px}.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choices{grid-template-columns:1fr}}
+
+/* Long Reading Part 3 articles from the Trainer book */
+.trainer-article{padding:28px;background:#fff;border:1px solid var(--line);border-radius:12px;margin:0 0 23px}
+.trainer-article h2{font-size:20px;letter-spacing:-.35px;font-weight:700;color:#354760;margin:0 0 7px}
+.trainer-article-by{font-size:12px;color:#8792a2;margin:0 0 20px}
+.trainer-article-text{font-size:14px;line-height:1.95;color:#42536a;white-space:pre-line;overflow-wrap:anywhere}
+.trainer-article-text:first-of-type{margin-top:15px}
+.trainer-source:empty{display:none}
+@media(max-width:600px){.trainer-article{padding:19px}.trainer-article h2{font-size:18px}.trainer-article-text{font-size:13px;line-height:1.85}}
