@@ -35,7 +35,7 @@
     box.innerHTML='<section class="trainer-empty"><h2>Source audio not published yet</h2><p>The recordings have been matched to this Part, but the original MP3 files are not yet hosted on WordHop. No broken players or invented recordings are shown.</p></section>';
     return;
    }
-   box.innerHTML='<section class="trainer-audio"><h2>Original recordings</h2><p>Use these recordings for listening or speaking practice. Exam questions and checked answer keys will be added separately.</p>'+
+   box.innerHTML='<section class="trainer-audio"><h2>Audio practice</h2><p>Select and play the recording for this part. Training activities may contain several tracks.</p>'+
     ready.map(t=>'<div class="trainer-audio-track"><strong>Track '+String(t.track).padStart(2,"0")+'</strong><span>'+esc(t.description)+'</span><audio controls preload="none" src="'+esc(t.src)+'" aria-label="Trainer test '+t.test+' track '+t.track+'"></audio></div>').join("")+
     '</section>';
   });
@@ -49,13 +49,13 @@
  function attempt(k){const x=storage()[k];return x&&x.answers&&typeof x.answers==="object"?x:{answers:{},checked:false};}
  function persist(k,a){const v=storage();v[k]=a;try{localStorage.setItem(studentKey(),JSON.stringify(v));return true;}catch{return false;}}
  const back=(url,name)=>`<a class="trainer-back" href="${esc(url)}" data-nav="${esc(url)}">← ${esc(name)}</a>`;
- const head=(title,description)=>`<div class="trainer-head"><small>CAMBRIDGE B1 PRELIMINARY FOR SCHOOLS</small><h1>${esc(title)}</h1><p>${esc(description)}</p></div>`;
- const frame=body=>`<div id="trainer" class="trainer"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="#/" data-nav="#/">Courses</a> / <a href="#/pet" data-nav="#/pet">PET</a> / <a href="${BASE}" data-nav="${BASE}">Trainer</a></nav>${body}</div>`;
+ const head=(title,description)=>`<div class="trainer-head"><small>PET · TRAINER</small><h1>${esc(title)}</h1><p>${esc(description)}</p></div>`;
+ const frame=body=>`<div id="trainer" class="trainer"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="#/" data-nav="#/">Courses</a><span class="sep" aria-hidden="true">/</span><a href="#/pet" data-nav="#/pet">PET</a><span class="sep" aria-hidden="true">/</span><span class="current" aria-current="page">Trainer</span></nav>${body}</div>`;
  const tiles=items=>`<div class="trainer-grid">${items.join("")}</div>`;
- const tile=(url,label,title,desc)=>`<a class="trainer-tile" href="${esc(url)}" data-nav="${esc(url)}"><span class="trainer-badge">${esc(label)}</span><h2>${esc(title)}</h2><p>${esc(desc)}</p><strong>Open →</strong></a>`;
+ const tile=(url,label,title,desc)=>`<a class="nav-card trainer-tile" href="${esc(url)}" data-nav="${esc(url)}"><span class="trainer-badge">${esc(label)}</span><h2>${esc(title)}</h2><p>${esc(desc)}</p><strong>Open →</strong></a>`;
  function render(context){
   latest=context; const r=context.route||{},main=context.container,t=TESTS.find(x=>x.id===Number(r.test));
-  if(!t){main.innerHTML=frame(head("B1 Preliminary for Schools Trainer","Six tests. Tests 1–2 separate Training activities from Exam Practice. Tests 3–6 contain full practice tests.")+tiles(TESTS.map(x=>tile(path(x.id),x.training?"Training + Exam Practice":"Practice Test",`Test ${x.id}`,"Reading · Writing · Listening · Speaking"))));return;}
+  if(!t){main.innerHTML=frame(head("Trainer","Choose a test, then select a skill and part. Tests 1–2 offer Training and Exam Practice; Tests 3–6 offer exam practice.")+tiles(TESTS.map(x=>tile(path(x.id),x.training?"Training + Exam Practice":"Practice Test",`Test ${x.id}`,"Reading · Writing · Listening · Speaking"))));return;}
   if(!r.mode||(r.mode!=="training"&&r.mode!=="exam")||(r.mode==="training"&&!t.training)){
    const modes=t.training?["training","exam"]:["exam"];
    main.innerHTML=frame(back(BASE,"All tests")+head(`Test ${t.id}`,t.training?"Choose Training or Exam Practice. They are not mixed together.":"Choose the exam-style practice test.")+`<button type="button" class="text-button trainer-clear" data-trainer-action="clear-test">Clear saved results for Test ${t.id}</button>`+tiles(modes.map(m=>tile(path(t.id,m),m==="training"?"Guided practice":"Exam-style paper",m==="training"?"Training":t.training?"Exam Practice":"Practice Test",m==="training"?"Warm-up activities organised by skill and part.":"Reading · Writing · Listening · Speaking"))));return;
@@ -67,7 +67,7 @@
   if(!part||Number(part[1])>count){
    main.innerHTML=frame(back(path(t.id,r.mode),`Test ${t.id}`)+head(`${r.skill[0].toUpperCase()+r.skill.slice(1)} · Test ${t.id}`,`Book pages ${t.pages[r.skill]}. Only source-verified parts can be scored.`)+tiles(Array.from({length:count},(_,n)=>{
     const p=`part-${n+1}`,k=[t.id,r.mode,r.skill,p].join(":");
-    return tile(path(t.id,r.mode,r.skill,p),READY[k]?(attempt(k).checked?"Answers checked":"Ready to practise"):"Content in preparation",`Part ${n+1}`,READY[k]?"Original exam questions with official answer key and Vietnamese explanations.":"This Part has not yet been transferred to the site.");
+    return tile(path(t.id,r.mode,r.skill,p),READY[k]?(attempt(k).checked?"Answers checked":"Ready to practise"):"Content in preparation",`Part ${n+1}`,READY[k]?"Original exam questions with official answer key and Vietnamese explanations.":s==="listening"||s==="speaking"?"Audio player appears here once the source recording is uploaded.":"Questions for this part are being prepared.");
    })));return;
   }
   const k=key(r),heading=`Test ${t.id} · ${r.skill[0].toUpperCase()+r.skill.slice(1)} · Part ${part[1]}`;
