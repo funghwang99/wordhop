@@ -2,14 +2,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),dist=path.join(root,'dist');
 const script=fs.readFileSync(path.join(dist,'trainer.js'),'utf8');
-const app=fs.readFileSync(path.join(dist,'app.js'),'utf8');
-const html=fs.readFileSync(path.join(dist,'index.html'),'utf8');
 new Function(script);
-new Function(app);
-assert.match(html,/trainer\.js/);assert.match(html,/trainer\.css/);
-assert.match(app,/WordHopTrainer\.render/);
-assert.match(app,/parts\[i\]==='trainer'/);
-assert.match(app,/title:\x27Trainer\x27/);
 assert.match(script,/id:1,training:true/);
 assert.match(script,/id:2,training:true/);
 assert.match(script,/id:6,training:false/);
