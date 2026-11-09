@@ -9,7 +9,7 @@
   {id:6,training:false,pages:{reading:"148–157",writing:"158–159",listening:"160–164",speaking:"165"}}
  ];
  const SKILLS={reading:6,writing:2,listening:4,speaking:4};
- const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","1:exam:reading:part-2":"trainer/test-1-reading-part-2.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json","2:exam:reading:part-2":"trainer/test-2-reading-part-2.json"};
+ const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","1:exam:reading:part-2":"trainer/test-1-reading-part-2.json","1:exam:reading:part-3":"trainer/test-1-reading-part-3.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json","2:exam:reading:part-2":"trainer/test-2-reading-part-2.json","2:exam:reading:part-3":"trainer/test-2-reading-part-3.json"};
  const BASE="#/pet/trainer", cache=new Map();
  let audioIndex=null,audioLoad=null;
  const audioUrl=name=>new URL(name,document.baseURI).href;
@@ -108,8 +108,9 @@
    const explanation=saved.checked?'<div class="trainer-explain" lang="vi"><strong>Đáp án: '+q.answer+'</strong><p>'+esc(q.explanationVi)+'</p></div>':'';
    return '<article class="trainer-question"><div class="trainer-qtop"><h2>Question '+(Number(String(q.id).replace(/^q/,''))||i+1)+'</h2>'+status+'</div><div class="trainer-source">'+esc(q.source)+'</div>'+(q.ask?'<p class="trainer-ask">'+esc(q.ask)+'</p>':'')+'<fieldset '+(saved.checked?'disabled':'')+'><legend>Choose the correct option</legend><div class="trainer-choices">'+options+'</div></fieldset>'+explanation+'</article>';
   }).join('');
+  const readingPassage=data.passage?'<section class="trainer-article" aria-label="Reading article"><h2>'+esc(data.passageTitle||'Reading article')+'</h2>'+(data.passageBy?'<p class="trainer-article-by">'+esc(data.passageBy)+'</p>':'')+'<div class="trainer-article-text">'+esc(data.passage)+'</div></section>':'';
   const sharedContext=Array.isArray(data.context)&&data.context.length?'<section class="trainer-passage" aria-label="Reading texts"><h2>'+esc(data.contextTitle||'Reading texts')+'</h2><p class="trainer-passage-intro">Read these descriptions before choosing your answers.</p><div class="trainer-passage-grid">'+data.context.map(item=>'<article class="trainer-passage-item"><div class="trainer-passage-title"><b>'+esc(item.letter)+'</b><h3>'+esc(item.title)+'</h3></div><p>'+esc(item.description)+'</p></article>').join('')+'</div></section>':'';
-  main.innerHTML=frame(sectionTop+head(data.title,data.instructions)+'<p class="trainer-meta">Questions: '+data.questions.length+' · Printed pages '+esc(data.bookPages)+' · '+(saved.checked?'Answers checked':'Answers saved in this browser')+'</p>'+sharedContext+questions+
+  main.innerHTML=frame(sectionTop+head(data.title,data.instructions)+'<p class="trainer-meta">Questions: '+data.questions.length+' · Printed pages '+esc(data.bookPages)+' · '+(saved.checked?'Answers checked':'Answers saved in this browser')+'</p>'+readingPassage+sharedContext+questions+
    '<div class="trainer-actions">'+(saved.checked?'<p class="trainer-score" role="status">Score: <strong>'+score+'/'+data.questions.length+'</strong></p><button class="btn" type="button" data-trainer-action="retry">Try again</button>':'<button class="btn btn-primary" type="button" data-trainer-action="check">Check answers</button>')+'</div><p class="trainer-credit">Verified against the official Teacher’s Notes &amp; Keys. '+esc(data.keySource)+'.</p>');
  }
  document.addEventListener("change",e=>{
