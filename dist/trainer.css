@@ -66,3 +66,18 @@
  .trainer-choice{padding:12px;font-size:12px}
  .trainer-audio{padding:19px}
 }
+
+/* Verified A–H matching tasks: shared reading passage and answer controls */
+.trainer-passage{border:1px solid var(--line);border-radius:12px;padding:26px;background:#fff;margin-bottom:22px}
+.trainer-passage>h2{font-size:18px;letter-spacing:-.3px;margin:0 0 7px}
+.trainer-passage-intro{font-size:12px;color:#8b96a8;line-height:1.8;margin:0 0 21px}
+.trainer-passage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.trainer-passage-item{border:1px solid #e3e9f1;border-radius:9px;padding:16px 17px;background:#fbfcfe}
+.trainer-passage-title{display:flex;align-items:center;gap:12px;margin:0 0 10px}
+.trainer-passage-title>b{display:grid;place-items:center;width:29px;height:29px;border-radius:7px;background:#eaf1fa;color:var(--accent);font-size:12px;flex-shrink:0}
+.trainer-passage-title h3{font-size:14px;font-weight:650;color:#354961;margin:0}
+.trainer-passage-item p{font-size:12px;line-height:1.85;color:#66768b;margin:0}
+.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choice{min-height:68px}
+@media(max-width:760px){.trainer-passage{padding:20px}.trainer-passage-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.trainer-passage{padding:16px}.trainer-passage-item{padding:14px}.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choices{grid-template-columns:1fr}}
