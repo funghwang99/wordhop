@@ -42,11 +42,25 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
-for asset in ['trainer.js', 'trainer.css', 'trainer', 'audio/trainer']:
-    assert not (ROOT / '_site' / asset).exists(), asset
-assert 'trainer.js' not in html and 'trainer.css' not in html
+assert 'trainer.css' not in html
+assert any(book['id'] == 'trainer' and book['trackId'] == 'pet' for book in built['books'])
+trainer_script = (ROOT / '_site/trainer.js').read_text()
+trainer_files = re.findall(r'trainer/test-[12]-reading\.[a-f0-9]{12}\.json', trainer_script)
+assert len(trainer_files) == 2
+for resource in trainer_files:
+    data_path = ROOT / '_site' / resource
+    assert data_path.read_bytes() == (ROOT / 'dist' / resource).read_bytes()
+    assert hashlib.sha256(data_path.read_bytes()).hexdigest()[:12] in data_path.name
+    data = json.loads(data_path.read_text())
+    assert data['totalParts'] == 6 and len(data['parts']) == 3
+    assert sum(len(part['questions']) for part in data['parts']) == 15
+    for base in ['https://example.github.io/', 'https://example.github.io/wordhop/', 'https://example.github.io/a/nested/project/']:
+        resolved = urljoin(base, resource)
+        assert resolved.startswith(base)
+        assert (ROOT / '_site' / urlsplit(resolved).path[len(urlsplit(base).path):]).is_file()
+print('PASS: Trainer shared-reading module and both partial tests resolve at every supported project path.')
 # A direct game link returns to its unit, and embedded games keep their original content.
 for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html', 'games/word-hopper-unit14.html', 'games/word-courier-unit15.html', 'games/word-circuit-unit16.html', 'games/word-rescue-unit4.html']:
     game_html = (ROOT / '_site' / game_path).read_text()

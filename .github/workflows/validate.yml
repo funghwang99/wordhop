@@ -1,0 +1,27 @@
+name: Validate WordHop
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check existing vocabulary, Reading and Listening
+        run: |
+          node qa/check-all-words.cjs
+          node qa/check-readings.cjs
+          node qa/check-listening.cjs
+      - name: Check Trainer, sign-in and saved results
+        run: |
+          node qa/check-trainer.cjs
+          node qa/check-student-gate.cjs
+          node qa/check-clear-results.cjs
+      - name: Build and check GitHub Pages paths
+        run: |
+          python3 -B scripts/build_github_pages.py
+          python3 -B qa/check_github_pages.py

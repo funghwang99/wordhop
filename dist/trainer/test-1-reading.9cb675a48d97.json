@@ -1,0 +1,440 @@
+{
+  "id": "trainer-test-1",
+  "totalParts": 6,
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Part 1",
+      "instructions": "Questions 1–5. Read each text and choose the correct answer, A, B or C.",
+      "text": {
+        "bookPages": "12–13",
+        "keySource": "Teacher’s Notes & Keys, printed page 182",
+        "passageTitle": "",
+        "passageBy": "",
+        "passage": "",
+        "contextTitle": "",
+        "context": []
+      },
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does Mum want Anton to do?",
+          "sourceText": "Message from Mum to Anton:\n“Anton, When you see your sister at the basketball match later, can you make sure she remembers that Dad’s coming to fetch her instead of me? I’ve tried ringing, but her phone’s off. Thanks, Mum”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "Anton has to check his sister knows about the arrangements for getting home.",
+            "B": "Anton should remind his sister to switch her phone back on.",
+            "C": "Anton needs to ask his sister if she’s taking part in a sports event later."
+          },
+          "answer": "A",
+          "explanation": "Mẹ muốn Anton chắc chắn em gái biết bố sẽ đến đón thay vì mẹ. Cụm “make sure she remembers” và “Dad’s coming to fetch her instead of me” khớp với A.",
+          "explanationVi": "Mẹ muốn Anton chắc chắn em gái biết bố sẽ đến đón thay vì mẹ. Cụm “make sure she remembers” và “Dad’s coming to fetch her instead of me” khớp với A.",
+          "evidence": "Message from Mum to Anton:\n“Anton, When you see your sister at the basketball match later, can you make sure she remembers that Dad’s coming to fetch her instead of me? I’ve tried ringing, but her phone’s off. Thanks, Mum”"
+        },
+        {
+          "number": 2,
+          "prompt": "This film is ...",
+          "sourceText": "Film advertisement:\n“From the famous novel by Ben Whitham: a film about a bear’s adventures. Fun for all the family!”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "about a family of wild animals.",
+            "B": "not suitable for people under a certain age.",
+            "C": "based on a popular fiction book."
+          },
+          "answer": "C",
+          "explanation": "Quảng cáo nói bộ phim được chuyển thể từ một tiểu thuyết nổi tiếng (“from the famous novel”). Vì vậy chọn C. Không có thông tin rằng phim kể về một gia đình động vật.",
+          "explanationVi": "Quảng cáo nói bộ phim được chuyển thể từ một tiểu thuyết nổi tiếng (“from the famous novel”). Vì vậy chọn C. Không có thông tin rằng phim kể về một gia đình động vật.",
+          "evidence": "Film advertisement:\n“From the famous novel by Ben Whitham: a film about a bear’s adventures. Fun for all the family!”"
+        },
+        {
+          "number": 3,
+          "prompt": "What must students do?",
+          "sourceText": "New Message\nFrom: Mrs Hoskins\nTo: All students\n“Before the end of term, please return all books you have borrowed from the library, or see someone at the desk if you want to have them for the summer holiday.”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "You must take back all the library books you’ve got before the summer holiday.",
+            "B": "If there are library books you want, borrow them before the end of term.",
+            "C": "To keep any library books for holiday reading, ask staff at the desk."
+          },
+          "answer": "C",
+          "explanation": "Muốn giữ sách trong kỳ nghỉ, học sinh cần hỏi nhân viên tại quầy (“see someone at the desk”). A sai vì không nhất thiết phải trả sách nếu đã xin phép giữ lại.",
+          "explanationVi": "Muốn giữ sách trong kỳ nghỉ, học sinh cần hỏi nhân viên tại quầy (“see someone at the desk”). A sai vì không nhất thiết phải trả sách nếu đã xin phép giữ lại.",
+          "evidence": "New Message\nFrom: Mrs Hoskins\nTo: All students\n“Before the end of term, please return all books you have borrowed from the library, or see someone at the desk if you want to have them for the summer holiday.”"
+        },
+        {
+          "number": 4,
+          "prompt": "What is Nicola asking Tina to do?",
+          "sourceText": "Message from Nicola to Tina:\n“Tina, When you come round tonight, can you bring that earring you found outside school the other day? I think I know who it belongs to, so I’ll return it. Thanks, Nicola”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "Nicola is telling Tina to return something she was lent recently.",
+            "B": "Nicola is hoping she can give a lost item back to its owner.",
+            "C": "Nicola is asking for help to find a lost earring belonging to her."
+          },
+          "answer": "B",
+          "explanation": "Tina đã nhặt được khuyên tai. Nicola nghĩ mình biết chủ nhân nên muốn trả lại: “I know who it belongs to, so I’ll return it”. Đáp án B.",
+          "explanationVi": "Tina đã nhặt được khuyên tai. Nicola nghĩ mình biết chủ nhân nên muốn trả lại: “I know who it belongs to, so I’ll return it”. Đáp án B.",
+          "evidence": "Message from Nicola to Tina:\n“Tina, When you come round tonight, can you bring that earring you found outside school the other day? I think I know who it belongs to, so I’ll return it. Thanks, Nicola”"
+        },
+        {
+          "number": 5,
+          "prompt": "What do customers need to know?",
+          "sourceText": "BIKES FOR HIRE\nAdult cycles always available\nChildren’s cycles — book in advance\n8 a.m. – 9 p.m.\nOnly £20 per day",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "Families may not find suitable bikes for everyone unless they’ve reserved them.",
+            "B": "You can always find a range of bikes for hire here.",
+            "C": "Bikes aren’t available for customers’ use in the evenings."
+          },
+          "answer": "A",
+          "explanation": "Xe trẻ em cần đặt trước (“book in advance”), dù xe người lớn luôn có. Gia đình có thể không có đủ loại xe nếu không đặt trước. Quầy hoạt động đến 9 giờ tối nên C sai.",
+          "explanationVi": "Xe trẻ em cần đặt trước (“book in advance”), dù xe người lớn luôn có. Gia đình có thể không có đủ loại xe nếu không đặt trước. Quầy hoạt động đến 9 giờ tối nên C sai.",
+          "evidence": "BIKES FOR HIRE\nAdult cycles always available\nChildren’s cycles — book in advance\n8 a.m. – 9 p.m.\nOnly £20 per day"
+        }
+      ]
+    },
+    {
+      "id": "part-2",
+      "title": "Part 2",
+      "instructions": "Questions 6–10. Match five students with the most suitable art course (A–H). Three courses are not used.",
+      "text": {
+        "bookPages": "15–16",
+        "keySource": "Teacher’s Notes & Keys, printed page 183",
+        "passageTitle": "",
+        "passageBy": "",
+        "passage": "",
+        "contextTitle": "Art courses",
+        "context": [
+          {
+            "letter": "A",
+            "title": "Get Artistic",
+            "description": "Teachers here always have ideas to get you drawing, painting and printing – but you can use your own material, too. The studio-based course focuses on portraits – you’ll learn how to develop whatever you’ve brought, or use famous portraits, to create pictures of people. One-to-one sessions also available."
+          },
+          {
+            "letter": "B",
+            "title": "Art Attack!",
+            "description": "Learn how to create pictures, perhaps based on your own writing, to put into a short book or poster, using simple techniques that don’t require technology. Discover, too, how to put a book together, with a professional-looking cover designed and hand-printed by you. Perfect for anyone considering further studies in art."
+          },
+          {
+            "letter": "C",
+            "title": "Art and imagination",
+            "description": "If you like designing clothes, you’ll enjoy learning to use special computer software here to create and print out designs for tops, shoes and hats that people would love to wear! You’ll go home with a folder of work, perfect to present when applying for a higher-level art course. Individual classes also available."
+          },
+          {
+            "letter": "D",
+            "title": "Create!",
+            "description": "Draw and paint in different situations – in the studio or even in the park! Gallery visits are also included, and you’re taught how to base your work on studies of landscapes and portraits by well-known artists. Teachers also encourage you to experiment with various styles and methods."
+          },
+          {
+            "letter": "E",
+            "title": "More Art Now!",
+            "description": "Improve how you paint people and places on this studio-based course. The teachers bring in work, ranging from photos to posters, to give you ideas. And use the studio website to show your work and exchange ideas with other students – useful for anyone wishing to study art at a higher level."
+          },
+          {
+            "letter": "F",
+            "title": "Art Workshop",
+            "description": "Do some drawings, in the studio or outside, or bring along your own. The teachers will then help you to turn them into wonderful printed designs, using simple methods you can try yourself after the course. You’ll then transfer your designs onto cotton and silk, using special paints – perfect to use in sewing projects afterwards."
+          },
+          {
+            "letter": "G",
+            "title": "Do it yourself",
+            "description": "Try making art to go with your stories here – working inside or outside! You’ll get ideas from books showing famous paintings and cartoons, and then create and print pictures of people to accompany your stories, using digital design techniques. There’s even one-to-one teaching if you’d prefer."
+          },
+          {
+            "letter": "H",
+            "title": "The Studio",
+            "description": "Come and experiment with digital design. You’ll get great ideas through research, then using special software, create your pictures and add details on screen, whether it’s clothes, people, books or something to put on the wall. Upload your work on the studio website and get opinions from your classmates there – and comment on theirs!"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "number": 6,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Rafa wants to produce artwork to support his art college application. He’s written stories, which he’d like to publish, and wants to learn how to include drawings in them, without using a computer.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Get Artistic",
+            "B": "Art Attack!",
+            "C": "Art and imagination",
+            "D": "Create!",
+            "E": "More Art Now!",
+            "F": "Art Workshop",
+            "G": "Do it yourself",
+            "H": "The Studio"
+          },
+          "answer": "B",
+          "explanation": "Rafa cần minh họa truyện bằng cách thủ công và chuẩn bị hồ sơ học nghệ thuật. B hướng dẫn làm hình minh họa dựa trên bài viết, không cần công nghệ, đồng thời phù hợp cho người học lên bậc cao hơn.",
+          "explanationVi": "Rafa cần minh họa truyện bằng cách thủ công và chuẩn bị hồ sơ học nghệ thuật. B hướng dẫn làm hình minh họa dựa trên bài viết, không cần công nghệ, đồng thời phù hợp cho người học lên bậc cao hơn.",
+          "evidence": "Rafa wants to produce artwork to support his art college application. He’s written stories, which he’d like to publish, and wants to learn how to include drawings in them, without using a computer."
+        },
+        {
+          "number": 7,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Simona enjoys creating art on her computer, and wants to find ways to improve the posters she makes on it. She also wants to share what she’s done with other students on the course.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Get Artistic",
+            "B": "Art Attack!",
+            "C": "Art and imagination",
+            "D": "Create!",
+            "E": "More Art Now!",
+            "F": "Art Workshop",
+            "G": "Do it yourself",
+            "H": "The Studio"
+          },
+          "answer": "H",
+          "explanation": "H dùng phần mềm thiết kế để tạo và chỉnh sửa hình trên màn hình, sau đó đăng bài lên website để các bạn cùng lớp nhận xét, đúng cả hai nhu cầu của Simona.",
+          "explanationVi": "H dùng phần mềm thiết kế để tạo và chỉnh sửa hình trên màn hình, sau đó đăng bài lên website để các bạn cùng lớp nhận xét, đúng cả hai nhu cầu của Simona.",
+          "evidence": "Simona enjoys creating art on her computer, and wants to find ways to improve the posters she makes on it. She also wants to share what she’s done with other students on the course."
+        },
+        {
+          "number": 8,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Andrei wants to try different painting techniques, and have trips to see the work of famous painters, to get ideas for his own pictures. He’d also like to try painting outdoors.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Get Artistic",
+            "B": "Art Attack!",
+            "C": "Art and imagination",
+            "D": "Create!",
+            "E": "More Art Now!",
+            "F": "Art Workshop",
+            "G": "Do it yourself",
+            "H": "The Studio"
+          },
+          "answer": "D",
+          "explanation": "D dạy vẽ trong công viên, đưa học viên tham quan phòng tranh và khuyến khích thử nhiều phong cách, kỹ thuật mới.",
+          "explanationVi": "D dạy vẽ trong công viên, đưa học viên tham quan phòng tranh và khuyến khích thử nhiều phong cách, kỹ thuật mới.",
+          "evidence": "Andrei wants to try different painting techniques, and have trips to see the work of famous painters, to get ideas for his own pictures. He’d also like to try painting outdoors."
+        },
+        {
+          "number": 9,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Nicola enjoys printing by hand. She wants to print the patterns she’s created onto different materials, for her mother to make into clothes, and also learn basic printing techniques to use at home.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Get Artistic",
+            "B": "Art Attack!",
+            "C": "Art and imagination",
+            "D": "Create!",
+            "E": "More Art Now!",
+            "F": "Art Workshop",
+            "G": "Do it yourself",
+            "H": "The Studio"
+          },
+          "answer": "F",
+          "explanation": "F tập trung vào cách in thủ công đơn giản và chuyển mẫu in lên vải cotton hoặc lụa để sử dụng trong các sản phẩm may mặc.",
+          "explanationVi": "F tập trung vào cách in thủ công đơn giản và chuyển mẫu in lên vải cotton hoặc lụa để sử dụng trong các sản phẩm may mặc.",
+          "evidence": "Nicola enjoys printing by hand. She wants to print the patterns she’s created onto different materials, for her mother to make into clothes, and also learn basic printing techniques to use at home."
+        },
+        {
+          "number": 10,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Karl enjoys taking photos of his family, and wants to use them as a basis for the art he produces. He’d like to go somewhere that also offers private lessons.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Get Artistic",
+            "B": "Art Attack!",
+            "C": "Art and imagination",
+            "D": "Create!",
+            "E": "More Art Now!",
+            "F": "Art Workshop",
+            "G": "Do it yourself",
+            "H": "The Studio"
+          },
+          "answer": "A",
+          "explanation": "A tập trung vào chân dung, cho phép mang ảnh hoặc tài liệu của mình đến để phát triển thành tranh và có các buổi học một kèm một.",
+          "explanationVi": "A tập trung vào chân dung, cho phép mang ảnh hoặc tài liệu của mình đến để phát triển thành tranh và có các buổi học một kèm một.",
+          "evidence": "Karl enjoys taking photos of his family, and wants to use them as a basis for the art he produces. He’d like to go somewhere that also offers private lessons."
+        }
+      ]
+    },
+    {
+      "id": "part-3",
+      "title": "Part 3",
+      "instructions": "Questions 11–15. Read the article and choose the correct answer, A, B, C or D.",
+      "text": {
+        "bookPages": "19–20",
+        "keySource": "Teacher’s Notes & Keys, printed page 184",
+        "passageTitle": "Our Great Ocean Road adventure",
+        "passageBy": "by Donna Waverley",
+        "passage": "My family and I recently went to Australia, to see my grandparents. But before we visited them, we went sightseeing along the Great Ocean Road, on the Australian coast.\n\nDad had intended to drive, but even though he was used to driving miles without getting exhausted, he then read on the website that the road wouldn’t be an easy drive, with a number of sharp bends. Anyway, we thought he deserved to enjoy the fantastic views too, which he couldn’t do as our driver. So instead, we persuaded him to book discount bus tickets and off we went.\n\nOur first stop was where wild kangaroos lived – and Dad and I were taking a walk when a big one appeared! For a moment, it seemed to consider coming towards us, which made me slightly nervous – but then it went off along the road, stopping to check if we were following. Although it was with us a while, I was so excited I didn’t even manage to pull out my camera. Then it looked back once more, and went off into the bushes.\n\nThat wasn’t the only wildlife we saw. I thought it unlikely we’d see Australia’s famous koala bears during our short visit, as I’d heard they were rare – but we weren’t disappointed at our next stop. In fact, we discovered there were roughly six million in that area! Sadly, some gum trees they were in had very few leaves left, which people told us was because of the koalas, although I’d read that lack of water is actually the problem. Still, I guess they looked cute, and were easy to find – we just followed the tourists looking up into the trees!\n\nDad had booked a campsite for the night, with ready-made tents – for an adventure! I wasn’t sure about that, but they were actually luxury tents, within walking distance of some famous rocks and other places we hoped to visit. However, Dad also said the sounds of wild creatures would help us sleep. That sounded worrying – until the ‘wild creatures’ turned out to be frogs! So I was embarrassed by my fears – and kept awake by the frogs! But we had fun making meals together – we’d brought food, as we knew there’d be nowhere to eat.\n\nIn fact, this whole trip was fantastic!",
+        "contextTitle": "",
+        "context": []
+      },
+      "questions": [
+        {
+          "number": 11,
+          "prompt": "Donna’s Dad decided not to drive the Great Ocean Road himself because",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "he realised he wouldn’t enjoy the views as much.",
+            "B": "he thought it would be too tiring for him.",
+            "C": "he discovered the bus would be a cheaper option.",
+            "D": "he found out the route was very challenging."
+          },
+          "answer": "D",
+          "explanation": "Bố đọc trên website rằng tuyến đường khó lái vì có nhiều khúc cua gấp ('a number of sharp bends'), nên gia đình chọn xe buýt. Đáp án D.",
+          "explanationVi": "Bố đọc trên website rằng tuyến đường khó lái vì có nhiều khúc cua gấp ('a number of sharp bends'), nên gia đình chọn xe buýt. Đáp án D.",
+          "evidence": ""
+        },
+        {
+          "number": 12,
+          "prompt": "When Donna saw a kangaroo along the route, she was",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "worried that it might approach her.",
+            "B": "amazed at the size of it.",
+            "C": "sad that it didn’t stay with them long.",
+            "D": "disappointed that she had forgotten her camera."
+          },
+          "answer": "A",
+          "explanation": "Con kangaroo dường như định tiến về phía họ khiến Donna 'slightly nervous'. Cô có máy ảnh nhưng quá phấn khích nên không kịp lấy ra, vì vậy D không đúng.",
+          "explanationVi": "Con kangaroo dường như định tiến về phía họ khiến Donna 'slightly nervous'. Cô có máy ảnh nhưng quá phấn khích nên không kịp lấy ra, vì vậy D không đúng.",
+          "evidence": ""
+        },
+        {
+          "number": 13,
+          "prompt": "Donna says that the koala bears they saw were",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "responsible for damage to the trees.",
+            "B": "even more attractive than people had told her.",
+            "C": "more common than she’d expected.",
+            "D": "very skilled at hiding away from tourists."
+          },
+          "answer": "C",
+          "explanation": "Donna nghĩ koala hiếm và khó gặp, nhưng thực tế khu vực có khoảng sáu triệu con, rất dễ nhìn thấy. Vì vậy C đúng.",
+          "explanationVi": "Donna nghĩ koala hiếm và khó gặp, nhưng thực tế khu vực có khoảng sáu triệu con, rất dễ nhìn thấy. Vì vậy C đúng.",
+          "evidence": ""
+        },
+        {
+          "number": 14,
+          "prompt": "What was Donna’s opinion of the place where they stayed?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "She found it was less comfortable than she’d hoped.",
+            "B": "She liked the fact that it was convenient for sightseeing.",
+            "C": "She enjoyed hearing the sounds of nature as she slept.",
+            "D": "She was disappointed there was no restaurant nearby."
+          },
+          "answer": "B",
+          "explanation": "Lều cắm trại sang trọng và gần các điểm du lịch ('within walking distance of some famous rocks and other places'). B đúng; tiếng ếch lại khiến cô thức.",
+          "explanationVi": "Lều cắm trại sang trọng và gần các điểm du lịch ('within walking distance of some famous rocks and other places'). B đúng; tiếng ếch lại khiến cô thức.",
+          "evidence": ""
+        },
+        {
+          "number": 15,
+          "prompt": "What might Donna write in her blog during the trip?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "The bus we’re travelling on is pretty comfortable, with great views from the window. Grandma and Grandad are enjoying it, too!",
+            "B": "We can see quite a lot as we drive along. I just wish we could stop and get out to explore properly.",
+            "C": "Yesterday we went to see some huge rocks near our campsite – and we were really impressed! I’m surprised they’re not well known.",
+            "D": "I wasn’t looking forward to camping, in case there were wild animals, but we haven’t seen anything at all dangerous, so I feel silly now!"
+          },
+          "answer": "D",
+          "explanation": "Donna ban đầu lo sợ tiếng động của thú hoang khi cắm trại nhưng hóa ra chỉ là tiếng ếch, khiến cô ngượng vì đã lo quá mức. D phản ánh đúng trải nghiệm.",
+          "explanationVi": "Donna ban đầu lo sợ tiếng động của thú hoang khi cắm trại nhưng hóa ra chỉ là tiếng ếch, khiến cô ngượng vì đã lo quá mức. D phản ánh đúng trải nghiệm.",
+          "evidence": ""
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "B1 Preliminary for Schools Trainer, second edition",
+    "publisher": "Cambridge University Press",
+    "answerKeyOrigin": "Checked against the supplied publisher Teacher’s Notes & Keys."
+  }
+}
