@@ -45,7 +45,8 @@ function openApp(initialHash = '') {
       scrollTo(){},
       WordHopWriting:{stop(){},render({unit,partId}){main.innerHTML='Writing '+unit.id+' '+partId;}},
       WordHopListening:{stop(){}},
-      WordHopReading:{render(){main.innerHTML='Reading exercise';}},
+      WordHopTrainer:{stop(){},render({segments}){main.innerHTML='Trainer '+segments.join('/');}},
+      WordHopReading:{stop(){},render(){main.innerHTML='Reading exercise';}},
     },
     document:{
       querySelector(selector){if(!nodes.has(selector))nodes.set(selector,node());return nodes.get(selector);},
@@ -82,7 +83,7 @@ const gated = app => {
 
 (async()=>{
   assert.match(read('index.html'),/id="wordhop-navigation"[^>]* hidden>/);
-  for(const link of ['', '#/pet', '#/ielts', '#/results', writingPath, readingPath]){
+  for(const link of ['', '#/pet', '#/ielts', '#/results', writingPath, readingPath, '#/pet/trainer/trainer-test-1/reading/part-2']){
     const app = openApp(link);
     gated(app);
     assert.equal(app.requests.length,1);
@@ -112,6 +113,12 @@ const gated = app => {
   gated(login);
   login.location.hash = '#/results';
   gated(login);
+
+  const trainer = openApp('#/pet/trainer/trainer-test-1/reading/part-2');
+  gated(trainer);
+  await trainer.respond(0,200,{ok:true,student:profile});
+  assert.equal(trainer.html,'Trainer trainer-test-1/reading/part-2');
+  assert.equal(trainer.nav.hidden,false);
 
   const returning = openApp(writingPath);
   gated(returning);

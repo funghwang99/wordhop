@@ -1,0 +1,440 @@
+{
+  "id": "trainer-test-2",
+  "totalParts": 6,
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Part 1",
+      "instructions": "Questions 1–5. Read each text and choose the correct answer (A, B or C).",
+      "text": {
+        "bookPages": "54–55",
+        "keySource": "Teacher’s Notes & Keys, printed page 198",
+        "passageTitle": "",
+        "passageBy": "",
+        "passage": "",
+        "contextTitle": "",
+        "context": []
+      },
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does the notice mean?",
+          "sourceText": "HEAVY SNOW EXPECTED OVERNIGHT\nTRAIN AND BUS DELAYS POSSIBLE\nCHECK WEBSITES REGULARLY —\nSOME SCHOOLS AND OFFICES MAY BE CLOSED TOMORROW",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "The bad weather will make a lot of public transport late tomorrow.",
+            "B": "Snow that is falling will cause a number of problems tomorrow.",
+            "C": "Students should watch for announcements in case they are unable to attend classes tomorrow."
+          },
+          "answer": "C",
+          "explanation": "Thông báo nói trường học “may be closed” và khuyên kiểm tra website thường xuyên. Vì vậy học sinh cần theo dõi thông tin xem ngày mai có nghỉ học không. A nói chắc chắn sẽ trễ, trong khi thông báo chỉ nói “possible”.",
+          "explanationVi": "Thông báo nói trường học “may be closed” và khuyên kiểm tra website thường xuyên. Vì vậy học sinh cần theo dõi thông tin xem ngày mai có nghỉ học không. A nói chắc chắn sẽ trễ, trong khi thông báo chỉ nói “possible”.",
+          "evidence": "HEAVY SNOW EXPECTED OVERNIGHT\nTRAIN AND BUS DELAYS POSSIBLE\nCHECK WEBSITES REGULARLY —\nSOME SCHOOLS AND OFFICES MAY BE CLOSED TOMORROW"
+        },
+        {
+          "number": 2,
+          "prompt": "What is Mrs Jones asking students to do?",
+          "sourceText": "Mrs Jones:\n“Have you got books you’ve already read? Bring them to our Book Exchange on Friday — other students may enjoy them!”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "share books they no longer want with their schoolmates",
+            "B": "find out from other students which books they’ve enjoyed",
+            "C": "bring in a good book to talk about on Friday"
+          },
+          "answer": "A",
+          "explanation": "“Book Exchange” là trao đổi sách; học sinh mang những sách đã đọc tới để bạn khác đọc. Không phải đi hỏi bạn thích sách gì hoặc thảo luận về một cuốn sách.",
+          "explanationVi": "“Book Exchange” là trao đổi sách; học sinh mang những sách đã đọc tới để bạn khác đọc. Không phải đi hỏi bạn thích sách gì hoặc thảo luận về một cuốn sách.",
+          "evidence": "Mrs Jones:\n“Have you got books you’ve already read? Bring them to our Book Exchange on Friday — other students may enjoy them!”"
+        },
+        {
+          "number": 3,
+          "prompt": "Why does Sophie need Joanna’s number?",
+          "sourceText": "Text from Sophie to Billy:\n“Billy, Have you got Joanna’s number? I’m supposed to meet her at the cinema in 10 minutes, but Dad’s driving me into town and we’re in a huge traffic jam! Thanks! Sophie”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "Sophie wants Billy to contact Joanna and warn her about traffic problems in town.",
+            "B": "Sophie needs to let Joanna know that she’s probably going to be late.",
+            "C": "Sophie’s not sure when she’s supposed to meet Joanna to see a film."
+          },
+          "answer": "B",
+          "explanation": "Sophie sắp tới giờ hẹn nhưng bị kẹt xe nặng nên muốn liên hệ Joanna để báo mình có thể đến muộn. Đáp án B diễn đạt đúng ý, không phải cảnh báo chung về giao thông.",
+          "explanationVi": "Sophie sắp tới giờ hẹn nhưng bị kẹt xe nặng nên muốn liên hệ Joanna để báo mình có thể đến muộn. Đáp án B diễn đạt đúng ý, không phải cảnh báo chung về giao thông.",
+          "evidence": "Text from Sophie to Billy:\n“Billy, Have you got Joanna’s number? I’m supposed to meet her at the cinema in 10 minutes, but Dad’s driving me into town and we’re in a huge traffic jam! Thanks! Sophie”"
+        },
+        {
+          "number": 4,
+          "prompt": "What is the coach doing?",
+          "sourceText": "New Message\nFrom: Coach\nTo: Rugby club\n“Just wanted to thank players in Saturday’s match, and people who supported them. Remember, the other side were league winners, so all wasn’t bad — but next time let’s beat them!”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "congratulating the team on their most recent win",
+            "B": "letting the team’s fans know the positive effect of their support",
+            "C": "encouraging the team to play even better in a future match"
+          },
+          "answer": "C",
+          "explanation": "Câu “next time let’s beat them!” động viên đội chơi tốt hơn ở trận sau. Đội không thắng trận vừa rồi nên A sai. Huấn luyện viên cảm ơn người cổ vũ nhưng không đề cập tác động tích cực của họ như B.",
+          "explanationVi": "Câu “next time let’s beat them!” động viên đội chơi tốt hơn ở trận sau. Đội không thắng trận vừa rồi nên A sai. Huấn luyện viên cảm ơn người cổ vũ nhưng không đề cập tác động tích cực của họ như B.",
+          "evidence": "New Message\nFrom: Coach\nTo: Rugby club\n“Just wanted to thank players in Saturday’s match, and people who supported them. Remember, the other side were league winners, so all wasn’t bad — but next time let’s beat them!”"
+        },
+        {
+          "number": 5,
+          "prompt": "What does the café notice mean?",
+          "sourceText": "Café Menu\n“See below for our regular dishes — or for today’s ‘specials’ go inside to see the board by the counter!”",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "optionText": {
+            "A": "We have more food available, apart from what’s written on the menu.",
+            "B": "To decide what to eat, you must go and look at the board inside.",
+            "C": "Speak to someone at the counter when you want to order your food."
+          },
+          "answer": "A",
+          "explanation": "Quán có món thường trên thực đơn và thêm các món đặc biệt trong ngày trên bảng. Vì vậy A đúng. Bạn không bắt buộc phải xem bảng mới chọn được món.",
+          "explanationVi": "Quán có món thường trên thực đơn và thêm các món đặc biệt trong ngày trên bảng. Vì vậy A đúng. Bạn không bắt buộc phải xem bảng mới chọn được món.",
+          "evidence": "Café Menu\n“See below for our regular dishes — or for today’s ‘specials’ go inside to see the board by the counter!”"
+        }
+      ]
+    },
+    {
+      "id": "part-2",
+      "title": "Part 2",
+      "instructions": "Questions 6–10. Match five visitors to the most suitable film studio (A–H). Three studios are not used.",
+      "text": {
+        "bookPages": "57–58",
+        "keySource": "Teacher’s Notes & Keys, printed page 199",
+        "passageTitle": "",
+        "passageBy": "",
+        "passage": "",
+        "contextTitle": "Film studios",
+        "context": [
+          {
+            "letter": "A",
+            "title": "Grand Studios",
+            "description": "These studios have been the home of special effects for years! There’s plenty to look at and read, so allow lots of time for your visit. And our friendly guides around the studios are ready to help direct you to the most interesting sights. It’s best to book online in advance."
+          },
+          {
+            "letter": "B",
+            "title": "Movieworld",
+            "description": "You’ll find the best movies ever here, set far into the future! Use the interactive videos on our computers, to see how actors are turned into on-screen monsters, using amazing make-up, costumes and filming techniques, and models of dinosaurs are created to look as though they’re alive! There are video activities, and ‘tours’ of the studio to download."
+          },
+          {
+            "letter": "C",
+            "title": "Waverley Studios",
+            "description": "These studios are huge, with plenty of space for displaying the scenery and stages where big stars acted in scenes from famous films. Check the website to see exactly what the studio offers inside. And because you’re not shown around in groups, you can spend as much time there as you want!"
+          },
+          {
+            "letter": "D",
+            "title": "Screen World",
+            "description": "Many famous movies from the last century were made in these studios, and you can still see the costumes worn in them, and the original sets used in the films. There’s a useful digital guide you can buy here, so you’ll find your way through these studios really quickly!"
+          },
+          {
+            "letter": "E",
+            "title": "WestWays",
+            "description": "To visit this studio, get tickets in advance through the website, to avoid long queues – it’s very popular with people who love top movies from the 40s, many of which were filmed here. The studio also has a great selection of items from various movies, now on sale as souvenirs!"
+          },
+          {
+            "letter": "F",
+            "title": "FilmFun",
+            "description": "Come and visit amazingly realistic sets, from the streets of New York to the historical sites of Rome – and walk around them! The tour also includes a bus ride to places in the surrounding area which have appeared in films, with a staff member to tell you whatever you’d like to know."
+          },
+          {
+            "letter": "G",
+            "title": "Star Studios",
+            "description": "See a 360° online tour of these studios before you come – they’re huge! And during your visit, ride through what look like London and Paris streets, on original buses used in old films, and even try on costumes from films made here. Digital displays will give you plenty of information!"
+          },
+          {
+            "letter": "H",
+            "title": "FilmPark",
+            "description": "FilmPark has an amazing collection of old cars once used in films – and they still work! So, have a trip in one and see the studios as you’re driven around its huge city street scenes. There’s also a collection of original clothes that stars wore dressed in for their movies. Visitors get free photos of themselves as they leave."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "number": 6,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Tom wants to look around the studio at his own speed, and visit the actual sets where films were made. His mum wants to see online what the studio is like before she buys tickets.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Grand Studios",
+            "B": "Movieworld",
+            "C": "Waverley Studios",
+            "D": "Screen World",
+            "E": "WestWays",
+            "F": "FilmFun",
+            "G": "Star Studios",
+            "H": "FilmPark"
+          },
+          "answer": "C",
+          "explanation": "C cho phép khách tự tham quan, không bị ràng buộc bởi đoàn hướng dẫn, và xem trước thông tin về phim trường trên website. Đây là hai điều Tom và mẹ yêu cầu.",
+          "explanationVi": "C cho phép khách tự tham quan, không bị ràng buộc bởi đoàn hướng dẫn, và xem trước thông tin về phim trường trên website. Đây là hai điều Tom và mẹ yêu cầu.",
+          "evidence": "Tom wants to look around the studio at his own speed, and visit the actual sets where films were made. His mum wants to see online what the studio is like before she buys tickets."
+        },
+        {
+          "number": 7,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Ingrid is interested in seeing costumes that famous actors have worn, and she’d also like to ride on a vehicle that originally appeared in a film. Ingrid’s mum wants a souvenir to remember their trip.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Grand Studios",
+            "B": "Movieworld",
+            "C": "Waverley Studios",
+            "D": "Screen World",
+            "E": "WestWays",
+            "F": "FilmFun",
+            "G": "Star Studios",
+            "H": "FilmPark"
+          },
+          "answer": "H",
+          "explanation": "H trưng bày trang phục gốc của diễn viên, cho khách đi thử xe từng xuất hiện trong phim và tặng ảnh lưu niệm.",
+          "explanationVi": "H trưng bày trang phục gốc của diễn viên, cho khách đi thử xe từng xuất hiện trong phim và tặng ảnh lưu niệm.",
+          "evidence": "Ingrid is interested in seeing costumes that famous actors have worn, and she’d also like to ride on a vehicle that originally appeared in a film. Ingrid’s mum wants a souvenir to remember their trip."
+        },
+        {
+          "number": 8,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Roberto wants to visit a studio where famous films were made many years ago, and buy something that appeared in one of the films. His dad wants to book online before they go.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Grand Studios",
+            "B": "Movieworld",
+            "C": "Waverley Studios",
+            "D": "Screen World",
+            "E": "WestWays",
+            "F": "FilmFun",
+            "G": "Star Studios",
+            "H": "FilmPark"
+          },
+          "answer": "E",
+          "explanation": "E nổi tiếng với các phim thập niên 1940, bán đồ lưu niệm từ các bộ phim và cho đặt vé qua website trước khi đến.",
+          "explanationVi": "E nổi tiếng với các phim thập niên 1940, bán đồ lưu niệm từ các bộ phim và cho đặt vé qua website trước khi đến.",
+          "evidence": "Roberto wants to visit a studio where famous films were made many years ago, and buy something that appeared in one of the films. His dad wants to book online before they go."
+        },
+        {
+          "number": 9,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Simone likes science fiction films, and prefers looking at digital displays about how special effects are achieved to reading information. Simone’s dad wants to get a digital guide.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Grand Studios",
+            "B": "Movieworld",
+            "C": "Waverley Studios",
+            "D": "Screen World",
+            "E": "WestWays",
+            "F": "FilmFun",
+            "G": "Star Studios",
+            "H": "FilmPark"
+          },
+          "answer": "B",
+          "explanation": "B giới thiệu phim khoa học viễn tưởng, có video tương tác về kỹ xảo và nội dung tham quan dạng số có thể tải về.",
+          "explanationVi": "B giới thiệu phim khoa học viễn tưởng, có video tương tác về kỹ xảo và nội dung tham quan dạng số có thể tải về.",
+          "evidence": "Simone likes science fiction films, and prefers looking at digital displays about how special effects are achieved to reading information. Simone’s dad wants to get a digital guide."
+        },
+        {
+          "number": 10,
+          "prompt": "Which option (A–H) is the most suitable?",
+          "sourceText": "Ben is interested in how scenes from famous cities are created in studios. He’d also like to visit film locations outside the studios, accompanied by a guide who can answer his questions.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "optionText": {
+            "A": "Grand Studios",
+            "B": "Movieworld",
+            "C": "Waverley Studios",
+            "D": "Screen World",
+            "E": "WestWays",
+            "F": "FilmFun",
+            "G": "Star Studios",
+            "H": "FilmPark"
+          },
+          "answer": "F",
+          "explanation": "F có bối cảnh mô phỏng New York, Rome và chuyến xe tới các địa điểm quay phim ngoài phim trường với nhân viên hướng dẫn.",
+          "explanationVi": "F có bối cảnh mô phỏng New York, Rome và chuyến xe tới các địa điểm quay phim ngoài phim trường với nhân viên hướng dẫn.",
+          "evidence": "Ben is interested in how scenes from famous cities are created in studios. He’d also like to visit film locations outside the studios, accompanied by a guide who can answer his questions."
+        }
+      ]
+    },
+    {
+      "id": "part-3",
+      "title": "Part 3",
+      "instructions": "Questions 11–15. Read the article and choose the correct answer, A, B, C or D.",
+      "text": {
+        "bookPages": "61–62",
+        "keySource": "Teacher’s Notes & Keys, printed page 200",
+        "passageTitle": "Coasteering",
+        "passageBy": "",
+        "passage": "Lily Carter had no idea what present she wanted for her 14th birthday. But she’d always been keen on challenging sports, especially to do with water, like surfing and sailing. So when her parents heard about an activity called coasteering – exploring rocks along the coast by climbing and swimming – they thought Lily would love it. They found a course offered at an activity centre called Porthdean, just along the coast from the family home, which was perfect. So after checking it was led by experienced instructors, they signed her up.\n\nLily had seen a TV show about coasteering, and was interested in doing it, although she’d thought only adults could take part. But when she discovered that on courses at Porthdean, there’d also be people her age jumping from rocks into the sea, and also exploring caves – which she was never normally allowed to do, so she really wanted to go. But she still asked her dad to go along too, and although he wondered whether he’d like coasteering himself, he knew how much Lily wanted someone to accompany her, so he agreed.\n\nLily and her dad drove to Porthdean, where they attended a session with their instructors to learn basic safety and techniques and be given helmets and special wetsuits to keep the cold out. The group they joined was quite small, which meant they got lots of individual attention. Says Lily, ‘The entire trip was awesome – although the water was freezing! But our instructors encouraged the whole group so much, we were ready to try absolutely all the challenges, even stuff we hadn’t expected at all, like jumping off high cliffs! I must admit, the one I jumped off wasn’t that high, but Dad went much higher!’\n\n‘Anyway, Dad and I hadn’t realised how hard it would be physically, so we were glad we were fit,’ explains Lily. ‘Even so, afterwards, we actually felt like we’d done loads of hard exercise in the gym! But I’ll keep the memories of that trip forever, I reckon. And the instructors are going to put a video of it onto the website, so my friends will see it. They’d never believe me otherwise!’",
+        "contextTitle": "",
+        "context": []
+      },
+      "questions": [
+        {
+          "number": 11,
+          "prompt": "Why did Lily’s parents choose Porthdean for her coasteering present?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "It offered various courses in her favourite watersport.",
+            "B": "The instructors there were highly recommended.",
+            "C": "It wasn’t too far away from where they lived.",
+            "D": "She had already tried some activities there."
+          },
+          "answer": "C",
+          "explanation": "Porthdean nằm 'just along the coast from the family home', nghĩa là gần nhà. C đúng.",
+          "explanationVi": "Porthdean nằm 'just along the coast from the family home', nghĩa là gần nhà. C đúng.",
+          "evidence": ""
+        },
+        {
+          "number": 12,
+          "prompt": "How did Lily feel about the coasteering course?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "pleased that it included something she’d always wanted to try",
+            "B": "excited about doing the experience all on her own",
+            "C": "keen to find out more about what it involved",
+            "D": "interested to see whether she was the only teenager"
+          },
+          "answer": "A",
+          "explanation": "Lily biết khóa học có hoạt động khám phá hang động, việc bình thường cô không được phép làm, nên rất háo hức được thử. A đúng.",
+          "explanationVi": "Lily biết khóa học có hoạt động khám phá hang động, việc bình thường cô không được phép làm, nên rất háo hức được thử. A đúng.",
+          "evidence": ""
+        },
+        {
+          "number": 13,
+          "prompt": "Lily particularly liked her instructors because they made sure everyone",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "was comfortable with the kit they were given.",
+            "B": "felt confident about the new things they would attempt.",
+            "C": "got the same amount of attention.",
+            "D": "knew all the activities they would take part in."
+          },
+          "answer": "B",
+          "explanation": "Người hướng dẫn động viên cả nhóm rất nhiều ('encouraged the whole group so much'), giúp họ tự tin chinh phục cả những thử thách không ngờ tới. B đúng.",
+          "explanationVi": "Người hướng dẫn động viên cả nhóm rất nhiều ('encouraged the whole group so much'), giúp họ tự tin chinh phục cả những thử thách không ngờ tới. B đúng.",
+          "evidence": ""
+        },
+        {
+          "number": 14,
+          "prompt": "Lily says that after the course, she was",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "happy she’d shared something so exciting with her dad.",
+            "B": "sorry she hadn’t worked at getting fitter before she went.",
+            "C": "proud that her friends all thought she’d done well.",
+            "D": "surprised at how exhausted she was by the activities."
+          },
+          "answer": "D",
+          "explanation": "Cả Lily lẫn bố đều không ngờ hoạt động tốn sức đến mức giống như một buổi tập gym nặng. Vì vậy chọn D.",
+          "explanationVi": "Cả Lily lẫn bố đều không ngờ hoạt động tốn sức đến mức giống như một buổi tập gym nặng. Vì vậy chọn D.",
+          "evidence": ""
+        },
+        {
+          "number": 15,
+          "prompt": "What would Lily text to a friend while she was away on the course?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionText": {
+            "A": "I don’t think Dad was sure before he came that he’d enjoy it – but actually, he’s been braver than me!",
+            "B": "I wanted to do the coasteering course, and mentioned it to my parents before my birthday. But I never expected they’d let me go!",
+            "C": "Our session before the activities was great, although I really didn’t think I’d need a wetsuit for the cold – and I was right!",
+            "D": "Going into caves was amazing. I’d love to explore them by myself when we’re next at the beach – I’m sure my parents will let me!"
+          },
+          "answer": "A",
+          "explanation": "Bố ban đầu băn khoăn liệu mình có thích coasteering, nhưng lại dám nhảy từ vách đá cao hơn Lily. A khớp với cả hai chi tiết.",
+          "explanationVi": "Bố ban đầu băn khoăn liệu mình có thích coasteering, nhưng lại dám nhảy từ vách đá cao hơn Lily. A khớp với cả hai chi tiết.",
+          "evidence": ""
+        }
+      ]
+    }
+  ],
+  "source": {
+    "title": "B1 Preliminary for Schools Trainer, second edition",
+    "publisher": "Cambridge University Press",
+    "answerKeyOrigin": "Checked against the supplied publisher Teacher’s Notes & Keys."
+  }
+}

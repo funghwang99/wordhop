@@ -129,3 +129,25 @@
 @media(max-width:550px){.top-nav{flex-wrap:wrap;justify-content:flex-end}.top-nav #student-link{white-space:nowrap}}
 
 .top-nav[hidden]{display:none}
+
+/* Text editions use the same reading answer sheet and part navigation. */
+.reading-text-page{padding:clamp(18px,4vw,42px);background:#fff;color:#202a3a}
+.reading-article{max-width:740px;margin:0 auto 32px;font-size:1.08rem;line-height:1.85}
+.reading-article h4{font-size:1.55rem;line-height:1.35;margin:0 0 12px}
+.reading-byline{color:#647084;font-size:.95rem}
+.reading-context h4{font-size:1.3rem}
+.reading-context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.reading-context-grid article{border:1px solid #dae1ea;border-radius:12px;padding:18px}
+.reading-context-grid h5{font-size:1.05rem;margin:0 0 10px}
+.reading-context-grid p{line-height:1.75;margin:0}
+.reading-text-questions{display:grid;gap:24px;margin-top:28px}
+.reading-text-questions article{border-top:1px solid #dae1ea;padding-top:20px;min-width:0}
+.reading-text-questions h4{font-size:1.08rem;margin:0 0 14px}
+.reading-source-text{white-space:pre-line;line-height:1.75;background:#f5f7fb;padding:18px;border-radius:10px}
+.reading-text-options{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:12px}
+.reading-text-options li{display:flex;align-items:baseline;gap:14px;line-height:1.65}
+.reading-text-options b{flex:0 0 1em;color:#365da8}
+.trainer-modes{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.trainer-modes .unit-tab{border:1px solid #dae1ea;border-radius:9px;text-decoration:none}
+.trainer-modes .unit-tab.active{border-color:#365da8}
+@media(max-width:620px){.reading-context-grid{grid-template-columns:1fr}.reading-article{font-size:1rem}.reading-text-page{padding:18px}.reading-source-text{padding:14px}}

@@ -37,7 +37,7 @@ function loadUnitWords(unit){
 }
 function bookPath(book){return '#/'+[book.trackId,book.levelId,book.id].filter(Boolean).join('/');}
 function unitPath(unit){return bookPath(bookById(unit.bookId))+'/'+unit.id;}
-function parseRoute(hash){let parts;try{parts=hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);}catch{return{};}if(parts[0]==='results')return{history:true};if(parts[0]==='student'&&parts.length===1)return{student:true};const track=trackById(parts[0]);if(!track)return{};const r={track};let i=1;if(track.id==='ielts'){r.level=levelById(parts[i]);if(!r.level||r.level.trackId!==track.id)return r;i++;}const book=bookById(parts[i]);if(!book||book.trackId!==track.id||(r.level&&book.levelId!==r.level.id))return r;r.book=book;const unit=unitById(parts[i+1]);if(unit&&unit.bookId===book.id){r.unit=unit;r.view=['practice','game','result','reading','listening','writing'].includes(parts[i+2])?parts[i+2]:'flash';if(r.view==='reading')r.readingPart=parts[i+3]||'part-1';if(r.view==='listening')r.listeningPart=parts[i+3]||'part-1';if(r.view==='writing')r.writingPart=parts[i+3]||'part-1';}return r;}
+function parseRoute(hash){let parts;try{parts=hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);}catch{return{};}if(parts[0]==='results')return{history:true};if(parts[0]==='student'&&parts.length===1)return{student:true};const track=trackById(parts[0]);if(!track)return{};const r={track};let i=1;if(track.id==='ielts'){r.level=levelById(parts[i]);if(!r.level||r.level.trackId!==track.id)return r;i++;}const book=bookById(parts[i]);if(!book||book.trackId!==track.id||(r.level&&book.levelId!==r.level.id))return r;r.book=book;if(book.id==='trainer'){r.trainer=parts.slice(i+1);return r;}const unit=unitById(parts[i+1]);if(unit&&unit.bookId===book.id){r.unit=unit;r.view=['practice','game','result','reading','listening','writing'].includes(parts[i+2])?parts[i+2]:'flash';if(r.view==='reading')r.readingPart=parts[i+3]||'part-1';if(r.view==='listening')r.listeningPart=parts[i+3]||'part-1';if(r.view==='writing')r.writingPart=parts[i+3]||'part-1';}return r;}
 function closeModal(){modal.close();pendingAction=null;const cancel=pendingCancel;pendingCancel=null;cancel?.();}
 function clearUnitResults(unit){
  const nextHistory=state.history.filter(item=>item.unitId!==unit.id);
@@ -66,12 +66,20 @@ function confirmClearResults(){
  $('#modal-content').innerHTML=`<h2 id="modal-title">Clear saved results?</h2><p>Clear all Reading and Listening answers, Writing drafts and game results for <strong>${esc(unitTitle(unit))}</strong> on this device?</p><p>Your next visit will start with blank answers and drafts. Viewed flashcards will stay marked.${game&&!game.finished?' Your current round will also end.':''}</p><div class="modal-buttons"><button class="btn" data-action="stay">Cancel</button><button class="btn btn-primary" data-action="leave">Clear results</button></div>`;
  if(!modal.open)modal.showModal();
 }
+function confirmTrainerResults(test,onConfirm){
+ pendingAction=onConfirm;
+ pendingCancel=()=>{if((location.hash||'#/')!==currentHash)applyRoute(location.hash||'#/');};
+ $('#modal-content').innerHTML=`<h2 id="modal-title">Clear saved results?</h2><p>Clear saved Trainer answers and scores for <strong>Test ${test}</strong> on this device?</p><p>Your next visit will start with blank answers.</p><div class="modal-buttons"><button class="btn" data-action="stay">Cancel</button><button class="btn btn-primary" data-action="leave">Clear results</button></div>`;
+ if(!modal.open)modal.showModal();
+}
 function guard(action,onCancel=null){if(game&&!game.finished){pendingAction=action;pendingCancel=onCancel;$('#modal-content').innerHTML=`<h2 id="modal-title">Leave this round?</h2><p>Your current round will not be saved.</p><div class="modal-buttons"><button class="btn" data-action="stay">Keep playing</button><button class="btn btn-primary" data-action="leave">Leave round</button></div>`;if(!modal.open)modal.showModal();return;}action();}
 function navigate(path){guard(()=>{clearTimeout(matchTimer);game=null;result=null;study=null;if(location.hash===path)applyRoute(path);else location.hash=path;});}
 function setUnitView(next,replace=false){const path=unitPath(route.unit)+(next==='flash'?'':'/'+next);if(replace||path!==currentHash)history[replace?'replaceState':'pushState'](null,'',path);currentHash=path;route=parseRoute(path);screen=next;}
 function changeScreen(next){guard(()=>{clearTimeout(matchTimer);game=null;result=null;if(next==='practice'&&(screen==='game'||screen==='result')){history.back();return;}setUnitView(next);if(next==='flash'&&!study)resetStudy();render();window.scrollTo({top:0,behavior:'instant'});focusMain();});}
 function focusMain(){main.focus({preventScroll:true});}
 function render(){
+ window.WordHopReading.stop();
+ window.WordHopTrainer?.stop();
  window.WordHopWriting.stop();
  window.WordHopFlappy?.stop();
  window.WordHopListening.stop();
@@ -90,6 +98,7 @@ function render(){
  }
  if(route.student)studentAuth.render(main,navigate);
  else if(route.history)renderHistory();
+ else if(route.trainer)window.WordHopTrainer.render({segments:route.trainer,container:main,toast,confirmClear:confirmTrainerResults,onGrade:correct=>playFeedbackSound(correct)});
  else if(route.unit)renderUnit();
  else if(route.book)renderBook();
  else if(route.level)renderLevel();
