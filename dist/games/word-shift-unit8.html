@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#081523"><meta name="description" content="Word Shift: a top-down maze escape arcade vocabulary game for Basic IELTS Reading Unit 8"><title>WORD SHIFT · Unit 8 · WordHop Arcade</title>
+<style>
+:root{color-scheme:dark;--bg:#06111e;--panel:#0d2133;--panel2:#102c40;--edge:#33556c;--text:#f1f9ff;--muted:#afc8d6;--mint:#79ffd1;--blue:#79dbfa;--yellow:#ffd37a;--pink:#ff829d;--shadow:#0009}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:radial-gradient(ellipse 850px 440px at 50% -160px,#25566b,#091a2a 68%,#06111e);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--text)}button,select{font:inherit;touch-action:manipulation}button{cursor:pointer;border:0}button:focus-visible,select:focus-visible,canvas:focus-visible{outline:3px solid #baffeb;outline-offset:3px}button:disabled{opacity:.42;cursor:default}
+.page{max-width:1140px;margin:auto;padding:16px clamp(8px,2vw,22px) 25px}.top{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:0 0 17px}.logo{display:flex;gap:9px;align-items:center;font-size:13px;font-weight:950;letter-spacing:1px}.logo-icon{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,#96ffe4,#75bfff);display:grid;place-items:center;color:#093d47;font-weight:1000;font-size:21px;box-shadow:0 0 25px #55ffd343}.logo em{font-style:normal;color:var(--mint)}.unit{font-size:10px;color:#a6c3d8;letter-spacing:1px;font-weight:850;text-align:right}
+.headline{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;margin-bottom:13px}.heading small{display:block;font-size:10px;font-weight:950;color:var(--mint);letter-spacing:2px;margin-bottom:6px}.heading h1{font-size:clamp(32px,5vw,55px);letter-spacing:-2.7px;line-height:.97;font-weight:1000;margin:0}.heading h1 span{color:#7effd6}.heading p{margin:7px 0 0;color:#b5cdda;font-size:12px}.tag{border:1px solid #467f78;background:#103b42;color:#b1ffe9;border-radius:99px;padding:9px 11px;font-size:10px;font-weight:900;white-space:nowrap}
+.shell{border-radius:20px;background:linear-gradient(135deg,#12283e,#081827);border:1px solid #496b80b0;box-shadow:0 24px 75px var(--shadow);overflow:hidden}
+.hud{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px;padding:10px}.stat{background:#07192b;border:1px solid #30546b;border-radius:11px;padding:8px 12px;min-width:0}.stat small{color:#8eaec0;font-weight:900;display:block;font-size:9px;letter-spacing:1.3px}.stat b{font-size:clamp(18px,2.1vw,24px);font-weight:1000;font-variant-numeric:tabular-nums;line-height:1.38}.stat b.lives{color:#ff93a9;letter-spacing:1.5px}.stat b.time{color:#ffe39a}
+.clues{padding:13px 17px 12px;background:linear-gradient(105deg,#102d3f,#143a4b 55%,#122f4a);border-top:1px solid #3a6174;border-bottom:1px solid #426477}.clue-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:9px;letter-spacing:1.35px;color:#91ffe0;font-weight:950;text-transform:uppercase}.clue-type{padding:5px 7px;border-radius:6px;background:#204b57;border:1px solid #478989}.clue-question{font-size:clamp(15px,2.25vw,22px);font-weight:900;letter-spacing:-.42px;line-height:1.37;margin:9px 0 6px;min-height:29px}.clue-note{color:#c2d7e3;font-size:11px;font-weight:650;line-height:1.4}.clue-note strong{color:#ffe8a4}.progress{height:4px;background:#061827;margin-top:12px;border-radius:99px;overflow:hidden}.progress>div{height:100%;width:0;background:linear-gradient(90deg,#51c7ff,#7dffd3);transition:width .2s}
+.board{position:relative;background:#07131e;overflow:hidden;isolation:isolate}.board canvas{display:block;width:100%;height:auto;aspect-ratio:15/11;touch-action:none;user-select:none;outline-offset:-4px}.inset{position:absolute;top:11px;left:13px;font-size:10px;font-weight:900;letter-spacing:1px;color:#d9f9ee;text-shadow:0 1px 4px #000;pointer-events:none}.inset.right{left:auto;right:13px;color:#ffdda8}.toast{position:absolute;left:50%;top:20%;width:min(510px,88%);transform:translate(-50%,-18px);padding:11px 17px;border-radius:13px;border:1px solid #6de9c4;background:#0a2a33ee;color:#dcfff4;box-shadow:0 12px 40px #000a;text-align:center;font-weight:900;font-size:13px;z-index:2;opacity:0;transition:opacity .17s, transform .17s;pointer-events:none;backdrop-filter:blur(6px)}.toast.show{opacity:1;transform:translate(-50%,0)}.toast.danger{background:#341827ee;border-color:#ff7f9d;color:#ffe3e9}.toast.good{background:#103d3aee;color:#c9ffdd}
+.portalbar{background:#0a1e30;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:10px 12px;border-top:1px solid #28465e}.portal{min-width:0;border:1px solid #406881;border-radius:9px;background:#132e45;display:flex;gap:9px;align-items:center;padding:8px 10px;color:#deefff}.portal b{border-radius:7px;background:#295574;color:#c8f1ff;width:26px;height:26px;flex:0 0 26px;display:grid;place-items:center;font-size:13px}.portal span{font-size:clamp(10px,1.3vw,13px);font-weight:800;overflow-wrap:anywhere;line-height:1.15}.portal:nth-child(2) b{background:#5b397c;color:#e5beff}.portal:nth-child(3) b{background:#755329;color:#ffe6a5}
+.controls{background:#081a2b;display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px;flex-wrap:wrap}.instructions{color:#9ab5cb;font-size:11px;line-height:1.5;max-width:280px}.instructions strong{color:#d3fff2}.input-controls{display:flex;align-items:center;gap:9px}.dpad{display:grid;grid-template-columns:repeat(3,42px);grid-template-rows:repeat(2,41px);gap:3px;justify-items:stretch}.ctrl{background:#1a3a51;border:1px solid #47738a;color:#e8faff;display:grid;place-items:center;border-radius:9px;font-weight:1000;font-size:19px}.ctrl:active,.ctrl.active{background:#2b6580;transform:scale(.96)}.ctrl.up{grid-column:2;grid-row:1}.ctrl.left{grid-column:1;grid-row:2}.ctrl.down{grid-column:2;grid-row:2}.ctrl.right{grid-column:3;grid-row:2}.abilities{display:flex;gap:7px;align-items:center}.ability{min-height:48px;border-radius:10px;padding:7px 15px;font-size:11px;font-weight:950;letter-spacing:.7px;background:linear-gradient(135deg,#89ffe0,#69c0e8);color:#082b40;white-space:nowrap}.ability.alt{color:#f0e7ff;background:linear-gradient(135deg,#6d469f,#403a8e)}.ability small{font-size:9px;opacity:.76;display:block;letter-spacing:0;margin-top:1px}.secondary{border:1px solid #476981;background:#1c3146;color:#d8eaf6;padding:9px 12px;border-radius:9px;font-size:11px;font-weight:800}.foot{color:#7c9bb1;font-size:10px;display:flex;align-items:center;justify-content:space-between;padding:14px 4px 0;gap:9px}
+.overlay{position:absolute;inset:0;z-index:5;background:linear-gradient(180deg,#061525cc,#061525ed);backdrop-filter:blur(7px);display:flex;justify-content:center;align-items:center;padding:14px}.overlay[hidden]{display:none}.dialog{background:linear-gradient(145deg,#15394b,#0c2435 80%);border:1px solid #70aaac7a;border-radius:19px;padding:22px clamp(18px,3vw,29px);width:min(485px,100%);max-height:98%;overflow:auto;text-align:center;box-shadow:0 25px 75px #000b,inset 0 1px #ffffff23}.dialog h2{font-size:clamp(28px,4vw,40px);line-height:1.04;letter-spacing:-1.5px;margin:11px 0;font-weight:1000}.dialog h2 span{color:#8ffed7}.dialog p{font-size:12px;line-height:1.5;color:#c2d7e5;margin:9px 0}.label-top{color:#9ff4d5;font-size:10px;font-weight:950;letter-spacing:2px}.hero-mini{margin:12px auto;font-size:44px;line-height:1;filter:drop-shadow(0 0 20px #a6ffe899)}.fields{display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:left;margin:15px 0}.fields label{color:#b2cbdc;font-size:10px;letter-spacing:1px;font-weight:900}.fields select{color:#122f45;background:#ecfaff;width:100%;padding:10px 8px;border-radius:8px;font-size:12px;font-weight:800;margin-top:5px;min-height:42px}.button-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.btn{background:linear-gradient(120deg,#79f9d5,#8ccdf6);border-radius:10px;padding:12px 21px;font-size:12px;font-weight:1000;color:#083b43;min-height:44px}.btn.dim{background:#25465d;color:#e6f6ff;border:1px solid #5b8194}.guide{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin:13px auto}.guide span{background:#16415b;color:#baf5ee;border:1px solid #377889;border-radius:7px;padding:5px 8px;font-size:10px;font-weight:800}.results{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:14px auto}.results>div{border:1px solid #426a81;border-radius:9px;background:#0a2839;padding:10px 3px}.results b{font-size:21px;display:block}.results small{font-size:9px;color:#b6cbda}.missed{max-height:90px;overflow:auto;border:1px solid #436b7b;border-radius:8px;background:#0a2537;margin:12px 0;padding:10px;color:#dce9f1;font-size:11px;line-height:1.45;text-align:left}
+@media(max-width:700px){.overlay{position:fixed;inset:0;z-index:30;padding:12px 14px;align-items:center;justify-content:center;background:#061525;backdrop-filter:blur(10px)}.dialog{max-height:calc(100dvh - 28px);overflow-y:auto;width:min(460px,100%)}.stat b.lives{font-size:13px;letter-spacing:-1px}.page{padding:8px 6px 14px}.top{margin-bottom:9px}.headline{margin-bottom:9px}.heading h1{font-size:34px}.heading p{font-size:10px}.tag{display:none}.unit{max-width:154px;font-size:9px}.shell{border-radius:13px}.hud{gap:4px;padding:6px}.stat{padding:6px 5px;text-align:center;border-radius:7px}.stat small{font-size:8px;letter-spacing:.2px}.stat b{font-size:17px}.clues{padding:9px 11px}.clue-meta{font-size:8px}.clue-question{font-size:16px;line-height:1.26;margin:7px 0 4px}.clue-note{font-size:10px}.progress{margin-top:8px}.inset{font-size:8px;top:6px;left:6px}.inset.right{right:6px}.portalbar{gap:4px;padding:6px}.portal{padding:5px 4px;gap:4px}.portal b{width:20px;height:20px;flex-basis:20px;font-size:10px}.portal span{font-size:9px}.controls{padding:7px;gap:6px}.instructions{order:3;text-align:center;max-width:none;width:100%;font-size:9px}.input-controls{width:100%;justify-content:center;gap:15px}.dpad{grid-template-columns:repeat(3,42px);grid-template-rows:repeat(2,39px)}.ability{padding:6px 12px;min-height:43px;font-size:10px}.secondary{padding:7px}.foot{flex-wrap:wrap;justify-content:center;text-align:center}.dialog{padding:15px 13px}.dialog h2{font-size:29px}.dialog p{font-size:11px}.hero-mini{font-size:31px;margin:3px auto}.guide{margin:7px auto}.fields{margin:10px auto}.dialog{max-height:100%}}
+@media(max-width:385px){.portal span{font-size:8px}.heading h1{font-size:30px}.controlbar{gap:4px}}
+@media(prefers-reduced-motion:reduce){.progress>div,.toast{transition:none}}
+
+/* WordHop embedded mode: game header lives in the parent page. */
+html.embedded .page{width:100%;max-width:none;padding:4px 4px 12px}
+html.embedded .top,html.embedded .headline,html.embedded .foot{display:none}
+html.embedded .shell{margin:0 auto;width:100%}
+html.embedded body{background:#06111e}
+</style></head><body><script>if(new URLSearchParams(location.search).has('embed'))document.documentElement.classList.add('embedded');</script><div class="page"><header class="top"><div class="logo"><span class="logo-icon">W</span><span>WORDHOP <em>ARCADE</em></span></div><div class="unit">BASIC IELTS READING · UNIT 08</div></header><section class="headline"><div class="heading"><small>ESCAPE · VOCABULARY · SURVIVAL</small><h1>WORD <span>SHIFT.</span></h1><p>Explore a changing labyrinth. Outrun the sentries. Escape through the correct portal.</p></div><div class="tag">2 WORLDS · 51 WORDS</div></section><main class="shell"><section class="hud"><div class="stat"><small>SCORE</small><b id="score">0</b></div><div class="stat"><small>SECTOR</small><b id="sector">0 / 51</b></div><div class="stat"><small>SHIELDS</small><b id="shields" class="lives">♥♥♥♥♥</b></div><div class="stat"><small>TIME</small><b id="timer" class="time">∞</b></div></section><section class="clues"><div class="clue-meta"><span class="clue-type" id="clueType">MISSION BRIEF</span><span id="chapter">CAMPUS DISTRICT</span></div><div class="clue-question" id="clue">Activate both energy cores, then escape through the portal that fits the clue.</div><div class="clue-note" id="clueNote">Use arrow keys / WASD or touch controls. Dash past sentries, and use EMP to freeze them.</div><div class="progress"><div id="progress"></div></div></section><section class="board"><canvas id="world" tabindex="0" role="application" aria-label="Word Shift maze. Move with arrow keys or WASD. Reach the two energy cores, then enter the correct vocabulary portal."></canvas><span class="inset" id="missionStatus">ENERGY CORES 0/2</span><span class="inset right" id="empStatus">EMP 0%</span><div id="toast" class="toast" aria-live="polite"></div><div class="overlay" id="overlay"></div></section><div id="portalbar" class="portalbar"><div class="portal"><b>A</b><span>Find a word</span></div><div class="portal"><b>B</b><span>in the maze</span></div><div class="portal"><b>C</b><span>and escape!</span></div></div><section class="controls"><div class="instructions"><strong>Move:</strong> WASD / arrows · <strong>Dash:</strong> Shift · <strong>EMP:</strong> E / Space<br>Activate both cores first. Wrong portals cost shields.</div><div class="input-controls"><div class="dpad"><button class="ctrl up" data-hold="up" aria-label="Move up">↑</button><button class="ctrl left" data-hold="left" aria-label="Move left">←</button><button class="ctrl down" data-hold="down" aria-label="Move down">↓</button><button class="ctrl right" data-hold="right" aria-label="Move right">→</button></div><div class="abilities"><button id="dash" class="ability" type="button">DASH<small>Shift</small></button><button id="emp" class="ability alt" type="button">EMP<small>Space</small></button></div></div><button id="pause" class="secondary" type="button" disabled>Pause</button></section></main><footer class="foot"><span>WORDHOP · BASIC IELTS READING · 51 SOURCE WORDS</span><span>WORDHOP ARCADE · UNIT 8</span></footer></div>
+<script id="wordbank" type="application/json">[
+  {
+    "id": "bir-u8-achieve",
+    "term": "achieve",
+    "pos": "v.",
+    "definition": "to succeed in getting or doing something",
+    "cloze": "Students can ________ their English goal with practice.",
+    "answer": "achieve",
+    "paraphrase": "successfully reach an objective",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-annual",
+    "term": "annual",
+    "pos": "adj.",
+    "definition": "happening once every year",
+    "cloze": "Fees are listed as ________ tuition.",
+    "answer": "annual",
+    "paraphrase": "once in every twelve months",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-attempt",
+    "term": "attempt",
+    "pos": "v.",
+    "definition": "to try to do something",
+    "cloze": "You should ________ every question in the booklet.",
+    "answer": "attempt",
+    "paraphrase": "make an effort to do something",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-booklet",
+    "term": "booklet",
+    "pos": "n.",
+    "definition": "a small book that gives information",
+    "cloze": "Course details are listed in this ________.",
+    "answer": "booklet",
+    "paraphrase": "a short information book",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-campus",
+    "term": "campus",
+    "pos": "n.",
+    "definition": "the buildings and land of a university",
+    "cloze": "The university has ________ in Campbelltown and Bankstown.",
+    "answer": "campuses",
+    "paraphrase": "university grounds and buildings",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-charge",
+    "term": "charge",
+    "pos": "n.",
+    "definition": "an amount of money that must be paid",
+    "cloze": "Extra ________ may be included for some courses.",
+    "answer": "charges",
+    "paraphrase": "an extra sum that must be paid",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-confirmation",
+    "term": "confirmation",
+    "pos": "n.",
+    "definition": "proof that something is definite",
+    "cloze": "Some dates are subject to final ________.",
+    "answer": "confirmation",
+    "paraphrase": "verification that a plan is final",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-constant",
+    "term": "constant",
+    "pos": "adj.",
+    "definition": "staying the same; not changing",
+    "cloze": "Course details do not always remain ________.",
+    "answer": "constant",
+    "paraphrase": "remaining unchanged over time",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-deem",
+    "term": "deem",
+    "pos": "v.",
+    "definition": "to consider or judge in a particular way",
+    "cloze": "The university ________ the language of instruction satisfactory.",
+    "answer": "deemed",
+    "paraphrase": "regard something as satisfactory",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-demonstrate",
+    "term": "demonstrate",
+    "pos": "v.",
+    "definition": "to show something clearly",
+    "cloze": "Applicants must ________ proficiency in English.",
+    "answer": "demonstrate",
+    "paraphrase": "make an ability clear to others",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-duration",
+    "term": "duration",
+    "pos": "n.",
+    "definition": "the length of time that something lasts",
+    "cloze": "The booklet gives the ________ of each course.",
+    "answer": "duration",
+    "paraphrase": "how long a course lasts",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-enrolment",
+    "term": "enrolment",
+    "pos": "n.",
+    "definition": "the act of officially joining a course",
+    "cloze": "Students receive more information after ________.",
+    "answer": "enrolment",
+    "paraphrase": "official registration for study",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-equivalent",
+    "term": "equivalent",
+    "pos": "adj.",
+    "definition": "equal in value, level, or meaning",
+    "cloze": "Students need secondary education or an ________ qualification.",
+    "answer": "equivalent",
+    "paraphrase": "having the same value or standard",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-evidence",
+    "term": "evidence",
+    "pos": "n.",
+    "definition": "information that shows something is true",
+    "cloze": "Mature-age students may provide ________ of work experience.",
+    "answer": "evidence",
+    "paraphrase": "information supporting a claim",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-exceed",
+    "term": "exceed",
+    "pos": "v.",
+    "definition": "to be more than a number or limit",
+    "cloze": "Student numbers may ________ last year's total.",
+    "answer": "exceed",
+    "paraphrase": "go beyond a permitted limit",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-honours-degree",
+    "term": "Honours degree",
+    "pos": "n.",
+    "definition": "a higher-level bachelor's degree",
+    "cloze": "Some courses offer a fourth year for an ________.",
+    "answer": "Honours degree",
+    "paraphrase": "an advanced bachelor's award",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-institution",
+    "term": "institution",
+    "pos": "n.",
+    "definition": "an organization such as a university or college",
+    "cloze": "Students may apply to another ________.",
+    "answer": "institution",
+    "paraphrase": "an educational organisation",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-mature",
+    "term": "mature",
+    "pos": "adj.",
+    "definition": "fully grown or developed",
+    "cloze": "________-age students may still be considered.",
+    "answer": "Mature",
+    "paraphrase": "fully developed or adult",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-merit",
+    "term": "merit",
+    "pos": "n.",
+    "definition": "ability or quality that deserves success",
+    "cloze": "Entry to some courses is based on ________.",
+    "answer": "merit",
+    "paraphrase": "quality deserving recognition",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-metropolitan",
+    "term": "metropolitan",
+    "pos": "adj.",
+    "definition": "relating to a large city and the area around it",
+    "cloze": "The campus is in the Sydney ________ area.",
+    "answer": "metropolitan",
+    "paraphrase": "belonging to a major city",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-proficiency",
+    "term": "proficiency",
+    "pos": "n.",
+    "definition": "skill or ability in doing something",
+    "cloze": "Applicants must show ________ in English.",
+    "answer": "proficiency",
+    "paraphrase": "a high level of competence",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-qualification",
+    "term": "qualification",
+    "pos": "n.",
+    "definition": "an official result that proves ability",
+    "cloze": "Students need an equivalent ________.",
+    "answer": "qualification",
+    "paraphrase": "formal proof of an educational level",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-secondary",
+    "term": "secondary",
+    "pos": "adj.",
+    "definition": "relating to education after primary school",
+    "cloze": "Applicants usually finish ________ education first.",
+    "answer": "secondary",
+    "paraphrase": "schooling beyond primary level",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-tuition",
+    "term": "tuition",
+    "pos": "n.",
+    "definition": "the money paid for being taught",
+    "cloze": "Course fees include annual ________.",
+    "answer": "tuition",
+    "paraphrase": "fees for teaching and instruction",
+    "chapter": 0
+  },
+  {
+    "id": "bir-u8-alter",
+    "term": "alter",
+    "pos": "v.",
+    "definition": "to change something",
+    "cloze": "Too much food can ________ the balance of your diet.",
+    "answer": "alter",
+    "paraphrase": "modify the way something is arranged",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-ancestor",
+    "term": "ancestor",
+    "pos": "n.",
+    "definition": "a family member who lived long ago",
+    "cloze": "Our ________ mainly ate food from plants.",
+    "answer": "ancestors",
+    "paraphrase": "someone from earlier generations of a family",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-balance",
+    "term": "balance",
+    "pos": "n.",
+    "definition": "the right amount of different things",
+    "cloze": "Your body needs a good ________ of foods.",
+    "answer": "balance",
+    "paraphrase": "a suitable mix of different things",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-calorie",
+    "term": "calorie",
+    "pos": "n.",
+    "definition": "a unit for measuring energy in food",
+    "cloze": "Too many ________ can be stored as body fat.",
+    "answer": "calories",
+    "paraphrase": "a measure of food energy",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-carbohydrate",
+    "term": "carbohydrate",
+    "pos": "n.",
+    "definition": "a nutrient that gives the body energy",
+    "cloze": "Bread and rice contain ________.",
+    "answer": "carbohydrates",
+    "paraphrase": "a food nutrient supplying energy",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-cereal",
+    "term": "cereal",
+    "pos": "n.",
+    "definition": "food made from grain",
+    "cloze": "________ can contain fibre.",
+    "answer": "Cereal",
+    "paraphrase": "grain-based breakfast food",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-cope",
+    "term": "cope",
+    "pos": "v.",
+    "definition": "to deal successfully with something",
+    "cloze": "Some bodies ________ better with certain foods.",
+    "answer": "cope",
+    "paraphrase": "manage a difficult situation",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-dairy",
+    "term": "dairy",
+    "pos": "adj./n.",
+    "definition": "made from milk, or foods made from milk",
+    "cloze": "Milk and cheese are ________ products.",
+    "answer": "dairy",
+    "paraphrase": "products made from milk",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-depend",
+    "term": "depend",
+    "pos": "v.",
+    "definition": "to be decided or affected by something",
+    "cloze": "What you need ________ on your body.",
+    "answer": "depends",
+    "paraphrase": "be influenced by something else",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-digestive",
+    "term": "digestive",
+    "pos": "adj.",
+    "definition": "connected with changing food into energy",
+    "cloze": "Some people have disorders of the ________ system.",
+    "answer": "digestive",
+    "paraphrase": "connected with processing food in the body",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-disorder",
+    "term": "disorder",
+    "pos": "n.",
+    "definition": "an illness or problem in the body",
+    "cloze": "Some people have digestive ________.",
+    "answer": "disorders",
+    "paraphrase": "an illness affecting normal functioning",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-energetic",
+    "term": "energetic",
+    "pos": "adj.",
+    "definition": "having a lot of energy",
+    "cloze": "Extra energy can make people feel more ________.",
+    "answer": "energetic",
+    "paraphrase": "full of strength and energy",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-extract",
+    "term": "extract",
+    "pos": "v.",
+    "definition": "to take something out from somewhere",
+    "cloze": "The body ________ energy from food.",
+    "answer": "extracts",
+    "paraphrase": "remove or obtain a substance from something",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-fibre",
+    "term": "fibre",
+    "pos": "n.",
+    "definition": "part of plant food that helps digestion",
+    "cloze": "Food with plenty of ________ can help you feel full.",
+    "answer": "fibre",
+    "paraphrase": "plant material that helps bowel function",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-fitness",
+    "term": "fitness",
+    "pos": "n.",
+    "definition": "the condition of being healthy and strong",
+    "cloze": "Exercise can improve your ________.",
+    "answer": "fitness",
+    "paraphrase": "the state of physical health and strength",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-gene",
+    "term": "gene",
+    "pos": "n.",
+    "definition": "a part of a cell that controls inherited features",
+    "cloze": "________ may affect how easily people put on weight.",
+    "answer": "Genes",
+    "paraphrase": "inherited instructions inside cells",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-inherit",
+    "term": "inherit",
+    "pos": "v.",
+    "definition": "to receive a feature from parents through genes",
+    "cloze": "You ________ genes from your parents.",
+    "answer": "inherit",
+    "paraphrase": "receive traits passed down by parents",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-mineral",
+    "term": "mineral",
+    "pos": "n.",
+    "definition": "a substance in food that the body needs",
+    "cloze": "A varied diet provides ________.",
+    "answer": "minerals",
+    "paraphrase": "essential inorganic nutrient in food",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-nibble",
+    "term": "nibble",
+    "pos": "v.",
+    "definition": "to eat with small bites",
+    "cloze": "Some people ________ chips between meals.",
+    "answer": "nibble",
+    "paraphrase": "eat in tiny bites",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-pill",
+    "term": "pill",
+    "pos": "n.",
+    "definition": "a small solid piece of medicine",
+    "cloze": "Vitamin ________ are not likely to help most people.",
+    "answer": "pills",
+    "paraphrase": "a small solid piece of medicine",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-protein",
+    "term": "protein",
+    "pos": "n.",
+    "definition": "a nutrient that helps the body grow and repair itself",
+    "cloze": "Meat, eggs and dairy products contain ________.",
+    "answer": "protein",
+    "paraphrase": "nutrient needed to build and repair tissues",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-pulse",
+    "term": "pulse",
+    "pos": "n.",
+    "definition": "the regular beat felt as blood moves through the body",
+    "cloze": "Doctors may check a patient's ________.",
+    "answer": "pulse",
+    "paraphrase": "the regular rhythmic beating of blood vessels",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-shape",
+    "term": "shape",
+    "pos": "v.",
+    "definition": "to influence how something develops",
+    "cloze": "Your upbringing can ________ your attitudes to food.",
+    "answer": "shape",
+    "paraphrase": "influence the formation of something",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-swallow",
+    "term": "swallow",
+    "pos": "v.",
+    "definition": "to move food or drink down your throat",
+    "cloze": "The average person ________ a lot of food each year.",
+    "answer": "swallows",
+    "paraphrase": "send food down the throat",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-upbringing",
+    "term": "upbringing",
+    "pos": "n.",
+    "definition": "the way a child is cared for and taught",
+    "cloze": "Your ________ can shape your eating habits.",
+    "answer": "upbringing",
+    "paraphrase": "the way someone was raised as a child",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-varied",
+    "term": "varied",
+    "pos": "adj.",
+    "definition": "containing many different types",
+    "cloze": "A ________ diet gives enough nutrients.",
+    "answer": "varied",
+    "paraphrase": "including a range of different kinds",
+    "chapter": 1
+  },
+  {
+    "id": "bir-u8-vitamin",
+    "term": "vitamin",
+    "pos": "n.",
+    "definition": "a substance in food that keeps the body healthy",
+    "cloze": "Most people do not need ________ pills.",
+    "answer": "vitamin",
+    "paraphrase": "micronutrient supporting normal health",
+    "chapter": 1
+  }
+]</script><script>
+(()=>{'use strict';
+const WORDS=JSON.parse(document.querySelector('#wordbank').textContent);
+const $=s=>document.querySelector(s), W=720,H=528,T=48,C=15,R=11;
+const canvas=$('#world'),ctx=canvas.getContext('2d');
+const el={score:$('#score'),sector:$('#sector'),shields:$('#shields'),timer:$('#timer'),clue:$('#clue'),clueType:$('#clueType'),clueNote:$('#clueNote'),chapter:$('#chapter'),progress:$('#progress'),mission:$('#missionStatus'),empStatus:$('#empStatus'),portal:$('#portalbar'),toast:$('#toast'),overlay:$('#overlay'),pause:$('#pause'),dash:$('#dash'),emp:$('#emp')};
+const savedKey='wordhop.arcade.wordshift.unit8.v1';let best=0;try{best=Number(JSON.parse(localStorage.getItem(savedKey)||'{}').best)||0;}catch{}
+const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));const lerp=(a,b,t)=>a+(b-a)*t;const cx=x=>(x+.5)*T,cy=y=>(y+.5)*T;
+const rng=seed=>()=>{seed|=0;seed=seed+0x6d2b79f5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};
+function shuffle(a,r=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[j],a[i]]=[a[i],a[j]];}return a;}
+let s={phase:'menu',mode:'explorer',total:10,deck:[],i:0,score:0,firstTry:0,attempted:0,missed:new Set(),streak:0,shields:5,wave:null,t:0,last:0,prev:0,keys:new Set(),visual:{},shake:0,fx:[],flash:0,emp:0,empTimer:0,empCooldown:0,dashCooldown:0,dashing:0,dashV:{x:0,y:-1},toastLeft:0,freezeAfter:0,sound:true};
+let audio=null;
+function tone(type){if(!s.sound)return;try{const C=window.AudioContext||window.webkitAudioContext;audio=audio||new C();if(audio.state==='suspended')audio.resume();const ac=audio,now=ac.currentTime;const p=type==='good'?[650,920]:type==='bad'?[250,155]:type==='core'?[570,830]:type==='dash'?[330,490]:type==='emp'?[420,300,710]:[360];p.forEach((f,i)=>{let o=ac.createOscillator(),g=ac.createGain();o.type=type==='bad'?'sawtooth':'triangle';o.frequency.setValueAtTime(f,now+i*.08);g.gain.setValueAtTime(.032,now+i*.08);g.gain.exponentialRampToValueAtTime(.0001,now+i*.08+.15);o.connect(g);g.connect(ac.destination);o.start(now+i*.08);o.stop(now+i*.08+.15);});}catch{}}
+function showToast(text,kind=''){el.toast.textContent=text;el.toast.className='toast show '+kind;s.toastLeft=1.65;}
+function hideOverlay(){el.overlay.hidden=true;el.overlay.innerHTML='';}
+function overlay(html){el.overlay.hidden=false;el.overlay.innerHTML=html;}
+function showMenu(){s.phase='menu';s.i=0;s.wave=null;s.score=0;s.firstTry=0;s.attempted=0;s.missed=new Set();s.shields=5;s.streak=0;s.emp=0;s.fx=[];el.clue.textContent='Activate both energy cores, then escape through the portal that fits the clue.';el.clueNote.textContent='The maze changes each sector. Watch out for moving sentries, laser scans and locked routes.';el.clueType.textContent='MISSION BRIEF';el.chapter.textContent='CAMPUS DISTRICT / NUTRITION LAB';el.portal.innerHTML=['EXPLORATION','VOCABULARY','ESCAPE'].map((x,i)=>`<div class="portal"><b>${'ABC'[i]}</b><span>${x}</span></div>`).join('');overlay(`<div class="dialog"><span class="label-top">WORDHOP ARCADE · NEW GAME FORMAT</span><div class="hero-mini">🧭</div><h2>ESCAPE THE <span>WORD SHIFT</span></h2><p>Run through a living maze, collect two glowing energy cores, then enter the portal whose word matches the clue. Guards chase you, laser gates sweep the halls, and wrong portals drain shields.</p><div class="guide"><span>WASD / ARROWS: MOVE</span><span>SHIFT: DASH</span><span>SPACE: EMP</span></div><div class="fields"><label>WORDS<select id="roundSize"><option value="10">10 words</option><option value="20">20 words</option><option value="51">All 51 words</option></select></label><label>DIFFICULTY<select id="difficulty"><option value="explorer">Explorer · Learn & escape</option><option value="chase">Pursuit · 45s / sector</option></select></label></div><button class="btn" type="button" data-act="start">ENTER THE MAZE →</button><p>Two worlds: University Life and Food & Nutrition. No typing, no answer buttons, no matching pairs.</p><p style="font-size:10px">Best score: <strong style="color:#9bffe9">${best.toLocaleString()}</strong></p></div>`);updateHUD();}
+function deckFor(n){const first=shuffle(WORDS.filter(w=>w.chapter===0)),second=shuffle(WORDS.filter(w=>w.chapter===1));const out=[];while((first.length||second.length)&&out.length<n){if(first.length)out.push(first.pop());if(second.length&&out.length<n)out.push(second.pop());}return out;}
+function start(){s.total=Number($('#roundSize')?.value||10);s.mode=$('#difficulty')?.value==='chase'?'chase':'explorer';s.deck=deckFor(s.total);s.i=0;s.score=0;s.firstTry=0;s.attempted=0;s.missed=new Set();s.streak=0;s.shields=s.mode==='chase'?3:5;s.emp=.5;s.empTimer=0;s.empCooldown=0;s.dashCooldown=0;s.keys.clear();s.t=0;hideOverlay();newWave();tone('core');canvas.focus({preventScroll:true});}
+function bfs(map,from,to){const key=(x,y)=>y*C+x,queue=[from],visited=new Set([key(...from)]),parent=new Map();let end=-1;for(let k=0;k<queue.length;k++){const p=queue[k],id=key(...p);if(p[0]===to[0]&&p[1]===to[1]){end=id;break;}for(const [dx,dy]of[[0,1],[0,-1],[1,0],[-1,0]]){const nx=p[0]+dx,ny=p[1]+dy,nid=key(nx,ny);if(nx<0||nx>=C||ny<0||ny>=R||map[ny][nx]||visited.has(nid))continue;visited.add(nid);parent.set(nid,id);queue.push([nx,ny]);}}if(end<0)return [];let a=[to];while(end!==key(...from)){end=parent.get(end);if(end===undefined)return [];a.push([end%C,Math.floor(end/C)]);}return a.reverse();}
+function makeMap(seed){const r=rng(seed);const map=Array.from({length:R},(_,y)=>Array.from({length:C},(_,x)=>(x===0||y===0||x===C-1||y===R-1)?1:0));
+ for(let y=2;y<=8;y++){for(let x=1;x<=13;x++){if([3,7,11].includes(x)||[3,6,9].includes(y))continue;if(r()<.55)map[y][x]=1;}}
+ for(const x of [3,7,11]){map[1][x]=0;map[2][x]=0;}map[9][7]=0;
+ return map;}
+const solid=(map,x,y)=>!map||x<0||x>=C||y<0||y>=R||map[y][x]===1;
+function randomFloor(map,r,used){const list=[];for(let y=2;y<=8;y++)for(let x=1;x<=13;x++)if(!solid(map,x,y)&&!used.some(v=>Math.abs(v[0]-x)+Math.abs(v[1]-y)<4)&&Math.abs(x-7)+Math.abs(y-9)>3)list.push([x,y]);return list[Math.floor(r()*list.length)]||[7,5];}
+function newWave(){if(s.i>=s.total){finish(true);return;}const q=s.deck[s.i],r=rng(77419+s.i*913+q.term.length*31);const matches=WORDS.filter(w=>w.term!==q.term&&w.chapter===q.chapter);const samePos=shuffle(matches.filter(w=>w.pos===q.pos),r).slice(0,2);const distractors=[...samePos];for(const w of shuffle(matches,r))if(distractors.length<2&&!distractors.some(d=>d.term===w.term))distractors.push(w);const opts=shuffle([q,...distractors],r);
+ const map=makeMap(52090+s.i*257+q.term.length*31);let used=[[7,9],[3,1],[7,1],[11,1]];let a=randomFloor(map,r,used);used.push(a);let b=randomFloor(map,r,used);
+ const enemyCount=s.mode==='chase'?Math.min(3,2+Math.floor(s.i/15)):1;let enemies=[];for(let k=0;k<enemyCount;k++){const pt=randomFloor(map,r,[[7,9],a,b,...enemies.map(v=>v.spawn)]);enemies.push({x:cx(pt[0]),y:cy(pt[1]),spawn:pt,target:pt,path:[],step:0,nextPath:0,phase:r()*6.2,stun:0});}
+ const mode=s.i%3,label=mode===0?'DEFINITION HUNT':mode===1?'CONTEXT TRANSMISSION':'PARAPHRASE TRACE';let clue=mode===0?q.definition:mode===1?q.cloze:q.paraphrase;
+ s.wave={q,mode,label,clue,opts,map,beacons:[{x:cx(a[0]),y:cy(a[1]),collected:false},{x:cx(b[0]),y:cy(b[1]),collected:false}],enemies,player:{x:cx(7),y:cy(9),vx:0,vy:0,face:0,invuln:1},timeLeft:s.mode==='chase'?45:Infinity,elapsed:0,first:true,correct:false,unlocked:false,portalCooldown:0,hazardRow:3,wrongCount:0,sparkles:[],shift:0};
+ s.phase='playing';s.dashing=0;s.empTimer=0;s.empCooldown=Math.max(0,s.empCooldown);s.fx=[];s.shake=0;el.clueType.textContent=label;el.clue.textContent=clue;el.clueNote.textContent=mode===1?'Read the sentence. The portal words are base forms, so the missing word may need a different form.':'Collect two energy cores, then choose the word. The letter on each gate matches its label below.';
+ el.chapter.textContent=q.chapter===0?'WORLD 1 · UNIVERSITY CAMPUS':'WORLD 2 · NUTRITION RESEARCH';el.portal.innerHTML=opts.map((w,i)=>`<div class="portal"><b>${'ABC'[i]}</b><span>${safe(w.term)}</span></div>`).join('');updateHUD();}
+function safe(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function updateHUD(){el.score.textContent=s.score.toLocaleString('en-US');el.sector.textContent=(s.i+(s.phase==='playing'||s.phase==='transition'?1:0))+' / '+(s.total||51);el.shields.textContent='♥'.repeat(s.shields)+'♡'.repeat((s.mode==='chase'?3:5)-s.shields);el.timer.textContent=s.mode==='chase'&&s.wave?Math.ceil(Math.max(0,s.wave.timeLeft))+'s':'∞';el.progress.style.width=(s.i/Math.max(1,s.total)*100)+'%';el.pause.disabled=!['playing','paused'].includes(s.phase);el.pause.textContent=s.phase==='paused'?'Resume':'Pause';el.mission.textContent=s.wave?'ENERGY CORES '+s.wave.beacons.filter(x=>x.collected).length+'/2'+(s.wave.unlocked?' · GATES OPEN':' · GATES LOCKED'):'ENERGY CORES 0/2';el.empStatus.textContent='EMP '+Math.floor(s.emp*100)+'%';el.emp.disabled=s.emp<.99||s.phase!=='playing';el.dash.disabled=s.dashCooldown>.05||s.phase!=='playing';el.dash.innerHTML=s.dashCooldown>.05?`DASH<small>${s.dashCooldown.toFixed(1)}s</small>`:'DASH<small>Shift</small>';el.emp.innerHTML=s.emp<.99?`EMP<small>${Math.floor(s.emp*100)}%</small>`:'EMP<small>READY!</small>';}
+function emit(x,y,color,n=15,scale=1){for(let i=0;i<n;i++){const a=Math.random()*Math.PI*2,v=(40+Math.random()*135)*scale;s.fx.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.25+Math.random()*.45,age:0,size:1.7+Math.random()*4,color});}}
+function takeDamage(why,force=false){const w=s.wave;if(!w||(!force&&(w.player.invuln>0||s.dashing>0)))return;w.player.invuln=1.25;w.first=false;s.missed.add(w.q.term);s.shields=Math.max(0,s.shields-1);s.streak=0;s.shake=10;s.flash=.28;tone('bad');emit(w.player.x,w.player.y,'#ff7199',22);showToast(why+' · Shield lost','danger');if(!s.shields){finish(false);return;}w.player.x=cx(7);w.player.y=cy(9);updateHUD();}
+function resetWrongPortal(index){const w=s.wave;if(!w||s.phase!=='playing'||w.portalCooldown>0)return;w.portalCooldown=1.4;if(!w.unlocked){showToast('Collect BOTH energy cores first!','danger');return;}const chosen=w.opts[index];if(chosen.term===w.q.term){w.correct=true;s.attempted++;if(w.first){s.firstTry++;s.streak++;s.score+=150+Math.min(150,s.streak*15)+Math.ceil((s.mode==='chase'?w.timeLeft:20)*1.2);}else{s.streak=0;s.score+=50;}tone('good');emit(cx([3,7,11][index]),cy(1),'#8dffe1',50,1.9);s.phase='transition';s.freezeAfter=2.05;showToast('ESCAPE COMPLETE · '+w.q.term+' · '+w.q.definition,'good');best=Math.max(best,s.score);try{localStorage.setItem(savedKey,JSON.stringify({best}));}catch{}updateHUD();}else{w.first=false;w.wrongCount++;s.missed.add(w.q.term);s.streak=0;s.score=Math.max(0,s.score-25);s.shields=Math.max(0,s.shields-1);s.shake=10;s.flash=.25;tone('bad');emit(cx([3,7,11][index]),cy(1),'#ff6f99',25);showToast('Wrong gate! '+chosen.term+' = '+chosen.definition,'danger');w.player.x=cx(7);w.player.y=cy(9);w.player.invuln=1;w.opts=shuffle(w.opts);el.portal.innerHTML=w.opts.map((v,i)=>`<div class="portal"><b>${'ABC'[i]}</b><span>${safe(v.term)}</span></div>`).join('');if(!s.shields)finish(false);updateHUD();}}
+function movePlayer(dt){const w=s.wave,p=w.player;let dx=Number(s.keys.has('right'))-Number(s.keys.has('left')),dy=Number(s.keys.has('down'))-Number(s.keys.has('up'));if(dx||dy){const d=Math.hypot(dx,dy);dx/=d;dy/=d;p.face=Math.atan2(dy,dx);s.dashV={x:dx,y:dy};}let sp=s.dashing>0?565:185;if(s.dashing>0){dx=s.dashV.x;dy=s.dashV.y;}const mag=Math.min(36,sp*dt);const ix=dx*mag,iy=dy*mag;const steps=Math.ceil(Math.max(Math.abs(ix),Math.abs(iy))/5);for(let k=0;k<Math.max(1,steps);k++){const vx=ix/Math.max(1,steps),vy=iy/Math.max(1,steps);if(!collides(p.x+vx,p.y,w.map))p.x+=vx;if(!collides(p.x,p.y+vy,w.map))p.y+=vy;}p.vx=dx;p.vy=dy;p.invuln=Math.max(0,p.invuln-dt);}
+function collides(x,y,map){const radius=12;for(const [ox,oy]of[[-radius,-radius],[radius,-radius],[-radius,radius],[radius,radius]])if(solid(map,Math.floor((x+ox)/T),Math.floor((y+oy)/T)))return true;return false;}
+function doDash(){if(s.phase!=='playing'||s.dashCooldown>0)return;s.dashing=.21;s.dashCooldown=s.mode==='chase'?3.7:2.7;s.wave.player.invuln=Math.max(.25,s.wave.player.invuln);tone('dash');emit(s.wave.player.x,s.wave.player.y,'#75e6ff',13);updateHUD();}
+function doEMP(){if(s.phase!=='playing'||s.emp<.99)return;s.emp=0;s.empTimer=3.4;s.wave.enemies.forEach(e=>e.stun=3.4);tone('emp');emit(s.wave.player.x,s.wave.player.y,'#9e83ff',66,1.7);showToast('EMP PULSE · Sentries disabled for 3 seconds','good');updateHUD();}
+function enemyMove(e,w,dt){if(s.empTimer>0||e.stun>0)return;e.nextPath-=dt;if(e.nextPath<=0){const origin=[Math.floor(e.x/T),Math.floor(e.y/T)],dest=[Math.floor(w.player.x/T),Math.floor(w.player.y/T)];e.path=bfs(w.map,origin,dest).slice(1);e.nextPath=.35+Math.random()*.17;}let target=e.path?.[0];if(target){const tx=cx(target[0]),ty=cy(target[1]),d=Math.hypot(tx-e.x,ty-e.y),speed=(s.mode==='chase'?113:76)+Math.min(34,s.i*.85);if(d<=speed*dt+2){e.x=tx;e.y=ty;e.path.shift();}else{e.x+=(tx-e.x)/d*speed*dt;e.y+=(ty-e.y)/d*speed*dt;}}if(Math.hypot(e.x-w.player.x,e.y-w.player.y)<24)takeDamage('Sentry collision');}
+function update(dt){s.t+=dt;s.dashing=Math.max(0,s.dashing-dt);s.dashCooldown=Math.max(0,s.dashCooldown-dt);s.empTimer=Math.max(0,s.empTimer-dt);s.shake=Math.max(0,s.shake-dt*27);s.flash=Math.max(0,s.flash-dt);s.toastLeft=Math.max(0,s.toastLeft-dt);if(!s.toastLeft)el.toast.classList.remove('show');for(const p of s.fx){p.age+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vx*=Math.max(0,1-1.2*dt);p.vy*=Math.max(0,1-1.2*dt);}s.fx=s.fx.filter(p=>p.age<p.life);
+ if(s.phase==='transition'){s.freezeAfter-=dt;if(s.freezeAfter<=0){s.i++;newWave();}return;}
+ if(s.phase!=='playing'||!s.wave)return;
+ const w=s.wave;w.elapsed+=dt;w.portalCooldown=Math.max(0,w.portalCooldown-dt);if(s.mode==='chase'){w.timeLeft-=dt;if(w.timeLeft<=0){w.timeLeft=45;w.first=false;s.missed.add(w.q.term);takeDamage('Time expired',true);if(s.phase==='playing')showToast('Time reset · Try the same clue again','danger');}}
+ movePlayer(dt);if(s.phase!=='playing')return;
+ for(let i=0;i<2;i++){const b=w.beacons[i];if(!b.collected&&Math.hypot(w.player.x-b.x,w.player.y-b.y)<25){b.collected=true;s.emp=clamp(s.emp+.29,0,1);emit(b.x,b.y,'#96ffcd',26);tone('core');showToast((w.beacons.filter(x=>x.collected).length===2?'Both energy cores online · Choose your gate!':'Core captured · One remaining'),'good');}}
+ w.unlocked=w.beacons.every(b=>b.collected);
+ if(w.unlocked&&Math.floor(w.player.y/T)===1){for(let i=0;i<3;i++)if(Math.abs(w.player.x-cx([3,7,11][i]))<21){resetWrongPortal(i);break;}}
+ if(s.phase!=='playing')return;
+ w.enemies.forEach(e=>enemyMove(e,w,dt));if(s.phase!=='playing')return;
+ const hazardPeriod=s.mode==='chase'?5.6:7.1;const hazard=(w.elapsed%hazardPeriod)/hazardPeriod;const row=Math.floor(w.elapsed/hazardPeriod)%2===0?3:6;w.hazardRow=row;w.hazardPhase=hazard;
+ if(hazard>.78&&hazard<.92&&s.empTimer<=0&&Math.abs(w.player.y-cy(row))<10)takeDamage('Laser sweep');
+ if(w.elapsed>=1&&Math.floor(w.elapsed*3)!==Math.floor((w.elapsed-dt)*3))updateHUD();
+}
+function finish(completed){if(s.phase==='finished')return;s.phase='finished';const attempted=s.attempted+(completed?0:(s.wave?.correct?0:0));try{if(window.parent!==window&&new URLSearchParams(location.search).has('embed'))window.parent.postMessage({type:'wordhop-wordshift-unit8-result',unitId:'bir-unit-8',total:s.total,correct:s.firstTry,attempted,score:s.score,completed:!!completed,missed:[...s.missed]},location.origin);}catch{}best=Math.max(best,s.score);try{localStorage.setItem(savedKey,JSON.stringify({best}));}catch{}const missed=[...s.missed].slice(0,17);overlay(`<div class="dialog"><div class="label-top">${completed?'ALL SECTORS CLEARED':'MISSION ENDED'}</div><div class="hero-mini">${completed?'🏆':'🛡️'}</div><h2>${completed?'LABYRINTH <span>ESCAPED!</span>':'RETRY THE <span>SHIFT</span>'}</h2><p>${completed?'You escaped every sector. Great reflexes and vocabulary.':'Sentries got you this time. Your word review is saved in this browser.'}</p><div class="results"><div><b>${s.score}</b><small>Score</small></div><div><b>${s.firstTry}/${s.attempted}</b><small>First-try correct</small></div><div><b>${s.i}/${s.total}</b><small>Sectors cleared</small></div></div>${missed.length?`<div class="missed"><b>Words to review</b>: ${missed.map(safe).join(' · ')}${s.missed.size>17?' …':''}</div>`:''}<div class="button-row"><button type="button" class="btn" data-act="again">PLAY AGAIN</button><button type="button" class="btn dim" data-act="menu">SETTINGS</button></div></div>`);updateHUD();}
+function pause(){if(s.phase!=='playing')return;s.phase='paused';s.keys.clear();overlay('<div class="dialog"><span class="label-top">GAME PAUSED</span><h2>TAKE A <span>BREAK</span></h2><p>Your maze is still waiting.</p><div class="button-row"><button class="btn" type="button" data-act="resume">RESUME</button><button class="btn dim" type="button" data-act="menu">QUIT RUN</button></div></div>');updateHUD();}
+function resume(){if(s.phase!=='paused')return;s.phase='playing';hideOverlay();canvas.focus({preventScroll:true});updateHUD();}
+function rr(x,y,w,h,r,c){ctx.fillStyle=c;ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fill();}
+function drawBackground(w){const campus=w.q.chapter===0;let gr=ctx.createLinearGradient(0,0,W,H);gr.addColorStop(0,campus?'#10283b':'#153021');gr.addColorStop(1,campus?'#080f29':'#0e1d21');ctx.fillStyle=gr;ctx.fillRect(0,0,W,H);for(let y=0;y<R;y++)for(let x=0;x<C;x++){if(w.map[y][x])continue;const b=((x*13+y*19)%5)*.009;ctx.fillStyle=campus?`rgba(65,126,175,${.1+b})`:`rgba(115,154,97,${.10+b})`;ctx.fillRect(x*T+1,y*T+1,T-2,T-2);ctx.strokeStyle=campus?'#17435b5b':'#35634655';ctx.lineWidth=1;ctx.strokeRect(x*T+.5,y*T+.5,T-1,T-1);if((x*5+y*7)%9===0){ctx.fillStyle=campus?'#68e9e223':'#a7ce8624';ctx.fillRect(x*T+11,y*T+14,26,2);}}}
+function drawWalls(w){for(let y=0;y<R;y++)for(let x=0;x<C;x++)if(w.map[y][x]){const X=x*T,Y=y*T,chapter=w.q.chapter===0;const g=ctx.createLinearGradient(X,Y,X+T,Y+T);g.addColorStop(0,chapter?'#2d4d6c':'#44604b');g.addColorStop(1,chapter?'#172b48':'#243f39');rr(X+1,Y+1,T-2,T-2,6,g);ctx.fillStyle=chapter?'#3b7790':'#65835b';ctx.fillRect(X+5,Y+4,T-10,3);ctx.fillStyle='#0519256c';ctx.fillRect(X+3,Y+T-9,T-6,6);ctx.strokeStyle=chapter?'#85b1e336':'#a1e6a336';ctx.lineWidth=1.5;ctx.strokeRect(X+3,Y+4,T-6,T-9);} }
+function drawDecor(w){const campus=w.q.chapter===0;for(let i=0;i<10;i++){const x=(Math.sin(i*62.35)*4343%1+1)%1*W,y=(Math.sin(i*31.9)*7812%1+1)%1*H;ctx.fillStyle=campus?'#a7fff3':'#b6ff85';ctx.globalAlpha=.25+.25*Math.sin(s.t*2+i);ctx.beginPath();ctx.arc(x,y,1.6,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1;}for(const x of [3,7,11]){const ox=cx(x),y=cy(1);ctx.save();ctx.globalAlpha=.30;ctx.fillStyle=campus?'#94d4ff':'#ceea7e';ctx.beginPath();ctx.arc(ox,y,26,0,Math.PI*2);ctx.fill();ctx.restore();}}
+function drawPortal(w,i){const x=cx([3,7,11][i]),y=cy(1),cols=['#5dd7ff','#bf97ff','#ffca70'],col=cols[i],locked=!w.unlocked,pulse=.92+.08*Math.sin(s.t*3+i*.7);ctx.save();ctx.translate(x,y);ctx.scale(pulse,pulse);ctx.globalAlpha=locked?.62:1;ctx.shadowColor=col;ctx.shadowBlur=locked?9:24;const ring=ctx.createLinearGradient(0,-28,0,26);ring.addColorStop(0,locked?'#425363':'#dffcff');ring.addColorStop(.45,col);ring.addColorStop(1,'#1b2f46');ctx.fillStyle='#091827';ctx.beginPath();ctx.roundRect(-24,-26,48,56,18);ctx.fill();ctx.fillStyle=ring;ctx.beginPath();ctx.roundRect(-20,-22,40,48,16);ctx.fill();ctx.fillStyle='#07101d';ctx.beginPath();ctx.roundRect(-14,-14,28,30,10);ctx.fill();const core=ctx.createLinearGradient(0,-14,0,18);core.addColorStop(0,locked?'#33495a':'#f7ffff');core.addColorStop(.2,locked?'#425f72':col);core.addColorStop(1,'#10263a');ctx.fillStyle=core;ctx.globalAlpha=locked?.55:.95;ctx.beginPath();ctx.roundRect(-11,-11,22,24,9);ctx.fill();ctx.globalAlpha=1;ctx.shadowBlur=0;ctx.strokeStyle='rgba(255,255,255,.35)';ctx.lineWidth=2;ctx.beginPath();ctx.roundRect(-20,-22,40,48,16);ctx.stroke();ctx.fillStyle='rgba(255,255,255,.16)';ctx.beginPath();ctx.roundRect(-10,-18,20,6,4);ctx.fill();ctx.strokeStyle=col;ctx.lineWidth=2;for(const sx of [-28,28]){ctx.beginPath();ctx.moveTo(sx,-3);ctx.lineTo(sx-6*Math.sign(sx),-15);ctx.lineTo(sx-12*Math.sign(sx),-3);ctx.lineTo(sx-6*Math.sign(sx),9);ctx.closePath();ctx.stroke();}ctx.fillStyle=locked?'#c9d0d8':'#ffffff';ctx.font='1000 18px system-ui';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('ABC'[i],0,1);if(!locked){ctx.strokeStyle=col;ctx.globalAlpha=.45+.18*Math.sin(s.t*4+i);ctx.lineWidth=3;ctx.beginPath();ctx.arc(0,0,30+Math.sin(s.t*2+i)*2,0,Math.PI*2);ctx.stroke();ctx.globalAlpha=.7;ctx.beginPath();ctx.arc(0,0,36+Math.sin(s.t*3+i)*1.6,0,Math.PI*2);ctx.stroke();}ctx.restore();}
+function drawBeacons(w){w.beacons.forEach((b,i)=>{if(b.collected)return;const pulse=1+.08*Math.sin(s.t*5+i*1.7);ctx.save();ctx.translate(b.x,b.y);ctx.scale(pulse,pulse);ctx.shadowColor='#86ffe1';ctx.shadowBlur=22;ctx.fillStyle='#10384a';ctx.beginPath();ctx.moveTo(0,-20);ctx.lineTo(14,-4);ctx.lineTo(9,17);ctx.lineTo(-9,17);ctx.lineTo(-14,-4);ctx.closePath();ctx.fill();const gem=ctx.createLinearGradient(0,-18,0,14);gem.addColorStop(0,'#fbfffe');gem.addColorStop(.18,'#8fffe0');gem.addColorStop(.58,'#43d4a3');gem.addColorStop(1,'#185e4e');ctx.fillStyle=gem;ctx.beginPath();ctx.moveTo(0,-17);ctx.lineTo(10,-3);ctx.lineTo(6,11);ctx.lineTo(-6,11);ctx.lineTo(-10,-3);ctx.closePath();ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='rgba(255,255,255,.85)';ctx.lineWidth=2;ctx.stroke();ctx.fillStyle='rgba(255,255,255,.55)';ctx.beginPath();ctx.ellipse(-3,-6,3.8,2.2,-.5,0,Math.PI*2);ctx.fill();ctx.strokeStyle='rgba(110,255,214,.55)';ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,0,22+Math.sin(s.t*4+i)*2,0,Math.PI*2);ctx.stroke();ctx.restore();});}
+function drawHazards(w){const phase=w.hazardPhase||0,active=phase>.78&&phase<.92,warn=phase>.66&&phase<=.78;if(!(active||warn)||s.empTimer>0)return;const y=cy(w.hazardRow);ctx.save();ctx.strokeStyle=active?'#ff5b8e':'#f7a64a';ctx.lineWidth=active?13:4;ctx.shadowColor=ctx.strokeStyle;ctx.shadowBlur=active?25:10;ctx.globalAlpha=active?.83:.55+.25*Math.sin(s.t*16);ctx.beginPath();ctx.moveTo(T,y);ctx.lineTo(W-T,y);ctx.stroke();ctx.strokeStyle=active?'#fff8de':'#ffcd79';ctx.lineWidth=active?2:1;ctx.beginPath();ctx.moveTo(T,y);ctx.lineTo(W-T,y);ctx.stroke();ctx.restore();}
+function drawEnemy(e,i){const bob=Math.sin(s.t*4+e.phase)*3,stunned=s.empTimer>0||e.stun>0,tilt=Math.sin(s.t*1.6+e.phase)*.14;ctx.save();ctx.translate(e.x,e.y+bob);ctx.rotate(tilt);ctx.shadowColor=stunned?'#9fe6ff':'#ff6f9d';ctx.shadowBlur=18;ctx.fillStyle='#15273a';ctx.beginPath();ctx.moveTo(0,-21);ctx.lineTo(15,-16);ctx.lineTo(23,-2);ctx.lineTo(18,15);ctx.lineTo(0,22);ctx.lineTo(-18,15);ctx.lineTo(-23,-2);ctx.lineTo(-15,-16);ctx.closePath();ctx.fill();const shell=ctx.createLinearGradient(0,-22,0,22);shell.addColorStop(0,stunned?'#5baecb':'#4a536d');shell.addColorStop(.35,stunned?'#385c74':'#313c52');shell.addColorStop(1,'#101826');ctx.fillStyle=shell;ctx.beginPath();ctx.moveTo(0,-18);ctx.lineTo(13,-13);ctx.lineTo(18,-1);ctx.lineTo(14,12);ctx.lineTo(0,17);ctx.lineTo(-14,12);ctx.lineTo(-18,-1);ctx.lineTo(-13,-13);ctx.closePath();ctx.fill();ctx.shadowBlur=0;ctx.fillStyle='#0b1422';ctx.beginPath();ctx.roundRect(-13,-3,26,12,6);ctx.fill();const eye=ctx.createLinearGradient(-10,0,10,0);eye.addColorStop(0,stunned?'#b5fbff':'#ffd2df');eye.addColorStop(.5,stunned?'#67efff':'#ff6fa7');eye.addColorStop(1,stunned?'#b5fbff':'#ffd2df');ctx.fillStyle=eye;ctx.beginPath();ctx.ellipse(0,2,10,4.6,0,0,Math.PI*2);ctx.fill();ctx.fillStyle='rgba(255,255,255,.35)';ctx.beginPath();ctx.ellipse(0,-10,8,3,0,0,Math.PI*2);ctx.fill();ctx.strokeStyle=stunned?'#bcefff':'#ff8db4';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-14,-12);ctx.lineTo(-23,-20);ctx.moveTo(14,-12);ctx.lineTo(23,-20);ctx.moveTo(-15,12);ctx.lineTo(-25,18);ctx.moveTo(15,12);ctx.lineTo(25,18);ctx.stroke();ctx.fillStyle=stunned?'#87eefe':'#f4c67e';ctx.beginPath();ctx.roundRect(-11,15,8,4,2);ctx.fill();ctx.beginPath();ctx.roundRect(3,15,8,4,2);ctx.fill();if(stunned){ctx.strokeStyle='rgba(157,238,255,.7)';ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,0,24+Math.sin(s.t*6+i)*2,0,Math.PI*2);ctx.stroke();}ctx.restore();}
+function drawPlayer(w){const p=w.player;const ghost=p.invuln>0&&Math.floor(s.t*14)%2===0;const bob=Math.sin(s.t*8)*1.8;ctx.save();ctx.globalAlpha=ghost?.5:1;ctx.translate(p.x,p.y+bob);const angle=p.vx||p.vy?p.face:-Math.PI/2;ctx.rotate(angle+Math.PI/2);ctx.shadowColor=s.dashing>0?'#fff2a6':'#79ffe1';ctx.shadowBlur=s.dashing>0?24:14;ctx.fillStyle='#58d8f0';ctx.beginPath();ctx.ellipse(0,18,16,7,0,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;const bodyGrad=ctx.createLinearGradient(0,-26,0,28);bodyGrad.addColorStop(0,'#f0fbff');bodyGrad.addColorStop(.24,'#9af8ef');bodyGrad.addColorStop(.52,'#2f86a1');bodyGrad.addColorStop(1,'#17384d');ctx.fillStyle=bodyGrad;ctx.beginPath();ctx.moveTo(0,-26);ctx.lineTo(16,-8);ctx.lineTo(17,10);ctx.lineTo(9,22);ctx.lineTo(-9,22);ctx.lineTo(-17,10);ctx.lineTo(-16,-8);ctx.closePath();ctx.fill();ctx.strokeStyle='rgba(255,255,255,.6)';ctx.lineWidth=2;ctx.stroke();ctx.fillStyle='#0a1a29';ctx.beginPath();ctx.roundRect(-10,-11,20,16,8);ctx.fill();const visor=ctx.createLinearGradient(-8,-12,8,3);visor.addColorStop(0,'#dbffff');visor.addColorStop(.45,'#79efff');visor.addColorStop(1,'#5576ff');ctx.fillStyle=visor;ctx.beginPath();ctx.roundRect(-8,-10,16,12,6);ctx.fill();ctx.fillStyle='rgba(255,255,255,.4)';ctx.beginPath();ctx.roundRect(-6,-9,8,3,2);ctx.fill();ctx.fillStyle='#9debd6';ctx.beginPath();ctx.roundRect(-4,6,8,8,3);ctx.fill();ctx.fillStyle='#22445f';ctx.beginPath();ctx.moveTo(-18,-3);ctx.lineTo(-27,5);ctx.lineTo(-18,11);ctx.lineTo(-10,7);ctx.lineTo(-10,0);ctx.closePath();ctx.fill();ctx.beginPath();ctx.moveTo(18,-3);ctx.lineTo(27,5);ctx.lineTo(18,11);ctx.lineTo(10,7);ctx.lineTo(10,0);ctx.closePath();ctx.fill();ctx.fillStyle='#d6e8f4';ctx.beginPath();ctx.roundRect(-22,2,6,14,3);ctx.fill();ctx.beginPath();ctx.roundRect(16,2,6,14,3);ctx.fill();const thruster=s.dashing>0?18:12;ctx.fillStyle='#f2d18a';ctx.beginPath();ctx.roundRect(-10,17,7,7,2);ctx.fill();ctx.beginPath();ctx.roundRect(3,17,7,7,2);ctx.fill();ctx.fillStyle='#7ee8ff';ctx.beginPath();ctx.moveTo(-9,24);ctx.lineTo(-3,24);ctx.lineTo(-6,24+thruster);ctx.closePath();ctx.fill();ctx.beginPath();ctx.moveTo(4,24);ctx.lineTo(10,24);ctx.lineTo(7,24+thruster);ctx.closePath();ctx.fill();if(s.dashing>0){ctx.globalAlpha=.55;ctx.fillStyle='#9cfbe8';ctx.beginPath();ctx.moveTo(0,28);ctx.lineTo(11,47);ctx.lineTo(0,40);ctx.lineTo(-11,47);ctx.closePath();ctx.fill();}ctx.restore();if(s.empTimer>0){ctx.save();ctx.strokeStyle='#a9b7ff';ctx.lineWidth=3;ctx.globalAlpha=.42;ctx.beginPath();ctx.arc(p.x,p.y,48+10*Math.sin(s.t*4),0,Math.PI*2);ctx.stroke();ctx.restore();}}
+function drawEffects(){for(const p of s.fx){ctx.save();ctx.globalAlpha=clamp(1-p.age/p.life,0,1);ctx.fillStyle=p.color;ctx.shadowColor=p.color;ctx.shadowBlur=9;ctx.beginPath();ctx.arc(p.x,p.y,p.size*(1-p.age/p.life*.7),0,Math.PI*2);ctx.fill();ctx.restore();}}
+function drawMenuPreview(){const bg=ctx.createLinearGradient(0,0,0,H);bg.addColorStop(0,'#173450');bg.addColorStop(1,'#091c2a');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);for(let y=0;y<R;y++)for(let x=0;x<C;x++){if(x===0||x===14||y===0||y===10||(x+y*3)%7===0)rr(x*T+2,y*T+2,44,44,5,'#294c62');else{ctx.fillStyle='#24445744';ctx.strokeStyle='#579eaf23';ctx.strokeRect(x*T,y*T,T,T);}}const centers=[[3,1],[7,1],[11,1]];centers.forEach(([x,y],i)=>{ctx.save();ctx.translate(cx(x),cy(y));ctx.shadowBlur=30;ctx.shadowColor=['#6ae4ff','#c48dff','#ffe091'][i];ctx.fillStyle=['#6ae4ff','#c48dff','#ffe091'][i];ctx.beginPath();ctx.arc(0,0,17,0,6.28);ctx.fill();ctx.restore();});ctx.fillStyle='#80ffcb';ctx.font='950 30px system-ui';ctx.textAlign='center';ctx.fillText('EXPLORE • OUTRUN • ESCAPE',W/2,H*.66);}
+function draw(){ctx.save();ctx.setTransform(canvas.width/W,0,0,canvas.height/H,0,0);if(s.shake>0)ctx.translate((Math.random()-.5)*s.shake,(Math.random()-.5)*s.shake);const w=s.wave;if(!w||s.phase==='menu'){drawMenuPreview();}else{drawBackground(w);drawDecor(w);drawWalls(w);for(let i=0;i<3;i++)drawPortal(w,i);drawHazards(w);drawBeacons(w);w.enemies.forEach(drawEnemy);drawPlayer(w);drawEffects();}if(s.flash>0){ctx.fillStyle=`rgba(255,91,133,${s.flash*.55})`;ctx.fillRect(0,0,W,H);}ctx.restore();}
+function resize(){const b=canvas.getBoundingClientRect(),ratio=Math.min(2,window.devicePixelRatio||1);canvas.width=Math.max(360,Math.round(b.width*ratio));canvas.height=Math.round(canvas.width*H/W);}
+function frame(now){const dt=s.prev?Math.min(.05,(now-s.prev)/1000):0;s.prev=now;if(s.phase!=='paused')update(dt);draw();requestAnimationFrame(frame);}
+function normalizedKey(key){const v=key.toLowerCase();return{arrowup:'up',w:'up',arrowdown:'down',s:'down',arrowleft:'left',a:'left',arrowright:'right',d:'right'}[v]||null;}
+window.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target?.tagName))return;const dir=normalizedKey(e.key);if(dir){e.preventDefault();s.keys.add(dir);}else if(e.key==='Shift'){e.preventDefault();doDash();}else if(e.key.toLowerCase()==='e'||e.key===' '){e.preventDefault();doEMP();}else if(e.key.toLowerCase()==='p'||e.key==='Escape'){e.preventDefault();if(s.phase==='playing')pause();else if(s.phase==='paused')resume();}});
+window.addEventListener('keyup',e=>{const dir=normalizedKey(e.key);if(dir)s.keys.delete(dir);});
+window.addEventListener('blur',()=>{s.keys.clear();if(s.phase==='playing')pause();});document.addEventListener('visibilitychange',()=>{if(document.hidden&&s.phase==='playing')pause();});
+for(const btn of document.querySelectorAll('[data-hold]')){const dir=btn.dataset.hold;btn.addEventListener('pointerdown',e=>{e.preventDefault();btn.setPointerCapture(e.pointerId);s.keys.add(dir);btn.classList.add('active');});const stop=()=>{s.keys.delete(dir);btn.classList.remove('active');};btn.addEventListener('pointerup',stop);btn.addEventListener('pointercancel',stop);btn.addEventListener('lostpointercapture',stop);}
+el.dash.addEventListener('click',doDash);el.emp.addEventListener('click',doEMP);el.pause.addEventListener('click',()=>s.phase==='playing'?pause():resume());
+document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act;if(a==='start')start();else if(a==='resume')resume();else if(a==='again')showMenu();else if(a==='menu')showMenu();});
+window.addEventListener('resize',resize);resize();showMenu();requestAnimationFrame(frame);
+if(new URLSearchParams(location.search).has('debug'))window.__wordShiftTest={state:()=>({phase:s.phase,i:s.i,words:s.total,score:s.score,correct:s.firstTry,attempted:s.attempted,shields:s.shields,mode:s.mode,word:s.wave?.q.term,choices:s.wave?.opts.map(v=>v.term),unlocked:s.wave?.unlocked,cores:s.wave?.beacons.filter(v=>v.collected).length,player:s.wave?{x:s.wave.player.x,y:s.wave.player.y}:null,beacons:s.wave?.beacons.map(v=>({x:v.x,y:v.y,collected:v.collected})),map:s.wave?.map}),start,forceCorrect(){if(s.phase==='playing'){s.wave.beacons.forEach(v=>v.collected=true);s.wave.unlocked=true;const i=s.wave.opts.findIndex(v=>v.term===s.wave.q.term);resetWrongPortal(i);}},forceWrong(){if(s.phase==='playing'){s.wave.beacons.forEach(v=>v.collected=true);s.wave.unlocked=true;const i=s.wave.opts.findIndex(v=>v.term!==s.wave.q.term);resetWrongPortal(i);}},advance(){if(s.phase==='transition'){s.freezeAfter=0;}},damage(){if(s.phase==='playing'){s.wave.player.invuln=0;takeDamage('Test contact');}},switchTo:(i)=>{s.i=i;newWave();},dash:doDash,emp:doEMP,pause,resume,finish};
+})();
+</script><script>
+/* Keep WordHop iframe height synced with the maze, especially on mobile. */
+if(window.parent!==window&&new URLSearchParams(location.search).has('embed')){
+ const root=document.querySelector('.page');let previous=0;
+ function sendHeight(){
+  if(!root)return;
+  const h=Math.ceil(root.getBoundingClientRect().height)+14;
+  if(h===previous)return;previous=h;
+  try{window.parent.postMessage({type:'wordhop-wordshift-unit8-height',unitId:'bir-unit-8',height:h},location.origin)}catch{}
+ }
+ if(root&&'ResizeObserver' in window)new ResizeObserver(sendHeight).observe(root);
+ window.addEventListener('load',sendHeight);
+ window.addEventListener('resize',sendHeight);
+ requestAnimationFrame(sendHeight);
+}
+</script></body></html>
