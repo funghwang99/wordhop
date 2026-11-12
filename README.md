@@ -405,3 +405,9 @@ The Cambridge B1 Preliminary for Schools Trainer appears as a third PET book alo
 Reading Parts 1–3 of Exam Tests 1 and 2 are available with 30 questions, saved results and Vietnamese explanations verified against the publisher's Teacher's Notes & Keys. Other exam sections are clearly marked **Content in preparation**, not completed or scored tests.
 
 No Trainer Listening or Speaking recordings are published until the user supplies the original audio files.
+
+### Trainer original Exam Practice page images
+
+The WordHop Trainer exam-only navigation now supports the same scanned-page view, zoom, and answer-checking layout used by the other PET books. A manifest at `dist/trainer/exam-pages.json` maps 114 original book page images to the six tests and four skills. Training pages in Tests 1–2 are excluded.
+
+**Asset publishing state:** images are prepared separately and are not yet hosted in this GitHub repository. They must be added at the exact `dist/assets/{reading,writing,listening,speaking}/trainer-t*.webp` paths from the generated asset pack. Until then, WordHop honestly displays `Original exam page images pending` instead of showing broken links. No Trainer audio is published yet.

@@ -11,6 +11,37 @@
  const SKILLS={reading:6,writing:2,listening:4,speaking:4};
  const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","1:exam:reading:part-2":"trainer/test-1-reading-part-2.json","1:exam:reading:part-3":"trainer/test-1-reading-part-3.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json","2:exam:reading:part-2":"trainer/test-2-reading-part-2.json","2:exam:reading:part-3":"trainer/test-2-reading-part-3.json"};
  const BASE="#/pet/trainer", cache=new Map();
+
+ let manifestRequest=null;
+ const pageStatus=new Map();
+ const pageRoot=()=>'<section id="trainer-original-pages" class="trainer-original-pages" aria-label="Original exam pages"><p class="notice" role="status">Checking original exam page images…</p></section>';
+ const pageAsset=src=>new URL(src,document.baseURI).href;
+ function getManifest(){
+  if(!manifestRequest)manifestRequest=fetch(pageAsset('trainer/exam-pages.json')).then(r=>{if(!r.ok)throw Error('Exam manifest missing');return r.json();}).catch(()=>null);
+  return manifestRequest;
+ }
+ function checkAsset(src){
+  if(!pageStatus.has(src))pageStatus.set(src,fetch(pageAsset(src),{method:'HEAD'}).then(r=>r.ok).catch(()=>false));
+  return pageStatus.get(src);
+ }
+ async function showOriginalPages(t,skill,part,atHash){
+  const slot=document.querySelector('#trainer-original-pages');
+  if(!slot)return;
+  const manifest=await getManifest();
+  if(location.hash!==atHash||!slot.isConnected)return;
+  const pages=manifest?.tests?.find(x=>x.test===Number(t))?.skills?.[skill]?.find(x=>x.id===part)?.pages||[];
+  const images=await Promise.all(pages.map(async p=>({p,ok:await checkAsset(p.image)})));
+  if(location.hash!==atHash||!slot.isConnected)return;
+  const found=images.filter(x=>x.ok),transcript=document.querySelector('#trainer-transcript');
+  if(transcript)transcript.open=!found.length;
+  if(!found.length){
+   slot.innerHTML='<section class="trainer-empty"><h2>Original exam page images pending</h2><p>The source pages have been extracted, but the image assets are not yet hosted on this website. Existing checked Reading questions are still available below. No Training pages are included.</p></section>';
+   return;
+  }
+  slot.innerHTML='<div class="trainer-original-heading"><div><h2>Original Exam Practice pages</h2><p>Read the original book page, then complete the answer sheet below.</p></div><button class="btn" type="button" data-trainer-action="zoom-pages" aria-pressed="false">Zoom pages</button></div>'+
+   '<div class="reading-page" tabindex="0" aria-label="Original Cambridge exam pages">'+found.map(({p},i)=>'<figure class="trainer-original-page"><img src="'+esc(p.image)+'" width="'+p.width+'" height="'+p.height+'" loading="'+(i?'lazy':'eager')+'" decoding="async" alt="Trainer Test '+t+', '+esc(skill)+' '+esc(part)+', printed page '+p.printedPage+'"><figcaption>Book page '+p.printedPage+' · <a href="'+esc(p.image)+'" target="_blank" rel="noopener">Open full-size page</a></figcaption></figure>').join('')+'</div>'+
+   (found.length<pages.length?'<p class="notice">Some original page images are still pending upload.</p>':'');
+ }
  let latest=null;
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
  const path=(t,m,s,p)=>BASE+[t,m,s,p].filter(Boolean).map(x=>"/"+encodeURIComponent(x)).join("");
@@ -62,7 +93,9 @@
   const currentRoute={...r,mode,skill},k=key(currentRoute),heading='Test '+t.id+' · '+skill[0].toUpperCase()+skill.slice(1)+' · Part '+part[1];
   const sectionTop=back(path(t.id,mode,skill),'All parts')+nav;
   if(!READY[k]){
-   main.innerHTML=frame(sectionTop+head(heading,'This Exam Practice part is not yet available.')+'<section class="trainer-empty"><h2>Content in preparation</h2><p>This part is not ready as a scored test. Listening and Speaking recordings will be added after the original audio files are supplied.</p></section>');
+   const when=location.hash;
+   main.innerHTML=frame(sectionTop+head(heading,'Original exam pages can be viewed here; the answer key is not yet digitised.')+pageRoot()+'<section class="trainer-empty"><h2>Answer checking in preparation</h2><p>These original exam pages are for reference. Scored questions and answers are not yet available for this part. Listening and Speaking audio will be added after the original files are supplied.</p></section>');
+   showOriginalPages(t.id,skill,'part-'+part[1],when);
    return;
   }
   if(!cache.has(k)){
@@ -80,8 +113,9 @@
   }).join('');
   const readingPassage=data.passage?'<section class="trainer-article" aria-label="Reading article"><h2>'+esc(data.passageTitle||'Reading article')+'</h2>'+(data.passageBy?'<p class="trainer-article-by">'+esc(data.passageBy)+'</p>':'')+'<div class="trainer-article-text">'+esc(data.passage)+'</div></section>':'';
   const sharedContext=Array.isArray(data.context)&&data.context.length?'<section class="trainer-passage" aria-label="Reading texts"><h2>'+esc(data.contextTitle||'Reading texts')+'</h2><p class="trainer-passage-intro">Read these descriptions before choosing your answers.</p><div class="trainer-passage-grid">'+data.context.map(item=>'<article class="trainer-passage-item"><div class="trainer-passage-title"><b>'+esc(item.letter)+'</b><h3>'+esc(item.title)+'</h3></div><p>'+esc(item.description)+'</p></article>').join('')+'</div></section>':'';
-  main.innerHTML=frame(sectionTop+head(data.title,data.instructions)+'<p class="trainer-meta">Questions: '+data.questions.length+' · Printed pages '+esc(data.bookPages)+' · '+(saved.checked?'Answers checked':'Answers saved in this browser')+'</p>'+readingPassage+sharedContext+questions+
+  main.innerHTML=frame(sectionTop+head(data.title,data.instructions)+'<p class="trainer-meta">Questions: '+data.questions.length+' · Printed pages '+esc(data.bookPages)+' · '+(saved.checked?'Answers checked':'Answers saved in this browser')+'</p>'+pageRoot()+'<details id="trainer-transcript" class="trainer-text-transcript"><summary>Text-only version of the passage and questions</summary>'+readingPassage+sharedContext+'</details>'+questions+
    '<div class="trainer-actions">'+(saved.checked?'<p class="trainer-score" role="status">Score: <strong>'+score+'/'+data.questions.length+'</strong></p><button class="btn" type="button" data-trainer-action="retry">Try again</button>':'<button class="btn btn-primary" type="button" data-trainer-action="check">Check answers</button>')+'</div><p class="trainer-credit">Verified against the official Teacher’s Notes &amp; Keys. '+esc(data.keySource)+'.</p>');
+  showOriginalPages(t.id,skill,'part-'+part[1],location.hash);
  }
  document.addEventListener("change",e=>{
   const input=e.target.closest("#trainer input[data-trainer-question]");if(!input||!latest)return;
@@ -91,6 +125,11 @@
  document.addEventListener("click",e=>{
   const btn=e.target.closest("#trainer [data-trainer-action]");if(!btn||!latest)return;
   e.preventDefault();
+  if(btn.dataset.trainerAction==="zoom-pages"){
+   const pg=document.querySelector('#trainer-original-pages .reading-page');
+   if(pg){const zoomed=pg.classList.toggle('is-zoomed');btn.setAttribute('aria-pressed',String(zoomed));btn.textContent=zoomed?'Fit pages':'Zoom pages';}
+   return;
+  }
   if(btn.dataset.trainerAction==="clear-test"){
     if(!window.confirm("Clear saved Trainer answers and scores for this test on this device?"))return;
     const all=storage(),prefix=String(latest.route.test)+":";
