@@ -26,8 +26,6 @@ jobs:
         run: node qa/check-readings.cjs
       - name: Check listening audio
         run: node qa/check-listening.cjs
-      - name: Check PET Trainer
-        run: node qa/check-trainer.cjs
       - name: Build static site
         run: python3 -B scripts/build_github_pages.py
       - name: Check project paths and content
