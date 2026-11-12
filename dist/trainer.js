@@ -105,26 +105,32 @@
    return;
   }
   const data=cache.get(k),saved=attempt(k),score=data.questions.filter(q=>saved.answers[q.id]===q.answer).length;
-  const questions=data.questions.map((q,i)=>{
-   const status=saved.checked?'<span class="'+(saved.answers[q.id]===q.answer?'trainer-good':'trainer-bad')+'">'+(saved.answers[q.id]===q.answer?'Correct':'Incorrect')+'</span>':'';
-   const options=Object.entries(q.options).map(([letter,option])=>'<label class="trainer-choice '+(saved.checked&&q.answer===letter?'trainer-right':'')+'"><input type="radio" name="'+esc(q.id)+'" value="'+letter+'" data-trainer-question="'+esc(q.id)+'" '+(saved.answers[q.id]===letter?'checked':'')+'><b class="answer-key">'+letter+'</b><span>'+esc(option)+'</span></label>').join('');
-   const explanation=saved.checked?'<div class="trainer-explain" lang="vi"><strong>Đáp án: '+q.answer+'</strong><p>'+esc(q.explanationVi)+'</p></div>':'';
-   return '<article class="trainer-question"><div class="trainer-qtop"><h2>Question '+(Number(String(q.id).replace(/^q/,''))||i+1)+'</h2>'+status+'</div><div class="trainer-source">'+esc(q.source)+'</div>'+(q.ask?'<p class="trainer-ask">'+esc(q.ask)+'</p>':'')+'<fieldset '+(saved.checked?'disabled':'')+'><legend>Choose the correct option</legend><div class="trainer-choices">'+options+'</div></fieldset>'+explanation+'</article>';
+  const questionRows=data.questions.map((q,i)=>{
+   const number=Number(String(q.id).replace(/^q/,''))||i+1,selected=saved.answers[q.id]||'';
+   const options=Object.keys(q.options).map(letter=>'<option value="'+esc(letter)+'" '+(selected===letter?'selected':'')+'>'+esc(letter)+'</option>').join('');
+   const answerStatus=saved.checked?'<span class="reading-answer-state '+(selected===q.answer?'trainer-good':'trainer-bad')+'">'+(selected===q.answer?'Correct':selected?'Review':'Not answered')+'</span>':'';
+   return '<div class="reading-answer-row '+(saved.checked?(selected===q.answer?'reading-correct':'reading-incorrect'):'')+'"><label for="trainer-answer-'+esc(q.id)+'">Question '+number+'</label><select id="trainer-answer-'+esc(q.id)+'" data-trainer-question="'+esc(q.id)+'" aria-label="Answer to question '+number+'" '+(saved.checked?'disabled':'')+'><option value="">Choose</option>'+options+'</select>'+answerStatus+'</div>';
   }).join('');
+  const questions='<section class="reading-answer-sheet" aria-label="Exam answer sheet"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>Choose the answer letter shown on the original book page. Your answers are saved on this device.</p></div>'+(saved.checked?'<strong class="reading-score" role="status">'+score+'/'+data.questions.length+' correct</strong>':'')+'</div><div class="reading-answer-inputs">'+questionRows+'</div><div class="reading-submit-row">'+(saved.checked?'<button class="btn" type="button" data-trainer-action="retry">Try this part again</button>':'<button class="btn btn-primary" type="button" data-trainer-action="check">Check answers</button>')+'<button class="text-button" type="button" data-trainer-action="back-to-page">Back to original page ↑</button></div></section>';
+  const questionTranscript=data.questions.map((q,i)=>'<div class="trainer-text-question"><h3>Question '+(Number(String(q.id).replace(/^q/,''))||i+1)+'</h3>'+(q.source?'<p class="trainer-source">'+esc(q.source)+'</p>':'')+(q.ask?'<p>'+esc(q.ask)+'</p>':'')+'<ol type="A">'+Object.entries(q.options).map(([letter,value])=>'<li><b>'+esc(letter)+'</b> '+esc(value)+'</li>').join('')+'</ol></div>').join('');
+  const solutions=saved.checked?'<section class="reading-solutions" aria-label="Answer key and explanations"><h3>Answer key &amp; explanations</h3>'+data.questions.map((q,i)=>'<article class="reading-solution '+(saved.answers[q.id]===q.answer?'reading-correct':'reading-incorrect')+'"><div class="reading-solution-top"><b>Question '+(Number(String(q.id).replace(/^q/,''))||i+1)+'</b><span>'+esc(q.answer)+' · '+(saved.answers[q.id]===q.answer?'Correct':'Review')+'</span></div><p lang="vi">'+esc(q.explanationVi)+'</p></article>').join('')+'</section>':'';
   const readingPassage=data.passage?'<section class="trainer-article" aria-label="Reading article"><h2>'+esc(data.passageTitle||'Reading article')+'</h2>'+(data.passageBy?'<p class="trainer-article-by">'+esc(data.passageBy)+'</p>':'')+'<div class="trainer-article-text">'+esc(data.passage)+'</div></section>':'';
   const sharedContext=Array.isArray(data.context)&&data.context.length?'<section class="trainer-passage" aria-label="Reading texts"><h2>'+esc(data.contextTitle||'Reading texts')+'</h2><p class="trainer-passage-intro">Read these descriptions before choosing your answers.</p><div class="trainer-passage-grid">'+data.context.map(item=>'<article class="trainer-passage-item"><div class="trainer-passage-title"><b>'+esc(item.letter)+'</b><h3>'+esc(item.title)+'</h3></div><p>'+esc(item.description)+'</p></article>').join('')+'</div></section>':'';
-  main.innerHTML=frame(sectionTop+head(data.title,data.instructions)+'<p class="trainer-meta">Questions: '+data.questions.length+' · Printed pages '+esc(data.bookPages)+' · '+(saved.checked?'Answers checked':'Answers saved in this browser')+'</p>'+pageRoot()+'<details id="trainer-transcript" class="trainer-text-transcript"><summary>Text-only version of the passage and questions</summary>'+readingPassage+sharedContext+'</details>'+questions+
-   '<div class="trainer-actions">'+(saved.checked?'<p class="trainer-score" role="status">Score: <strong>'+score+'/'+data.questions.length+'</strong></p><button class="btn" type="button" data-trainer-action="retry">Try again</button>':'<button class="btn btn-primary" type="button" data-trainer-action="check">Check answers</button>')+'</div><p class="trainer-credit">Verified against the official Teacher’s Notes &amp; Keys. '+esc(data.keySource)+'.</p>');
+  main.innerHTML=frame(sectionTop+head(data.title,data.instructions)+'<p class="trainer-meta">Questions: '+data.questions.length+' · Printed pages '+esc(data.bookPages)+' · '+(saved.checked?'Answers checked':'Answers saved in this browser')+'</p>'+pageRoot()+'<details id="trainer-transcript" class="trainer-text-transcript"><summary>Text-only version of the passage and questions</summary>'+readingPassage+sharedContext+questionTranscript+'</details>'+questions+solutions+'<p class="trainer-credit">Verified against the official Teacher’s Notes &amp; Keys. '+esc(data.keySource)+'.</p>');
   showOriginalPages(t.id,skill,'part-'+part[1],location.hash);
  }
  document.addEventListener("change",e=>{
-  const input=e.target.closest("#trainer input[data-trainer-question]");if(!input||!latest)return;
+  const input=e.target.closest("#trainer [data-trainer-question]");if(!input||!latest)return;
   const k=key(latest.route),v=attempt(k);if(v.checked)return;v.answers[input.dataset.trainerQuestion]=input.value;
   if(!persist(k,v))window.alert("Could not save the answer in browser storage.");
  });
  document.addEventListener("click",e=>{
   const btn=e.target.closest("#trainer [data-trainer-action]");if(!btn||!latest)return;
   e.preventDefault();
+  if(btn.dataset.trainerAction==="back-to-page"){
+   document.querySelector('#trainer-original-pages')?.scrollIntoView({behavior:'smooth',block:'start'});
+   return;
+  }
   if(btn.dataset.trainerAction==="zoom-pages"){
    const pg=document.querySelector('#trainer-original-pages .reading-page');
    if(pg){const zoomed=pg.classList.toggle('is-zoomed');btn.setAttribute('aria-pressed',String(zoomed));btn.textContent=zoomed?'Fit pages':'Zoom pages';}

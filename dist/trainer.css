@@ -106,3 +106,11 @@
 .trainer-text-transcript:not([open]){margin:0 0 23px}
 .trainer-original-page a{font-weight:650;color:var(--accent)}
 @media(max-width:600px){.trainer-original-heading{align-items:flex-start;flex-direction:column}.trainer-original-heading .btn{width:auto}}
+
+.trainer-text-question{border:1px solid var(--line);background:#fff;padding:18px;border-radius:9px;margin:12px 0}
+.trainer-text-question h3{font-size:14px;margin:0 0 10px}
+.trainer-text-question p,.trainer-text-question li{font-size:13px;line-height:1.8}
+.trainer-text-question ol{margin:8px 0;padding-left:23px}
+.trainer .reading-answer-sheet{margin-top:20px}
+.trainer .reading-answer-row .reading-answer-state{min-width:64px;font-size:11px}
+.trainer .reading-page{scroll-margin-top:20px}
