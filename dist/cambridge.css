@@ -36,7 +36,7 @@
 .cm-actions{display:flex;gap:9px;flex-wrap:wrap;margin:19px 0 11px}
 .cm-actions .btn{font-size:12px}
 .cm-feedback-line{min-height:22px;color:#54789d;font-size:12px;line-height:1.65;margin:12px 0 0}
-.cm-writing{border:1px solid #d6e0ec;border-radius:9px;padding:15px;min-height:360px;width:100%;resize:vertical;font:14px/1.9 inherit;color:#3d4f68;white-space:pre-wrap}
+.cm-writing{border:1px solid #d6e0ec;border-radius:9px;padding:15px;min-height:360px;width:100%;resize:vertical;font-family:inherit;font-size:14px;line-height:1.9;color:#3d4f68;white-space:pre-wrap}
 .cm-prompt{font-size:14px;line-height:1.85;color:#53627a}
 .cm-prompt-text{font-size:15px;line-height:1.8;color:#324b6d;font-weight:550}
 .cm-counter{margin:14px 0;color:#8390a4;font-size:12px}
