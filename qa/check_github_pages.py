@@ -54,6 +54,17 @@ assert 'trainer.js' in html and 'trainer.css' in html
 manifest_path = ROOT / '_site/trainer/exam-pages.json'
 assert manifest_path.is_file()
 assert len(json.loads(manifest_path.read_text())['tests']) == 6
+trainer_manifest = json.loads(manifest_path.read_text())
+trainer_image_paths = {page['image'] for test in trainer_manifest['tests']
+                       for parts in test['skills'].values() for part in parts
+                       for page in part['pages']}
+assert len(trainer_image_paths) == 114
+if (ROOT / 'trainer-original-page-images.zip').exists():
+    assert all((ROOT / '_site' / name).is_file() for name in trainer_image_paths)
+    print('PASS: all 114 original Trainer exam images rendered as local website assets.')
+else:
+    assert not any((ROOT / '_site' / name).exists() for name in trainer_image_paths)
+    print('Trainer source image archive not yet uploaded; website displays an honest pending state.')
 # A direct game link returns to its unit, and embedded games keep their original content.
 for game_path in ['games/word-ninja-unit11.html', 'games/word-invaders-unit12.html', 'games/word-cannon-unit13.html', 'games/word-hopper-unit14.html', 'games/word-courier-unit15.html', 'games/word-circuit-unit16.html', 'games/word-rescue-unit4.html']:
     game_html = (ROOT / '_site' / game_path).read_text()

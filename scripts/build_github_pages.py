@@ -4,6 +4,7 @@ import json
 from pathlib import Path, PurePosixPath
 import re
 import shutil
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'dist'
@@ -48,6 +49,35 @@ def build():
         shutil.rmtree(OUTPUT)
     # Publish Trainer Exam Practice; original audio is added only when verified.
     shutil.copytree(SOURCE, OUTPUT)
+    # The user-provided source images are packaged as one small GitHub web upload.
+    # Extract only the verified Trainer page scans, not the original PDF or training pages.
+    trainer_archive = ROOT / 'trainer-original-page-images.zip'
+    if trainer_archive.exists():
+        manifest = json.loads((SOURCE / 'trainer/exam-pages.json').read_text())
+        paths = {page['image'] for test in manifest['tests']
+                 for parts in test['skills'].values() for part in parts
+                 for page in part['pages']}
+        if len(paths) != 114:
+            raise ValueError('Expected 114 unique Trainer exam images')
+        with zipfile.ZipFile(trainer_archive) as package:
+            source_manifest = json.loads(package.read('dist/trainer/exam-pages.json'))
+            expected = {page['image']: page['sha256'] for test in source_manifest['tests']
+                        for parts in test['skills'].values() for part in parts
+                        for page in part['pages']}
+            if set(expected) != paths:
+                raise ValueError('Trainer image package does not match the exam manifest')
+            for rel in sorted(paths):
+                if not re.fullmatch(r'assets/(reading|writing|listening|speaking)/trainer-t[1-6]-[a-z]+-p[1-6]-page[12]\.webp', rel):
+                    raise ValueError('Invalid Trainer asset path: ' + rel)
+                content = package.read('dist/' + rel)
+                if hashlib.sha256(content).hexdigest() != expected[rel]:
+                    raise ValueError('Corrupted Trainer image: ' + rel)
+                target = OUTPUT / rel
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(content)
+        print('Published 114 verified original Trainer exam page images')
+    else:
+        print('Trainer exam pages not published: upload trainer-original-page-images.zip')
     catalog = json.loads((SOURCE / 'data.js').read_text().removeprefix(PREFIX).strip().removesuffix(';'))
     retained_files = set()
     word_count = 0
