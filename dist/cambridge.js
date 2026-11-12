@@ -90,13 +90,13 @@
   function wordCount(value){return (String(value).trim().match(/\S+/g)||[]).length;}
   function tabHref(base,skill){return base+'/'+skill+'/1';}
   function buildTabs(base,skill){
-    return '<div class="unit-tabs cm-tabs" role="navigation" aria-label="Exam skills">'+skills.map((s,i)=>'<a class="unit-tab '+(s===skill?'active':'')+'" href="'+esc('#'+tabHref(base,s))+'" data-nav="'+esc('#'+tabHref(base,s))+'"><span class="step-num">'+(i+1)+'</span>'+skillNames[s]+'</a>').join('')+'</div>';
+    return '<div class="unit-tabs cm-tabs" role="navigation" aria-label="Exam skills">'+skills.map((s,i)=>'<a class="unit-tab '+(s===skill?'active':'')+'" href="'+esc(tabHref(base,s))+'" data-nav="'+esc(tabHref(base,s))+'"><span class="step-num">'+(i+1)+'</span>'+skillNames[s]+'</a>').join('')+'</div>';
   }
   function partTabs(base,skill,index){
     if(skill==='speaking')return '';
     const count=skill==='listening'?4:skill==='reading'?3:2;
     const prefix=skill==='listening'?'Section ':skill==='reading'?'Passage ':'Task ';
-    return '<div class="cm-part-tabs">'+Array.from({length:count},(_,i)=>'<a class="cm-part-tab '+(i+1===index?'active':'')+'" href="'+esc('#'+base+'/'+skill+'/'+(i+1))+'" data-nav="'+esc('#'+base+'/'+skill+'/'+(i+1))+'">'+prefix+(i+1)+'</a>').join('')+'</div>';
+    return '<div class="cm-part-tabs">'+Array.from({length:count},(_,i)=>'<a class="cm-part-tab '+(i+1===index?'active':'')+'" href="'+esc(base+'/'+skill+'/'+(i+1))+'" data-nav="'+esc(base+'/'+skill+'/'+(i+1))+'">'+prefix+(i+1)+'</a>').join('')+'</div>';
   }
   function answerPage(test,skill,index,exam,volume){
     const [start,end]=rangeFor(skill,index);
@@ -117,7 +117,7 @@
     return '<div class="cards cm-overview">'+skills.map((s,i)=>{
       const label=['4 sections · 40 questions','3 passages · 40 questions','2 tasks','3 speaking parts'][i];
       const info=['Answer sheet and marking','Answer sheet and marking','Essay editor with word count','Examiner prompts in source PDF'][i];
-      return '<a class="nav-card compact" href="'+esc('#'+tabHref(base,s))+'" data-nav="'+esc('#'+tabHref(base,s))+'"><span class="card-label">'+label+'</span><h2>'+skillNames[s]+'</h2><p>'+info+'</p><span class="card-meta">Open '+skillNames[s]+'</span></a>';
+      return '<a class="nav-card compact" href="'+esc(tabHref(base,s))+'" data-nav="'+esc(tabHref(base,s))+'"><span class="card-label">'+label+'</span><h2>'+skillNames[s]+'</h2><p>'+info+'</p><span class="card-meta">Open '+skillNames[s]+'</span></a>';
     }).join('')+'</div><p class="notice">The exam answer sheets and publisher answer keys are available online. The original scanned pages and Listening audio are still awaiting media upload.</p>';
   }
   function render(args){
