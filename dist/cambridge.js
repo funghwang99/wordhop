@@ -30,7 +30,7 @@
   function storeGet(id){try{return localStorage.getItem(KEY_ROOT+'.'+id)||'';}catch{return '';}}
   function storeSet(id,value){try{localStorage.setItem(KEY_ROOT+'.'+id,value);}catch{}}
   function nameId(test,skill,n){return test+'-'+skill+'-'+n;}
-  function normal(s){return String(s??'').normalize('NFKC').trim().toLowerCase().replace(/[‘’]/g,"'").replace(/[\s\-_]+/g,' ').replace(/\./g,'').replace(/\s+/g,' ').trim();}
+  function normal(s){return String(s??'').normalize('NFKC').trim().toLowerCase().replace(/[‘’]/g,"'").replace(/[\s\-_]+/g,' ').replace(/\.(?!\d)/g,'').replace(/\s+/g,' ').trim();}
   function variants(key){
     let parts=String(key).split('/');
     const out=[];
