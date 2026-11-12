@@ -1,0 +1,68 @@
+{
+  "title": "Test 2 · Exam Practice · Reading Part 1",
+  "instructions": "Questions 1–5. Read each text and choose the correct answer (A, B or C).",
+  "bookPages": "54–55",
+  "keySource": "Teacher’s Notes & Keys, printed page 198",
+  "questions": [
+    {
+      "id": "q1",
+      "source": "HEAVY SNOW EXPECTED OVERNIGHT\nTRAIN AND BUS DELAYS POSSIBLE\nCHECK WEBSITES REGULARLY —\nSOME SCHOOLS AND OFFICES MAY BE CLOSED TOMORROW",
+      "ask": "What does the notice mean?",
+      "options": {
+        "A": "The bad weather will make a lot of public transport late tomorrow.",
+        "B": "Snow that is falling will cause a number of problems tomorrow.",
+        "C": "Students should watch for announcements in case they are unable to attend classes tomorrow."
+      },
+      "answer": "C",
+      "explanationVi": "Thông báo nói trường học “may be closed” và khuyên kiểm tra website thường xuyên. Vì vậy học sinh cần theo dõi thông tin xem ngày mai có nghỉ học không. A nói chắc chắn sẽ trễ, trong khi thông báo chỉ nói “possible”."
+    },
+    {
+      "id": "q2",
+      "source": "Mrs Jones:\n“Have you got books you’ve already read? Bring them to our Book Exchange on Friday — other students may enjoy them!”",
+      "ask": "What is Mrs Jones asking students to do?",
+      "options": {
+        "A": "share books they no longer want with their schoolmates",
+        "B": "find out from other students which books they’ve enjoyed",
+        "C": "bring in a good book to talk about on Friday"
+      },
+      "answer": "A",
+      "explanationVi": "“Book Exchange” là trao đổi sách; học sinh mang những sách đã đọc tới để bạn khác đọc. Không phải đi hỏi bạn thích sách gì hoặc thảo luận về một cuốn sách."
+    },
+    {
+      "id": "q3",
+      "source": "Text from Sophie to Billy:\n“Billy, Have you got Joanna’s number? I’m supposed to meet her at the cinema in 10 minutes, but Dad’s driving me into town and we’re in a huge traffic jam! Thanks! Sophie”",
+      "ask": "Why does Sophie need Joanna’s number?",
+      "options": {
+        "A": "Sophie wants Billy to contact Joanna and warn her about traffic problems in town.",
+        "B": "Sophie needs to let Joanna know that she’s probably going to be late.",
+        "C": "Sophie’s not sure when she’s supposed to meet Joanna to see a film."
+      },
+      "answer": "B",
+      "explanationVi": "Sophie sắp tới giờ hẹn nhưng bị kẹt xe nặng nên muốn liên hệ Joanna để báo mình có thể đến muộn. Đáp án B diễn đạt đúng ý, không phải cảnh báo chung về giao thông."
+    },
+    {
+      "id": "q4",
+      "source": "New Message\nFrom: Coach\nTo: Rugby club\n“Just wanted to thank players in Saturday’s match, and people who supported them. Remember, the other side were league winners, so all wasn’t bad — but next time let’s beat them!”",
+      "ask": "What is the coach doing?",
+      "options": {
+        "A": "congratulating the team on their most recent win",
+        "B": "letting the team’s fans know the positive effect of their support",
+        "C": "encouraging the team to play even better in a future match"
+      },
+      "answer": "C",
+      "explanationVi": "Câu “next time let’s beat them!” động viên đội chơi tốt hơn ở trận sau. Đội không thắng trận vừa rồi nên A sai. Huấn luyện viên cảm ơn người cổ vũ nhưng không đề cập tác động tích cực của họ như B."
+    },
+    {
+      "id": "q5",
+      "source": "Café Menu\n“See below for our regular dishes — or for today’s ‘specials’ go inside to see the board by the counter!”",
+      "ask": "What does the café notice mean?",
+      "options": {
+        "A": "We have more food available, apart from what’s written on the menu.",
+        "B": "To decide what to eat, you must go and look at the board inside.",
+        "C": "Speak to someone at the counter when you want to order your food."
+      },
+      "answer": "A",
+      "explanationVi": "Quán có món thường trên thực đơn và thêm các món đặc biệt trong ngày trên bảng. Vì vậy A đúng. Bạn không bắt buộc phải xem bảng mới chọn được món."
+    }
+  ]
+}

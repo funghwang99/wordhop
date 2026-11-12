@@ -397,3 +397,11 @@ WordHop embeds it only for Unit 4, saves results with attempted
 answers (including retries) and missed words, and resets the local
 high score when Unit 4 results are cleared. Other units' dedicated
 arcade games remain unchanged.
+
+## Trainer — Exam Practice only
+
+The Cambridge B1 Preliminary for Schools Trainer appears as a third PET book alongside Simply PET and Authentic 1. All six tests use Exam Practice only; the guided Training activities in Tests 1–2 are excluded.
+
+Reading Parts 1–3 of Exam Tests 1 and 2 are available with 30 questions, saved results and Vietnamese explanations verified against the publisher's Teacher's Notes & Keys. Other exam sections are clearly marked **Content in preparation**, not completed or scored tests.
+
+No Trainer Listening or Speaking recordings are published until the user supplies the original audio files.

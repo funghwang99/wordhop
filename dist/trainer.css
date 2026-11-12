@@ -1,0 +1,92 @@
+
+/* Trainer uses the same page heading, book cards, and skill tabs as WordHop's PET books. */
+.trainer{padding-bottom:45px}
+.trainer .breadcrumbs{margin-bottom:28px}
+.trainer-back{margin:0 0 21px;padding:3px 0}
+.trainer-cards{margin-bottom:20px}
+.trainer-tile{height:100%}
+.trainer-tile .card-meta{margin-top:auto}
+.trainer-test-heading{margin:0 0 23px;align-items:center}
+.trainer-test-heading h1{font-size:29px;letter-spacing:-.6px}
+.trainer-test-heading p{font-size:13px;line-height:1.8}
+.trainer-clear{font-size:12px;white-space:nowrap}
+.trainer-mode-tabs{display:flex;gap:8px;margin:0 0 19px;padding:4px;background:#f0f3f8;border:1px solid var(--line);border-radius:9px;width:max-content;max-width:100%}
+.trainer-mode-tabs .unit-tab{padding:9px 17px;border-radius:6px;color:#6d788a;text-decoration:none;font-size:12px;white-space:nowrap}
+.trainer-mode-tabs .unit-tab.active{background:#fff;color:var(--accent);font-weight:650;box-shadow:0 1px 4px #20385315}
+.trainer-mode-tabs .unit-tab.active:after{display:none}
+.trainer-skill-tabs{margin-bottom:27px;gap:25px}
+.trainer-skill-tabs .unit-tab{text-decoration:none}
+.trainer-empty{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px;margin:14px 0 22px}
+.trainer-empty h2{font-size:18px;letter-spacing:-.3px;font-weight:650;margin:0 0 10px}
+.trainer-empty p{font-size:13px;color:var(--muted);line-height:1.85;margin:0}
+.trainer-meta{font-size:12px;color:#8390a2;line-height:1.8;margin:0 0 19px}
+.trainer-question{background:#fff;border:1px solid var(--line);border-radius:12px;padding:27px 29px;margin:0 0 17px}
+.trainer-qtop{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+.trainer-qtop h2{font-size:16px;letter-spacing:-.25px;font-weight:650;margin:0}
+.trainer-good{color:var(--green);font-size:12px;font-weight:650}
+.trainer-bad{color:var(--red);font-size:12px;font-weight:650}
+.trainer-source{white-space:pre-line;background:#f7f9fc;color:#46566e;border:1px solid #e7ebf1;border-radius:8px;padding:17px 19px;font-size:14px;line-height:1.85;margin-bottom:16px;overflow-wrap:anywhere}
+.trainer-ask{font-size:14px;line-height:1.8;color:#344760;font-weight:650;margin:0 0 15px}
+.trainer-question fieldset{border:0;padding:0;margin:0;min-width:0}
+.trainer-question legend{position:absolute;clip-path:inset(50%);height:1px;width:1px;overflow:hidden;white-space:nowrap}
+.trainer-choices{display:grid;grid-template-columns:1fr;gap:10px}
+.trainer-choice{display:flex;align-items:flex-start;gap:12px;min-height:57px;padding:14px 16px;background:#fff;border:1px solid #dfe5ef;border-radius:9px;color:#5d6d82;font-size:13px;line-height:1.75;cursor:pointer}
+.trainer-choice:hover{border-color:#9bb3d7;background:#f8faff}
+.trainer-choice:has(input:checked){background:#f2f6fd;border-color:#92add4}
+.trainer-choice.trainer-right{background:#eff8f1;border-color:#9fcaab}
+.trainer-choice input{margin:5px 0 0;accent-color:var(--accent);flex-shrink:0}
+.trainer-choice .answer-key{width:24px;height:24px;flex-shrink:0;font-size:11px}
+.trainer-explain{background:#f1f7f2;color:#426452;border:1px solid #daeadf;border-radius:9px;padding:15px 17px;margin-top:17px;line-height:1.75;font-size:13px}
+.trainer-explain p{margin:7px 0 0}
+.trainer-actions{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin:25px 0 15px}
+.trainer-score{margin:0;font-size:16px;color:#486487}
+.trainer-credit{color:#96a0ad;font-size:11px;line-height:1.8;margin-top:16px}
+.trainer-audio{margin:21px 0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:27px}
+.trainer-audio h2{font-size:17px;font-weight:650;letter-spacing:-.25px;margin:0 0 9px}
+.trainer-audio p{color:#8290a2;font-size:13px;line-height:1.8;margin:0 0 15px}
+.trainer-audio-track{display:grid;grid-template-columns:80px minmax(120px,1fr);gap:7px 15px;align-items:start;border-top:1px solid var(--line);padding:16px 0}
+.trainer-audio-track strong{font-size:13px;color:#415a7f}
+.trainer-audio-track span{font-size:13px;line-height:1.7;color:#74849b}
+.trainer-audio-track audio{grid-column:1/-1;width:100%;max-width:650px;min-height:45px}
+@media(max-width:760px){
+ .trainer-skill-tabs{gap:22px}
+ .trainer-question{padding:23px 22px}
+ .trainer-test-heading h1{font-size:26px}
+}
+@media(max-width:480px){
+ .trainer-test-heading{gap:12px;align-items:flex-start}
+ .trainer-test-heading h1{font-size:25px}
+ .trainer-clear{font-size:10px;white-space:normal;text-align:right;max-width:92px}
+ .trainer-mode-tabs{width:100%}
+ .trainer-mode-tabs .unit-tab{flex:1;text-align:center;padding:10px 8px}
+ .trainer-skill-tabs{gap:18px;overflow-x:auto;padding-bottom:1px}
+ .trainer-skill-tabs .unit-tab{white-space:nowrap;font-size:11px}
+ .trainer-question{padding:20px 16px}
+ .trainer-source{padding:14px;font-size:13px}
+ .trainer-choice{padding:12px;font-size:12px}
+ .trainer-audio{padding:19px}
+}
+
+/* Verified A–H matching tasks: shared reading passage and answer controls */
+.trainer-passage{border:1px solid var(--line);border-radius:12px;padding:26px;background:#fff;margin-bottom:22px}
+.trainer-passage>h2{font-size:18px;letter-spacing:-.3px;margin:0 0 7px}
+.trainer-passage-intro{font-size:12px;color:#8b96a8;line-height:1.8;margin:0 0 21px}
+.trainer-passage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.trainer-passage-item{border:1px solid #e3e9f1;border-radius:9px;padding:16px 17px;background:#fbfcfe}
+.trainer-passage-title{display:flex;align-items:center;gap:12px;margin:0 0 10px}
+.trainer-passage-title>b{display:grid;place-items:center;width:29px;height:29px;border-radius:7px;background:#eaf1fa;color:var(--accent);font-size:12px;flex-shrink:0}
+.trainer-passage-title h3{font-size:14px;font-weight:650;color:#354961;margin:0}
+.trainer-passage-item p{font-size:12px;line-height:1.85;color:#66768b;margin:0}
+.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choice{min-height:68px}
+@media(max-width:760px){.trainer-passage{padding:20px}.trainer-passage-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.trainer-passage{padding:16px}.trainer-passage-item{padding:14px}.trainer-question:has(.trainer-choices .trainer-choice:nth-child(8)) .trainer-choices{grid-template-columns:1fr}}
+
+/* Long Reading Part 3 articles from the Trainer book */
+.trainer-article{padding:28px;background:#fff;border:1px solid var(--line);border-radius:12px;margin:0 0 23px}
+.trainer-article h2{font-size:20px;letter-spacing:-.35px;font-weight:700;color:#354760;margin:0 0 7px}
+.trainer-article-by{font-size:12px;color:#8792a2;margin:0 0 20px}
+.trainer-article-text{font-size:14px;line-height:1.95;color:#42536a;white-space:pre-line;overflow-wrap:anywhere}
+.trainer-article-text:first-of-type{margin-top:15px}
+.trainer-source:empty{display:none}
+@media(max-width:600px){.trainer-article{padding:19px}.trainer-article h2{font-size:18px}.trainer-article-text{font-size:13px;line-height:1.85}}

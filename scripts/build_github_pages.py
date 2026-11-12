@@ -46,8 +46,8 @@ def gate_game_pages(catalog):
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
-    # Keep the Trainer source and any imported recordings out of the published site.
-    shutil.copytree(SOURCE, OUTPUT, ignore=shutil.ignore_patterns('trainer', 'trainer.js', 'trainer.css'))
+    # Publish Trainer Exam Practice; original audio is added only when verified.
+    shutil.copytree(SOURCE, OUTPUT)
     catalog = json.loads((SOURCE / 'data.js').read_text().removeprefix(PREFIX).strip().removesuffix(';'))
     retained_files = set()
     word_count = 0
@@ -72,7 +72,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[a-f0-9]+', asset + '?v=' + version, index)
         assert count == 1
