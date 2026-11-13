@@ -8,7 +8,7 @@
   {id:5,training:false,pages:{reading:"130–139",writing:"140–141",listening:"142–146",speaking:"147"}},
   {id:6,training:false,pages:{reading:"148–157",writing:"158–159",listening:"160–164",speaking:"165"}}
  ];
- const SKILLS={reading:6,listening:4,writing:2,speaking:4};
+ const SKILLS={reading:6,listening:4,writing:2};
  const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","1:exam:reading:part-2":"trainer/test-1-reading-part-2.json","1:exam:reading:part-3":"trainer/test-1-reading-part-3.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json","2:exam:reading:part-2":"trainer/test-2-reading-part-2.json","2:exam:reading:part-3":"trainer/test-2-reading-part-3.json"};
  const BASE="#/pet/trainer", cache=new Map();
 
@@ -113,11 +113,15 @@
  function render(context){
   const r=context.route||{},main=context.container,t=TESTS.find(x=>x.id===Number(r.test));
   const mode='exam';
+  if(t && r.skill==='speaking'){
+   location.replace(path(t.id,'exam','reading','part-1'));
+   return;
+  }
   const skill=SKILLS[r.skill]?r.skill:'reading';
   latest={container:main,route:{...r,mode,skill}};
   if(!t){
-   const description='6 B1 Preliminary for Schools Exam Practice tests · Reading, Listening, Writing and Speaking · Original book pages.';
-   main.innerHTML=frame(head('Trainer',description)+'<p class="section-label">Choose a test</p>'+tiles(TESTS.map(x=>tile(path(x.id,'exam','reading','part-1'),'Exam Practice','Test '+x.id,'Reading · Listening · Writing · Speaking',x.id<=2?'Reading Parts 1–3 checked · Original exam pages':'Original exam pages · Answer keys being prepared'))));
+   const description='6 B1 Preliminary for Schools Exam Practice tests · Reading, Listening and Writing · Original book pages.';
+   main.innerHTML=frame(head('Trainer',description)+'<p class="section-label">Choose a test</p>'+tiles(TESTS.map(x=>tile(path(x.id,'exam','reading','part-1'),'Exam Practice','Test '+x.id,'Reading · Listening · Writing',x.id<=2?'Reading Parts 1–3 checked · Original exam pages':'Original exam pages · Answer keys being prepared'))));
    return;
   }
   const selectedId=/^part-([1-6])$/.test(r.part||'') ? r.part : 'part-1';
