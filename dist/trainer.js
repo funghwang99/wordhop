@@ -150,12 +150,12 @@
   }).join('');
   const navigation='<nav class="'+(skill==='listening'?'listening-parts':'reading-parts')+'" aria-label="'+pendingTitle+' parts">'+links+'</nav>';
   const introduction='<div class="'+(skill==='listening'?'listening-intro':'reading-intro')+'"><div><h2>'+pendingTitle+'</h2><p>Original Exam Practice pages · Test '+t.id+'. '+(skill==='listening'?'Play the original Exam Practice recording below, then answer the questions on the book page.':'Read the original speaking test instructions and prompts.')+'</p></div></div>';
-  const player='<section class="listening-player-card trainer-player-card" aria-label="'+pendingTitle+' recording"><div class="listening-player-heading"><div><p class="section-label">Test '+t.id+' · '+pendingTitle+'</p><h3>Part '+selectedPart.split('-')[1]+'</h3></div></div><div id="trainer-audio-status" aria-live="polite"><p class="notice" role="status">Checking Exam Practice audio…</p></div></section>';
+  const player=skill==='listening'?'<section class="listening-player-card trainer-player-card" aria-label="Listening recording"><div class="listening-player-heading"><div><p class="section-label">Test '+t.id+' · Listening</p><h3>Part '+selectedPart.split('-')[1]+'</h3></div></div><div id="trainer-audio-status" aria-live="polite"><p class="notice" role="status">Checking Exam Practice audio…</p></div></section>':'';
   const awaiting=skill==='listening'?'<section class="reading-answer-sheet trainer-pending-key"><div class="reading-sheet-heading"><div><h3>Answer sheet in preparation</h3><p>The book questions can be viewed above. Audio and verified answer keys must be added before scoring is enabled.</p></div></div></section>':'';
   const body='<section class="'+(skill==='listening'?'listening-view':'reading-view')+' trainer-pet-view" aria-label="'+pendingTitle+' Exam Practice">'+introduction+navigation+player+pageRoot()+awaiting+'<p class="reading-source-note">Original exam pages: Cambridge B1 Preliminary for Schools Trainer. Only Exam Practice is included.</p></section>';
   main.innerHTML=frame(back(BASE,'All tests')+testNav(t,mode,skill)+body);
   showOriginalPages(t.id,skill,selectedPart,atHash);
-  showExamAudio(t.id,skill,selectedPart,atHash);
+  if(skill==='listening')showExamAudio(t.id,skill,selectedPart,atHash);
   return;
 
   const nav=testNav(t,mode,skill),count=SKILLS[skill];

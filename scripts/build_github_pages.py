@@ -105,10 +105,12 @@ def activate_trainer_exam_audio():
     if manifest['book'] != 'trainer' or manifest['mode'] != 'exam':
         raise ValueError('Trainer audio manifest is not Exam Practice')
     expected = {item['src']: item for item in manifest['tracks']}
-    if len(expected) != 30 or len({item['track'] for item in expected.values()}) != 30:
-        raise ValueError('Expected 30 distinct Exam Practice recordings')
+    if len(expected) != 24 or len({item['track'] for item in expected.values()}) != 30:
+        raise ValueError('Expected 24 distinct Listening Exam Practice recordings')
+    if any(item['skill'] != 'listening' for item in expected.values()):
+        raise ValueError('Only actual exam Listening recordings may be published')
     prohibited = set(manifest['excludedTrainingTracks'])
-    if len(prohibited) != 27 or any(item['track'] in prohibited for item in expected.values()):
+    if len(prohibited) != 33 or any(item['track'] in prohibited for item in expected.values()):
         raise ValueError('Guided Training audio cannot be published')
     count = 0
     for bundle in manifest['bundles']:
@@ -127,7 +129,7 @@ def activate_trainer_exam_audio():
             if set(package.get('tracks', [])) != {item['track'] for item in subset.values()}:
                 raise ValueError('Unlisted or Training source track: ' + archive_path.name)
             for rel, digest in package['files'].items():
-                if not re.fullmatch(r'audio/trainer/test-[1-6]/(?:listening-part-[1-4]|speaking-part-[1-4](?:-sample-[1-3])?)[.]mp3', rel):
+                if not re.fullmatch(r'audio/trainer/test-[1-6]/listening-part-[1-4][.]mp3', rel):
                     raise ValueError('Unexpected Trainer audio path: ' + rel)
                 blob = archive.read(rel)
                 if hashlib.sha256(blob).hexdigest() != digest:
@@ -137,7 +139,7 @@ def activate_trainer_exam_audio():
                 dest.write_bytes(blob)
                 count += 1
         print('Published verified Trainer Exam Practice bundle: ' + archive_path.name)
-    print(f'Published {count}/30 Trainer Exam Practice audio tracks; 27 Training files excluded')
+    print(f'Published {count}/24 Trainer Exam Practice Listening audio tracks; 33 Training files excluded')
 
 
 def build():

@@ -414,14 +414,14 @@ The WordHop Trainer exam-only navigation now supports the same scanned-page view
 
 **Single-file upload workflow:** Download the prepared `trainer-original-page-images.zip` (14 MB) from this conversation and upload that file, unzipped **not required**, to the root of this GitHub repository using **Add file → Upload files**. The Pages workflow automatically verifies all 114 source-image SHA-256 hashes, excludes guided Training pages, extracts the file into the static site, and enables every matching page preview in Trainer. No other repository files need manual changes. If the archive is missing, the site shows a page-image pending notice.
 
-### Trainer Exam Practice audio publishing (57 supplied tracks; 30 selected)
+### Trainer Exam Practice audio publishing (57 received tracks; 24 selected)
 
-The 57 supplied MP3 tracks mix guided **Training** and **Exam Practice**. We deliberately publish **only 30 verified Exam Practice tracks**: all four Listening parts in Tests 1–6, plus six Speaking examples across Test 1. The 27 excluded Training tracks are recorded in `dist/trainer/audio-manifest.json`; no Test 2–6 Speaking recording was provided.
+The original book explicitly marks Speaking exercise recordings in Tests 1–2 as **Training**, not Exam Practice. Therefore only the **24 original Exam Practice Listening tracks** (four parts each in Tests 1–6) are published. All **33 Training tracks**, including Speaking Tracks 14, 16–18, 20 and 23, are excluded. Speaking test pages remain available as original scanned images, without exercise audio.
 
-To finish publishing the source audio, upload the following **three prepared archive files** to the root of the `funghwang99/wordhop` GitHub repository using **Add file → Upload files**. **Do not unzip or rename them.**
+Upload the following **three rechecked ZIP files**, without extracting or renaming, to the `funghwang99/wordhop` repository root using GitHub **Add file → Upload files**:
 
-- `trainer_exam_audio_tests_1_2.zip` (~21.3 MB; 14 Exam Practice MP3 files)
-- `trainer_exam_audio_tests_3_4.zip` (~22.3 MB; 8 Exam Practice MP3 files)
-- `trainer_exam_audio_tests_5_6.zip` (~23.0 MB; 8 Exam Practice MP3 files)
+- `trainer_exam_listening_tests_1_2.zip` (~18.4 MB, 8 Listening files)
+- `trainer_exam_listening_tests_3_4.zip` (~22.3 MB, 8 Listening files)
+- `trainer_exam_listening_tests_5_6.zip` (~23.0 MB, 8 Listening files)
 
-GitHub Pages automatically validates each ZIP's file list, checks the SHA-256 of every audio file, excludes all Training tracks, then extracts the MP3s to `audio/trainer/test-N/`. The app's PET-style audio player, 0.75–1.5× speed control and source page images activate only when the files are actually online. The audio is optimised as mono MP3 at 40 kbps for compatibility and the GitHub upload limit. The user's original recordings remain unchanged. Listening scoring remains disabled until the official answer keys are digitised; original exam pages and recordings can still be played.
+The Pages builder checks the source track list, archive membership and SHA-256 of every MP3, then extracts just the selected files to `audio/trainer/test-N/`. Uploading the archives independently is supported. No Speaking exercise audio is published. The web player uses the existing PET Listening control styles with playback speeds 0.75–1.5×, while the original Exam Practice pages remain displayed. Audio was encoded to 40 kbps mono MP3 for the GitHub web upload limit. The original user-supplied recordings were not changed. Listening answer checking is still disabled until verified keys are digitised.
