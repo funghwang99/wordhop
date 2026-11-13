@@ -105,7 +105,7 @@ def activate_trainer_exam_audio():
     if manifest['book'] != 'trainer' or manifest['mode'] != 'exam':
         raise ValueError('Trainer audio manifest is not Exam Practice')
     expected = {item['src']: item for item in manifest['tracks']}
-    if len(expected) != 24 or len({item['track'] for item in expected.values()}) != 30:
+    if len(expected) != 24 or len({item['track'] for item in expected.values()}) != 24:
         raise ValueError('Expected 24 distinct Listening Exam Practice recordings')
     if any(item['skill'] != 'listening' for item in expected.values()):
         raise ValueError('Only actual exam Listening recordings may be published')
