@@ -167,7 +167,7 @@
         return '<img src="'+esc(src)+'" data-cam-page="'+n+'" alt="Cambridge IELTS original book page '+n+'" decoding="async" loading="'+(i?'lazy':'eager')+'">';
       }).join('')+'</div>';
     }
-    return '<div class="reading-page cm-page-pending" tabindex="0"><div class="cm-missing-content"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><h4>Original book page'+(to>from?'s':'')+' '+from+(to>from?'–'+to:'')+'</h4><p>The PDF pages have not been uploaded to WordHop yet. Use the Cambridge 12 PDF provided by your teacher to read the full passage, options and diagrams.</p></div></div>';
+    return '<div class="reading-page cm-page-pending" tabindex="0"><div class="cm-missing-content"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><h4>Original book page'+(to>from?'s':'')+' '+from+(to>from?'–'+to:'')+'</h4><p>The PDF pages have not been uploaded to WordHop yet. Use the '+esc(route.volume.title)+' PDF provided by your teacher to read the full passage, options and diagrams.</p></div></div>';
   }
   function mediaControls(route,skill,part){
     const root=route.volume.mediaRoot;
