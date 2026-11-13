@@ -24,6 +24,9 @@ const catalog=context.window.WQ_CATALOG;
 const component=context.window.WordHopCambridge;
 const volume=catalog.volumes.find(item=>item.id==='cambridge-ielts-academic-21');
 assert(volume?.tests?.length===4,'Four tests must be registered');
+assert.equal(volume.title,'Cambridge IELTS Academic 12','Correct book title should be displayed');
+assert.equal(volume.mediaRoot,'media/cambridge-ielts-academic-21','Media remains on its original internal path');
+assert(volume.tests.every(x=>x.audio?.length===4),'All 16 listening tracks should be linked');
 let renders=0;
 for(const test of volume.tests){
  const number=test.id.split('-')[1];
@@ -38,6 +41,12 @@ for(const test of volume.tests){
     assert(html.includes('class="unit-tabs"'),'Use same skill tabs as PET');
     assert(html.includes(base+'/'+skill+'/part-'+p),'Part navigation must use the current route');
     assert(!html.includes('##/'),'A double hash would break navigation');
+    assert(html.includes('src="/wordhop/media/cambridge-ielts-academic-21/pages/page-'),
+      'Cambridge pages should use absolute paths relative to the project root');
+    assert(html.includes('data-cam-page='),'Every page should report a load error');
+    if(skill==='listening')assert(
+      html.includes('src="/wordhop/media/cambridge-ielts-academic-21/audio/test-'+number+'-section-'+p+'.m4a"'),
+      'Audio should resolve under the project path');
     if(skill==='listening'){
       assert(html.includes('class="listening-player-card"'),'Listening player must use PET styling');
       assert(html.includes('class="listening-parts"'),'Listening parts must use PET styling');
