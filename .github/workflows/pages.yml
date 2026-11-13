@@ -24,12 +24,12 @@ jobs:
         run: node qa/check-all-words.cjs
       - name: Check book readings
         run: node qa/check-readings.cjs
-      - name: Check Cambridge IELTS PET-style interface
-        run: node qa/check-cambridge-ui.cjs
       - name: Check listening audio
         run: node qa/check-listening.cjs
       - name: Check Trainer Exam Practice
         run: node qa/check-trainer.cjs
+      - name: Check Trainer PET interface parity
+        run: node qa/check-trainer-parity.cjs
       - name: Build static site
         run: python3 -B scripts/build_github_pages.py
       - name: Check project paths and content

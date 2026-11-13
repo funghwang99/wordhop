@@ -1,0 +1,339 @@
+{
+  "id": "trainer-test-2",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "publisher": "Cambridge University Press",
+    "answerKeyOrigin": "Publisher Teacher’s Notes & Keys verified for Reading Parts 1–3 of Tests 1–2 only"
+  },
+  "partLabel": "Part",
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Part 1 · Short texts",
+      "instructions": "Questions 1–5. Read each text and choose the correct answer (A, B or C).",
+      "pages": [
+        {
+          "pdfPage": 56,
+          "printedPage": 54,
+          "image": "assets/reading/trainer-t2-reading-p1-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 57,
+          "printedPage": 55,
+          "image": "assets/reading/trainer-t2-reading-p1-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": false,
+      "questions": [
+        {
+          "number": 1,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "Thông báo nói trường học “may be closed” và khuyên kiểm tra website thường xuyên. Vì vậy học sinh cần theo dõi thông tin xem ngày mai có nghỉ học không. A nói chắc chắn sẽ trễ, trong khi thông báo chỉ nói “possible”.",
+          "explanationVi": "Thông báo nói trường học “may be closed” và khuyên kiểm tra website thường xuyên. Vì vậy học sinh cần theo dõi thông tin xem ngày mai có nghỉ học không. A nói chắc chắn sẽ trễ, trong khi thông báo chỉ nói “possible”."
+        },
+        {
+          "number": 2,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "“Book Exchange” là trao đổi sách; học sinh mang những sách đã đọc tới để bạn khác đọc. Không phải đi hỏi bạn thích sách gì hoặc thảo luận về một cuốn sách.",
+          "explanationVi": "“Book Exchange” là trao đổi sách; học sinh mang những sách đã đọc tới để bạn khác đọc. Không phải đi hỏi bạn thích sách gì hoặc thảo luận về một cuốn sách."
+        },
+        {
+          "number": 3,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Sophie sắp tới giờ hẹn nhưng bị kẹt xe nặng nên muốn liên hệ Joanna để báo mình có thể đến muộn. Đáp án B diễn đạt đúng ý, không phải cảnh báo chung về giao thông.",
+          "explanationVi": "Sophie sắp tới giờ hẹn nhưng bị kẹt xe nặng nên muốn liên hệ Joanna để báo mình có thể đến muộn. Đáp án B diễn đạt đúng ý, không phải cảnh báo chung về giao thông."
+        },
+        {
+          "number": 4,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "Câu “next time let’s beat them!” động viên đội chơi tốt hơn ở trận sau. Đội không thắng trận vừa rồi nên A sai. Huấn luyện viên cảm ơn người cổ vũ nhưng không đề cập tác động tích cực của họ như B.",
+          "explanationVi": "Câu “next time let’s beat them!” động viên đội chơi tốt hơn ở trận sau. Đội không thắng trận vừa rồi nên A sai. Huấn luyện viên cảm ơn người cổ vũ nhưng không đề cập tác động tích cực của họ như B."
+        },
+        {
+          "number": 5,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Quán có món thường trên thực đơn và thêm các món đặc biệt trong ngày trên bảng. Vì vậy A đúng. Bạn không bắt buộc phải xem bảng mới chọn được món.",
+          "explanationVi": "Quán có món thường trên thực đơn và thêm các món đặc biệt trong ngày trên bảng. Vì vậy A đúng. Bạn không bắt buộc phải xem bảng mới chọn được món."
+        }
+      ],
+      "pageNote": "Exam Practice · Questions and key checked against the Teacher’s Notes & Keys."
+    },
+    {
+      "id": "part-2",
+      "title": "Part 2 · Matching",
+      "instructions": "Questions 6–10. Match five visitors to the most suitable film studio (A–H). Three studios are not used.",
+      "pages": [
+        {
+          "pdfPage": 59,
+          "printedPage": 57,
+          "image": "assets/reading/trainer-t2-reading-p2-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 60,
+          "printedPage": 58,
+          "image": "assets/reading/trainer-t2-reading-p2-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": false,
+      "questions": [
+        {
+          "number": 6,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "C",
+          "explanation": "C cho phép khách tự tham quan, không bị ràng buộc bởi đoàn hướng dẫn, và xem trước thông tin về phim trường trên website. Đây là hai điều Tom và mẹ yêu cầu.",
+          "explanationVi": "C cho phép khách tự tham quan, không bị ràng buộc bởi đoàn hướng dẫn, và xem trước thông tin về phim trường trên website. Đây là hai điều Tom và mẹ yêu cầu."
+        },
+        {
+          "number": 7,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "H",
+          "explanation": "H trưng bày trang phục gốc của diễn viên, cho khách đi thử xe từng xuất hiện trong phim và tặng ảnh lưu niệm.",
+          "explanationVi": "H trưng bày trang phục gốc của diễn viên, cho khách đi thử xe từng xuất hiện trong phim và tặng ảnh lưu niệm."
+        },
+        {
+          "number": 8,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "E",
+          "explanation": "E nổi tiếng với các phim thập niên 1940, bán đồ lưu niệm từ các bộ phim và cho đặt vé qua website trước khi đến.",
+          "explanationVi": "E nổi tiếng với các phim thập niên 1940, bán đồ lưu niệm từ các bộ phim và cho đặt vé qua website trước khi đến."
+        },
+        {
+          "number": 9,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "B",
+          "explanation": "B giới thiệu phim khoa học viễn tưởng, có video tương tác về kỹ xảo và nội dung tham quan dạng số có thể tải về.",
+          "explanationVi": "B giới thiệu phim khoa học viễn tưởng, có video tương tác về kỹ xảo và nội dung tham quan dạng số có thể tải về."
+        },
+        {
+          "number": 10,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "F",
+          "explanation": "F có bối cảnh mô phỏng New York, Rome và chuyến xe tới các địa điểm quay phim ngoài phim trường với nhân viên hướng dẫn.",
+          "explanationVi": "F có bối cảnh mô phỏng New York, Rome và chuyến xe tới các địa điểm quay phim ngoài phim trường với nhân viên hướng dẫn."
+        }
+      ],
+      "pageNote": "Exam Practice · Questions and key checked against the Teacher’s Notes & Keys."
+    },
+    {
+      "id": "part-3",
+      "title": "Part 3 · Multiple choice",
+      "instructions": "Questions 11–15. Read the article and choose the correct answer, A, B, C or D.",
+      "pages": [
+        {
+          "pdfPage": 63,
+          "printedPage": 61,
+          "image": "assets/reading/trainer-t2-reading-p3-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 64,
+          "printedPage": 62,
+          "image": "assets/reading/trainer-t2-reading-p3-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": false,
+      "questions": [
+        {
+          "number": 11,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "Porthdean nằm 'just along the coast from the family home', nghĩa là gần nhà. C đúng.",
+          "explanationVi": "Porthdean nằm 'just along the coast from the family home', nghĩa là gần nhà. C đúng."
+        },
+        {
+          "number": 12,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "Lily biết khóa học có hoạt động khám phá hang động, việc bình thường cô không được phép làm, nên rất háo hức được thử. A đúng.",
+          "explanationVi": "Lily biết khóa học có hoạt động khám phá hang động, việc bình thường cô không được phép làm, nên rất háo hức được thử. A đúng."
+        },
+        {
+          "number": 13,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "Người hướng dẫn động viên cả nhóm rất nhiều ('encouraged the whole group so much'), giúp họ tự tin chinh phục cả những thử thách không ngờ tới. B đúng.",
+          "explanationVi": "Người hướng dẫn động viên cả nhóm rất nhiều ('encouraged the whole group so much'), giúp họ tự tin chinh phục cả những thử thách không ngờ tới. B đúng."
+        },
+        {
+          "number": 14,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "Cả Lily lẫn bố đều không ngờ hoạt động tốn sức đến mức giống như một buổi tập gym nặng. Vì vậy chọn D.",
+          "explanationVi": "Cả Lily lẫn bố đều không ngờ hoạt động tốn sức đến mức giống như một buổi tập gym nặng. Vì vậy chọn D."
+        },
+        {
+          "number": 15,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "Bố ban đầu băn khoăn liệu mình có thích coasteering, nhưng lại dám nhảy từ vách đá cao hơn Lily. A khớp với cả hai chi tiết.",
+          "explanationVi": "Bố ban đầu băn khoăn liệu mình có thích coasteering, nhưng lại dám nhảy từ vách đá cao hơn Lily. A khớp với cả hai chi tiết."
+        }
+      ],
+      "pageNote": "Exam Practice · Questions and key checked against the Teacher’s Notes & Keys."
+    },
+    {
+      "id": "part-4",
+      "title": "Part 4 · Gapped text",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 66,
+          "printedPage": 64,
+          "image": "assets/reading/trainer-t2-reading-p4-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 67,
+          "printedPage": 65,
+          "image": "assets/reading/trainer-t2-reading-p4-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-5",
+      "title": "Part 5 · Multiple-choice cloze",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 69,
+          "printedPage": 67,
+          "image": "assets/reading/trainer-t2-reading-p5-page1.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-6",
+      "title": "Part 6 · Open cloze",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 71,
+          "printedPage": 69,
+          "image": "assets/reading/trainer-t2-reading-p6-page1.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    }
+  ]
+}

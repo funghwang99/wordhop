@@ -1,6 +1,6 @@
 
 /* Trainer uses the same page heading, book cards, and skill tabs as WordHop's PET books. */
-.trainer{padding-bottom:45px}
+.trainer{padding-bottom:0}
 .trainer .breadcrumbs{margin-bottom:28px}
 .trainer-back{margin:0 0 21px;padding:3px 0}
 .trainer-cards{margin-bottom:20px}
@@ -114,3 +114,25 @@
 .trainer .reading-answer-sheet{margin-top:20px}
 .trainer .reading-answer-row .reading-answer-state{min-width:64px;font-size:11px}
 .trainer .reading-page{scroll-margin-top:20px}
+
+/* Trainer Exam Practice now shares the original WordHop PET Reading and Writing renderers. */
+.trainer .trainer-pet-view{margin-top:26px}
+.trainer .unit-heading-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+.trainer .unit-heading-actions .unit-badge{font-weight:600}
+.trainer .trainer-skill-tabs{flex-wrap:wrap}
+.trainer .trainer-skill-tabs .unit-tab{display:inline-flex;align-items:center;gap:0}
+.trainer .listening-player-card .notice{margin-top:16px;margin-bottom:0}
+.trainer .trainer-pending-key,.reading-view .trainer-pending-key{margin-top:22px}
+.trainer .trainer-pet-view .trainer-original-pages{margin:20px 0}
+.trainer .trainer-pet-view .reading-page{background:#fff}
+@media(max-width:760px){
+ .trainer .unit-heading-actions{justify-content:flex-start}
+ .trainer .trainer-skill-tabs{gap:14px}
+ .trainer .trainer-skill-tabs .unit-tab{font-size:12px}
+ .trainer .listening-parts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .trainer .listening-part{font-size:12px}
+}
+@media(max-width:410px){
+ .trainer .listening-parts{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .trainer .trainer-skill-tabs{gap:12px}
+}

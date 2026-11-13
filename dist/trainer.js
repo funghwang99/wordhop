@@ -8,7 +8,7 @@
   {id:5,training:false,pages:{reading:"130–139",writing:"140–141",listening:"142–146",speaking:"147"}},
   {id:6,training:false,pages:{reading:"148–157",writing:"158–159",listening:"160–164",speaking:"165"}}
  ];
- const SKILLS={reading:6,writing:2,listening:4,speaking:4};
+ const SKILLS={reading:6,listening:4,writing:2,speaking:4};
  const READY={"1:exam:reading:part-1":"trainer/test-1-reading-part-1.json","1:exam:reading:part-2":"trainer/test-1-reading-part-2.json","1:exam:reading:part-3":"trainer/test-1-reading-part-3.json","2:exam:reading:part-1":"trainer/test-2-reading-part-1.json","2:exam:reading:part-2":"trainer/test-2-reading-part-2.json","2:exam:reading:part-3":"trainer/test-2-reading-part-3.json"};
  const BASE="#/pet/trainer", cache=new Map();
 
@@ -38,8 +38,10 @@
    slot.innerHTML='<section class="trainer-empty"><h2>Original exam page images pending</h2><p>The source pages have been extracted, but the image assets are not yet hosted on this website. Existing checked Reading questions are still available below. No Training pages are included.</p></section>';
    return;
   }
-  slot.innerHTML='<div class="trainer-original-heading"><div><h2>Original Exam Practice pages</h2><p>Read the original book page, then complete the answer sheet below.</p></div><button class="btn" type="button" data-trainer-action="zoom-pages" aria-pressed="false">Zoom pages</button></div>'+
-   '<div class="reading-page" tabindex="0" aria-label="Original Cambridge exam pages">'+found.map(({p},i)=>'<figure class="trainer-original-page"><img src="'+esc(p.image)+'" width="'+p.width+'" height="'+p.height+'" loading="'+(i?'lazy':'eager')+'" decoding="async" alt="Trainer Test '+t+', '+esc(skill)+' '+esc(part)+', printed page '+p.printedPage+'"><figcaption>Book page '+p.printedPage+' · <a href="'+esc(p.image)+'" target="_blank" rel="noopener">Open full-size page</a></figcaption></figure>').join('')+'</div>'+
+  const first=found[0].p;
+  const numbers=found.map(x=>x.p.printedPage);
+  slot.innerHTML='<div class="reading-part-heading"><div><h3>Part '+part.split('-')[1]+' · Original Exam Practice</h3><p>Book '+(numbers.length===1?'page ':'pages ')+numbers.join('–')+'</p></div><div class="reading-page-actions"><button class="btn" type="button" data-trainer-action="zoom-pages" aria-pressed="false">Zoom page</button><a class="text-button" href="'+esc(first.image)+'" target="_blank" rel="noopener">Open full-size page ↗</a></div></div>'+
+   '<div class="reading-page" tabindex="0" aria-label="Original Cambridge exam pages">'+found.map(({p},i)=>'<img src="'+esc(p.image)+'" width="'+p.width+'" height="'+p.height+'" loading="'+(i?'lazy':'eager')+'" decoding="async" alt="Trainer Test '+t+', '+esc(skill)+' '+esc(part)+', book page '+p.printedPage+'">').join('')+'</div>'+
    (found.length<pages.length?'<p class="notice">Some original page images are still pending upload.</p>':'');
  }
  let latest=null;
@@ -56,13 +58,13 @@
  const frame=body=>'<div id="trainer" class="trainer"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="#/" data-nav="#/">Courses</a><span class="sep" aria-hidden="true">/</span><a href="#/pet" data-nav="#/pet">PET</a><span class="sep" aria-hidden="true">/</span><a href="'+BASE+'" data-nav="'+BASE+'">Trainer</a></nav>'+body+'</div>';
  const tiles=items=>'<div class="cards trainer-cards">'+items.join('')+'</div>';
  const tile=(url,label,title,desc,meta)=>'<a class="nav-card compact trainer-tile" href="'+esc(url)+'" data-nav="'+esc(url)+'"><div class="nav-card-top"><span class="card-label">'+esc(label)+'</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></div><h2>'+esc(title)+'</h2>'+(desc?'<p>'+esc(desc)+'</p>':'')+(meta?'<span class="card-meta">'+esc(meta)+'</span>':'')+'</a>';
- const selectedTab=(url,title,active)=>'<a class="unit-tab'+(active?' active':'')+'" href="'+esc(url)+'" data-nav="'+esc(url)+'"'+(active?' aria-current="page"':'')+'>'+esc(title)+'</a>';
+ const selectedTab=(url,title,active,index)=>'<a class="unit-tab'+(active?' active':'')+'" href="'+esc(url)+'" data-nav="'+esc(url)+'"'+(active?' aria-current="page"':'')+'><span class="step-num">'+(index+1)+'</span>'+esc(title)+'</a>';
  function testNav(t,mode,skill){
   const title='Test '+t.id;
-  const current=mode==='training'?'Training':'Exam Practice';
-  const intro='<div class="unit-heading trainer-test-heading"><div><h1>'+title+'</h1><p>Trainer · PET · '+current+'</p></div><button class="text-button trainer-clear" type="button" data-trainer-action="clear-test">Clear saved results</button></div>';
+  const current='Exam Practice';
+  const intro='<div class="unit-heading trainer-test-heading"><div><h1>'+title+'</h1><p>Trainer · PET</p></div><div class="unit-heading-actions"><span class="unit-badge">Exam Practice</span><button class="text-button trainer-clear" type="button" data-trainer-action="clear-test">Clear saved results</button></div></div>';
   const modes='';
-  const skills='<nav class="unit-tabs trainer-skill-tabs" aria-label="Choose a skill">'+Object.keys(SKILLS).map(s=>selectedTab(path(t.id,mode,s),s[0].toUpperCase()+s.slice(1),s===skill)).join('')+'</nav>';
+  const skills='<nav class="unit-tabs trainer-skill-tabs" aria-label="Choose a skill">'+Object.keys(SKILLS).map((s,i)=>selectedTab(path(t.id,mode,s,'part-1'),s[0].toUpperCase()+s.slice(1),s===skill,i)).join('')+'</nav>';
   return intro+modes+skills;
  }
  function render(context){
@@ -71,10 +73,47 @@
   const skill=SKILLS[r.skill]?r.skill:'reading';
   latest={container:main,route:{...r,mode,skill}};
   if(!t){
-   const description='Choose one of six Exam Practice tests. Reading Parts 1–3 in Tests 1–2 are available; the remaining content is being prepared. Original audio will be added once supplied.';
-   main.innerHTML=frame(head('Trainer',description)+'<p class="section-label">Choose a test</p>'+tiles(TESTS.map(x=>tile(path(x.id,'exam','reading'),x.id<=2?'Exam Practice · Reading ready':'Exam Practice · Preparing','Test '+x.id,'Reading · Writing · Listening · Speaking',x.id<=2?'3 Reading parts ready · audio pending':'Exam content in preparation'))));
+   const description='6 B1 Preliminary for Schools Exam Practice tests · Reading, Listening, Writing and Speaking · Original book pages.';
+   main.innerHTML=frame(head('Trainer',description)+'<p class="section-label">Choose a test</p>'+tiles(TESTS.map(x=>tile(path(x.id,'exam','reading','part-1'),'Exam Practice','Test '+x.id,'Reading · Listening · Writing · Speaking',x.id<=2?'Reading Parts 1–3 checked · Original exam pages':'Original exam pages · Answer keys being prepared'))));
    return;
   }
+  const selectedId=/^part-([1-6])$/.test(r.part||'') ? r.part : 'part-1';
+  const number=Number(selectedId.split('-')[1]);
+  const countShared=SKILLS[skill];
+  const selectedPart=number<=countShared?selectedId:'part-1';
+  const sectionHeader=frame(back(BASE,'All tests')+testNav(t,mode,skill));
+  const unit={id:'trainer-test-'+t.id,title:'Test '+t.id,readingFile:'readings/trainer-test-'+t.id+'.json',writingFile:'writings/trainer-test-'+t.id+'.json'};
+  const base=path(t.id,'exam');
+  const atHash=location.hash;
+  const isCurrent=()=>Boolean(window.WordHopStudent?.current())&&location.hash===atHash;
+  // Use the exact same Reading / Writing components as Simply PET and Authentic 1.
+  // Scanned original pages are handled inside those components.
+  if(skill==='reading'&&window.WordHopReading){
+   window.WordHopReading.render({unit,header:sectionHeader,partId:selectedPart,path:base,isCurrent,toast:()=>{}});
+   return;
+  }
+  if(skill==='writing'&&window.WordHopWriting){
+   window.WordHopWriting.render({unit,title:unit.title,header:sectionHeader,partId:selectedPart,path:base,isCurrent,toast:()=>{}});
+   return;
+  }
+  if(skill==='reading'||skill==='writing'){
+   main.innerHTML=frame(back(BASE,'All tests')+testNav(t,mode,skill)+'<p class="notice" role="alert">The shared exam component is unavailable. Reload the page to try again.</p>');
+   return;
+  }
+  const pendingTitle=skill==='listening'?'Listening':'Speaking';
+  const links=Array.from({length:countShared},(_,i)=>{
+   const item='part-'+(i+1),url=path(t.id,'exam',skill,item),active=selectedPart===item;
+   return '<a class="'+(skill==='listening'?'listening-part':'reading-part-link')+(active?' active':'')+'" href="'+esc(url)+'" data-nav="'+esc(url)+'"'+(active?' aria-current="page"':'')+'>'+(skill==='listening'?'<strong>Part '+(i+1)+'</strong><span>Audio pending</span>':'Part '+(i+1))+'</a>';
+  }).join('');
+  const navigation='<nav class="'+(skill==='listening'?'listening-parts':'reading-parts')+'" aria-label="'+pendingTitle+' parts">'+links+'</nav>';
+  const introduction='<div class="'+(skill==='listening'?'listening-intro':'reading-intro')+'"><div><h2>'+pendingTitle+'</h2><p>Original Exam Practice pages · Test '+t.id+'. '+(skill==='listening'?'Listening recordings will appear here once the original audio is supplied.':'Read the original speaking test instructions and prompts.')+'</p></div></div>';
+  const player=skill==='listening'?'<section class="listening-player-card" aria-label="Listening recording"><div class="listening-player-heading"><div><p class="section-label">Test '+t.id+' · Listening</p><h3>Part '+selectedPart.split('-')[1]+'</h3></div></div><p class="notice" role="status">Original audio pending. No sample or substitute recording has been added.</p></section>':'';
+  const awaiting=skill==='listening'?'<section class="reading-answer-sheet trainer-pending-key"><div class="reading-sheet-heading"><div><h3>Answer sheet in preparation</h3><p>The book questions can be viewed above. Audio and verified answer keys must be added before scoring is enabled.</p></div></div></section>':'';
+  const body='<section class="'+(skill==='listening'?'listening-view':'reading-view')+' trainer-pet-view" aria-label="'+pendingTitle+' Exam Practice">'+introduction+navigation+player+pageRoot()+awaiting+'<p class="reading-source-note">Original exam pages: Cambridge B1 Preliminary for Schools Trainer. Only Exam Practice is included.</p></section>';
+  main.innerHTML=frame(back(BASE,'All tests')+testNav(t,mode,skill)+body);
+  showOriginalPages(t.id,skill,selectedPart,atHash);
+  return;
+
   const nav=testNav(t,mode,skill),count=SKILLS[skill];
   const part=/^part-([1-6])$/.exec(r.part||'');
   if(!part||Number(part[1])>count){
@@ -138,6 +177,10 @@
   }
   if(btn.dataset.trainerAction==="clear-test"){
     if(!window.confirm("Clear saved Trainer answers and scores for this test on this device?"))return;
+    const testId='trainer-test-'+Number(latest.route.test);
+    const readingOk=window.WordHopReading?.clearResults?.(testId);
+    const writingOk=window.WordHopWriting?.clearResults?.(testId);
+    if(readingOk===false||writingOk===false){window.alert("Unable to clear all saved PET results on this device.");return;}
     const all=storage(),prefix=String(latest.route.test)+":";
     for(const item of Object.keys(all))if(item.startsWith(prefix))delete all[item];
     try{localStorage.setItem(studentKey(),JSON.stringify(all));}catch{window.alert("Could not clear saved results.");return;}

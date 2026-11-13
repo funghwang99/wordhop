@@ -18,7 +18,25 @@
   function attempt(unitId, partId) {
     const test = progress[unitId] ||= {};
     const part = test[partId];
-    if (!part || typeof part !== 'object' || !part.answers || typeof part.answers !== 'object' || Array.isArray(part.answers)) test[partId] = {answers:{}, checked:false};
+    if (!part || typeof part !== 'object' || !part.answers || typeof part.answers !== 'object' || Array.isArray(part.answers)) {
+      let migrated = null;
+      const match = /^trainer-test-([1-6])$/.exec(unitId);
+      if (match && window.WordHopStudent?.current()?.id) {
+        try {
+          const old = JSON.parse(localStorage.getItem('wordhop.trainer.v1.' + window.WordHopStudent.current().id) || '{}');
+          const record = old[match[1] + ':exam:reading:' + partId];
+          if (record?.answers && typeof record.answers === 'object') {
+            const answers = {};
+            for (const [id, value] of Object.entries(record.answers)) {
+              if (/^q\d+$/.test(id)) answers[Number(id.slice(1))] = String(value);
+            }
+            migrated = {answers, checked:Boolean(record.checked)};
+          }
+        } catch {}
+      }
+      test[partId] = migrated || {answers:{}, checked:false};
+      if (migrated) persist();
+    }
     return test[partId];
   }
   function clearResults(unitId) {
@@ -41,21 +59,21 @@
     if (data?.id !== unitId || !Array.isArray(data.parts) || !data.parts.length) throw new Error('Reading data mismatch');
     const numbers = [];
     for (const [index, part] of data.parts.entries()) {
-      if (part.id !== 'part-' + (index + 1) || !Array.isArray(part.questions) || !part.questions.length) throw new Error('Invalid reading part');
+      if (part.id !== 'part-' + (index + 1) || !Array.isArray(part.questions) || (!part.questions.length && !(part.pending === true && /^trainer-test-[1-6]$/.test(unitId)))) throw new Error('Invalid reading part');
       if(part.pages && (!Array.isArray(part.pages)||!part.pages.length)) throw new Error('Invalid reading pages');
       for(const page of part.pages || [part]) if(!/^assets\/reading\/[\w.-]+\.webp$/.test(page.image) || !(page.width>0) || !(page.height>0)) throw new Error('Invalid reading page');
       if(new Set(part.questions.map(q=>q.number)).size!==part.questions.length) throw new Error('Reading questions are incomplete');
       for (const q of part.questions) {
         if (q.explanationVi !== undefined && (typeof q.explanationVi !== 'string' || !q.explanationVi.trim())) throw new Error('Invalid Vietnamese explanation');
         if (q.unscored && (q.unscored !== true || typeof q.reviewNote !== 'string' || !q.reviewNote.trim())) throw new Error('Missing source question review');
-        if (!Number.isInteger(q.number) || typeof q.answer !== 'string' || !q.answer || typeof q.explanation !== 'string' || !q.explanation.trim() || typeof q.evidence !== 'string' || !q.evidence.trim()) throw new Error('Incomplete reading answer');
+        if (!Number.isInteger(q.number) || typeof q.answer !== 'string' || !q.answer || typeof q.explanation !== 'string' || !q.explanation.trim() || ((typeof q.evidence !== 'string' || !q.evidence.trim()) && !/^trainer-test-[1-6]$/.test(unitId))) throw new Error('Incomplete reading answer');
         if (q.options && (!Array.isArray(q.options) || (!q.multiple&&!q.options.includes(q.answer)) || (q.multiple&&(!Number.isInteger(q.multiple)||q.multiple<2||selections(q.answer).length!==q.multiple||selections(q.answer).some(a=>!q.options.map(normal).includes(a)))))) throw new Error('Invalid answer option');
         if(q.multiple && (!q.options || q.multiple>q.options.length || new Set(selections(q.answer)).size!==q.multiple)) throw new Error('Invalid multiple answer');
         if (q.accepted && (!Array.isArray(q.accepted) || !q.accepted.includes(q.answer) || q.accepted.some(a => typeof a !== 'string' || !a.trim()))) throw new Error('Invalid accepted answers');
         numbers.push(q.number);
       }
     }
-    if (!numbers.length) throw new Error('Reading questions are incomplete');
+    if (!numbers.length && !(/^trainer-test-[1-6]$/.test(unitId) && data.parts.every(p => p.pending === true))) throw new Error('Reading questions are incomplete');
     return data;
   }
   function load(unit) {
@@ -84,20 +102,22 @@
     const part = data.parts.find(p => p.id === context.partId) || data.parts[0];
     context.part = part;
     const pages=part.pages || [part], label=data.partLabel || 'Part';
-    const saved = attempt(context.unit.id, part.id);
+    const pending = part.pending === true;
+    const saved = pending ? {answers:{}, checked:false} : attempt(context.unit.id, part.id);
     const scored = part.questions.filter(q => !q.unscored).length;
     const unscored = part.questions.filter(q => q.unscored).map(q => q.number);
     const correct = part.questions.filter(q => grade(q,saved.answers[q.number])).length;
-    const complete = data.parts.filter(p => attempt(context.unit.id,p.id).checked).length;
+    const complete = data.parts.filter(p => !p.pending && attempt(context.unit.id,p.id).checked).length;
+    const available = data.parts.filter(p => !p.pending).length;
     const main = document.querySelector('#main');
     main.innerHTML = context.header + `<section class="reading-view" aria-label="Book reading test">
-      <div class="reading-intro"><div><h2>Reading</h2><p>Read the original book passage, then answer the questions. Your answers are saved on this device.</p></div><span class="reading-completion">${complete}/${data.parts.length} ${label==='Passage'?'passages':'parts'} checked</span></div>
-      <nav class="reading-parts" aria-label="Reading parts">${data.parts.map(p => `<a class="reading-part-link${p.id === part.id ? ' active' : ''}" href="${esc(context.path)}/reading/${p.id}" data-nav="${esc(context.path)}/reading/${p.id}" ${p.id === part.id ? 'aria-current="page"' : ''}>${esc(label)} ${esc(p.id.split('-')[1])}${attempt(context.unit.id,p.id).checked ? '<span class="visually-hidden">, checked</span><span aria-hidden="true"> ✓</span>' : ''}</a>`).join('')}</nav>
-      <div class="reading-part-heading"><div><h3>${esc(part.title)}</h3><p>Questions ${part.questions[0].number}–${part.questions.at(-1).number} · Book ${pages.length===1?'page':'pages'} ${pages[0].printedPage}${pages.length>1?'–'+pages.at(-1).printedPage:''}</p></div><div class="reading-page-actions"><button class="btn" type="button" data-reading-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="${esc(pages[0].image)}" target="_blank" rel="noopener">Open full-size page ↗</a></div></div>
+      <div class="reading-intro"><div><h2>Reading</h2><p>Read the original book passage, then answer the questions. Your answers are saved on this device.</p></div><span class="reading-completion">${available ? complete+'/'+available+' parts checked' : 'Verified keys in preparation'}</span></div>
+      <nav class="reading-parts" aria-label="Reading parts">${data.parts.map(p => `<a class="reading-part-link${p.id === part.id ? ' active' : ''}" href="${esc(context.path)}/reading/${p.id}" data-nav="${esc(context.path)}/reading/${p.id}" ${p.id === part.id ? 'aria-current="page"' : ''}>${esc(label)} ${esc(p.id.split('-')[1])}${!p.pending && attempt(context.unit.id,p.id).checked ? '<span class="visually-hidden">, checked</span><span aria-hidden="true"> ✓</span>' : ''}</a>`).join('')}</nav>
+      <div class="reading-part-heading"><div><h3>${esc(part.title)}</h3><p>${pending?'Answer key in preparation':'Questions '+part.questions[0].number+'–'+part.questions.at(-1).number} · Book ${pages.length===1?'page':'pages'} ${pages[0].printedPage}${pages.length>1?'–'+pages.at(-1).printedPage:''}</p></div><div class="reading-page-actions"><button class="btn" type="button" data-reading-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="${esc(pages[0].image)}" target="_blank" rel="noopener">Open full-size page ↗</a></div></div>
       ${part.pageNote ? `<p class="reading-key-note">${esc(part.pageNote)}</p>` : ''}
       ${context.unit.id==='simply-pet-test-8'&&data.parts.some(other=>other.id!==part.id&&other.image===part.image) ? `<p class="reading-key-note">Parts 5 and 6 share this book page.${part.id==='part-6' ? ' Part 6 is in the lower half of the page.' : ''}</p>` : ''}      ${unscored.length ? `<p class="notice">Question ${unscored.join(", ")} is not included in the score because the source question or answer key needs review. A note is provided with the explanations.</p>` : ''}<div class="reading-page" tabindex="0" aria-label="Original reading passage and questions">${pages.map((page,index)=>`<img src="${esc(page.image)}" width="${page.width}" height="${page.height}" alt="${esc(context.unit.title)}, ${esc(part.title)}, book page ${page.printedPage}. Original passage, instructions and questions." decoding="async" ${index>0?'loading="lazy"':''}>`).join('')}</div>
-      <form class="reading-answer-sheet" data-reading-form="true"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>${esc(part.instructions || (part.questions.every(q=>q.options) ? 'Choose the answer letters shown on the book page.' : part.questions.every(q=>!q.options) ? 'Write ONE word for each gap. No word bank.' : 'Follow the question instructions and word limits shown on the book pages.'))}</p></div>${saved.checked ? `<strong class="reading-score" tabindex="-1" role="status">${correct}/${scored} correct</strong>` : ''}</div><div class="reading-answer-inputs">${part.questions.map(q => inputMarkup(q,saved)).join('')}</div><div class="reading-submit-row">${saved.checked ? '<button class="btn" type="button" data-reading-action="retry">Try this part again</button>' : '<button class="btn btn-primary" type="submit">Check answers</button>'}<button class="text-button" type="button" data-reading-action="back-to-page">Back to reading page ↑</button></div></form>
-      ${saved.checked ? `<section class="reading-solutions" aria-labelledby="reading-solutions-title"><h3 id="reading-solutions-title">Answer key &amp; explanations</h3><p class="reading-solution-note">${data.source.answerKeyPdfSha256 ? "Checked against the publisher answer key. " : ""}WordHop explanations based on the reading text.</p>${part.questions.map(q => {const value = String(saved.answers[q.number] ?? ''); const ok = grade(q,value); return `<article class="reading-solution ${q.unscored ? 'reading-review' : ok ? 'reading-correct' : 'reading-incorrect'}"><div class="reading-solution-top"><h4>Question ${q.number} · ${esc(q.answer)}${q.unscored ? (q.publisherAnswer ? (normal(q.publisherAnswer)===normal(q.answer) ? ' (book key)' : ' (reviewed)') : ' (intended)') : ''}</h4><span>${q.unscored ? 'Not scored' : ok ? 'Correct' : 'Review'}</span></div><p class="reading-your-answer">Your answer: <strong>${value.trim() ? esc(value) : 'Not answered'}</strong>${q.accepted?.length > 1 ? ` · Also accepted: ${q.accepted.filter(a=>a!==q.answer).map(esc).join(', ')}` : ''}</p>${q.publisherAnswer && q.unscored ? `<p class="reading-key-note">Publisher key: <strong>${esc(q.publisherAnswer)}</strong> · Key page ${q.publisherKeyPrintedPage}</p>` : ""}<p lang="${q.explanationVi?'vi':'en'}">${esc(q.explanationVi||q.explanation)}</p><blockquote><span>Evidence from the text</span>${esc(q.evidence)}</blockquote></article>`;}).join('')}</section>` : '<p class="reading-key-note">Check your answers to see the answer key and an explanation for every question, including correct answers. Unanswered questions receive no mark.</p>'}
+      ${pending ? `<section class="reading-answer-sheet trainer-pending-key" role="status"><div class="reading-sheet-heading"><div><h3>Answer sheet in preparation</h3><p>The original Exam Practice page is available above. This Part has not been fully checked against the publisher's answer key, so answers and scoring are not enabled yet.</p></div></div></section>` : `<form class="reading-answer-sheet" data-reading-form="true"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>${esc(part.instructions || (part.questions.every(q=>q.options) ? 'Choose the answer letters shown on the book page.' : part.questions.every(q=>!q.options) ? 'Write ONE word for each gap. No word bank.' : 'Follow the question instructions and word limits shown on the book pages.'))}</p></div>${saved.checked ? `<strong class="reading-score" tabindex="-1" role="status">${correct}/${scored} correct</strong>` : ''}</div><div class="reading-answer-inputs">${part.questions.map(q => inputMarkup(q,saved)).join('')}</div><div class="reading-submit-row">${saved.checked ? '<button class="btn" type="button" data-reading-action="retry">Try this part again</button>' : '<button class="btn btn-primary" type="submit">Check answers</button>'}<button class="text-button" type="button" data-reading-action="back-to-page">Back to reading page ↑</button></div></form>
+      ${saved.checked ? `<section class="reading-solutions" aria-labelledby="reading-solutions-title"><h3 id="reading-solutions-title">Answer key &amp; explanations</h3><p class="reading-solution-note">${data.source.answerKeyPdfSha256 ? "Checked against the publisher answer key. " : ""}WordHop explanations based on the reading text.</p>${part.questions.map(q => {const value = String(saved.answers[q.number] ?? ''); const ok = grade(q,value); return `<article class="reading-solution ${q.unscored ? 'reading-review' : ok ? 'reading-correct' : 'reading-incorrect'}"><div class="reading-solution-top"><h4>Question ${q.number} · ${esc(q.answer)}${q.unscored ? (q.publisherAnswer ? (normal(q.publisherAnswer)===normal(q.answer) ? ' (book key)' : ' (reviewed)') : ' (intended)') : ''}</h4><span>${q.unscored ? 'Not scored' : ok ? 'Correct' : 'Review'}</span></div><p class="reading-your-answer">Your answer: <strong>${value.trim() ? esc(value) : 'Not answered'}</strong>${q.accepted?.length > 1 ? ` · Also accepted: ${q.accepted.filter(a=>a!==q.answer).map(esc).join(', ')}` : ''}</p>${q.publisherAnswer && q.unscored ? `<p class="reading-key-note">Publisher key: <strong>${esc(q.publisherAnswer)}</strong> · Key page ${q.publisherKeyPrintedPage}</p>` : ""}<p lang="${q.explanationVi?'vi':'en'}">${esc(q.explanationVi||q.explanation)}</p>${q.evidence ? `<blockquote><span>Evidence from the text</span>${esc(q.evidence)}</blockquote>` : ''}</article>`;}).join('')}</section>` : '<p class="reading-key-note">Check your answers to see the answer key and an explanation for every question, including correct answers. Unanswered questions receive no mark.</p>'}`}
       <p class="reading-source-note">Original passages and questions: ${esc(data.source.title)}. ${esc(data.source.publisher)}.</p>
     </section>`;
   }

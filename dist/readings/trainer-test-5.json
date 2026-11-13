@@ -1,0 +1,141 @@
+{
+  "id": "trainer-test-5",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "publisher": "Cambridge University Press",
+    "answerKeyOrigin": "Publisher Teacher’s Notes & Keys verified for Reading Parts 1–3 of Tests 1–2 only"
+  },
+  "partLabel": "Part",
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Part 1 · Short texts",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 132,
+          "printedPage": 130,
+          "image": "assets/reading/trainer-t5-reading-p1-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 133,
+          "printedPage": 131,
+          "image": "assets/reading/trainer-t5-reading-p1-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-2",
+      "title": "Part 2 · Matching",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 134,
+          "printedPage": 132,
+          "image": "assets/reading/trainer-t5-reading-p2-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 135,
+          "printedPage": 133,
+          "image": "assets/reading/trainer-t5-reading-p2-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-3",
+      "title": "Part 3 · Multiple choice",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 136,
+          "printedPage": 134,
+          "image": "assets/reading/trainer-t5-reading-p3-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 137,
+          "printedPage": 135,
+          "image": "assets/reading/trainer-t5-reading-p3-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-4",
+      "title": "Part 4 · Gapped text",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 138,
+          "printedPage": 136,
+          "image": "assets/reading/trainer-t5-reading-p4-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 139,
+          "printedPage": 137,
+          "image": "assets/reading/trainer-t5-reading-p4-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-5",
+      "title": "Part 5 · Multiple-choice cloze",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 140,
+          "printedPage": 138,
+          "image": "assets/reading/trainer-t5-reading-p5-page1.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-6",
+      "title": "Part 6 · Open cloze",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 141,
+          "printedPage": 139,
+          "image": "assets/reading/trainer-t5-reading-p6-page1.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    }
+  ]
+}

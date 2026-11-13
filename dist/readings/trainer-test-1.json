@@ -1,0 +1,339 @@
+{
+  "id": "trainer-test-1",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "publisher": "Cambridge University Press",
+    "answerKeyOrigin": "Publisher Teacher’s Notes & Keys verified for Reading Parts 1–3 of Tests 1–2 only"
+  },
+  "partLabel": "Part",
+  "parts": [
+    {
+      "id": "part-1",
+      "title": "Part 1 · Short texts",
+      "instructions": "Questions 1–5. Read each text and choose the correct answer, A, B or C.",
+      "pages": [
+        {
+          "pdfPage": 14,
+          "printedPage": 12,
+          "image": "assets/reading/trainer-t1-reading-p1-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 15,
+          "printedPage": 13,
+          "image": "assets/reading/trainer-t1-reading-p1-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": false,
+      "questions": [
+        {
+          "number": 1,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Mẹ muốn Anton chắc chắn em gái biết bố sẽ đến đón thay vì mẹ. Cụm “make sure she remembers” và “Dad’s coming to fetch her instead of me” khớp với A.",
+          "explanationVi": "Mẹ muốn Anton chắc chắn em gái biết bố sẽ đến đón thay vì mẹ. Cụm “make sure she remembers” và “Dad’s coming to fetch her instead of me” khớp với A."
+        },
+        {
+          "number": 2,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "Quảng cáo nói bộ phim được chuyển thể từ một tiểu thuyết nổi tiếng (“from the famous novel”). Vì vậy chọn C. Không có thông tin rằng phim kể về một gia đình động vật.",
+          "explanationVi": "Quảng cáo nói bộ phim được chuyển thể từ một tiểu thuyết nổi tiếng (“from the famous novel”). Vì vậy chọn C. Không có thông tin rằng phim kể về một gia đình động vật."
+        },
+        {
+          "number": 3,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "Muốn giữ sách trong kỳ nghỉ, học sinh cần hỏi nhân viên tại quầy (“see someone at the desk”). A sai vì không nhất thiết phải trả sách nếu đã xin phép giữ lại.",
+          "explanationVi": "Muốn giữ sách trong kỳ nghỉ, học sinh cần hỏi nhân viên tại quầy (“see someone at the desk”). A sai vì không nhất thiết phải trả sách nếu đã xin phép giữ lại."
+        },
+        {
+          "number": 4,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Tina đã nhặt được khuyên tai. Nicola nghĩ mình biết chủ nhân nên muốn trả lại: “I know who it belongs to, so I’ll return it”. Đáp án B.",
+          "explanationVi": "Tina đã nhặt được khuyên tai. Nicola nghĩ mình biết chủ nhân nên muốn trả lại: “I know who it belongs to, so I’ll return it”. Đáp án B."
+        },
+        {
+          "number": 5,
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Xe trẻ em cần đặt trước (“book in advance”), dù xe người lớn luôn có. Gia đình có thể không có đủ loại xe nếu không đặt trước. Quầy hoạt động đến 9 giờ tối nên C sai.",
+          "explanationVi": "Xe trẻ em cần đặt trước (“book in advance”), dù xe người lớn luôn có. Gia đình có thể không có đủ loại xe nếu không đặt trước. Quầy hoạt động đến 9 giờ tối nên C sai."
+        }
+      ],
+      "pageNote": "Exam Practice · Questions and key checked against the Teacher’s Notes & Keys."
+    },
+    {
+      "id": "part-2",
+      "title": "Part 2 · Matching",
+      "instructions": "Questions 6–10. Match five students with the most suitable art course (A–H). Three courses are not used.",
+      "pages": [
+        {
+          "pdfPage": 17,
+          "printedPage": 15,
+          "image": "assets/reading/trainer-t1-reading-p2-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 18,
+          "printedPage": 16,
+          "image": "assets/reading/trainer-t1-reading-p2-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": false,
+      "questions": [
+        {
+          "number": 6,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "B",
+          "explanation": "Rafa cần minh họa truyện bằng cách thủ công và chuẩn bị hồ sơ học nghệ thuật. B hướng dẫn làm hình minh họa dựa trên bài viết, không cần công nghệ, đồng thời phù hợp cho người học lên bậc cao hơn.",
+          "explanationVi": "Rafa cần minh họa truyện bằng cách thủ công và chuẩn bị hồ sơ học nghệ thuật. B hướng dẫn làm hình minh họa dựa trên bài viết, không cần công nghệ, đồng thời phù hợp cho người học lên bậc cao hơn."
+        },
+        {
+          "number": 7,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "H",
+          "explanation": "H dùng phần mềm thiết kế để tạo và chỉnh sửa hình trên màn hình, sau đó đăng bài lên website để các bạn cùng lớp nhận xét, đúng cả hai nhu cầu của Simona.",
+          "explanationVi": "H dùng phần mềm thiết kế để tạo và chỉnh sửa hình trên màn hình, sau đó đăng bài lên website để các bạn cùng lớp nhận xét, đúng cả hai nhu cầu của Simona."
+        },
+        {
+          "number": 8,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "D",
+          "explanation": "D dạy vẽ trong công viên, đưa học viên tham quan phòng tranh và khuyến khích thử nhiều phong cách, kỹ thuật mới.",
+          "explanationVi": "D dạy vẽ trong công viên, đưa học viên tham quan phòng tranh và khuyến khích thử nhiều phong cách, kỹ thuật mới."
+        },
+        {
+          "number": 9,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "F",
+          "explanation": "F tập trung vào cách in thủ công đơn giản và chuyển mẫu in lên vải cotton hoặc lụa để sử dụng trong các sản phẩm may mặc.",
+          "explanationVi": "F tập trung vào cách in thủ công đơn giản và chuyển mẫu in lên vải cotton hoặc lụa để sử dụng trong các sản phẩm may mặc."
+        },
+        {
+          "number": 10,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answer": "A",
+          "explanation": "A tập trung vào chân dung, cho phép mang ảnh hoặc tài liệu của mình đến để phát triển thành tranh và có các buổi học một kèm một.",
+          "explanationVi": "A tập trung vào chân dung, cho phép mang ảnh hoặc tài liệu của mình đến để phát triển thành tranh và có các buổi học một kèm một."
+        }
+      ],
+      "pageNote": "Exam Practice · Questions and key checked against the Teacher’s Notes & Keys."
+    },
+    {
+      "id": "part-3",
+      "title": "Part 3 · Multiple choice",
+      "instructions": "Questions 11–15. Read the article and choose the correct answer, A, B, C or D.",
+      "pages": [
+        {
+          "pdfPage": 21,
+          "printedPage": 19,
+          "image": "assets/reading/trainer-t1-reading-p3-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 22,
+          "printedPage": 20,
+          "image": "assets/reading/trainer-t1-reading-p3-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": false,
+      "questions": [
+        {
+          "number": 11,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "Bố đọc trên website rằng tuyến đường khó lái vì có nhiều khúc cua gấp ('a number of sharp bends'), nên gia đình chọn xe buýt. Đáp án D.",
+          "explanationVi": "Bố đọc trên website rằng tuyến đường khó lái vì có nhiều khúc cua gấp ('a number of sharp bends'), nên gia đình chọn xe buýt. Đáp án D."
+        },
+        {
+          "number": 12,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "Con kangaroo dường như định tiến về phía họ khiến Donna 'slightly nervous'. Cô có máy ảnh nhưng quá phấn khích nên không kịp lấy ra, vì vậy D không đúng.",
+          "explanationVi": "Con kangaroo dường như định tiến về phía họ khiến Donna 'slightly nervous'. Cô có máy ảnh nhưng quá phấn khích nên không kịp lấy ra, vì vậy D không đúng."
+        },
+        {
+          "number": 13,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "Donna nghĩ koala hiếm và khó gặp, nhưng thực tế khu vực có khoảng sáu triệu con, rất dễ nhìn thấy. Vì vậy C đúng.",
+          "explanationVi": "Donna nghĩ koala hiếm và khó gặp, nhưng thực tế khu vực có khoảng sáu triệu con, rất dễ nhìn thấy. Vì vậy C đúng."
+        },
+        {
+          "number": 14,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "Lều cắm trại sang trọng và gần các điểm du lịch ('within walking distance of some famous rocks and other places'). B đúng; tiếng ếch lại khiến cô thức.",
+          "explanationVi": "Lều cắm trại sang trọng và gần các điểm du lịch ('within walking distance of some famous rocks and other places'). B đúng; tiếng ếch lại khiến cô thức."
+        },
+        {
+          "number": 15,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "Donna ban đầu lo sợ tiếng động của thú hoang khi cắm trại nhưng hóa ra chỉ là tiếng ếch, khiến cô ngượng vì đã lo quá mức. D phản ánh đúng trải nghiệm.",
+          "explanationVi": "Donna ban đầu lo sợ tiếng động của thú hoang khi cắm trại nhưng hóa ra chỉ là tiếng ếch, khiến cô ngượng vì đã lo quá mức. D phản ánh đúng trải nghiệm."
+        }
+      ],
+      "pageNote": "Exam Practice · Questions and key checked against the Teacher’s Notes & Keys."
+    },
+    {
+      "id": "part-4",
+      "title": "Part 4 · Gapped text",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 24,
+          "printedPage": 22,
+          "image": "assets/reading/trainer-t1-reading-p4-page1.webp",
+          "width": 1359,
+          "height": 1800
+        },
+        {
+          "pdfPage": 25,
+          "printedPage": 23,
+          "image": "assets/reading/trainer-t1-reading-p4-page2.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-5",
+      "title": "Part 5 · Multiple-choice cloze",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 27,
+          "printedPage": 25,
+          "image": "assets/reading/trainer-t1-reading-p5-page1.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    },
+    {
+      "id": "part-6",
+      "title": "Part 6 · Open cloze",
+      "instructions": "Follow the instructions printed on the original Exam Practice page.",
+      "pages": [
+        {
+          "pdfPage": 29,
+          "printedPage": 27,
+          "image": "assets/reading/trainer-t1-reading-p6-page1.webp",
+          "width": 1359,
+          "height": 1800
+        }
+      ],
+      "pending": true,
+      "questions": [],
+      "pageNote": "Original Exam Practice page. The publisher answer key has not yet been digitised for this Part."
+    }
+  ]
+}
