@@ -44,6 +44,49 @@
    '<div class="reading-page" tabindex="0" aria-label="Original Cambridge exam pages">'+found.map(({p},i)=>'<img src="'+esc(p.image)+'" width="'+p.width+'" height="'+p.height+'" loading="'+(i?'lazy':'eager')+'" decoding="async" alt="Trainer Test '+t+', '+esc(skill)+' '+esc(part)+', book page '+p.printedPage+'">').join('')+'</div>'+
    (found.length<pages.length?'<p class="notice">Some original page images are still pending upload.</p>':'');
  }
+
+ let audioManifestRequest=null;
+ const trainerAudioStatus=new Map();
+ function getAudioManifest(){
+  if(!audioManifestRequest)audioManifestRequest=fetch(pageAsset('trainer/audio-manifest.json')).then(r=>{if(!r.ok)throw Error('Audio manifest missing');return r.json();}).catch(()=>null);
+  return audioManifestRequest;
+ }
+ function checkAudioAsset(src){
+  if(!trainerAudioStatus.has(src))trainerAudioStatus.set(src,fetch(pageAsset(src),{method:'HEAD'}).then(r=>r.ok).catch(()=>false));
+  return trainerAudioStatus.get(src);
+ }
+ const audioDuration=seconds=>Math.floor(seconds/60)+':'+String(Math.floor(seconds%60)).padStart(2,'0');
+ async function showExamAudio(test,skill,part,atHash){
+  const slot=document.querySelector('#trainer-audio-status');
+  if(!slot)return;
+  const manifest=await getAudioManifest();
+  if(location.hash!==atHash||!slot.isConnected)return;
+  const all=manifest?.tracks?.filter(x=>x.test===Number(test)&&x.skill===skill)||[];
+  const availability=await Promise.all(all.map(async track=>({...track,published:await checkAudioAsset(track.src)})));
+  if(location.hash!==atHash||!slot.isConnected)return;
+  if(skill==='listening'){
+   for(let i=1;i<=4;i++){
+    const label=document.querySelector('[data-trainer-available-part="'+i+'"]');
+    if(!label)continue;
+    const track=availability.find(x=>x.part===i);
+    label.textContent=track?.published?audioDuration(track.duration):'Audio pending';
+   }
+  }
+  const current=availability.filter(x=>x.part===Number(part.split('-')[1]));
+  const published=current.filter(x=>x.published);
+  if(!published.length){
+   slot.innerHTML='<p class="notice" role="status">'+(current.length?'Audio prepared but not yet published to this website.':'No Exam Practice audio was supplied for this part.')+' You can still view the original book page below.</p>';
+   return;
+  }
+  slot.innerHTML=published.map((track,i)=>{
+   const id='trainer-exam-audio-'+i;
+   const title=skill==='speaking'&&track.sample?'Sample '+track.sample:'Part '+track.part;
+   return '<div class="trainer-audio-track"><div class="trainer-audio-track-heading"><strong>'+esc(title)+'</strong><span>'+audioDuration(track.duration)+' · Original Track '+track.track+'</span></div>'+
+    '<audio id="'+id+'" controls preload="none" src="'+esc(track.src)+'" aria-label="Trainer Test '+test+' '+esc(skill)+' '+esc(title)+' original recording">Your browser does not support HTML audio playback.</audio>'+
+    '<div class="listening-tools"><label for="trainer-speed-'+i+'">Playback speed <select id="trainer-speed-'+i+'" data-trainer-audio-speed="'+id+'" aria-label="Playback speed for '+esc(title)+'"><option value="0.75">0.75×</option><option value="1" selected>1× · Normal</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><a class="text-button" href="'+esc(track.src)+'" target="_blank" rel="noopener">Open audio file ↗</a></div></div>';
+  }).join('');
+ }
+
  let latest=null;
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
  const path=(t,m,s,p)=>BASE+[t,m,s,p].filter(Boolean).map(x=>"/"+encodeURIComponent(x)).join("");
@@ -103,15 +146,16 @@
   const pendingTitle=skill==='listening'?'Listening':'Speaking';
   const links=Array.from({length:countShared},(_,i)=>{
    const item='part-'+(i+1),url=path(t.id,'exam',skill,item),active=selectedPart===item;
-   return '<a class="'+(skill==='listening'?'listening-part':'reading-part-link')+(active?' active':'')+'" href="'+esc(url)+'" data-nav="'+esc(url)+'"'+(active?' aria-current="page"':'')+'>'+(skill==='listening'?'<strong>Part '+(i+1)+'</strong><span>Audio pending</span>':'Part '+(i+1))+'</a>';
+   return '<a class="'+(skill==='listening'?'listening-part':'reading-part-link')+(active?' active':'')+'" href="'+esc(url)+'" data-nav="'+esc(url)+'"'+(active?' aria-current="page"':'')+'>'+(skill==='listening'?'<strong>Part '+(i+1)+'</strong><span data-trainer-available-part="'+(i+1)+'">Checking audio…</span>':'Part '+(i+1))+'</a>';
   }).join('');
   const navigation='<nav class="'+(skill==='listening'?'listening-parts':'reading-parts')+'" aria-label="'+pendingTitle+' parts">'+links+'</nav>';
   const introduction='<div class="'+(skill==='listening'?'listening-intro':'reading-intro')+'"><div><h2>'+pendingTitle+'</h2><p>Original Exam Practice pages · Test '+t.id+'. '+(skill==='listening'?'Play the original Exam Practice recording below, then answer the questions on the book page.':'Read the original speaking test instructions and prompts.')+'</p></div></div>';
-  const player=skill==='listening'?'<section class="listening-player-card" aria-label="Listening recording"><div class="listening-player-heading"><div><p class="section-label">Test '+t.id+' · Listening</p><h3>Part '+selectedPart.split('-')[1]+'</h3></div></div><p class="notice" role="status">Original audio pending. No sample or substitute recording has been added.</p></section>':'';
+  const player='<section class="listening-player-card trainer-player-card" aria-label="'+pendingTitle+' recording"><div class="listening-player-heading"><div><p class="section-label">Test '+t.id+' · '+pendingTitle+'</p><h3>Part '+selectedPart.split('-')[1]+'</h3></div></div><div id="trainer-audio-status" aria-live="polite"><p class="notice" role="status">Checking Exam Practice audio…</p></div></section>';
   const awaiting=skill==='listening'?'<section class="reading-answer-sheet trainer-pending-key"><div class="reading-sheet-heading"><div><h3>Answer sheet in preparation</h3><p>The book questions can be viewed above. Audio and verified answer keys must be added before scoring is enabled.</p></div></div></section>':'';
   const body='<section class="'+(skill==='listening'?'listening-view':'reading-view')+' trainer-pet-view" aria-label="'+pendingTitle+' Exam Practice">'+introduction+navigation+player+pageRoot()+awaiting+'<p class="reading-source-note">Original exam pages: Cambridge B1 Preliminary for Schools Trainer. Only Exam Practice is included.</p></section>';
   main.innerHTML=frame(back(BASE,'All tests')+testNav(t,mode,skill)+body);
   showOriginalPages(t.id,skill,selectedPart,atHash);
+  showExamAudio(t.id,skill,selectedPart,atHash);
   return;
 
   const nav=testNav(t,mode,skill),count=SKILLS[skill];
@@ -159,6 +203,8 @@
   showOriginalPages(t.id,skill,'part-'+part[1],location.hash);
  }
  document.addEventListener("change",e=>{
+  const speed=e.target.closest("#trainer [data-trainer-audio-speed]");
+  if(speed){const player=document.getElementById(speed.dataset.trainerAudioSpeed);if(player)player.playbackRate=Number(speed.value);return;}
   const input=e.target.closest("#trainer [data-trainer-question]");if(!input||!latest)return;
   const k=key(latest.route),v=attempt(k);if(v.checked)return;v.answers[input.dataset.trainerQuestion]=input.value;
   if(!persist(k,v))window.alert("Could not save the answer in browser storage.");
