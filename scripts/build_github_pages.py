@@ -142,6 +142,55 @@ def activate_trainer_exam_audio():
     print(f'Published {count}/24 Trainer Exam Practice Listening audio tracks; 33 Training files excluded')
 
 
+
+def activate_cambridge13_media(catalog):
+    """Deploy only fully verified media for all four Cambridge IELTS 13 tests."""
+    root = 'media/cambridge-ielts-academic-13'
+    archives = [ROOT / f'cambridge_13_media_test_{n}.zip' for n in range(1, 5)]
+    missing = [p.name for p in archives if not p.is_file()]
+    if missing:
+        print('Cambridge IELTS Academic 13 media pending: ' + ', '.join(missing))
+        return
+    expected = {
+        *(f'{root}/pages/page-{n:03d}.webp' for n in range(10, 97)),
+        *(f'{root}/audio/test-{t}-section-{sec}.mp3' for t in range(1, 5) for sec in range(1, 5))
+    }
+    seen = set()
+    for i, archive_path in enumerate(archives, 1):
+        with zipfile.ZipFile(archive_path) as archive:
+            manifest = json.loads(archive.read('cambridge_media_manifest.json'))
+            files = manifest['paths']
+            if manifest.get('bundle') != archive_path.name or manifest.get('source') != 'Cambridge IELTS Academic 13':
+                raise ValueError('Wrong Cambridge 13 media archive identity: ' + archive_path.name)
+            if set(archive.namelist()) != set(files) | {'cambridge_media_manifest.json'}:
+                raise ValueError('Missing or unexpected Cambridge 13 files in ' + archive_path.name)
+            start = 10+(i-1)*22
+            stop = 96 if i == 4 else start+21
+            subset = {
+                *(f'{root}/pages/page-{n:03d}.webp' for n in range(start, stop+1)),
+                *(f'{root}/audio/test-{i}-section-{sec}.mp3' for sec in range(1, 5))
+            }
+            if set(files) != subset:
+                raise ValueError('Cambridge 13 test '+str(i)+' media does not match expected source pages and audio')
+            for rel, sha in files.items():
+                payload = archive.read(rel)
+                if hashlib.sha256(payload).hexdigest() != sha:
+                    raise ValueError('Corrupted Cambridge IELTS 13 media: ' + rel)
+                dest = OUTPUT / rel
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(payload)
+                seen.add(rel)
+    if seen != expected:
+        raise ValueError('Cambridge 13 media asset coverage incomplete')
+    volume = next(v for v in catalog['volumes'] if v['id'] == 'cambridge-ielts-academic-13')
+    volume['mediaRoot'] = root
+    for exam in volume['tests']:
+        number = int(exam['id'].split('-')[1])
+        exam['audio'] = [f'{root}/audio/test-{number}-section-{section}.mp3' for section in range(1, 5)]
+    print('Published Cambridge IELTS Academic 13: 87 original book pages and 16 audio tracks')
+
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -178,6 +227,7 @@ def build():
         print('Trainer exam pages not published: upload trainer-original-page-images.zip')
     catalog = json.loads((SOURCE / 'data.js').read_text().removeprefix(PREFIX).strip().removesuffix(';'))
     activate_cambridge_media(catalog)
+    activate_cambridge13_media(catalog)
     activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
@@ -202,7 +252,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[^"\s<>]+', asset + '?v=' + version, index)
         assert count == 1
