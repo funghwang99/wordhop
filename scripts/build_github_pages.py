@@ -44,6 +44,59 @@ def gate_game_pages(catalog):
 
 
 
+
+def activate_cambridge_media(catalog):
+    """Add source pages and listening audio only after both verified archive uploads exist."""
+    bundles = [
+        ROOT / 'cambridge_21_media_tests_5_6.zip',
+        ROOT / 'cambridge_21_media_tests_7_8.zip',
+    ]
+    present = [p.is_file() for p in bundles]
+    if not all(present):
+        if any(present):
+            print('Cambridge media incomplete: upload BOTH Cambridge media ZIPs to the repository root')
+        else:
+            print('Cambridge media pending: 2 media bundles still need upload')
+        return
+
+    root = 'media/cambridge-ielts-academic-21'
+    expected = {
+        *(f'{root}/pages/page-{n:03d}.webp' for n in range(10, 95)),
+        *(f'{root}/audio/test-{t}-section-{s}.m4a' for t in range(5, 9) for s in range(1, 5)),
+    }
+    seen = set()
+    for bundle in bundles:
+        with zipfile.ZipFile(bundle) as archive:
+            entries = set(archive.namelist())
+            manifest = json.loads(archive.read('cambridge_media_manifest.json'))
+            hashes = manifest['paths']
+            if entries != set(hashes) | {'cambridge_media_manifest.json'}:
+                raise ValueError('Cambridge media ZIP file list does not match its manifest: ' + bundle.name)
+            if manifest.get('bundle') != bundle.name:
+                raise ValueError('Unexpected Cambridge media bundle name')
+            for path, digest in hashes.items():
+                if path not in expected or path in seen:
+                    raise ValueError('Unexpected or duplicate Cambridge media file: ' + path)
+                if not re.fullmatch(r'media/cambridge-ielts-academic-21/(pages/page-\d{3}\.webp|audio/test-[5-8]-section-[1-4]\.m4a)', path):
+                    raise ValueError('Invalid Cambridge media path: ' + path)
+                contents = archive.read(path)
+                if hashlib.sha256(contents).hexdigest() != digest:
+                    raise ValueError('Media integrity mismatch for ' + path)
+                target = OUTPUT / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(contents)
+                seen.add(path)
+    if seen != expected:
+        raise ValueError(f'Cambridge media missing {len(expected-seen)} required assets')
+    volume = next(v for v in catalog.get('volumes', []) if v['id'] == 'cambridge-ielts-academic-21')
+    volume['mediaRoot'] = root
+    for exam in volume['tests']:
+        test = int(exam['id'].split('-')[-1])
+        exam['audio'] = [f'{root}/audio/test-{test}-section-{n}.m4a' for n in range(1, 5)]
+    print('Published Cambridge IELTS: 85 original source page images and 16 audio tracks')
+
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -79,6 +132,7 @@ def build():
     else:
         print('Trainer exam pages not published: upload trainer-original-page-images.zip')
     catalog = json.loads((SOURCE / 'data.js').read_text().removeprefix(PREFIX).strip().removesuffix(';'))
+    activate_cambridge_media(catalog)
     retained_files = set()
     word_count = 0
     for unit in catalog['units']:
@@ -102,9 +156,9 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
-        index, count = re.subn(re.escape(asset) + r'\?v=[a-f0-9]+', asset + '?v=' + version, index)
+        index, count = re.subn(re.escape(asset) + r'\?v=[^"\s<>]+', asset + '?v=' + version, index)
         assert count == 1
     (OUTPUT / 'index.html').write_text(index)
     (OUTPUT / '.nojekyll').touch()
