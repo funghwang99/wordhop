@@ -32,6 +32,13 @@
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const normal=s=>String(s??'').normalize('NFKC').trim().toLowerCase().replace(/[‘’]/g,"'").replace(/[\s\-_]+/g,' ').replace(/\.$/,'').trim();
   const wordCount=s=>(String(s??'').trim().match(/\S+/g)||[]).length;
+  // Resolve media from the deployed site's path, never from the in-app hash route.
+  // This works for both root deployments and GitHub Pages project subfolders.
+  function mediaURL(relative){
+    const path=String(window.location?.pathname||'/wordhop/');
+    const base=path.endsWith('/')?path:path.slice(0,path.lastIndexOf('/')+1);
+    return base+String(relative||'').replace(/^\/+/, '');
+  }
   const toKey=(test,skill,part)=>STORE+'.test-'+test+'.'+skill+'.part-'+part;
   const get=(k)=>{try{return localStorage.getItem(k)||'';}catch{return '';}};
   const set=(k,v)=>{try{localStorage.setItem(k,v);return true;}catch{return false;}};
@@ -119,8 +126,8 @@
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
-        const src=root.replace(/\/$/,'')+'/pages/'+String(n).padStart(3,'0')+'.webp';
-        return '<img src="'+esc(src)+'" alt="Cambridge IELTS original book page '+n+'" loading="'+(i?'lazy':'eager')+'">';
+        const src=mediaURL(root.replace(/\/$/,'')+'/pages/'+String(n).padStart(3,'0')+'.webp');
+        return '<img src="'+esc(src)+'" data-cam-page="'+n+'" alt="Cambridge IELTS original book page '+n+'" decoding="async" loading="'+(i?'lazy':'eager')+'">';
       }).join('')+'</div>';
     }
     return '<div class="reading-page cm-page-pending" tabindex="0"><div class="cm-missing-content"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><h4>Original book page'+(to>from?'s':'')+' '+from+(to>from?'–'+to:'')+'</h4><p>The PDF pages have not been uploaded to WordHop yet. Use the Cambridge 12 PDF provided by your teacher to read the full passage, options and diagrams.</p></div></div>';
@@ -128,7 +135,7 @@
   function mediaControls(route,skill,part){
     const root=route.volume.mediaRoot;
     if(!root)return '';
-    const first=pageRange(route,skill,part)[0],src=root.replace(/\/$/,'')+'/pages/'+String(first).padStart(3,'0')+'.webp';
+    const first=pageRange(route,skill,part)[0],src=mediaURL(root.replace(/\/$/,'')+'/pages/'+String(first).padStart(3,'0')+'.webp');
     return '<div class="reading-page-actions"><button class="btn" type="button" data-cam-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="'+esc(src)+'" target="_blank" rel="noopener">Open full-size page ↗</a></div>';
   }
   function keyFor(test,skill,n){return String((keys[test]||{})[skill]?.[n-1]||'');}
@@ -170,7 +177,7 @@
   }
   function listening(route,base){
     const test=route.exam.id.replace('test-',''),part=Math.min(Math.max(route.part,1),4),p=pageRange(route,'listening',part);
-    const audio=route.exam.audio?.[part-1]||null,complete=progressCount(test,'listening');
+    const audio=route.exam.audio?.[part-1]?mediaURL(route.exam.audio[part-1]):null,complete=progressCount(test,'listening');
     return '<section class="listening-view" aria-label="Book listening test"><div class="listening-intro"><div><h2>Listening</h2><p>Listen to the section, answer the book questions, then check the answers. Your answers are saved on this device.</p></div><span class="listening-count">'+complete+'/4 sections checked</span></div>'+
       partNav(base,test,'listening',part)+
       '<div class="listening-player-card"><div class="listening-player-heading"><div><p class="section-label">'+esc(route.exam.title)+' · Listening</p><h3>Section '+part+'</h3></div><span class="listening-duration">Questions '+range('listening',part).join('–')+'</span></div>'+
@@ -274,6 +281,27 @@
     document.querySelector('.reading-score')?.focus({preventScroll:true});
     document.querySelector('.reading-answer-sheet')?.scrollIntoView({behavior:'smooth',block:'start'});
   });
+  // Retry missing images once without relying on a stale cached 404.
+  // If an image still fails, show its direct link instead of a broken image icon.
+  document.addEventListener('error',event=>{
+    const img=event.target;
+    if(!img?.matches?.('[data-cam-page]'))return;
+    if(!img.dataset.camRetry){
+      img.dataset.camRetry='1';
+      img.src=img.src+(img.src.includes('?')?'&':'?')+'retry=1';
+      return;
+    }
+    const holder=document.createElement('div');
+    holder.className='cm-image-fallback';
+    const text=document.createElement('p');
+    text.textContent='Could not display book page '+img.dataset.camPage+'.';
+    const link=document.createElement('a');
+    link.href=img.src;
+    link.target='_blank';link.rel='noopener';
+    link.textContent='Open original page in a new tab';
+    holder.append(text,link);
+    img.replaceWith(holder);
+  },true);
   document.addEventListener('click',event=>{
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
