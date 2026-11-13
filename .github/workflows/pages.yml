@@ -32,6 +32,8 @@ jobs:
         run: node qa/check-trainer.cjs
       - name: Check Trainer PET interface parity
         run: node qa/check-trainer-parity.cjs
+      - name: Check Trainer audio mapping
+        run: node qa/check-trainer-audio.cjs
       - name: Build static site
         run: python3 -B scripts/build_github_pages.py
       - name: Check project paths and content

@@ -65,7 +65,19 @@ assert (ROOT / '_site/trainer.css').is_file()
 for n in (1, 2):
     for part in (1, 2, 3):
         assert (ROOT / '_site/trainer' / f'test-{n}-reading-part-{part}.json').is_file()
-assert not (ROOT / '_site/audio/trainer').exists()
+trainer_audio = json.loads((ROOT / '_site/trainer/audio-manifest.json').read_text())
+assert len(trainer_audio['tracks']) == 30
+audio_published = []
+for item in trainer_audio['tracks']:
+    bundle = next(b for b in trainer_audio['bundles'] if item['test'] in b['tests'])
+    path = ROOT / '_site' / item['src']
+    expected = (ROOT / bundle['file']).is_file()
+    assert path.is_file() == expected, item['src']
+    if expected:
+        assert path.stat().st_size > 10000
+        audio_published.append(item['src'])
+assert len(audio_published) in (0, 8, 14, 16, 22, 30)
+print(f'PASS: Trainer Exam Practice audio: {len(audio_published)}/30 files, no Training recordings')
 assert 'trainer.js' in html and 'trainer.css' in html
 manifest_path = ROOT / '_site/trainer/exam-pages.json'
 assert manifest_path.is_file()

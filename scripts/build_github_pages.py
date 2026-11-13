@@ -97,6 +97,49 @@ def activate_cambridge_media(catalog):
 
 
 
+
+
+def activate_trainer_exam_audio():
+    """Publish only SHA-256 verified Exam Practice recordings from uploaded ZIPs."""
+    manifest = json.loads((SOURCE / 'trainer/audio-manifest.json').read_text())
+    if manifest['book'] != 'trainer' or manifest['mode'] != 'exam':
+        raise ValueError('Trainer audio manifest is not Exam Practice')
+    expected = {item['src']: item for item in manifest['tracks']}
+    if len(expected) != 30 or len({item['track'] for item in expected.values()}) != 30:
+        raise ValueError('Expected 30 distinct Exam Practice recordings')
+    prohibited = set(manifest['excludedTrainingTracks'])
+    if len(prohibited) != 27 or any(item['track'] in prohibited for item in expected.values()):
+        raise ValueError('Guided Training audio cannot be published')
+    count = 0
+    for bundle in manifest['bundles']:
+        archive_path = ROOT / bundle['file']
+        if not archive_path.is_file():
+            print('Trainer audio pending: ' + bundle['file'])
+            continue
+        subset = {name: item for name, item in expected.items() if item['test'] in bundle['tests']}
+        with zipfile.ZipFile(archive_path) as archive:
+            package = json.loads(archive.read('trainer-audio-package.json'))
+            members = set(archive.namelist())
+            if package.get('package') != archive_path.name or package.get('book') != 'trainer' or package.get('mode') != 'exam':
+                raise ValueError('Invalid Trainer audio package identity')
+            if set(package.get('files', {})) != set(subset) or members != set(subset) | {'trainer-audio-package.json'}:
+                raise ValueError('Missing/extra Trainer audio files: ' + archive_path.name)
+            if set(package.get('tracks', [])) != {item['track'] for item in subset.values()}:
+                raise ValueError('Unlisted or Training source track: ' + archive_path.name)
+            for rel, digest in package['files'].items():
+                if not re.fullmatch(r'audio/trainer/test-[1-6]/(?:listening-part-[1-4]|speaking-part-[1-4](?:-sample-[1-3])?)[.]mp3', rel):
+                    raise ValueError('Unexpected Trainer audio path: ' + rel)
+                blob = archive.read(rel)
+                if hashlib.sha256(blob).hexdigest() != digest:
+                    raise ValueError('Corrupted Trainer audio file: ' + rel)
+                dest = OUTPUT / rel
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(blob)
+                count += 1
+        print('Published verified Trainer Exam Practice bundle: ' + archive_path.name)
+    print(f'Published {count}/30 Trainer Exam Practice audio tracks; 27 Training files excluded')
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -133,6 +176,7 @@ def build():
         print('Trainer exam pages not published: upload trainer-original-page-images.zip')
     catalog = json.loads((SOURCE / 'data.js').read_text().removeprefix(PREFIX).strip().removesuffix(';'))
     activate_cambridge_media(catalog)
+    activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
     for unit in catalog['units']:

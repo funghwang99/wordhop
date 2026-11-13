@@ -1,0 +1,306 @@
+{
+  "book": "trainer",
+  "mode": "exam",
+  "totalSourceTracks": 57,
+  "selectedTracks": 30,
+  "excludedTrainingTracks": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    13,
+    15,
+    19,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "bundles": [
+    {
+      "file": "trainer_exam_audio_tests_1_2.zip",
+      "tests": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "trainer_exam_audio_tests_3_4.zip",
+      "tests": [
+        3,
+        4
+      ]
+    },
+    {
+      "file": "trainer_exam_audio_tests_5_6.zip",
+      "tests": [
+        5,
+        6
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "test": 1,
+      "skill": "listening",
+      "part": 1,
+      "track": 3,
+      "duration": 563.54,
+      "src": "audio/trainer/test-1/listening-part-1.mp3"
+    },
+    {
+      "test": 1,
+      "skill": "listening",
+      "part": 2,
+      "track": 6,
+      "duration": 579.86,
+      "src": "audio/trainer/test-1/listening-part-2.mp3"
+    },
+    {
+      "test": 1,
+      "skill": "listening",
+      "part": 3,
+      "track": 9,
+      "duration": 299.5,
+      "src": "audio/trainer/test-1/listening-part-3.mp3"
+    },
+    {
+      "test": 1,
+      "skill": "listening",
+      "part": 4,
+      "track": 12,
+      "duration": 370.68,
+      "src": "audio/trainer/test-1/listening-part-4.mp3"
+    },
+    {
+      "test": 1,
+      "skill": "speaking",
+      "part": 1,
+      "track": 14,
+      "duration": 107.23,
+      "src": "audio/trainer/test-1/speaking-part-1.mp3",
+      "sample": null
+    },
+    {
+      "test": 1,
+      "skill": "speaking",
+      "part": 2,
+      "track": 16,
+      "duration": 90,
+      "src": "audio/trainer/test-1/speaking-part-2-sample-1.mp3",
+      "sample": 1
+    },
+    {
+      "test": 1,
+      "skill": "speaking",
+      "part": 2,
+      "track": 17,
+      "duration": 75.55,
+      "src": "audio/trainer/test-1/speaking-part-2-sample-2.mp3",
+      "sample": 2
+    },
+    {
+      "test": 1,
+      "skill": "speaking",
+      "part": 2,
+      "track": 18,
+      "duration": 71.04,
+      "src": "audio/trainer/test-1/speaking-part-2-sample-3.mp3",
+      "sample": 3
+    },
+    {
+      "test": 1,
+      "skill": "speaking",
+      "part": 3,
+      "track": 20,
+      "duration": 99.7,
+      "src": "audio/trainer/test-1/speaking-part-3.mp3",
+      "sample": null
+    },
+    {
+      "test": 1,
+      "skill": "speaking",
+      "part": 4,
+      "track": 23,
+      "duration": 147.89,
+      "src": "audio/trainer/test-1/speaking-part-4.mp3",
+      "sample": null
+    },
+    {
+      "test": 2,
+      "skill": "listening",
+      "part": 1,
+      "track": 28,
+      "duration": 578.74,
+      "src": "audio/trainer/test-2/listening-part-1.mp3"
+    },
+    {
+      "test": 2,
+      "skill": "listening",
+      "part": 2,
+      "track": 32,
+      "duration": 574.9,
+      "src": "audio/trainer/test-2/listening-part-2.mp3"
+    },
+    {
+      "test": 2,
+      "skill": "listening",
+      "part": 3,
+      "track": 35,
+      "duration": 320.4,
+      "src": "audio/trainer/test-2/listening-part-3.mp3"
+    },
+    {
+      "test": 2,
+      "skill": "listening",
+      "part": 4,
+      "track": 36,
+      "duration": 386.23,
+      "src": "audio/trainer/test-2/listening-part-4.mp3"
+    },
+    {
+      "test": 3,
+      "skill": "listening",
+      "part": 1,
+      "track": 42,
+      "duration": 636.24,
+      "src": "audio/trainer/test-3/listening-part-1.mp3"
+    },
+    {
+      "test": 3,
+      "skill": "listening",
+      "part": 2,
+      "track": 43,
+      "duration": 552.22,
+      "src": "audio/trainer/test-3/listening-part-2.mp3"
+    },
+    {
+      "test": 3,
+      "skill": "listening",
+      "part": 3,
+      "track": 44,
+      "duration": 280.61,
+      "src": "audio/trainer/test-3/listening-part-3.mp3"
+    },
+    {
+      "test": 3,
+      "skill": "listening",
+      "part": 4,
+      "track": 45,
+      "duration": 746.02,
+      "src": "audio/trainer/test-3/listening-part-4.mp3"
+    },
+    {
+      "test": 4,
+      "skill": "listening",
+      "part": 1,
+      "track": 46,
+      "duration": 601.78,
+      "src": "audio/trainer/test-4/listening-part-1.mp3"
+    },
+    {
+      "test": 4,
+      "skill": "listening",
+      "part": 2,
+      "track": 47,
+      "duration": 569.52,
+      "src": "audio/trainer/test-4/listening-part-2.mp3"
+    },
+    {
+      "test": 4,
+      "skill": "listening",
+      "part": 3,
+      "track": 48,
+      "duration": 309.17,
+      "src": "audio/trainer/test-4/listening-part-3.mp3"
+    },
+    {
+      "test": 4,
+      "skill": "listening",
+      "part": 4,
+      "track": 49,
+      "duration": 760.03,
+      "src": "audio/trainer/test-4/listening-part-4.mp3"
+    },
+    {
+      "test": 5,
+      "skill": "listening",
+      "part": 1,
+      "track": 50,
+      "duration": 631.87,
+      "src": "audio/trainer/test-5/listening-part-1.mp3"
+    },
+    {
+      "test": 5,
+      "skill": "listening",
+      "part": 2,
+      "track": 51,
+      "duration": 563.42,
+      "src": "audio/trainer/test-5/listening-part-2.mp3"
+    },
+    {
+      "test": 5,
+      "skill": "listening",
+      "part": 3,
+      "track": 52,
+      "duration": 307.01,
+      "src": "audio/trainer/test-5/listening-part-3.mp3"
+    },
+    {
+      "test": 5,
+      "skill": "listening",
+      "part": 4,
+      "track": 53,
+      "duration": 779.71,
+      "src": "audio/trainer/test-5/listening-part-4.mp3"
+    },
+    {
+      "test": 6,
+      "skill": "listening",
+      "part": 1,
+      "track": 54,
+      "duration": 648.84,
+      "src": "audio/trainer/test-6/listening-part-1.mp3"
+    },
+    {
+      "test": 6,
+      "skill": "listening",
+      "part": 2,
+      "track": 55,
+      "duration": 531.22,
+      "src": "audio/trainer/test-6/listening-part-2.mp3"
+    },
+    {
+      "test": 6,
+      "skill": "listening",
+      "part": 3,
+      "track": 56,
+      "duration": 334.34,
+      "src": "audio/trainer/test-6/listening-part-3.mp3"
+    },
+    {
+      "test": 6,
+      "skill": "listening",
+      "part": 4,
+      "track": 57,
+      "duration": 800.71,
+      "src": "audio/trainer/test-6/listening-part-4.mp3"
+    }
+  ]
+}

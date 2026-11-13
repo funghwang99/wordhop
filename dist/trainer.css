@@ -136,3 +136,13 @@
  .trainer .listening-parts{grid-template-columns:repeat(2,minmax(0,1fr))}
  .trainer .trainer-skill-tabs{gap:12px}
 }
+
+/* Original Trainer Exam Practice playback matches the PET Listening control design. */
+.trainer .trainer-player-card{margin:20px 0}
+.trainer .trainer-audio-track+.trainer-audio-track{border-top:1px solid var(--line);padding-top:18px;margin-top:18px}
+.trainer .trainer-audio-track-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:12px}
+.trainer .trainer-audio-track-heading strong{font-size:14px}
+.trainer .trainer-audio-track-heading span{font-size:12px;color:var(--muted)}
+.trainer .trainer-audio-track audio{display:block;width:100%;margin:0 0 12px}
+.trainer .trainer-player-card .listening-tools{flex-wrap:wrap}
+@media(max-width:580px){.trainer .trainer-audio-track-heading{align-items:flex-start;flex-direction:column;gap:6px}}
