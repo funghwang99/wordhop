@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -80,4 +80,45 @@ component.render({container,route:data,header:'<nav class="breadcrumbs">Course</
 assert(container.innerHTML.includes('Not answered'));
 assert(container.innerHTML.includes('Answer key &amp; results'));
 assert(container.innerHTML.includes('Try this part again'));
+
+// Cambridge IELTS 13 must be isolated from Cambridge 12 while retaining PET interface parity.
+const volume13=catalog.volumes.find(item=>item.id==='cambridge-ielts-academic-13');
+assert(volume13?.tests?.length===4,'Cambridge 13 should contain Tests 1–4');
+assert.equal(volume13.title,'Cambridge IELTS Academic 13');
+let rendered13=0;
+for (const exam of volume13.tests) {
+  const n=Number(exam.id.split('-')[1]);
+  for (const skill of ['listening','reading','writing','speaking']) {
+    const count={listening:4,reading:3,writing:2,speaking:1}[skill];
+    for (let part=1;part<=count;part++) {
+      const element={innerHTML:''};
+      const base='#/ielts/cambridge-ielts/'+volume13.id+'/'+exam.id;
+      component.render({container:element,route:{volume:volume13,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+      const html=element.innerHTML;
+      assert(html.includes('class="unit-heading"'),'Cambridge 13 reuses course heading');
+      assert(html.includes('class="unit-tabs"'),'Cambridge 13 reuses skill tabs');
+      assert(html.includes(base+'/'+skill+'/part-'+part),'Cambridge 13 has correct part route');
+      if(skill==='listening'){
+        assert(html.includes('class="listening-player-card"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,10);
+      }
+      if(skill==='reading'){
+        assert(html.includes('class="reading-answer-sheet"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,[13,13,14][part-1]);
+      }
+      if(skill==='writing')assert(html.includes('class="writing-editor"'));
+      if (skill==='speaking' && n===4)assert(html.includes('Book page 96'),'Test 4 speaking ends on printed page 96');
+      rendered13++;
+    }
+  }
+  const publisher=context.window.WORDHOP_CAMBRIDGE13_KEYS['13-'+n];
+  assert.equal(publisher.listening.length,40);
+  assert.equal(publisher.reading.length,40);
+}
+assert.equal(rendered13,40,'All Cambridge 13 screens should work');
+const reversed=component.score('13-2','listening',{17:'E',18:'C',19:'D',20:'B'});
+assert(reversed[17]&&reversed[18]&&reversed[19]&&reversed[20],'Unordered option pairs must grade correctly');
+assert(!component.score('13-2','listening',{17:'C',18:'C'})[18],'Duplicate choice must not be counted twice');
+assert.notEqual(volume.id,volume13.id,'Book IDs remain different');
+console.log('PASS: 40 additional Cambridge IELTS 13 pages, 320 publisher answers, and independent saves.');
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
