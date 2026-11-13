@@ -3,12 +3,16 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys=window.WORDHOP_CAMBRIDGE_KEYS||{};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
     '7':{listening:[[11,12],[13,14]],reading:[]},
-    '8':{listening:[],reading:[]}
+    '8':{listening:[],reading:[]},
+    '13-1':{listening:[],reading:[]},
+    '13-2':{listening:[[17,18],[19,20]],reading:[]},
+    '13-3':{listening:[[17,18],[19,20]],reading:[]},
+    '13-4':{listening:[[27,28],[29,30]],reading:[]}
   };
   const essayTopics={
     5:{
@@ -26,6 +30,22 @@
     8:{
       1:'The diagram below shows how geothermal energy is used to produce electricity.',
       2:'Some people believe that allowing children to make their own choices on everyday matters (such as food, clothes and entertainment) is likely to result in a society of individuals who only think about their own wishes. Other people believe that it is important for children to make decisions about matters that affect them. Discuss both these views and give your own opinion.'
+    },
+    '13-1':{
+      1:'The two maps below show road access to a city hospital in 2007 and in 2010.',
+      2:'Living in a country where you have to speak a foreign language can cause serious social problems, as well as practical problems. To what extent do you agree or disagree with this statement?'
+    },
+    '13-2':{
+      1:'The chart below shows the percentage of households in owned and rented accommodation in England and Wales between 1918 and 2011.',
+      2:'Some people believe that nowadays we have too many choices. To what extent do you agree or disagree with this statement?'
+    },
+    '13-3':{
+      1:'The bar chart below shows the top ten countries for the production and consumption of electricity in 2014.',
+      2:'Some people say History is one of the most important school subjects. Other people think that, in today’s world, subjects like Science and Technology are more important than History. Discuss both these views and give your own opinion.'
+    },
+    '13-4':{
+      1:'The plans below show the layout of a university’s sports centre now, and how it will look after redevelopment.',
+      2:'In spite of the advances made in agriculture, many people around the world still go hungry. Why is this the case? What can be done about this problem?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -82,6 +102,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -102,6 +123,22 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-13'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const begin=10+(n-1)*22;
+      if(skill==='listening')return [
+        [[begin,begin],[begin+1,begin+2],[begin+3,begin+4],[begin+5,begin+5]][part-1]||[begin,begin]
+      ][0];
+      if(skill==='reading'){
+        const start=begin+6;
+        const paths=n===4?[[start,start+3],[start+4,start+6],[start+7,start+11]]:
+          [[start,start+3],[start+4,start+7],[start+8,start+12]];
+        return paths[part-1]||paths[0];
+      }
+      const writeFirst=n===4?94:begin+19;
+      if(skill==='writing')return [writeFirst+part-1,writeFirst+part-1];
+      if(skill==='speaking')return [writeFirst+2,writeFirst+2];
+    }
     if(skill==='listening'){
       const ranges={
         5:[[10,11],[12,13],[14,14],[15,15]],
@@ -164,19 +201,19 @@
     const [from,to]=range(skill,part),item=attempt(test,skill,part),graded=score(test,skill,item.answers);
     const total=to-from+1,correct=Array.from({length:total},(_,i)=>from+i).filter(n=>graded[n]).length;
     return '<form class="reading-answer-sheet" data-cam-form="'+skill+'"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>Follow the original book instructions and word limits for Questions '+from+'–'+to+'. Answers are saved on this device.</p></div>'+(item.checked?'<strong class="reading-score" role="status" tabindex="-1">'+correct+'/'+total+' correct</strong>':'')+'</div><div class="reading-answer-inputs">'+Array.from({length:total},(_,i)=>answerInput(test,skill,from+i,item)).join('')+'</div><div class="reading-submit-row">'+(item.checked?'<button type="button" class="btn" data-cam-action="retry">Try this part again</button>':'<button type="submit" class="btn btn-primary">Check answers</button>')+'<button class="text-button" type="button" data-cam-action="back-to-page">Back to book page ↑</button></div></form>'+
-      (item.checked?'<section class="reading-solutions"><h3>Answer key &amp; results</h3><p class="reading-solution-note">Checked against the publisher answer key in the supplied Cambridge IELTS 12 Academic PDF. Detailed explanations and timestamped audio replays are not available yet.</p>'+Array.from({length:total},(_,i)=>solution(test,skill,from+i,item,graded)).join('')+'</section>':'<p class="reading-key-note">Check your answers to see the answer key for every question. Unanswered questions receive no mark.</p>');
+      (item.checked?'<section class="reading-solutions"><h3>Answer key &amp; results</h3><p class="reading-solution-note">Checked against the publisher answer key in the supplied Cambridge IELTS PDF. Detailed explanations and timestamped audio replays are not available yet.</p>'+Array.from({length:total},(_,i)=>solution(test,skill,from+i,item,graded)).join('')+'</section>':'<p class="reading-key-note">Check your answers to see the answer key for every question. Unanswered questions receive no mark.</p>');
   }
   function reading(route,base){
-    const test=route.exam.id.replace('test-',''),part=Math.min(Math.max(route.part,1),3),pg=pageRange(route,'reading',part);
+    const test=testCode(route),part=Math.min(Math.max(route.part,1),3),pg=pageRange(route,'reading',part);
     const complete=progressCount(test,'reading');
     return '<section class="reading-view" aria-label="Book reading test"><div class="reading-intro"><div><h2>Reading</h2><p>Read the original book passage, then answer the questions. Your answers are saved on this device.</p></div><span class="reading-completion">'+complete+'/3 passages checked</span></div>'+
       partNav(base,test,'reading',part)+
       '<div class="reading-part-heading"><div><h3>Reading Passage '+part+'</h3><p>Questions '+range('reading',part).join('–')+' · Book '+(pg[0]===pg[1]?'page':'pages')+' '+pg.join('–')+'</p></div>'+mediaControls(route,'reading',part)+'</div>'+
       pageViewer(route,'reading',part)+answerSheet(test,'reading',part)+
-      '<p class="reading-source-note">Original passages, questions and answer key: Cambridge IELTS 12 Academic with Answers. Cambridge University Press.</p></section>';
+      '<p class="reading-source-note">Original passages, questions and answer key: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>';
   }
   function listening(route,base){
-    const test=route.exam.id.replace('test-',''),part=Math.min(Math.max(route.part,1),4),p=pageRange(route,'listening',part);
+    const test=testCode(route),part=Math.min(Math.max(route.part,1),4),p=pageRange(route,'listening',part);
     const audio=route.exam.audio?.[part-1]?mediaURL(route.exam.audio[part-1]):null,complete=progressCount(test,'listening');
     return '<section class="listening-view" aria-label="Book listening test"><div class="listening-intro"><div><h2>Listening</h2><p>Listen to the section, answer the book questions, then check the answers. Your answers are saved on this device.</p></div><span class="listening-count">'+complete+'/4 sections checked</span></div>'+
       partNav(base,test,'listening',part)+
@@ -185,10 +222,10 @@
       '<div class="reading-part-heading listening-book-heading"><div><h3>Book questions</h3><p>Questions '+range('listening',part).join('–')+' · Book '+(p[0]===p[1]?'page':'pages')+' '+p.join('–')+'</p></div>'+mediaControls(route,'listening',part)+'</div>'+
       pageViewer(route,'listening',part)+answerSheet(test,'listening',part)+
       '<div class="listening-navigation">'+(part>1?nav(link(base,'listening',part-1),'← Previous section','btn',false):'<span></span>')+(part<4?nav(link(base,'listening',part+1),'Next section →','btn',false):'<span></span>')+'</div>'+
-      '<p class="reading-source-note">Original listening questions and answers: Cambridge IELTS 12 Academic with Answers. Cambridge University Press.</p></section>';
+      '<p class="reading-source-note">Original listening questions and answers: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>';
   }
   function writing(route,base){
-    const test=route.exam.id.replace('test-',''),part=Math.min(Math.max(route.part,1),2);
+    const test=testCode(route),part=Math.min(Math.max(route.part,1),2);
     const item=attempt(test,'writing',part),draft=String(item.answers[part]||'');
     const student=window.WordHopStudent?.current();
     const q=essayTopics[test]?.[part]||'Refer to the original task in the book.';
@@ -203,7 +240,7 @@
       '<textarea id="cambridge-writing-draft" data-cam-draft rows="12" maxlength="25000" spellcheck="true" placeholder="Write your '+(part===1?'Task 1 response':'Task 2 essay')+' here...">'+esc(draft)+'</textarea>'+
       '<div class="writing-editor-footer"><p id="writing-save-state" role="status" aria-live="polite">Draft saves automatically on this device.</p><button class="text-button" type="button" data-cam-action="prompt">Back to prompt ↑</button></div>'+
       '<div class="writing-submit"><h3>Send to your teacher</h3><p>'+(student?'Submitting as <strong>'+esc(student.name)+'</strong>.':'Sign in with your WordHop student account to submit your writing.')+'</p><div class="writing-submit-footer">'+(student?'<button class="btn btn-primary" type="button" data-cam-action="submit-writing"'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?' disabled':'')+'>'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?'Submitted':'Submit writing')+'</button>':'<a href="#/student" class="btn btn-primary" data-nav="#/student">Student sign in</a>')+'<p id="writing-submit-status" role="status">'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?'Your teacher has received this answer.':'')+'</p></div></div></section>'+
-      '<p class="reading-source-note">Original Writing tasks: Cambridge IELTS 12 Academic with Answers. Cambridge University Press.</p></section>';
+      '<p class="reading-source-note">Original Writing tasks: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>';
   }
   function speaking(route){
     const pages=route.exam.pages?.speaking;
@@ -211,7 +248,7 @@
   }
   function render({container,route,header:crumbs,base}){
     const skill=skills.includes(route.skill)?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
-    active={container,route,base,skill,part,test:route.exam.id.replace('test-','')};
+    active={container,route,base,skill,part,test:testCode(route)};
     const page={...route,part};
     const body=skill==='listening'?listening(page,base):skill==='reading'?reading(page,base):skill==='writing'?writing(page,base):speaking(page);
     container.innerHTML=header(route,crumbs,base,skill)+body;
@@ -252,7 +289,7 @@
     const button=document.querySelector('[data-cam-action="submit-writing"]');if(button){button.disabled=true;button.textContent='Submitting…';}
     toast('Sending your answer…');
     try{
-      const response=await window.WordHopStudent.request('writing-submissions',{id,studentId:student.id,unitId:'cambridge-ielts-academic-21-'+a.route.exam.id,partId:'part-'+a.part,questionId:'task-'+a.part,answer});
+      const response=await window.WordHopStudent.request('writing-submissions',{id,studentId:student.id,unitId:a.route.volume.id+'-'+a.route.exam.id,partId:'part-'+a.part,questionId:'task-'+a.part,answer});
       const result=await response.json();
       if(!response.ok||!result.ok||result.id!==id||!result.submittedAt)throw new Error(result.error||'Submission not accepted by the server.');
       const latest=attempt(a.test,'writing',a.part);
