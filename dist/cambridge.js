@@ -126,7 +126,7 @@
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
-        const src=mediaURL(root.replace(/\/$/,'')+'/pages/'+String(n).padStart(3,'0')+'.webp');
+        const src=mediaURL(root.replace(/\/$/,'')+'/pages/page-'+String(n).padStart(3,'0')+'.webp');
         return '<img src="'+esc(src)+'" data-cam-page="'+n+'" alt="Cambridge IELTS original book page '+n+'" decoding="async" loading="'+(i?'lazy':'eager')+'">';
       }).join('')+'</div>';
     }
@@ -135,7 +135,7 @@
   function mediaControls(route,skill,part){
     const root=route.volume.mediaRoot;
     if(!root)return '';
-    const first=pageRange(route,skill,part)[0],src=mediaURL(root.replace(/\/$/,'')+'/pages/'+String(first).padStart(3,'0')+'.webp');
+    const first=pageRange(route,skill,part)[0],src=mediaURL(root.replace(/\/$/,'')+'/pages/page-'+String(first).padStart(3,'0')+'.webp');
     return '<div class="reading-page-actions"><button class="btn" type="button" data-cam-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="'+esc(src)+'" target="_blank" rel="noopener">Open full-size page ↗</a></div>';
   }
   function keyFor(test,skill,n){return String((keys[test]||{})[skill]?.[n-1]||'');}
