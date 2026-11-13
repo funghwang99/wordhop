@@ -11,7 +11,7 @@ new Function(script);
 assert.ok(script.includes("const mode='exam';"));
 assert.equal(script.includes('training:true'),false);
 assert.equal(script.includes("path(t.id,'training'"),false);
-assert.equal(script.includes('audio-manifest.json'),false);
+assert.equal(script.includes('audio-manifest.json'),true);
 const expected={1:['ACCBA','BHDFA','DACBD'],2:['CABCA','CHEBF','CABDA']};
 let checked=0;
 for(const test of [1,2])for(const part of [1,2,3]){
@@ -25,7 +25,7 @@ for(const test of [1,2])for(const part of [1,2,3]){
 }
 assert.equal(checked,30);
 assert.equal(fs.existsSync(path.join(root,'dist/audio/trainer')),false);
-console.log('PASS: Trainer in PET books; Exam Practice only; 30 verified Reading answers; audio pending.');
+console.log('PASS: Trainer in PET books; Exam Practice only; 30 verified Reading answers; recordings staged separately.');
 
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'dist/trainer/exam-pages.json'),'utf8'));
 assert.equal(manifest.bookId,'trainer');
