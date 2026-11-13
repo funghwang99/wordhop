@@ -95,7 +95,15 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
-    if(skill==='listening'){const x=p.listening||[1,1];return [x[0]+part-1,x[0]+part-1];}
+    if(skill==='listening'){
+      const ranges={
+        5:[[10,11],[12,13],[14,14],[15,15]],
+        6:[[30,30],[31,32],[33,34],[35,35]],
+        7:[[53,53],[54,55],[56,57],[58,58]],
+        8:[[74,74],[75,76],[77,78],[79,79]]
+      };
+      return ranges[route.exam.id.replace('test-','')]?.[part-1]||p.listening;
+    }
     if(skill==='writing'){const x=p.writing||[1,1];return [x[0]+part-1,x[0]+part-1];}
     if(skill==='speaking')return p.speaking;
     const ranges={
@@ -116,6 +124,12 @@
       }).join('')+'</div>';
     }
     return '<div class="reading-page cm-page-pending" tabindex="0"><div class="cm-missing-content"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><h4>Original book page'+(to>from?'s':'')+' '+from+(to>from?'–'+to:'')+'</h4><p>The PDF pages have not been uploaded to WordHop yet. Use the Cambridge 12 PDF provided by your teacher to read the full passage, options and diagrams.</p></div></div>';
+  }
+  function mediaControls(route,skill,part){
+    const root=route.volume.mediaRoot;
+    if(!root)return '';
+    const first=pageRange(route,skill,part)[0],src=root.replace(/\/$/,'')+'/pages/'+String(first).padStart(3,'0')+'.webp';
+    return '<div class="reading-page-actions"><button class="btn" type="button" data-cam-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="'+esc(src)+'" target="_blank" rel="noopener">Open full-size page ↗</a></div>';
   }
   function keyFor(test,skill,n){return String((keys[test]||{})[skill]?.[n-1]||'');}
   function answerOptions(test,skill,n){
@@ -150,7 +164,7 @@
     const complete=progressCount(test,'reading');
     return '<section class="reading-view" aria-label="Book reading test"><div class="reading-intro"><div><h2>Reading</h2><p>Read the original book passage, then answer the questions. Your answers are saved on this device.</p></div><span class="reading-completion">'+complete+'/3 passages checked</span></div>'+
       partNav(base,test,'reading',part)+
-      '<div class="reading-part-heading"><div><h3>Reading Passage '+part+'</h3><p>Questions '+range('reading',part).join('–')+' · Book '+(pg[0]===pg[1]?'page':'pages')+' '+pg.join('–')+'</p></div></div>'+
+      '<div class="reading-part-heading"><div><h3>Reading Passage '+part+'</h3><p>Questions '+range('reading',part).join('–')+' · Book '+(pg[0]===pg[1]?'page':'pages')+' '+pg.join('–')+'</p></div>'+mediaControls(route,'reading',part)+'</div>'+
       pageViewer(route,'reading',part)+answerSheet(test,'reading',part)+
       '<p class="reading-source-note">Original passages, questions and answer key: Cambridge IELTS 12 Academic with Answers. Cambridge University Press.</p></section>';
   }
@@ -161,7 +175,7 @@
       partNav(base,test,'listening',part)+
       '<div class="listening-player-card"><div class="listening-player-heading"><div><p class="section-label">'+esc(route.exam.title)+' · Listening</p><h3>Section '+part+'</h3></div><span class="listening-duration">Questions '+range('listening',part).join('–')+'</span></div>'+
       (audio?'<audio id="listening-audio" controls preload="none" src="'+esc(audio)+'" aria-label="Cambridge '+esc(route.exam.title)+' Section '+part+' audio">Audio not supported.</audio><div class="listening-tools"><label for="listening-speed">Playback speed <select id="listening-speed" data-cam-speed><option value="0.75">0.75×</option><option value="1" selected>1× · Normal</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><a class="text-button" href="'+esc(audio)+'" target="_blank" rel="noopener">Open audio file ↗</a></div>':'<p class="notice" role="status">Section '+part+' audio has been provided by the teacher but is not hosted online yet. Audio playback is not available on WordHop for this test.</p>')+'</div>'+
-      '<div class="reading-part-heading listening-book-heading"><div><h3>Book questions</h3><p>Questions '+range('listening',part).join('–')+' · Book page '+p[0]+'</p></div></div>'+
+      '<div class="reading-part-heading listening-book-heading"><div><h3>Book questions</h3><p>Questions '+range('listening',part).join('–')+' · Book '+(p[0]===p[1]?'page':'pages')+' '+p.join('–')+'</p></div>'+mediaControls(route,'listening',part)+'</div>'+
       pageViewer(route,'listening',part)+answerSheet(test,'listening',part)+
       '<div class="listening-navigation">'+(part>1?nav(link(base,'listening',part-1),'← Previous section','btn',false):'<span></span>')+(part<4?nav(link(base,'listening',part+1),'Next section →','btn',false):'<span></span>')+'</div>'+
       '<p class="reading-source-note">Original listening questions and answers: Cambridge IELTS 12 Academic with Answers. Cambridge University Press.</p></section>';
@@ -264,7 +278,7 @@
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
     const act=button.dataset.camAction;
-    if(act==='retry'){
+    if(act==='zoom'){const page=document.querySelector('.reading-page');if(page){const zoomed=page.classList.toggle('is-zoomed');button.setAttribute('aria-pressed',String(zoomed));button.textContent=zoomed?'Fit page':'Zoom page';}}else if(act==='retry'){
       const item=attempt(a.test,a.skill,a.part);item.checked=false;persist(a.test,a.skill,a.part,item);
       render({container:a.container,route:a.route,header:a.container.querySelector('.breadcrumbs')?.outerHTML||'',base:a.base});
     }else if(act==='back-to-page'||act==='prompt'){document.querySelector('.reading-page')?.scrollIntoView({behavior:'smooth',block:'start'});}
