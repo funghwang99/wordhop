@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 cambridge = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-21')
 media = cambridge.get('mediaRoot')
@@ -60,6 +60,22 @@ else:
     assert media is None and all(not test.get('audio') for test in cambridge['tests'])
     print('Cambridge IELTS source media still pending external upload; site shows clear placeholders.')
 
+cambridge13 = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-13')
+assert cambridge13['title'] == 'Cambridge IELTS Academic 13'
+assert [t['id'] for t in cambridge13['tests']] == ['test-1','test-2','test-3','test-4']
+cm13bundles = [ROOT / f'cambridge_13_media_test_{t}.zip' for t in range(1,5)]
+if all(p.exists() for p in cm13bundles):
+    assert cambridge13.get('mediaRoot') == 'media/cambridge-ielts-academic-13'
+    images = [f"{cambridge13['mediaRoot']}/pages/page-{n:03d}.webp" for n in range(10,97)]
+    audio = [f"{cambridge13['mediaRoot']}/audio/test-{t}-section-{s}.mp3" for t in range(1,5) for s in range(1,5)]
+    assert len(images)==87 and len(audio)==16
+    assert all((ROOT / '_site' / p).is_file() for p in images+audio)
+    assert all(len(test.get('audio',[]))==4 for test in cambridge13['tests'])
+    print('PASS: Cambridge IELTS 13 87 source pages and 16 audio tracks are published.')
+else:
+    assert cambridge13.get('mediaRoot') is None
+    assert all('audio' not in exam for exam in cambridge13['tests'])
+    print('Cambridge 13 media bundles not yet all uploaded: source pages and audio are pending.')
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
 for n in (1, 2):
