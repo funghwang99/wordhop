@@ -1,48 +1,14 @@
-
-/* Cambridge IELTS uses the same course cards, breadcrumbs and tabs as the other WordHop books. */
-.cm-tabs{flex-wrap:wrap;gap:18px}
-.cm-tabs .unit-tab{display:inline-flex;align-items:center;text-decoration:none}
-.cm-overview .nav-card{min-height:155px}
-.cm-overview .nav-card h2{font-size:20px}
-.cm-overview .nav-card p{color:var(--muted);font-size:12px;line-height:1.7}
-.cm-part-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 23px}
-.cm-part-tab{display:inline-flex;border:1px solid #d9e3ee;border-radius:8px;background:#fff;padding:10px 16px;color:#60728c;font-size:13px;font-weight:550;text-decoration:none}
-.cm-part-tab:hover{border-color:#aabed8}
-.cm-part-tab.active{background:#edf3fc;color:#315f9e;border-color:#a4bbda}
-.cm-intro{color:#8591a4;font-size:13px;line-height:1.8;margin:0 0 19px}
-.cm-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.95fr);gap:22px;align-items:start}
-.cm-source,.cm-panel{border:1px solid #e1e6ed;background:white;border-radius:11px;padding:26px}
-.cm-source h2,.cm-panel h2{font-size:20px;letter-spacing:-.35px;margin:0 0 11px;color:#354c6a;font-weight:650}
-.cm-panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin:0 0 16px}
-.cm-panel-head h2{margin:0}
-.cm-panel-head span{color:#8e9aac;font-size:12px}
-.cm-small{color:#8391a4;font-size:12px;line-height:1.8;margin:0 0 15px}
-.cm-media-missing{background:#f7f9fc;border:1px dashed #cdd9e8;border-radius:9px;padding:22px;margin:16px 0;color:#71819a;font-size:13px;line-height:1.75}
-.cm-media-missing strong{font-size:14px;display:block;color:#667d9c;margin-bottom:6px}
-.cm-media-missing p{margin:0}
-.cm-scanned-pages{display:grid;gap:14px}
-.cm-scanned-pages figure{margin:0;border:1px solid #e0e6ed;box-shadow:0 2px 8px #00000009}
-.cm-scanned-pages img{width:100%;height:auto;display:block}
-.cm-scanned-pages figcaption{color:#8795a7;font-size:11px;padding:7px 12px}
-.cm-audio{width:100%;margin:15px 0 23px}
-.cm-answer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.cm-answer{display:grid;grid-template-columns:23px minmax(0,1fr);column-gap:7px;row-gap:4px;align-items:center;min-width:0}
-.cm-answer>span{font-size:13px;color:#71809a;font-weight:600}
-.cm-answer input{min-width:0;width:100%;border:1px solid #d7e0ed;padding:10px 9px;background:#fff;border-radius:7px;color:#425775;font-size:13px;font-family:inherit}
-.cm-answer input:focus,.cm-writing:focus{outline:2px solid #a4bfdf;outline-offset:1px}
-.cm-answer input.cm-correct{border-color:#79ad8d;background:#f1faf4}
-.cm-answer input.cm-incorrect{border-color:#db9fa9;background:#fff5f5}
-.cm-answer-feedback{grid-column:2;color:#8e6873;font-size:10px;line-height:1.55;overflow-wrap:anywhere}
-.cm-actions{display:flex;gap:9px;flex-wrap:wrap;margin:19px 0 11px}
-.cm-actions .btn{font-size:12px}
-.cm-feedback-line{min-height:22px;color:#54789d;font-size:12px;line-height:1.65;margin:12px 0 0}
-.cm-writing{border:1px solid #d6e0ec;border-radius:9px;padding:15px;min-height:360px;width:100%;resize:vertical;font-family:inherit;font-size:14px;line-height:1.9;color:#3d4f68;white-space:pre-wrap}
-.cm-prompt{font-size:14px;line-height:1.85;color:#53627a}
-.cm-prompt-text{font-size:15px;line-height:1.8;color:#324b6d;font-weight:550}
-.cm-counter{margin:14px 0;color:#8390a4;font-size:12px}
-.cm-counter strong{color:#476c9f;font-size:16px}
-.cm-source-table{border-collapse:collapse;width:100%;font-size:12px;color:#536b8d;margin:14px 0;max-width:550px}
-.cm-source-table th,.cm-source-table td{border:1px solid #e0e7f0;padding:8px 10px;text-align:left}
-.cm-source-table th{background:#f2f5fa;color:#425d7d;font-weight:650}
-@media(max-width:860px){.cm-layout{grid-template-columns:1fr}.cm-source,.cm-panel{padding:21px}}
-@media(max-width:500px){.cm-tabs{gap:7px}.cm-tabs .unit-tab{font-size:11px;gap:5px;flex:1 1 42%;justify-content:center}.cm-part-tab{font-size:12px;padding:9px 12px}.cm-layout{gap:14px}.cm-source,.cm-panel{padding:17px}.cm-answer-grid{gap:10px}.cm-answer input{font-size:12px}.cm-source-table th,.cm-source-table td{padding:6px;font-size:11px}}
+/* Cambridge IELTS inherits WordHop's existing PET Reading, Listening and Writing components. */
+.cm-page-pending{display:flex;align-items:center;justify-content:center;background:#fbfcfe;min-height:310px}
+.cm-missing-content{max-width:550px;padding:38px 25px;text-align:center;color:#8591a4;line-height:1.8}
+.cm-missing-content>.icon{width:35px;height:35px;color:#9aaac1;margin:0 auto 14px}
+.cm-missing-content h4{margin:0 0 10px;font-size:18px;color:#4c6486}
+.cm-missing-content p{margin:0;font-size:13px}
+.cm-writing-instructions{padding:23px 25px;border:1px solid var(--line);background:#fff;border-radius:10px;margin:17px 0}
+.cm-writing-instructions strong{font-size:13px;color:#607b9f}
+.cm-writing-instructions>p{line-height:1.8;color:#425471;font-size:14px;margin:9px 0}
+.cm-writing-instructions .reading-key-note{margin:13px 0 0}
+.unit-tabs[aria-label="Exam skills"]{flex-wrap:wrap}
+.unit-tabs[aria-label="Exam skills"] .unit-tab{display:inline-flex;align-items:center;text-decoration:none;white-space:nowrap}
+@media(max-width:760px){.cm-missing-content{padding:26px 18px}.cm-page-pending{min-height:250px}.unit-tabs[aria-label="Exam skills"]{gap:17px}}
+@media(max-width:480px){.unit-tabs[aria-label="Exam skills"]{gap:13px}.unit-tabs[aria-label="Exam skills"] .unit-tab{font-size:11px}.cm-writing-instructions{padding:18px}.cm-missing-content p{font-size:12px}.cm-missing-content h4{font-size:16px}}
