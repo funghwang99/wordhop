@@ -12,3 +12,8 @@
 .unit-tabs[aria-label="Exam skills"] .unit-tab{display:inline-flex;align-items:center;text-decoration:none;white-space:nowrap}
 @media(max-width:760px){.cm-missing-content{padding:26px 18px}.cm-page-pending{min-height:250px}.unit-tabs[aria-label="Exam skills"]{gap:17px}}
 @media(max-width:480px){.unit-tabs[aria-label="Exam skills"]{gap:13px}.unit-tabs[aria-label="Exam skills"] .unit-tab{font-size:11px}.cm-writing-instructions{padding:18px}.cm-missing-content p{font-size:12px}.cm-missing-content h4{font-size:16px}}
+
+/* Show an actionable page link if a media request fails after one cache-busting retry. */
+.cm-image-fallback{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:9px;min-height:180px;padding:24px;background:#f7f9fc;border:1px dashed #bdccdf;border-radius:8px;color:#4e6078;text-align:center}
+.cm-image-fallback p{margin:0;font-size:13px}
+.cm-image-fallback a{font-size:13px;color:var(--accent);text-decoration:underline}
