@@ -42,8 +42,24 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
+cambridge = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-21')
+media = cambridge.get('mediaRoot')
+archives = [ROOT / 'cambridge_21_media_tests_5_6.zip', ROOT / 'cambridge_21_media_tests_7_8.zip']
+if all(bundle.exists() for bundle in archives):
+    assert media == 'media/cambridge-ielts-academic-21'
+    pages = [f'{media}/pages/page-{i:03d}.webp' for i in range(10, 95)]
+    audios = [f'{media}/audio/test-{t}-section-{s}.m4a' for t in range(5, 9) for s in range(1, 5)]
+    assert all((ROOT / '_site' / item).is_file() for item in pages + audios)
+    for test in cambridge['tests']:
+        assert len(test['audio']) == 4
+        assert all((ROOT / '_site' / item).is_file() for item in test['audio'])
+    print('PASS: Cambridge IELTS Academic source pages (85) and Listening recordings (16) uploaded and published.')
+else:
+    assert media is None and all(not test.get('audio') for test in cambridge['tests'])
+    print('Cambridge IELTS source media still pending external upload; site shows clear placeholders.')
+
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
 for n in (1, 2):
