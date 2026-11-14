@@ -42,6 +42,8 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .cm-split-pane .reading-page{margin:0;width:100%;overflow-x:auto;overflow-y:visible;border-color:#e0e6ee}
 .cm-split-pane .reading-page img{width:100%;height:auto}
 .cm-split-pane .reading-page.is-zoomed img{width:1300px;max-width:none}
+/* Cambridge 13 & 14 source scans: 125% by default on desktop; Cambridge 12 stays at 100%. */
+.reading-page.cm-page-closer:not(.is-zoomed) img{width:125%;max-width:none}
 .cm-split-pane .reading-source-note{margin:18px 0 4px}
 .cm-response-pane .reading-answer-sheet{border:0;border-radius:0;padding:0;margin:0 0 20px;background:transparent}
 .cm-response-pane .reading-answer-inputs{grid-template-columns:1fr;gap:3px}
@@ -67,6 +69,8 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .cm-response-pane .writing-submit{margin-top:20px}
 .cm-question-pane .cm-writing-instructions{margin:16px 0 6px;padding:17px 19px}
 @media(max-width:850px){
+  .reading-page.cm-page-closer:not(.is-zoomed) img{width:100%}
+
   .cm-exam-split{grid-template-columns:1fr;grid-template-rows:auto auto;height:auto;overflow:visible}
   .cm-split-pane{height:auto;max-height:none;overflow:visible;scrollbar-gutter:auto;padding:18px}
   .cm-question-pane{border-right:0;border-bottom:2px solid #d8e1ed}
