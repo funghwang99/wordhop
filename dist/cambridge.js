@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -20,7 +20,11 @@
     '15-1':{listening:[[29,30]],reading:[[23,24],[25,26]]},
     '15-2':{listening:[[21,22],[23,24]],reading:[]},
     '15-3':{listening:[[17,18],[19,20]],reading:[]},
-    '15-4':{listening:[[17,18],[19,20]],reading:[]}
+    '15-4':{listening:[[17,18],[19,20]],reading:[]},
+    '16-1':{listening:[[21,22],[23,24]],reading:[[25,26]]},
+    '16-2':{listening:[[19,20]],reading:[]},
+    '16-3':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[[23,24],[25,26]]},
+    '16-4':{listening:[[21,22],[23,24]],reading:[]}
   };
   const essayTopics={
     5:{
@@ -86,6 +90,22 @@
     '15-4':{
       1:'The chart below shows what Anthropology graduates from one university did after finishing their undergraduate degree course. The table shows the salaries of the anthropologists in work after five years.',
       2:'In some cultures, children are often told that they can achieve anything if they try hard enough. What are the advantages and disadvantages of giving children this message?'
+    },
+    '16-1':{
+      1:'The charts below show the changes in ownership of electrical appliances and amount of time spent doing housework in households in one country between 1920 and 2019.',
+      2:'In some countries, more and more people are becoming interested in finding out about the history of the house or building they live in. What are the reasons for this? How can people research this?'
+    },
+    '16-2':{
+      1:'The diagram below shows the manufacturing process for making sugar from sugar cane.',
+      2:'In their advertising, businesses nowadays usually emphasise that their products are new in some way. Why is this? Do you think it is a positive or negative development?'
+    },
+    '16-3':{
+      1:'The plans below show the site of an airport now and how it will look after redevelopment next year.',
+      2:'Many manufactured food and drink products contain high levels of sugar, which causes many health problems. Sugary products should be made more expensive to encourage people to consume less sugar. Do you agree or disagree?'
+    },
+    '16-4':{
+      1:'The diagram below shows the process for recycling plastic bottles.',
+      2:'In the future all cars, buses and trucks will be driverless. The only people travelling inside these vehicles will be passengers. Do you think the advantages of driverless vehicles outweigh the disadvantages?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -115,7 +135,16 @@
     if(key==='mosquito(e)s')for(const x of ['mosquito','mosquitoes','mosquitos'])out.add(x);
     return [...out];
   }
-  function matches(key,value){return normal(value)!==''&&variants(key).includes(normal(value));}
+  function matches(key,value){
+    const v=normal(value);
+    if(!v)return false;
+    if(key==="(the) architect('s) (name)")return [
+      'architect','the architect','architects','the architects',"architect's","the architect's",
+      "architect's name","the architect's name","architect name","the architect name"
+    ].includes(v);
+    if(key==='(the) harbour/harbor')return ['harbour','harbor','the harbour','the harbor'].includes(v);
+    return variants(key).includes(v);
+  }
   function score(test,skill,answers){
     const key=(keys[test]||{})[skill]||[];
     const checked=Array.from({length:41},(_,n)=>n>0&&matches(key[n-1],answers[n]));
@@ -142,7 +171,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -163,6 +192,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-16'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,23],[24,28]]},
+        2:{listening:[[32,32],[33,34],[35,36],[37,37]],reading:[[38,41],[42,46],[47,51]]},
+        3:{listening:[[55,55],[56,57],[58,59],[60,60]],reading:[[61,64],[65,68],[69,72]]},
+        4:{listening:[[76,76],[77,78],[79,80],[81,81]],reading:[[82,85],[86,89],[90,94]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return [p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-15'){
       const n=Number(route.exam.id.replace('test-',''));
       const perTest={
@@ -224,7 +265,7 @@
   }
   function pageViewer(route,skill,part){
     const [from,to]=pageRange(route,skill,part),root=route.volume.mediaRoot;
-    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15';
+    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15'||route.volume.id==='cambridge-ielts-academic-16';
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page'+(closerSource?' cm-page-closer':'')+'" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
