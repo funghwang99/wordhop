@@ -40,6 +40,14 @@ for unit in catalog['units']:
             continue
         path = ROOT / 'dist' / unit[field].lstrip('/')
         raw, data = path.read_bytes(), read(path)
+        if unit['bookId'] == 'trainer':
+            assert kind == 'vocabulary'
+            assert path.name == f'{unit["id"]}.json'
+            assert data['id'] == unit['id']
+            assert len(data['words']) == unit['wordCount'] == 24
+            assert [w['id'] for w in data['words']] == unit['wordIds']
+            assert all(w.get('definitionVi') and w.get('definition') and w['definitionVi'] != w['definition'] for w in data['words'])
+            continue
         assert hashlib.sha256(raw).hexdigest()[:12] in path.name
         if not pet:
             assert data == english(data), 'Vietnamese support must not change IELTS content'
