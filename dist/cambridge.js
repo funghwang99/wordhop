@@ -289,12 +289,45 @@
     const pages=route.exam.pages?.speaking;
     return '<section class="reading-view"><div class="reading-intro"><div><h2>Speaking</h2><p>Practise with a partner or examiner using the original questions from the book.</p></div></div><div class="reading-part-heading"><div><h3>Speaking test</h3><p>Part 1 · Part 2 · Part 3 · Book page '+pages?.[0]+'</p></div></div>'+pageViewer(route,'speaking',1)+'<p class="reading-key-note">The Speaking prompts are in the original PDF. WordHop does not automatically score spoken answers.</p></section>';
   }
+  function sizeSplit(container){
+    const layout=container.querySelector?.('.cm-exam-split');
+    if(!layout)return;
+    if(window.matchMedia?.('(max-width:850px)').matches){
+      layout.style?.removeProperty('--cm-split-height');
+      return;
+    }
+    const top=layout.getBoundingClientRect?.().top;
+    if(!Number.isFinite(top))return;
+    const height=Math.max(400,Math.min(1000,window.innerHeight-Math.max(top,64)-18));
+    layout.style?.setProperty('--cm-split-height',height+'px');
+  }
+  function restoreBookAfterUpdate(a,scoreFocus){
+    const oldLeft=a.container.querySelector?.('.cm-question-pane');
+    const scrollY=oldLeft?.scrollTop||0;
+    const scrollX=oldLeft?.querySelector?.('.reading-page')?.scrollLeft||0;
+    const leftZoomed=Boolean(oldLeft?.querySelector?.('.reading-page.is-zoomed'));
+    render({container:a.container,route:a.route,header:a.container.querySelector?.('.breadcrumbs')?.outerHTML||'',base:a.base});
+    const newLeft=a.container.querySelector?.('.cm-question-pane');
+    if(newLeft)newLeft.scrollTop=scrollY;
+    const page=newLeft?.querySelector?.('.reading-page');
+    if(page){
+      page.scrollLeft=scrollX;
+      if(leftZoomed)page.classList.add('is-zoomed');
+    }
+    if(scoreFocus){
+      const score=a.container.querySelector?.('.reading-score');
+      score?.focus?.({preventScroll:true});
+      const right=a.container.querySelector?.('.cm-response-pane');
+      if(right)right.scrollTop=0;
+    }
+  }
   function render({container,route,header:crumbs,base}){
     const skill=skills.includes(route.skill)?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
     active={container,route,base,skill,part,test:testCode(route)};
     const page={...route,part};
     const body=skill==='listening'?listening(page,base):skill==='reading'?reading(page,base):skill==='writing'?writing(page,base):speaking(page);
     container.innerHTML=header(route,crumbs,base,skill)+body;
+    if(typeof window.requestAnimationFrame==='function')window.requestAnimationFrame(()=>sizeSplit(container));
   }
   function stop(){const audio=document.querySelector('#listening-audio');if(audio)audio.pause();}
   function context(){const a=active;if(!a)return null;const hash=location.hash||'';return hash.startsWith(a.base)&&hash.includes('/'+a.skill+'/')?a:null;}
@@ -357,9 +390,7 @@
     for(const field of form.querySelectorAll('[data-cam-answer]'))item.answers[field.dataset.camAnswer]=field.value;
     item.checked=true;
     persist(a.test,a.skill,a.part,item);
-    render({container:a.container,route:a.route,header:a.container.querySelector('.breadcrumbs')?.outerHTML||'',base:a.base});
-    document.querySelector('.reading-score')?.focus({preventScroll:true});
-    document.querySelector('.reading-answer-sheet')?.scrollIntoView({behavior:'smooth',block:'start'});
+    restoreBookAfterUpdate(a,true);
   });
   // Retry missing images once without relying on a stale cached 404.
   // If an image still fails, show its direct link instead of a broken image icon.
@@ -386,17 +417,32 @@
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
     const act=button.dataset.camAction;
-    if(act==='zoom'){const page=document.querySelector('.reading-page');if(page){const zoomed=page.classList.toggle('is-zoomed');button.setAttribute('aria-pressed',String(zoomed));button.textContent=zoomed?'Fit page':'Zoom page';}}else if(act==='retry'){
+    if(act==='zoom'){
+      const page=a.container.querySelector?.('.cm-question-pane .reading-page');
+      if(page){const zoomed=page.classList.toggle('is-zoomed');button.setAttribute('aria-pressed',String(zoomed));button.textContent=zoomed?'Fit page':'Zoom page';}
+    }else if(act==='retry'){
       const item=attempt(a.test,a.skill,a.part);item.checked=false;persist(a.test,a.skill,a.part,item);
-      render({container:a.container,route:a.route,header:a.container.querySelector('.breadcrumbs')?.outerHTML||'',base:a.base});
-    }else if(act==='back-to-page'||act==='prompt'){document.querySelector('.reading-page')?.scrollIntoView({behavior:'smooth',block:'start'});}
-    else if(act==='focus-writing'){document.querySelector('#cambridge-writing-draft')?.scrollIntoView({behavior:'smooth',block:'center'});document.querySelector('#cambridge-writing-draft')?.focus({preventScroll:true});}
+      restoreBookAfterUpdate(a,false);
+    }else if(act==='back-to-page'||act==='prompt'){
+      const pane=a.container.querySelector?.('.cm-question-pane');
+      if(pane&&window.matchMedia?.('(min-width:851px)').matches){
+        pane.scrollTo?.({top:0,behavior:'smooth'});
+        pane.focus?.({preventScroll:true});
+      }else pane?.querySelector?.('.reading-page')?.scrollIntoView?.({behavior:'smooth',block:'start'});
+    }
+    else if(act==='focus-writing'){
+      const draft=a.container.querySelector?.('#cambridge-writing-draft');
+      if(window.matchMedia?.('(min-width:851px)').matches)draft?.closest?.('.cm-response-pane')?.scrollTo?.({top:0,behavior:'smooth'});
+      else draft?.scrollIntoView?.({behavior:'smooth',block:'center'});
+      draft?.focus?.({preventScroll:true});
+    }
     else if(act==='clear'){
       if(!confirm('Clear all saved Cambridge IELTS answers and drafts for '+a.route.exam.title+' on this device?'))return;
       for(const skill of ['reading','listening','writing'])for(let i=1;i<=(skill==='listening'?4:skill==='reading'?3:2);i++)try{localStorage.removeItem(toKey(a.test,skill,i));}catch{}
-      render({container:a.container,route:a.route,header:a.container.querySelector('.breadcrumbs')?.outerHTML||'',base:a.base});
+      restoreBookAfterUpdate(a,false);
     }
     else if(act==='submit-writing'){void sendWriting(a);}
   });
+  window.addEventListener?.('resize',()=>{if(active?.container)sizeSplit(active.container);});
   window.WordHopCambridge={render,stop,score,variants};
 })();
