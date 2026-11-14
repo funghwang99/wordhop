@@ -17,3 +17,70 @@
 .cm-image-fallback{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:9px;min-height:180px;padding:24px;background:#f7f9fc;border:1px dashed #bdccdf;border-radius:8px;color:#4e6078;text-align:center}
 .cm-image-fallback p{margin:0;font-size:13px}
 .cm-image-fallback a{font-size:13px;color:var(--accent);text-decoration:underline}
+
+
+/* Cambridge 12–14: source and answer sheet scroll independently, like a computer-based exam. */
+main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px);padding-right:clamp(16px,2.2vw,38px)}
+.cm-cambridge-exam.reading-view,.cm-cambridge-exam.listening-view{max-width:none;margin-top:17px}
+.cm-cambridge-exam .reading-intro,.cm-cambridge-exam .listening-intro{margin-bottom:14px}
+.cm-cambridge-exam .reading-parts,.cm-cambridge-exam .listening-parts{margin:12px 0 16px}
+.cm-cambridge-exam .listening-parts{grid-template-columns:repeat(4,minmax(0,1fr))}
+.cm-cambridge-exam .listening-part{padding:10px 13px;min-height:58px}
+.cm-exam-split{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);width:100%;min-width:0;height:clamp(460px,calc(100dvh - 260px),860px);overflow:hidden;border:1px solid #d8e1ed;border-radius:11px;background:#fff;box-shadow:0 4px 14px #1c3b6708}
+.cm-split-pane{min-width:0;min-height:0;height:100%;overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#b7c6d8 #f4f7fb;padding:21px 22px 28px}
+.cm-split-pane:focus-visible{outline:2px solid #8fa9d7;outline-offset:-3px}
+.cm-split-pane::-webkit-scrollbar{width:10px}
+.cm-split-pane::-webkit-scrollbar-track{background:#f4f7fb}
+.cm-split-pane::-webkit-scrollbar-thumb{background:#b7c6d8;border:2px solid #f4f7fb;border-radius:10px}
+.cm-question-pane{border-right:2px solid #d8e1ed;background:#fcfdff}
+.cm-response-pane{background:#fff}
+.cm-pane-label{position:sticky;top:-21px;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:14px;margin:-21px -22px 19px;padding:14px 22px;background:#f3f7fd;border-bottom:1px solid #e0e7f1;color:#3f5d87}
+.cm-pane-label strong{font-size:13px;letter-spacing:.1px}
+.cm-pane-label span{font-size:11px;color:#7b8ba4;text-align:right}
+.cm-split-pane .reading-part-heading{margin:0 0 15px}
+.cm-split-pane .reading-part-heading h3{font-size:17px}
+.cm-split-pane .reading-page{margin:0;width:100%;overflow-x:auto;overflow-y:visible;border-color:#e0e6ee}
+.cm-split-pane .reading-page img{width:100%;height:auto}
+.cm-split-pane .reading-page.is-zoomed img{width:1300px;max-width:none}
+.cm-split-pane .reading-source-note{margin:18px 0 4px}
+.cm-response-pane .reading-answer-sheet{border:0;border-radius:0;padding:0;margin:0 0 20px;background:transparent}
+.cm-response-pane .reading-answer-inputs{grid-template-columns:1fr;gap:3px}
+.cm-response-pane .reading-answer-row{display:flex;min-height:49px;border-bottom:1px solid #eef1f5;padding:8px 2px;flex-wrap:wrap}
+.cm-response-pane .reading-answer-row label{min-width:85px}
+.cm-response-pane .reading-answer-row input,.cm-response-pane .reading-answer-row select{width:clamp(150px,52%,280px);max-width:100%;flex:1}
+.cm-response-pane .reading-submit-row{align-items:center;gap:12px}
+.cm-response-pane .reading-solutions{margin-top:26px}
+.cm-response-pane .reading-solution{padding:15px;margin:9px 0}
+.cm-response-pane .reading-key-note{line-height:1.7}
+.cm-question-pane .listening-player-card{position:sticky;top:34px;z-index:4;padding:15px 18px;margin:0 0 17px;border-color:#cfdbea;box-shadow:0 3px 10px #2742670b}
+.cm-question-pane .listening-player-heading{margin-bottom:10px}
+.cm-question-pane .listening-player-heading h3{font-size:18px}
+.cm-question-pane .listening-player-heading .section-label{margin-bottom:3px}
+.cm-question-pane .listening-player-card audio{height:40px}
+.cm-question-pane .listening-tools{margin-top:8px;gap:8px}
+.cm-question-pane .listening-tools select{padding:4px 8px}
+.cm-question-pane .listening-book-heading{margin-top:19px}
+.cm-response-pane .listening-navigation{margin:12px 0 4px}
+.cm-response-pane .writing-editor{padding:0;border:0;margin:0;background:transparent}
+.cm-response-pane .writing-editor textarea{min-height:clamp(340px,49dvh,650px)}
+.cm-response-pane .writing-editor-heading{align-items:flex-start}
+.cm-response-pane .writing-submit{margin-top:20px}
+.cm-question-pane .cm-writing-instructions{margin:16px 0 6px;padding:17px 19px}
+@media(max-width:850px){
+  .cm-exam-split{grid-template-columns:1fr;grid-template-rows:auto auto;height:auto;overflow:visible}
+  .cm-split-pane{height:auto;max-height:none;overflow:visible;scrollbar-gutter:auto;padding:18px}
+  .cm-question-pane{border-right:0;border-bottom:2px solid #d8e1ed}
+  .cm-pane-label{position:static;margin:-18px -18px 15px;padding:12px 18px}
+  .cm-question-pane .listening-player-card{position:static}
+  .cm-response-pane .reading-answer-row input,.cm-response-pane .reading-answer-row select{width:auto;flex:1}
+}
+@media(max-width:480px){
+  .cm-cambridge-exam .listening-parts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cm-cambridge-exam .listening-part{padding:11px}
+  .cm-split-pane{padding:14px}
+  .cm-pane-label{margin:-14px -14px 15px;padding:11px 14px}
+  .cm-pane-label span{font-size:10px}
+  .cm-response-pane .reading-answer-row{gap:8px}
+  .cm-response-pane .reading-answer-row label{min-width:75px}
+  .cm-question-pane .cm-writing-instructions{padding:14px}
+}
