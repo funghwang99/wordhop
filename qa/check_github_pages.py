@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 cambridge = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-21')
 media = cambridge.get('mediaRoot')
@@ -109,6 +109,23 @@ else:
     assert cambridge15.get('mediaRoot') is None
     assert all(not test.get('audio') for test in cambridge15['tests'])
     print('Cambridge IELTS 15 media awaits four verified ZIP uploads; placeholders remain in place.')
+
+cambridge16 = next(v for v in built['volumes'] if v['id']=='cambridge-ielts-academic-16')
+assert cambridge16['title'] == 'Cambridge IELTS Academic 16'
+assert [t['id'] for t in cambridge16['tests']] == ['test-1','test-2','test-3','test-4']
+bundles16 = [ROOT / f'cambridge_16_media_test_{t}.zip' for t in range(1,5)]
+if all(p.is_file() for p in bundles16):
+    assert cambridge16['mediaRoot'] == 'media/cambridge-ielts-academic-16'
+    image_paths = [f"{cambridge16['mediaRoot']}/pages/page-{n:03d}.webp" for n in range(10,98)]
+    audio_paths = [f"{cambridge16['mediaRoot']}/audio/test-{t}-section-{s}.m4a" for t in range(1,5) for s in range(1,5)]
+    assert len(image_paths) == 88 and len(audio_paths) == 16
+    assert all((ROOT/'_site'/p).is_file() for p in image_paths+audio_paths)
+    assert all(len(t.get('audio',[]))==4 for t in cambridge16['tests'])
+    print('PASS: Cambridge IELTS Academic 16 all 88 source page images and 16 audio sections published.')
+else:
+    assert not cambridge16.get('mediaRoot')
+    assert all(not t.get('audio') for t in cambridge16['tests'])
+    print('Cambridge IELTS 16 waits for four verified media ZIPs; website shows placeholders.')
 
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
