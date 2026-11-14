@@ -56,7 +56,7 @@ assert.match(trainer,/vocabularyTabs/);
 assert.match(trainer,/Study flashcards/);
 assert.match(trainer,/BASE\+'\/trainer-test-'/);
 assert.match(app,/trainerVocabTabs/);
-assert.match(app,/trainer-test-/);
+assert.match(app,/u\.bookId==='trainer'/);
 assert.match(app,/Matching/);
 assert.match(app,/Multiple choice/);
 assert.match(app,/Fill in the blanks/);
