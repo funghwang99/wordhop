@@ -53,7 +53,7 @@ for(const test of volume.tests){
       assert.equal((html.match(/data-cam-answer="/g)||[]).length,10,'Ten listening answers');
     }
     if(skill==='reading'){
-      assert(html.includes('class="reading-view"'),'Reading must use PET styling');
+      assert(html.includes('class="reading-view cm-cambridge-exam"'),'Reading retains PET styling and enables split layout');
       assert(html.includes('class="reading-answer-sheet"'),'Reading sheet must use PET styling');
       assert.equal((html.match(/data-cam-answer="/g)||[]).length,[13,13,14][p-1],'Reading passage questions');
     }
