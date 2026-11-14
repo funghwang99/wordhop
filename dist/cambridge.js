@@ -192,9 +192,10 @@
   }
   function pageViewer(route,skill,part){
     const [from,to]=pageRange(route,skill,part),root=route.volume.mediaRoot;
+    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14';
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
-      return '<div class="reading-page" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
+      return '<div class="reading-page'+(closerSource?' cm-page-closer':'')+'" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
         const src=mediaURL(root.replace(/\/$/,'')+'/pages/page-'+String(n).padStart(3,'0')+'.webp');
         return '<img src="'+esc(src)+'" data-cam-page="'+n+'" alt="Cambridge IELTS original book page '+n+'" width="1400" height="1980" decoding="async" loading="'+(i?'lazy':'eager')+'">';
       }).join('')+'</div>';
