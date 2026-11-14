@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{}),...(window.WORDHOP_CAMBRIDGE19_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -32,7 +32,11 @@
     '18-1':{listening:[[14,15],[27,28],[29,30]],reading:[]},
     '18-2':{listening:[[11,12],[13,14],[25,26]],reading:[]},
     '18-3':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[]},
-    '18-4':{listening:[[21,22]],reading:[[10,11],[12,13]]}
+    '18-4':{listening:[[21,22]],reading:[[10,11],[12,13]]},
+    '19-1':{listening:[[21,22],[23,24]],reading:[[20,21],[22,23]]},
+    '19-2':{listening:[[17,18],[19,20]],reading:[[23,24],[25,26]]},
+    '19-3':{listening:[[17,18],[19,20]],reading:[]},
+    '19-4':{listening:[[11,12],[13,14]],reading:[]}
   };
   const essayTopics={
     5:{
@@ -146,6 +150,22 @@
     '18-4':{
       1:'The graph below shows the average monthly changes in the prices of three metals during 2014.',
       2:'In many countries, people are now living longer than before. Some people say an ageing population creates problems for governments. Other people think there are benefits if society has more elderly people. Do the advantages of having an ageing population outweigh the disadvantages?'
+    },
+    '19-1':{
+      1:'The graph below gives information on the numbers of participants for different activities at one social centre in Melbourne, Australia for the period 2000 to 2020.',
+      2:'Some people think that competition at work, at school and in daily life is a good thing. Others believe that we should try to cooperate more, rather than competing against each other. Discuss both these views and give your own opinion.'
+    },
+    '19-2':{
+      1:'The plans below show a harbour in 2000 and how it looks today.',
+      2:'The working week should be shorter and workers should have a longer weekend. Do you agree or disagree?'
+    },
+    '19-3':{
+      1:'The diagram below shows how a biofuel called ethanol is produced.',
+      2:'It is important for everyone, including young people, to save money for their future. To what extent do you agree or disagree with this statement?'
+    },
+    '19-4':{
+      1:'The charts below give information on the location and types of dance classes young people in a town in Australia are currently attending.',
+      2:'In many countries nowadays, consumers can go to a supermarket and buy food produced all over the world. Do you think this is a positive or negative development?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -184,6 +204,8 @@
     ].includes(v);
     if(key==='(the) harbour/harbor')return ['harbour','harbor','the harbour','the harbor'].includes(v);
     if (/^\d{1,3}(,\d{3})+$/.test(String(key)) && v.replace(/,/g,'')===String(key).replace(/,/g,'')) return true;
+    if(/^\d[\d\s]+$/.test(String(key)) && v.replace(/\s+/g,'')===String(key).replace(/\s+/g,''))return true;
+    if(key.startsWith('3.30/')&&v==='3:30')return true;
     return variants(key).includes(v);
   }
   function score(test,skill,answers){
@@ -212,7 +234,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-19'?'19-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -233,6 +255,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-19'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,29]]},
+        2:{listening:[[33,33],[34,35],[36,37],[38,38]],reading:[[39,42],[43,46],[47,51]]},
+        3:{listening:[[55,55],[56,57],[58,59],[60,60]],reading:[[61,64],[65,69],[70,74]]},
+        4:{listening:[[78,78],[79,80],[81,82],[83,83]],reading:[[84,87],[88,91],[92,95]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return [p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-18'){
       const n=Number(route.exam.id.replace('test-',''));
       const perTest={
@@ -330,7 +364,7 @@
   }
   function pageViewer(route,skill,part){
     const [from,to]=pageRange(route,skill,part),root=route.volume.mediaRoot;
-    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15'||route.volume.id==='cambridge-ielts-academic-16'||route.volume.id==='cambridge-ielts-academic-17'||route.volume.id==='cambridge-ielts-academic-18';
+    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15'||route.volume.id==='cambridge-ielts-academic-16'||route.volume.id==='cambridge-ielts-academic-17'||route.volume.id==='cambridge-ielts-academic-18'||route.volume.id==='cambridge-ielts-academic-19';
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page'+(closerSource?' cm-page-closer':'')+'" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
