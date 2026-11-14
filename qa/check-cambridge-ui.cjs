@@ -209,6 +209,25 @@ for(const book of [volume,volume13,volume14]){
   }
 }
 assert.equal(splitScreens,108,'3 Cambridge books × 4 tests × 9 split skill parts');
+assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:125%;max-width:none}'),
+  'Cambridge 13/14 should start at 125% source-page zoom');
+assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:100%}'),
+  'Mobile screens should show full page width');
+for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true]]){
+  for(const test of book.tests){
+    for(const skill of ['listening','reading','writing','speaking']){
+      const container={innerHTML:''};
+      component.render({container,route:{volume:book,exam:test,skill,part:1},
+        header:'<nav class="breadcrumbs">Course</nav>',
+        base:'#/ielts/cambridge-ielts/'+book.id+'/'+test.id});
+      assert.equal(container.innerHTML.includes('class="reading-page cm-page-closer"'),
+        shouldEnlarge,'Only Cambridge 13/14 source images have the default magnification');
+      assert(container.innerHTML.includes('data-cam-page='),'Source image URLs are kept intact');
+    }
+  }
+}
+console.log('PASS: Cam 13 and 14 default page zoom 125%, Cambridge 12 remains unchanged; mobile fit is retained.');
+
 console.log('PASS: 108 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
 
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
