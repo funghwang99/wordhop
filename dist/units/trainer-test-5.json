@@ -15,8 +15,8 @@
       "pos": "n. phrase",
       "definition": "swimming over a long distance",
       "definitionVi": "bơi đường dài",
-      "example": "Distance swimming requires strong skills and good fitness.",
-      "cloze": "________ requires strong skills and good fitness.",
+      "example": "Good fitness is important for distance swimming.",
+      "cloze": "Good fitness is important for ________.",
       "answer": "distance swimming",
       "accepted": [
         "distance swimming"

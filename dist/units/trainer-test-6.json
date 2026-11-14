@@ -175,8 +175,8 @@
       "pos": "prep.",
       "definition": "without being prevented by something",
       "definitionVi": "mặc dù; bất chấp",
-      "example": "Despite its great size, the whale moved quickly.",
-      "cloze": "________ its great size, the whale moved quickly.",
+      "example": "The whale moved quickly despite its great size.",
+      "cloze": "The whale moved quickly ________ its great size.",
       "answer": "despite",
       "accepted": [
         "despite"
@@ -271,8 +271,8 @@
       "pos": "prep. phrase",
       "definition": "as stated or reported by a person or source",
       "definitionVi": "theo như",
-      "example": "According to the study, music can help learning.",
-      "cloze": "________ the study, music can help learning.",
+      "example": "The results are promising according to the study.",
+      "cloze": "The results are promising ________ the study.",
       "answer": "according to",
       "accepted": [
         "according to"
