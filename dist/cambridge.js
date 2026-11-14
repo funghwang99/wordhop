@@ -196,7 +196,7 @@
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
         const src=mediaURL(root.replace(/\/$/,'')+'/pages/page-'+String(n).padStart(3,'0')+'.webp');
-        return '<img src="'+esc(src)+'" data-cam-page="'+n+'" alt="Cambridge IELTS original book page '+n+'" decoding="async" loading="'+(i?'lazy':'eager')+'">';
+        return '<img src="'+esc(src)+'" data-cam-page="'+n+'" alt="Cambridge IELTS original book page '+n+'" width="1400" height="1980" decoding="async" loading="'+(i?'lazy':'eager')+'">';
       }).join('')+'</div>';
     }
     return '<div class="reading-page cm-page-pending" tabindex="0"><div class="cm-missing-content"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><h4>Original book page'+(to>from?'s':'')+' '+from+(to>from?'–'+to:'')+'</h4><p>The PDF pages have not been uploaded to WordHop yet. Use the '+esc(route.volume.title)+' PDF provided by your teacher to read the full passage, options and diagrams.</p></div></div>';
