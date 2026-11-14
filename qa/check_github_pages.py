@@ -131,27 +131,22 @@ cambridge17 = next(v for v in built['volumes'] if v['id']=='cambridge-ielts-acad
 assert cambridge17['title'] == 'Cambridge IELTS Academic 17'
 assert [e['id'] for e in cambridge17['tests']] == ['test-1','test-2','test-3','test-4']
 packages17 = [ROOT / f'cambridge_17_media_test_{t}.zip' for t in range(1,5)]
-extra17 = (ROOT / 'cambridge_17_media_test_4_extra.zip').is_file()
 if all(p.is_file() for p in packages17):
     prefix17 = cambridge17['mediaRoot']
     assert prefix17 == 'media/cambridge-ielts-academic-17'
     image_paths17 = [f'{prefix17}/pages/page-{n:03d}.webp' for n in range(10,96)]
     track_paths17 = [f'{prefix17}/audio/test-{t}-section-{s}.mp3'
-                     for t in range(1,5) for s in range(1,5)
-                     if t<4 or s==1 or extra17]
-    assert len(image_paths17)==86 and len(track_paths17)==(16 if extra17 else 13)
+                     for t in range(1,5) for s in range(1,5)]
+    assert len(image_paths17)==86 and len(track_paths17)==16
     assert all((ROOT/'_site'/p).is_file() for p in image_paths17+track_paths17)
     for t,exam in enumerate(cambridge17['tests'],1):
-        assert len(exam.get('audio',[]))==4
-        expected = 4 if t<4 or extra17 else 1
-        assert sum(bool(a) for a in exam['audio']) == expected
-        if t==4 and not extra17:
-            assert exam['audio'][1:] == [None,None,None], 'Do not invent missing audio for Test 4'
-    print(f'PASS: Cambridge IELTS 17 86 original pages and {len(track_paths17)} provided Listening recordings published.')
+        expected = [f'{prefix17}/audio/test-{t}-section-{s}.mp3' for s in range(1,5)]
+        assert exam.get('audio')==expected, f'Test {t} must have four correct audio tracks'
+    print('PASS: Cambridge IELTS 17 86 original pages and all 16 provided Listening recordings published.')
 else:
     assert not cambridge17.get('mediaRoot')
     assert all(not e.get('audio') for e in cambridge17['tests'])
-    print('Cambridge IELTS 17 awaits four verified media ZIPs; source placeholders are shown.')
+    print('Cambridge IELTS 17 awaits four complete media ZIPs; source placeholders are shown.')
 
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
