@@ -347,6 +347,82 @@ def activate_cambridge16_media(catalog):
     print('Published Cambridge IELTS Academic 16: 88 original book pages and all 16 listening sections')
 
 
+
+def activate_cambridge17_media(catalog):
+    """Publish four verified packages, allowing an honestly incomplete Test 4 audio set."""
+    prefix = 'media/cambridge-ielts-academic-17'
+    packages = [ROOT / f'cambridge_17_media_test_{t}.zip' for t in range(1, 5)]
+    missing = [p.name for p in packages if not p.is_file()]
+    if missing:
+        print('Cambridge IELTS Academic 17 media pending: ' + ', '.join(missing))
+        return
+
+    ranges = {1:(10,30), 2:(31,52), 3:(53,74), 4:(75,95)}
+    seen = set()
+    def verified_contents(archive_path, expected, source, test, additional=False):
+        with zipfile.ZipFile(archive_path) as archive:
+            bad = archive.testzip()
+            if bad:
+                raise ValueError('Corrupted Cambridge 17 media ZIP: ' + bad)
+            manifest = json.loads(archive.read('cambridge_media_manifest.json'))
+            files = manifest['paths']
+            if (manifest.get('bundle') != archive_path.name or
+                manifest.get('source') != source or
+                manifest.get('test') != test or
+                (additional and manifest.get('extraAudio') is not True)):
+                raise ValueError('Invalid Cambridge 17 media package identity: ' + archive_path.name)
+            if set(files) != expected or set(archive.namelist()) != expected | {'cambridge_media_manifest.json'}:
+                raise ValueError('Missing or unexpected Cambridge 17 media paths in: ' + archive_path.name)
+            if not additional:
+                if manifest.get('printedPages') != list(ranges[test]):
+                    raise ValueError('Wrong page range in: '+archive_path.name)
+                if manifest.get('completeAudio') != (test != 4):
+                    raise ValueError('Incorrect audio completeness declaration: '+archive_path.name)
+            for path, digest in files.items():
+                if path in seen or not path.startswith(prefix+'/'):
+                    raise ValueError('Duplicated or unexpected Cambridge 17 media path: ' + path)
+                content = archive.read(path)
+                if hashlib.sha256(content).hexdigest() != digest:
+                    raise ValueError('Cambridge IELTS 17 source media SHA mismatch: '+path)
+                target = OUTPUT / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(content)
+                seen.add(path)
+
+    for test, package in enumerate(packages, 1):
+        lo, hi = ranges[test]
+        originals = {f'{prefix}/pages/page-{p:03d}.webp' for p in range(lo,hi+1)}
+        sections = range(1,5) if test < 4 else [1]
+        audio = {f'{prefix}/audio/test-{test}-section-{part}.mp3' for part in sections}
+        verified_contents(package, originals | audio, 'Cambridge IELTS Academic 17', test)
+    # Test 4 Sections 2–4 were not present in the teacher's upload. They can be
+    # supplied later as a separate ZIP without repacking the original 4 archives.
+    extra = ROOT / 'cambridge_17_media_test_4_extra.zip'
+    has_extra = extra.is_file()
+    if has_extra:
+        expected_extra = {f'{prefix}/audio/test-4-section-{part}.mp3' for part in (2,3,4)}
+        verified_contents(extra, expected_extra, 'Cambridge IELTS Academic 17', 4, additional=True)
+
+    pages_expected = {f'{prefix}/pages/page-{p:03d}.webp' for p in range(10,96)}
+    audio_expected = {f'{prefix}/audio/test-{t}-section-{part}.mp3'
+                      for t in range(1,5) for part in range(1,5)
+                      if t < 4 or part == 1 or has_extra}
+    if seen != pages_expected | audio_expected:
+        raise ValueError('Cambridge 17 original pages/audio coverage inconsistent')
+    volume = next(v for v in catalog['volumes'] if v['id'] == 'cambridge-ielts-academic-17')
+    volume['mediaRoot'] = prefix
+    for exam in volume['tests']:
+        test = int(exam['id'].split('-')[1])
+        exam['audio'] = [
+            f'{prefix}/audio/test-{test}-section-{part}.mp3'
+            if test < 4 or part == 1 or has_extra else None
+            for part in range(1,5)
+        ]
+    print(f'Published Cambridge IELTS Academic 17: 86 original pages, {len(audio_expected)} Listening audio tracks.')
+    if not has_extra:
+        print('Cambridge IELTS 17 Test 4 Sections 2–4 still need audio; placeholders are shown.')
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -387,6 +463,7 @@ def build():
     activate_cambridge14_media(catalog)
     activate_cambridge15_media(catalog)
     activate_cambridge16_media(catalog)
+    activate_cambridge17_media(catalog)
     activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
@@ -411,7 +488,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[^"\s<>]+', asset + '?v=' + version, index)
         assert count == 1
