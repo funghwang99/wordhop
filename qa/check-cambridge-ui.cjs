@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -121,4 +121,56 @@ assert(reversed[17]&&reversed[18]&&reversed[19]&&reversed[20],'Unordered option 
 assert(!component.score('13-2','listening',{17:'C',18:'C'})[18],'Duplicate choice must not be counted twice');
 assert.notEqual(volume.id,volume13.id,'Book IDs remain different');
 console.log('PASS: 40 additional Cambridge IELTS 13 pages, 320 publisher answers, and independent saves.');
+
+// Cambridge IELTS Academic 14 — 40 exam views, correct original page groups and isolated answers.
+const volume14=catalog.volumes.find(x=>x.id==='cambridge-ielts-academic-14');
+assert.equal(volume14.title,'Cambridge IELTS Academic 14');
+assert.equal(volume14.tests.length,4);
+const pages14={
+  1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,28]],writing:[[29,29],[30,30]],speaking:[[31,31]]},
+  2:{listening:[[32,32],[33,34],[35,36],[37,37]],reading:[[38,41],[42,45],[46,49]],writing:[[50,50],[51,51]],speaking:[[52,52]]},
+  3:{listening:[[53,53],[54,55],[56,57],[58,58]],reading:[[59,62],[63,66],[67,71]],writing:[[72,72],[73,73]],speaking:[[74,74]]},
+  4:{listening:[[75,76],[77,78],[79,80],[81,81]],reading:[[82,85],[86,89],[90,93]],writing:[[94,94],[95,95]],speaking:[[96,96]]},
+};
+let rendered14=0;
+for(const exam of volume14.tests){
+  const t=Number(exam.id.replace('test-',''));
+  const publisher=context.window.WORDHOP_CAMBRIDGE14_KEYS['14-'+t];
+  assert.equal(publisher.listening.length,40);
+  assert.equal(publisher.reading.length,40);
+  for(const skill of ['listening','reading','writing','speaking']){
+    for(let part=1;part<=pages14[t][skill].length;part++){
+      const container={innerHTML:''};
+      const base='#/ielts/cambridge-ielts/'+volume14.id+'/'+exam.id;
+      component.render({container,route:{volume:volume14,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+      const html=container.innerHTML,pg=pages14[t][skill][part-1];
+      const printRange=pg[0]===pg[1]?String(pg[0]):pg.join('–');
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'),'Same PET exam interface');
+      assert(html.includes(base+'/'+skill+'/part-'+part),'Part navigation uses Cambridge14 book ID');
+      assert(html.includes('Original book page'),'Source placeholder is transparent before media upload');
+      assert(html.includes(printRange),'Original Cambridge14 page mapping '+t+'/'+skill+'/'+part);
+      if(skill==='listening'){
+        assert(html.includes('class="listening-player-card"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,10);
+      }
+      if(skill==='reading'){
+        assert(html.includes('class="reading-answer-sheet"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,[13,13,14][part-1]);
+      }
+      if(skill==='writing'){
+        assert(html.includes('class="writing-editor"'));
+        assert(html.includes('Task prompt'));
+      }
+      rendered14++;
+    }
+  }
+}
+assert.equal(rendered14,40);
+const reverseListening=component.score('14-1','listening',{11:'C',12:'A',13:'E',14:'B'});
+assert(reverseListening[11]&&reverseListening[12]&&reverseListening[13]&&reverseListening[14]);
+const reverseReading=component.score('14-4','reading',{23:'D',24:'B',25:'E',26:'B'});
+assert(reverseReading[23]&&reverseReading[24]&&reverseReading[25]&&reverseReading[26]);
+assert(!component.score('14-4','reading',{23:'B',24:'B'})[24]);
+console.log('PASS: Cambridge IELTS 14 all 40 exam screens, original PDF page groups, 320 answers, unordered pairs and isolated storage.');
+
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
