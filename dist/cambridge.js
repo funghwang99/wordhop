@@ -238,23 +238,31 @@
   function reading(route,base){
     const test=testCode(route),part=Math.min(Math.max(route.part,1),3),pg=pageRange(route,'reading',part);
     const complete=progressCount(test,'reading');
-    return '<section class="reading-view" aria-label="Book reading test"><div class="reading-intro"><div><h2>Reading</h2><p>Read the original book passage, then answer the questions. Your answers are saved on this device.</p></div><span class="reading-completion">'+complete+'/3 passages checked</span></div>'+
+    return '<section class="reading-view cm-cambridge-exam" aria-label="Book reading test"><div class="reading-intro"><div><h2>Reading</h2><p>Read the passage on the left and answer the questions on the right. Both panels scroll independently.</p></div><span class="reading-completion">'+complete+'/3 passages checked</span></div>'+
       partNav(base,test,'reading',part)+
+      '<div class="cm-exam-split" role="group" aria-label="Reading passage and answer sheet">'+
+      '<section class="cm-split-pane cm-question-pane" aria-label="Reading passage" tabindex="0"><div class="cm-pane-label"><strong>Reading passage '+part+'</strong><span>Scroll to read the original pages</span></div>'+
       '<div class="reading-part-heading"><div><h3>Reading Passage '+part+'</h3><p>Questions '+range('reading',part).join('–')+' · Book '+(pg[0]===pg[1]?'page':'pages')+' '+pg.join('–')+'</p></div>'+mediaControls(route,'reading',part)+'</div>'+
-      pageViewer(route,'reading',part)+answerSheet(test,'reading',part)+
-      '<p class="reading-source-note">Original passages, questions and answer key: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>';
+      pageViewer(route,'reading',part)+
+      '<p class="reading-source-note">Original passages, questions and answer key: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>'+
+      '<section class="cm-split-pane cm-response-pane" aria-label="Reading answer sheet" tabindex="0"><div class="cm-pane-label"><strong>Answer sheet</strong><span>Scroll to answer all questions</span></div>'+
+      answerSheet(test,'reading',part)+'</section></div></section>';
   }
   function listening(route,base){
     const test=testCode(route),part=Math.min(Math.max(route.part,1),4),p=pageRange(route,'listening',part);
     const audio=route.exam.audio?.[part-1]?mediaURL(route.exam.audio[part-1]):null,complete=progressCount(test,'listening');
-    return '<section class="listening-view" aria-label="Book listening test"><div class="listening-intro"><div><h2>Listening</h2><p>Listen to the section, answer the book questions, then check the answers. Your answers are saved on this device.</p></div><span class="listening-count">'+complete+'/4 sections checked</span></div>'+
+    return '<section class="listening-view cm-cambridge-exam" aria-label="Book listening test"><div class="listening-intro"><div><h2>Listening</h2><p>Play the recording and read the questions on the left while filling the answer sheet on the right.</p></div><span class="listening-count">'+complete+'/4 sections checked</span></div>'+
       partNav(base,test,'listening',part)+
+      '<div class="cm-exam-split" role="group" aria-label="Listening questions and answer sheet">'+
+      '<section class="cm-split-pane cm-question-pane" aria-label="Listening audio and original questions" tabindex="0"><div class="cm-pane-label"><strong>Listening · Section '+part+'</strong><span>Audio and original questions</span></div>'+
       '<div class="listening-player-card"><div class="listening-player-heading"><div><p class="section-label">'+esc(route.exam.title)+' · Listening</p><h3>Section '+part+'</h3></div><span class="listening-duration">Questions '+range('listening',part).join('–')+'</span></div>'+
       (audio?'<audio id="listening-audio" controls preload="none" src="'+esc(audio)+'" aria-label="Cambridge '+esc(route.exam.title)+' Section '+part+' audio">Audio not supported.</audio><div class="listening-tools"><label for="listening-speed">Playback speed <select id="listening-speed" data-cam-speed><option value="0.75">0.75×</option><option value="1" selected>1× · Normal</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><a class="text-button" href="'+esc(audio)+'" target="_blank" rel="noopener">Open audio file ↗</a></div>':'<p class="notice" role="status">Section '+part+' audio has been provided by the teacher but is not hosted online yet. Audio playback is not available on WordHop for this test.</p>')+'</div>'+
       '<div class="reading-part-heading listening-book-heading"><div><h3>Book questions</h3><p>Questions '+range('listening',part).join('–')+' · Book '+(p[0]===p[1]?'page':'pages')+' '+p.join('–')+'</p></div>'+mediaControls(route,'listening',part)+'</div>'+
-      pageViewer(route,'listening',part)+answerSheet(test,'listening',part)+
-      '<div class="listening-navigation">'+(part>1?nav(link(base,'listening',part-1),'← Previous section','btn',false):'<span></span>')+(part<4?nav(link(base,'listening',part+1),'Next section →','btn',false):'<span></span>')+'</div>'+
-      '<p class="reading-source-note">Original listening questions and answers: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>';
+      pageViewer(route,'listening',part)+
+      '<p class="reading-source-note">Original listening questions and answers: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>'+
+      '<section class="cm-split-pane cm-response-pane" aria-label="Listening answer sheet" tabindex="0"><div class="cm-pane-label"><strong>Answer sheet</strong><span>Questions '+range('listening',part).join('–')+'</span></div>'+
+      answerSheet(test,'listening',part)+
+      '<div class="listening-navigation">'+(part>1?nav(link(base,'listening',part-1),'← Previous section','btn',false):'<span></span>')+(part<4?nav(link(base,'listening',part+1),'Next section →','btn',false):'<span></span>')+'</div></section></div></section>';
   }
   function writing(route,base){
     const test=testCode(route),part=Math.min(Math.max(route.part,1),2);
@@ -263,16 +271,19 @@
     const q=essayTopics[test]?.[part]||'Refer to the original task in the book.';
     const title='Task '+part+' · '+(part===1?'Academic Task 1':'Essay');
     const p=pageRange(route,'writing',part);
-    return '<section class="writing-view reading-view" aria-label="Book writing test"><div class="reading-intro"><div><h2>Writing</h2><p>Read the original task and instructions. '+(student?'Write your answer below. Drafts save on this device.':'Sign in to submit your answer to your teacher.')+'</p></div></div>'+
+    return '<section class="writing-view reading-view cm-cambridge-exam" aria-label="Book writing test"><div class="reading-intro"><div><h2>Writing</h2><p>Keep the original Writing task visible on the left while drafting your answer on the right.</p></div></div>'+
       partNav(base,test,'writing',part)+
-      '<div class="reading-part-heading"><div><h3>'+esc(title)+'</h3><p>Write at least '+(part===1?'150':'250')+' words · Book page '+p[0]+'</p></div><div class="reading-page-actions"><button class="btn" data-cam-action="focus-writing" type="button">Start writing ↓</button></div></div>'+
+      '<div class="cm-exam-split" role="group" aria-label="Writing prompt and editor">'+
+      '<section class="cm-split-pane cm-question-pane" aria-label="Original Writing task" tabindex="0"><div class="cm-pane-label"><strong>Writing · Task '+part+'</strong><span>Original task and visual</span></div>'+
+      '<div class="reading-part-heading"><div><h3>'+esc(title)+'</h3><p>Write at least '+(part===1?'150':'250')+' words · Book page '+p[0]+'</p></div><div class="reading-page-actions"><button class="btn" data-cam-action="focus-writing" type="button">Start writing →</button></div></div>'+
       pageViewer(route,'writing',part)+
-      '<div class="cm-writing-instructions"><strong>Task prompt</strong><p>'+esc(q)+'</p>'+(part===1?'<p class="reading-key-note">Check the original chart, map or diagram in the PDF before writing. This text does not replace the original visual.</p>':'')+'</div>'+
+      '<div class="cm-writing-instructions"><strong>Task prompt</strong><p>'+esc(q)+'</p>'+(part===1?'<p class="reading-key-note">Check the original chart, map or diagram before writing. This text does not replace the visual.</p>':'')+'</div>'+
+      '<p class="reading-source-note">Original Writing tasks: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>'+
+      '<section class="cm-split-pane cm-response-pane" aria-label="Your Writing response" tabindex="0"><div class="cm-pane-label"><strong>Your answer</strong><span>Saved automatically on this device</span></div>'+
       '<section class="writing-editor" aria-label="Writing draft"><div class="writing-editor-heading"><label for="cambridge-writing-draft">Your answer · Writing Task '+part+'</label><span id="writing-word-count">'+wordCount(draft)+' words · Minimum '+(part===1?'150':'250')+'</span></div>'+
       '<textarea id="cambridge-writing-draft" data-cam-draft rows="12" maxlength="25000" spellcheck="true" placeholder="Write your '+(part===1?'Task 1 response':'Task 2 essay')+' here...">'+esc(draft)+'</textarea>'+
-      '<div class="writing-editor-footer"><p id="writing-save-state" role="status" aria-live="polite">Draft saves automatically on this device.</p><button class="text-button" type="button" data-cam-action="prompt">Back to prompt ↑</button></div>'+
-      '<div class="writing-submit"><h3>Send to your teacher</h3><p>'+(student?'Submitting as <strong>'+esc(student.name)+'</strong>.':'Sign in with your WordHop student account to submit your writing.')+'</p><div class="writing-submit-footer">'+(student?'<button class="btn btn-primary" type="button" data-cam-action="submit-writing"'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?' disabled':'')+'>'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?'Submitted':'Submit writing')+'</button>':'<a href="#/student" class="btn btn-primary" data-nav="#/student">Student sign in</a>')+'<p id="writing-submit-status" role="status">'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?'Your teacher has received this answer.':'')+'</p></div></div></section>'+
-      '<p class="reading-source-note">Original Writing tasks: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>';
+      '<div class="writing-editor-footer"><p id="writing-save-state" role="status" aria-live="polite">Draft saves automatically on this device.</p><button class="text-button" type="button" data-cam-action="prompt">Show original task ←</button></div>'+
+      '<div class="writing-submit"><h3>Send to your teacher</h3><p>'+(student?'Submitting as <strong>'+esc(student.name)+'</strong>.':'Sign in with your WordHop student account to submit your writing.')+'</p><div class="writing-submit-footer">'+(student?'<button class="btn btn-primary" type="button" data-cam-action="submit-writing"'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?' disabled':'')+'>'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?'Submitted':'Submit writing')+'</button>':'<a href="#/student" class="btn btn-primary" data-nav="#/student">Student sign in</a>')+'<p id="writing-submit-status" role="status">'+(item.submission?.answer===draft.trim()&&item.submission?.submittedAt?'Your teacher has received this answer.':'')+'</p></div></div></section></section></div></section>';
   }
   function speaking(route){
     const pages=route.exam.pages?.speaking;
