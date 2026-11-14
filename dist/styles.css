@@ -129,3 +129,36 @@
 @media(max-width:550px){.top-nav{flex-wrap:wrap;justify-content:flex-end}.top-nav #student-link{white-space:nowrap}}
 
 .top-nav[hidden]{display:none}
+
+
+/* Larger teaching flashcards: readable on a classroom screen and on phones.
+   Keep the same 3D flip layout; both faces grow naturally for long definitions. */
+.study-area{max-width:860px}
+.flash-face{min-height:540px;padding:36px 44px}
+.flash-front .flash-term{font-size:clamp(42px,4.2vw,54px);line-height:1.2;letter-spacing:-.65px;overflow-wrap:anywhere}
+.flash-front .flash-pos{font-size:18px;line-height:1.5;margin-top:8px;color:#69798f}
+.flash-front .flash-label,.flash-back .flash-label{font-size:13px;letter-spacing:1.35px}
+.flash-front .flip-note{font-size:15px;line-height:1.6;margin-top:24px;color:#718097}
+.flash-back .back-term{font-size:32px;line-height:1.25;margin-bottom:24px;overflow-wrap:anywhere}
+.flash-back .back-term small{font-size:17px}
+.flash-back .flash-definition{font-size:clamp(25px,2.4vw,30px);line-height:1.5;max-width:730px;overflow-wrap:anywhere}
+.flash-back .flash-example{font-size:clamp(19px,1.7vw,22px);line-height:1.65;max-width:730px;margin-top:24px;color:#58677c;overflow-wrap:anywhere}
+@media(max-width:760px){
+ .study-area{max-width:100%}
+ .flash-face{min-height:530px;padding:30px 28px}
+ .flash-front .flash-term{font-size:44px}
+ .flash-back .back-term{font-size:30px}
+ .flash-back .flash-definition{font-size:27px}
+ .flash-back .flash-example{font-size:20px}
+}
+@media(max-width:480px){
+ .flash-face{min-height:525px;padding:26px 20px}
+ .flash-front .flash-term{font-size:38px;line-height:1.22}
+ .flash-front .flash-pos{font-size:16px}
+ .flash-front .flash-label,.flash-back .flash-label{font-size:12px}
+ .flash-front .flip-note{font-size:13px;line-height:1.5}
+ .flash-back .back-term{font-size:27px;line-height:1.25;margin-bottom:19px}
+ .flash-back .back-term small{font-size:15px}
+ .flash-back .flash-definition{font-size:23px;line-height:1.48}
+ .flash-back .flash-example{font-size:18px;line-height:1.55;margin-top:19px}
+}
