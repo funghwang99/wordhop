@@ -214,10 +214,13 @@ assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width
 assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:100%}'),
   'Mobile screens should show full page width');
 for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true]]){
+  // dist/data.js holds source metadata; GitHub Pages attaches mediaRoot during build.
+  // Simulate that deployment here to validate the actual scanned-page branch.
+  const displayBook={...book,mediaRoot:book.mediaRoot||'media/qa-scans'};
   for(const test of book.tests){
     for(const skill of ['listening','reading','writing','speaking']){
       const container={innerHTML:''};
-      component.render({container,route:{volume:book,exam:test,skill,part:1},
+      component.render({container,route:{volume:displayBook,exam:test,skill,part:1},
         header:'<nav class="breadcrumbs">Course</nav>',
         base:'#/ielts/cambridge-ielts/'+book.id+'/'+test.id});
       assert.equal(container.innerHTML.includes('class="reading-page cm-page-closer"'),
