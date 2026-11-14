@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -28,7 +28,11 @@
     '17-1':{listening:[[15,16],[17,18],[19,20]],reading:[[23,24],[25,26]]},
     '17-2':{listening:[[21,22]],reading:[]},
     '17-3':{listening:[[11,12]],reading:[[21,22]]},
-    '17-4':{listening:[[21,22],[23,24]],reading:[[23,24],[25,26]]}
+    '17-4':{listening:[[21,22],[23,24]],reading:[[23,24],[25,26]]},
+    '18-1':{listening:[[14,15],[27,28],[29,30]],reading:[]},
+    '18-2':{listening:[[11,12],[13,14],[25,26]],reading:[]},
+    '18-3':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[]},
+    '18-4':{listening:[[21,22]],reading:[[10,11],[12,13]]}
   };
   const essayTopics={
     5:{
@@ -126,6 +130,22 @@
     '17-4':{
       1:'The graph below shows the number of shops that closed and the number of new shops that opened in one country between 2011 and 2018.',
       2:'Nowadays, a growing number of people with health problems are trying alternative medicines and treatments instead of visiting their usual doctor. Do you think this is a positive or a negative development?'
+    },
+    '18-1':{
+      1:'The graph below gives information about the percentage of the population in four Asian countries living in cities from 1970 to 2020, with predictions for 2030 and 2040.',
+      2:'The most important aim of science should be to improve people’s lives. To what extent do you agree or disagree with this statement?'
+    },
+    '18-2':{
+      1:'The chart below shows the number of households in the USA by their annual income in 2007, 2011 and 2015.',
+      2:'Some university students want to learn about other subjects in addition to their main subjects. Others believe it is more important to give all their time and attention to studying for a qualification. Discuss both these views and give your own opinion.'
+    },
+    '18-3':{
+      1:'The diagram below shows the floor plan of a public library 20 years ago and how it looks now.',
+      2:'In many countries around the world, rural people are moving to cities, so the population in the countryside is decreasing. Do you think this is a positive or a negative development?'
+    },
+    '18-4':{
+      1:'The graph below shows the average monthly changes in the prices of three metals during 2014.',
+      2:'In many countries, people are now living longer than before. Some people say an ageing population creates problems for governments. Other people think there are benefits if society has more elderly people. Do the advantages of having an ageing population outweigh the disadvantages?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -192,7 +212,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -213,6 +233,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-18'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,28]]},
+        2:{listening:[[32,33],[34,35],[36,37],[38,38]],reading:[[39,42],[43,47],[48,51]]},
+        3:{listening:[[55,55],[56,57],[58,59],[60,60]],reading:[[61,64],[65,69],[70,74]]},
+        4:{listening:[[78,78],[79,80],[81,82],[83,83]],reading:[[84,87],[88,91],[92,95]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return [p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-17'){
       const n=Number(route.exam.id.replace('test-',''));
       const perTest={
@@ -298,7 +330,7 @@
   }
   function pageViewer(route,skill,part){
     const [from,to]=pageRange(route,skill,part),root=route.volume.mediaRoot;
-    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15'||route.volume.id==='cambridge-ielts-academic-16'||route.volume.id==='cambridge-ielts-academic-17';
+    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15'||route.volume.id==='cambridge-ielts-academic-16'||route.volume.id==='cambridge-ielts-academic-17'||route.volume.id==='cambridge-ielts-academic-18';
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page'+(closerSource?' cm-page-closer':'')+'" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
