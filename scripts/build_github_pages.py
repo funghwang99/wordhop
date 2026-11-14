@@ -242,6 +242,58 @@ def activate_cambridge14_media(catalog):
 
 
 
+
+def activate_cambridge15_media(catalog):
+    """Publish Cam 15 media only if all four teacher-provided ZIPs match their SHA256 manifests."""
+    root = 'media/cambridge-ielts-academic-15'
+    archives = [ROOT / f'cambridge_15_media_test_{test}.zip' for test in range(1,5)]
+    absent = [archive.name for archive in archives if not archive.exists()]
+    if absent:
+        print('Cambridge IELTS Academic 15 media pending: ' + ', '.join(absent))
+        return
+    printed_ranges = {1:(10,30),2:(31,51),3:(52,73),4:(74,95)}
+    expected = {
+        *(f'{root}/pages/page-{page:03d}.webp' for page in range(10,96)),
+        *(f'{root}/audio/test-{test}-section-{section}.m4a' for test in range(1,5) for section in range(1,5))
+    }
+    seen = set()
+    for test, path in enumerate(archives,1):
+        with zipfile.ZipFile(path) as bundle:
+            bad = bundle.testzip()
+            if bad:
+                raise ValueError('Cambridge IELTS 15 ZIP integrity error: ' + bad)
+            manifest = json.loads(bundle.read('cambridge_media_manifest.json'))
+            lo,hi = printed_ranges[test]
+            subset = {
+                *(f'{root}/pages/page-{n:03d}.webp' for n in range(lo,hi+1)),
+                *(f'{root}/audio/test-{test}-section-{section}.m4a' for section in range(1,5))
+            }
+            files = manifest['paths']
+            if (manifest.get('bundle') != path.name or manifest.get('source') != 'Cambridge IELTS Academic 15'
+                or manifest.get('test') != test or manifest.get('printedPages') != [lo,hi]):
+                raise ValueError('Wrong Cambridge IELTS 15 package identity: ' + path.name)
+            if set(files) != subset or set(bundle.namelist()) != subset | {'cambridge_media_manifest.json'}:
+                raise ValueError('Cambridge IELTS 15 files do not match the test source pages: ' + path.name)
+            for rel, expected_digest in files.items():
+                if rel in seen or rel not in expected:
+                    raise ValueError('Unexpected/duplicated Cambridge IELTS 15 media: ' + rel)
+                payload = bundle.read(rel)
+                if hashlib.sha256(payload).hexdigest() != expected_digest:
+                    raise ValueError('Cambridge IELTS 15 media checksum mismatch: ' + rel)
+                out = OUTPUT / rel
+                out.parent.mkdir(parents=True,exist_ok=True)
+                out.write_bytes(payload)
+                seen.add(rel)
+    if seen != expected:
+        raise ValueError('Cambridge IELTS 15 missing original pages or audio files')
+    volume = next(v for v in catalog['volumes'] if v['id']=='cambridge-ielts-academic-15')
+    volume['mediaRoot'] = root
+    for test in volume['tests']:
+        n = int(test['id'].split('-')[1])
+        test['audio'] = [f'{root}/audio/test-{n}-section-{s}.m4a' for s in range(1,5)]
+    print('Published Cambridge IELTS Academic 15: 86 source pages and 16 audio sections')
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -280,6 +332,7 @@ def build():
     activate_cambridge_media(catalog)
     activate_cambridge13_media(catalog)
     activate_cambridge14_media(catalog)
+    activate_cambridge15_media(catalog)
     activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
@@ -304,7 +357,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[^"\s<>]+', asset + '?v=' + version, index)
         assert count == 1
