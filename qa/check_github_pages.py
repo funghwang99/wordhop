@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 cambridge = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-21')
 media = cambridge.get('mediaRoot')
@@ -76,6 +76,23 @@ else:
     assert cambridge13.get('mediaRoot') is None
     assert all('audio' not in exam for exam in cambridge13['tests'])
     print('Cambridge 13 media bundles not yet all uploaded: source pages and audio are pending.')
+cambridge14 = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-14')
+assert cambridge14['title'] == 'Cambridge IELTS Academic 14'
+assert [e['id'] for e in cambridge14['tests']] == ['test-1','test-2','test-3','test-4']
+archives14 = [ROOT / f'cambridge_14_media_test_{t}.zip' for t in range(1,5)]
+if all(p.is_file() for p in archives14):
+    assert cambridge14['mediaRoot'] == 'media/cambridge-ielts-academic-14'
+    images14 = [f"{cambridge14['mediaRoot']}/pages/page-{n:03d}.webp" for n in range(10,97)]
+    audio14 = [f"{cambridge14['mediaRoot']}/audio/test-{t}-section-{s}.mp3" for t in range(1,5) for s in range(1,5)]
+    assert len(images14) == 87 and len(audio14) == 16
+    assert all((ROOT / '_site' / p).is_file() for p in images14+audio14)
+    assert all(len(exam.get('audio',[]))==4 for exam in cambridge14['tests'])
+    print('PASS: Cambridge IELTS 14 all 87 original pages and 16 MP3 audio sections published.')
+else:
+    assert not cambridge14.get('mediaRoot')
+    assert all(not exam.get('audio') for exam in cambridge14['tests'])
+    print('Cambridge IELTS 14 media awaiting all four ZIP uploads; no broken image/audio links.')
+
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
 for n in (1, 2):
