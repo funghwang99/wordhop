@@ -130,8 +130,11 @@ else:
 cambridge17 = next(v for v in built['volumes'] if v['id']=='cambridge-ielts-academic-17')
 assert cambridge17['title'] == 'Cambridge IELTS Academic 17'
 assert [e['id'] for e in cambridge17['tests']] == ['test-1','test-2','test-3','test-4']
-packages17 = [ROOT / f'cambridge_17_media_test_{t}.zip' for t in range(1,5)]
-if all(p.is_file() for p in packages17):
+packages17 = [ROOT / f'cambridge_17_media_test_{t}.zip' for t in range(1,4)]
+full4 = (ROOT / 'cambridge_17_media_test_4.zip').is_file()
+split4 = all((ROOT / f'cambridge_17_media_test_4_{suffix}.zip').is_file()
+             for suffix in ('pages','audio_1_2','audio_3_4'))
+if all(p.is_file() for p in packages17) and (full4 or split4):
     prefix17 = cambridge17['mediaRoot']
     assert prefix17 == 'media/cambridge-ielts-academic-17'
     image_paths17 = [f'{prefix17}/pages/page-{n:03d}.webp' for n in range(10,96)]
@@ -146,7 +149,7 @@ if all(p.is_file() for p in packages17):
 else:
     assert not cambridge17.get('mediaRoot')
     assert all(not e.get('audio') for e in cambridge17['tests'])
-    print('Cambridge IELTS 17 awaits four complete media ZIPs; source placeholders are shown.')
+    print('Cambridge IELTS 17 awaits Test 1–3 and either the full Test 4 ZIP or three small Test 4 ZIPs.')
 
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
