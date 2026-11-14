@@ -319,6 +319,23 @@ const comma=component.score('17-2','listening',{31:'321000'});
 assert(comma[31],'Numeric comma may be omitted');
 console.log('PASS: Cambridge IELTS 17 40 exam views, 320 answer keys and correct dual-answer scoring.');
 
+// After the teacher supplies 16 recordings, every Test 1–4 Section must link its own MP3.
+const complete17={...volume17,mediaRoot:'media/cambridge-ielts-academic-17'};
+for(const test of volume17.tests){
+  const n=Number(test.id.replace('test-',''));
+  const uploaded={...test,audio:Array.from({length:4},(_,i)=>complete17.mediaRoot+'/audio/test-'+n+'-section-'+(i+1)+'.mp3')};
+  for(let section=1;section<=4;section++){
+    const node={innerHTML:''};
+    const base='#/ielts/cambridge-ielts/'+complete17.id+'/'+test.id;
+    component.render({container:node,route:{volume:complete17,exam:uploaded,skill:'listening',part:section},header:'<nav class="breadcrumbs">Course</nav>',base});
+    const expectedSrc='/wordhop/media/cambridge-ielts-academic-17/audio/test-'+n+'-section-'+section+'.mp3';
+    assert(node.innerHTML.includes('src="'+expectedSrc+'"'),'Listening must use its own provided audio: '+n+'/'+section);
+    assert(!node.innerHTML.includes('Audio playback is not available'),'No missing-audio warning after full upload');
+  }
+}
+console.log('PASS: Cambridge IELTS 17 complete audio manifest maps all 16 Listening sections to the right recordings.');
+
+
 // Cambridge 12, 13 and 14 must all render two independent desktop scroll panes.
 const splitCSS=fs.readFileSync(path.join(root,'cambridge.css'),'utf8');
 assert(splitCSS.includes('.cm-exam-split{display:grid'),'Split layout CSS exists');
