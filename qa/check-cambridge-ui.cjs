@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -336,6 +336,75 @@ for(const test of volume17.tests){
 console.log('PASS: Cambridge IELTS 17 complete audio manifest maps all 16 Listening sections to the right recordings.');
 
 
+// Cambridge IELTS 18 — authentic printed pages, 40 views and Listening/Reading answer keys.
+const volume18=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-18');
+assert(volume18 && volume18.tests.length===4,'Cambridge 18 must include Tests 1–4');
+assert.equal(volume18.title,'Cambridge IELTS Academic 18');
+const pages18={
+  1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,28]],writing:[[29,29],[30,30]],speaking:[[31,31]]},
+  2:{listening:[[32,33],[34,35],[36,37],[38,38]],reading:[[39,42],[43,47],[48,51]],writing:[[52,52],[53,53]],speaking:[[54,54]]},
+  3:{listening:[[55,55],[56,57],[58,59],[60,60]],reading:[[61,64],[65,69],[70,74]],writing:[[75,75],[76,76]],speaking:[[77,77]]},
+  4:{listening:[[78,78],[79,80],[81,82],[83,83]],reading:[[84,87],[88,91],[92,95]],writing:[[96,96],[97,97]],speaking:[[98,98]]}
+};
+let rendered18=0;
+for(const exam of volume18.tests){
+  const n=Number(exam.id.replace('test-',''));
+  const publisher=context.window.WORDHOP_CAMBRIDGE18_KEYS['18-'+n];
+  assert.equal(publisher.listening.length,40,'Original Listening answer key has 40 answers');
+  assert.equal(publisher.reading.length,40,'Original Reading answer key has 40 answers');
+  for(const skill of ['listening','reading','writing','speaking']){
+    for(let part=1;part<=pages18[n][skill].length;part++){
+      const container={innerHTML:''},base='#/ielts/cambridge-ielts/'+volume18.id+'/'+exam.id;
+      component.render({container,route:{volume:volume18,exam,skill,part},
+        header:'<nav class="breadcrumbs">Course</nav>',base});
+      const html=container.innerHTML,p=pages18[n][skill][part-1];
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'));
+      assert(html.includes(base+'/'+skill+'/part-'+part));
+      assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Book page mapping must match source PDF');
+      assert(html.includes('Original book page'),'Media pending state must not show broken images');
+      if(skill==='listening'){
+        assert(html.includes('class="listening-player-card"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,10);
+      }
+      if(skill==='reading'){
+        assert(html.includes('class="reading-answer-sheet"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,[13,13,14][part-1]);
+      }
+      if(skill==='writing')assert(html.includes('class="writing-editor"')&&html.includes('Task prompt'));
+      rendered18++;
+    }
+  }
+}
+assert.equal(rendered18,40,'Cam 18 renders all 40 exam views');
+const score18=component.score;
+for(const [test,skill,answers,positions] of [
+  ['18-1','listening',{14:'E',15:'B',27:'E',28:'B',29:'C',30:'A'},[14,15,27,28,29,30]],
+  ['18-2','listening',{11:'E',12:'B',13:'C',14:'B',25:'B',26:'A'},[11,12,13,14,25,26]],
+  ['18-3','listening',{11:'C',12:'B',13:'D',14:'B',21:'E',22:'A',23:'D',24:'B'},[11,12,13,14,21,22,23,24]],
+  ['18-4','reading',{10:'D',11:'C',12:'D',13:'A'},[10,11,12,13]]
+]){
+  const checked=score18(test,skill,answers);
+  assert(positions.every(i=>checked[i]),'Either-order answer group must grade correctly '+test+'/'+skill);
+}
+assert(score18('18-1','reading',{2:'1000 kg',3:'consumption',7:'flavor'})[2],
+  'Accepted numeric and spelling variants');
+assert(score18('18-2','reading',{1:'deer antlers',2:'posts'})[1],
+  'Optional word in parentheses should be accepted');
+assert(score18('18-3','reading',{25:'50'})[25],'Numeric or written-number alternative is accepted');
+assert(score18('18-4','listening',{38:'harbor'})[38],'US/UK spelling variant is accepted');
+const media18={...volume18,mediaRoot:'media/cambridge-ielts-academic-18'};
+for(const exam of volume18.tests){
+  const n=Number(exam.id.slice(-1));
+  const withAudio={...exam,audio:Array.from({length:4},(_,i)=>media18.mediaRoot+'/audio/test-'+n+'-section-'+(i+1)+'.mp3')};
+  for(let part=1;part<=4;part++){
+    const node={innerHTML:''};
+    component.render({container:node,route:{volume:media18,exam:withAudio,skill:'listening',part},header:'<nav class="breadcrumbs">Course</nav>',base:'#/ielts/cambridge-ielts/'+media18.id+'/'+exam.id});
+    assert(node.innerHTML.includes('src="/wordhop/'+media18.mediaRoot+'/audio/test-'+n+'-section-'+part+'.mp3"'),'Correct recording attached to each section');
+    assert(node.innerHTML.includes('src="/wordhop/'+media18.mediaRoot+'/pages/page-'),'Correct source-page image URL');
+  }
+}
+console.log('PASS: Cambridge IELTS 18 40 exam views, 320 original keys, all 16 audio paths and 89 original source pages.');
+
 // Cambridge 12, 13 and 14 must all render two independent desktop scroll panes.
 const splitCSS=fs.readFileSync(path.join(root,'cambridge.css'),'utf8');
 assert(splitCSS.includes('.cm-exam-split{display:grid'),'Split layout CSS exists');
@@ -345,7 +414,7 @@ assert(splitCSS.includes('scrollbar-gutter:stable'),'Each pane reserves its own 
 assert(splitCSS.includes('@media(max-width:850px)'),'Narrow screens should stack panels');
 assert(splitCSS.includes('--cm-split-height'),'Desktop height should fit available viewport');
 let splitScreens=0;
-for(const book of [volume,volume13,volume14,volume15,volume16,volume17]){
+for(const book of [volume,volume13,volume14,volume15,volume16,volume17,volume18]){
   for(const test of book.tests){
     for(const [skill,numParts] of [['reading',3],['listening',4],['writing',2]]){
       for(let part=1;part<=numParts;part++){
@@ -370,12 +439,12 @@ for(const book of [volume,volume13,volume14,volume15,volume16,volume17]){
     }
   }
 }
-assert.equal(splitScreens,216,'6 Cambridge books × 4 tests × 9 split skill parts');
+assert.equal(splitScreens,252,'7 Cambridge books × 4 tests × 9 split skill parts');
 assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:125%;max-width:none}'),
   'Cambridge 13/14 should start at 125% source-page zoom');
 assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:100%}'),
   'Mobile screens should show full page width');
-for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true],[volume15,true],[volume16,true],[volume17,true]]){
+for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true],[volume15,true],[volume16,true],[volume17,true],[volume18,true]]){
   // dist/data.js holds source metadata; GitHub Pages attaches mediaRoot during build.
   // Simulate that deployment here to validate the actual scanned-page branch.
   const displayBook={...book,mediaRoot:book.mediaRoot||'media/qa-scans'};
@@ -391,8 +460,8 @@ for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true
     }
   }
 }
-console.log('PASS: Cam 13–17 default page zoom 125%, Cambridge 12 remains unchanged; mobile fit is retained.');
+console.log('PASS: Cam 13–18 default page zoom 125%, Cambridge 12 remains unchanged; mobile fit is retained.');
 
-console.log('PASS: 216 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
+console.log('PASS: 252 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
 
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
