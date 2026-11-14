@@ -173,4 +173,42 @@ assert(reverseReading[23]&&reverseReading[24]&&reverseReading[25]&&reverseReadin
 assert(!component.score('14-4','reading',{23:'B',24:'B'})[24]);
 console.log('PASS: Cambridge IELTS 14 all 40 exam screens, original PDF page groups, 320 answers, unordered pairs and isolated storage.');
 
+
+// Cambridge 12, 13 and 14 must all render two independent desktop scroll panes.
+const splitCSS=fs.readFileSync(path.join(root,'cambridge.css'),'utf8');
+assert(splitCSS.includes('.cm-exam-split{display:grid'),'Split layout CSS exists');
+assert(splitCSS.includes('grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr)'),'Original pages and answer sheet have side-by-side columns');
+assert(splitCSS.includes('overflow-y:auto'),'Each pane scrolls vertically');
+assert(splitCSS.includes('scrollbar-gutter:stable'),'Each pane reserves its own scrollbar');
+assert(splitCSS.includes('@media(max-width:850px)'),'Narrow screens should stack panels');
+assert(splitCSS.includes('--cm-split-height'),'Desktop height should fit available viewport');
+let splitScreens=0;
+for(const book of [volume,volume13,volume14]){
+  for(const test of book.tests){
+    for(const [skill,numParts] of [['reading',3],['listening',4],['writing',2]]){
+      for(let part=1;part<=numParts;part++){
+        const container={innerHTML:''};
+        const base='#/ielts/cambridge-ielts/'+book.id+'/'+test.id;
+        component.render({container,route:{volume:book,exam:test,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+        const html=container.innerHTML;
+        const split=html.indexOf('class="cm-exam-split"');
+        const left=html.indexOf('class="cm-split-pane cm-question-pane"',split);
+        const page=html.indexOf('class="reading-page',left);
+        const right=html.indexOf('class="cm-split-pane cm-response-pane"',left);
+        const answers=html.indexOf(skill==='writing'?'class="writing-editor"':'class="reading-answer-sheet"',right);
+        assert(split>=0 && split<left && left<page && page<right && right<answers,
+          'Separate, correctly ordered source and answer panes '+book.title+'/'+test.id+'/'+skill+'/'+part);
+        assert(html.includes('tabindex="0"'),'Scrollable panes must be reachable with keyboard');
+        assert(html.includes('class="cm-pane-label"'),'Both panes need clear labels');
+        if(skill==='listening')assert(html.indexOf('class="listening-player-card"',left)<right,
+          'The audio player stays with the original Listening questions');
+        assert(!html.includes('##/'),'Part URLs must not contain duplicate hashes');
+        splitScreens++;
+      }
+    }
+  }
+}
+assert.equal(splitScreens,108,'3 Cambridge books × 4 tests × 9 split skill parts');
+console.log('PASS: 108 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
+
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
