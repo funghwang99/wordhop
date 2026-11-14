@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -12,7 +12,11 @@
     '13-1':{listening:[],reading:[]},
     '13-2':{listening:[[17,18],[19,20]],reading:[]},
     '13-3':{listening:[[17,18],[19,20]],reading:[]},
-    '13-4':{listening:[[27,28],[29,30]],reading:[]}
+    '13-4':{listening:[[27,28],[29,30]],reading:[]},
+    '14-1':{listening:[[11,12],[13,14]],reading:[[4,5],[19,20],[21,22]]},
+    '14-2':{listening:[],reading:[]},
+    '14-3':{listening:[[11,12],[13,14]],reading:[[21,22]]},
+    '14-4':{listening:[[17,18],[19,20]],reading:[[23,24],[25,26]]}
   };
   const essayTopics={
     5:{
@@ -46,6 +50,22 @@
     '13-4':{
       1:'The plans below show the layout of a university’s sports centre now, and how it will look after redevelopment.',
       2:'In spite of the advances made in agriculture, many people around the world still go hungry. Why is this the case? What can be done about this problem?'
+    },
+    '14-1':{
+      1:'The charts below show the average percentages in typical meals of three types of nutrients, all of which may be unhealthy if eaten too much.',
+      2:'Some people believe that it is best to accept a bad situation, such as an unsatisfactory job or shortage of money. Others argue that it is better to try and improve such situations. Discuss both these views and give your own opinion.'
+    },
+    '14-2':{
+      1:'The chart below shows the value of one country’s exports in various categories during 2015 and 2016. The table shows the percentage change in each category of exports in 2016 compared with 2015.',
+      2:'Some people say that the main environmental problem of our time is the loss of particular species of plants and animals. Others say that there are more important environmental problems. Discuss both these views and give your own opinion.'
+    },
+    '14-3':{
+      1:'The diagram below shows how electricity is generated in a hydroelectric power station.',
+      2:'Some people say that music is a good way of bringing people of different cultures and ages together. To what extent do you agree or disagree with this opinion?'
+    },
+    '14-4':{
+      1:'The plans below show a public park when it first opened in 1920 and the same park today.',
+      2:'Nowadays many people choose to be self-employed, rather than to work for a company or organisation. Why might this be the case? What could be the disadvantages of being self-employed?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -102,7 +122,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -123,6 +143,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-14'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,28]]},
+        2:{listening:[[32,32],[33,34],[35,36],[37,37]],reading:[[38,41],[42,45],[46,49]]},
+        3:{listening:[[53,53],[54,55],[56,57],[58,58]],reading:[[59,62],[63,66],[67,71]]},
+        4:{listening:[[75,76],[77,78],[79,80],[81,81]],reading:[[82,85],[86,89],[90,93]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return [p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-13'){
       const n=Number(route.exam.id.replace('test-',''));
       const begin=10+(n-1)*22;
