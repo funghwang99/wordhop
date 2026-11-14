@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -16,7 +16,11 @@
     '14-1':{listening:[[11,12],[13,14]],reading:[[4,5],[19,20],[21,22]]},
     '14-2':{listening:[],reading:[]},
     '14-3':{listening:[[11,12],[13,14]],reading:[[21,22]]},
-    '14-4':{listening:[[17,18],[19,20]],reading:[[23,24],[25,26]]}
+    '14-4':{listening:[[17,18],[19,20]],reading:[[23,24],[25,26]]},
+    '15-1':{listening:[[29,30]],reading:[[23,24],[25,26]]},
+    '15-2':{listening:[[21,22],[23,24]],reading:[]},
+    '15-3':{listening:[[17,18],[19,20]],reading:[]},
+    '15-4':{listening:[[17,18],[19,20]],reading:[]}
   };
   const essayTopics={
     5:{
@@ -66,6 +70,22 @@
     '14-4':{
       1:'The plans below show a public park when it first opened in 1920 and the same park today.',
       2:'Nowadays many people choose to be self-employed, rather than to work for a company or organisation. Why might this be the case? What could be the disadvantages of being self-employed?'
+    },
+    '15-1':{
+      1:'The chart below shows the results of a survey about people’s coffee and tea buying and drinking habits in five Australian cities.',
+      2:'In some countries, owning a home rather than renting one is very important for people. Why might this be the case? Do you think this is a positive or negative situation?'
+    },
+    '15-2':{
+      1:'The graph below shows the number of tourists visiting a particular Caribbean island between 2010 and 2017.',
+      2:'In the future, nobody will buy printed newspapers or books because they will be able to read everything they want online without paying. To what extent do you agree or disagree with this statement?'
+    },
+    '15-3':{
+      1:'The diagram below shows how instant noodles are manufactured.',
+      2:'Some people say that advertising is extremely successful at persuading us to buy things. Other people think that advertising is so common that we no longer pay attention to it. Discuss both these views and give your own opinion.'
+    },
+    '15-4':{
+      1:'The chart below shows what Anthropology graduates from one university did after finishing their undergraduate degree course. The table shows the salaries of the anthropologists in work after five years.',
+      2:'In some cultures, children are often told that they can achieve anything if they try hard enough. What are the advantages and disadvantages of giving children this message?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -122,7 +142,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -143,6 +163,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-15'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,23],[24,27]]},
+        2:{listening:[[31,31],[32,33],[34,35],[36,36]],reading:[[37,39],[40,43],[44,48]]},
+        3:{listening:[[52,53],[54,55],[56,56],[57,57]],reading:[[58,61],[62,65],[66,70]]},
+        4:{listening:[[74,74],[75,76],[77,78],[79,79]],reading:[[80,83],[84,87],[88,92]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return [p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-14'){
       const n=Number(route.exam.id.replace('test-',''));
       const perTest={
@@ -192,7 +224,7 @@
   }
   function pageViewer(route,skill,part){
     const [from,to]=pageRange(route,skill,part),root=route.volume.mediaRoot;
-    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14';
+    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15';
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page'+(closerSource?' cm-page-closer':'')+'" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
