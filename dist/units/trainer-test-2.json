@@ -1,0 +1,397 @@
+{
+  "id": "trainer-test-2",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "skills": [
+      "Reading"
+    ],
+    "file": "TRAINER(1).pdf",
+    "selection": "B1+–B2 useful vocabulary appearing on original Exam Practice pages; examples and explanations created for learning."
+  },
+  "words": [
+    {
+      "id": "trainer-t2-overnight",
+      "term": "overnight",
+      "pos": "adv.",
+      "definition": "during the night",
+      "definitionVi": "qua đêm",
+      "example": "Heavy snow fell overnight and blocked the road.",
+      "cloze": "Heavy snow fell ________ and blocked the road.",
+      "answer": "overnight",
+      "accepted": [
+        "overnight"
+      ],
+      "illustration": "🌙",
+      "sourcePage": 56,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t2-delay",
+      "term": "delay",
+      "pos": "n.",
+      "definition": "a period of waiting because something is late",
+      "definitionVi": "sự chậm trễ",
+      "example": "The train delay made us miss the meeting.",
+      "cloze": "The train ________ made us miss the meeting.",
+      "answer": "delay",
+      "accepted": [
+        "delay"
+      ],
+      "illustration": "⏳",
+      "sourcePage": 56,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t2-traffic-jam",
+      "term": "traffic jam",
+      "pos": "n. phrase",
+      "definition": "a line of vehicles that cannot move freely",
+      "definitionVi": "tắc đường",
+      "example": "We were stuck in a traffic jam for an hour.",
+      "cloze": "We were stuck in a ________ for an hour.",
+      "answer": "traffic jam",
+      "accepted": [
+        "traffic jam"
+      ],
+      "illustration": "🚗",
+      "sourcePage": 56,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t2-league",
+      "term": "league",
+      "pos": "n.",
+      "definition": "a group of sports teams competing against each other",
+      "definitionVi": "giải đấu; liên đoàn",
+      "example": "Our school team won the local football league.",
+      "cloze": "Our school team won the local football ________.",
+      "answer": "league",
+      "accepted": [
+        "league"
+      ],
+      "illustration": "🏆",
+      "sourcePage": 56,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t2-special-effects",
+      "term": "special effects",
+      "pos": "n. phrase",
+      "definition": "visual or sound tricks used in films",
+      "definitionVi": "kỹ xảo điện ảnh",
+      "example": "The film uses special effects to create huge monsters.",
+      "cloze": "The film uses ________ to create huge monsters.",
+      "answer": "special effects",
+      "accepted": [
+        "special effects"
+      ],
+      "illustration": "🎬",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-interactive",
+      "term": "interactive",
+      "pos": "adj.",
+      "definition": "allowing people to take part and respond",
+      "definitionVi": "có tính tương tác",
+      "example": "The museum has an interactive video exhibition.",
+      "cloze": "The museum has an ________ video exhibition.",
+      "answer": "interactive",
+      "accepted": [
+        "interactive"
+      ],
+      "illustration": "🖥️",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-scenery",
+      "term": "scenery",
+      "pos": "n.",
+      "definition": "background objects or a setting used in a play or film",
+      "definitionVi": "phông cảnh; khung cảnh",
+      "example": "The film studio built realistic scenery for the city scene.",
+      "cloze": "The film studio built realistic ________ for the city scene.",
+      "answer": "scenery",
+      "accepted": [
+        "scenery"
+      ],
+      "illustration": "🏙️",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-costume",
+      "term": "costume",
+      "pos": "n.",
+      "definition": "clothes worn for acting or a special event",
+      "definitionVi": "trang phục biểu diễn",
+      "example": "The actor wore a colourful costume in the film.",
+      "cloze": "The actor wore a colourful ________ in the film.",
+      "answer": "costume",
+      "accepted": [
+        "costume"
+      ],
+      "illustration": "👗",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-realistic",
+      "term": "realistic",
+      "pos": "adj.",
+      "definition": "looking or seeming like real life",
+      "definitionVi": "chân thực",
+      "example": "The studio created a realistic model of a dinosaur.",
+      "cloze": "The studio created a ________ model of a dinosaur.",
+      "answer": "realistic",
+      "accepted": [
+        "realistic"
+      ],
+      "illustration": "🦕",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-souvenir",
+      "term": "souvenir",
+      "pos": "n.",
+      "definition": "an object kept to remember a place or visit",
+      "definitionVi": "đồ lưu niệm",
+      "example": "I bought a souvenir after visiting the film studio.",
+      "cloze": "I bought a ________ after visiting the film studio.",
+      "answer": "souvenir",
+      "accepted": [
+        "souvenir"
+      ],
+      "illustration": "🎁",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-on-screen",
+      "term": "on-screen",
+      "pos": "adj.",
+      "definition": "appearing in a film or on a screen",
+      "definitionVi": "trên màn hình",
+      "example": "Her on-screen character was a friendly monster.",
+      "cloze": "Her ________ character was a friendly monster.",
+      "answer": "on-screen",
+      "accepted": [
+        "on-screen"
+      ],
+      "illustration": "📺",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-surrounding",
+      "term": "surrounding",
+      "pos": "adj.",
+      "definition": "near or around a particular place",
+      "definitionVi": "xung quanh; lân cận",
+      "example": "We explored the surrounding area after the tour.",
+      "cloze": "We explored the ________ area after the tour.",
+      "answer": "surrounding",
+      "accepted": [
+        "surrounding"
+      ],
+      "illustration": "🗺️",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-accompany",
+      "term": "accompany",
+      "pos": "v.",
+      "definition": "to go somewhere with another person",
+      "definitionVi": "đi cùng; tháp tùng",
+      "example": "A guide will accompany visitors around the studios.",
+      "cloze": "A guide will ________ visitors around the studios.",
+      "answer": "accompany",
+      "accepted": [
+        "accompany"
+      ],
+      "illustration": "👥",
+      "sourcePage": 59,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-science-fiction",
+      "term": "science fiction",
+      "pos": "n. phrase",
+      "definition": "stories about imagined future science or technology",
+      "definitionVi": "khoa học viễn tưởng",
+      "example": "My brother loves science fiction films about space.",
+      "cloze": "My brother loves ________ films about space.",
+      "answer": "science fiction",
+      "accepted": [
+        "science fiction"
+      ],
+      "illustration": "🚀",
+      "sourcePage": 59,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-filming-technique",
+      "term": "filming technique",
+      "pos": "n. phrase",
+      "definition": "a method used to record or create a film",
+      "definitionVi": "kỹ thuật quay phim",
+      "example": "The documentary explains a clever filming technique.",
+      "cloze": "The documentary explains a clever ________.",
+      "answer": "filming technique",
+      "accepted": [
+        "filming technique"
+      ],
+      "illustration": "🎥",
+      "sourcePage": 60,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t2-challenging",
+      "term": "challenging",
+      "pos": "adj.",
+      "definition": "difficult in an interesting or demanding way",
+      "definitionVi": "đầy thử thách",
+      "example": "The climbing course was challenging but enjoyable.",
+      "cloze": "The climbing course was ________ but enjoyable.",
+      "answer": "challenging",
+      "accepted": [
+        "challenging"
+      ],
+      "illustration": "🧗",
+      "sourcePage": 63,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-instructor",
+      "term": "instructor",
+      "pos": "n.",
+      "definition": "a person who teaches a practical skill",
+      "definitionVi": "người hướng dẫn",
+      "example": "Our instructor explained how to use the equipment.",
+      "cloze": "Our ________ explained how to use the equipment.",
+      "answer": "instructor",
+      "accepted": [
+        "instructor"
+      ],
+      "illustration": "👨‍🏫",
+      "sourcePage": 63,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-sign-up",
+      "term": "sign up",
+      "pos": "phr. v.",
+      "definition": "to register to take part in an activity",
+      "definitionVi": "đăng ký tham gia",
+      "example": "She decided to sign up for the coasteering course.",
+      "cloze": "She decided to ________ for the coasteering course.",
+      "answer": "sign up",
+      "accepted": [
+        "sign up"
+      ],
+      "illustration": "✍️",
+      "sourcePage": 63,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-explore",
+      "term": "explore",
+      "pos": "v.",
+      "definition": "to travel around a place to learn about it",
+      "definitionVi": "khám phá",
+      "example": "We hope to explore the caves along the coast.",
+      "cloze": "We hope to ________ the caves along the coast.",
+      "answer": "explore",
+      "accepted": [
+        "explore"
+      ],
+      "illustration": "🧭",
+      "sourcePage": 63,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-cave",
+      "term": "cave",
+      "pos": "n.",
+      "definition": "a large natural hole in a hill or rock",
+      "definitionVi": "hang động",
+      "example": "The group entered a cave near the beach.",
+      "cloze": "The group entered a ________ near the beach.",
+      "answer": "cave",
+      "accepted": [
+        "cave"
+      ],
+      "illustration": "🪨",
+      "sourcePage": 63,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-helmet",
+      "term": "helmet",
+      "pos": "n.",
+      "definition": "a hard hat that protects your head",
+      "definitionVi": "mũ bảo hiểm",
+      "example": "You must wear a helmet when climbing the rocks.",
+      "cloze": "You must wear a ________ when climbing the rocks.",
+      "answer": "helmet",
+      "accepted": [
+        "helmet"
+      ],
+      "illustration": "⛑️",
+      "sourcePage": 64,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-wetsuit",
+      "term": "wetsuit",
+      "pos": "n.",
+      "definition": "a tight suit worn in cold water",
+      "definitionVi": "đồ bơi giữ nhiệt",
+      "example": "He borrowed a wetsuit before entering the sea.",
+      "cloze": "He borrowed a ________ before entering the sea.",
+      "answer": "wetsuit",
+      "accepted": [
+        "wetsuit"
+      ],
+      "illustration": "🤿",
+      "sourcePage": 64,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-encourage",
+      "term": "encourage",
+      "pos": "v.",
+      "definition": "to give someone confidence or support",
+      "definitionVi": "động viên; khích lệ",
+      "example": "The instructor tried to encourage nervous beginners.",
+      "cloze": "The instructor tried to ________ nervous beginners.",
+      "answer": "encourage",
+      "accepted": [
+        "encourage"
+      ],
+      "illustration": "👏",
+      "sourcePage": 64,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t2-cliff",
+      "term": "cliff",
+      "pos": "n.",
+      "definition": "a high, steep face of rock",
+      "definitionVi": "vách đá",
+      "example": "They stood safely at the top of the cliff.",
+      "cloze": "They stood safely at the top of the ________.",
+      "answer": "cliff",
+      "accepted": [
+        "cliff"
+      ],
+      "illustration": "⛰️",
+      "sourcePage": 64,
+      "sourcePart": 3
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "id": "trainer-test-1",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "skills": [
+      "Reading"
+    ],
+    "file": "TRAINER(1).pdf",
+    "selection": "B1+–B2 useful vocabulary appearing on original Exam Practice pages; examples and explanations created for learning."
+  },
+  "words": [
+    {
+      "id": "trainer-t1-in-advance",
+      "term": "in advance",
+      "pos": "adv. phrase",
+      "definition": "before a particular time or event",
+      "definitionVi": "trước; trước thời hạn",
+      "example": "Please book your tickets in advance to avoid disappointment.",
+      "cloze": "Please book your tickets ________ to avoid disappointment.",
+      "answer": "in advance",
+      "accepted": [
+        "in advance"
+      ],
+      "illustration": "📅",
+      "sourcePage": 15,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t1-borrow",
+      "term": "borrow",
+      "pos": "v.",
+      "definition": "to take something for a time and return it later",
+      "definitionVi": "mượn",
+      "example": "You can borrow a novel from the school library.",
+      "cloze": "You can ________ a novel from the school library.",
+      "answer": "borrow",
+      "accepted": [
+        "borrow"
+      ],
+      "illustration": "📚",
+      "sourcePage": 14,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t1-belong-to",
+      "term": "belong to",
+      "pos": "phr. v.",
+      "definition": "to be owned by a particular person",
+      "definitionVi": "thuộc về; là của",
+      "example": "Does this jacket belong to anyone in our class?",
+      "cloze": "Does this jacket ________ anyone in our class?",
+      "answer": "belong to",
+      "accepted": [
+        "belong to"
+      ],
+      "illustration": "🧥",
+      "sourcePage": 14,
+      "sourcePart": 1
+    },
+    {
+      "id": "trainer-t1-artwork",
+      "term": "artwork",
+      "pos": "n.",
+      "definition": "paintings, drawings or other artistic creations",
+      "definitionVi": "tác phẩm nghệ thuật",
+      "example": "She included her best artwork in her application.",
+      "cloze": "She included her best ________ in her application.",
+      "answer": "artwork",
+      "accepted": [
+        "artwork"
+      ],
+      "illustration": "🎨",
+      "sourcePage": 17,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-application",
+      "term": "application",
+      "pos": "n.",
+      "definition": "a formal request to join or enter something",
+      "definitionVi": "đơn đăng ký; hồ sơ ứng tuyển",
+      "example": "He completed his college application before Friday.",
+      "cloze": "He completed his college ________ before Friday.",
+      "answer": "application",
+      "accepted": [
+        "application"
+      ],
+      "illustration": "📝",
+      "sourcePage": 17,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-publish",
+      "term": "publish",
+      "pos": "v.",
+      "definition": "to make a book or writing available to the public",
+      "definitionVi": "xuất bản",
+      "example": "She hopes to publish her illustrated stories next year.",
+      "cloze": "She hopes to ________ her illustrated stories next year.",
+      "answer": "publish",
+      "accepted": [
+        "publish"
+      ],
+      "illustration": "📖",
+      "sourcePage": 17,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-technique",
+      "term": "technique",
+      "pos": "n.",
+      "definition": "a particular method of doing something",
+      "definitionVi": "kỹ thuật; phương pháp",
+      "example": "The art teacher showed us a new printing technique.",
+      "cloze": "The art teacher showed us a new printing ________.",
+      "answer": "technique",
+      "accepted": [
+        "technique"
+      ],
+      "illustration": "🖌️",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-portrait",
+      "term": "portrait",
+      "pos": "n.",
+      "definition": "a picture or photograph of a person",
+      "definitionVi": "tranh chân dung",
+      "example": "He painted a portrait of his grandfather.",
+      "cloze": "He painted a ________ of his grandfather.",
+      "answer": "portrait",
+      "accepted": [
+        "portrait"
+      ],
+      "illustration": "🖼️",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-one-to-one",
+      "term": "one-to-one",
+      "pos": "adj.",
+      "definition": "involving one teacher and one learner",
+      "definitionVi": "một kèm một",
+      "example": "She prefers one-to-one lessons when learning to draw.",
+      "cloze": "She prefers ________ lessons when learning to draw.",
+      "answer": "one-to-one",
+      "accepted": [
+        "one-to-one"
+      ],
+      "illustration": "👩‍🏫",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-professional-looking",
+      "term": "professional-looking",
+      "pos": "adj.",
+      "definition": "appearing to be made by an expert",
+      "definitionVi": "trông chuyên nghiệp",
+      "example": "His professional-looking poster impressed the class.",
+      "cloze": "His ________ poster impressed the class.",
+      "answer": "professional-looking",
+      "accepted": [
+        "professional-looking"
+      ],
+      "illustration": "✨",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-software",
+      "term": "software",
+      "pos": "n.",
+      "definition": "programs used by computers",
+      "definitionVi": "phần mềm",
+      "example": "The designer uses special software to create posters.",
+      "cloze": "The designer uses special ________ to create posters.",
+      "answer": "software",
+      "accepted": [
+        "software"
+      ],
+      "illustration": "💻",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-landscape",
+      "term": "landscape",
+      "pos": "n.",
+      "definition": "a view of natural scenery or a picture of it",
+      "definitionVi": "phong cảnh",
+      "example": "We painted a landscape with hills and rivers.",
+      "cloze": "We painted a ________ with hills and rivers.",
+      "answer": "landscape",
+      "accepted": [
+        "landscape"
+      ],
+      "illustration": "🏞️",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-experiment-with",
+      "term": "experiment with",
+      "pos": "phr. v.",
+      "definition": "to try different ideas or methods to see what works",
+      "definitionVi": "thử nghiệm với",
+      "example": "Students can experiment with different painting styles.",
+      "cloze": "Students can ________ different painting styles.",
+      "answer": "experiment with",
+      "accepted": [
+        "experiment with"
+      ],
+      "illustration": "🧪",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-transfer",
+      "term": "transfer",
+      "pos": "v.",
+      "definition": "to move something from one place or surface to another",
+      "definitionVi": "chuyển; in chuyển lên",
+      "example": "You can transfer the design onto cotton fabric.",
+      "cloze": "You can ________ the design onto cotton fabric.",
+      "answer": "transfer",
+      "accepted": [
+        "transfer"
+      ],
+      "illustration": "➡️",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-exchange-ideas",
+      "term": "exchange ideas",
+      "pos": "phrase",
+      "definition": "to share suggestions and opinions with others",
+      "definitionVi": "trao đổi ý tưởng",
+      "example": "The students meet online to exchange ideas about art.",
+      "cloze": "The students meet online to ________ about art.",
+      "answer": "exchange ideas",
+      "accepted": [
+        "exchange ideas"
+      ],
+      "illustration": "💬",
+      "sourcePage": 18,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t1-sightseeing",
+      "term": "sightseeing",
+      "pos": "n.",
+      "definition": "visiting interesting places while travelling",
+      "definitionVi": "tham quan, ngắm cảnh",
+      "example": "We spent our first day sightseeing along the coast.",
+      "cloze": "We spent our first day ________ along the coast.",
+      "answer": "sightseeing",
+      "accepted": [
+        "sightseeing"
+      ],
+      "illustration": "📸",
+      "sourcePage": 21,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-intend",
+      "term": "intend",
+      "pos": "v.",
+      "definition": "to plan or mean to do something",
+      "definitionVi": "dự định",
+      "example": "We intend to travel by bus instead of driving.",
+      "cloze": "We ________ to travel by bus instead of driving.",
+      "answer": "intend",
+      "accepted": [
+        "intend"
+      ],
+      "illustration": "🗓️",
+      "sourcePage": 21,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-exhausted",
+      "term": "exhausted",
+      "pos": "adj.",
+      "definition": "extremely tired",
+      "definitionVi": "kiệt sức",
+      "example": "After the long walk, everyone felt exhausted.",
+      "cloze": "After the long walk, everyone felt ________.",
+      "answer": "exhausted",
+      "accepted": [
+        "exhausted"
+      ],
+      "illustration": "😮‍💨",
+      "sourcePage": 21,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-sharp-bend",
+      "term": "sharp bend",
+      "pos": "n. phrase",
+      "definition": "a sudden curve in a road",
+      "definitionVi": "khúc cua gấp",
+      "example": "Drivers must slow down before a sharp bend.",
+      "cloze": "Drivers must slow down before a ________.",
+      "answer": "sharp bend",
+      "accepted": [
+        "sharp bend"
+      ],
+      "illustration": "↪️",
+      "sourcePage": 21,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-persuade",
+      "term": "persuade",
+      "pos": "v.",
+      "definition": "to make someone agree to do something",
+      "definitionVi": "thuyết phục",
+      "example": "They tried to persuade Dad to join the guided tour.",
+      "cloze": "They tried to ________ Dad to join the guided tour.",
+      "answer": "persuade",
+      "accepted": [
+        "persuade"
+      ],
+      "illustration": "🗣️",
+      "sourcePage": 21,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-discount",
+      "term": "discount",
+      "pos": "n.",
+      "definition": "a reduction in the usual price",
+      "definitionVi": "mức giảm giá",
+      "example": "Students receive a discount on bus tickets.",
+      "cloze": "Students receive a ________ on bus tickets.",
+      "answer": "discount",
+      "accepted": [
+        "discount"
+      ],
+      "illustration": "🏷️",
+      "sourcePage": 21,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-roughly",
+      "term": "roughly",
+      "pos": "adv.",
+      "definition": "approximately; not exactly",
+      "definitionVi": "xấp xỉ; khoảng",
+      "example": "The journey takes roughly two hours.",
+      "cloze": "The journey takes ________ two hours.",
+      "answer": "roughly",
+      "accepted": [
+        "roughly"
+      ],
+      "illustration": "🔢",
+      "sourcePage": 22,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-luxury",
+      "term": "luxury",
+      "pos": "adj.",
+      "definition": "very comfortable and expensive",
+      "definitionVi": "sang trọng; cao cấp",
+      "example": "They stayed in a luxury tent near the beach.",
+      "cloze": "They stayed in a ________ tent near the beach.",
+      "answer": "luxury",
+      "accepted": [
+        "luxury"
+      ],
+      "illustration": "⛺",
+      "sourcePage": 22,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t1-embarrassed",
+      "term": "embarrassed",
+      "pos": "adj.",
+      "definition": "feeling uncomfortable or ashamed about something",
+      "definitionVi": "ngượng ngùng; xấu hổ",
+      "example": "I felt embarrassed when I realised my mistake.",
+      "cloze": "I felt ________ when I realised my mistake.",
+      "answer": "embarrassed",
+      "accepted": [
+        "embarrassed"
+      ],
+      "illustration": "😳",
+      "sourcePage": 22,
+      "sourcePart": 3
+    }
+  ]
+}

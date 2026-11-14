@@ -1,0 +1,397 @@
+{
+  "id": "trainer-test-4",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "skills": [
+      "Reading"
+    ],
+    "file": "TRAINER(1).pdf",
+    "selection": "B1+–B2 useful vocabulary appearing on original Exam Practice pages; examples and explanations created for learning."
+  },
+  "words": [
+    {
+      "id": "trainer-t4-geographical",
+      "term": "geographical",
+      "pos": "adj.",
+      "definition": "connected with the physical features of the Earth",
+      "definitionVi": "thuộc về địa lý",
+      "example": "The website explains geographical features of Europe.",
+      "cloze": "The website explains ________ features of Europe.",
+      "answer": "geographical",
+      "accepted": [
+        "geographical"
+      ],
+      "illustration": "🌍",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-destination",
+      "term": "destination",
+      "pos": "n.",
+      "definition": "a place that someone travels to",
+      "definitionVi": "điểm đến",
+      "example": "Sweden was our chosen holiday destination.",
+      "cloze": "Sweden was our chosen holiday ________.",
+      "answer": "destination",
+      "accepted": [
+        "destination"
+      ],
+      "illustration": "📍",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-adapt",
+      "term": "adapt",
+      "pos": "v.",
+      "definition": "to change how you act to suit new conditions",
+      "definitionVi": "thích nghi",
+      "example": "People adapt to extremely cold climates in different ways.",
+      "cloze": "People ________ to extremely cold climates in different ways.",
+      "answer": "adapt",
+      "accepted": [
+        "adapt"
+      ],
+      "illustration": "🧥",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-climate",
+      "term": "climate",
+      "pos": "n.",
+      "definition": "the usual weather conditions in an area",
+      "definitionVi": "khí hậu",
+      "example": "The climate in northern Sweden is cold in winter.",
+      "cloze": "The ________ in northern Sweden is cold in winter.",
+      "answer": "climate",
+      "accepted": [
+        "climate"
+      ],
+      "illustration": "❄️",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-extreme",
+      "term": "extreme",
+      "pos": "adj.",
+      "definition": "very great or unusual in degree",
+      "definitionVi": "khắc nghiệt; cực độ",
+      "example": "They learned how people survive extreme temperatures.",
+      "cloze": "They learned how people survive ________ temperatures.",
+      "answer": "extreme",
+      "accepted": [
+        "extreme"
+      ],
+      "illustration": "🌡️",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-peak",
+      "term": "peak",
+      "pos": "n.",
+      "definition": "the pointed top of a mountain",
+      "definitionVi": "đỉnh núi",
+      "example": "Snow covered the highest mountain peak.",
+      "cloze": "Snow covered the highest mountain ________.",
+      "answer": "peak",
+      "accepted": [
+        "peak"
+      ],
+      "illustration": "🏔️",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-surrounding",
+      "term": "surrounding",
+      "pos": "adj.",
+      "definition": "near and around a particular place",
+      "definitionVi": "xung quanh; lân cận",
+      "example": "We watched birds in the surrounding forest.",
+      "cloze": "We watched birds in the ________ forest.",
+      "answer": "surrounding",
+      "accepted": [
+        "surrounding"
+      ],
+      "illustration": "🌲",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-continent",
+      "term": "continent",
+      "pos": "n.",
+      "definition": "one of the largest land areas of the Earth",
+      "definitionVi": "châu lục",
+      "example": "Africa is a continent with many different climates.",
+      "cloze": "Africa is a ________ with many different climates.",
+      "answer": "continent",
+      "accepted": [
+        "continent"
+      ],
+      "illustration": "🗺️",
+      "sourcePage": 117,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t4-cross-country-skiing",
+      "term": "cross-country skiing",
+      "pos": "n. phrase",
+      "definition": "skiing across open land rather than down steep slopes",
+      "definitionVi": "môn trượt tuyết băng đồng",
+      "example": "We tried cross-country skiing during our holiday.",
+      "cloze": "We tried ________ during our holiday.",
+      "answer": "cross-country skiing",
+      "accepted": [
+        "cross-country skiing"
+      ],
+      "illustration": "🎿",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-steep",
+      "term": "steep",
+      "pos": "adj.",
+      "definition": "rising or falling sharply",
+      "definitionVi": "dốc đứng",
+      "example": "The mountain path was too steep for beginners.",
+      "cloze": "The mountain path was too ________ for beginners.",
+      "answer": "steep",
+      "accepted": [
+        "steep"
+      ],
+      "illustration": "⛰️",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-sign-up",
+      "term": "sign up",
+      "pos": "phr. v.",
+      "definition": "to register to take part in an activity",
+      "definitionVi": "đăng ký tham gia",
+      "example": "My mum and I decided to sign up for the trip.",
+      "cloze": "My mum and I decided to ________ for the trip.",
+      "answer": "sign up",
+      "accepted": [
+        "sign up"
+      ],
+      "illustration": "✍️",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-relaxing",
+      "term": "relaxing",
+      "pos": "adj.",
+      "definition": "making you feel calm and rested",
+      "definitionVi": "thư giãn",
+      "example": "Staying away from the internet was surprisingly relaxing.",
+      "cloze": "Staying away from the internet was surprisingly ________.",
+      "answer": "relaxing",
+      "accepted": [
+        "relaxing"
+      ],
+      "illustration": "😌",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-forecast",
+      "term": "forecast",
+      "pos": "n.",
+      "definition": "a report of what the weather will be like",
+      "definitionVi": "dự báo thời tiết",
+      "example": "The forecast said we would have sunshine all week.",
+      "cloze": "The ________ said we would have sunshine all week.",
+      "answer": "forecast",
+      "accepted": [
+        "forecast"
+      ],
+      "illustration": "☀️",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-delighted",
+      "term": "delighted",
+      "pos": "adj.",
+      "definition": "very pleased and happy",
+      "definitionVi": "rất vui mừng",
+      "example": "I was delighted to see the Northern Lights.",
+      "cloze": "I was ________ to see the Northern Lights.",
+      "answer": "delighted",
+      "accepted": [
+        "delighted"
+      ],
+      "illustration": "😊",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-rucksack",
+      "term": "rucksack",
+      "pos": "n.",
+      "definition": "a large bag carried on the back",
+      "definitionVi": "ba lô leo núi",
+      "example": "My heavy rucksack was full of warm clothes.",
+      "cloze": "My heavy ________ was full of warm clothes.",
+      "answer": "rucksack",
+      "accepted": [
+        "rucksack"
+      ],
+      "illustration": "🎒",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-frozen",
+      "term": "frozen",
+      "pos": "adj.",
+      "definition": "covered in ice or changed into ice",
+      "definitionVi": "đóng băng",
+      "example": "We crossed a frozen lake on our skis.",
+      "cloze": "We crossed a ________ lake on our skis.",
+      "answer": "frozen",
+      "accepted": [
+        "frozen"
+      ],
+      "illustration": "🧊",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-exhausted",
+      "term": "exhausted",
+      "pos": "adj.",
+      "definition": "extremely tired",
+      "definitionVi": "kiệt sức",
+      "example": "After skiing for hours, we were exhausted.",
+      "cloze": "After skiing for hours, we were ________.",
+      "answer": "exhausted",
+      "accepted": [
+        "exhausted"
+      ],
+      "illustration": "😮‍💨",
+      "sourcePage": 118,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t4-professional",
+      "term": "professional",
+      "pos": "adj.",
+      "definition": "relating to a paid job requiring special skills",
+      "definitionVi": "chuyên nghiệp",
+      "example": "He became a professional piano builder.",
+      "cloze": "He became a ________ piano builder.",
+      "answer": "professional",
+      "accepted": [
+        "professional"
+      ],
+      "illustration": "👨‍🔧",
+      "sourcePage": 120,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t4-wire",
+      "term": "wire",
+      "pos": "n.",
+      "definition": "a thin piece of metal used in equipment",
+      "definitionVi": "dây kim loại",
+      "example": "The piano makes a sound when its wire is struck.",
+      "cloze": "The piano makes a sound when its ________ is struck.",
+      "answer": "wire",
+      "accepted": [
+        "wire"
+      ],
+      "illustration": "🎹",
+      "sourcePage": 120,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t4-transfer",
+      "term": "transfer",
+      "pos": "v.",
+      "definition": "to move something from one place to another",
+      "definitionVi": "chuyển đi; di chuyển",
+      "example": "They needed help to transfer the giant piano.",
+      "cloze": "They needed help to ________ the giant piano.",
+      "answer": "transfer",
+      "accepted": [
+        "transfer"
+      ],
+      "illustration": "🚚",
+      "sourcePage": 120,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t4-brilliantly",
+      "term": "brilliantly",
+      "pos": "adv.",
+      "definition": "extremely well",
+      "definitionVi": "một cách xuất sắc",
+      "example": "The unusual instrument still performs brilliantly.",
+      "cloze": "The unusual instrument still performs ________.",
+      "answer": "brilliantly",
+      "accepted": [
+        "brilliantly"
+      ],
+      "illustration": "✨",
+      "sourcePage": 120,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t4-complicated",
+      "term": "complicated",
+      "pos": "adj.",
+      "definition": "difficult because there are many connected parts",
+      "definitionVi": "phức tạp",
+      "example": "The raven solved a complicated problem to find food.",
+      "cloze": "The raven solved a ________ problem to find food.",
+      "answer": "complicated",
+      "accepted": [
+        "complicated"
+      ],
+      "illustration": "🧠",
+      "sourcePage": 122,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t4-carry-out",
+      "term": "carry out",
+      "pos": "phr. v.",
+      "definition": "to do a task, plan or experiment",
+      "definitionVi": "thực hiện; tiến hành",
+      "example": "Scientists carry out experiments with clever birds.",
+      "cloze": "Scientists ________ experiments with clever birds.",
+      "answer": "carry out",
+      "accepted": [
+        "carry out"
+      ],
+      "illustration": "🔬",
+      "sourcePage": 122,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t4-experiment",
+      "term": "experiment",
+      "pos": "n.",
+      "definition": "a scientific test to discover or prove something",
+      "definitionVi": "thí nghiệm",
+      "example": "The birds learned a new skill during the experiment.",
+      "cloze": "The birds learned a new skill during the ________.",
+      "answer": "experiment",
+      "accepted": [
+        "experiment"
+      ],
+      "illustration": "🧪",
+      "sourcePage": 122,
+      "sourcePart": 5
+    }
+  ]
+}

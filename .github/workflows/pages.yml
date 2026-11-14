@@ -34,6 +34,8 @@ jobs:
         run: node qa/check-trainer-parity.cjs
       - name: Check Trainer audio mapping
         run: node qa/check-trainer-audio.cjs
+      - name: Check Trainer vocabulary flashcards and practice
+        run: node qa/check-trainer-vocabulary.cjs
       - name: Build static site
         run: python3 -B scripts/build_github_pages.py
       - name: Check project paths and content

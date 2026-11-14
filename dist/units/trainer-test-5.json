@@ -1,0 +1,397 @@
+{
+  "id": "trainer-test-5",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "skills": [
+      "Reading"
+    ],
+    "file": "TRAINER(1).pdf",
+    "selection": "B1+–B2 useful vocabulary appearing on original Exam Practice pages; examples and explanations created for learning."
+  },
+  "words": [
+    {
+      "id": "trainer-t5-distance-swimming",
+      "term": "distance swimming",
+      "pos": "n. phrase",
+      "definition": "swimming over a long distance",
+      "definitionVi": "bơi đường dài",
+      "example": "Distance swimming requires strong skills and good fitness.",
+      "cloze": "________ requires strong skills and good fitness.",
+      "answer": "distance swimming",
+      "accepted": [
+        "distance swimming"
+      ],
+      "illustration": "🏊",
+      "sourcePage": 134,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t5-sunbathing",
+      "term": "sunbathing",
+      "pos": "n.",
+      "definition": "sitting or lying in the sun",
+      "definitionVi": "tắm nắng",
+      "example": "We spent a relaxing afternoon sunbathing by the sea.",
+      "cloze": "We spent a relaxing afternoon ________ by the sea.",
+      "answer": "sunbathing",
+      "accepted": [
+        "sunbathing"
+      ],
+      "illustration": "☀️",
+      "sourcePage": 134,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t5-sculpture",
+      "term": "sculpture",
+      "pos": "n.",
+      "definition": "a work of art made by shaping a material",
+      "definitionVi": "tác phẩm điêu khắc",
+      "example": "The beach artists built an animal sculpture from sand.",
+      "cloze": "The beach artists built an animal ________ from sand.",
+      "answer": "sculpture",
+      "accepted": [
+        "sculpture"
+      ],
+      "illustration": "🏖️",
+      "sourcePage": 135,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t5-coastal",
+      "term": "coastal",
+      "pos": "adj.",
+      "definition": "relating to land near the sea",
+      "definitionVi": "thuộc vùng ven biển",
+      "example": "The coastal path offers beautiful ocean views.",
+      "cloze": "The ________ path offers beautiful ocean views.",
+      "answer": "coastal",
+      "accepted": [
+        "coastal"
+      ],
+      "illustration": "🌊",
+      "sourcePage": 135,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t5-gentle-waves",
+      "term": "gentle waves",
+      "pos": "n. phrase",
+      "definition": "small, soft movements of the sea",
+      "definitionVi": "sóng nhẹ",
+      "example": "Children can swim safely in the gentle waves.",
+      "cloze": "Children can swim safely in the ________.",
+      "answer": "gentle waves",
+      "accepted": [
+        "gentle waves"
+      ],
+      "illustration": "🌊",
+      "sourcePage": 135,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t5-skilfully",
+      "term": "skilfully",
+      "pos": "adv.",
+      "definition": "in a way that shows great skill",
+      "definitionVi": "một cách khéo léo, thành thạo",
+      "example": "The artist skilfully shaped a sculpture from sand.",
+      "cloze": "The artist ________ shaped a sculpture from sand.",
+      "answer": "skilfully",
+      "accepted": [
+        "skilfully"
+      ],
+      "illustration": "🎨",
+      "sourcePage": 135,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t5-take-on",
+      "term": "take on",
+      "pos": "phr. v.",
+      "definition": "to accept responsibility for a job or task",
+      "definitionVi": "đảm nhận",
+      "example": "Students were excited to take on newspaper tasks.",
+      "cloze": "Students were excited to ________ newspaper tasks.",
+      "answer": "take on",
+      "accepted": [
+        "take on"
+      ],
+      "illustration": "📝",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-achievement",
+      "term": "achievement",
+      "pos": "n.",
+      "definition": "something successfully completed through effort",
+      "definitionVi": "thành tích; thành tựu",
+      "example": "The newspaper reported students' sporting achievements.",
+      "cloze": "The newspaper reported students' sporting ________s.",
+      "answer": "achievement",
+      "accepted": [
+        "achievement"
+      ],
+      "illustration": "🏆",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-journalist",
+      "term": "journalist",
+      "pos": "n.",
+      "definition": "a person who writes news for newspapers or websites",
+      "definitionVi": "nhà báo",
+      "example": "My dad works as a journalist for a local newspaper.",
+      "cloze": "My dad works as a ________ for a local newspaper.",
+      "answer": "journalist",
+      "accepted": [
+        "journalist"
+      ],
+      "illustration": "📰",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-opportunity",
+      "term": "opportunity",
+      "pos": "n.",
+      "definition": "a chance to do something useful or enjoyable",
+      "definitionVi": "cơ hội",
+      "example": "Joining the newspaper was an opportunity to improve my writing.",
+      "cloze": "Joining the newspaper was an ________ to improve my writing.",
+      "answer": "opportunity",
+      "accepted": [
+        "opportunity"
+      ],
+      "illustration": "🚪",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-attempt",
+      "term": "attempt",
+      "pos": "v.",
+      "definition": "to try to do something difficult",
+      "definitionVi": "cố gắng; thử làm",
+      "example": "She decided to attempt a report for the first time.",
+      "cloze": "She decided to ________ a report for the first time.",
+      "answer": "attempt",
+      "accepted": [
+        "attempt"
+      ],
+      "illustration": "🎯",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-professional",
+      "term": "professional",
+      "pos": "adj.",
+      "definition": "showing the skill of someone who is trained",
+      "definitionVi": "chuyên nghiệp",
+      "example": "His articles soon developed a professional style.",
+      "cloze": "His articles soon developed a ________ style.",
+      "answer": "professional",
+      "accepted": [
+        "professional"
+      ],
+      "illustration": "💼",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-editor",
+      "term": "editor",
+      "pos": "n.",
+      "definition": "a person who checks and chooses written content for publication",
+      "definitionVi": "biên tập viên",
+      "example": "The editor corrected mistakes before printing the article.",
+      "cloze": "The ________ corrected mistakes before printing the article.",
+      "answer": "editor",
+      "accepted": [
+        "editor"
+      ],
+      "illustration": "✏️",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-stressful",
+      "term": "stressful",
+      "pos": "adj.",
+      "definition": "causing worry or pressure",
+      "definitionVi": "gây căng thẳng",
+      "example": "Finishing the newspaper on time can be stressful.",
+      "cloze": "Finishing the newspaper on time can be ________.",
+      "answer": "stressful",
+      "accepted": [
+        "stressful"
+      ],
+      "illustration": "😰",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-put-off",
+      "term": "put off",
+      "pos": "phr. v.",
+      "definition": "to delay doing something",
+      "definitionVi": "trì hoãn",
+      "example": "I often put off making difficult telephone calls.",
+      "cloze": "I often ________ making difficult telephone calls.",
+      "answer": "put off",
+      "accepted": [
+        "put off"
+      ],
+      "illustration": "⏰",
+      "sourcePage": 136,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t5-efficient",
+      "term": "efficient",
+      "pos": "adj.",
+      "definition": "working well without wasting time or energy",
+      "definitionVi": "hiệu quả; tiết kiệm công sức",
+      "example": "The new system is more efficient than the old one.",
+      "cloze": "The new system is more ________ than the old one.",
+      "answer": "efficient",
+      "accepted": [
+        "efficient"
+      ],
+      "illustration": "⚡",
+      "sourcePage": 138,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t5-investigate",
+      "term": "investigate",
+      "pos": "v.",
+      "definition": "to examine something carefully to learn the facts",
+      "definitionVi": "điều tra; nghiên cứu",
+      "example": "The scientist will investigate a new energy source.",
+      "cloze": "The scientist will ________ a new energy source.",
+      "answer": "investigate",
+      "accepted": [
+        "investigate"
+      ],
+      "illustration": "🔎",
+      "sourcePage": 138,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t5-convert",
+      "term": "convert",
+      "pos": "v.",
+      "definition": "to change something into another form",
+      "definitionVi": "chuyển đổi",
+      "example": "These special tiles convert footsteps into electricity.",
+      "cloze": "These special tiles ________ footsteps into electricity.",
+      "answer": "convert",
+      "accepted": [
+        "convert"
+      ],
+      "illustration": "🔄",
+      "sourcePage": 138,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t5-electricity",
+      "term": "electricity",
+      "pos": "n.",
+      "definition": "energy used to power lights and machines",
+      "definitionVi": "điện năng",
+      "example": "The new floor can produce electricity as people walk.",
+      "cloze": "The new floor can produce ________ as people walk.",
+      "answer": "electricity",
+      "accepted": [
+        "electricity"
+      ],
+      "illustration": "💡",
+      "sourcePage": 138,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t5-pedestrian",
+      "term": "pedestrian",
+      "pos": "n.",
+      "definition": "a person travelling on foot",
+      "definitionVi": "người đi bộ",
+      "example": "A pedestrian can help generate energy by walking.",
+      "cloze": "A ________ can help generate energy by walking.",
+      "answer": "pedestrian",
+      "accepted": [
+        "pedestrian"
+      ],
+      "illustration": "🚶",
+      "sourcePage": 138,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t5-researcher",
+      "term": "researcher",
+      "pos": "n.",
+      "definition": "someone who studies a subject to discover new facts",
+      "definitionVi": "nhà nghiên cứu",
+      "example": "A researcher studied the effects of colouring on adults.",
+      "cloze": "A ________ studied the effects of colouring on adults.",
+      "answer": "researcher",
+      "accepted": [
+        "researcher"
+      ],
+      "illustration": "🔬",
+      "sourcePage": 140,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t5-benefit",
+      "term": "benefit",
+      "pos": "n.",
+      "definition": "a helpful or positive result",
+      "definitionVi": "lợi ích",
+      "example": "Regular exercise has an important health benefit.",
+      "cloze": "Regular exercise has an important health ________.",
+      "answer": "benefit",
+      "accepted": [
+        "benefit"
+      ],
+      "illustration": "🌱",
+      "sourcePage": 140,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t5-mood",
+      "term": "mood",
+      "pos": "n.",
+      "definition": "the way a person feels at a particular time",
+      "definitionVi": "tâm trạng",
+      "example": "Listening to calm music may improve your mood.",
+      "cloze": "Listening to calm music may improve your ________.",
+      "answer": "mood",
+      "accepted": [
+        "mood"
+      ],
+      "illustration": "🙂",
+      "sourcePage": 140,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t5-anxious",
+      "term": "anxious",
+      "pos": "adj.",
+      "definition": "worried or nervous about something",
+      "definitionVi": "lo âu; lo lắng",
+      "example": "She felt anxious before giving her first presentation.",
+      "cloze": "She felt ________ before giving her first presentation.",
+      "answer": "anxious",
+      "accepted": [
+        "anxious"
+      ],
+      "illustration": "😟",
+      "sourcePage": 140,
+      "sourcePart": 5
+    }
+  ]
+}

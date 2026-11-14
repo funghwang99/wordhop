@@ -425,3 +425,11 @@ Upload the following **three rechecked ZIP files**, without extracting or renami
 - `trainer_exam_listening_tests_5_6.zip` (~23.0 MB, 8 Listening files)
 
 The Pages builder checks the source track list, archive membership and SHA-256 of every MP3, then extracts just the selected files to `audio/trainer/test-N/`. Uploading the archives independently is supported. No Speaking exercise audio is published. The web player uses the existing PET Listening control styles with playback speeds 0.75–1.5×, while the original Exam Practice pages remain displayed. Audio was encoded to 40 kbps mono MP3 for the GitHub web upload limit. The original user-supplied recordings were not changed. Listening answer checking is still disabled until verified keys are digitised.
+
+### Trainer vocabulary — six separate PET Exam Practice word sets
+
+Trainer now includes **24 source-verified B1+–B2 vocabulary words/phrases in each of Tests 1–6 (144 total)**, selected from the Reading pages of the user-supplied scanned Cambridge B1 Preliminary for Schools Trainer. Source PDF page and Reading Part are recorded with every entry in `dist/units/trainer-test-N.json`. Teacher-authored vocabulary data includes English definitions, Vietnamese meanings, examples, gap-fill prompts, accepted answers, part-of-speech and illustrative emoji.
+
+The six Trainer test cards open the same WordHop **Study flashcards** and **Practice** modules used by Simply PET and Authentic 1: card flipping, vocabulary speech, Matching, Multiple choice and Fill in the blanks. Shared routes (`#/pet/trainer/trainer-test-N`) link directly to existing Exam Practice Reading, Listening and Writing pages; those pages also link back to the new vocabulary tabs. Original Trainer Exam Practice pages, verified Listening audio and existing Reading keys are unaffected. The Training pages and Training audio remain excluded.
+
+Source vocabulary is deliberately limited to the original Exam Practice Reading texts, not inferred from general PET word lists. The examples, definitions, and gap-fill sentences are newly written practice material and not passages copied from the book.

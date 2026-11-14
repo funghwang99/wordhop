@@ -1,0 +1,397 @@
+{
+  "id": "trainer-test-6",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "skills": [
+      "Reading"
+    ],
+    "file": "TRAINER(1).pdf",
+    "selection": "B1+–B2 useful vocabulary appearing on original Exam Practice pages; examples and explanations created for learning."
+  },
+  "words": [
+    {
+      "id": "trainer-t6-environmentally-friendly",
+      "term": "environmentally friendly",
+      "pos": "adj. phrase",
+      "definition": "causing little harm to the natural world",
+      "definitionVi": "thân thiện với môi trường",
+      "example": "The company sells environmentally friendly clothing.",
+      "cloze": "The company sells ________ clothing.",
+      "answer": "environmentally friendly",
+      "accepted": [
+        "environmentally friendly"
+      ],
+      "illustration": "🌱",
+      "sourcePage": 153,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-pollution",
+      "term": "pollution",
+      "pos": "n.",
+      "definition": "harmful substances entering air, water or land",
+      "definitionVi": "ô nhiễm",
+      "example": "Natural cotton can be grown without creating pollution.",
+      "cloze": "Natural cotton can be grown without creating ________.",
+      "answer": "pollution",
+      "accepted": [
+        "pollution"
+      ],
+      "illustration": "🏭",
+      "sourcePage": 153,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-reasonable",
+      "term": "reasonable",
+      "pos": "adj.",
+      "definition": "fair and not too expensive",
+      "definitionVi": "hợp lý; vừa phải",
+      "example": "The store offers sportswear at reasonable prices.",
+      "cloze": "The store offers sportswear at ________ prices.",
+      "answer": "reasonable",
+      "accepted": [
+        "reasonable"
+      ],
+      "illustration": "🏷️",
+      "sourcePage": 153,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-handmade",
+      "term": "handmade",
+      "pos": "adj.",
+      "definition": "made by hand rather than in a factory",
+      "definitionVi": "làm thủ công",
+      "example": "We bought handmade sweets for our grandmother.",
+      "cloze": "We bought ________ sweets for our grandmother.",
+      "answer": "handmade",
+      "accepted": [
+        "handmade"
+      ],
+      "illustration": "🍬",
+      "sourcePage": 153,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-jewellery",
+      "term": "jewellery",
+      "pos": "n.",
+      "definition": "decorative items worn on the body",
+      "definitionVi": "đồ trang sức",
+      "example": "The shop sells beautiful jewellery and watches.",
+      "cloze": "The shop sells beautiful ________ and watches.",
+      "answer": "jewellery",
+      "accepted": [
+        "jewellery"
+      ],
+      "illustration": "💍",
+      "sourcePage": 152,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-rarely",
+      "term": "rarely",
+      "pos": "adv.",
+      "definition": "not often",
+      "definitionVi": "hiếm khi",
+      "example": "You rarely find these ingredients in ordinary shops.",
+      "cloze": "You ________ find these ingredients in ordinary shops.",
+      "answer": "rarely",
+      "accepted": [
+        "rarely"
+      ],
+      "illustration": "🔍",
+      "sourcePage": 153,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-recommend",
+      "term": "recommend",
+      "pos": "v.",
+      "definition": "to suggest that something is good or suitable",
+      "definitionVi": "đề xuất; giới thiệu",
+      "example": "I would recommend this shop for affordable suits.",
+      "cloze": "I would ________ this shop for affordable suits.",
+      "answer": "recommend",
+      "accepted": [
+        "recommend"
+      ],
+      "illustration": "👍",
+      "sourcePage": 153,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t6-convince",
+      "term": "convince",
+      "pos": "v.",
+      "definition": "to make someone believe that something is true",
+      "definitionVi": "thuyết phục; làm tin",
+      "example": "The reviews did not convince him that he would see whales.",
+      "cloze": "The reviews did not ________ him that he would see whales.",
+      "answer": "convince",
+      "accepted": [
+        "convince"
+      ],
+      "illustration": "💬",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-negative",
+      "term": "negative",
+      "pos": "adj.",
+      "definition": "expressing criticism or a bad opinion",
+      "definitionVi": "tiêu cực; không tốt",
+      "example": "He became worried after reading negative reviews.",
+      "cloze": "He became worried after reading ________ reviews.",
+      "answer": "negative",
+      "accepted": [
+        "negative"
+      ],
+      "illustration": "👎",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-alongside",
+      "term": "alongside",
+      "pos": "prep.",
+      "definition": "next to and moving together with",
+      "definitionVi": "dọc theo; bên cạnh",
+      "example": "A whale swam alongside our boat.",
+      "cloze": "A whale swam ________ our boat.",
+      "answer": "alongside",
+      "accepted": [
+        "alongside"
+      ],
+      "illustration": "⛵",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-despite",
+      "term": "despite",
+      "pos": "prep.",
+      "definition": "without being prevented by something",
+      "definitionVi": "mặc dù; bất chấp",
+      "example": "Despite its great size, the whale moved quickly.",
+      "cloze": "________ its great size, the whale moved quickly.",
+      "answer": "despite",
+      "accepted": [
+        "despite"
+      ],
+      "illustration": "🌊",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-species",
+      "term": "species",
+      "pos": "n.",
+      "definition": "a group of similar living things",
+      "definitionVi": "loài sinh vật",
+      "example": "Different whale species live near this coast.",
+      "cloze": "Different whale ________ live near this coast.",
+      "answer": "species",
+      "accepted": [
+        "species"
+      ],
+      "illustration": "🐋",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-approach",
+      "term": "approach",
+      "pos": "v.",
+      "definition": "to move closer to something",
+      "definitionVi": "tiến lại gần",
+      "example": "Curious whales sometimes approach tourist boats.",
+      "cloze": "Curious whales sometimes ________ tourist boats.",
+      "answer": "approach",
+      "accepted": [
+        "approach"
+      ],
+      "illustration": "➡️",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-curious",
+      "term": "curious",
+      "pos": "adj.",
+      "definition": "wanting to find out more about something",
+      "definitionVi": "tò mò",
+      "example": "The curious animal swam near the boat.",
+      "cloze": "The ________ animal swam near the boat.",
+      "answer": "curious",
+      "accepted": [
+        "curious"
+      ],
+      "illustration": "🔍",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-effort",
+      "term": "effort",
+      "pos": "n.",
+      "definition": "physical or mental energy used to do something",
+      "definitionVi": "nỗ lực; công sức",
+      "example": "The whale moved fast with very little effort.",
+      "cloze": "The whale moved fast with very little ________.",
+      "answer": "effort",
+      "accepted": [
+        "effort"
+      ],
+      "illustration": "💪",
+      "sourcePage": 154,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t6-performance",
+      "term": "performance",
+      "pos": "n.",
+      "definition": "how well someone does a particular task",
+      "definitionVi": "hiệu quả thực hiện; thành tích",
+      "example": "Music may improve students' performance in school tasks.",
+      "cloze": "Music may improve students' ________ in school tasks.",
+      "answer": "performance",
+      "accepted": [
+        "performance"
+      ],
+      "illustration": "📈",
+      "sourcePage": 156,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t6-according-to",
+      "term": "according to",
+      "pos": "prep. phrase",
+      "definition": "as stated or reported by a person or source",
+      "definitionVi": "theo như",
+      "example": "According to the study, music can help learning.",
+      "cloze": "________ the study, music can help learning.",
+      "answer": "according to",
+      "accepted": [
+        "according to"
+      ],
+      "illustration": "📖",
+      "sourcePage": 156,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t6-fraction",
+      "term": "fraction",
+      "pos": "n.",
+      "definition": "a number representing part of a whole",
+      "definitionVi": "phân số",
+      "example": "Half is a fraction that students learn in maths.",
+      "cloze": "Half is a ________ that students learn in maths.",
+      "answer": "fraction",
+      "accepted": [
+        "fraction"
+      ],
+      "illustration": "½",
+      "sourcePage": 156,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t6-rhythm",
+      "term": "rhythm",
+      "pos": "n.",
+      "definition": "a regular pattern of sounds or movements",
+      "definitionVi": "nhịp điệu",
+      "example": "The children clapped to the rhythm of the music.",
+      "cloze": "The children clapped to the ________ of the music.",
+      "answer": "rhythm",
+      "accepted": [
+        "rhythm"
+      ],
+      "illustration": "🥁",
+      "sourcePage": 156,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t6-essential",
+      "term": "essential",
+      "pos": "adj.",
+      "definition": "completely necessary",
+      "definitionVi": "thiết yếu; rất cần thiết",
+      "example": "Careful listening is essential in an orchestra.",
+      "cloze": "Careful listening is ________ in an orchestra.",
+      "answer": "essential",
+      "accepted": [
+        "essential"
+      ],
+      "illustration": "✅",
+      "sourcePage": 156,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t6-orchestra",
+      "term": "orchestra",
+      "pos": "n.",
+      "definition": "a large group of musicians playing instruments together",
+      "definitionVi": "dàn nhạc giao hưởng",
+      "example": "She plays the violin in the school orchestra.",
+      "cloze": "She plays the violin in the school ________.",
+      "answer": "orchestra",
+      "accepted": [
+        "orchestra"
+      ],
+      "illustration": "🎻",
+      "sourcePage": 156,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t6-extraordinary",
+      "term": "extraordinary",
+      "pos": "adj.",
+      "definition": "very unusual and impressive",
+      "definitionVi": "phi thường; đáng kinh ngạc",
+      "example": "The apple has made an extraordinary journey through history.",
+      "cloze": "The apple has made an ________ journey through history.",
+      "answer": "extraordinary",
+      "accepted": [
+        "extraordinary"
+      ],
+      "illustration": "🌟",
+      "sourcePage": 158,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t6-spread",
+      "term": "spread",
+      "pos": "v.",
+      "definition": "to reach more places or people",
+      "definitionVi": "lan rộng; phổ biến",
+      "example": "Trade helped spread apple trees across different regions.",
+      "cloze": "Trade helped ________ apple trees across different regions.",
+      "answer": "spread",
+      "accepted": [
+        "spread"
+      ],
+      "illustration": "🌳",
+      "sourcePage": 158,
+      "sourcePart": 5
+    },
+    {
+      "id": "trainer-t6-broader",
+      "term": "broader",
+      "pos": "adj.",
+      "definition": "including a wider range of different things",
+      "definitionVi": "rộng hơn; đa dạng hơn",
+      "example": "Farmers developed a broader range of apple varieties.",
+      "cloze": "Farmers developed a ________ range of apple varieties.",
+      "answer": "broader",
+      "accepted": [
+        "broader"
+      ],
+      "illustration": "🌿",
+      "sourcePage": 158,
+      "sourcePart": 5
+    }
+  ]
+}

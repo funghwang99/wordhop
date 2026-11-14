@@ -107,7 +107,9 @@
   const current='Exam Practice';
   const intro='<div class="unit-heading trainer-test-heading"><div><h1>'+title+'</h1><p>Trainer · PET</p></div><div class="unit-heading-actions"><span class="unit-badge">Exam Practice</span><button class="text-button trainer-clear" type="button" data-trainer-action="clear-test">Clear saved results</button></div></div>';
   const modes='';
-  const skills='<nav class="unit-tabs trainer-skill-tabs" aria-label="Choose a skill">'+Object.keys(SKILLS).map((s,i)=>selectedTab(path(t.id,mode,s,'part-1'),s[0].toUpperCase()+s.slice(1),s===skill,i)).join('')+'</nav>';
+  const studyPath=BASE+'/trainer-test-'+t.id;
+  const vocabularyTabs=selectedTab(studyPath,'Study flashcards',false,0)+selectedTab(studyPath+'/practice','Practice',false,1);
+  const skills='<nav class="unit-tabs trainer-skill-tabs" aria-label="Study and practise this test">'+vocabularyTabs+Object.keys(SKILLS).map((s,i)=>selectedTab(path(t.id,mode,s,'part-1'),s[0].toUpperCase()+s.slice(1),s===skill,i+2)).join('')+'</nav>';
   return intro+modes+skills;
  }
  function render(context){
@@ -120,8 +122,8 @@
   const skill=SKILLS[r.skill]?r.skill:'reading';
   latest={container:main,route:{...r,mode,skill}};
   if(!t){
-   const description='6 B1 Preliminary for Schools Exam Practice tests · Reading, Listening and Writing · Original book pages.';
-   main.innerHTML=frame(head('Trainer',description)+'<p class="section-label">Choose a test</p>'+tiles(TESTS.map(x=>tile(path(x.id,'exam','reading','part-1'),'Exam Practice','Test '+x.id,'Reading · Listening · Writing',x.id<=2?'Reading Parts 1–3 checked · Original exam pages':'Original exam pages · Answer keys being prepared'))));
+   const description='6 B1 Preliminary for Schools Exam Practice tests · 24 vocabulary flashcards per test · Reading, Listening and Writing.';
+   main.innerHTML=frame(head('Trainer',description)+'<p class="section-label">Choose a test</p>'+tiles(TESTS.map(x=>tile(BASE+'/trainer-test-'+x.id,'24 vocabulary words','Test '+x.id,'Flashcards · Practice · Reading · Listening · Writing',x.id<=2?'24 words · Reading Parts 1–3 checked · Original exam pages':'24 words · Original exam pages · Answer keys being prepared'))));
    return;
   }
   const selectedId=/^part-([1-6])$/.test(r.part||'') ? r.part : 'part-1';

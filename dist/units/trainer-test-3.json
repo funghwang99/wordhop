@@ -1,0 +1,397 @@
+{
+  "id": "trainer-test-3",
+  "source": {
+    "title": "Cambridge B1 Preliminary for Schools Trainer · Exam Practice",
+    "skills": [
+      "Reading"
+    ],
+    "file": "TRAINER(1).pdf",
+    "selection": "B1+–B2 useful vocabulary appearing on original Exam Practice pages; examples and explanations created for learning."
+  },
+  "words": [
+    {
+      "id": "trainer-t3-animated",
+      "term": "animated",
+      "pos": "adj.",
+      "definition": "made using moving drawings or computer images",
+      "definitionVi": "hoạt hình; được tạo bằng kỹ thuật hoạt hình",
+      "example": "The animated film was popular with younger children.",
+      "cloze": "The ________ film was popular with younger children.",
+      "answer": "animated",
+      "accepted": [
+        "animated"
+      ],
+      "illustration": "🎞️",
+      "sourcePage": 98,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-soundtrack",
+      "term": "soundtrack",
+      "pos": "n.",
+      "definition": "the music recorded for a film",
+      "definitionVi": "nhạc phim",
+      "example": "The film has a wonderful soundtrack with piano music.",
+      "cloze": "The film has a wonderful ________ with piano music.",
+      "answer": "soundtrack",
+      "accepted": [
+        "soundtrack"
+      ],
+      "illustration": "🎵",
+      "sourcePage": 98,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-traditional",
+      "term": "traditional",
+      "pos": "adj.",
+      "definition": "following methods used for a long time",
+      "definitionVi": "truyền thống",
+      "example": "She prefers traditional drawings to computer animation.",
+      "cloze": "She prefers ________ drawings to computer animation.",
+      "answer": "traditional",
+      "accepted": [
+        "traditional"
+      ],
+      "illustration": "🖌️",
+      "sourcePage": 98,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-performer",
+      "term": "performer",
+      "pos": "n.",
+      "definition": "someone who acts, sings or entertains in public",
+      "definitionVi": "người biểu diễn",
+      "example": "A famous performer sang the film's main song.",
+      "cloze": "A famous ________ sang the film's main song.",
+      "answer": "performer",
+      "accepted": [
+        "performer"
+      ],
+      "illustration": "🎤",
+      "sourcePage": 99,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-accompany",
+      "term": "accompany",
+      "pos": "v.",
+      "definition": "to happen or be played together with something",
+      "definitionVi": "đi kèm; đệm nhạc",
+      "example": "Soft piano music can accompany a peaceful film scene.",
+      "cloze": "Soft piano music can ________ a peaceful film scene.",
+      "answer": "accompany",
+      "accepted": [
+        "accompany"
+      ],
+      "illustration": "🎹",
+      "sourcePage": 99,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-spectacular",
+      "term": "spectacular",
+      "pos": "adj.",
+      "definition": "very impressive and exciting to look at",
+      "definitionVi": "ngoạn mục; ấn tượng mạnh",
+      "example": "The animation looked spectacular on a large screen.",
+      "cloze": "The animation looked ________ on a large screen.",
+      "answer": "spectacular",
+      "accepted": [
+        "spectacular"
+      ],
+      "illustration": "🌟",
+      "sourcePage": 99,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-familiar-with",
+      "term": "familiar with",
+      "pos": "adj. phrase",
+      "definition": "knowing something because you have seen or experienced it",
+      "definitionVi": "quen thuộc với",
+      "example": "Most visitors are familiar with these classic games.",
+      "cloze": "Most visitors are ________ these classic games.",
+      "answer": "familiar with",
+      "accepted": [
+        "familiar with"
+      ],
+      "illustration": "🎮",
+      "sourcePage": 103,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t3-graphics",
+      "term": "graphics",
+      "pos": "n.",
+      "definition": "pictures and visual images used on a screen",
+      "definitionVi": "đồ họa",
+      "example": "The new game has clearer graphics than the old one.",
+      "cloze": "The new game has clearer ________ than the old one.",
+      "answer": "graphics",
+      "accepted": [
+        "graphics"
+      ],
+      "illustration": "🖥️",
+      "sourcePage": 99,
+      "sourcePart": 2
+    },
+    {
+      "id": "trainer-t3-champion",
+      "term": "champion",
+      "pos": "n.",
+      "definition": "a person who wins a competition",
+      "definitionVi": "nhà vô địch",
+      "example": "She hopes to become a national diving champion.",
+      "cloze": "She hopes to become a national diving ________.",
+      "answer": "champion",
+      "accepted": [
+        "champion"
+      ],
+      "illustration": "🥇",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-resort",
+      "term": "resort",
+      "pos": "n.",
+      "definition": "a place where people stay for holidays",
+      "definitionVi": "khu nghỉ dưỡng",
+      "example": "The resort had a swimming pool with a diving board.",
+      "cloze": "The ________ had a swimming pool with a diving board.",
+      "answer": "resort",
+      "accepted": [
+        "resort"
+      ],
+      "illustration": "🏖️",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-admire",
+      "term": "admire",
+      "pos": "v.",
+      "definition": "to respect someone because of their ability or achievements",
+      "definitionVi": "ngưỡng mộ",
+      "example": "I admire athletes who train every day.",
+      "cloze": "I ________ athletes who train every day.",
+      "answer": "admire",
+      "accepted": [
+        "admire"
+      ],
+      "illustration": "👏",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-relaxation",
+      "term": "relaxation",
+      "pos": "n.",
+      "definition": "resting and becoming less worried",
+      "definitionVi": "sự thư giãn",
+      "example": "She started swimming for relaxation after school.",
+      "cloze": "She started swimming for ________ after school.",
+      "answer": "relaxation",
+      "accepted": [
+        "relaxation"
+      ],
+      "illustration": "🧘",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-injure",
+      "term": "injure",
+      "pos": "v.",
+      "definition": "to hurt a person or a part of the body",
+      "definitionVi": "làm bị thương",
+      "example": "A helmet can help protect you if you injure yourself.",
+      "cloze": "A helmet can help protect you if you ________ yourself.",
+      "answer": "injure",
+      "accepted": [
+        "injure"
+      ],
+      "illustration": "🩹",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-handle",
+      "term": "handle",
+      "pos": "v.",
+      "definition": "to deal with a difficult situation successfully",
+      "definitionVi": "xử lý; đối phó",
+      "example": "After training, I knew I could handle the high jump.",
+      "cloze": "After training, I knew I could ________ the high jump.",
+      "answer": "handle",
+      "accepted": [
+        "handle"
+      ],
+      "illustration": "💪",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-technique",
+      "term": "technique",
+      "pos": "n.",
+      "definition": "a particular skill or method of doing something",
+      "definitionVi": "kỹ thuật; phương pháp",
+      "example": "The coach taught us a safer diving technique.",
+      "cloze": "The coach taught us a safer diving ________.",
+      "answer": "technique",
+      "accepted": [
+        "technique"
+      ],
+      "illustration": "🏊",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-facilities",
+      "term": "facilities",
+      "pos": "n.",
+      "definition": "buildings and equipment provided for an activity",
+      "definitionVi": "cơ sở vật chất; trang thiết bị",
+      "example": "The sports centre has excellent training facilities.",
+      "cloze": "The sports centre has excellent training ________.",
+      "answer": "facilities",
+      "accepted": [
+        "facilities"
+      ],
+      "illustration": "🏟️",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-opportunity",
+      "term": "opportunity",
+      "pos": "n.",
+      "definition": "a chance to do something",
+      "definitionVi": "cơ hội",
+      "example": "Young divers need an opportunity to practise regularly.",
+      "cloze": "Young divers need an ________ to practise regularly.",
+      "answer": "opportunity",
+      "accepted": [
+        "opportunity"
+      ],
+      "illustration": "🚪",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-financial",
+      "term": "financial",
+      "pos": "adj.",
+      "definition": "relating to money",
+      "definitionVi": "thuộc về tài chính",
+      "example": "The team received financial support from an organisation.",
+      "cloze": "The team received ________ support from an organisation.",
+      "answer": "financial",
+      "accepted": [
+        "financial"
+      ],
+      "illustration": "💰",
+      "sourcePage": 100,
+      "sourcePart": 3
+    },
+    {
+      "id": "trainer-t3-exhibition",
+      "term": "exhibition",
+      "pos": "n.",
+      "definition": "an event where objects are shown to the public",
+      "definitionVi": "triển lãm",
+      "example": "The museum organised an exhibition of old video games.",
+      "cloze": "The museum organised an ________ of old video games.",
+      "answer": "exhibition",
+      "accepted": [
+        "exhibition"
+      ],
+      "illustration": "🏛️",
+      "sourcePage": 102,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t3-attraction",
+      "term": "attraction",
+      "pos": "n.",
+      "definition": "something interesting that people want to see",
+      "definitionVi": "điểm thu hút",
+      "example": "The computer game room is a popular attraction.",
+      "cloze": "The computer game room is a popular ________.",
+      "answer": "attraction",
+      "accepted": [
+        "attraction"
+      ],
+      "illustration": "🕹️",
+      "sourcePage": 102,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t3-workshop",
+      "term": "workshop",
+      "pos": "n.",
+      "definition": "a practical class where people learn by doing",
+      "definitionVi": "buổi học thực hành; hội thảo",
+      "example": "Children joined a workshop on writing computer programs.",
+      "cloze": "Children joined a ________ on writing computer programs.",
+      "answer": "workshop",
+      "accepted": [
+        "workshop"
+      ],
+      "illustration": "🛠️",
+      "sourcePage": 102,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t3-complicated",
+      "term": "complicated",
+      "pos": "adj.",
+      "definition": "difficult to understand because there are many parts",
+      "definitionVi": "phức tạp",
+      "example": "Modern video games use complicated techniques.",
+      "cloze": "Modern video games use ________ techniques.",
+      "answer": "complicated",
+      "accepted": [
+        "complicated"
+      ],
+      "illustration": "🧩",
+      "sourcePage": 102,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t3-industry",
+      "term": "industry",
+      "pos": "n.",
+      "definition": "businesses producing a particular type of goods or service",
+      "definitionVi": "ngành công nghiệp",
+      "example": "The video game industry employs talented designers.",
+      "cloze": "The video game ________ employs talented designers.",
+      "answer": "industry",
+      "accepted": [
+        "industry"
+      ],
+      "illustration": "🏭",
+      "sourcePage": 102,
+      "sourcePart": 4
+    },
+    {
+      "id": "trainer-t3-bitter",
+      "term": "bitter",
+      "pos": "adj.",
+      "definition": "having a sharp, unpleasant taste",
+      "definitionVi": "có vị đắng",
+      "example": "Some children dislike the bitter taste of vegetables.",
+      "cloze": "Some children dislike the ________ taste of vegetables.",
+      "answer": "bitter",
+      "accepted": [
+        "bitter"
+      ],
+      "illustration": "🥬",
+      "sourcePage": 104,
+      "sourcePart": 5
+    }
+  ]
+}
