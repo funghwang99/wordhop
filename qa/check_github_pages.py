@@ -42,7 +42,7 @@ for unit in built['units']:
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
 html = (ROOT / '_site/index.html').read_text()
-for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge.css']:
+for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge21-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
 cambridge = next(v for v in built['volumes'] if v['id'] == 'cambridge-ielts-academic-21')
 media = cambridge.get('mediaRoot')
@@ -214,6 +214,28 @@ else:
     assert not cambridge20.get('mediaRoot')
     assert all(not e.get('audio') for e in cambridge20['tests'])
     print('Cambridge IELTS 20 page scans awaiting four page-only ZIPs; audio will be added separately.')
+
+cambridge21 = next(v for v in built['volumes'] if v['id']=='cambridge-ielts-academic-21-2026')
+assert cambridge21['title']=='Cambridge IELTS Academic 21'
+assert [t['id'] for t in cambridge21['tests']]==['test-1','test-2','test-3','test-4']
+old_cam12 = next(v for v in built['volumes'] if v['id']=='cambridge-ielts-academic-21')
+assert old_cam12['title']=='Cambridge IELTS Academic 12'
+assert [t['id'] for t in old_cam12['tests']]==['test-5','test-6','test-7','test-8']
+archives21=[ROOT/f'cambridge_21_media_test_{t}.zip' for t in range(1,5)]
+if all(p.is_file() for p in archives21):
+    prefix=cambridge21['mediaRoot']
+    assert prefix=='media/cambridge-ielts-academic-21-2026'
+    page_paths=[f'{prefix}/pages/page-{p:03d}.webp' for p in range(10,97)]
+    audio_paths=[f'{prefix}/audio/test-{t}-section-{sec}.mp3' for t in range(1,5) for sec in range(1,5)]
+    assert len(page_paths)==87 and len(audio_paths)==16
+    assert all((ROOT/'_site'/path).is_file() for path in page_paths+audio_paths)
+    for t,exam in enumerate(cambridge21['tests'],1):
+        assert exam.get('audio')==[f'{prefix}/audio/test-{t}-section-{sec}.mp3' for sec in range(1,5)]
+    print('PASS: Cambridge IELTS Academic 21 all 87 original pages and 16 Listening sections published.')
+else:
+    assert not cambridge21.get('mediaRoot')
+    assert all(not exam.get('audio') for exam in cambridge21['tests'])
+    print('Cambridge IELTS 21 media awaiting four ZIP uploads; no broken page/audio paths.')
 
 assert (ROOT / '_site/trainer.js').is_file()
 assert (ROOT / '_site/trainer.css').is_file()
