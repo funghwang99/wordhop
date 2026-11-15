@@ -543,6 +543,86 @@ def activate_cambridge19_media(catalog):
 
 
 
+
+def activate_cambridge20_media(catalog):
+    """Publish authentic Cambridge 20 pages first; add Listening audio only when real tracks arrive."""
+    prefix = 'media/cambridge-ielts-academic-20'
+    page_archives = [ROOT / f'cambridge_20_pages_test_{t}.zip' for t in range(1,5)]
+    missing = [p.name for p in page_archives if not p.is_file()]
+    if missing:
+        print('Cambridge IELTS Academic 20 book pages pending: ' + ', '.join(missing))
+        return
+    expected_ranges = {1:(1,19),2:(20,39),3:(39,58),4:(59,78)}
+    expected_pages = {f'{prefix}/pages/page-{p:03d}.webp' for p in range(1,79)}
+    seen = {}
+    for t, archive_path in enumerate(page_archives,1):
+        lo,hi = expected_ranges[t]
+        expected = {f'{prefix}/pages/page-{p:03d}.webp' for p in range(lo,hi+1)}
+        with zipfile.ZipFile(archive_path) as archive:
+            if archive.testzip() is not None:
+                raise ValueError('Corrupt Cambridge 20 pages ZIP: '+archive_path.name)
+            manifest = json.loads(archive.read('cambridge_media_manifest.json'))
+            paths = manifest['paths']
+            if (manifest.get('source')!='Cambridge IELTS Academic 20' or
+                manifest.get('bundle')!=archive_path.name or
+                manifest.get('test')!=t or
+                manifest.get('printedPages')!=[lo,hi] or
+                manifest.get('audioIncluded') is not False):
+                raise ValueError('Incorrect Cambridge 20 page package manifest: '+archive_path.name)
+            if set(paths)!=expected or set(archive.namelist())!=expected|{'cambridge_media_manifest.json'}:
+                raise ValueError('Unexpected Cambridge 20 page files: '+archive_path.name)
+            for path,sha in paths.items():
+                data = archive.read(path)
+                if hashlib.sha256(data).hexdigest()!=sha:
+                    raise ValueError('Incorrect Cambridge 20 page checksum: '+path)
+                if path in seen:
+                    # Printed page 39 is shared between Test 2 Speaking and Test 3 Listening.
+                    if path!=f'{prefix}/pages/page-039.webp' or seen[path]!=sha:
+                        raise ValueError('Conflicting Cambridge 20 source page: '+path)
+                    continue
+                target=OUTPUT/path
+                target.parent.mkdir(parents=True,exist_ok=True)
+                target.write_bytes(data)
+                seen[path]=sha
+    if set(seen)!=expected_pages:
+        raise ValueError('Cambridge IELTS 20 requires 78 unique original page scans')
+
+    book=next(v for v in catalog['volumes'] if v['id']=='cambridge-ielts-academic-20')
+    book['mediaRoot']=prefix
+    available=0
+    for exam in book['tests']:
+        t=int(exam['id'].split('-')[-1])
+        audio_bundle=ROOT/f'cambridge_20_audio_test_{t}.zip'
+        exam['audio']=[None,None,None,None]
+        if not audio_bundle.is_file():
+            continue
+        expected={f'{prefix}/audio/test-{t}-section-{section}.mp3' for section in range(1,5)}
+        with zipfile.ZipFile(audio_bundle) as archive:
+            if archive.testzip() is not None:
+                raise ValueError('Corrupted Cambridge 20 audio ZIP: '+audio_bundle.name)
+            manifest=json.loads(archive.read('cambridge_media_manifest.json'))
+            paths=manifest['paths']
+            if (manifest.get('source')!='Cambridge IELTS Academic 20' or
+                manifest.get('bundle')!=audio_bundle.name or
+                manifest.get('test')!=t or
+                manifest.get('completeAudio') is not True or
+                set(paths)!=expected or
+                set(archive.namelist())!=expected|{'cambridge_media_manifest.json'}):
+                raise ValueError('Invalid Cambridge 20 audio manifest: '+audio_bundle.name)
+            for path,sha in paths.items():
+                payload=archive.read(path)
+                if hashlib.sha256(payload).hexdigest()!=sha:
+                    raise ValueError('Cambridge 20 audio checksum mismatch: '+path)
+                if len(payload)<10000:
+                    raise ValueError('Cambridge 20 audio too short: '+path)
+                dest=OUTPUT/path
+                dest.parent.mkdir(parents=True,exist_ok=True)
+                dest.write_bytes(payload)
+        exam['audio']=[f'{prefix}/audio/test-{t}-section-{section}.mp3' for section in range(1,5)]
+        available+=4
+    print(f'Published Cambridge IELTS Academic 20: 78 original printed pages and {available}/16 real Listening recordings.')
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -586,6 +666,7 @@ def build():
     activate_cambridge17_media(catalog)
     activate_cambridge18_media(catalog)
     activate_cambridge19_media(catalog)
+    activate_cambridge20_media(catalog)
     activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
@@ -610,7 +691,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[^"\s<>]+', asset + '?v=' + version, index)
         assert count == 1
