@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -475,6 +475,69 @@ for(const exam of volume19.tests){
 }
 console.log('PASS: Cambridge 19 all 40 exam views, 320 keys, 16 Listening links, printed pages and score variants.');
 
+// Cambridge IELTS Academic 20 — real PDF pages, answer keys and pages-only deployment.
+const volume20=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-20');
+assert(volume20&&volume20.tests.length===4);
+assert.equal(volume20.title,'Cambridge IELTS Academic 20');
+const printed20={
+  1:{listening:[[1,1],[1,2],[3,4],[5,5]],reading:[[6,8],[9,12],[13,16]],writing:[[17,17],[18,18]],speaking:[[18,19]]},
+  2:{listening:[[20,20],[21,21],[22,23],[24,25]],reading:[[26,28],[29,32],[33,36]],writing:[[37,37],[38,38]],speaking:[[38,39]]},
+  3:{listening:[[39,39],[40,41],[42,42],[43,44]],reading:[[45,47],[48,51],[52,56]],writing:[[57,57],[58,58]],speaking:[[58,58]]},
+  4:{listening:[[59,59],[60,60],[61,62],[63,64]],reading:[[65,68],[69,72],[73,76]],writing:[[77,77],[77,77]],speaking:[[78,78]]}
+};
+let rendered20=0;
+for(const test of volume20.tests){
+  const t=Number(test.id.replace('test-',''));
+  const publisher=context.window.WORDHOP_CAMBRIDGE20_KEYS['20-'+t];
+  assert.equal(publisher.listening.length,40);
+  assert.equal(publisher.reading.length,40);
+  for(const skill of ['listening','reading','writing','speaking']){
+    for(let part=1;part<=printed20[t][skill].length;part++){
+      const node={innerHTML:''},base='#/ielts/cambridge-ielts/'+volume20.id+'/'+test.id;
+      component.render({container:node,route:{volume:volume20,exam:test,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+      const html=node.innerHTML,p=printed20[t][skill][part-1];
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'));
+      assert(html.includes(base+'/'+skill+'/part-'+part));
+      assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Original book pages '+t+'/'+skill+'/'+part);
+      assert(html.includes('Original book page'),'Missing media uses explicit page placeholders');
+      if(skill==='listening'){
+        assert(html.includes('class="listening-player-card"'));
+        assert.equal((html.match(/data-cam-answer="/g)||[]).length,10);
+        assert(html.includes('audio has not been uploaded'),'Never fabricate Listening audio');
+      }
+      if(skill==='reading')assert.equal((html.match(/data-cam-answer="/g)||[]).length,[13,13,14][part-1]);
+      if(skill==='writing')assert(html.includes('class="writing-editor"')&&html.includes('Task prompt'));
+      rendered20++;
+    }
+  }
+}
+assert.equal(rendered20,40);
+for(const [test,skill,answers,positions] of [
+ ['20-1','listening',{17:'E',18:'A',19:'E',20:'C',21:'E',22:'C',23:'C',24:'A',25:'B',26:'A'},[17,18,19,20,21,22,23,24,25,26]],
+ ['20-2','reading',{23:'C',24:'A',25:'E',26:'A'},[23,24,25,26]],
+ ['20-3','reading',{20:'E',21:'C',22:'D',23:'B'},[20,21,22,23]],
+ ['20-4','listening',{11:'C',12:'B',13:'C',14:'A',21:'E',22:'C',23:'C',24:'A'},[11,12,13,14,21,22,23,24]]
+]){
+ const checked=component.score(test,skill,answers);
+ assert(positions.every(n=>checked[n]),'Dual choice must accept either order '+test+'/'+skill);
+}
+assert(component.score('20-1','listening',{9:'thirty'})[9]);
+assert(component.score('20-2','listening',{31:'pictures'})[31]);
+assert(component.score('20-4','listening',{1:"King's",8:'2:30'})[1]);
+const scanned20={...volume20,mediaRoot:'media/cambridge-ielts-academic-20'};
+for(const exam of volume20.tests){
+  const n=Number(exam.id.slice(-1));
+  const pageOnly={...exam,audio:[null,null,null,null]};
+  for(const skill of ['reading','listening','writing']){
+    const node={innerHTML:''},base='#/ielts/cambridge-ielts/'+scanned20.id+'/'+exam.id;
+    component.render({container:node,route:{volume:scanned20,exam:pageOnly,skill,part:1},header:'<nav class="breadcrumbs">Course</nav>',base});
+    assert(node.innerHTML.includes('src="/wordhop/media/cambridge-ielts-academic-20/pages/page-'),'Page-only deployment uses correct images');
+    assert(!node.innerHTML.includes('cm-page-closer'),'Cam 20 image must fit pane by default');
+    if(skill==='listening')assert(!node.innerHTML.includes('id="listening-audio"'),'No empty mp3 tag in page-only deployment');
+  }
+}
+console.log('PASS: Cambridge 20 original 40 exam views, 320 keys, page-only media and transparent missing-audio status.');
+
 // Cambridge 12, 13 and 14 must all render two independent desktop scroll panes.
 const splitCSS=fs.readFileSync(path.join(root,'cambridge.css'),'utf8');
 assert(splitCSS.includes('.cm-exam-split{display:grid'),'Split layout CSS exists');
@@ -484,7 +547,7 @@ assert(splitCSS.includes('scrollbar-gutter:stable'),'Each pane reserves its own 
 assert(splitCSS.includes('@media(max-width:850px)'),'Narrow screens should stack panels');
 assert(splitCSS.includes('--cm-split-height'),'Desktop height should fit available viewport');
 let splitScreens=0;
-for(const book of [volume,volume13,volume14,volume15,volume16,volume17,volume18,volume19]){
+for(const book of [volume,volume13,volume14,volume15,volume16,volume17,volume18,volume19,volume20]){
   for(const test of book.tests){
     for(const [skill,numParts] of [['reading',3],['listening',4],['writing',2]]){
       for(let part=1;part<=numParts;part++){
@@ -509,12 +572,12 @@ for(const book of [volume,volume13,volume14,volume15,volume16,volume17,volume18,
     }
   }
 }
-assert.equal(splitScreens,288,'8 Cambridge books × 4 tests × 9 split skill parts');
+assert.equal(splitScreens,324,'9 Cambridge books × 4 tests × 9 split skill parts');
 assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:125%;max-width:none}'),
   'Cambridge 13/14 should start at 125% source-page zoom');
 assert(splitCSS.includes('.reading-page.cm-page-closer:not(.is-zoomed) img{width:100%}'),
   'Mobile screens should show full page width');
-for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true],[volume15,true],[volume16,true],[volume17,true],[volume18,true],[volume19,true]]){
+for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true],[volume15,false],[volume16,false],[volume17,false],[volume18,false],[volume19,false],[volume20,false]]){
   // dist/data.js holds source metadata; GitHub Pages attaches mediaRoot during build.
   // Simulate that deployment here to validate the actual scanned-page branch.
   const displayBook={...book,mediaRoot:book.mediaRoot||'media/qa-scans'};
@@ -525,13 +588,13 @@ for(const [book,shouldEnlarge] of [[volume,false],[volume13,true],[volume14,true
         header:'<nav class="breadcrumbs">Course</nav>',
         base:'#/ielts/cambridge-ielts/'+book.id+'/'+test.id});
       assert.equal(container.innerHTML.includes('class="reading-page cm-page-closer"'),
-        shouldEnlarge,'Cambridge 13/14/15 source images have the default magnification');
+        shouldEnlarge,'Only Cambridge 13 and 14 use default 125% enlargement');
       assert(container.innerHTML.includes('data-cam-page='),'Source image URLs are kept intact');
     }
   }
 }
-console.log('PASS: Cam 13–19 default page zoom 125%, Cambridge 12 remains unchanged; mobile fit is retained.');
+console.log('PASS: Cam 13–14 retain 125% zoom; Cambridge 15–20 display at 100% by default.');
 
-console.log('PASS: 288 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
+console.log('PASS: 324 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
 
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
