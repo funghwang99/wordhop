@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{}),...(window.WORDHOP_CAMBRIDGE19_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{}),...(window.WORDHOP_CAMBRIDGE19_KEYS||{}),...(window.WORDHOP_CAMBRIDGE20_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -36,7 +36,11 @@
     '19-1':{listening:[[21,22],[23,24]],reading:[[20,21],[22,23]]},
     '19-2':{listening:[[17,18],[19,20]],reading:[[23,24],[25,26]]},
     '19-3':{listening:[[17,18],[19,20]],reading:[]},
-    '19-4':{listening:[[11,12],[13,14]],reading:[]}
+    '19-4':{listening:[[11,12],[13,14]],reading:[]},
+    '20-1':{listening:[[17,18],[19,20],[21,22],[23,24],[25,26]],reading:[]},
+    '20-2':{listening:[],reading:[[23,24],[25,26]]},
+    '20-3':{listening:[],reading:[[20,21],[22,23]]},
+    '20-4':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[]}
   };
   const essayTopics={
     5:{
@@ -166,6 +170,22 @@
     '19-4':{
       1:'The charts below give information on the location and types of dance classes young people in a town in Australia are currently attending.',
       2:'In many countries nowadays, consumers can go to a supermarket and buy food produced all over the world. Do you think this is a positive or negative development?'
+    },
+    '20-1':{
+      1:'The tables show changes in the population of New York City and its districts between 1800 and 2000.',
+      2:'Access to clean water is a basic human right. Therefore every home should have a water supply that is provided free of charge. Do you agree or disagree?'
+    },
+    '20-2':{
+      1:'The plans show the site of a farm in 1950 and the same site today.',
+      2:'In many countries, primary and secondary schools close for two months or more in the summer holidays. What is the value of long school holidays? What are the arguments in favour of shorter school holidays?'
+    },
+    '20-3':{
+      1:'The charts give information about a public library in a town called Little Chalfont.',
+      2:'Some people have decided to reduce the number of times they fly every year or to stop flying altogether. Do you think the environmental benefits of this development outweigh the disadvantages for individuals and businesses?'
+    },
+    '20-4':{
+      1:'The diagram shows how fabric is manufactured from bamboo.',
+      2:'Many aspects of the way people dress today are influenced by global fashion trends. How has global fashion become such a strong influence on people’s lives? Do you think this is a positive or negative development?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -234,7 +254,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-19'?'19-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-20'?'20-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-19'?'19-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -255,6 +275,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-20'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[1,1],[1,2],[3,4],[5,5]],reading:[[6,8],[9,12],[13,16]]},
+        2:{listening:[[20,20],[21,21],[22,23],[24,25]],reading:[[26,28],[29,32],[33,36]]},
+        3:{listening:[[39,39],[40,41],[42,42],[43,44]],reading:[[45,47],[48,51],[52,56]]},
+        4:{listening:[[59,59],[60,60],[61,62],[63,64]],reading:[[65,68],[69,72],[73,76]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return n===4?[77,77]:[p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-19'){
       const n=Number(route.exam.id.replace('test-',''));
       const perTest={
@@ -364,7 +396,7 @@
   }
   function pageViewer(route,skill,part){
     const [from,to]=pageRange(route,skill,part),root=route.volume.mediaRoot;
-    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14'||route.volume.id==='cambridge-ielts-academic-15'||route.volume.id==='cambridge-ielts-academic-16'||route.volume.id==='cambridge-ielts-academic-17'||route.volume.id==='cambridge-ielts-academic-18'||route.volume.id==='cambridge-ielts-academic-19';
+    const closerSource=route.volume.id==='cambridge-ielts-academic-13'||route.volume.id==='cambridge-ielts-academic-14';
     if(root){
       const pages=Array.from({length:to-from+1},(_,i)=>from+i);
       return '<div class="reading-page'+(closerSource?' cm-page-closer':'')+'" tabindex="0" aria-label="Original book pages">'+pages.map((n,i)=>{
