@@ -3,7 +3,7 @@
   const STORE='wordhop.cambridge.exam.v2', LEGACY='wordhop.cambridge-academic-21.v1';
   const skillNames={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking'};
   const skills=Object.keys(skillNames);
-  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{}),...(window.WORDHOP_CAMBRIDGE19_KEYS||{}),...(window.WORDHOP_CAMBRIDGE20_KEYS||{})};
+  const keys={...(window.WORDHOP_CAMBRIDGE_KEYS||{}),...(window.WORDHOP_CAMBRIDGE13_KEYS||{}),...(window.WORDHOP_CAMBRIDGE14_KEYS||{}),...(window.WORDHOP_CAMBRIDGE15_KEYS||{}),...(window.WORDHOP_CAMBRIDGE16_KEYS||{}),...(window.WORDHOP_CAMBRIDGE17_KEYS||{}),...(window.WORDHOP_CAMBRIDGE18_KEYS||{}),...(window.WORDHOP_CAMBRIDGE19_KEYS||{}),...(window.WORDHOP_CAMBRIDGE20_KEYS||{}),...(window.WORDHOP_CAMBRIDGE21_KEYS||{})};
   const unordered={
     '5':{listening:[[15,16]],reading:[]},
     '6':{listening:[],reading:[[10,11],[12,13]]},
@@ -40,7 +40,11 @@
     '20-1':{listening:[[17,18],[19,20],[21,22],[23,24],[25,26]],reading:[]},
     '20-2':{listening:[],reading:[[23,24],[25,26]]},
     '20-3':{listening:[],reading:[[20,21],[22,23]]},
-    '20-4':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[]}
+    '20-4':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[]},
+    '21-1':{listening:[[21,22],[23,24]],reading:[]},
+    '21-2':{listening:[[11,12],[13,14],[21,22],[23,24],[25,26]],reading:[[20,21]]},
+    '21-3':{listening:[[11,12],[13,14],[21,22],[23,24]],reading:[]},
+    '21-4':{listening:[[11,12],[13,14]],reading:[]}
   };
   const essayTopics={
     5:{
@@ -186,6 +190,22 @@
     '20-4':{
       1:'The diagram shows how fabric is manufactured from bamboo.',
       2:'Many aspects of the way people dress today are influenced by global fashion trends. How has global fashion become such a strong influence on people’s lives? Do you think this is a positive or negative development?'
+    },
+    '21-1':{
+      1:'The graph below gives information about the number of jobs in four sectors of the economy in the US between 1960 and 2020.',
+      2:'The best way to provide enough homes in large cities is to build tall apartment blocks. To what extent do you agree or disagree with this statement?'
+    },
+    '21-2':{
+      1:'The plans below show a college cafe before it was redesigned and how it looks now.',
+      2:'Some people say that in the digital age, theatres and cinemas are no longer important as people can watch all the entertainment they want online. Others argue that theatres and cinemas are still important both economically and culturally. Discuss both these views and give your own opinion.'
+    },
+    '21-3':{
+      1:'The diagram below shows how one type of desert, known as a rain-shadow desert, is formed.',
+      2:'All university undergraduate courses should include a period of time spent studying abroad or doing a work placement. Do you think the advantages of this would outweigh the disadvantages?'
+    },
+    '21-4':{
+      1:'The chart and table below show the results of a survey of library users at a university.',
+      2:'Some people argue that primary schools focus too much on formal learning. To what extent do you agree with this opinion? How important do you think it is for children to play as well as learn in the primary school classroom?'
     }
   };
   let active=null, saving=null, submitted=new Set();
@@ -254,7 +274,7 @@
   function persist(test,skill,part,item){return set(toKey(test,skill,part),JSON.stringify(item));}
   function progressCount(test,skill){return ranges[skill].filter((_,i)=>attempt(test,skill,i+1).checked).length;}
   const baseOf=(route)=>'#/ielts/cambridge-ielts/'+route.volume.id+'/'+route.exam.id;
-  const testCode=route=>route.volume.id==='cambridge-ielts-academic-20'?'20-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-19'?'19-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
+  const testCode=route=>route.volume.id==='cambridge-ielts-academic-21-2026'?'21-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-20'?'20-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-19'?'19-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-18'?'18-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-17'?'17-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-16'?'16-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-15'?'15-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-14'?'14-'+route.exam.id.replace('test-',''):route.volume.id==='cambridge-ielts-academic-13'?'13-'+route.exam.id.replace('test-',''):route.exam.id.replace('test-','');
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
@@ -275,6 +295,18 @@
   }
   function pageRange(route,skill,part){
     const p=route.exam.pages||{};
+    if(route.volume.id==='cambridge-ielts-academic-21-2026'){
+      const n=Number(route.exam.id.replace('test-',''));
+      const perTest={
+        1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,28]]},
+        2:{listening:[[32,32],[33,34],[35,36],[37,37]],reading:[[38,41],[42,45],[46,50]]},
+        3:{listening:[[54,54],[55,56],[57,58],[59,59]],reading:[[60,63],[64,67],[68,71]]},
+        4:{listening:[[75,75],[76,77],[78,79],[80,80]],reading:[[81,84],[85,88],[89,93]]}
+      };
+      if(skill==='listening'||skill==='reading')return perTest[n]?.[skill]?.[part-1]||p[skill];
+      if(skill==='writing')return [p.writing[0]+part-1,p.writing[0]+part-1];
+      if(skill==='speaking')return p.speaking;
+    }
     if(route.volume.id==='cambridge-ielts-academic-20'){
       const n=Number(route.exam.id.replace('test-',''));
       const perTest={
