@@ -623,6 +623,61 @@ def activate_cambridge20_media(catalog):
     print(f'Published Cambridge IELTS Academic 20: 78 original printed pages and {available}/16 real Listening recordings.')
 
 
+
+def activate_cambridge21_2026_media(catalog):
+    """Publish 2026 Cambridge IELTS Academic 21 without altering Cam 12's legacy media paths."""
+    prefix='media/cambridge-ielts-academic-21-2026'
+    archives=[ROOT/f'cambridge_21_media_test_{t}.zip' for t in range(1,5)]
+    missing=[p.name for p in archives if not p.is_file()]
+    if missing:
+        print('Cambridge IELTS Academic 21 media pending: '+', '.join(missing))
+        return
+    printed={1:(10,31),2:(32,53),3:(54,74),4:(75,96)}
+    all_expected={
+        *(f'{prefix}/pages/page-{n:03d}.webp' for n in range(10,97)),
+        *(f'{prefix}/audio/test-{t}-section-{sec}.mp3' for t in range(1,5) for sec in range(1,5))
+    }
+    found=set()
+    for test,archive_path in enumerate(archives,1):
+        lo,hi=printed[test]
+        expected={
+            *(f'{prefix}/pages/page-{n:03d}.webp' for n in range(lo,hi+1)),
+            *(f'{prefix}/audio/test-{test}-section-{sec}.mp3' for sec in range(1,5))
+        }
+        with zipfile.ZipFile(archive_path) as z:
+            corrupted=z.testzip()
+            if corrupted:
+                raise ValueError('Corrupt Cambridge 21 media archive: '+corrupted)
+            manifest=json.loads(z.read('cambridge_media_manifest.json'))
+            paths=manifest['paths']
+            if (manifest.get('bundle')!=archive_path.name or
+                manifest.get('source')!='Cambridge IELTS Academic 21' or
+                manifest.get('test')!=test or
+                manifest.get('printedPages')!=[lo,hi] or
+                manifest.get('completeAudio') is not True):
+                raise ValueError('Wrong Cambridge IELTS 21 package metadata: '+archive_path.name)
+            if set(paths)!=expected or set(z.namelist())!=expected | {'cambridge_media_manifest.json'}:
+                raise ValueError('Cambridge IELTS 21 ZIP has incorrect book pages or audio: '+archive_path.name)
+            for path,digest in paths.items():
+                if path in found or path not in all_expected:
+                    raise ValueError('Repeated/unexpected Cambridge IELTS 21 file: '+path)
+                payload=z.read(path)
+                if hashlib.sha256(payload).hexdigest()!=digest:
+                    raise ValueError('Cambridge IELTS 21 source checksum mismatch: '+path)
+                dest=OUTPUT/path
+                dest.parent.mkdir(parents=True,exist_ok=True)
+                dest.write_bytes(payload)
+                found.add(path)
+    if found!=all_expected:
+        raise ValueError('Cambridge IELTS 21 requires 87 scanned pages and 16 Listening sections')
+    volume=next(v for v in catalog['volumes'] if v['id']=='cambridge-ielts-academic-21-2026')
+    volume['mediaRoot']=prefix
+    for exam in volume['tests']:
+        t=int(exam['id'].split('-')[1])
+        exam['audio']=[f'{prefix}/audio/test-{t}-section-{sec}.mp3' for sec in range(1,5)]
+    print('Published Cambridge IELTS Academic 21 (2026): 87 original pages, all 16 Listening sections')
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -667,6 +722,7 @@ def build():
     activate_cambridge18_media(catalog)
     activate_cambridge19_media(catalog)
     activate_cambridge20_media(catalog)
+    activate_cambridge21_2026_media(catalog)
     activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
@@ -691,7 +747,7 @@ def build():
     (OUTPUT / 'data.js').write_text(PREFIX + json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + ';\n')
     gate_game_pages(catalog)
     index = (OUTPUT / 'index.html').read_text()
-    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge.css']:
+    for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'flappy.js', 'flappy.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge21-keys.js', 'cambridge.css']:
         version = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         index, count = re.subn(re.escape(asset) + r'\?v=[^"\s<>]+', asset + '?v=' + version, index)
         assert count == 1
