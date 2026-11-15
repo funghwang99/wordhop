@@ -544,7 +544,7 @@ const legacy12=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-21');
 assert(volume21&&volume21.tests.length===4,'Cambridge 21 contains four tests');
 assert.equal(volume21.title,'Cambridge IELTS Academic 21');
 assert(legacy12&&legacy12.title==='Cambridge IELTS Academic 12','Keep existing Cam 12 ID and saved answers intact');
-assert.deepEqual(volume21.tests.map(v=>v.id),['test-1','test-2','test-3','test-4']);
+assert.deepEqual(Array.from(volume21.tests,v=>v.id),['test-1','test-2','test-3','test-4']);
 const printed21={
   1:{listening:[[10,10],[11,12],[13,14],[15,15]],reading:[[16,19],[20,24],[25,28]],writing:[[29,29],[30,30]],speaking:[[31,31]]},
   2:{listening:[[32,32],[33,34],[35,36],[37,37]],reading:[[38,41],[42,45],[46,50]],writing:[[51,51],[52,52]],speaking:[[53,53]]},
