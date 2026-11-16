@@ -25,9 +25,16 @@ for unit in built['units']:
     after_path = ROOT / '_site' / unit['dataFile']
     after = json.loads(after_path.read_text())
     assert after['id'] == before['id']
-    assert len(after['words']) == len(before['words'])
+    if unit['bookId'] in ['simply-pet', 'authentic-1', 'trainer']:
+        visible = [w for w in before['words'] if w['id'] in unit['wordIds']]
+        assert len(after['words']) == unit['wordCount'] == len(unit['wordIds'])
+        assert [w['id'] for w in after['words']] == unit['wordIds']
+        assert len(after['words']) <= len(before['words'])
+    else:
+        visible = before['words']
+        assert len(after['words']) == len(before['words'])
     assert hashlib.sha256(after_path.read_bytes()).hexdigest()[:12] in after_path.name
-    for old, new in zip(before['words'], after['words']):
+    for old, new in zip(visible, after['words']):
         assert {k: v for k, v in new.items() if k != 'image'} == {k: v for k, v in old.items() if k != 'image'}
         if old.get('image'):
             assert new['image'] == old['image'].lstrip('/')
@@ -41,6 +48,12 @@ for unit in built['units']:
             assert resolved.startswith(base), (base, resource, resolved)
             relative = urlsplit(resolved).path[len(urlsplit(base).path):]
             assert (ROOT / '_site' / relative).is_file(), resolved
+pet_books = ['simply-pet', 'authentic-1', 'trainer']
+pet_original = sum(len(json.loads((ROOT/'dist'/u['dataFile'].lstrip('/')).read_text())['words'])
+                   for u in source['units'] if u['bookId'] in pet_books)
+pet_published = sum(u['wordCount'] for u in built['units'] if u['bookId'] in pet_books)
+assert pet_original == 637 and pet_published == 467
+print(f'PASS: PET B1+ filter publishes {pet_published}/{pet_original} vocabulary items; 170 basic items physically absent from published JSON.')
 html = (ROOT / '_site/index.html').read_text()
 for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge21-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
