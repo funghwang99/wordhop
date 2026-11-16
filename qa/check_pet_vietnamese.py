@@ -44,8 +44,8 @@ for unit in catalog['units']:
             assert kind == 'vocabulary'
             assert path.name == f'{unit["id"]}.json'
             assert data['id'] == unit['id']
-            assert len(data['words']) == unit['wordCount'] == 24
-            assert [w['id'] for w in data['words']] == unit['wordIds']
+            assert len(data['words']) == 24 and unit['wordCount'] == len(unit['wordIds'])
+            assert [w['id'] for w in data['words'] if w['id'] in unit['wordIds']] == unit['wordIds']
             assert all(w.get('definitionVi') and w.get('definition') and w['definitionVi'] != w['definition'] for w in data['words'])
             continue
         assert hashlib.sha256(raw).hexdigest()[:12] in path.name
@@ -55,6 +55,8 @@ for unit in catalog['units']:
         canonical = json.dumps(english(data), ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()
         assert hashlib.sha256(canonical).hexdigest() == anchors[(unit['id'], kind)], f'Changed English data: {unit["id"]} {kind}'
         if kind == 'vocabulary':
+            assert unit['wordCount'] == len(unit['wordIds'])
+            assert [w['id'] for w in data['words'] if w['id'] in unit['wordIds']] == unit['wordIds'], 'B1+ subset must preserve word order'
             meanings = set()
             for word in data['words']:
                 vi = word.get('definitionVi')
@@ -81,4 +83,4 @@ assert counts == {('simply-pet', 'vocabulary'): 250, ('authentic-1', 'vocabulary
                   ('simply-pet', 'listening'): 200, ('authentic-1', 'listening'): 100}
 assert seen_words == set(word_map) and seen_questions == set(question_map)
 assert len(anchors) == 36
-print('PASS: all 493 PET meanings and 684 question explanations are Vietnamese; every English field, key, page, audio cue and stable ID matches its reviewed source.')
+print('PASS: all 493 archived PET meanings and 684 question explanations remain reviewed; curated B1+ vocabulary IDs are ordered source subsets, English exams and translations unchanged.')
