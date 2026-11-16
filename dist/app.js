@@ -28,8 +28,13 @@ function loadUnitWords(unit){
  if(Array.isArray(unit.words))return Promise.resolve();
  if(!unitLoads.has(unit.id)){
   const request=fetch(unit.dataFile).then(response=>{if(!response.ok)throw new Error('Unit unavailable');return response.json();}).then(data=>{
-   if(data.id!==unit.id||!Array.isArray(data.words)||data.words.length!==unitSize(unit)||data.words.some((w,i)=>w.id!==unit.wordIds[i]))throw new Error('Unit data mismatch');
-   unit.words=data.words;
+   // The uploaded source archive remains immutable; show only the curated B1+ ID list
+   // for PET Flashcards and all WordHop Practice modes (Matching, Quiz and Cloze).
+   // Retaining IDs also preserves prior viewed-card progress for words that survive.
+   const curated=(Array.isArray(data.words)&&unit.bookId&&['simply-pet','authentic-1','trainer'].includes(unit.bookId))
+     ? data.words.filter(w=>unit.wordIds.includes(w.id)):data.words;
+   if(data.id!==unit.id||!Array.isArray(curated)||curated.length!==unitSize(unit)||curated.some((w,i)=>w.id!==unit.wordIds[i]))throw new Error('Unit data mismatch');
+   unit.words=curated;
   }).catch(error=>{unitLoads.delete(unit.id);throw error;});
   unitLoads.set(unit.id,request);
  }
