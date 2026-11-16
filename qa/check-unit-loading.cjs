@@ -20,6 +20,19 @@ async function run(){
  await context.loadUnitWords(retry);assert.equal(failures,2);
  context.fetch=async()=>({ok:true,json:async()=>({id:'wrong-unit',words:[{id:'wrong-word'}]})});
  await assert.rejects(context.loadUnitWords({id:'expected',wordCount:1,wordIds:['expected-word'],dataFile:'/expected.json'}));
+ // Preserve the reviewed source archive but expose only B1+ word IDs to every practice mode.
+ context.fetch=async()=>({ok:true,json:async()=>({id:'pet-curated',words:[
+  {id:'a2-basic',term:'borrow'}, {id:'b1-first',term:'persuade'},
+  {id:'a2-basic2',term:'helmet'}, {id:'b2-last',term:'spectacular'}
+ ]})});
+ const pet={id:'pet-curated',bookId:'trainer',wordCount:2,wordIds:['b1-first','b2-last'],dataFile:'/pet-archive.json'};
+ await context.loadUnitWords(pet);
+ assert.deepEqual(JSON.stringify(pet.words.map(w=>w.term)),JSON.stringify(['persuade','spectacular']));
+ assert.equal(pet.words.length,pet.wordCount);
+ const wrongOrder={id:'pet-wrong',bookId:'authentic-1',wordCount:2,wordIds:['b1-last','b1-first'],dataFile:'/invalid.json'};
+ context.fetch=async()=>({ok:true,json:async()=>({id:'pet-wrong',words:[{id:'b1-first'},{id:'b1-last'}]})});
+ await assert.rejects(context.loadUnitWords(wrongOrder),/Unit data mismatch/);
+ console.log('PASS: PET Flashcards/Practice load only curated B1+ vocabulary; A1/A2 source items do not leak.');
  console.log('PASS: unit request deduplication, cached reuse, failed-request retry and invalid-data rejection.');
 }
 run().catch(error=>{console.error(error);process.exitCode=1;});
