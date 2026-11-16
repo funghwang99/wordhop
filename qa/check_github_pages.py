@@ -54,6 +54,29 @@ pet_original = sum(len(json.loads((ROOT/'dist'/u['dataFile'].lstrip('/')).read_t
 pet_published = sum(u['wordCount'] for u in built['units'] if u['bookId'] in pet_books)
 assert pet_original == 637 and pet_published == 467
 print(f'PASS: PET B1+ filter publishes {pet_published}/{pet_original} vocabulary items; 170 basic items physically absent from published JSON.')
+# Six standalone PET arcade games have their own embedded banks.
+# Verify they display exactly the same B1+ words as the published Flashcards/Practice JSON.
+pet_game_units = {
+    'authentic-1-test-1': 'pet-authentic-test1-park-builder.html',
+    'authentic-1-test-2': 'pet-authentic-test2-skyport.html',
+    'authentic-1-test-3': 'pet-authentic-test3-castle-guard.html',
+    'authentic-1-test-4': 'pet-authentic-test4-reel-quest.html',
+    'trainer-test-1': 'pet-trainer-test1-express.html',
+    'trainer-test-2': 'pet-trainer-test2-cliff-quest.html'
+}
+for unit_id, game_file in pet_game_units.items():
+    unit = next(u for u in built['units'] if u['id'] == unit_id)
+    published = json.loads((ROOT / '_site' / unit['dataFile']).read_text())['words']
+    game_html = (ROOT / '_site' / 'games' / game_file).read_text()
+    match = re.search(r'<script id="(?:wordbank|vocab)" type="application/json">(\[.*?\])</script>', game_html, re.S)
+    if match is None:  # Castle Guard defines its original word deck as a JS array.
+        match = re.search(r'const WORDS=(\[.*?\]);\s*', game_html, re.S)
+    assert match is not None, 'Missing PET game bank: ' + game_file
+    game = json.loads(match.group(1))
+    assert len(game) == unit['wordCount']
+    assert [w['term'] for w in game] == [w['term'] for w in published], 'B1+ PET game and Flashcards differ: ' + game_file
+print('PASS: 6 PET arcade game banks match the curated B1+ Flashcards and Practice decks exactly.')
+
 html = (ROOT / '_site/index.html').read_text()
 for asset in ['data.js', 'app.js', 'reading.js', 'listening.js', 'student.js', 'writing.js', 'styles.css', 'trainer.js', 'trainer.css', 'cambridge.js', 'cambridge-keys.js', 'cambridge13-keys.js', 'cambridge14-keys.js', 'cambridge15-keys.js', 'cambridge16-keys.js', 'cambridge17-keys.js', 'cambridge18-keys.js', 'cambridge19-keys.js', 'cambridge20-keys.js', 'cambridge21-keys.js', 'cambridge.css']:
     assert asset + '?v=' + hashlib.sha256((ROOT / '_site' / asset).read_bytes()).hexdigest()[:12] in html
