@@ -16,7 +16,8 @@ assert.deepEqual([manifest.testCount,manifest.wordCount,manifest.readingQuestion
 assert.deepEqual([audio.trackCount,audio.tracks.length],[16,16]);
 assert.deepEqual(vocabulary.needsReview,[]);
 const units=catalog.units.filter(u=>u.bookId==='authentic-1');assert.equal(units.length,4);
-const existingUnits=catalog.units.filter(u=>u.bookId!=='trainer');assert.equal(existingUnits.length,25);assert.equal(existingUnits.reduce((n,u)=>n+u.wordCount,0),1055);assert.equal(catalog.units.filter(u=>u.bookId==='trainer').length,6);
+const existingUnits=catalog.units.filter(u=>u.bookId!=='trainer');assert.equal(existingUnits.length,25);assert.equal(catalog.units.filter(u=>u.bookId==='trainer').length,6);
+assert(existingUnits.every(u=>u.wordIds.length===u.wordCount),'Curated word counts match visible IDs');
 const context={window:{addEventListener(){}},document:{addEventListener(){}},localStorage:{getItem(){return null;}},setTimeout,clearTimeout};
 vm.createContext(context);
 for(const module of ['reading.js','listening.js'])vm.runInContext(fs.readFileSync(path.join(dist,module),'utf8'),context);
@@ -26,7 +27,9 @@ for(const [index,unit]of units.entries()){
  const test=index+1;assert.equal(unit.id,`authentic-1-test-${test}`);
  const vocab=hashed(unit.dataFile.replace(/^\//,''));assert.equal(vocab.id,unit.id);
  assert.equal(vocab.words.length,[62,62,57,62][index]);
- assert.deepEqual(unit.wordIds,vocab.words.map(w=>w.id));
+ assert.equal(unit.wordCount,unit.wordIds.length);
+ assert(unit.wordCount>=25&&unit.wordCount<=[62,62,57,62][index]);
+ assert.deepEqual(vocab.words.filter(w=>unit.wordIds.includes(w.id)).map(w=>w.id),unit.wordIds,'B1+ curated list must stay in source order');
  for(const [i,word]of vocab.words.entries()){
   assert.ok(!wordIds.has(word.id));wordIds.add(word.id);
   const {id,definitionVi,...fields}=word;assert.deepEqual(fields,vocabulary.tests[index].words[i]);
@@ -83,3 +86,4 @@ const second=hashed(units[1].listeningFile).parts[2].questions.find(q=>q.number=
 assert.equal(context.window.WordHopListening.grade(second,'8 months'),true);
 assert.equal(context.window.WordHopListening.grade(second,'8'),false);
 console.log('PASS: Authentic 1: 243 source vocabulary entries, 128 publisher-checked Reading questions, 100 Listening questions with reviewed replay cues, 64 original pages and 16 complete recordings.');
+console.log('PASS: Authentic 1 '+units.reduce((n,u)=>n+u.wordCount,0)+' selected B1+ items are a sourced subset of the original 243 entries; exam material unchanged.');
