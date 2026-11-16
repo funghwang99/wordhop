@@ -730,6 +730,13 @@ def build():
         source_path = relative_asset(unit['dataFile'], 'units')
         data = json.loads((SOURCE / source_path).read_text())
         assert data['id'] == unit['id']
+        # Preserve reviewed teaching sources, but publish only curated CEFR B1+ words
+        # for PET. This removes A1/A2 cards from the actual GitHub Pages JSON,
+        # not merely from the Flashcards screen.
+        if unit['bookId'] in {'simply-pet', 'authentic-1', 'trainer'}:
+            selected_ids = set(unit['wordIds'])
+            assert len(selected_ids) == unit['wordCount']
+            data['words'] = [word for word in data['words'] if word['id'] in selected_ids]
         assert len(data['words']) == unit['wordCount']
         assert [word['id'] for word in data['words']] == unit['wordIds']
         for word in data['words']:
