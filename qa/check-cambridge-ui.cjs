@@ -559,6 +559,8 @@ for(const exam of volume.tests){
       assert(html.includes('cm-vocab-standalone'),'Standalone Cambridge 12 vocabulary screen');
       assert(html.includes('data-cam-vocab-panel'),'Vocabulary panel renders');
       assert(html.includes(base+'/flashcards/part-1')&&html.includes(base+'/practice/part-1'),'Both vocabulary tabs available');
+      assert(html.includes('cm-six-skill-tabs'),'One horizontal six-tab navigation');
+      assert.equal((html.match(/class="unit-tab/g)||[]).length,6,'Flashcards and Practice alongside four skills');
       if(skill==='flashcards')assert(html.includes('Reveal answer')&&!html.includes('Practice quiz'),'Standalone flashcards');
       if(skill==='practice')assert(html.includes('Which word matches this definition?'),'Standalone practice quiz');
     }
