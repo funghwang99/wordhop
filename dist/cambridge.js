@@ -472,11 +472,78 @@
     return '<form class="reading-answer-sheet" data-cam-form="'+skill+'"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>Follow the original book instructions and word limits for Questions '+from+'–'+to+'. Answers are saved on this device.</p></div>'+(item.checked?'<strong class="reading-score" role="status" tabindex="-1">'+correct+'/'+total+' correct</strong>':'')+'</div><div class="reading-answer-inputs">'+Array.from({length:total},(_,i)=>answerInput(test,skill,from+i,item)).join('')+'</div><div class="reading-submit-row">'+(item.checked?'<button type="button" class="btn" data-cam-action="retry">Try this part again</button>':'<button type="submit" class="btn btn-primary">Check answers</button>')+'<button class="text-button" type="button" data-cam-action="back-to-page">Back to book page ↑</button></div></form>'+
       (item.checked?'<section class="reading-solutions"><h3>Answer key &amp; results</h3><p class="reading-solution-note">Checked against the publisher answer key in the supplied Cambridge IELTS PDF. Detailed explanations and timestamped audio replays are not available yet.</p>'+Array.from({length:total},(_,i)=>solution(test,skill,from+i,item,graded)).join('')+'</section>':'<p class="reading-key-note">Check your answers to see the answer key for every question. Unanswered questions receive no mark.</p>');
   }
+
+  // Cambridge IELTS 12 has its original printed Tests 5–8. Keep the legacy volume route.
+  let cam12VocabSession=null;
+  function cam12VocabSource(route,part){
+    if(route.volume.id!=='cambridge-ielts-academic-21')return null;
+    return window.WordHopCambridge12Vocabulary?.[route.exam.id.replace('test-','')+'-'+part]||null;
+  }
+  function cam12VocabHtml(route,part){
+    const source=cam12VocabSource(route,part);
+    if(!source?.words?.length)return '';
+    const key=route.exam.id+'-'+part;
+    if(!cam12VocabSession||cam12VocabSession.key!==key)
+      cam12VocabSession={key,index:0,revealed:false,mode:'flash',selected:null,correct:0,completed:0};
+    const v=cam12VocabSession,words=source.words,item=words[v.index%words.length],ix=v.index%words.length;
+    let main='';
+    if(v.mode==='flash'){
+      main='<div class="cm-vocab-card"><div class="cm-vocab-card-index">Card '+(ix+1)+' / '+words.length+'</div>'+
+        '<div class="cm-vocab-term">'+esc(item.word)+'</div>'+
+        (v.revealed?'<div class="cm-vocab-definition">'+esc(item.definition)+'</div><div class="cm-vocab-example">'+esc(item.example)+'</div>':'<p class="cm-vocab-hint">Recall the definition before revealing it.</p>')+
+        '<div class="cm-vocab-controls"><button type="button" data-cam-vocab="previous">Previous</button>'+
+        '<button type="button" class="cm-vocab-primary" data-cam-vocab="flip">'+(v.revealed?'Hide answer':'Reveal answer')+'</button>'+
+        '<button type="button" data-cam-vocab="next">Next</button></div></div>';
+    }else{
+      const optionIndices=[ix,(ix+3)%words.length,(ix+5)%words.length,(ix+7)%words.length];
+      const order=[optionIndices[(ix+1)%4],optionIndices[(ix+2)%4],optionIndices[(ix+3)%4],optionIndices[ix%4]];
+      main='<div class="cm-vocab-card"><div class="cm-vocab-card-index">Question '+(ix+1)+' / '+words.length+' · '+v.correct+' correct</div>'+
+        '<p class="cm-vocab-quiz-prompt">Which word matches this definition?</p>'+
+        '<div class="cm-vocab-definition">'+esc(item.definition)+'</div>'+
+        '<div class="cm-vocab-options">'+order.map(n=>{
+          const selected=v.selected===n,correct=n===ix,answered=v.selected!==null;
+          const status=answered&&correct?' is-correct':answered&&selected?' is-incorrect':'';
+          return '<button type="button" data-cam-vocab="choose" data-cam-choice="'+n+'"'+(answered?' disabled':'')+' class="cm-vocab-option'+status+'">'+esc(words[n].word)+'</button>';
+        }).join('')+'</div>'+
+        (v.selected===null?'':('<p class="cm-vocab-feedback">'+(v.selected===ix?'Correct!':'Correct answer: '+esc(item.word))+'</p><p class="cm-vocab-example">'+esc(item.example)+'</p>'))+
+        '<div class="cm-vocab-controls"><button type="button" data-cam-vocab="restart">Restart</button>'+
+        '<button type="button" class="cm-vocab-primary" data-cam-vocab="next-question"'+(v.selected===null?' disabled':'')+'>'+(ix===words.length-1?'Start again':'Next question')+'</button></div></div>';
+    }
+    return '<details class="cm-vocab-panel" data-cam-vocab-panel><summary><strong>Vocabulary · '+words.length+' words</strong><span>'+esc(source.title)+' · Flashcards &amp; Practice</span></summary>'+
+      '<div class="cm-vocab-inner"><div class="cm-vocab-mode"><button type="button" data-cam-vocab="mode-flash" aria-pressed="'+(v.mode==='flash')+'">Flashcards</button>'+
+      '<button type="button" data-cam-vocab="mode-quiz" aria-pressed="'+(v.mode==='quiz')+'">Practice quiz</button></div>'+
+      '<div data-cam-vocab-body>'+main+'</div></div></details>';
+  }
+  function cam12VocabRefresh(a){
+    const existing=a.container.querySelector?.('[data-cam-vocab-panel]');
+    if(!existing)return;
+    const open=existing.open;
+    const temp=document.createElement('div');
+    temp.innerHTML=cam12VocabHtml(a.route,a.part);
+    const replacement=temp.firstElementChild;
+    if(!replacement)return;
+    replacement.open=open;
+    existing.replaceWith(replacement);
+  }
+  function cam12VocabClick(a,button){
+    const source=cam12VocabSource(a.route,a.part),v=cam12VocabSession;
+    if(!source||!v)return;
+    const count=source.words.length,action=button.dataset.camVocab;
+    if(action==='mode-flash'||action==='mode-quiz'){v.mode=action==='mode-flash'?'flash':'quiz';v.index=0;v.revealed=false;v.selected=null;v.correct=0;v.completed=0;}
+    else if(action==='previous'){v.index=(v.index+count-1)%count;v.revealed=false;}
+    else if(action==='next'){v.index=(v.index+1)%count;v.revealed=false;}
+    else if(action==='flip'){v.revealed=!v.revealed;}
+    else if(action==='restart'){v.index=0;v.correct=0;v.completed=0;v.selected=null;}
+    else if(action==='choose'&&v.selected===null){v.selected=Number(button.dataset.camChoice);v.completed++;if(v.selected===v.index%count)v.correct++;}
+    else if(action==='next-question'&&v.selected!==null){v.index=(v.index+1)%count;v.selected=null;if(v.index===0){v.completed=0;v.correct=0;}}
+    cam12VocabRefresh(a);
+  }
+
   function reading(route,base){
     const test=testCode(route),part=Math.min(Math.max(route.part,1),3),pg=pageRange(route,'reading',part);
     const complete=progressCount(test,'reading');
     return '<section class="reading-view cm-cambridge-exam" aria-label="Book reading test"><div class="reading-intro"><div><h2>Reading</h2><p>Read the passage on the left and answer the questions on the right. Both panels scroll independently.</p></div><span class="reading-completion">'+complete+'/3 passages checked</span></div>'+
-      partNav(base,test,'reading',part)+
+      partNav(base,test,'reading',part)+cam12VocabHtml(route,part)+
       '<div class="cm-exam-split" role="group" aria-label="Reading passage and answer sheet">'+
       '<section class="cm-split-pane cm-question-pane" aria-label="Reading passage" tabindex="0"><div class="cm-pane-label"><strong>Reading passage '+part+'</strong><span>Scroll to read the original pages</span></div>'+
       '<div class="reading-part-heading"><div><h3>Reading Passage '+part+'</h3><p>Questions '+range('reading',part).join('–')+' · Book '+(pg[0]===pg[1]?'page':'pages')+' '+pg.join('–')+'</p></div>'+mediaControls(route,'reading',part)+'</div>'+
@@ -651,6 +718,8 @@
     img.replaceWith(holder);
   },true);
   document.addEventListener('click',event=>{
+    const vocabButton=event.target.closest('[data-cam-vocab]');
+    if(vocabButton){const a=context();if(a&&a.skill==='reading')cam12VocabClick(a,vocabButton);return;}
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
     const act=button.dataset.camAction;
