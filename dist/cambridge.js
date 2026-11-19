@@ -475,66 +475,128 @@
       (item.checked?'<section class="reading-solutions"><h3>Answer key &amp; results</h3><p class="reading-solution-note">Checked against the publisher answer key in the supplied Cambridge IELTS PDF. Detailed explanations and timestamped audio replays are not available yet.</p>'+Array.from({length:total},(_,i)=>solution(test,skill,from+i,item,graded)).join('')+'</section>':'<p class="reading-key-note">Check your answers to see the answer key for every question. Unanswered questions receive no mark.</p>');
   }
 
-  // Cambridge IELTS 12 has its original printed Tests 5–8. Keep the legacy volume route.
+
+  // Cambridge IELTS 12 keeps its separate English-only vocabulary routes.
   let cam12VocabSession=null;
   function cam12VocabSource(route,part){
-    if(route.volume.id!=='cambridge-ielts-academic-21')return null;
-    return window.WordHopCambridge12Vocabulary?.[route.exam.id.replace('test-','')+'-'+part]||null;
+    return route.volume.id==='cambridge-ielts-academic-21'?
+      window.WordHopCambridge12Vocabulary?.[route.exam.id.replace('test-','')+'-'+part]:null;
+  }
+  function cam12VocabStem(w){return w.word.replace(/\s*\((n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
+  function cam12VocabSessionFor(route,part){
+    const key=route.exam.id+'-'+part+'-'+route.skill;
+    if(!cam12VocabSession||cam12VocabSession.key!==key)cam12VocabSession={
+      key,mode:route.skill==='flashcards'?'flash':'menu',index:0,revealed:false,selected:null,score:0,
+      matched:[],left:null,right:null,batch:0,message:'',typed:'',checked:null
+    };
+    return cam12VocabSession;
   }
   function cam12VocabHtml(route,part){
     const source=cam12VocabSource(route,part);
-    if(!source?.words?.length)return '';
-    const key=route.exam.id+'-'+part+'-'+route.skill;
-    const fixedMode=route.skill==='practice'?'quiz':'flash';
-    if(!cam12VocabSession||cam12VocabSession.key!==key)
-      cam12VocabSession={key,index:0,revealed:false,mode:fixedMode,selected:null,correct:0,completed:0};
-    const v=cam12VocabSession,words=source.words,item=words[v.index%words.length],ix=v.index%words.length;
-    let main='';
+    if(!source?.words?.length)return '<p class="notice">Vocabulary unavailable.</p>';
+    const words=source.words,v=cam12VocabSessionFor(route,part),i=v.index,word=words[i],term=cam12VocabStem(word);
+    const btn=(a,label,main=false,disabled=false)=>'<button type="button" class="btn'+(main?' btn-primary':'')+'" data-cam-vocab="'+a+'"'+(disabled?' disabled':'')+'>'+esc(label)+'</button>';
+    let body='';
     if(v.mode==='flash'){
-      main='<div class="cm-vocab-card"><div class="cm-vocab-card-index">Card '+(ix+1)+' / '+words.length+'</div>'+
-        '<div class="cm-vocab-term">'+esc(item.word)+'</div>'+
-        (v.revealed?'<div class="cm-vocab-definition">'+esc(item.definition)+'</div><div class="cm-vocab-example">'+esc(item.example)+'</div>':'<p class="cm-vocab-hint">Recall the definition before revealing it.</p>')+
-        '<div class="cm-vocab-controls"><button type="button" data-cam-vocab="previous">Previous</button>'+
-        '<button type="button" class="cm-vocab-primary" data-cam-vocab="flip">'+(v.revealed?'Hide answer':'Reveal answer')+'</button>'+
-        '<button type="button" data-cam-vocab="next">Next</button></div></div>';
-    }else{
-      const optionIndices=[ix,(ix+3)%words.length,(ix+5)%words.length,(ix+7)%words.length];
-      const order=[optionIndices[(ix+1)%4],optionIndices[(ix+2)%4],optionIndices[(ix+3)%4],optionIndices[ix%4]];
-      main='<div class="cm-vocab-card"><div class="cm-vocab-card-index">Question '+(ix+1)+' / '+words.length+' · '+v.correct+' correct</div>'+
-        '<p class="cm-vocab-quiz-prompt">Which word matches this definition?</p>'+
-        '<div class="cm-vocab-definition">'+esc(item.definition)+'</div>'+
-        '<div class="cm-vocab-options">'+order.map(n=>{
-          const selected=v.selected===n,correct=n===ix,answered=v.selected!==null;
-          const status=answered&&correct?' is-correct':answered&&selected?' is-incorrect':'';
-          return '<button type="button" data-cam-vocab="choose" data-cam-choice="'+n+'"'+(answered?' disabled':'')+' class="cm-vocab-option'+status+'">'+esc(words[n].word)+'</button>';
-        }).join('')+'</div>'+
-        (v.selected===null?'':('<p class="cm-vocab-feedback">'+(v.selected===ix?'Correct!':'Correct answer: '+esc(item.word))+'</p><p class="cm-vocab-example">'+esc(item.example)+'</p>'))+
-        '<div class="cm-vocab-controls"><button type="button" data-cam-vocab="restart">Restart</button>'+
-        '<button type="button" class="cm-vocab-primary" data-cam-vocab="next-question"'+(v.selected===null?' disabled':'')+'>'+(ix===words.length-1?'Start again':'Next question')+'</button></div></div>';
+      body='<div class="study-area"><div class="study-top"><span>Flashcards · <strong>'+(i+1)+'/'+words.length+'</strong></span><span>Tap to flip</span></div>'+
+        '<div class="flash-stage"><button type="button" class="flashcard cm-flipcard'+(v.revealed?' is-flipped':'')+'" data-cam-vocab="flip" aria-pressed="'+v.revealed+'">'+
+        '<span class="flash-inner"><span class="flash-face flash-front" aria-hidden="'+v.revealed+'"><span class="flash-label">VOCABULARY</span>'+
+        '<span class="flash-term">'+esc(term)+'</span><span class="flip-note">Tap the card to reveal the definition</span></span>'+
+        '<span class="flash-face flash-back" aria-hidden="'+!v.revealed+'"><span class="flash-label">DEFINITION & EXAMPLE</span>'+
+        '<span class="back-term">'+esc(term)+'</span><span class="flash-definition">'+esc(word.definition)+'</span>'+
+        '<span class="flash-example">'+esc(word.example)+'</span></span></span></button></div>'+
+        '<div class="flash-actions">'+btn('previous','Previous')+btn('flip','Flip card',true)+btn('next','Next')+'</div></div>';
+    }else if(v.mode==='menu'){
+      body='<p class="practice-intro">Choose a practice mode for the '+words.length+' words in this passage.</p>'+
+        '<div class="practice-grid cm-pet-practice-grid">'+
+        [['match','Matching','Match words and definitions in sets of five.'],['quiz','Multiple choice','Choose the correct word from four answers.'],
+        ['cloze','Fill in the blanks','Type the missing word without a word bank.']].map(([a,label,description])=>
+        '<button type="button" class="mode-card" data-cam-vocab="start-'+a+'"><span class="cm-mode-symbol">'+
+        (a==='match'?'⇄':a==='quiz'?'✓':'✎')+'</span><h2>'+label+'</h2><p>'+description+
+        '</p><span class="start-label">Start practice →</span></button>').join('')+'</div>';
+    }else if(v.mode==='match'){
+      const start=v.batch*5,items=words.slice(start,start+5),right=items.map((_,n)=>items[(n+2)%items.length]);
+      const tile=(w,side)=>{
+        const idx=words.indexOf(w),done=v.matched.includes(idx),active=(side==='left'?v.left:v.right)===idx;
+        return '<button type="button" class="match-tile'+(done?' matched':'')+(active?' selected':'')+'" data-cam-vocab="match-'+side+
+          '" data-cam-choice="'+idx+'"'+(done?' disabled':'')+'>'+esc(side==='left'?cam12VocabStem(w):w.definition)+'</button>';
+      };
+      body='<div class="game-wrap"><div class="game-top"><h2>Matching</h2><span>'+v.matched.length+'/'+words.length+' pairs</span></div>'+
+        '<div class="question-card"><p class="instruction">Select a word, then its definition.</p>'+
+        '<div class="match-labels"><span>Vocabulary</span><span>Definition</span></div><div class="match-grid">'+
+        '<div class="match-column">'+items.map(w=>tile(w,'left')).join('')+'</div>'+
+        '<div class="match-column">'+right.map(w=>tile(w,'right')).join('')+'</div></div>'+
+        '<p class="match-status" role="status">'+esc(v.message||'Find all five pairs.')+'</p>'+
+        '<div class="question-footer">'+btn('menu','Change mode')+
+        (items.every(w=>v.matched.includes(words.indexOf(w)))?btn('next-batch',start+5>=words.length?'See results':'Next round',true):'')+
+        '</div></div></div>';
+    }else if(v.mode==='quiz'){
+      const opts=[i,(i+3)%words.length,(i+5)%words.length,(i+7)%words.length];
+      const order=[opts[1],opts[2],opts[3],opts[0]];
+      body='<div class="game-wrap"><div class="game-top"><h2>Multiple choice</h2><span>'+(i+1)+'/'+words.length+' · '+v.score+' correct</span></div>'+
+        '<div class="question-card"><p class="instruction">Choose the word matching this definition.</p><p class="cm-quiz-definition">'+esc(word.definition)+'</p>'+
+        '<div class="answer-grid">'+order.map((idx,n)=>'<button type="button" data-cam-vocab="choose" data-cam-choice="'+idx+
+        '" class="answer'+(v.selected!==null&&idx===i?' correct':v.selected===idx?' incorrect':'')+
+        '"'+(v.selected!==null?' disabled':'')+'><span class="answer-key">'+String.fromCharCode(65+n)+'</span>'+esc(cam12VocabStem(words[idx]))+'</button>').join('')+'</div>'+
+        (v.selected===null?'':'<div class="feedback'+(v.selected===i?'':' wrong')+'"><strong>'+
+          (v.selected===i?'Correct!':'Correct answer: '+esc(term))+'</strong><em>'+esc(word.example)+'</em></div>')+
+        '<div class="question-footer">'+btn('menu','Change mode')+btn('next-question',i===words.length-1?'See results':'Next',true,v.selected===null)+'</div></div></div>';
+    }else if(v.mode==='cloze'){
+      const normterm=term.replace(/[.*+?^$()|[\]{}\\]/g,'\\$&');
+      const pattern=new RegExp(normterm,'i');
+      const sentence=pattern.test(word.example)?word.example.replace(pattern,'__________'):
+        word.example+' The target word is __________.';
+      body='<div class="game-wrap"><div class="game-top"><h2>Fill in the blanks</h2><span>'+(i+1)+'/'+words.length+' · '+v.score+' correct</span></div>'+
+        '<div class="question-card"><p class="instruction">Type the missing vocabulary. Press Enter to check.</p>'+
+        '<p class="cloze-sentence">'+esc(sentence)+'</p><p class="cm-cloze-clue">'+esc(word.definition)+'</p>'+
+        '<div class="cloze-form"><label for="cam12-cloze-input">Your answer</label>'+
+        '<input id="cam12-cloze-input" type="text" data-cam-cloze value="'+esc(v.typed)+'" autocomplete="off" spellcheck="false"'+(v.checked!==null?' disabled':'')+' /></div>'+
+        (v.checked===null?'':'<div class="feedback'+(v.checked?'':' wrong')+'"><strong>'+
+        (v.checked?'Correct!':'Correct answer: '+esc(term))+'</strong><em>'+esc(word.example)+'</em></div>')+
+        '<div class="question-footer">'+btn('menu','Change mode')+
+        (v.checked===null?btn('check-cloze','Check answer',true):btn('next-question',i===words.length-1?'See results':'Next',true))+
+        '</div></div></div>';
+    }else if(v.mode==='results'){
+      body='<div class="result-summary"><h2>Practice complete!</h2><p>Your results for this passage</p>'+
+        '<div class="result-numbers"><div><strong>'+v.score+'</strong><small>Correct</small></div>'+
+        '<div><strong>'+words.length+'</strong><small>Total words</small></div></div>'+
+        '<div class="result-actions">'+btn('restart','Try again',true)+btn('menu','Choose another mode')+'</div></div>';
     }
-    return '<section class="cm-vocab-panel cm-vocab-standalone" data-cam-vocab-panel>'+ 
-      '<div class="cm-vocab-inner"><div data-cam-vocab-body>'+main+'</div></div></section>';
+    return '<section class="cm-vocab-panel cm-vocab-standalone" data-cam-vocab-panel><div class="cm-vocab-inner">'+body+'</div></section>';
   }
   function cam12VocabRefresh(a){
-    const existing=a.container.querySelector?.('[data-cam-vocab-panel]');
-    if(!existing)return;
-    const temp=document.createElement('div');
-    temp.innerHTML=cam12VocabHtml(a.route,a.part);
-    const replacement=temp.firstElementChild;
-    if(!replacement)return;
-    existing.replaceWith(replacement);
+    const el=a.container.querySelector?.('[data-cam-vocab-panel]');if(!el)return;
+    const div=document.createElement('div');div.innerHTML=cam12VocabHtml(a.route,a.part);
+    if(div.firstElementChild)el.replaceWith(div.firstElementChild);
   }
   function cam12VocabClick(a,button){
     const source=cam12VocabSource(a.route,a.part),v=cam12VocabSession;
     if(!source||!v)return;
-    const count=source.words.length,action=button.dataset.camVocab;
-    if(action==='mode-flash'||action==='mode-quiz'){v.mode=action==='mode-flash'?'flash':'quiz';v.index=0;v.revealed=false;v.selected=null;v.correct=0;v.completed=0;}
-    else if(action==='previous'){v.index=(v.index+count-1)%count;v.revealed=false;}
-    else if(action==='next'){v.index=(v.index+1)%count;v.revealed=false;}
-    else if(action==='flip'){v.revealed=!v.revealed;}
-    else if(action==='restart'){v.index=0;v.correct=0;v.completed=0;v.selected=null;}
-    else if(action==='choose'&&v.selected===null){v.selected=Number(button.dataset.camChoice);v.completed++;if(v.selected===v.index%count)v.correct++;}
-    else if(action==='next-question'&&v.selected!==null){v.index=(v.index+1)%count;v.selected=null;if(v.index===0){v.completed=0;v.correct=0;}}
+    const words=source.words,n=words.length,act=button.dataset.camVocab;
+    if(act==='flip')v.revealed=!v.revealed;
+    else if(act==='previous'||act==='next'){v.index=(v.index+(act==='next'?1:n-1))%n;v.revealed=false;}
+    else if(act==='menu'){v.mode='menu';v.index=0;}
+    else if(act.startsWith('start-')){v.mode=act.slice(6);v.index=0;v.score=0;v.selected=null;v.matched=[];v.left=null;v.right=null;v.batch=0;v.typed='';v.checked=null;v.message='';}
+    else if(act==='restart'){v.mode='menu';v.index=0;v.score=0;}
+    else if(act==='choose'&&v.selected===null){v.selected=Number(button.dataset.camChoice);if(v.selected===v.index)v.score++;}
+    else if(act==='match-left'||act==='match-right'){
+      const idx=Number(button.dataset.camChoice);if(v.matched.includes(idx))return;
+      if(act==='match-left')v.left=idx;else v.right=idx;
+      if(v.left!==null&&v.right!==null){
+        if(v.left===v.right){v.matched.push(v.left);v.score++;v.message='Correct pair!';}
+        else v.message='Try another pair.';
+        v.left=null;v.right=null;
+      }
+    }else if(act==='next-batch'){
+      if((v.batch+1)*5>=n)v.mode='results';else {v.batch++;v.message='';}
+    }else if(act==='check-cloze'&&v.checked===null){
+      const input=a.container.querySelector?.('[data-cam-cloze]');v.typed=String(input?.value||'').trim();
+      if(!v.typed){input?.focus?.();return;}
+      const clean=t=>String(t).trim().toLowerCase().replace(/[.!?,]+$/,'').replace(/\s+/g,' ');
+      v.checked=clean(v.typed)===clean(cam12VocabStem(words[v.index]));if(v.checked)v.score++;
+    }else if(act==='next-question'){
+      if(v.index+1>=n)v.mode='results';else{v.index++;v.selected=null;v.typed='';v.checked=null;}
+    }
     cam12VocabRefresh(a);
   }
 
