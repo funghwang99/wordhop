@@ -138,3 +138,10 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .cm-vocab-standalone .cm-swipe-stage{touch-action:pan-y;user-select:none;-webkit-user-select:none;will-change:transform,opacity}
 .cm-vocab-standalone .cm-swipe-help{text-align:center;font-size:12px;line-height:1.8;color:#8792a3;margin:13px 0 0}
 @media(prefers-reduced-motion:reduce){.cm-vocab-standalone .cm-flipcard .flash-inner{transition:none}}
+
+/* Cambridge IELTS 12: accessible word pronunciation button on the merged test deck. */
+.cm-vocab-standalone .cm-vocab-pronounce{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;padding:7px 13px;border:1px solid #d6e1f1;border-radius:8px;background:#f5f8fe;color:#365da8;font-size:13px;font-weight:650;text-decoration:none}
+.cm-vocab-standalone .cm-vocab-pronounce:hover{background:#e8f0ff;border-color:#acc5ed}
+.cm-vocab-standalone .cm-vocab-speech-status{display:block;font-size:12px;color:#8c5260;margin:0 0 8px}
+.cm-vocab-standalone .cm-vocab-speech-status:empty{display:none}
+@media(max-width:480px){.cm-vocab-standalone .cm-vocab-pronounce{font-size:12px;min-height:36px;padding:6px 10px}}
