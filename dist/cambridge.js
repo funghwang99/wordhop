@@ -749,6 +749,15 @@
       submitted.delete(key);if(context()===a){const btn=document.querySelector('[data-cam-action="submit-writing"]');if(btn){btn.disabled=false;btn.textContent='Submit writing';}}
     }
   }
+  // Enter submits typed Cambridge 12 practice answers without affecting exam answer sheets.
+  document.addEventListener('keydown',event=>{
+    if(event.key!=='Enter'||!event.target?.matches?.('[data-cam-cloze]'))return;
+    const a=context();if(!a||a.skill!=='practice')return;
+    event.preventDefault();
+    const panel=a.container.querySelector?.('[data-cam-vocab-panel]');
+    const button=panel?.querySelector?.('[data-cam-vocab="check-cloze"],[data-cam-vocab="next-question"]');
+    if(button)cam12VocabClick(a,button);
+  });
   document.addEventListener('input',updateField);
   document.addEventListener('change',updateField);
   document.addEventListener('submit',event=>{
