@@ -51,7 +51,7 @@ for(const test of volume.tests){
     const html=element.innerHTML;
     if(skill==='reading')assert(!html.includes('data-cam-vocab-panel')&&html.includes('Flashcards')&&html.includes('Practice'),'Reading exam stays clean and has separate vocabulary tabs');
     assert(html.includes('class="unit-heading"'),'Use same unit heading as PET');
-    assert(html.includes('class="unit-tabs"'),'Use same skill tabs as PET');
+    assert(html.includes('class="unit-tabs cm-six-skill-tabs"'),'Use unified six-tab PET-style navigation');
     assert(html.includes(base+'/'+skill+'/part-'+p),'Part navigation must use the current route');
     assert(!html.includes('##/'),'A double hash would break navigation');
     assert(html.includes('src="/wordhop/media/cambridge-ielts-academic-21/pages/page-'),
