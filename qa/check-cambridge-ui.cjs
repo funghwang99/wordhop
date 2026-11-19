@@ -561,8 +561,8 @@ for(const exam of volume.tests){
       assert(html.includes(base+'/flashcards/part-1')&&html.includes(base+'/practice/part-1'),'Both vocabulary tabs available');
       assert(html.includes('cm-six-skill-tabs'),'One horizontal six-tab navigation');
       assert.equal((html.match(/class="unit-tab(?: active)?"/g)||[]).length,6,'Flashcards and Practice alongside four skills');
-      if(skill==='flashcards')assert(html.includes('Reveal answer')&&!html.includes('Practice quiz'),'Standalone flashcards');
-      if(skill==='practice')assert(html.includes('Which word matches this definition?'),'Standalone practice quiz');
+      if(skill==='flashcards')assert(html.includes('cm-flipcard')&&html.includes('flash-front')&&html.includes('flash-back')&&html.includes('data-cam-vocab="flip"'),'Flipping flashcards reuse PET design');
+      if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>html.includes(label))&&html.includes('mode-card'),'Three PET-style practice choices');
     }
   }
 }
