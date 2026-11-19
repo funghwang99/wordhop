@@ -49,7 +49,7 @@ for(const test of volume.tests){
     const base='#/ielts/cambridge-ielts/'+volume.id+'/'+test.id;
     component.render({container:element,route:{volume,exam:test,skill,part:p},header:'<nav class="breadcrumbs">Course</nav>',base});
     const html=element.innerHTML;
-    if(skill==='reading')assert(html.includes('data-cam-vocab-panel')&&html.includes('Practice quiz'),'Reading vocabulary visible on '+test.id+' passage '+p);
+    if(skill==='reading')assert(!html.includes('data-cam-vocab-panel')&&html.includes('Flashcards')&&html.includes('Practice'),'Reading exam stays clean and has separate vocabulary tabs');
     assert(html.includes('class="unit-heading"'),'Use same unit heading as PET');
     assert(html.includes('class="unit-tabs"'),'Use same skill tabs as PET');
     assert(html.includes(base+'/'+skill+'/part-'+p),'Part navigation must use the current route');
@@ -549,6 +549,23 @@ for(const exam of volume20.tests){
     if(skill==='listening')assert(!node.innerHTML.includes('id="listening-audio"'),'No empty mp3 tag in page-only deployment');
   }
 }
+
+for(const exam of volume.tests){
+  for(const skill of ['flashcards','practice']){
+    for(let part=1;part<=3;part++){
+      const el={innerHTML:''},base='#/ielts/cambridge-ielts/'+volume.id+'/'+exam.id;
+      component.render({container:el,route:{volume,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+      const html=el.innerHTML;
+      assert(html.includes('cm-vocab-standalone'),'Standalone Cambridge 12 vocabulary screen');
+      assert(html.includes('data-cam-vocab-panel'),'Vocabulary panel renders');
+      assert(html.includes(base+'/flashcards/part-1')&&html.includes(base+'/practice/part-1'),'Both vocabulary tabs available');
+      if(skill==='flashcards')assert(html.includes('Reveal answer')&&!html.includes('Practice quiz'),'Standalone flashcards');
+      if(skill==='practice')assert(html.includes('Which word matches this definition?'),'Standalone practice quiz');
+    }
+  }
+}
+console.log('PASS: Cambridge IELTS 12 standalone Flashcards and Practice, all 12 passages.');
+
 console.log('PASS: Cambridge 20 original 40 exam views, 320 keys, page-only media and transparent missing-audio status.');
 
 // Cambridge IELTS Academic 21 (2026): old legacy Cambridge 12 route must not be overridden.
