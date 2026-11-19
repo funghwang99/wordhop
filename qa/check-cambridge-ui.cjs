@@ -28,6 +28,7 @@ assert(cmSource.includes("document.addEventListener('pointerdown'")&&cmSource.in
 assert(cmSource.includes('cam12SwipeTo(a,act)'),'Previous/Next buttons trigger the slide animation');
 assert(cmSource.includes('cam12SuppressFlipUntil'),'Swiping suppresses the following click-to-flip');
 assert(cmStyles.includes('touch-action:pan-y')&&cmStyles.includes('prefers-reduced-motion'),'Swipe preserves vertical scroll and reduced-motion accessibility');
+assert(cmSource.includes('SpeechSynthesisUtterance')&&cmSource.includes("utterance.lang='en-GB'"),'Vocabulary speaker uses English pronunciation');
 
 const volume=catalog.volumes.find(item=>item.id==='cambridge-ielts-academic-21');
 assert(volume?.tests?.length===4,'Four tests must be registered');
@@ -570,15 +571,22 @@ for(const exam of volume.tests){
       assert.equal((html.match(/class="unit-tab(?: active)?"/g)||[]).length,6,'Flashcards and Practice alongside four skills');
       if(skill==='flashcards')assert(html.includes('cm-flipcard')&&html.includes('flash-front')&&html.includes('flash-back')&&html.includes('data-cam-vocab="flip"'),'Flipping flashcards reuse PET design');
       if(skill==='flashcards')assert(html.includes('cm-swipe-stage')&&html.includes('cm-swipe-help')&&html.includes('data-cam-vocab="previous"')&&html.includes('data-cam-vocab="next"'),'Swipeable flashcards retain both navigation buttons');
+      const testNumber=exam.id.replace('test-','');
+      const originalWords=[1,2,3].flatMap(n=>cam12Vocab[testNumber+'-'+n].words);
+      const uniqueWords=new Set(originalWords.map(w=>w.word.toLowerCase().trim()));
+      assert(html.includes(uniqueWords.size+' words'),'All three passages combined into one test deck');
+      assert(!html.includes('aria-label="Flashcards parts"')&&!html.includes('aria-label="Practice parts"')&&!html.includes('class="reading-parts"'),'Vocabulary has no passage selectors');
+      assert(html.includes('All three passages combined'),'Combined vocabulary heading');
       if(skill==='flashcards'){
-        const sourcePos=cam12Vocab[exam.id.replace('test-','')+'-'+part].words[0].word.match(/\((n\.|v\.|adj\.|adv\.)\)/)?.[1];
+        const sourcePos=cam12Vocab[testNumber+'-1'].words[0].word.match(/\((n\.|v\.|adj\.|adv\.)\)/)?.[1];
         assert(html.includes('class="flash-pos"')&&(!sourcePos||html.includes('('+sourcePos+')')),'Flashcards show source part of speech');
+        assert(html.includes('data-cam-vocab="speak"')&&html.includes('Pronounce '),'Flashcards offer word pronunciation');
       }
       if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>html.includes(label))&&html.includes('mode-card'),'Three PET-style practice choices');
     }
   }
 }
-console.log('PASS: Cambridge IELTS 12 standalone Flashcards and Practice, all 12 passages.');
+console.log('PASS: Cambridge IELTS 12 unified vocabulary decks for Tests 5–8, pronunciation and all 3 practice modes.');
 
 console.log('PASS: Cambridge 20 original 40 exam views, 320 keys, page-only media and transparent missing-audio status.');
 
