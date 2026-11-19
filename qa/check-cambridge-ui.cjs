@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge21-keys.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge21-keys.js','cambridge12-vocabulary.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -31,6 +31,14 @@ assert.deepEqual(Array.from(volume.tests,t=>t.id),['test-5','test-6','test-7','t
 assert(volume.description.includes('not Cambridge IELTS 21'),'Make the legacy media naming unambiguous');
 assert.equal(volume.mediaRoot,'media/cambridge-ielts-academic-21','Media remains on its original internal path');
 assert(volume.tests.every(x=>x.audio?.length===4),'All 16 listening tracks should be linked');
+const cam12Vocab=context.window.WordHopCambridge12Vocabulary;
+assert.equal(Object.keys(cam12Vocab).length,12,'Twelve Cambridge IELTS 12 reading passages');
+assert.equal(Object.values(cam12Vocab).reduce((sum,p)=>sum+p.words.length,0),138,'All 138 words present');
+for(const [key,p] of Object.entries(cam12Vocab)){
+  assert(p.words.length>=10,'Each Cambridge IELTS 12 passage has its vocabulary '+key);
+  assert(p.words.every(w=>w.word&&w.definition&&w.example&&!('vietnamese' in w)),'English only '+key);
+}
+
 let renders=0;
 for(const test of volume.tests){
  const number=test.id.split('-')[1];
@@ -41,6 +49,7 @@ for(const test of volume.tests){
     const base='#/ielts/cambridge-ielts/'+volume.id+'/'+test.id;
     component.render({container:element,route:{volume,exam:test,skill,part:p},header:'<nav class="breadcrumbs">Course</nav>',base});
     const html=element.innerHTML;
+    if(skill==='reading')assert(html.includes('data-cam-vocab-panel')&&html.includes('Practice quiz'),'Reading vocabulary visible on '+test.id+' passage '+p);
     assert(html.includes('class="unit-heading"'),'Use same unit heading as PET');
     assert(html.includes('class="unit-tabs"'),'Use same skill tabs as PET');
     assert(html.includes(base+'/'+skill+'/part-'+p),'Part navigation must use the current route');
