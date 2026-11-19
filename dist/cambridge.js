@@ -478,6 +478,47 @@
 
   // Cambridge IELTS 12 keeps its separate English-only vocabulary routes.
   let cam12VocabSession=null;
+  let cam12SwipeBusy=false;
+  let cam12SwipeGesture=null;
+  let cam12SuppressFlipUntil=0;
+  function cam12ResetDrag(stage){
+    if(!stage)return;
+    stage.style.transform='';
+    stage.style.opacity='';
+  }
+  function cam12SwipeTo(a,direction,dragOffset=0){
+    if(cam12SwipeBusy||a?.skill!=='flashcards'||!cam12VocabSession||cam12VocabSession.mode!=='flash')return;
+    const stage=a.container.querySelector?.('.cm-vocab-standalone .flash-stage');
+    if(!stage)return;
+    cam12SwipeBusy=true;
+    const right=direction==='previous',side=right?1:-1;
+    const distance=Math.min(540,Math.max(240,stage.getBoundingClientRect?.().width||360));
+    const reduceMotion=Boolean(window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches);
+    const animateStage=(node,frames,options)=>typeof node?.animate==='function'?node.animate(frames,options).finished.catch(()=>{}):Promise.resolve();
+    const commit=()=>{
+      if(context()!==a){cam12SwipeBusy=false;return;}
+      const words=cam12VocabSource(a.route,a.part)?.words||[];
+      if(!words.length){cam12SwipeBusy=false;return;}
+      cam12VocabSession.index=(cam12VocabSession.index+(right?words.length-1:1))%words.length;
+      cam12VocabSession.revealed=false;
+      cam12VocabRefresh(a);
+      const nextStage=a.container.querySelector?.('.cm-vocab-standalone .flash-stage');
+      if(!nextStage){cam12SwipeBusy=false;return;}
+      const entry=right?-distance:distance;
+      const finished=reduceMotion?Promise.resolve():animateStage(nextStage,
+        [{transform:'translate3d('+entry+'px,0,0)',opacity:0.12},
+         {transform:'translate3d(0,0,0)',opacity:1}],
+        {duration:260,easing:'cubic-bezier(.18,.74,.3,1)'});
+      finished.then(()=>{cam12SwipeBusy=false;});
+    };
+    const start=Math.max(-95,Math.min(95,dragOffset));
+    cam12ResetDrag(stage);
+    if(reduceMotion){commit();return;}
+    animateStage(stage,
+      [{transform:'translate3d('+start+'px,0,0)',opacity:Math.max(.65,1-Math.abs(start)/280)},
+       {transform:'translate3d('+(side*distance)+'px,0,0)',opacity:0}],
+      {duration:215,easing:'cubic-bezier(.3,0,.7,.35)'}).then(commit);
+  }
   function cam12VocabSource(route,part){
     return route.volume.id==='cambridge-ielts-academic-21'?
       window.WordHopCambridge12Vocabulary?.[route.exam.id.replace('test-','')+'-'+part]:null;
@@ -500,13 +541,13 @@
     let body='';
     if(v.mode==='flash'){
       body='<div class="study-area"><div class="study-top"><span>Flashcards · <strong>'+(i+1)+'/'+words.length+'</strong></span><span>Tap to flip</span></div>'+
-        '<div class="flash-stage"><button type="button" class="flashcard cm-flipcard'+(v.revealed?' is-flipped':'')+'" data-cam-vocab="flip" aria-pressed="'+v.revealed+'">'+
+        '<div class="flash-stage cm-swipe-stage"><button type="button" class="flashcard cm-flipcard'+(v.revealed?' is-flipped':'')+'" data-cam-vocab="flip" aria-pressed="'+v.revealed+'">'+
         '<span class="flash-inner"><span class="flash-face flash-front" aria-hidden="'+v.revealed+'"><span class="flash-label">VOCABULARY</span>'+
         '<span class="flash-term">'+esc(term)+'</span><span class="flash-pos">'+(pos?'('+esc(pos)+')':'')+'</span><span class="flip-note">Tap the card to reveal the definition</span></span>'+
         '<span class="flash-face flash-back" aria-hidden="'+!v.revealed+'"><span class="flash-label">DEFINITION & EXAMPLE</span>'+
         '<span class="back-term">'+esc(term)+(pos?' <small>('+esc(pos)+')</small>':'')+'</span><span class="flash-definition">'+esc(word.definition)+'</span>'+
         '<span class="flash-example">'+esc(word.example)+'</span></span></span></button></div>'+
-        '<div class="flash-actions">'+btn('previous','Previous')+btn('flip','Flip card',true)+btn('next','Next')+'</div></div>';
+        '<div class="flash-actions">'+btn('previous','Previous')+btn('flip','Flip card',true)+btn('next','Next')+'</div><p class="cm-swipe-help">Swipe left or right to change cards · Tap to flip</p></div>';
     }else if(v.mode==='menu'){
       body='<p class="practice-intro">Choose a practice mode for the '+words.length+' words in this passage.</p>'+
         '<div class="practice-grid cm-pet-practice-grid">'+
@@ -587,7 +628,7 @@
       }
       return;
     }
-    else if(act==='previous'||act==='next'){v.index=(v.index+(act==='next'?1:n-1))%n;v.revealed=false;}
+    else if(act==='previous'||act==='next'){cam12SwipeTo(a,act);return;}
     else if(act==='menu'){v.mode='menu';v.index=0;}
     else if(act.startsWith('start-')){v.mode=act.slice(6);v.index=0;v.score=0;v.selected=null;v.matched=[];v.left=null;v.right=null;v.batch=0;v.typed='';v.checked=null;v.message='';}
     else if(act==='restart'){v.mode='menu';v.index=0;v.score=0;}
@@ -762,6 +803,41 @@
       submitted.delete(key);if(context()===a){const btn=document.querySelector('[data-cam-action="submit-writing"]');if(btn){btn.disabled=false;btn.textContent='Submit writing';}}
     }
   }
+  // Pointer gestures work for touch and mouse; vertical page scrolling remains native.
+  document.addEventListener('pointerdown',event=>{
+    const card=event.target?.closest?.('.cm-flipcard');
+    const a=context();
+    if(!card||!a||a.skill!=='flashcards'||cam12SwipeBusy)return;
+    const stage=card.closest('.cm-swipe-stage');
+    if(!stage)return;
+    cam12SwipeGesture={pointerId:event.pointerId,x:event.clientX,y:event.clientY,dx:0,dy:0,stage,route:a};
+  },{passive:true});
+  document.addEventListener('pointermove',event=>{
+    const g=cam12SwipeGesture;
+    if(!g||g.pointerId!==event.pointerId||cam12SwipeBusy)return;
+    g.dx=event.clientX-g.x;g.dy=event.clientY-g.y;
+    if(Math.abs(g.dx)>8&&Math.abs(g.dx)>Math.abs(g.dy)*1.25){
+      const limited=Math.max(-95,Math.min(95,g.dx*.65));
+      g.stage.style.transform='translate3d('+limited+'px,0,0)';
+      g.stage.style.opacity=String(Math.max(.65,1-Math.abs(limited)/280));
+    }else cam12ResetDrag(g.stage);
+  },{passive:true});
+  document.addEventListener('pointerup',event=>{
+    const g=cam12SwipeGesture;
+    if(!g||g.pointerId!==event.pointerId)return;
+    cam12SwipeGesture=null;
+    const dx=event.clientX-g.x,dy=event.clientY-g.y;
+    if(context()===g.route&&Math.abs(dx)>=55&&Math.abs(dx)>Math.abs(dy)*1.25){
+      // A successful swipe must not also trigger the card's synthetic click-to-flip.
+      cam12SuppressFlipUntil=Date.now()+550;
+      cam12SwipeTo(g.route,dx<0?'next':'previous',dx*.65);
+    }else cam12ResetDrag(g.stage);
+  },{passive:true});
+  document.addEventListener('pointercancel',event=>{
+    if(cam12SwipeGesture?.pointerId!==event.pointerId)return;
+    cam12ResetDrag(cam12SwipeGesture.stage);
+    cam12SwipeGesture=null;
+  },{passive:true});
   // Enter submits typed Cambridge 12 practice answers without affecting exam answer sheets.
   document.addEventListener('keydown',event=>{
     if(event.key!=='Enter'||!event.target?.matches?.('[data-cam-cloze]'))return;
@@ -807,7 +883,7 @@
   },true);
   document.addEventListener('click',event=>{
     const vocabButton=event.target.closest('[data-cam-vocab]');
-    if(vocabButton){const a=context();if(a&&['flashcards','practice'].includes(a.skill))cam12VocabClick(a,vocabButton);return;}
+    if(vocabButton){const a=context();if(vocabButton.dataset.camVocab==='flip'&&Date.now()<cam12SuppressFlipUntil)return;if(a&&['flashcards','practice'].includes(a.skill))cam12VocabClick(a,vocabButton);return;}
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
     const act=button.dataset.camAction;
