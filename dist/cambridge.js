@@ -483,6 +483,7 @@
       window.WordHopCambridge12Vocabulary?.[route.exam.id.replace('test-','')+'-'+part]:null;
   }
   function cam12VocabStem(w){return w.word.replace(/\s*\((n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
+  function cam12VocabPos(w){return w.word.match(/\((n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
   function cam12VocabSessionFor(route,part){
     const key=route.exam.id+'-'+part+'-'+route.skill;
     if(!cam12VocabSession||cam12VocabSession.key!==key)cam12VocabSession={
@@ -494,16 +495,16 @@
   function cam12VocabHtml(route,part){
     const source=cam12VocabSource(route,part);
     if(!source?.words?.length)return '<p class="notice">Vocabulary unavailable.</p>';
-    const words=source.words,v=cam12VocabSessionFor(route,part),i=v.index,word=words[i],term=cam12VocabStem(word);
+    const words=source.words,v=cam12VocabSessionFor(route,part),i=v.index,word=words[i],term=cam12VocabStem(word),pos=cam12VocabPos(word);
     const btn=(a,label,main=false,disabled=false)=>'<button type="button" class="btn'+(main?' btn-primary':'')+'" data-cam-vocab="'+a+'"'+(disabled?' disabled':'')+'>'+esc(label)+'</button>';
     let body='';
     if(v.mode==='flash'){
       body='<div class="study-area"><div class="study-top"><span>Flashcards · <strong>'+(i+1)+'/'+words.length+'</strong></span><span>Tap to flip</span></div>'+
         '<div class="flash-stage"><button type="button" class="flashcard cm-flipcard'+(v.revealed?' is-flipped':'')+'" data-cam-vocab="flip" aria-pressed="'+v.revealed+'">'+
         '<span class="flash-inner"><span class="flash-face flash-front" aria-hidden="'+v.revealed+'"><span class="flash-label">VOCABULARY</span>'+
-        '<span class="flash-term">'+esc(term)+'</span><span class="flip-note">Tap the card to reveal the definition</span></span>'+
+        '<span class="flash-term">'+esc(term)+'</span><span class="flash-pos">'+(pos?'('+esc(pos)+')':'')+'</span><span class="flip-note">Tap the card to reveal the definition</span></span>'+
         '<span class="flash-face flash-back" aria-hidden="'+!v.revealed+'"><span class="flash-label">DEFINITION & EXAMPLE</span>'+
-        '<span class="back-term">'+esc(term)+'</span><span class="flash-definition">'+esc(word.definition)+'</span>'+
+        '<span class="back-term">'+esc(term)+(pos?' <small>('+esc(pos)+')</small>':'')+'</span><span class="flash-definition">'+esc(word.definition)+'</span>'+
         '<span class="flash-example">'+esc(word.example)+'</span></span></span></button></div>'+
         '<div class="flash-actions">'+btn('previous','Previous')+btn('flip','Flip card',true)+btn('next','Next')+'</div></div>';
     }else if(v.mode==='menu'){
@@ -573,7 +574,19 @@
     const source=cam12VocabSource(a.route,a.part),v=cam12VocabSession;
     if(!source||!v)return;
     const words=source.words,n=words.length,act=button.dataset.camVocab;
-    if(act==='flip')v.revealed=!v.revealed;
+    if(act==='flip'){
+      v.revealed=!v.revealed;
+      // Do not replace the card's DOM node: preserving it allows the CSS 3D transform to animate.
+      const card=a.container.querySelector?.('.cm-flipcard');
+      if(card){
+        card.classList.toggle('is-flipped',v.revealed);
+        card.setAttribute('aria-pressed',String(v.revealed));
+        const front=card.querySelector('.flash-front'),back=card.querySelector('.flash-back');
+        front?.setAttribute('aria-hidden',String(v.revealed));
+        back?.setAttribute('aria-hidden',String(!v.revealed));
+      }
+      return;
+    }
     else if(act==='previous'||act==='next'){v.index=(v.index+(act==='next'?1:n-1))%n;v.revealed=false;}
     else if(act==='menu'){v.mode='menu';v.index=0;}
     else if(act.startsWith('start-')){v.mode=act.slice(6);v.index=0;v.score=0;v.selected=null;v.matched=[];v.left=null;v.right=null;v.batch=0;v.typed='';v.checked=null;v.message='';}
