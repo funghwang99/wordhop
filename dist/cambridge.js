@@ -519,14 +519,29 @@
        {transform:'translate3d('+(side*distance)+'px,0,0)',opacity:0}],
       {duration:215,easing:'cubic-bezier(.3,0,.7,.35)'}).then(commit);
   }
+  // Keep the original passage-level source data, but study one combined vocabulary deck per test.
+  const cam12VocabDecks=new Map();
   function cam12VocabSource(route,part){
-    return route.volume.id==='cambridge-ielts-academic-21'?
-      window.WordHopCambridge12Vocabulary?.[route.exam.id.replace('test-','')+'-'+part]:null;
+    if(route.volume.id!=='cambridge-ielts-academic-21')return null;
+    const test=route.exam.id.replace('test-','');
+    if(cam12VocabDecks.has(test))return cam12VocabDecks.get(test);
+    const data=window.WordHopCambridge12Vocabulary||{};
+    const passages=[1,2,3].map(n=>data[test+'-'+n]);
+    if(passages.some(p=>!p?.words?.length))return null;
+    const seen=new Set();
+    const words=passages.flatMap(p=>p.words).filter(w=>{
+      const key=w.word.toLowerCase().trim();
+      if(seen.has(key))return false;
+      seen.add(key);return true;
+    });
+    const merged={title:'Test '+test+' · Reading vocabulary',words};
+    cam12VocabDecks.set(test,merged);
+    return merged;
   }
   function cam12VocabStem(w){return w.word.replace(/\s*\((n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
   function cam12VocabPos(w){return w.word.match(/\((n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
   function cam12VocabSessionFor(route,part){
-    const key=route.exam.id+'-'+part+'-'+route.skill;
+    const key=route.exam.id+'-'+route.skill;
     if(!cam12VocabSession||cam12VocabSession.key!==key)cam12VocabSession={
       key,mode:route.skill==='flashcards'?'flash':'menu',index:0,revealed:false,selected:null,score:0,
       matched:[],left:null,right:null,batch:0,message:'',typed:'',checked:null
@@ -540,7 +555,9 @@
     const btn=(a,label,main=false,disabled=false)=>'<button type="button" class="btn'+(main?' btn-primary':'')+'" data-cam-vocab="'+a+'"'+(disabled?' disabled':'')+'>'+esc(label)+'</button>';
     let body='';
     if(v.mode==='flash'){
-      body='<div class="study-area"><div class="study-top"><span>Flashcards · <strong>'+(i+1)+'/'+words.length+'</strong></span><span>Tap to flip</span></div>'+
+      body='<div class="study-area"><div class="study-top"><span>Flashcards · <strong>'+(i+1)+'/'+words.length+'</strong></span>'+
+        '<button type="button" class="text-button cm-vocab-pronounce" data-cam-vocab="speak" aria-label="Pronounce '+esc(term)+'">🔊 Listen</button></div>'+
+        '<span class="cm-vocab-speech-status" role="status" aria-live="polite"></span>'+
         '<div class="flash-stage cm-swipe-stage"><button type="button" class="flashcard cm-flipcard'+(v.revealed?' is-flipped':'')+'" data-cam-vocab="flip" aria-pressed="'+v.revealed+'">'+
         '<span class="flash-inner"><span class="flash-face flash-front" aria-hidden="'+v.revealed+'"><span class="flash-label">VOCABULARY</span>'+
         '<span class="flash-term">'+esc(term)+'</span><span class="flash-pos">'+(pos?'('+esc(pos)+')':'')+'</span><span class="flip-note">Tap the card to reveal the definition</span></span>'+
@@ -615,6 +632,26 @@
     const source=cam12VocabSource(a.route,a.part),v=cam12VocabSession;
     if(!source||!v)return;
     const words=source.words,n=words.length,act=button.dataset.camVocab;
+    if(act==='speak'){
+      const word=cam12VocabStem(words[v.index]);
+      const status=a.container.querySelector?.('.cm-vocab-speech-status');
+      if(!window.speechSynthesis||typeof window.SpeechSynthesisUtterance!=='function'){
+        if(status)status.textContent='Pronunciation is not available on this device.';
+        return;
+      }
+      try{
+        window.speechSynthesis.cancel();
+        const utterance=new window.SpeechSynthesisUtterance(word);
+        utterance.lang='en-GB';
+        utterance.rate=0.85;
+        utterance.onerror=()=>{if(status)status.textContent='Could not play the pronunciation. Check your English voice settings.';};
+        if(status)status.textContent='';
+        window.speechSynthesis.speak(utterance);
+      }catch(error){
+        if(status)status.textContent='Could not play the pronunciation on this device.';
+      }
+      return;
+    }
     if(act==='flip'){
       v.revealed=!v.revealed;
       // Do not replace the card's DOM node: preserving it allows the CSS 3D transform to animate.
@@ -668,9 +705,8 @@
       answerSheet(test,'reading',part)+'</section></div></section>';
   }
   function vocabularyStudy(route,base,skill){
-    const part=Math.min(Math.max(route.part,1),3),test=testCode(route);
-    const source=cam12VocabSource(route,part);
-    return '<section class="reading-view cm-vocab-page"><div class="reading-intro"><div><h2>'+(skill==='flashcards'?'Study flashcards':'Practice')+'</h2><p>'+esc(source?.title||'Reading vocabulary')+' · English definitions and example sentences</p></div><span class="reading-completion">'+(source?.words.length||0)+' words</span></div>'+partNav(base,test,skill,part)+cam12VocabHtml(route,part)+'</section>';
+    const source=cam12VocabSource(route,1);
+    return '<section class="reading-view cm-vocab-page"><div class="reading-intro"><div><h2>'+(skill==='flashcards'?'Study flashcards':'Practice')+'</h2><p>'+esc(source?.title||'Reading vocabulary')+' · All three passages combined · English only</p></div><span class="reading-completion">'+(source?.words.length||0)+' words</span></div>'+cam12VocabHtml(route,1)+'</section>';
   }
   function listening(route,base){
     const test=testCode(route),part=Math.min(Math.max(route.part,1),4),p=pageRange(route,'listening',part);
