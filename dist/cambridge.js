@@ -278,16 +278,20 @@
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
-    return crumbs+'<div class="unit-heading"><div><h1>'+esc(route.exam.title)+'</h1><p>'+esc(route.volume.title)+' · IELTS Academic</p></div><div class="unit-heading-actions"><span class="unit-badge">40 Listening · 40 Reading</span><button type="button" class="text-button clear-results-button" data-cam-action="clear">Clear saved results</button></div></div>'+
+    const cam12=route.volume.id==='cambridge-ielts-academic-21';
+    const vocabTabs=cam12?'<div class="unit-tabs cm-vocab-tabs" role="navigation" aria-label="Vocabulary learning">'+
+      nav(link(base,'flashcards',1),'1 · Flashcards','unit-tab',skill==='flashcards')+
+      nav(link(base,'practice',1),'2 · Practice','unit-tab',skill==='practice')+'</div>':'';
+    return crumbs+'<div class="unit-heading"><div><h1>'+esc(route.exam.title)+'</h1><p>'+esc(route.volume.title)+' · IELTS Academic</p></div><div class="unit-heading-actions"><span class="unit-badge">40 Listening · 40 Reading</span><button type="button" class="text-button clear-results-button" data-cam-action="clear">Clear saved results</button></div></div>'+vocabTabs+
       '<div class="unit-tabs" role="navigation" aria-label="Exam skills">'+skills.map((s,i)=>
         nav(link(base,s,1),'<span class="step-num">'+(i+1)+'</span>'+skillNames[s],'unit-tab',s===skill)).join('')+'</div>';
   }
   function partNav(base,test,skill,current){
-    const title=skill==='reading'?'Passage':skill==='writing'?'Task':'Section';
-    const n=skill==='reading'?3:skill==='writing'?2:4;
+    const title=['reading','flashcards','practice'].includes(skill)?'Passage':skill==='writing'?'Task':'Section';
+    const n=['reading','flashcards','practice'].includes(skill)?3:skill==='writing'?2:4;
     const klass=skill==='listening'?'listening-parts':'reading-parts';
     return '<nav class="'+klass+'" aria-label="'+skillNames[skill]+' parts">'+Array.from({length:n},(_,i)=>{
-      const p=i+1,yes=skill==='writing'?Boolean(get(toKey(test,skill,p))):attempt(test,skill,p).checked;
+      const p=i+1,yes=skill==='writing'?Boolean(get(toKey(test,skill,p))):['flashcards','practice'].includes(skill)?false:attempt(test,skill,p).checked;
       const item=title+' '+p+(yes&&skill!=='writing'?' ✓':'');
       if(skill==='listening')return nav(link(base,skill,p),'<strong>'+item+'</strong><span>Questions '+(p*10-9)+'–'+(p*10)+'</span>','listening-part',p===current);
       return nav(link(base,skill,p),item,'reading-part-link',p===current);
@@ -482,9 +486,10 @@
   function cam12VocabHtml(route,part){
     const source=cam12VocabSource(route,part);
     if(!source?.words?.length)return '';
-    const key=route.exam.id+'-'+part;
+    const key=route.exam.id+'-'+part+'-'+route.skill;
+    const fixedMode=route.skill==='practice'?'quiz':'flash';
     if(!cam12VocabSession||cam12VocabSession.key!==key)
-      cam12VocabSession={key,index:0,revealed:false,mode:'flash',selected:null,correct:0,completed:0};
+      cam12VocabSession={key,index:0,revealed:false,mode:fixedMode,selected:null,correct:0,completed:0};
     const v=cam12VocabSession,words=source.words,item=words[v.index%words.length],ix=v.index%words.length;
     let main='';
     if(v.mode==='flash'){
@@ -509,20 +514,16 @@
         '<div class="cm-vocab-controls"><button type="button" data-cam-vocab="restart">Restart</button>'+
         '<button type="button" class="cm-vocab-primary" data-cam-vocab="next-question"'+(v.selected===null?' disabled':'')+'>'+(ix===words.length-1?'Start again':'Next question')+'</button></div></div>';
     }
-    return '<details class="cm-vocab-panel" data-cam-vocab-panel><summary><strong>Vocabulary · '+words.length+' words</strong><span>'+esc(source.title)+' · Flashcards &amp; Practice</span></summary>'+
-      '<div class="cm-vocab-inner"><div class="cm-vocab-mode"><button type="button" data-cam-vocab="mode-flash" aria-pressed="'+(v.mode==='flash')+'">Flashcards</button>'+
-      '<button type="button" data-cam-vocab="mode-quiz" aria-pressed="'+(v.mode==='quiz')+'">Practice quiz</button></div>'+
-      '<div data-cam-vocab-body>'+main+'</div></div></details>';
+    return '<section class="cm-vocab-panel cm-vocab-standalone" data-cam-vocab-panel>'+ 
+      '<div class="cm-vocab-inner"><div data-cam-vocab-body>'+main+'</div></div></section>';
   }
   function cam12VocabRefresh(a){
     const existing=a.container.querySelector?.('[data-cam-vocab-panel]');
     if(!existing)return;
-    const open=existing.open;
     const temp=document.createElement('div');
     temp.innerHTML=cam12VocabHtml(a.route,a.part);
     const replacement=temp.firstElementChild;
     if(!replacement)return;
-    replacement.open=open;
     existing.replaceWith(replacement);
   }
   function cam12VocabClick(a,button){
@@ -543,7 +544,7 @@
     const test=testCode(route),part=Math.min(Math.max(route.part,1),3),pg=pageRange(route,'reading',part);
     const complete=progressCount(test,'reading');
     return '<section class="reading-view cm-cambridge-exam" aria-label="Book reading test"><div class="reading-intro"><div><h2>Reading</h2><p>Read the passage on the left and answer the questions on the right. Both panels scroll independently.</p></div><span class="reading-completion">'+complete+'/3 passages checked</span></div>'+
-      partNav(base,test,'reading',part)+cam12VocabHtml(route,part)+
+      partNav(base,test,'reading',part)+
       '<div class="cm-exam-split" role="group" aria-label="Reading passage and answer sheet">'+
       '<section class="cm-split-pane cm-question-pane" aria-label="Reading passage" tabindex="0"><div class="cm-pane-label"><strong>Reading passage '+part+'</strong><span>Scroll to read the original pages</span></div>'+
       '<div class="reading-part-heading"><div><h3>Reading Passage '+part+'</h3><p>Questions '+range('reading',part).join('–')+' · Book '+(pg[0]===pg[1]?'page':'pages')+' '+pg.join('–')+'</p></div>'+mediaControls(route,'reading',part)+'</div>'+
@@ -551,6 +552,11 @@
       '<p class="reading-source-note">Original passages, questions and answer key: '+esc(route.volume.sourceTitle||route.volume.title)+'. Cambridge University Press.</p></section>'+
       '<section class="cm-split-pane cm-response-pane" aria-label="Reading answer sheet" tabindex="0"><div class="cm-pane-label"><strong>Answer sheet</strong><span>Scroll to answer all questions</span></div>'+
       answerSheet(test,'reading',part)+'</section></div></section>';
+  }
+  function vocabularyStudy(route,base,skill){
+    const part=Math.min(Math.max(route.part,1),3),test=testCode(route);
+    const source=cam12VocabSource(route,part);
+    return '<section class="reading-view cm-vocab-page"><div class="reading-intro"><div><h2>'+(skill==='flashcards'?'Study flashcards':'Practice')+'</h2><p>'+esc(source?.title||'Reading vocabulary')+' · English definitions and example sentences</p></div><span class="reading-completion">'+(source?.words.length||0)+' words</span></div>'+partNav(base,test,skill,part)+cam12VocabHtml(route,part)+'</section>';
   }
   function listening(route,base){
     const test=testCode(route),part=Math.min(Math.max(route.part,1),4),p=pageRange(route,'listening',part);
@@ -626,10 +632,10 @@
     }
   }
   function render({container,route,header:crumbs,base}){
-    const skill=skills.includes(route.skill)?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
+    const skill=(skills.includes(route.skill)||route.volume.id==='cambridge-ielts-academic-21'&&['flashcards','practice'].includes(route.skill))?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
     active={container,route,base,skill,part,test:testCode(route)};
     const page={...route,part};
-    const body=skill==='listening'?listening(page,base):skill==='reading'?reading(page,base):skill==='writing'?writing(page,base):speaking(page);
+    const body=['flashcards','practice'].includes(skill)?vocabularyStudy(page,base,skill):skill==='listening'?listening(page,base):skill==='reading'?reading(page,base):skill==='writing'?writing(page,base):speaking(page);
     container.innerHTML=header(route,crumbs,base,skill)+body;
     if(typeof window.requestAnimationFrame==='function')window.requestAnimationFrame(()=>sizeSplit(container));
   }
@@ -719,7 +725,7 @@
   },true);
   document.addEventListener('click',event=>{
     const vocabButton=event.target.closest('[data-cam-vocab]');
-    if(vocabButton){const a=context();if(a&&a.skill==='reading')cam12VocabClick(a,vocabButton);return;}
+    if(vocabButton){const a=context();if(a&&['flashcards','practice'].includes(a.skill))cam12VocabClick(a,vocabButton);return;}
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
     const act=button.dataset.camAction;
