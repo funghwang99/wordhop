@@ -22,6 +22,13 @@ for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridg
 }
 const catalog=context.window.WQ_CATALOG;
 const component=context.window.WordHopCambridge;
+const cmSource=fs.readFileSync(path.join(root,'cambridge.js'),'utf8');
+const cmStyles=fs.readFileSync(path.join(root,'cambridge.css'),'utf8');
+assert(cmSource.includes("document.addEventListener('pointerdown'")&&cmSource.includes("document.addEventListener('pointerup'"),'Swipe gestures listen for pointer start and end');
+assert(cmSource.includes('cam12SwipeTo(a,act)'),'Previous/Next buttons trigger the slide animation');
+assert(cmSource.includes('cam12SuppressFlipUntil'),'Swiping suppresses the following click-to-flip');
+assert(cmStyles.includes('touch-action:pan-y')&&cmStyles.includes('prefers-reduced-motion'),'Swipe preserves vertical scroll and reduced-motion accessibility');
+
 const volume=catalog.volumes.find(item=>item.id==='cambridge-ielts-academic-21');
 assert(volume?.tests?.length===4,'Four tests must be registered');
 assert.equal(volume.title,'Cambridge IELTS Academic 12','Correct book title should be displayed');
@@ -562,6 +569,7 @@ for(const exam of volume.tests){
       assert(html.includes('cm-six-skill-tabs'),'One horizontal six-tab navigation');
       assert.equal((html.match(/class="unit-tab(?: active)?"/g)||[]).length,6,'Flashcards and Practice alongside four skills');
       if(skill==='flashcards')assert(html.includes('cm-flipcard')&&html.includes('flash-front')&&html.includes('flash-back')&&html.includes('data-cam-vocab="flip"'),'Flipping flashcards reuse PET design');
+      if(skill==='flashcards')assert(html.includes('cm-swipe-stage')&&html.includes('cm-swipe-help')&&html.includes('data-cam-vocab="previous"')&&html.includes('data-cam-vocab="next"'),'Swipeable flashcards retain both navigation buttons');
       if(skill==='flashcards'){
         const sourcePos=cam12Vocab[exam.id.replace('test-','')+'-'+part].words[0].word.match(/\((n\.|v\.|adj\.|adv\.)\)/)?.[1];
         assert(html.includes('class="flash-pos"')&&(!sourcePos||html.includes('('+sourcePos+')')),'Flashcards show source part of speech');
