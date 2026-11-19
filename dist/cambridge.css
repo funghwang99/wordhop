@@ -112,3 +112,23 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .unit-tabs.cm-six-skill-tabs .unit-tab{flex:0 0 auto;display:inline-flex;align-items:center;white-space:nowrap;text-decoration:none;padding-left:2px;padding-right:2px}
 @media(max-width:760px){.unit-tabs.cm-six-skill-tabs{gap:16px;flex-wrap:nowrap}}
 @media(max-width:480px){.unit-tabs.cm-six-skill-tabs{gap:12px}.unit-tabs.cm-six-skill-tabs .unit-tab{padding:10px 2px 13px;font-size:11px}}
+
+/* Cam 12: match PET's actual flip-card and three-mode practice screens. */
+.cm-vocab-standalone{border:0;background:transparent;margin:0;padding:0;overflow:visible}
+.cm-vocab-standalone .cm-vocab-inner{padding:4px 0 22px}
+.cm-vocab-standalone .study-area{max-width:730px;margin:0 auto}
+.cm-vocab-standalone .flashcard.cm-flipcard{display:block;min-height:0;padding:0;border:0;background:transparent;box-shadow:none;perspective:1400px;overflow:visible;width:100%;cursor:pointer}
+.cm-vocab-standalone .cm-flipcard .flash-inner{display:grid;width:100%;transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transform:rotateY(0);transition:transform .6s cubic-bezier(.4,.15,.2,1)}
+.cm-vocab-standalone .cm-flipcard.is-flipped .flash-inner{transform:rotateY(180deg)}
+.cm-vocab-standalone .cm-flipcard .flash-face{grid-area:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:390px;padding:28px 36px;border:1px solid #dfe5ef;border-radius:13px;background:white;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 3px 13px #2038530a}
+.cm-vocab-standalone .cm-flipcard .flash-front{transform:rotateY(0deg) translateZ(1px)}
+.cm-vocab-standalone .cm-flipcard .flash-back{transform:rotateY(180deg) translateZ(1px)}
+.cm-vocab-standalone .flash-term{font-size:clamp(29px,4.5vw,43px);line-height:1.3;overflow-wrap:anywhere}
+.cm-vocab-standalone .flash-definition{font-size:clamp(16px,2.2vw,20px);line-height:1.6}
+.cm-vocab-standalone .cm-pet-practice-grid .mode-card{cursor:pointer}
+.cm-vocab-standalone .cm-mode-symbol{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:#eef3fc;color:#365da8;font-weight:750;font-size:21px;margin-bottom:21px}
+.cm-vocab-standalone .cm-quiz-definition{font-size:19px;line-height:1.65;max-width:690px;margin:0 auto 24px;text-align:center;color:#384b65}
+.cm-vocab-standalone .cm-cloze-clue{font-size:13px;color:#69778a;max-width:600px;margin:0 auto 21px;text-align:center;line-height:1.7}
+.cm-vocab-standalone .match-tile.matched{opacity:.55}
+@media(max-width:760px){.cm-vocab-standalone .cm-flipcard .flash-face{min-height:345px;padding:24px}.cm-vocab-standalone .cm-mode-symbol{margin-bottom:0;grid-row:1/3}}
+@media(max-width:480px){.cm-vocab-standalone .cm-flipcard .flash-face{min-height:325px;padding:20px}.cm-vocab-standalone .cm-quiz-definition{font-size:16px}.cm-vocab-standalone .cm-mode-symbol{width:25px;height:25px;font-size:17px}}
