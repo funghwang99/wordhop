@@ -106,3 +106,9 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .cm-vocab-option.is-correct{border-color:#22995b;background:#e5f6ec;color:#16633d}.cm-vocab-option.is-incorrect{border-color:#c94b4b;background:#fff0ef;color:#a82727}
 .cm-vocab-feedback{font-weight:700;margin:14px 0 0}
 @media(max-width:600px){.cm-vocab-panel summary{display:block}.cm-vocab-panel summary span{display:block;margin-top:5px}.cm-vocab-inner{padding:12px}.cm-vocab-card{padding:15px 12px}.cm-vocab-options{grid-template-columns:1fr}.cm-vocab-controls button{flex:1;min-width:100px}}
+
+/* Cam 12: vocabulary and four IELTS skills share one PET-style navigation row. */
+.unit-tabs.cm-six-skill-tabs{display:flex;flex-wrap:nowrap;gap:clamp(8px,1.6vw,20px);overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#c7d3e5 transparent;max-width:100%;-webkit-overflow-scrolling:touch}
+.unit-tabs.cm-six-skill-tabs .unit-tab{flex:0 0 auto;display:inline-flex;align-items:center;white-space:nowrap;text-decoration:none;padding-left:2px;padding-right:2px}
+@media(max-width:760px){.unit-tabs.cm-six-skill-tabs{gap:16px;flex-wrap:nowrap}}
+@media(max-width:480px){.unit-tabs.cm-six-skill-tabs{gap:12px}.unit-tabs.cm-six-skill-tabs .unit-tab{padding:10px 2px 13px;font-size:11px}}
