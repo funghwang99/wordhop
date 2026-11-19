@@ -279,12 +279,10 @@
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
     const cam12=route.volume.id==='cambridge-ielts-academic-21';
-    const vocabTabs=cam12?'<div class="unit-tabs cm-vocab-tabs" role="navigation" aria-label="Vocabulary learning">'+
-      nav(link(base,'flashcards',1),'1 · Flashcards','unit-tab',skill==='flashcards')+
-      nav(link(base,'practice',1),'2 · Practice','unit-tab',skill==='practice')+'</div>':'';
-    return crumbs+'<div class="unit-heading"><div><h1>'+esc(route.exam.title)+'</h1><p>'+esc(route.volume.title)+' · IELTS Academic</p></div><div class="unit-heading-actions"><span class="unit-badge">40 Listening · 40 Reading</span><button type="button" class="text-button clear-results-button" data-cam-action="clear">Clear saved results</button></div></div>'+vocabTabs+
-      '<div class="unit-tabs" role="navigation" aria-label="Exam skills">'+skills.map((s,i)=>
-        nav(link(base,s,1),'<span class="step-num">'+(i+1)+'</span>'+skillNames[s],'unit-tab',s===skill)).join('')+'</div>';
+    const tabs=cam12?[['flashcards','Flashcards'],['practice','Practice'],...skills.map(s=>[s,skillNames[s]])]:skills.map(s=>[s,skillNames[s]]);
+    return crumbs+'<div class="unit-heading"><div><h1>'+esc(route.exam.title)+'</h1><p>'+esc(route.volume.title)+' · IELTS Academic</p></div><div class="unit-heading-actions"><span class="unit-badge">40 Listening · 40 Reading</span><button type="button" class="text-button clear-results-button" data-cam-action="clear">Clear saved results</button></div></div>'+
+      '<div class="unit-tabs'+(cam12?' cm-six-skill-tabs':'')+'" role="navigation" aria-label="Exam skills">'+tabs.map(([s,label],i)=>
+        nav(link(base,s,1),'<span class="step-num">'+(i+1)+'</span>'+label,'unit-tab',s===skill)).join('')+'</div>';
   }
   function partNav(base,test,skill,current){
     const title=['reading','flashcards','practice'].includes(skill)?'Passage':skill==='writing'?'Task':'Section';
