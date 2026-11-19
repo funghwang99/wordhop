@@ -132,3 +132,9 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .cm-vocab-standalone .match-tile.matched{opacity:.55}
 @media(max-width:760px){.cm-vocab-standalone .cm-flipcard .flash-face{min-height:345px;padding:24px}.cm-vocab-standalone .cm-mode-symbol{margin-bottom:0;grid-row:1/3}}
 @media(max-width:480px){.cm-vocab-standalone .cm-flipcard .flash-face{min-height:325px;padding:20px}.cm-vocab-standalone .cm-quiz-definition{font-size:16px}.cm-vocab-standalone .cm-mode-symbol{width:25px;height:25px;font-size:17px}}
+
+/* Cam 12: swipeable flashcard stage. 3D flip remains on the nested .flash-inner. */
+.cm-vocab-standalone .study-area{overflow-x:clip}
+.cm-vocab-standalone .cm-swipe-stage{touch-action:pan-y;user-select:none;-webkit-user-select:none;will-change:transform,opacity}
+.cm-vocab-standalone .cm-swipe-help{text-align:center;font-size:12px;line-height:1.8;color:#8792a3;margin:13px 0 0}
+@media(prefers-reduced-motion:reduce){.cm-vocab-standalone .cm-flipcard .flash-inner{transition:none}}
