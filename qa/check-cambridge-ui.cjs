@@ -552,6 +552,23 @@ for(const test of volume20.tests){
   }
 }
 assert.equal(rendered20,40);
+const shared20=context.window.WORDHOP_CAMBRIDGE_STUDY['20-1'];
+assert.equal(shared20.vocabulary.words.length,36);
+assert.equal(shared20.review.reading.length,40);
+assert.equal(shared20.review.listening.filter(Boolean).length,37);
+for(const skill of ['flashcards','practice','reading','listening']){
+  const node={innerHTML:''},exam=volume20.tests[0],base='#/ielts/cambridge-ielts/'+volume20.id+'/'+exam.id;
+  if(skill==='reading'||skill==='listening')values.set('wordhop.cambridge.exam.v2.test-20-1.'+skill+'.part-1',JSON.stringify({answers:{},checked:true}));
+  component.render({container:node,route:{volume:volume20,exam,skill,part:1},header:'<nav class="breadcrumbs">Course</nav>',base});
+  assert(node.innerHTML.includes('cm-six-skill-tabs'),'Shared study data activates all six tabs');
+  if(skill==='flashcards')assert(node.innerHTML.includes('cm-flipcard')&&node.innerHTML.includes('data-cam-vocab="speak"')&&node.innerHTML.includes('36 words'));
+  if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>node.innerHTML.includes(label)));
+  if(skill==='reading'||skill==='listening'){
+    assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'Source-based English review');
+    values.delete('wordhop.cambridge.exam.v2.test-20-1.'+skill+'.part-1');
+  }
+}
+
 for(const [test,skill,answers,positions] of [
  ['20-1','listening',{17:'E',18:'A',19:'E',20:'C',21:'E',22:'C',23:'C',24:'A',25:'B',26:'A'},[17,18,19,20,21,22,23,24,25,26]],
  ['20-2','reading',{23:'C',24:'A',25:'E',26:'A'},[23,24,25,26]],
