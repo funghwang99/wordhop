@@ -45,6 +45,61 @@ def gate_game_pages(catalog):
 
 
 
+# Compare the actual packaged recordings against acoustic signatures from the teacher's
+# original MP3s. Duration alone does not establish that recordings are identical.
+CAM12_AUDIO_REFERENCE = {
+    "5-1": [500.429,"os0r0ssnprrD0km0j000ssenmn0Efr0ppqqrkookromplrspqio0p000000pumiolllsppormoonmpondoqXsnk0o000000i"],
+    "5-2": [408.190,"tlSp0000000000q0qqepoqosorrolpnp0lpokoaohppmsrnoleoosrpnm0lo0000qirpspvrtmlmmkqqpoqtl00e00000000"],
+    "5-3": [398.029,"pqpr000000mp0qrnlttrrsssvnqmstjjtnmqvvpqbqs0ki00000000q0toeqrsunqnqntutqqbwsmrswmrotcps000000000"],
+    "5-4": [528.040,"on0000000000jppruriqgtqttjqrsmsqrnqssoqjsqro0rmsnqroqsoqqpnprpqqltqrpqsi0trrrqtrpqqqnm0S0000000o"],
+    "6-1": [540.866,"q0mppr000pq000000rmfdqh0oZp0imcbolnnmnmpknklqoknqiqpom0q000000qondoslmgphqZsngpmqomllhilro00000n"],
+    "6-2": [469.291,"or0n0000000n0pipnom0ph0lojhooqpBmpookiloogllqpkfltn00000qnnnrXlnlkrqpkrrn8nopnopmlpo1NNlp0000003"],
+    "6-3": [430.630,"rqfo00000000qfnmmfrstrplmnosmphjprkllpdpomrnmmmmpZnooln0p000000q0pelqlmmnmqopfmokoikmmqp00000000"],
+    "6-4": [516.990,"q0n000000000pskoqopqoojmsqrpnprrpqprootrmqp0koIko0qoqqonrniqqoq0pntqoqplrjlqrrhooldqnj000000000o"],
+    "7-1": [546.927,"drm0shorocM00sr0000mlbnnrpnnoqksirLrqrcnopqkondnrppkl0q00000m0lorppiqqrqlqpdrmqpgnpqnjlY0k00000o"],
+    "7-2": [435.175,"qip00000000p0qoornprmodonojpqolpoosqYdpklnpmokprqonpspmprppnpn0pV000qirpqrrUpmok0VntPhpq00000000"],
+    "7-3": [509.546,"rrq000000p0qjopnqnmklmorsrqlrmrppimnpqhqqpomprqp0r000000pkkolionrprprpmhqmqkqqiqpgjonrn00000000j"],
+    "7-4": [490.868,"qrs0000000000r0konlnoo0konqllknmlspmoprflnDlorlognlU0sngpmmkqY2mmkmqeomnonlrniookmloo0k000000qmT"],
+    "8-1": [478.460,"rmpNiGp000spr000000qrnksplnj0sm0gslkqknqghkpjeigtjoqndkntlijnMm0000p0tbpqVliflshkkjiqljrk000000c"],
+    "8-2": [369.294,"srjo0000000nr0lrtqrorrnopqpkpolRnpp0paropnno0sp00000000q0pqpphoqlpFqqq0lpnspqrqlsres00g0000000o0"],
+    "8-3": [465.007,"lip0000q0qrqsqkprpppqrmrpmsrorrqospqtm0q0000000mqrkqntnnqornnqopsuttsrporroupnssrurtgr0hl0000008"],
+    "8-4": [474.202,"on00000000000nutqpnotoppnqmntnqmopsvpjqntmoor0ppsoporqs0rposontsppnsorprrmnnpl4orqrtpnq000000nrE"],
+}
+
+def verify_cam12_audio(root):
+    import array
+    import math
+    import subprocess
+    chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_'
+    result = {}
+    for key, (duration, signature) in CAM12_AUDIO_REFERENCE.items():
+        t, sec = key.split('-')
+        target = OUTPUT / root / 'audio' / f'test-{t}-section-{sec}.m4a'
+        try:
+            pcm = array.array('h', subprocess.check_output(['ffmpeg','-nostdin','-v','error','-i',str(target),'-ac','1','-ar','4000','-f','s16le','-'], timeout=45))
+            n = len(pcm)
+            actual_duration = n / 4000
+            expected = [chars.index(x) for x in signature]
+            assert len(expected) == 96
+            samples = []
+            for i in range(96):
+                center = round(n*(i+1)/97)
+                p = pcm[max(0,center-1600):center+1600]
+                rms = math.sqrt(sum(x*x for x in p)/max(1,len(p)))
+                samples.append(max(0,min(63,round(20*math.log10(max(1,rms))-20))))
+            xmean = sum(expected)/96
+            ymean = sum(samples)/96
+            denom = math.sqrt(sum((x-xmean)**2 for x in expected)*sum((y-ymean)**2 for y in samples))
+            corr = sum((x-xmean)*(y-ymean) for x,y in zip(expected,samples))/denom if denom else 0
+            ok = abs(actual_duration-duration) < 0.75 and corr >= 0.92
+            result[key] = {'matched': ok, 'duration': round(actual_duration,3), 'correlation': round(corr,4)}
+        except Exception as err:
+            result[key] = {'matched': False, 'reason': str(err)[:200]}
+        print('Cam12 acoustic check '+key+': '+json.dumps(result[key]), flush=True)
+    with (OUTPUT / 'cambridge12-review.js').open('a',encoding='utf-8') as out:
+        out.write('\nwindow.WORDHOP_CAMBRIDGE12_AUDIO_MATCH='+json.dumps(result,separators=(',',':'))+';\n')
+    print(f"Cam12 acoustic matches: {sum(1 for item in result.values() if item['matched'])}/16 recordings", flush=True)
+
 def activate_cambridge_media(catalog):
     """Add source pages and listening audio only after both verified archive uploads exist."""
     bundles = [
@@ -93,6 +148,7 @@ def activate_cambridge_media(catalog):
     for exam in volume['tests']:
         test = int(exam['id'].split('-')[-1])
         exam['audio'] = [f'{root}/audio/test-{test}-section-{n}.m4a' for n in range(1, 5)]
+    verify_cam12_audio(root)
     print('Published Cambridge IELTS: 85 original source page images and 16 audio tracks')
 
 
