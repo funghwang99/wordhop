@@ -136,7 +136,7 @@ for (const exam of volume13.tests) {
       component.render({container:element,route:{volume:volume13,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=element.innerHTML;
       assert(html.includes('class="unit-heading"'),'Cambridge 13 reuses course heading');
-      assert(html.includes('class="unit-tabs"'),'Cambridge 13 reuses skill tabs');
+      assert(html.includes(n===1?'class="unit-tabs cm-six-skill-tabs"':'class="unit-tabs"'),'Cambridge 13 reuses skill tabs');
       assert(html.includes(base+'/'+skill+'/part-'+part),'Cambridge 13 has correct part route');
       if(skill==='listening'){
         assert(html.includes('class="listening-player-card"'));
@@ -156,6 +156,25 @@ for (const exam of volume13.tests) {
   assert.equal(publisher.reading.length,40);
 }
 assert.equal(rendered13,40,'All Cambridge 13 screens should work');
+const shared13=context.window.WORDHOP_CAMBRIDGE_STUDY['13-1'];
+assert.equal(shared13.vocabulary.words.length,35);
+assert.equal(shared13.review.reading.filter(Boolean).length,40);
+assert.equal(shared13.review.listening.filter(Boolean).length,40);
+for(const skill of ['flashcards','practice','reading','listening']){
+  const node={innerHTML:''},exam=volume13.tests[0],base='#/ielts/cambridge-ielts/'+volume13.id+'/'+exam.id;
+  const partCount=skill==='reading'?3:skill==='listening'?4:1;
+  for(let part=1;part<=partCount;part++){
+    const storageKey='wordhop.cambridge.exam.v2.test-13-1.'+skill+'.part-'+part;
+    if(skill==='reading'||skill==='listening')values.set(storageKey,JSON.stringify({answers:{},checked:true}));
+    component.render({container:node,route:{volume:volume13,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+    assert(node.innerHTML.includes('cm-six-skill-tabs'),'Cam 13 Test 1 has six tabs');
+    if(skill==='flashcards')assert(node.innerHTML.includes('cm-flipcard')&&node.innerHTML.includes('data-cam-vocab="speak"')&&node.innerHTML.includes('35 words'));
+    if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>node.innerHTML.includes(label)));
+    if(skill==='reading'||skill==='listening')assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'English answer review for every part');
+    values.delete(storageKey);
+  }
+}
+
 const reversed=component.score('13-2','listening',{17:'E',18:'C',19:'D',20:'B'});
 assert(reversed[17]&&reversed[18]&&reversed[19]&&reversed[20],'Unordered option pairs must grade correctly');
 assert(!component.score('13-2','listening',{17:'C',18:'C'})[18],'Duplicate choice must not be counted twice');
@@ -756,3 +775,28 @@ console.log('PASS: Cam 13–14 retain 125% zoom; Cambridge 15–21 display at 10
 console.log('PASS: 360 Cambridge split-screen Reading/Listening/Writing views, independent scroll CSS, and responsive mobile stack.');
 
 console.log('PASS: '+renders+' Cambridge views use Simply PET / Authentic 1 layouts; 4 × 40 Listening and 4 × 40 Reading keys present; per-part review persists.');
+
+/* Whole-course coverage audit: distinguish available exams from completed study material. */
+const coverageRows=[];
+const coverageStudy=context.window.WORDHOP_CAMBRIDGE_STUDY||{};
+const coverage12=context.window.WORDHOP_CAMBRIDGE12_REVIEW||{};
+const coverage12Vocab=context.window.WordHopCambridge12Vocabulary||{};
+for(let book=12;book<=21;book++){
+  const id=book===12?'cambridge-ielts-academic-21':book===21?'cambridge-ielts-academic-21-2026':'cambridge-ielts-academic-'+book;
+  const item=catalog.volumes.find(v=>v.id===id);
+  assert(item&&item.tests.length===4,'Cambridge '+book+' exists with four tests');
+  for(const exam of item.tests){
+    const n=Number(exam.id.replace('test-',''));
+    const key=book===12?String(n):book+'-'+n;
+    const review=book===12?coverage12[key]:coverageStudy[key]?.review;
+    const words=book===12?[1,2,3].flatMap(p=>coverage12Vocab[n+'-'+p]?.words||[]):coverageStudy[key]?.vocabulary?.words||[];
+    const unique=new Set(words.map(w=>w.word.toLowerCase().trim())).size;
+    const reading=(review?.reading||[]).filter(Boolean).length,listening=(review?.listening||[]).filter(Boolean).length;
+    assert(reading<=40&&listening<=40,'No surplus explanations');
+    coverageRows.push({book,test:n,vocab:unique,reading,listening,complete:unique>0&&reading===40&&listening===40});
+  }
+}
+assert.equal(coverageRows.length,40);
+console.log('CAMBRIDGE STUDY COVERAGE (source data, not manual verification):');
+console.table(coverageRows);
+console.log('Study data complete: '+coverageRows.filter(r=>r.complete).length+'/40 tests. Incomplete entries remain explicitly listed.');
