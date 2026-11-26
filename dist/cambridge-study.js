@@ -1942,5 +1942,663 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "20-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "abstract (adj.)",
+          "definition": "Representing ideas, shapes or forms rather than realistic objects.",
+          "example": "The artist developed an abstract style."
+        },
+        {
+          "word": "finesse (n.)",
+          "definition": "Great skill and delicacy in handling something.",
+          "example": "She painted the details with remarkable finesse."
+        },
+        {
+          "word": "nuance (n.)",
+          "definition": "A subtle difference in meaning, appearance or expression.",
+          "example": "The photograph captures every nuance of light."
+        },
+        {
+          "word": "enliven (v.)",
+          "definition": "Make something more interesting or lively.",
+          "example": "Bright colours enliven the composition."
+        },
+        {
+          "word": "avant-garde (adj.)",
+          "definition": "Introducing innovative or experimental ideas in art or culture.",
+          "example": "The gallery exhibited avant-garde paintings."
+        },
+        {
+          "word": "vigorously (adv.)",
+          "definition": "With great energy and determination.",
+          "example": "The organisation vigorously promoted local artists."
+        },
+        {
+          "word": "botanical (adj.)",
+          "definition": "Relating to plants or their study.",
+          "example": "The museum holds a collection of botanical illustrations."
+        },
+        {
+          "word": "magnify (v.)",
+          "definition": "Make something appear larger.",
+          "example": "A lens magnifies tiny details."
+        },
+        {
+          "word": "rugged (adj.)",
+          "definition": "Rough and uneven, especially of terrain.",
+          "example": "The region is famous for its rugged mountains."
+        },
+        {
+          "word": "concave (adj.)",
+          "definition": "Curving inwards.",
+          "example": "The sculpture has a concave surface."
+        },
+        {
+          "word": "convex (adj.)",
+          "definition": "Curving outwards.",
+          "example": "The artist contrasted convex and concave forms."
+        },
+        {
+          "word": "monumental (adj.)",
+          "definition": "Extremely large, important or impressive.",
+          "example": "The painter completed a monumental canvas."
+        },
+        {
+          "word": "hinder (v.)",
+          "definition": "Make progress or activity more difficult.",
+          "example": "Poor visibility hindered the research."
+        },
+        {
+          "word": "legacy (n.)",
+          "definition": "Something valuable passed on from an earlier generation.",
+          "example": "Her artistic legacy continues to inspire students."
+        },
+        {
+          "word": "breach (v.)",
+          "definition": "Break through or pass a barrier.",
+          "example": "Floodwater breached the coastal defences."
+        },
+        {
+          "word": "seep (v.)",
+          "definition": "Flow slowly through a small opening or porous material.",
+          "example": "Water seeped through the walls."
+        },
+        {
+          "word": "mitigation (n.)",
+          "definition": "Action that reduces the severity of a problem.",
+          "example": "Climate mitigation requires long-term investment."
+        },
+        {
+          "word": "exacerbate (v.)",
+          "definition": "Make a problem or condition worse.",
+          "example": "Heavy rainfall exacerbated coastal erosion."
+        },
+        {
+          "word": "sediment (n.)",
+          "definition": "Solid material carried and deposited by water or wind.",
+          "example": "Mangroves help trap sediment."
+        },
+        {
+          "word": "dampen (v.)",
+          "definition": "Reduce the strength or intensity of something.",
+          "example": "The vegetation dampens the force of waves."
+        },
+        {
+          "word": "semi-permeable (adj.)",
+          "definition": "Allowing some substances to pass through but not others.",
+          "example": "The semi-permeable barrier slows the water flow."
+        },
+        {
+          "word": "subsidence (n.)",
+          "definition": "The gradual sinking of the ground.",
+          "example": "Land subsidence increases the risk of flooding."
+        },
+        {
+          "word": "multifunctional (adj.)",
+          "definition": "Designed to serve several purposes.",
+          "example": "The city needs multifunctional flood defences."
+        },
+        {
+          "word": "retrofit (v.)",
+          "definition": "Add new equipment or features to an existing structure.",
+          "example": "Engineers retrofit homes to improve resilience."
+        },
+        {
+          "word": "amphibious (adj.)",
+          "definition": "Able to operate or exist on both land and water.",
+          "example": "Amphibious houses rise when floodwaters increase."
+        },
+        {
+          "word": "salinity (n.)",
+          "definition": "The amount of salt in water or soil.",
+          "example": "Rising salinity threatens conventional crops."
+        },
+        {
+          "word": "barren (adj.)",
+          "definition": "Unable to produce much vegetation.",
+          "example": "Salt-tolerant crops can grow on previously barren land."
+        },
+        {
+          "word": "lush (adj.)",
+          "definition": "Growing thickly and healthily.",
+          "example": "The project transformed the plot into a lush garden."
+        },
+        {
+          "word": "canopy (n.)",
+          "definition": "A covering formed by branches and leaves overhead.",
+          "example": "Urban trees provide a cooling canopy."
+        },
+        {
+          "word": "livestock (n.)",
+          "definition": "Farm animals kept for agricultural purposes.",
+          "example": "Farmers protect their livestock from predators."
+        },
+        {
+          "word": "exterminate (v.)",
+          "definition": "Destroy or kill an entire population of something.",
+          "example": "Predators were once exterminated in many regions."
+        },
+        {
+          "word": "revival (n.)",
+          "definition": "A return to activity, popularity or importance.",
+          "example": "Traditional farming methods have experienced a revival."
+        },
+        {
+          "word": "predation (n.)",
+          "definition": "The hunting and killing of animals by other animals for food.",
+          "example": "Guard dogs reduce livestock losses from predation."
+        },
+        {
+          "word": "tolerant (adj.)",
+          "definition": "Willing to accept or able to withstand something.",
+          "example": "Farmers may become more tolerant of wildlife."
+        },
+        {
+          "word": "rancher (n.)",
+          "definition": "Someone who owns or manages a large livestock farm.",
+          "example": "Ranchers are seeking alternatives to killing predators."
+        },
+        {
+          "word": "displace (v.)",
+          "definition": "Force someone or something to move from its usual place.",
+          "example": "The intervention may displace predators to neighbouring farms."
+        },
+        {
+          "word": "unintended (adj.)",
+          "definition": "Not planned or deliberately caused.",
+          "example": "Conservation measures can have unintended consequences."
+        },
+        {
+          "word": "carnivore (n.)",
+          "definition": "An animal that feeds mainly on other animals.",
+          "example": "The area supports several species of carnivore."
+        },
+        {
+          "word": "refuge (n.)",
+          "definition": "A place that provides protection from danger.",
+          "example": "Protected woodland offers a refuge for birds."
+        },
+        {
+          "word": "harmonious (adj.)",
+          "definition": "Peaceful and characterised by agreement or balance.",
+          "example": "The project promotes harmonious relations between people and wildlife."
+        },
+        {
+          "word": "coexistence (n.)",
+          "definition": "The state of existing together in the same place or time.",
+          "example": "Conservationists encourage coexistence with wild predators."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          65,
+          "Paragraph 2",
+          "she became an art teacher",
+          "After studying art and attending training college, O'Keeffe taught at schools and colleges in several states."
+        ],
+        [
+          65,
+          "Paragraph 3",
+          "abstract compositions in charcoal",
+          "She created experimental charcoal drawings that were later exhibited in New York."
+        ],
+        [
+          65,
+          "Paragraph 5",
+          "the soaring skyscrapers of New York",
+          "Her architectural pictures of New York's skyscrapers helped establish her fame."
+        ],
+        [
+          66,
+          "Paragraphs 5–6",
+          "magnified images depicting flowers",
+          "She enlarged the smallest details of flowers to create innovative abstract compositions."
+        ],
+        [
+          66,
+          "Paragraph 8",
+          "the numerous sun-bleached bones",
+          "Bones found in New Mexico's rugged terrain initially inspired her Southwestern paintings."
+        ],
+        [
+          66,
+          "Paragraph 9",
+          "the region's spectacular landscape",
+          "New Mexico's geological formations, light, colours and vegetation held her interest for over forty years."
+        ],
+        [
+          66,
+          "Paragraph 11",
+          "aerial views of rivers",
+          "Air travel inspired paintings of rivers and clouds viewed from above."
+        ],
+        [
+          65,
+          "Paragraph 1",
+          "she remained independent from shifting art trends",
+          "Her style remained faithful to her own artistic vision rather than following changes in fashion."
+        ],
+        [
+          65,
+          "Paragraph 2",
+          "she had determined to make her way as an artist",
+          "By the time she graduated from high school, she had already chosen an artistic career."
+        ],
+        [
+          65,
+          "Paragraph 3",
+          "a friend in New York, who showed them to ... Alfred Stieglitz",
+          "O'Keeffe sent drawings to a friend, who subsequently showed them to Stieglitz; she did not send them directly to his gallery."
+        ],
+        [
+          65,
+          "Paragraph 4",
+          "portraits of O'Keeffe, taken over the course of twenty years",
+          "Stieglitz photographed her over a period of twenty years, confirming the statement."
+        ],
+        [
+          66,
+          "Paragraph 10",
+          "one feature of the Abiquiú house ... was particularly inspirational",
+          "The patio inspired many paintings, but the text does not say that these were among her personal favourites."
+        ],
+        [
+          66,
+          "Paragraphs 11–12",
+          "her last two major series",
+          "The passage describes her later work and declining productivity, but does not compare the total quantity of her work in the 1950s–1970s with every other period."
+        ],
+        [
+          69,
+          "Section C",
+          "trapping sediment in their net-like root systems",
+          "This section explains how mangrove roots protect coastlines by raising the seabed and reducing wave energy."
+        ],
+        [
+          69,
+          "Section A",
+          "global warming would continue for around 40 years",
+          "Scientists predict that warming would persist for about forty years even if emissions stopped immediately."
+        ],
+        [
+          70,
+          "Section D",
+          "about a third of what it would cost to completely replace a building's foundations",
+          "Amphibious modifications are described as considerably cheaper than permanently elevating houses."
+        ],
+        [
+          70,
+          "Section F",
+          "Using a Geographic Information System data mapping tool",
+          "The programme used GIS mapping to identify streets with limited tree canopy."
+        ],
+        [
+          69,
+          "Section B",
+          "new pumps that can remove up to 75,000 litres of water per minute",
+          "High-capacity pumps were installed as part of Miami Beach's stormwater-management programme."
+        ],
+        [
+          69,
+          "Section C",
+          "building semi-permeable dams",
+          "The project began by constructing bamboo and brushwood dams to reproduce the protective effects of mangrove roots."
+        ],
+        [
+          70,
+          "Section D",
+          "these ones had been built to float",
+          "The adapted houses rise with floodwater instead of remaining fixed at a permanent height."
+        ],
+        [
+          70,
+          "Section E",
+          "cultivating naturally salt-tolerant crops",
+          "Farmers are introducing crops that can grow in soils affected by rising salinity."
+        ],
+        [
+          70,
+          "Section F",
+          "the planting of trees",
+          "The Cool Streets LA programme includes planting trees to help lower urban temperatures."
+        ],
+        [
+          69,
+          "Section C",
+          "engage and benefit communities and local decision-makers",
+          "Susanna Tol argues for multifunctional solutions that involve and benefit local communities."
+        ],
+        [
+          70,
+          "Section F",
+          "Urban cooling is literally a matter of life and death",
+          "Greg Spotts stresses that reducing urban heat is essential for survival in Los Angeles."
+        ],
+        [
+          69,
+          "Section B",
+          "in 20, 30, 40 years, we'll need to go back in there",
+          "Yanira Pineda expects further adjustments to Miami Beach's flood defences in future decades."
+        ],
+        [
+          70,
+          "Section D",
+          "necessary in places that didn't previously need it",
+          "Elizabeth English notes that amphibious technology is increasingly needed in new locations."
+        ],
+        [
+          74,
+          "Section D",
+          "they were less likely to kill predators",
+          "In Namibia, guard dogs reduced livestock losses, making farmers less likely to kill cheetahs."
+        ],
+        [
+          74,
+          "Section G",
+          "a bright future for guard dogs",
+          "The author suggests that guard dogs may support biodiversity and harmonious coexistence between people and wildlife."
+        ],
+        [
+          73,
+          "Section B",
+          "place themselves between the livestock and any threat, barking loudly",
+          "The dogs position themselves protectively, bark and, if necessary, chase predators away."
+        ],
+        [
+          73,
+          "Section C",
+          "more than 90 per cent ... rate the performance of the dogs as very good or excellent",
+          "Research in Portugal and Australia provides evidence from different academics that guard dogs effectively protect livestock."
+        ],
+        [
+          73,
+          "Section B",
+          "raised from an early age with the animals they will be watching",
+          "The puppies learn their role by growing up alongside the livestock they will protect."
+        ],
+        [
+          74,
+          "Section D",
+          "common ground from the livestock perspective and from the conservation perspective",
+          "Julie Young argues that preventing livestock deaths also reduces farmers' motivation to kill wild predators."
+        ],
+        [
+          74,
+          "Section E",
+          "self-reported results must be taken with a pinch of salt",
+          "Bethany Smith cautions that farmers' claims about their own behaviour may not be completely reliable."
+        ],
+        [
+          74,
+          "Section E",
+          "transferring the wolf pressure to the neighbour's herd",
+          "Silvia Ribeiro warns that limited adoption may simply shift predator attacks to neighbouring farms."
+        ],
+        [
+          73,
+          "Section C",
+          "If they are managed and used properly",
+          "Linda van Bommel identifies correctly managed guard dogs as the most effective means of protecting livestock."
+        ],
+        [
+          73,
+          "Section B",
+          "too much human affection makes it a great dog for guarding the front porch",
+          "Dan Macon explains that livestock guard dogs must bond with farm animals rather than primarily with people."
+        ],
+        [
+          74,
+          "Section F",
+          "the number of jackals killed by dogs and people actually increased",
+          "Although guard dogs benefited cheetahs, the deaths of jackals increased."
+        ],
+        [
+          74,
+          "Section F",
+          "spread diseases to wild animals",
+          "Guard dogs can transmit diseases to wildlife."
+        ],
+        [
+          74,
+          "Section F",
+          "compete with other carnivores for food",
+          "Competition may reduce the amount of food available to wild carnivores."
+        ],
+        [
+          74,
+          "Section G",
+          "where foxes would normally raid them",
+          "Guard dogs protect ground-nesting birds whose nests would otherwise be threatened by foxes."
+        ]
+      ],
+      "listening": [
+        [
+          102,
+          "I always recommend people stay at the King's Hotel",
+          "Sandra recommends the King's Hotel on George Street."
+        ],
+        [
+          102,
+          "it's about £125 per night",
+          "A family room costs approximately £125; £95 refers to each double room."
+        ],
+        [
+          102,
+          "I think it's better to do a walking tour",
+          "Sandra recommends a walking tour rather than the more expensive bus tour."
+        ],
+        [
+          102,
+          "You could get there by boat",
+          "The suggested trip to the old fort involves travelling by boat."
+        ],
+        [
+          103,
+          "Tuesday would be best",
+          "The museum is closed on Mondays, so Tuesday is selected as the best day during their visit."
+        ],
+        [
+          103,
+          "another one starting soon on space",
+          "The upcoming science museum exhibition is about space; the computer exhibition has ended."
+        ],
+        [
+          103,
+          "My cousin's vegetarian",
+          "Clacton Market is recommended because it offers a good selection of vegetarian food."
+        ],
+        [
+          103,
+          "most of the stores stop serving lunch at 2.30",
+          "At weekends, visitors should arrive before 2.30 p.m. for lunch."
+        ],
+        [
+          103,
+          "On some seats there a 75 discount",
+          "The online ticket service offers a discount of up to 75 percent on certain seats."
+        ],
+        [
+          104,
+          "look right down on the port",
+          "Telegraph Hill offers an impressive view over the port."
+        ],
+        [
+          104,
+          "we pick the best one at the end of the afternoon",
+          "Children can enter a football drawing competition and win a prize. Questions 11 and 12 accept either order."
+        ],
+        [
+          104,
+          "Please don't let your children wander off on their own",
+          "Parents must supervise children throughout the visit because of stairs and the dark tunnel."
+        ],
+        [
+          104,
+          "We've only just started offering these",
+          "VIP tours are a newly introduced feature. Questions 13 and 14 accept either order."
+        ],
+        [
+          104,
+          "We've only just introduced this feature",
+          "The self-guided audio tour with headphones is new; the cinema experience is already established."
+        ],
+        [
+          104,
+          "a player whose role it was to guard the goal",
+          "Goalkeepers were introduced in 1870."
+        ],
+        [
+          105,
+          "referees were allowed to send players off ... swap ends at half-time",
+          "Two rule changes occurred in 1874: dismissals and changing ends at half-time."
+        ],
+        [
+          105,
+          "that tape was replaced with the solid crossbar",
+          "In 1875 the goal design changed from tape to a solid crossbar."
+        ],
+        [
+          105,
+          "set a limit of 90 minutes for each match",
+          "Clubs agreed on a fixed match duration in 1877."
+        ],
+        [
+          105,
+          "electric lamps were installed on certain pitches",
+          "Floodlighting was introduced in 1878, allowing evening matches."
+        ],
+        [
+          105,
+          "clubs began to charge fans for admission to games",
+          "Spectators began paying admission fees in 1880 while players remained amateurs."
+        ],
+        [
+          105,
+          "What's less obvious is how it helps develop their concentration",
+          "Both students are surprised that handwriting develops children's concentration. Questions 21 and 22 accept either order."
+        ],
+        [
+          106,
+          "I never associated spatial awareness with handwriting either",
+          "Both students are surprised by the importance of spatial awareness for spacing words."
+        ],
+        [
+          106,
+          "using one of those pens that lights up if you press too hard",
+          "The students agree that excessive writing pressure can be addressed with a pressure-sensitive pen. Questions 23 and 24 accept either order."
+        ],
+        [
+          106,
+          "use grid paper ... that trains them to space the letters correctly",
+          "Grid paper helps children practise appropriate letter spacing."
+        ],
+        [
+          106,
+          "it's not as frustrating for them if they get things wrong",
+          "The woman says typing makes mistakes less frustrating for children with dyslexia."
+        ],
+        [
+          106,
+          "cursive is more difficult to learn, especially for children with learning difficulties",
+          "Joined-up writing presents particular difficulties for some children."
+        ],
+        [
+          107,
+          "research shows that I was right to worry",
+          "Research supports the concern that poor handwriting can affect examination marks."
+        ],
+        [
+          107,
+          "teachers understand the value of handwriting. It's a basic life skill",
+          "The man expects handwriting to remain part of children's education."
+        ],
+        [
+          107,
+          "my awful spelling ... my punctuation is really inconsistent",
+          "The woman attributes her spelling and punctuation problems to a lack of handwriting practice."
+        ],
+        [
+          107,
+          "Personally, I miss writing by hand",
+          "Both students regret that they have lost the habit of writing by hand."
+        ],
+        [
+          108,
+          "rodents, such as rats",
+          "Birds of prey protect crops by hunting rats and other rodents."
+        ],
+        [
+          108,
+          "a major danger to rural workers is snakes",
+          "Predatory birds control snake populations, reducing the risk of dangerous bites."
+        ],
+        [
+          108,
+          "tourism has become an important source of revenue",
+          "The sanctuary attracts tourists and supports the local economy."
+        ],
+        [
+          108,
+          "are hit by fast moving traffic",
+          "Birds may be killed by vehicles when feeding or resting on roads."
+        ],
+        [
+          108,
+          "a particular danger in the heavy rain",
+          "Electrocution from power lines is especially dangerous during heavy rainfall."
+        ],
+        [
+          108,
+          "they may poison the birds",
+          "Poisoning birds is illegal and may damage the ecosystem."
+        ],
+        [
+          108,
+          "keep them safe from predators inside a building",
+          "Housing chickens indoors could protect them, but the cost makes it impractical."
+        ],
+        [
+          108,
+          "Most of the farmers had at least one dog",
+          "Farmers use dogs to frighten away birds of prey."
+        ],
+        [
+          108,
+          "the resulting noise would succeed in driving away birds",
+          "Children make noise by striking metal objects to scare predators away."
+        ],
+        [
+          108,
+          "they were forced to use a combination",
+          "Because individual measures are not completely effective, farmers combine several methods."
+        ]
+      ]
+    }
   }
 };
