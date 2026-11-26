@@ -2600,5 +2600,633 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "13-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "gross domestic product (n.)",
+          "definition": "The total value of goods and services produced in a country.",
+          "example": "Tourism contributes to the country's gross domestic product."
+        },
+        {
+          "word": "expenditure (n.)",
+          "definition": "The amount of money spent.",
+          "example": "Public expenditure on transport has increased."
+        },
+        {
+          "word": "authentic (adj.)",
+          "definition": "Genuine rather than artificial or copied.",
+          "example": "Visitors seek authentic cultural experiences."
+        },
+        {
+          "word": "scenic (adj.)",
+          "definition": "Having attractive natural views.",
+          "example": "The region is famous for its scenic routes."
+        },
+        {
+          "word": "independent evaluation (n.)",
+          "definition": "An assessment conducted without influence from the subject being assessed.",
+          "example": "The scheme requires an independent evaluation of service quality."
+        },
+        {
+          "word": "itinerary (n.)",
+          "definition": "A planned route or schedule for a journey.",
+          "example": "Travellers can customise their itinerary."
+        },
+        {
+          "word": "backdrop (n.)",
+          "definition": "The background against which something takes place.",
+          "example": "Mountains provided a spectacular backdrop for the film."
+        },
+        {
+          "word": "interactive (adj.)",
+          "definition": "Allowing users to participate or respond actively.",
+          "example": "The website includes interactive tours."
+        },
+        {
+          "word": "comprehensive (adj.)",
+          "definition": "Including all or nearly all relevant aspects.",
+          "example": "The guide provides comprehensive information."
+        },
+        {
+          "word": "once-in-a-lifetime (adj.)",
+          "definition": "Unlikely to happen more than once in a person's life.",
+          "example": "The expedition was a once-in-a-lifetime experience."
+        },
+        {
+          "word": "apathy (n.)",
+          "definition": "A lack of interest, enthusiasm or concern.",
+          "example": "Apathy can make it difficult to engage in activities."
+        },
+        {
+          "word": "agitated (adj.)",
+          "definition": "Anxious, restless or emotionally disturbed.",
+          "example": "The passengers became agitated during the delay."
+        },
+        {
+          "word": "indifferent (adj.)",
+          "definition": "Showing little interest or concern.",
+          "example": "Some participants seemed indifferent to the results."
+        },
+        {
+          "word": "arousal (n.)",
+          "definition": "A state of physical or emotional alertness.",
+          "example": "The researchers measured participants' emotional arousal."
+        },
+        {
+          "word": "apathetic (adj.)",
+          "definition": "Showing little motivation or interest.",
+          "example": "The prolonged routine left workers feeling apathetic."
+        },
+        {
+          "word": "explosive (adj.)",
+          "definition": "Sudden and extremely intense.",
+          "example": "The discussion provoked an explosive reaction."
+        },
+        {
+          "word": "adaptive (adj.)",
+          "definition": "Helping someone or something adjust to conditions.",
+          "example": "Fear can have an adaptive function."
+        },
+        {
+          "word": "toxic (adj.)",
+          "definition": "Harmful or damaging.",
+          "example": "A toxic working environment can increase stress."
+        },
+        {
+          "word": "fester (v.)",
+          "definition": "Become worse over time when left unresolved.",
+          "example": "Unaddressed frustration may fester."
+        },
+        {
+          "word": "detrimental (adj.)",
+          "definition": "Causing harm or damage.",
+          "example": "Chronic boredom can have detrimental effects on well-being."
+        },
+        {
+          "word": "prone (adj.)",
+          "definition": "Likely to experience or do something.",
+          "example": "Some people are more prone to boredom than others."
+        },
+        {
+          "word": "distraction (n.)",
+          "definition": "Something that takes attention away from a task.",
+          "example": "Turning off notifications reduces distraction."
+        },
+        {
+          "word": "overstimulation (n.)",
+          "definition": "Exposure to more stimulation than can be comfortably processed.",
+          "example": "Constant noise can lead to overstimulation."
+        },
+        {
+          "word": "sophisticated (adj.)",
+          "definition": "Advanced, complex or highly developed.",
+          "example": "The laboratory uses sophisticated software."
+        },
+        {
+          "word": "computational (adj.)",
+          "definition": "Relating to computer-based processes or calculations.",
+          "example": "The project explores computational creativity."
+        },
+        {
+          "word": "prestigious (adj.)",
+          "definition": "Widely respected and admired.",
+          "example": "Her paintings appeared in prestigious galleries."
+        },
+        {
+          "word": "enraptured (adj.)",
+          "definition": "Filled with intense pleasure or fascination.",
+          "example": "The audience was enraptured by the performance."
+        },
+        {
+          "word": "subject matter (n.)",
+          "definition": "The topic or content of a work of art or discussion.",
+          "example": "The artist finds subject matter in everyday life."
+        },
+        {
+          "word": "mechanical (adj.)",
+          "definition": "Relating to machines or appearing automatic rather than natural.",
+          "example": "The image has a deliberately mechanical appearance."
+        },
+        {
+          "word": "ghostlike (adj.)",
+          "definition": "Resembling a ghost in appearance.",
+          "example": "The faded images had a ghostlike quality."
+        },
+        {
+          "word": "pseudoscience (n.)",
+          "definition": "Claims presented as scientific despite lacking sound scientific evidence.",
+          "example": "The researchers warned against pseudoscience."
+        },
+        {
+          "word": "replica (n.)",
+          "definition": "An accurate copy of an original object.",
+          "example": "The museum displayed a replica of the sculpture."
+        },
+        {
+          "word": "prejudice (n.)",
+          "definition": "An unfair opinion formed without sufficient knowledge.",
+          "example": "Prejudice can influence people's judgments about unfamiliar art."
+        },
+        {
+          "word": "irresistible (adj.)",
+          "definition": "Too attractive or powerful to resist.",
+          "example": "The exhibition had an irresistible appeal."
+        },
+        {
+          "word": "speculation (n.)",
+          "definition": "The formation of ideas without firm evidence.",
+          "example": "The discovery prompted speculation about the artist's intentions."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          16,
+          "Paragraph 2",
+          "able to update the details they gave",
+          "Participating businesses could revise their own information regularly so that the database remained accurate."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "the effect of each business on the environment",
+          "The national evaluation assessed service quality and environmental impact."
+        ],
+        [
+          16,
+          "Paragraph 3",
+          "rugby captain Tana Umaga",
+          "The interview features a former rugby captain, matching the sports-related example."
+        ],
+        [
+          16,
+          "Paragraph 3",
+          "locations chosen for blockbuster films",
+          "The interactive tour featured New Zealand locations used in films."
+        ],
+        [
+          16,
+          "Paragraph 3",
+          "different routes according to the season",
+          "The driving information varied depending on the season."
+        ],
+        [
+          17,
+          "Paragraph 4",
+          "links to accommodation in the area",
+          "The Travel Planner provided accommodation links alongside maps and transport information."
+        ],
+        [
+          17,
+          "Paragraph 4",
+          "submit a blog of their New Zealand travels",
+          "The Your Words feature allowed travellers to submit a blog."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "create itineraries and travel packages to suit their own needs",
+          "The site enabled users to create their own itineraries rather than providing only ready-made packages."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "not solely by geographical location",
+          "The site offered several ways to search, but the passage does not state which one most users started with."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "activities are the key driver of visitor satisfaction, contributing 74%",
+          "The remaining 26% is shared by transport and accommodation, not accommodation alone."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "cultural activities most when they are interactive",
+          "Visitors especially enjoy participating in local cultural activities rather than merely observing them."
+        ],
+        [
+          17,
+          "Final paragraph",
+          "a visitor economy composed mainly of small businesses",
+          "The passage describes the composition of the tourism industry but does not establish a preference for small hotels."
+        ],
+        [
+          17,
+          "Final paragraph",
+          "a once-in-a-lifetime visit",
+          "Many visitors regard the trip as a unique experience unlikely to be repeated."
+        ],
+        [
+          21,
+          "Section A",
+          "There isn't even agreement over whether boredom is always a low-energy, flat kind of emotion",
+          "The paragraph discusses problems defining boredom and studying it scientifically."
+        ],
+        [
+          21,
+          "Section B",
+          "identified five distinct types",
+          "Goetz and colleagues categorise boredom into five types according to arousal and positive or negative feelings."
+        ],
+        [
+          21,
+          "Section C",
+          "it can lead to all kinds of amazing things",
+          "Mann argues that boredom may encourage creativity, illustrated by the experiment with polystyrene cups."
+        ],
+        [
+          22,
+          "Section D",
+          "repeatedly failing to engage attention can lead to a state where we don't know what to do any more",
+          "Eastwood warns that boredom can become harmful and lead to a loss of motivation."
+        ],
+        [
+          22,
+          "Section E",
+          "People who are motivated by pleasure seem to suffer particularly badly",
+          "The paragraph identifies personality traits associated with greater susceptibility to boredom."
+        ],
+        [
+          22,
+          "Section F",
+          "our over-connected lifestyles might even be a new source of boredom",
+          "Wemelsfelder suggests a modern cause of boredom and proposes reducing unnecessary mental stimulation."
+        ],
+        [
+          21,
+          "Section A",
+          "boredom may protect them from infectious social situations",
+          "Toohey compares boredom with disgust and suggests it may help people avoid unpleasant circumstances."
+        ],
+        [
+          21,
+          "Section B",
+          "The most damaging is 'reactant' boredom",
+          "Goetz identifies reactant boredom as particularly harmful."
+        ],
+        [
+          22,
+          "Section D",
+          "trying to connect with the world and if they are not successful there's that frustration",
+          "Eastwood explains how unsuccessful attempts to overcome boredom may worsen the experience."
+        ],
+        [
+          22,
+          "Section F",
+          "our over-connected lifestyles",
+          "Wemelsfelder argues that contemporary lifestyles may contribute to boredom."
+        ],
+        [
+          22,
+          "Section D",
+          "causes an inability to focus on anything",
+          "Eastwood identifies an inability to focus as a central feature of boredom."
+        ],
+        [
+          22,
+          "Section E",
+          "People who are motivated by pleasure seem to suffer particularly badly",
+          "People strongly motivated by pleasure may have greater difficulty coping with boredom."
+        ],
+        [
+          22,
+          "Section E",
+          "Other personality traits, such as curiosity, are associated with a high boredom threshold",
+          "Curiosity is linked to a greater tolerance of boredom."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "audiences enraptured",
+          "The examples of computer-created music, paintings and autonomous software show that substantial progress has already occurred."
+        ],
+        [
+          24,
+          "Paragraph 2",
+          "what it means to be human",
+          "Wiggins suggests that computational creativity challenges a quality people regard as fundamental to humanity."
+        ],
+        [
+          24,
+          "Paragraphs 3–4",
+          "The software runs its own web searches",
+          "Unlike Aaron, which acts more like a tool for the programmer's ideas, the Painting Fool searches independently for its subject matter."
+        ],
+        [
+          24,
+          "Paragraph 4",
+          "double standards towards software-produced and human-produced art",
+          "Colton argues that people evaluate human and computer art according to different standards."
+        ],
+        [
+          24,
+          "Paragraph 4",
+          "This gives the work an eerie, ghostlike quality",
+          "The example of the chair paintings shows how unusual software output can achieve a striking artistic effect."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "humans who have had millennia to develop our skills",
+          "Colton says comparisons between human and machine creativity should account for humans' much longer developmental history."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "audiences were moved to tears, and EMI even fooled classical music experts",
+          "EMI surprised listeners by composing music that could be mistaken for human compositions."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "his deliberately vague explanation of how the software worked",
+          "Wiggins criticised Cope for failing to explain the technical workings of his software clearly."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "relied completely on the original artist's creative impulses",
+          "Hofstadter argues that EMI produced replicas dependent on existing human creativity."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "When audiences found out the truth",
+          "The negative reaction occurred after audiences discovered the music had been generated by software."
+        ],
+        [
+          25,
+          "Paragraph 6",
+          "weren't told beforehand whether the tunes were composed by humans or computers",
+          "Participants evaluated music without knowing who or what composed it."
+        ],
+        [
+          25,
+          "Paragraph 6",
+          "People who thought the composer was a computer tended to dislike the piece more",
+          "Moffat's findings suggest that perceived authorship influences appreciation, which may explain audience reactions to EMI."
+        ],
+        [
+          25,
+          "Paragraph 6",
+          "The non-experts were not so objective",
+          "The passage comments on the group overall but does not say that every non-expert responded predictably."
+        ],
+        [
+          25,
+          "Paragraph 7",
+          "people's enjoyment of an artwork increases if they think more time and effort was needed",
+          "Kruger's findings support Bloom's suggestion that the creative process influences appreciation rather than casting doubt on it."
+        ]
+      ],
+      "listening": [
+        [
+          97,
+          "they also show you how to choose them",
+          "The Food Studio teaches participants how to choose seasonal ingredients as well as how to cook them."
+        ],
+        [
+          97,
+          "could I get a private lesson there?",
+          "The official confirms that private lessons are available."
+        ],
+        [
+          97,
+          "a discount of 20 percent if you return",
+          "Returning customers receive a twenty-percent discount on further classes."
+        ],
+        [
+          97,
+          "teaching you to prepare healthy food",
+          "Bond's Cookery School concentrates on healthy cooking rather than low-calorie diets."
+        ],
+        [
+          97,
+          "ingredients that will help build up your bones",
+          "The recipes address specific nutritional needs, including ingredients that strengthen bones."
+        ],
+        [
+          97,
+          "every Thursday evening they have a lecture",
+          "The school offers a free lecture each Thursday evening."
+        ],
+        [
+          97,
+          "that's spelled A-R-R-E-T-S-A",
+          "The spelling identifies the Arretsa Centre."
+        ],
+        [
+          97,
+          "they mostly specialise in vegetarian dishes",
+          "The centre mainly teaches vegetarian cooking, although some meat and fish dishes are available."
+        ],
+        [
+          97,
+          "Is it just by the market?",
+          "The official confirms that the centre is beside the market."
+        ],
+        [
+          98,
+          "a special two-hour course in how to use a knife",
+          "The course covers knife buying, sharpening and chopping skills."
+        ],
+        [
+          98,
+          "the overall rise in the volume of traffic of all kinds",
+          "The increased amount of traffic is the reason for the new regulations, not a rise in accidents."
+        ],
+        [
+          98,
+          "lack of visibility on some roads due to cars parked along the sides",
+          "Residents particularly complain about the inconvenience caused by parked cars."
+        ],
+        [
+          98,
+          "no good introducing new regulations if we don't have a way of making sure that everyone obeys them",
+          "The challenge is enforcing the new regulations rather than obtaining funding."
+        ],
+        [
+          98,
+          "another set at the other end, at the School Road junction",
+          "The new traffic lights will be at the eastern end of High Street where it meets School Road."
+        ],
+        [
+          98,
+          "crossing the road in front of the supermarket",
+          "The pedestrian crossing is to be outside the supermarket on High Street."
+        ],
+        [
+          98,
+          "the High Street near School Road, and allow parking there",
+          "Parking will be permitted near the School Road end of High Street, not outside the library."
+        ],
+        [
+          98,
+          "a new No Parking sign on School Road, just by the entrance to the school",
+          "The sign is located beside the school entrance."
+        ],
+        [
+          99,
+          "two new disabled parking spaces on the side road up towards the bank",
+          "The disabled spaces are planned on the side road leading towards the bank."
+        ],
+        [
+          99,
+          "the bend just before you get to the school, on the same side of the road",
+          "The pavement will be widened at the bend on the school's side of School Road."
+        ],
+        [
+          99,
+          "the supermarket on School Road",
+          "Restrictions on lorry loading and unloading apply to the supermarket on School Road, not the one on High Street."
+        ],
+        [
+          99,
+          "there's an optional module on seed structure and function in the third year",
+          "Jack thinks the experiment could be useful for a possible later module."
+        ],
+        [
+          99,
+          "we'd need to allow time for the seeds to come up",
+          "They agree that the seeds can germinate within the available time if they start immediately."
+        ],
+        [
+          99,
+          "we need to be sure we're the only ones doing that",
+          "They plan to check that no other students have chosen the same topic."
+        ],
+        [
+          99,
+          "I found it quite hard to follow ... lots about the theory",
+          "Graves's book is too theoretical for their practical experiment."
+        ],
+        [
+          100,
+          "analysis of figures comparing the times of the fires and the proportion of seeds that germinated was done in a lot of detail",
+          "Jack praises the thorough statistical analysis in Lee Hall's article."
+        ],
+        [
+          100,
+          "how many sorts do we need?",
+          "They discuss choosing different types of seeds as well as different sizes."
+        ],
+        [
+          100,
+          "find out how much it weighs",
+          "Each seed's weight and dimensions must be measured and recorded."
+        ],
+        [
+          100,
+          "on the surface, a few millimetres down, or several centimetres",
+          "They must decide the depths at which to plant the seeds."
+        ],
+        [
+          100,
+          "we need a different one for each seed",
+          "They agree to use a separate pot or container for each seed."
+        ],
+        [
+          100,
+          "see if our plants have come up ... and how tall they've grown",
+          "After roughly three weeks, they will record the height of the plants."
+        ],
+        [
+          100,
+          "One species which is well known as being highly adaptable is the crow",
+          "The crow is an example of an animal known for its adaptability."
+        ],
+        [
+          100,
+          "the pigeon, because they're able to perch on ledges ... like they once perched on cliffs by the sea",
+          "Pigeons adapt to buildings because ledges resemble their natural cliff habitat."
+        ],
+        [
+          100,
+          "the speed with which they're adapting",
+          "Researchers are surprised by the unusually rapid adaptation of urban animals."
+        ],
+        [
+          101,
+          "a jump in brain size when compared to rural mammals",
+          "Urban mammals had larger brains than their rural counterparts."
+        ],
+        [
+          101,
+          "looking in lots of different places to find food",
+          "Finding new sources of food may require greater cognitive ability."
+        ],
+        [
+          101,
+          "she's been looking not at their anatomy but at their behaviour",
+          "Miranda studies behavioural differences rather than anatomical differences."
+        ],
+        [
+          101,
+          "anything they haven't experienced before",
+          "Urban blackbirds are often afraid of novel or unfamiliar situations."
+        ],
+        [
+          101,
+          "when they're under stress ... reducing the amount of hormones",
+          "Some urban animals respond to stressful conditions by reducing the amount of stress-related hormones released."
+        ],
+        [
+          101,
+          "a routine part of their communication is carried out by waving their tails",
+          "Urban squirrels frequently use tail movements to communicate in noisy environments."
+        ],
+        [
+          101,
+          "it's possible that not all of these adaptations will be permanent",
+          "Some urban adaptations may disappear when the animals no longer need them."
+        ]
+      ]
+    }
   }
 };
