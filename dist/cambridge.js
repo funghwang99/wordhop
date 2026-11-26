@@ -278,7 +278,7 @@
   const link=(base,skill,part)=>base+'/'+skill+'/part-'+part;
   const nav=(path,label,klass,selected)=>'<a href="'+esc(path)+'" data-nav="'+esc(path)+'" class="'+klass+(selected?' active':'')+'"'+(selected?' aria-current="page"':'')+'>'+label+'</a>';
   function header(route,crumbs,base,skill){
-    const cam12=route.volume.id==='cambridge-ielts-academic-21';
+    const cam12=route.volume.id==='cambridge-ielts-academic-21'||Boolean(window.WORDHOP_CAMBRIDGE_STUDY?.[testCode(route)]?.vocabulary?.words?.length);
     const tabs=cam12?[['flashcards','Flashcards'],['practice','Practice'],...skills.map(s=>[s,skillNames[s]])]:skills.map(s=>[s,skillNames[s]]);
     return crumbs+'<div class="unit-heading"><div><h1>'+esc(route.exam.title)+'</h1><p>'+esc(route.volume.title)+' · IELTS Academic</p></div><div class="unit-heading-actions"><span class="unit-badge">40 Listening · 40 Reading</span><button type="button" class="text-button clear-results-button" data-cam-action="clear">Clear saved results</button></div></div>'+
       '<div class="unit-tabs'+(cam12?' cm-six-skill-tabs':'')+'" role="navigation" aria-label="Exam skills">'+tabs.map(([s,label],i)=>
@@ -470,7 +470,7 @@
   }
   function solution(test,skill,n,item,graded){
     const value=item.answers[n]||'', k=keyFor(test,skill,n);
-    const detail=window.WORDHOP_CAMBRIDGE12_REVIEW?.[test]?.[skill]?.[n-1];
+    const detail=window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.review?.[skill]?.[n-1]||window.WORDHOP_CAMBRIDGE12_REVIEW?.[test]?.[skill]?.[n-1];
     let explanation='';
     if(detail&&skill==='reading'){
       const [page,location,evidence,why]=detail;
@@ -484,7 +484,7 @@
         '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to this answer':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Automatically located in a source-matched recording; timing is approximate.':candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
     }else{
       explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
-      if(skill==='listening'&&/^[5-8]$/.test(test))explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status"></p>';
+      if(skill==='listening'&&(/^[5-8]$/.test(test)||window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.review?.listening))explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status"></p>';
     }
     return '<article class="reading-solution '+(graded[n]?'reading-correct':'reading-incorrect')+'"><div class="reading-solution-top"><h4>Question '+n+' · '+esc(k)+'</h4><span>'+(graded[n]?'Correct':'Review')+'</span></div><p class="reading-your-answer">Your answer: <strong>'+esc(String(value).trim()||'Not answered')+'</strong></p>'+explanation+'</article>';
   }
@@ -566,6 +566,8 @@
   // Keep the original passage-level source data, but study one combined vocabulary deck per test.
   const cam12VocabDecks=new Map();
   function cam12VocabSource(route,part){
+    const shared=window.WORDHOP_CAMBRIDGE_STUDY?.[testCode(route)]?.vocabulary;
+    if(shared?.words?.length)return shared;
     if(route.volume.id!=='cambridge-ielts-academic-21')return null;
     const test=route.exam.id.replace('test-','');
     if(cam12VocabDecks.has(test))return cam12VocabDecks.get(test);
@@ -585,7 +587,7 @@
   function cam12VocabStem(w){return w.word.replace(/\s*\((n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
   function cam12VocabPos(w){return w.word.match(/\((n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
   function cam12VocabSessionFor(route,part){
-    const key=route.exam.id+'-'+route.skill;
+    const key=testCode(route)+'-'+route.skill;
     if(!cam12VocabSession||cam12VocabSession.key!==key)cam12VocabSession={
       key,mode:route.skill==='flashcards'?'flash':'menu',index:0,revealed:false,selected:null,score:0,
       matched:[],left:null,right:null,batch:0,message:'',typed:'',checked:null
@@ -827,7 +829,7 @@
   }
   function render({container,route,header:crumbs,base}){
     stopReviewAudio();
-    const skill=(skills.includes(route.skill)||route.volume.id==='cambridge-ielts-academic-21'&&['flashcards','practice'].includes(route.skill))?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
+    const skill=(skills.includes(route.skill)||Boolean(cam12VocabSource(route,1)?.words?.length)&&['flashcards','practice'].includes(route.skill))?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
     active={container,route,base,skill,part,test:testCode(route)};
     const page={...route,part};
     const body=['flashcards','practice'].includes(skill)?vocabularyStudy(page,base,skill):skill==='listening'?listening(page,base):skill==='reading'?reading(page,base):skill==='writing'?writing(page,base):speaking(page);
