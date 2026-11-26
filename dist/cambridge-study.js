@@ -411,7 +411,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "The passage associates phone checking with stress but does not compare phones with other devices."
         ],
         [
-          14,
+          15,
           "Paragraph 11",
           "enhances the likelihood that people will take in negative reports",
           "Stress increases rather than reduces the ability to absorb negative reports."
