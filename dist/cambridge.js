@@ -474,12 +474,14 @@
     let explanation='';
     if(detail&&skill==='reading'){
       const [page,location,evidence,why]=detail;
-      explanation='<p lang="vi">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Evidence · Page '+page+' · '+esc(location)+'</strong><p>'+esc(evidence)+'</p></blockquote><button type="button" class="text-button cam-review-jump" data-cam-action="evidence-page" data-evidence-page="'+page+'">View evidence on original page ↑</button>';
+      explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Evidence · Page '+page+' · '+esc(location)+'</strong><p>'+esc(evidence)+'</p></blockquote><button type="button" class="text-button cam-review-jump" data-cam-action="evidence-page" data-evidence-page="'+page+'">View evidence on original page ↑</button>';
     }else if(detail&&skill==='listening'){
       const [page,evidence,why]=detail;
-      const cue=window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];
-      explanation='<p lang="vi">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Transcript · Page '+page+'</strong><p>'+esc(evidence)+'</p></blockquote>'+
-        '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to answer cue (automatic)':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Automatically matched to the supplied audio; timing may vary.':'Exact answer timestamp has not been verified.')+'</p>';
+      const candidate=window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];
+      const matched=window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[test+'-'+Math.ceil(n/10)]?.matched===true;
+      const cue=matched?candidate:null;
+      explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Transcript · Page '+page+'</strong><p>'+esc(evidence)+'</p></blockquote>'+
+        '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to this answer':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Automatically located in a source-matched recording; timing is approximate.':candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
     }else{
       explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
       if(skill==='listening'&&/^[5-8]$/.test(test))explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status"></p>';
@@ -497,14 +499,15 @@
     const begin=()=>{
       if(context()!==a)return;
       // Cue times were obtained from the supplied MP3. A duration mismatch disables cue seeking.
-      const verified=cue&&Number.isFinite(audio.duration)&&Math.abs(audio.duration-cue[2])<1.5&&cue[1]<=audio.duration;
+      const matched=window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[a.test+'-'+a.part]?.matched===true;
+      const verified=matched&&cue&&Number.isFinite(audio.duration)&&Math.abs(audio.duration-cue[2])<1.5&&cue[1]<=audio.duration;
       const start=verified?cue[0]:0,end=verified?cue[1]:Infinity;
       const finish=()=>{if(camReviewAudio?.button===button){stopReviewAudio();if(status)status.textContent='Replay finished.';}};
       const onTime=()=>{if(audio.currentTime>=end)finish();};
       camReviewAudio={audio,button,label,onTime,onEnd:finish};
       audio.addEventListener('timeupdate',onTime);audio.addEventListener('ended',finish);
       audio.currentTime=start;button.textContent='Stop replay';
-      if(status)status.textContent=verified?'Playing automatically located answer cue.':'Playing the whole section; an exact cue is not verified for this audio.';
+      if(status)status.textContent=verified?'Playing the automatically located answer cue.':'Playing the whole section; an exact cue is not verified for this audio.';
       audio.play().catch(()=>{stopReviewAudio();if(status)status.textContent='Could not start replay. Use the audio player.';});
     };
     if(audio.readyState>=1)begin();else{if(status)status.textContent='Loading audio…';audio.addEventListener('loadedmetadata',begin,{once:true});audio.load();}
