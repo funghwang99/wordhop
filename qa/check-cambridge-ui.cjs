@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge21-keys.js','cambridge12-vocabulary.js','cambridge12-review.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge21-keys.js','cambridge12-vocabulary.js','cambridge12-review.js','cambridge-study.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -536,7 +536,7 @@ for(const test of volume20.tests){
       const node={innerHTML:''},base='#/ielts/cambridge-ielts/'+volume20.id+'/'+test.id;
       component.render({container:node,route:{volume:volume20,exam:test,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=node.innerHTML,p=printed20[t][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'));
+      assert(html.includes('class="unit-heading"')&&html.includes(t===1?'class="unit-tabs cm-six-skill-tabs"':'class="unit-tabs"'));
       assert(html.includes(base+'/'+skill+'/part-'+part));
       assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Original book pages '+t+'/'+skill+'/'+part);
       assert(html.includes('Original book page'),'Missing media uses explicit page placeholders');
