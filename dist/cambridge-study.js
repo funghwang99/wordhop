@@ -1269,5 +1269,678 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "20-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "conserve (v.)",
+          "definition": "Protect or preserve something for future use.",
+          "example": "The community developed methods to conserve food."
+        },
+        {
+          "word": "trample (v.)",
+          "definition": "Crush something by stepping heavily on it.",
+          "example": "The crowd trampled the grass."
+        },
+        {
+          "word": "aesthetic (adj.)",
+          "definition": "Relating to beauty or appearance.",
+          "example": "The building has considerable aesthetic appeal."
+        },
+        {
+          "word": "refrigeration (n.)",
+          "definition": "The process of cooling something to preserve it.",
+          "example": "Refrigeration transformed the transport of fresh produce."
+        },
+        {
+          "word": "insulated (adj.)",
+          "definition": "Protected against the transfer of heat, sound or electricity.",
+          "example": "Insulated containers keep products cold."
+        },
+        {
+          "word": "compressor (n.)",
+          "definition": "A machine that increases the pressure of a gas.",
+          "example": "The cooling system uses a compressor."
+        },
+        {
+          "word": "palatable (adj.)",
+          "definition": "Pleasant or acceptable to eat or drink.",
+          "example": "The ingredients make the meal more palatable."
+        },
+        {
+          "word": "deterioration (n.)",
+          "definition": "A process of becoming worse in quality or condition.",
+          "example": "Poor storage accelerates deterioration."
+        },
+        {
+          "word": "indigenous (adj.)",
+          "definition": "Originating naturally in a particular region.",
+          "example": "Indigenous communities developed effective preservation techniques."
+        },
+        {
+          "word": "methodically (adv.)",
+          "definition": "In a careful and systematic way.",
+          "example": "The researchers methodically recorded each result."
+        },
+        {
+          "word": "innovation (n.)",
+          "definition": "A new idea, method or product.",
+          "example": "Technical innovation made the process more efficient."
+        },
+        {
+          "word": "lease (v.)",
+          "definition": "Pay to use property or equipment for an agreed period.",
+          "example": "Small retailers lease expensive equipment."
+        },
+        {
+          "word": "ration (v.)",
+          "definition": "Limit the amount of something people can obtain.",
+          "example": "Food was rationed during the war."
+        },
+        {
+          "word": "turnover (n.)",
+          "definition": "The total value of sales made by a business in a period.",
+          "example": "The company reported a rise in annual turnover."
+        },
+        {
+          "word": "minuscule (adj.)",
+          "definition": "Extremely small.",
+          "example": "A microscope reveals minuscule organisms."
+        },
+        {
+          "word": "invertebrate (n.)",
+          "definition": "An animal without a backbone.",
+          "example": "Coral polyps are marine invertebrates."
+        },
+        {
+          "word": "sustain (v.)",
+          "definition": "Maintain or support the existence of something.",
+          "example": "Healthy ecosystems sustain biodiversity."
+        },
+        {
+          "word": "curator (n.)",
+          "definition": "A person responsible for managing a museum or collection.",
+          "example": "The curator organised a new exhibition."
+        },
+        {
+          "word": "symbiotic (adj.)",
+          "definition": "Involving a close relationship between different organisms.",
+          "example": "The organisms have a symbiotic relationship."
+        },
+        {
+          "word": "photosynthesis (n.)",
+          "definition": "The process by which plants and algae use light to produce energy-rich substances.",
+          "example": "Sunlight is essential for photosynthesis."
+        },
+        {
+          "word": "thermal stress (n.)",
+          "definition": "Pressure or damage caused by excessive changes in temperature.",
+          "example": "Rising sea temperatures cause thermal stress in corals."
+        },
+        {
+          "word": "acidification (n.)",
+          "definition": "The process of becoming more acidic.",
+          "example": "Ocean acidification threatens marine ecosystems."
+        },
+        {
+          "word": "deoxygenation (n.)",
+          "definition": "The process of losing dissolved oxygen.",
+          "example": "Deoxygenation can harm aquatic species."
+        },
+        {
+          "word": "hardy (adj.)",
+          "definition": "Able to survive difficult environmental conditions.",
+          "example": "Researchers are studying hardy varieties of coral."
+        },
+        {
+          "word": "spawn (v.)",
+          "definition": "Produce or release eggs, especially in water.",
+          "example": "Many marine animals spawn at specific times of year."
+        },
+        {
+          "word": "restoration (n.)",
+          "definition": "The process of returning something to a healthier or former condition.",
+          "example": "Habitat restoration supports endangered species."
+        },
+        {
+          "word": "blighted (adj.)",
+          "definition": "Seriously damaged or harmed.",
+          "example": "Volunteers helped restore the blighted area."
+        },
+        {
+          "word": "colonise (v.)",
+          "definition": "Establish a population or settlement in a new place.",
+          "example": "The discussion considers whether humans should colonise other planets."
+        },
+        {
+          "word": "fabrication (n.)",
+          "definition": "The process of making or constructing something.",
+          "example": "Robotic fabrication could reduce construction costs."
+        },
+        {
+          "word": "benign (adj.)",
+          "definition": "Not harmful or threatening.",
+          "example": "The researchers sought a relatively benign alternative."
+        },
+        {
+          "word": "analogous (adj.)",
+          "definition": "Similar to something in a way that allows comparison.",
+          "example": "The proposed arrangement is analogous to an existing treaty."
+        },
+        {
+          "word": "inaccessible (adj.)",
+          "definition": "Impossible or difficult to reach.",
+          "example": "Robots can explore inaccessible regions."
+        },
+        {
+          "word": "dubious (adj.)",
+          "definition": "Doubtful or questionable.",
+          "example": "The proposal raises dubious ethical assumptions."
+        },
+        {
+          "word": "outstrip (v.)",
+          "definition": "Exceed or surpass something in performance or progress.",
+          "example": "Demand may outstrip supply."
+        },
+        {
+          "word": "adeptly (adv.)",
+          "definition": "In a skilful or proficient way.",
+          "example": "The robot navigated the unfamiliar environment adeptly."
+        },
+        {
+          "word": "intrinsic (adj.)",
+          "definition": "Belonging naturally to the essential nature of something.",
+          "example": "The material has intrinsic strength."
+        },
+        {
+          "word": "personify (v.)",
+          "definition": "Attribute human qualities to a non-human thing.",
+          "example": "People often personify machines in fiction."
+        },
+        {
+          "word": "inanimate (adj.)",
+          "definition": "Not living.",
+          "example": "Children may attribute feelings to inanimate objects."
+        },
+        {
+          "word": "autonomous (adj.)",
+          "definition": "Able to operate independently.",
+          "example": "Autonomous machines can carry out routine tasks."
+        },
+        {
+          "word": "outwit (v.)",
+          "definition": "Defeat someone by being cleverer.",
+          "example": "The player attempted to outwit the opponent."
+        },
+        {
+          "word": "malicious (adj.)",
+          "definition": "Intended to cause harm.",
+          "example": "The system was damaged by malicious software."
+        },
+        {
+          "word": "supremacy (n.)",
+          "definition": "The state of being dominant or superior.",
+          "example": "The team maintained its supremacy in the competition."
+        },
+        {
+          "word": "dystopian (adj.)",
+          "definition": "Describing an imagined society characterised by suffering or oppression.",
+          "example": "The novel portrays a dystopian future."
+        },
+        {
+          "word": "envisage (v.)",
+          "definition": "Imagine or anticipate a future situation.",
+          "example": "Scientists envisage new applications for robotics."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          45,
+          "Paragraph 1",
+          "a unique means of conserving potatoes",
+          "The inhabitants of the Andes froze, squeezed and dried potatoes to preserve their nutritional value."
+        ],
+        [
+          45,
+          "Paragraph 2",
+          "to send butter from Ogdensburg",
+          "Insulated railway cars containing ice were first used for this shipment of butter."
+        ],
+        [
+          45,
+          "Paragraph 4",
+          "a shipment of Australian beef and mutton",
+          "Beef and mutton are the two kinds of meat transported to England."
+        ],
+        [
+          46,
+          "Paragraph 7",
+          "quick-freezing techniques that reduced the damage that crystals caused",
+          "Birdseye's innovation reduced the damage caused by ice crystals."
+        ],
+        [
+          46,
+          "Paragraph 7",
+          "the first transparent material for food packaging",
+          "Cellophane allowed customers to inspect the product through its packaging."
+        ],
+        [
+          46,
+          "Paragraph 9",
+          "Canned foods were rationed to save tin",
+          "Tin was needed for munitions, so canned food was rationed and frozen food became more attractive."
+        ],
+        [
+          46,
+          "Paragraph 9",
+          "33 million US families owned a refrigerator",
+          "By 1953, refrigerators had become affordable and common in American homes."
+        ],
+        [
+          45,
+          "Paragraph 2",
+          "ship owners from Boston ... had enormous blocks of Arctic ice towed",
+          "The passage describes the transportation of ice but does not state how wealthy the ship owners became."
+        ],
+        [
+          45,
+          "Paragraph 4",
+          "this spoilt the flavor and texture of the food",
+          "The expansion of ice crystals damaged both taste and texture."
+        ],
+        [
+          45,
+          "Paragraph 5",
+          "went to Labrador in Canada to trap and trade furs",
+          "Birdseye travelled to Labrador to earn money from furs; his discovery of Inuit freezing methods occurred while he was there."
+        ],
+        [
+          46,
+          "Paragraph 10",
+          "a huge advertising budget",
+          "Swanson Foods invested heavily in promoting the product."
+        ],
+        [
+          46,
+          "Paragraph 10",
+          "the same segmented aluminum tray that was used by airlines",
+          "The company used an existing container design rather than developing a new one."
+        ],
+        [
+          47,
+          "Final paragraph",
+          "the US frozen food industry has a turnover of over $67 billion annually",
+          "The passage provides US sales figures but makes no international comparison."
+        ],
+        [
+          48,
+          "Section A",
+          "show people how wonderful they are ... highlight the research",
+          "The exhibition has two educational aims: showcasing reef biodiversity and explaining conservation efforts."
+        ],
+        [
+          48,
+          "Section B",
+          "This comfortable symbiotic relationship",
+          "Polyps and algae benefit one another, illustrating cooperation beneath the waves."
+        ],
+        [
+          48,
+          "Section C",
+          "the comparison is dismissed by some naturalists",
+          "Attenborough challenges the description of reefs as rainforests of the sea."
+        ],
+        [
+          48,
+          "Section D",
+          "And that is just the start",
+          "Thermal stress is an immediate threat, but several other dangers and future losses are also described."
+        ],
+        [
+          49,
+          "Section E",
+          "trying to pinpoint hardy types of coral",
+          "Researchers are investigating ways to reduce the effects of changing conditions and increase reproduction."
+        ],
+        [
+          49,
+          "Section F",
+          "encourage them to believe that we can do something",
+          "Displaying scientific progress is intended to give the public hope."
+        ],
+        [
+          49,
+          "Section D",
+          "pollution by humans",
+          "Pollution is identified as one cause of reef damage. Questions 20 and 21 accept either order."
+        ],
+        [
+          49,
+          "Section D",
+          "ocean current changes",
+          "Changes to the movement of seawater are explicitly mentioned as another threat."
+        ],
+        [
+          49,
+          "Section E",
+          "find those that can survive best in warm, acidic waters",
+          "Scientists aim to identify corals that can tolerate changing ocean conditions. Questions 22 and 23 accept either order."
+        ],
+        [
+          49,
+          "Section E",
+          "try to increase coral breeding rates",
+          "Artificial spawning is being investigated to allow corals to reproduce more frequently."
+        ],
+        [
+          48,
+          "Section B",
+          "with tentacles for capturing small marine creatures",
+          "Polyps use their tentacles to catch food."
+        ],
+        [
+          48,
+          "Section B",
+          "which in turn get protection",
+          "The algae receive protection from living inside the polyps."
+        ],
+        [
+          49,
+          "Section D",
+          "bleaching events that strip reefs of their colour",
+          "Higher sea temperatures trigger bleaching, which removes colour from reefs."
+        ],
+        [
+          53,
+          "Martin Rees, Question 3",
+          "ensure that robots remain as no more than idiot savants",
+          "Rees argues that robots should be powerful at specific tasks but unable to outwit humans."
+        ],
+        [
+          53,
+          "Kathleen Richardson, Question 3",
+          "none have in fact risen up and challenged human supremacy",
+          "Richardson argues that robots have not threatened humanity and that fears of them are exaggerated."
+        ],
+        [
+          52,
+          "Daniel Wolpert, Question 2",
+          "within the next 50 years would be highly ambitious",
+          "Wolpert thinks reproducing human creative intelligence within fifty years would be difficult."
+        ],
+        [
+          52,
+          "Martin Rees, Question 2",
+          "Should we feel guilty about exploiting sophisticated robots?",
+          "Rees raises the ethical question of how humans should treat advanced robots."
+        ],
+        [
+          52,
+          "Daniel Wolpert, Question 1",
+          "gather resources nearer to home would seem to be a better use",
+          "Wolpert believes robots would be more useful collecting resources on Earth."
+        ],
+        [
+          53,
+          "Martin Rees, Question 4",
+          "better to read first-rate science fiction than second-rate science",
+          "Rees suggests high-quality science fiction can be as reliable and more stimulating than mediocre scientific work."
+        ],
+        [
+          53,
+          "Kathleen Richardson, Question 3",
+          "many people welcome machine intelligence",
+          "Richardson notes that not everyone fears advanced machine intelligence."
+        ],
+        [
+          52,
+          "Rees and Richardson, Question 1",
+          "more realistic and benign than the terraforming of planets",
+          "Both experts question the ethics of changing other planets to suit human purposes."
+        ],
+        [
+          52,
+          "Rees and Wolpert, Question 2",
+          "there is no machine that can identify visual objects or speech with the reliability and flexibility of humans",
+          "Both recognise significant existing achievements but also limitations in machines' abilities compared with humans."
+        ],
+        [
+          53,
+          "Wolpert and Richardson, Question 3",
+          "we have already seen the damaging effects of artificial intelligence",
+          "Wolpert cites computer viruses as harm already caused through AI-related technology; Richardson stresses that robots have never challenged humans."
+        ],
+        [
+          53,
+          "Kathleen Richardson, Question 2",
+          "personify inanimate objects",
+          "Richardson attributes fear of machines to our tendency to give non-human objects human qualities."
+        ],
+        [
+          53,
+          "Martin Rees, Question 3",
+          "with a mind of its own",
+          "Rees worries that interconnected computer systems might develop independent goals conflicting with human welfare."
+        ],
+        [
+          53,
+          "Daniel Wolpert, Question 4",
+          "almost no science fiction envisages a future without robots",
+          "Wolpert emphasises how central robots are to imagined futures in science fiction."
+        ],
+        [
+          54,
+          "Kathleen Richardson, Question 4",
+          "bring these different understandings together",
+          "Richardson recommends reconsidering the separation of reality and fiction to gain a fuller perspective."
+        ]
+      ],
+      "listening": [
+        [
+          94,
+          "starts at $105 and goes up to $239",
+          "The maximum monthly rental price per room is $239."
+        ],
+        [
+          94,
+          "more modern than any of the other companies",
+          "Customers praise the modern style of Peak Rentals' furniture."
+        ],
+        [
+          94,
+          "you'll also get a lamp at no extra cost",
+          "A lamp is included free with a living room furniture set."
+        ],
+        [
+          94,
+          "Aaron, double A-R-O-N",
+          "The speaker spells the first word in the company's name."
+        ],
+        [
+          95,
+          "charge an extra ... every month in case of damage",
+          "The additional monthly charge covers possible damage."
+        ],
+        [
+          95,
+          "both furniture and also electronic equipment",
+          "Larch offers low prices for both furniture and electronic items."
+        ],
+        [
+          95,
+          "you have to take out insurance on the furniture",
+          "Customers are responsible for arranging their own insurance."
+        ],
+        [
+          95,
+          "It's called Space Rentals",
+          "The speaker recommends Space Rentals because it is close to the house."
+        ],
+        [
+          95,
+          "use their app to find out what it would cost",
+          "The app provides current pricing information."
+        ],
+        [
+          95,
+          "you can request exchanges, as long as you do that within a week",
+          "Customers may exchange unwanted furniture within seven days of delivery."
+        ],
+        [
+          96,
+          "NHA, a charity which sets up projects like this up and down the country",
+          "The national charity initiated the community project; the council employs Hayden and the castle owners provide facilities."
+        ],
+        [
+          96,
+          "after a rainstorm washed away some of the earth and sand",
+          "A walker found the coin exposed after heavy rain."
+        ],
+        [
+          96,
+          "Just by chance, the team found some old maps and documents",
+          "The accidental discovery of historical records suggested the presence of an ancient village."
+        ],
+        [
+          96,
+          "we're still waiting to uncover any such items",
+          "The archaeologists have not yet found jewellery, such as brooches."
+        ],
+        [
+          96,
+          "the borders of an ancient field system",
+          "The remains identified across the river were field boundaries rather than buildings."
+        ],
+        [
+          96,
+          "a series of guided tours for school groups this autumn",
+          "The team plans to organise school visits after the summer's excavation ends."
+        ],
+        [
+          97,
+          "go straight on ... a smaller track leading off to the right",
+          "Follow the main path until its left bend, then take the small right-hand track to the river."
+        ],
+        [
+          97,
+          "very near the castle walls in the north-west corner",
+          "The rubbish pit is located near the north-west castle walls."
+        ],
+        [
+          97,
+          "the largest structure in the central area ... next to the current excavation area",
+          "The meeting hall is the large central structure beside the excavation."
+        ],
+        [
+          97,
+          "turn right at the first information board ... before you come out of the trees",
+          "The fish pond is on the right-hand path inside the wooded area, before the river."
+        ],
+        [
+          97,
+          "No one else on the course is doing the same as us",
+          "Finn is pleased that their chosen topic is different from those of other students."
+        ],
+        [
+          97,
+          "companies buy the rights to publish programmes",
+          "Rather than theatres hiring companies, the publishers purchase the rights and earn money through advertising."
+        ],
+        [
+          98,
+          "accused the theatre of breaking their agreement with the audience",
+          "Early audiences treated programme information as a promise that particular actors would perform."
+        ],
+        [
+          98,
+          "lots of ordinary people at that time were illiterate",
+          "Many people could not read programmes, so actors promoted their plays in the streets."
+        ],
+        [
+          98,
+          "they told the theatregoers so many things",
+          "Both students agree that eighteenth-century programmes contained more information about actors, writers and plays."
+        ],
+        [
+          99,
+          "didn't go back to being more than one sheet or change in any way for over 25 years",
+          "Maya is puzzled that British programmes remained unchanged long after wartime paper restrictions ended."
+        ],
+        [
+          99,
+          "Good enough to put in a frame on the wall",
+          "The decorative programme for Ruy Blas is compared to a piece of art."
+        ],
+        [
+          99,
+          "we can learn how the production was created and the thoughts and feelings of the cast",
+          "Articles by company members provide insights into the production."
+        ],
+        [
+          99,
+          "the earliest surviving document to have been printed on Australia's first printing press",
+          "The programme has special historical significance for Australian printing history."
+        ],
+        [
+          99,
+          "the British Library's digitised collection ... started a few years ago",
+          "The programme is included in a recent digitisation project."
+        ],
+        [
+          100,
+          "without any type of adaptation having to be made",
+          "Inclusive products are accessible without changes to the original design."
+        ],
+        [
+          100,
+          "people who have cognitive difficulties",
+          "Universal design also considers users with cognitive problems."
+        ],
+        [
+          100,
+          "desks which can be adjusted to suit people of different heights",
+          "Adjustable desks help users of different heights and wheelchair users work comfortably."
+        ],
+        [
+          100,
+          "Taps that you activate by sensor",
+          "Sensor-activated taps are easier to use for people with limited dexterity or mobility."
+        ],
+        [
+          100,
+          "in particular shades of blue",
+          "Older people have difficulty distinguishing similar blues, so designers avoid the colour."
+        ],
+        [
+          100,
+          "voice access is now a routine way of making commands",
+          "Voice commands provide an alternative to mouse and keyboard input."
+        ],
+        [
+          100,
+          "particularly those who are pregnant",
+          "Conventional crash-test dummies do not adequately represent pregnant women, making seatbelt design a safety concern."
+        ],
+        [
+          100,
+          "much smaller shoulders than the average man",
+          "Women may have narrower shoulders even when tall, so smaller men's PPE does not necessarily fit them."
+        ],
+        [
+          100,
+          "worst in the emergency services, particularly the police",
+          "The report identifies female police officers as especially affected by unsuitable PPE."
+        ],
+        [
+          101,
+          "a temperature of 21 degrees designed to suit men",
+          "Standard office air conditioning is based on male metabolic rates and may leave women feeling cold."
+        ]
+      ]
+    }
   }
 };
