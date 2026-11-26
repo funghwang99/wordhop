@@ -1344,443 +1344,443 @@ window.WORDHOP_CAMBRIDGE12_REVIEW={
         80,
         "Paragraph 1",
         "a type of natural glass — obsidian",
-        "Obsidian là loại thủy tinh tự nhiên hình thành do nhiệt độ cao của núi lửa."
+        "Obsidian is a naturally occurring type of glass formed by volcanic heat."
       ],
       [
         80,
         "Paragraph 1",
         "was first used as tips for spears",
-        "Người cổ đại dùng obsidian làm đầu nhọn của giáo."
+        "Early humans used obsidian to make spear tips."
       ],
       [
         80,
         "Paragraph 1",
         "glazes used for coating stone beads",
-        "Bằng chứng thủy tinh nhân tạo từ 4000 BC là lớp men phủ hạt đá."
+        "The evidence of early manufactured glass consists of glazes used to coat stone beads."
       ],
       [
         80,
         "Paragraph 2",
         "highly coloured due to the impurities",
-        "Tạp chất trong nguyên liệu khiến thủy tinh có màu."
+        "Impurities in the raw materials caused the glass to be highly coloured."
       ],
       [
         80,
         "Paragraph 2",
         "The secret of glass making was taken across Europe by the Romans",
-        "Người La Mã giữ bí quyết làm thủy tinh đến khi đế chế sụp đổ."
+        "The Romans spread the knowledge of glassmaking across Europe and controlled the secret until their empire fell."
       ],
       [
         80,
         "Paragraph 3",
         "by introducing lead to the raw materials",
-        "Ravenscroft thêm chì vào nguyên liệu để cải thiện thủy tinh."
+        "Ravenscroft introduced lead into the raw materials to improve the glass."
       ],
       [
         80,
         "Paragraph 3",
         "counter the effect of clouding",
-        "Chì giúp khắc phục tình trạng thủy tinh thổi bị đục."
+        "Adding lead counteracted the clouding of blown glass."
       ],
       [
         80,
         "Paragraph 4",
         "heavy taxes had been placed on the amount of glass melted",
-        "Ngành thủy tinh Anh phát triển sau khi luật thuế Excise Act được bãi bỏ."
+        "The British glass industry expanded after the heavy taxes on glass production were abolished."
       ],
       [
         81,
         "Paragraph 5",
         "more than three times quicker than any previous production method",
-        "Máy Ashley sản xuất 200 chai mỗi giờ, nhanh hơn mọi phương pháp trước đó."
+        "Ashley's machine could make 200 bottles per hour, more than three times faster than earlier production methods."
       ],
       [
         81,
         "Paragraph 5",
         "Michael Owens — founder of the Owens Bottle Machine Company",
-        "Owens là người sáng lập công ty và phát triển máy, không phải được một công ty lớn thuê."
+        "Owens founded his own bottle machine company and developed the machine rather than being employed by a large company."
       ],
       [
         81,
         "Paragraph 6",
         "a fiercely competitive global market",
-        "Bài mô tả thị trường toàn cầu, nhưng không cho biết đa số sản lượng thuộc các nhà sản xuất quốc tế lớn."
+        "The passage describes a competitive global market but does not state that most production comes from large international manufacturers."
       ],
       [
         81,
         "Paragraph 7",
         "with growing consumer concern for green issues",
-        "Người tiêu dùng quan tâm môi trường hơn, làm chai và lọ thủy tinh phổ biến hơn."
+        "Growing concern about environmental issues has increased the popularity of glass bottles and jars."
       ],
       [
         81,
         "Paragraph 7",
         "this also saves fuel and production costs",
-        "Thủy tinh tái chế tốn ít năng lượng hơn nên giảm chi phí sản xuất."
+        "Recycling glass saves fuel and therefore reduces production costs."
       ],
       [
         83,
         "Paragraph 1",
         "bring forward ... estimated extinction date by roughly 5,000 years",
-        "Phát hiện xương cho thấy linh miêu tồn tại ở Anh lâu hơn nhiều so với giả định trước."
+        "The bone discovery suggests that lynx survived in Britain approximately 5,000 years longer than previously assumed."
       ],
       [
         83,
         "Paragraph 3",
         "creating niches for hundreds of species",
-        "Động vật săn mồi lớn thúc đẩy chuỗi thức ăn, tạo môi trường sống cho nhiều loài."
+        "Large predators create ecological opportunities for many other species through their influence on the food chain."
       ],
       [
         83,
         "Paragraph 4",
         "keeping nature in a state of arrested development",
-        "Bảo tồn kiểu giữ nguyên mọi thứ là cách tiếp cận sai vì hệ sinh thái luôn thay đổi."
+        "Conservation that tries to preserve an unchanging natural state ignores the dynamic nature of ecosystems."
       ],
       [
         84,
         "Paragraph 5, continuation",
         "greatly boost catches in the surrounding seas",
-        "Bảo vệ vùng biển tạo nơi sinh sản, làm tăng sản lượng đánh bắt ở vùng xung quanh."
+        "Protected marine areas provide breeding grounds and can increase fish catches in surrounding waters."
       ],
       [
         84,
         "Paragraph 6",
         "a more inspiring vision",
-        "Rewilding có thông điệp tích cực và truyền cảm hứng hơn các chiến dịch chỉ phản đối."
+        "Rewilding offers a positive and inspiring vision rather than simply campaigning against environmental damage."
       ],
       [
         84,
         "Paragraph 7",
         "no known instance of one preying on people",
-        "Không có trường hợp linh miêu săn người được ghi nhận."
+        "There is no known recorded case of a lynx preying on a human."
       ],
       [
         84,
         "Paragraph 7",
         "roe deer, a species that has exploded in Britain",
-        "Linh miêu săn hươu và các động vật hoang dã có số lượng tăng mạnh."
+        "Lynx prey on roe deer and other wild animals whose populations have grown substantially."
       ],
       [
         84,
         "Paragraph 7",
         "presents little risk to sheep and other livestock",
-        "Linh miêu ít đe dọa gia súc nếu chúng được giữ ngoài khu rừng."
+        "Lynx pose little risk to livestock kept away from woodland."
       ],
       [
         84,
         "Paragraph 7",
         "the aim of bringing forests back",
-        "Tái thả linh miêu kết hợp tốt với việc khôi phục cây bản địa và rừng."
+        "The reintroduction of lynx complements the restoration of native forests."
       ],
       [
         84,
         "Paragraph 8",
         "The lynx has now been reintroduced to the Jura Mountains",
-        "Linh miêu đã được tái thả ở nhiều nơi tại châu Âu, nên Anh không thể là nước đầu tiên."
+        "Lynx have already been reintroduced elsewhere in Europe, so Britain would not be the first country."
       ],
       [
         84,
         "Paragraph 8",
         "The European population has tripled since 1970",
-        "Bài cho biết quần thể tăng gấp ba nhưng không nói có vượt kỳ vọng của nhà bảo tồn hay không."
+        "The European population has tripled, but the author does not say whether this exceeded conservationists' expectations."
       ],
       [
         84,
         "Paragraph 8",
         "the lynx has been able to spread as farming has left the hills",
-        "Khi hoạt động nông nghiệp rời khỏi vùng đồi, linh miêu có thêm môi trường sống."
+        "As farming has withdrawn from the hills, lynx have gained more habitat in which to spread."
       ],
       [
         84,
         "Paragraph 8",
         "more lucrative to protect charismatic wildlife than to hunt it",
-        "Du khách trả tiền để xem động vật hoang dã, cho thấy lợi ích kinh tế của tái thả loài."
+        "Wildlife tourism illustrates how protecting attractive wildlife can be more profitable than hunting it."
       ],
       [
         89,
         "A",
         "blame has been spread far and wide",
-        "Sau khủng hoảng 2008, nhiều cơ quan và tổ chức bị quy trách nhiệm."
+        "Following the 2008 financial crisis, responsibility for the failures was attributed to many different bodies."
       ],
       [
         89,
         "B",
         "significantly increased the pressures on, and the responsibilities of, directors",
-        "Việc bị giám sát chặt chẽ làm gia tăng khối lượng công việc và áp lực lên giám đốc."
+        "Closer scrutiny has increased the responsibilities and pressures experienced by directors."
       ],
       [
         89,
         "C",
         "the board as a whole is less involved",
-        "Phân công việc cho các ủy ban khiến hội đồng nói chung có thể ít tham gia giải quyết vấn đề quan trọng."
+        "Delegating important work to committees can reduce the involvement of the board as a whole."
       ],
       [
         89,
         "D",
         "A radical solution ... is the professional board",
-        "Tác giả đề xuất hội đồng chuyên nghiệp làm việc nhiều ngày mỗi tuần và có đội ngũ hỗ trợ."
+        "The author proposes a professional board whose members devote more working days to the role and receive staff support."
       ],
       [
         90,
         "E",
         "do not focus sufficiently on longer-term matters",
-        "Hội đồng quá tập trung chỉ số tài chính ngắn hạn, thiếu tầm nhìn dài hạn."
+        "Boards concentrate too heavily on short-term financial measures and pay insufficient attention to long-term matters."
       ],
       [
         90,
         "F",
         "Compensation for chief executives has become a combat zone",
-        "Lương thưởng CEO trở thành vấn đề tranh cãi giữa nhà đầu tư, quản lý và hội đồng."
+        "Executive compensation has become a source of disagreement between investors, managers and boards."
       ],
       [
         90,
         "G",
         "may involve a realignment of corporate goals",
-        "Các doanh nghiệp thuộc mọi lĩnh vực có thể cần điều chỉnh căn bản mục tiêu và đạo đức."
+        "Businesses in all sectors may need to reconsider their underlying goals and ethical principles."
       ],
       [
         89,
         "A–B",
         "The knock-on effect of this scrutiny",
-        "Sau khủng hoảng, giám sát hoạt động hội đồng và trách nhiệm giám đốc tăng lên."
+        "After the crisis, boards faced closer scrutiny and directors took on greater responsibilities."
       ],
       [
         89,
         "A",
         "The role of bank directors and management ... examined",
-        "Bài nói ngân hàng bị xem xét kỹ, nhưng không so sánh mức quản lý yếu kém với các ngành khác."
+        "Bank management was examined closely, but the passage does not compare its failings with those of other industries."
       ],
       [
         89,
         "B",
         "the time for constructive debate must necessarily be restricted",
-        "Chương trình họp quá tải khiến thời gian thảo luận bị hạn chế."
+        "Overloaded meeting agendas restrict the time available for constructive discussion."
       ],
       [
         89,
         "C",
         "the board as a whole is less involved",
-        "Mô hình ủy ban có thể khiến toàn hội đồng ít tham gia, không bảo đảm được thông tin đầy đủ."
+        "The committee structure can reduce the involvement of the whole board rather than ensuring that every director is fully informed."
       ],
       [
         89,
         "D",
         "information that part-time non-executive directors lacked",
-        "Giám đốc không điều hành thiếu thông tin cần thiết để hiểu hoặc dự đoán khủng hoảng."
+        "Part-time non-executive directors lacked the information they needed to understand or anticipate the crisis."
       ],
       [
         90,
         "E",
         "concentrate too much on short-term financial metrics",
-        "Hội đồng đặt quá nhiều trọng tâm vào các chỉ số tài chính ngắn hạn."
+        "Boards place too much emphasis on short-term financial metrics."
       ],
       [
         90,
         "F",
         "shareholders use their muscle in the area of pay",
-        "Cổ đông có quyền biểu quyết chính sách lương thưởng, gây áp lực lên hội đồng."
+        "Shareholders can exert pressure on boards by voting on executive remuneration policies."
       ]
     ],
     "listening": [
       [
         110,
         "No, temporary",
-        "Margaret cần công việc tạm thời vì sắp bắt đầu công việc lâu dài."
+        "Margaret needs temporary work because she will soon start a permanent job."
       ],
       [
         110,
         "I’m going to be a doctor",
-        "Cô đã hoàn thành đào tạo để trở thành bác sĩ, trước đây là luật sư."
+        "She has completed her training to become a doctor; her previous profession was law."
       ],
       [
         110,
         "I’ve led several bike tours in Africa",
-        "Cô từng dẫn tour đạp xe tại châu Phi; chuyến Ấn Độ đã bị hủy."
+        "She has led cycling tours in Africa; the proposed trip to India was cancelled."
       ],
       [
         110,
         "a volunteer worker in a youth club",
-        "Cô làm tình nguyện tại câu lạc bộ thanh thiếu niên, hướng dẫn kỹ năng đạp xe."
+        "She volunteers at a youth club, where she teaches cycling skills."
       ],
       [
         111,
         "I’m available from May the 1st",
-        "Cô rảnh từ ngày 1 tháng 5 đến cuối tháng 9."
+        "She is available from the first of May until the end of September."
       ],
       [
         111,
         "I’m allergic to cheese",
-        "Cô dị ứng với phô mai, không phải kiêng tất cả các sản phẩm từ sữa."
+        "She is specifically allergic to cheese, rather than avoiding all dairy products."
       ],
       [
         111,
         "27 Arbuthnot Place",
-        "Địa chỉ được đánh vần A-R-B-U-T-H-N-O-T."
+        "The street name is Arbuthnot, which the speaker spells out."
       ],
       [
         111,
         "DG7 4PH",
-        "Người gọi xác nhận chữ P (Papa), không phải B (Bravo)."
+        "The postcode is DG7 4PH; P is confirmed using Papa rather than Bravo."
       ],
       [
         111,
         "interview you on Tuesday next week",
-        "Phỏng vấn thứ Ba lúc 2.30, còn thứ Hai là ngày cô di chuyển tới."
+        "The interview is arranged for Tuesday at 2.30; Monday is when she travels."
       ],
       [
         111,
         "prepare a ten-minute talk",
-        "Cô cần chuẩn bị bài nói ngắn về kinh nghiệm hướng dẫn tour; không cần slides."
+        "She is asked to prepare a ten-minute talk about her tour-leading experience."
       ],
       [
         111,
         "graduates embarking on careers in the worlds of fashion and design",
-        "Nhóm cư dân tăng nhanh là người trẻ bắt đầu nghề nghiệp chuyên môn."
+        "The growing population includes young graduates beginning professional careers in fashion and design."
       ],
       [
         111,
         "original pictures, jewellery and ceramics",
-        "Các phố nhỏ nổi bật với nghệ thuật và đồ thủ công giá hợp lý."
+        "The smaller streets feature affordable original artwork, jewellery and ceramics."
       ],
       [
         112,
         "ideas from the music and technology that’s part of their everyday life",
-        "Thiết kế dự thi phải lấy cảm hứng từ văn hóa và công nghệ đương thời."
+        "Competition entries should draw inspiration from contemporary music and technology."
       ],
       [
         112,
         "present a receipt from one of the local stores",
-        "Có hóa đơn mua hàng địa phương thì được miễn phí đỗ xe."
+        "A receipt from a local shop entitles visitors to free parking."
       ],
       [
         112,
         "on the north side of Crawley Road, next to the footpath",
-        "Reynolds House nằm phía bắc đường Crawley cạnh lối đi dẫn vào vườn công cộng."
+        "Reynolds House is on the north side of Crawley Road beside the footpath leading to the public gardens."
       ],
       [
         112,
         "on Hill Road, across the road from the Bank",
-        "Tượng The Thumb nằm trên Hill Road đối diện ngân hàng."
+        "The Thumb sculpture is on Hill Road opposite the bank."
       ],
       [
         112,
         "on City Road ... immediately facing the junction with Hill Road",
-        "Bảo tàng đối diện giao lộ Hill Road, phía bên kia đường so với khu vườn."
+        "The museum faces the junction with Hill Road on City Road."
       ],
       [
         112,
         "on a little road that leads off Station Square",
-        "Galerie nghệ thuật đương đại nằm cuối con đường nhỏ rẽ từ Station Square."
+        "The contemporary art gallery is at the end of a small road leading off Station Square."
       ],
       [
         112,
         "near the junction with Crawley Road, on the same side ... as the public gardens",
-        "Warner Gallery trên City Road gần giao lộ Crawley, cùng phía với vườn công cộng."
+        "Warner Gallery is near the junction with Crawley Road on the same side as the public gardens."
       ],
       [
         112,
         "a small winding road turning off ... on your right",
-        "Đi từ Station Square theo Hill Road, rẽ vào đường nhỏ quanh co rồi đến Nucleus bên phải."
+        "Nucleus is reached by following the small winding road off Hill Road."
       ],
       [
         113,
         "a straightforward classification of film adaptations",
-        "Giannetti phân loại phim chuyển thể theo mức độ trung thành với tác phẩm gốc."
+        "Giannetti classifies film adaptations according to how closely they follow the original work."
       ],
       [
         113,
         "the worst examples of Shakespeare adaptations",
-        "Katie muốn cả lớp nêu những bản chuyển thể tệ nhất, không phải bản yêu thích."
+        "Katie wants classmates to name the worst Shakespeare adaptations rather than their favourites."
       ],
       [
         113,
         "I’d better do some slides instead",
-        "Sau khi Joe lưu ý hạn chế thời gian, Katie quyết định chuẩn bị slides thay vì video clip."
+        "After Joe points out the time limit, Katie chooses slides instead of video clips."
       ],
       [
         113,
         "issues of the time when the film is made",
-        "Cô thảo luận các vấn đề thời đại tác động đến lựa chọn chuyển thể."
+        "Katie considers how contemporary issues influence film adaptations."
       ],
       [
         113,
         "moving it to 16th century Japan instead of 16th century Britain",
-        "Ran giữ câu chuyện nhưng chuyển bối cảnh từ Anh sang Nhật Bản."
+        "Ran retains the story but moves the setting from sixteenth-century Britain to Japan."
       ],
       [
         113,
         "makes you see what life was like at the time of the play",
-        "Much Ado About Nothing tái hiện rõ đời sống của thời kỳ tác phẩm."
+        "Much Ado About Nothing gives viewers a sense of life in the period of the play."
       ],
       [
         113,
         "moves the action into the present day",
-        "Romeo & Juliet chuyển câu chuyện sang thời hiện đại."
+        "Romeo & Juliet transfers the events into the present day."
       ],
       [
         113,
         "more like a typical action hero movie",
-        "Hamlet 1996 quá giống phim hành động Hollywood, thiếu diễn giải thống nhất."
+        "The 1996 Hamlet resembles a conventional action-hero film and lacks a consistent interpretation."
       ],
       [
         114,
         "dance and singing and animation, as well as live actors",
-        "Prospero’s Books kết hợp nhiều loại hình nghệ thuật khác nhau."
+        "Prospero's Books combines several art forms, including dance, singing, animation and live acting."
       ],
       [
         114,
         "a blend of a documentary with a few scenes from Richard III",
-        "Looking for Richard chỉ sử dụng một số cảnh trong vở kịch."
+        "Looking for Richard blends a documentary with only a few scenes from the original play."
       ],
       [
         114,
         "open windows or gardens of their neighbours",
-        "Bản đồ tiếng ồn không phản ánh nguồn tiếng ồn từ cửa sổ mở hoặc vườn nhà hàng xóm."
+        "Noise maps do not represent noise coming from neighbours' gardens or open windows."
       ],
       [
         114,
         "it’s a political matter",
-        "Bản đồ giúp nâng cao nhận thức về tiếng ồn như một vấn đề chính sách cần quy định."
+        "Mapping noise can raise awareness of it as a political issue requiring regulation."
       ],
       [
         114,
         "their work will suffer",
-        "Thiếu nơi yên tĩnh để học làm ảnh hưởng việc học của học sinh."
+        "A lack of quiet places to study can adversely affect students' work."
       ],
       [
         114,
         "the sound made by a fountain",
-        "Tiếng đài phun nước có thể dễ chịu dù mức decibel cao."
+        "The sound of a fountain may be pleasant despite having a relatively high decibel level."
       ],
       [
         114,
         "researchers are using social science techniques",
-        "Nhà nghiên cứu sử dụng phương pháp khoa học xã hội, chẳng hạn bảng hỏi."
+        "Researchers use social science methods such as questionnaires to investigate soundscapes."
       ],
       [
         114,
         "it needs to be lively",
-        "Thành phố cần cảm giác sôi động nhưng vẫn phải cho phép thư giãn."
+        "Cities should feel lively while still offering opportunities to relax."
       ],
       [
         115,
         "receive very little training in this area",
-        "Kiến trúc sư và nhà quy hoạch được đào tạo rất ít về âm học."
+        "Architects and planners receive very little training in acoustics."
       ],
       [
         115,
         "relationship between sound and culture",
-        "Cần hiểu mối liên hệ giữa âm thanh và văn hóa."
+        "Understanding the relationship between sound and culture is important."
       ],
       [
         115,
         "the nature of sound itself",
-        "Vật lý giúp nghiên cứu bản chất của âm thanh."
+        "Physics helps researchers understand the nature of sound itself."
       ],
       [
         115,
         "these programs are silent",
-        "Công nghệ thực tế ảo hiện chưa có âm thanh, nên cần bổ sung soundscape."
+        "Current virtual reality programs are silent, so they need soundscapes to improve their realism."
       ]
     ]
   }
