@@ -145,3 +145,11 @@ main:has(.cm-cambridge-exam){max-width:1680px;padding-left:clamp(16px,2.2vw,38px
 .cm-vocab-standalone .cm-vocab-speech-status{display:block;font-size:12px;color:#8c5260;margin:0 0 8px}
 .cm-vocab-standalone .cm-vocab-speech-status:empty{display:none}
 @media(max-width:480px){.cm-vocab-standalone .cm-vocab-pronounce{font-size:12px;min-height:36px;padding:6px 10px}}
+
+/* Cambridge 12 answer explanations: original evidence and answer replay. */
+.cam-review-evidence{margin:12px 0;padding:12px 15px;border-left:3px solid #95afd7;border-radius:0 8px 8px 0;background:#f4f7fc;color:#344661}
+.cam-review-evidence strong{display:block;font-size:11px;letter-spacing:.15px;color:#48648d;margin-bottom:5px}
+.cam-review-evidence p{margin:0;font-size:13px;line-height:1.7}
+.cam-review-jump{font-weight:650}.cam-review-replay{font-size:12px;min-height:38px}
+.cam-review-status{font-size:11px!important;color:#778396;line-height:1.6}
+[data-cam-page].cam-evidence-focus{outline:3px solid #7296ce;outline-offset:-3px;scroll-margin-top:16px}
