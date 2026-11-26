@@ -898,443 +898,443 @@ window.WORDHOP_CAMBRIDGE12_REVIEW={
         60,
         "A",
         "the islands were colonised by one or more tortoises",
-        "Rùa từ lục địa Nam Mỹ đến quần đảo, thích nghi và hình thành các phân loài."
+        "Tortoises arrived from mainland South America, adapted to the different islands and developed into distinct subspecies."
       ],
       [
         60,
         "B",
         "This historical exploitation was then exacerbated",
-        "Hoạt động săn bắt, khai thác và sinh vật ngoại lai làm số lượng rùa suy giảm."
+        "Historical hunting and exploitation, followed by the introduction of alien species, caused tortoise numbers to decline."
       ],
       [
         60,
         "C",
         "work began on a tortoise-breeding centre",
-        "Đoạn mô tả sự khởi đầu của dự án bảo tồn năm 1989."
+        "The paragraph describes the establishment of a tortoise-breeding centre in 1989."
       ],
       [
         60,
         "D",
         "if people wait too long ... too large to transport",
-        "Phải chờ rùa đủ tuổi và kích thước để sống sót, nhưng không để chúng quá lớn để vận chuyển."
+        "The tortoises need to be old enough to survive in the wild but not so large that transporting them becomes difficult."
       ],
       [
         61,
         "E",
         "to work out more ambitious reintroduction",
-        "Ba người xây dựng kế hoạch đưa 300 con rùa về tự nhiên bằng trực thăng."
+        "Three people developed an ambitious plan to return 300 tortoises to the wild by helicopter."
       ],
       [
         61,
         "F",
         "worked around the clock to prepare the young tortoises for transport",
-        "Đoạn trình bày chuẩn bị thùng vận chuyển, tải trọng, địa điểm hạ cánh và thực hiện công việc."
+        "The paragraph describes the preparation of transport containers, load sizes, landing sites and the operation itself."
       ],
       [
         61,
         "G",
         "one tiny tortoise came across a fully grown giant",
-        "Rùa con gặp một con rùa già khoảng một thế kỷ, biểu tượng của sự tái sinh loài."
+        "A young tortoise encountering a fully grown giant symbolises the species' recovery."
       ],
       [
         60,
         "B",
         "pirates took a few on board for food",
-        "Từ thế kỷ 17, cướp biển đưa một số rùa lên tàu."
+        "Pirates began taking tortoises aboard their ships in the seventeenth century."
       ],
       [
         60,
         "B",
         "to act as food supplies",
-        "Tàu săn cá voi giữ rùa sống làm nguồn thực phẩm cho chuyến đi dài."
+        "Whaling ships kept live tortoises aboard as a supply of food for long voyages."
       ],
       [
         60,
         "B",
         "processed into high-grade oil",
-        "Rùa còn bị chế biến để lấy dầu chất lượng cao."
+        "Tortoises were also processed to obtain high-grade oil."
       ],
       [
         60,
         "B",
         "when settlers came to the islands",
-        "Người định cư săn rùa và phá hủy môi trường sống để canh tác."
+        "Settlers hunted tortoises and cleared their habitat for agriculture."
       ],
       [
         60,
         "B",
         "They also introduced alien species",
-        "Nhiều loài ngoại lai phá hủy môi trường sống và săn rùa non."
+        "Introduced alien species damaged tortoise habitats and preyed on young animals."
       ],
       [
         60,
         "B",
         "prey on the eggs and young tortoises",
-        "Các loài ngoại lai ăn trứng và rùa con."
+        "The introduced animals preyed on eggs and young tortoises."
       ],
       [
         63,
         "D",
         "While people will always be prone to illness",
-        "Tác giả thừa nhận con người luôn có khả năng mắc bệnh, dù một số bệnh có thể được loại bỏ."
+        "The author acknowledges that people will always be susceptible to illness, even though some diseases can be eliminated."
       ],
       [
         63,
         "C",
         "smog and pollution that cause asthma, lung problems, eyesight issues",
-        "Ô nhiễm do xe cộ, nhà máy và đô thị hóa gây ra nhiều vấn đề sức khỏe."
+        "Urbanisation and pollution from vehicles and factories cause a range of health problems."
       ],
       [
         64,
         "F",
         "categorising illnesses, diseases and epidemics into local and global scales",
-        "Bệnh được phân loại theo quy mô địa phương hoặc toàn cầu."
+        "Illnesses and epidemics can be classified according to their local or global scale."
       ],
       [
         64,
         "G",
         "different social classes, income brackets, and levels of education",
-        "Khả năng tiếp cận dịch vụ y tế phụ thuộc tầng lớp, thu nhập, giáo dục và địa lý."
+        "Access to healthcare varies with geography, social class, income and education."
       ],
       [
         63,
         "D",
         "Health geography is the combination of",
-        "Health geography kết hợp địa lý, phương pháp phân tích địa lý và nghiên cứu sức khỏe."
+        "Health geography combines geography, geographical analysis and the study of health."
       ],
       [
         63,
         "B",
         "Malaria is much less of a problem in high-altitude deserts",
-        "Sốt rét hiếm hơn ở vùng sa mạc cao."
+        "Malaria is less common in high-altitude deserts than in warm, damp regions."
       ],
       [
         63,
         "A",
         "improvements in vaccinations and the availability of healthcare",
-        "Cải thiện tiêm chủng và chăm sóc y tế giúp loại bỏ nhiều bệnh."
+        "Improved vaccination and access to healthcare have helped eliminate many diseases."
       ],
       [
         63,
         "A",
         "infections resistant to antibiotics",
-        "Giao tiếp và di chuyển nhiều hơn làm nhiễm trùng kháng kháng sinh phổ biến hơn."
+        "Increased interaction and travel have contributed to the spread of antibiotic-resistant infections."
       ],
       [
         63,
         "B",
         "a warm and damp environment in which the mosquitos ... can grow",
-        "Muỗi truyền bệnh sốt rét phát triển tốt ở vùng nóng ẩm."
+        "Mosquitoes that transmit malaria thrive in warm, damp environments."
       ],
       [
         63,
         "C",
         "factories that run on coal power",
-        "Nhà máy sử dụng than là một nguyên nhân gây ô nhiễm không khí."
+        "Coal-powered factories contribute to air pollution."
       ],
       [
         63,
         "C",
         "the cutting down of forests to allow for the expansion of big cities",
-        "Mở rộng đô thị dẫn đến chặt rừng, giảm khả năng cải thiện không khí."
+        "The expansion of cities leads to deforestation, reducing the ability of forests to improve air quality."
       ],
       [
         63,
         "D",
         "diseases like polio are re-emerging",
-        "Polio là ví dụ về bệnh tái xuất hiện."
+        "Polio is given as an example of a disease that is re-emerging."
       ],
       [
         64,
         "G",
         "a mountain between their village and the nearest hospital",
-        "Núi có thể cản trở việc đi từ làng đến bệnh viện."
+        "A mountain separating a village from a hospital can make healthcare difficult to access."
       ],
       [
         66,
         "Paragraph 2",
         "music triggers the production of dopamine",
-        "Âm nhạc kích thích tế bào thần kinh giải phóng dopamine."
+        "Music stimulates the release of the neurotransmitter dopamine."
       ],
       [
         66,
         "Paragraph 2",
         "linked with the experience of pleasure",
-        "Hai vùng não liên quan đến trải nghiệm khoái cảm."
+        "The two brain regions are associated with the experience of pleasure."
       ],
       [
         66,
         "Paragraph 3",
         "the dopamine neurons in the caudate",
-        "Tế bào dopamine tại caudate hoạt động mạnh trước thời điểm yêu thích."
+        "Dopamine neurons in the caudate become particularly active before a listener's favourite musical moment."
       ],
       [
         66,
         "Paragraph 3",
         "the ‘anticipatory phase’",
-        "Khoảng thời gian dự đoán trước cao trào gọi là anticipatory phase."
+        "The period of expectation before the musical climax is called the anticipatory phase."
       ],
       [
         66,
         "Paragraph 3",
         "anticipating food and other ‘reward’ stimuli",
-        "Caudate liên quan kỳ vọng phần thưởng như thức ăn."
+        "The caudate also plays a role in anticipating rewards such as food."
       ],
       [
         66,
         "Paragraph 1",
         "all the symptoms of emotional arousal",
-        "Nhịp tim, huyết áp, đồng tử và các phản ứng cơ thể cho thấy âm nhạc tác động mạnh về thể chất."
+        "Changes in heart rate, blood pressure and other bodily responses illustrate music's physical effects."
       ],
       [
         66,
         "Paragraph 2",
         "an impressively exact and detailed portrait",
-        "Kết hợp PET và fMRI tạo dữ liệu đặc biệt chính xác, chi tiết."
+        "The combination of PET and fMRI scans allowed researchers to produce an unusually detailed and precise picture of brain activity."
       ],
       [
         66,
         "Paragraph 3",
         "around 15 seconds before the participants’ favourite moments",
-        "Điều đáng chú ý là thời điểm dopamine hoạt động mạnh trước cao trào, không phải ngay khi nhận phần thưởng."
+        "A significant finding was that dopamine activity increased before a favourite moment rather than only when the musical reward arrived."
       ],
       [
         67,
         "Paragraph 5",
         "To demonstrate this psychological principle",
-        "Meyer phân tích Beethoven để minh họa sự chờ đợi và bất ngờ, hỗ trợ phát hiện Montreal."
+        "Meyer analyses Beethoven to illustrate how expectation and surprise contribute to musical emotion."
       ],
       [
         67,
         "Paragraph 6",
         "the unfolding events of the music itself",
-        "Meyer cho rằng cảm xúc đến từ cấu trúc và diễn biến nội tại của bản nhạc, không phải hồi ức."
+        "Meyer argues that emotion arises from the unfolding structure of the music itself rather than from associations with memories."
       ],
       [
         66,
         "Paragraph 3",
         "were at their most active around 15 seconds before",
-        "Nghiên cứu phát hiện hoạt động thần kinh tăng trước những khoảnh khắc âm nhạc quan trọng."
+        "The researchers detected heightened neural activity shortly before the listeners' favourite musical moments."
       ],
       [
         67,
         "Paragraph 4",
         "dopamine neurons quickly adapt to predictable rewards",
-        "Hoạt động dopamine giảm khi phần thưởng dễ đoán; người nghe không còn phấn khích."
+        "Dopamine responses diminish when rewards become predictable, reducing excitement."
       ],
       [
         67,
         "Paragraph 5",
         "carefully holds off repeating it",
-        "Beethoven trì hoãn mô-típ người nghe mong đợi để tạo căng thẳng và cảm xúc."
+        "Beethoven delays the expected repetition of a musical motif, creating tension and anticipation."
       ],
       [
         67,
         "Paragraph 6",
         "a sound can refer to the real world of images and experiences",
-        "Lý thuyết trước đây cho rằng âm nhạc gợi hình ảnh và trải nghiệm thực tế."
+        "An earlier theory held that music generates emotion by referring to real-world images and experiences."
       ]
     ],
     "listening": [
       [
         105,
         "devoted to travel books now",
-        "Thư viện mở rộng khu sách du lịch, phù hợp kế hoạch đi Hy Lạp của Paul."
+        "The library has expanded its travel book collection, which is relevant to Paul's planned trip to Greece."
       ],
       [
         105,
         "materials on the history of the town",
-        "Có khu tài liệu mới về lịch sử địa phương."
+        "There is a new collection of material about the town's history."
       ],
       [
         105,
         "at other times people can use it to study",
-        "Phòng cộng đồng dùng để họp và học tập khi không có cuộc họp."
+        "The community room can be used for studying when meetings are not taking place."
       ],
       [
         105,
         "fiction written specially for teenagers",
-        "Khu sách truyện mới dành riêng cho thanh thiếu niên."
+        "The new fiction section is specifically intended for teenagers."
       ],
       [
         105,
         "experiments with stuff that everyone has in the kitchen",
-        "Câu lạc bộ khoa học dùng vật liệu thông thường trong bếp như đường và bột."
+        "The science club uses everyday materials that can be found in a kitchen."
       ],
       [
         106,
         "she based the story on a crime",
-        "Tiểu thuyết dựa trên vụ án có thật từng xảy ra trong thị trấn."
+        "The novel is based on a real crime that occurred in the town."
       ],
       [
         106,
         "they don’t need to make an appointment",
-        "Hỗ trợ IT không cần hẹn trước; người tham gia chỉ cần đến."
+        "Visitors can receive IT assistance without making an appointment or booking."
       ],
       [
         106,
         "measure the level of sugar in your blood",
-        "Kiểm tra đường huyết và cholesterol miễn phí cho người trên 60 tuổi."
+        "The free health checks include measuring blood sugar levels."
       ],
       [
         106,
         "also stamps so you can post the cards",
-        "Cửa hàng bán tem để gửi thiệp ngay."
+        "The shop sells stamps so that customers can post their cards immediately."
       ],
       [
         106,
         "is there parking available?",
-        "Bãi đỗ xe miễn phí vào buổi tối và cuối tuần."
+        "Parking is available free of charge in the evenings and at weekends."
       ],
       [
         106,
         "a noticeable growth ... 55 to 64-year-olds",
-        "Hai nhóm tăng số chuyến đi là 55–64 tuổi và trên 65 tuổi; D/E đổi thứ tự được."
+        "The number of trips taken by people aged 55–64 has grown. The two correct options may be given in either order."
       ],
       [
         106,
         "the over-65s ... increasing steadily year on year",
-        "Nhóm trên 65 tuổi tăng đều qua các năm."
+        "Trips taken by people over 65 have also increased steadily."
       ],
       [
         107,
         "create lasting relationships with other like-minded people",
-        "Tạo tình bạn lâu dài là lý do chính; A/C đổi thứ tự được."
+        "An important motivation is forming lasting friendships with like-minded people. The two correct options may be given in either order."
       ],
       [
         106,
         "find out more about the local people and customs",
-        "Hoạt động ngoài trung tâm du lịch giúp khách hiểu văn hóa địa phương."
+        "Activities away from tourist centres give visitors a better understanding of local people and customs."
       ],
       [
         107,
         "five additional ones will be joining us",
-        "Có thêm năm họa sĩ giảng dạy để tăng số lớp, không phải thêm địa điểm."
+        "Five additional painters will join the teaching team, increasing the available classes."
       ],
       [
         107,
         "dishes from a great many different ones",
-        "Khóa nấu ăn tập trung món ăn nhiều quốc gia, tạo tính quốc tế."
+        "The cooking course has an international focus, featuring dishes from many countries."
       ],
       [
         107,
         "one-on-one tuition during the holiday",
-        "Nhóm nhỏ cho phép khách được hướng dẫn cá nhân."
+        "Small groups allow participants to receive individual tuition."
       ],
       [
         107,
         "losing much of the stress",
-        "Các lớp thể lực tại Ireland và Italy còn giảm căng thẳng."
+        "Fitness classes in Ireland and Italy also help participants reduce stress."
       ],
       [
         107,
         "clients who want to do something about their weight",
-        "Khóa ở Hy Lạp tập trung quản lý cân nặng."
+        "The course in Greece is designed for people who want to manage their weight."
       ],
       [
         107,
         "tailored to the needs of families",
-        "Có tuyến đạp xe ở Morocco thiết kế riêng cho gia đình."
+        "A cycling route in Morocco is tailored to the needs of families."
       ],
       [
         107,
         "keep a record of where you got the information from",
-        "Cần ghi lại nguồn thông tin khi đọc tài liệu."
+        "Students must record the sources of the information they collect."
       ],
       [
         108,
         "The people who work there",
-        "Nhân viên tại địa điểm là một nhóm cần phỏng vấn."
+        "People who work at the site are one of the groups that can be interviewed."
       ],
       [
         108,
         "administrators involved in overseeing tourism",
-        "Có thể phỏng vấn quan chức quản lý du lịch trong thành phố."
+        "Officials responsible for overseeing tourism are another possible source of information."
       ],
       [
         108,
         "whether we can identify them ... or whether they want to be anonymous",
-        "Phải kiểm tra xem được dùng tên người tham gia hay phải giữ ẩn danh."
+        "The students must establish whether interviewees can be identified or wish to remain anonymous."
       ],
       [
         108,
         "identify any trends or regularities",
-        "Phân tích tập trung vào xu hướng hoặc mẫu lặp lại (patterns)."
+        "Their analysis should identify recurring patterns and trends."
       ],
       [
         108,
         "in a case study we end up with a question",
-        "Khác báo cáo thường, case study kết thúc bằng câu hỏi, không đưa ra giải pháp."
+        "Unlike a conventional report, a case study ends with a question rather than a proposed solution."
       ],
       [
         108,
         "you’d never realise it from the castle website",
-        "Website khô khan, không quảng bá được điểm hấp dẫn; đường đã được cải thiện."
+        "The castle website is unengaging and fails to communicate the attractions of the site."
       ],
       [
         108,
         "get special planning permission",
-        "Trung tâm du khách ở di tích lịch sử cần giấy phép quy hoạch đặc biệt."
+        "A visitor centre at a historic site requires special planning permission."
       ],
       [
         109,
         "the young people all get out as fast as they can to get jobs in the city",
-        "Người trẻ đi làm ở thành phố, thị trấn chủ yếu còn trẻ em và người đã nghỉ hưu."
+        "Young people leave the town to find employment in the city, leaving mainly children and retired people."
       ],
       [
         109,
         "sticking to marked ways",
-        "Khách cần đi theo lối đã đánh dấu để bảo vệ di tích."
+        "Visitors should keep to the marked paths to protect the historic site."
       ],
       [
         109,
         "those that eat insects can also be affected",
-        "Gần đây phát hiện chim ăn côn trùng cũng bị ảnh hưởng bởi thủy ngân."
+        "Recent research shows that insect-eating birds can also be affected by mercury."
       ],
       [
         109,
         "the behaviour of the birds",
-        "Nghiên cứu tác động tinh vi lên hành vi và quá trình nhận thức như trí nhớ."
+        "The research investigates subtle effects on behaviour and cognitive processes such as memory."
       ],
       [
         109,
         "the songs produced by its father",
-        "Chim non học tiếng hót từ chim bố."
+        "A young bird learns its song from its father."
       ],
       [
         109,
         "aren’t as complex as those produced by other birds",
-        "Tiếng hót của chim nhiễm thủy ngân ít phức tạp hơn."
+        "Mercury-exposed birds produce songs that are less complex than those of other birds."
       ],
       [
         109,
         "affect their chances of reproduction",
-        "Tiếng hót kém hấp dẫn làm giảm cơ hội sinh sản."
+        "Less attractive songs can reduce the birds' chances of reproducing."
       ],
       [
         109,
         "a much higher level of control",
-        "Thí nghiệm phòng lab giúp kiểm soát biến số tốt hơn."
+        "Laboratory experiments allow researchers a higher degree of control over the variables."
       ],
       [
         110,
         "ducks who’d been feeding at a contaminated site",
-        "Vịt di cư nhiễm thủy ngân có thể bị săn và được con người ăn ở nơi xa."
+        "Migratory ducks exposed to mercury may be hunted and eaten far from the contaminated site."
       ],
       [
         110,
         "delays in the acquisition of language",
-        "Thủy ngân làm chậm khả năng tiếp thu ngôn ngữ ở con người."
+        "Mercury exposure can delay language acquisition in humans."
       ],
       [
         110,
         "the food eaten by its mother",
-        "Thức ăn có hàm lượng thủy ngân cao của mẹ có thể ảnh hưởng thai nhi."
+        "A mother's consumption of mercury-contaminated food may affect her unborn child."
       ],
       [
         110,
         "increase costs for everyone",
-        "Quy định giảm phát thải đòi hỏi chi phí lớn và làm tăng chi phí năng lượng."
+        "Reducing mercury emissions requires investment and could increase energy costs for everyone."
       ]
     ]
   },
