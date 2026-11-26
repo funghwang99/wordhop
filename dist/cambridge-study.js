@@ -620,5 +620,654 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "20-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "aquatic (adj.)",
+          "definition": "Living or growing in water.",
+          "example": "Aquatic mammals must surface to breathe."
+        },
+        {
+          "word": "propulsion (n.)",
+          "definition": "The force or action that moves something forward.",
+          "example": "The boat uses electric propulsion."
+        },
+        {
+          "word": "pelvic (adj.)",
+          "definition": "Relating to the bones around the hips.",
+          "example": "The fossil retained several pelvic bones."
+        },
+        {
+          "word": "wrinkled (adj.)",
+          "definition": "Covered with small folds or lines.",
+          "example": "The animal has thick, wrinkled skin."
+        },
+        {
+          "word": "omnivorous (adj.)",
+          "definition": "Eating both plant and animal matter.",
+          "example": "Some birds are omnivorous."
+        },
+        {
+          "word": "herbivore (n.)",
+          "definition": "An animal that feeds mainly on plants.",
+          "example": "A deer is a herbivore."
+        },
+        {
+          "word": "abrasive (adj.)",
+          "definition": "Able to wear a surface away through friction.",
+          "example": "Abrasive particles can damage machinery."
+        },
+        {
+          "word": "buoyancy (n.)",
+          "definition": "The ability to float in a liquid.",
+          "example": "Fish regulate their buoyancy as they swim."
+        },
+        {
+          "word": "ambient (adj.)",
+          "definition": "Relating to the surrounding environment.",
+          "example": "The equipment measures ambient temperature."
+        },
+        {
+          "word": "landlocked (adj.)",
+          "definition": "Surrounded by land, without a coastline.",
+          "example": "Landlocked countries rely on transport links to ports."
+        },
+        {
+          "word": "incidental (adj.)",
+          "definition": "Happening as an unintended consequence.",
+          "example": "The fishing method can result in incidental capture of wildlife."
+        },
+        {
+          "word": "entanglement (n.)",
+          "definition": "The state of becoming caught or twisted in something.",
+          "example": "Entanglement in discarded nets threatens marine animals."
+        },
+        {
+          "word": "legislation (n.)",
+          "definition": "Laws considered as a group or the process of making them.",
+          "example": "New legislation limits pollution from factories."
+        },
+        {
+          "word": "procrastination (n.)",
+          "definition": "The habit of delaying tasks that need to be done.",
+          "example": "Procrastination can increase academic stress."
+        },
+        {
+          "word": "berate (v.)",
+          "definition": "Criticise someone or oneself severely.",
+          "example": "It is unhelpful to berate yourself over a minor mistake."
+        },
+        {
+          "word": "self-worth (n.)",
+          "definition": "A person's sense of their own value.",
+          "example": "A supportive environment strengthens self-worth."
+        },
+        {
+          "word": "chronically (adv.)",
+          "definition": "In a persistent or repeated way over a long period.",
+          "example": "People who are chronically sleep-deprived may struggle to concentrate."
+        },
+        {
+          "word": "perfectionist (n.)",
+          "definition": "Someone who expects everything to be done perfectly.",
+          "example": "A perfectionist may spend too long revising an assignment."
+        },
+        {
+          "word": "reinforce (v.)",
+          "definition": "Strengthen a belief, habit or behaviour.",
+          "example": "Repeated rewards can reinforce a habit."
+        },
+        {
+          "word": "take a toll (v.)",
+          "definition": "Have a damaging effect over time.",
+          "example": "Long working hours can take a toll on health."
+        },
+        {
+          "word": "misconduct (n.)",
+          "definition": "Behaviour that breaks accepted rules or standards.",
+          "example": "The university investigates academic misconduct."
+        },
+        {
+          "word": "plagiarism (n.)",
+          "definition": "Presenting another person's work or ideas as one's own.",
+          "example": "Students must cite sources to avoid plagiarism."
+        },
+        {
+          "word": "fraudulent (adj.)",
+          "definition": "Dishonest and intended to deceive.",
+          "example": "The company rejected the fraudulent claim."
+        },
+        {
+          "word": "correlate (v.)",
+          "definition": "Have a relationship or association with something else.",
+          "example": "Sleep quality may correlate with academic performance."
+        },
+        {
+          "word": "demographics (n.)",
+          "definition": "Statistical characteristics of a population.",
+          "example": "The survey included people from different demographics."
+        },
+        {
+          "word": "vicious cycle (n.)",
+          "definition": "A sequence of problems that repeatedly make one another worse.",
+          "example": "Debt and unemployment can create a vicious cycle."
+        },
+        {
+          "word": "fend off (v.)",
+          "definition": "Prevent or resist something unwanted.",
+          "example": "A quiet workspace helps fend off distractions."
+        },
+        {
+          "word": "compassion (n.)",
+          "definition": "Concern for someone's suffering and a wish to help.",
+          "example": "Teachers can respond to struggling students with compassion."
+        },
+        {
+          "word": "contraption (n.)",
+          "definition": "A device that looks unusual or complicated.",
+          "example": "The inventor demonstrated an unfamiliar contraption."
+        },
+        {
+          "word": "commission (v.)",
+          "definition": "Officially arrange and pay for work to be done.",
+          "example": "The council commissioned a new transport study."
+        },
+        {
+          "word": "heckling (n.)",
+          "definition": "Interrupting a speaker or performer with rude remarks.",
+          "example": "The referee ignored the heckling from the crowd."
+        },
+        {
+          "word": "consensus (n.)",
+          "definition": "General agreement among members of a group.",
+          "example": "The committee reached a consensus."
+        },
+        {
+          "word": "controversy (n.)",
+          "definition": "Public disagreement over an issue.",
+          "example": "The new rule generated considerable controversy."
+        },
+        {
+          "word": "unforgiving (adj.)",
+          "definition": "Allowing little room for mistakes.",
+          "example": "The scoring system is unforgiving of minor errors."
+        },
+        {
+          "word": "pedantic (adj.)",
+          "definition": "Excessively concerned with small details or formal rules.",
+          "example": "The reviewer criticised the pedantic interpretation of the rules."
+        },
+        {
+          "word": "legalistic (adj.)",
+          "definition": "Treating rules and formal requirements too rigidly.",
+          "example": "A legalistic approach can overlook individual circumstances."
+        },
+        {
+          "word": "brainstorm (v.)",
+          "definition": "Generate many ideas or possible solutions together.",
+          "example": "The team brainstormed alternatives."
+        },
+        {
+          "word": "delineate (v.)",
+          "definition": "Describe or mark the boundaries of something precisely.",
+          "example": "The map delineates the protected area."
+        },
+        {
+          "word": "discretion (n.)",
+          "definition": "Freedom to decide according to one's own judgment.",
+          "example": "Teachers have some discretion over classroom activities."
+        },
+        {
+          "word": "dissenting (adj.)",
+          "definition": "Expressing disagreement with a prevailing opinion.",
+          "example": "The report included a dissenting view."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          26,
+          "Paragraph 1",
+          "the manatee has a broad, rounded tail",
+          "Manatees and dugongs are similar in appearance but their tails have different shapes."
+        ],
+        [
+          26,
+          "Paragraph 2",
+          "steering with its flippers",
+          "A manatee must turn its whole body to look sideways, using its flippers to steer."
+        ],
+        [
+          26,
+          "Paragraph 2",
+          "hairs covering their bodies which help them sense vibrations",
+          "The hairs on the skin help detect vibrations in the surrounding water."
+        ],
+        [
+          26,
+          "Paragraph 3",
+          "Seagrasses and other marine plants",
+          "Seagrasses are explicitly identified as a major component of the diet."
+        ],
+        [
+          26,
+          "Paragraph 4",
+          "lips which function like a pair of hands",
+          "Their lips are used to grasp and pull vegetation away from the seafloor."
+        ],
+        [
+          27,
+          "Paragraph 5",
+          "breathing to adjust their buoyancy",
+          "The diaphragm may help store gas internally and thereby regulate buoyancy."
+        ],
+        [
+          27,
+          "Paragraph 6",
+          "moves between fresh water and salt water",
+          "The species inhabits mangroves, coral reefs, rivers, lakes and lagoons, confirming the variety of habitats."
+        ],
+        [
+          27,
+          "Paragraph 6",
+          "When the ambient water temperature drops below 20°C",
+          "The passage describes Florida manatees seeking warmer water but does not compare their usual water temperature with that of Antillean manatees."
+        ],
+        [
+          27,
+          "Paragraph 7",
+          "seen in landlocked countries such as Mali and Niger",
+          "African manatees also inhabit rivers well inland, so their distribution is not restricted to coastal waters."
+        ],
+        [
+          27,
+          "Paragraph 8",
+          "140,000 Amazonian manatees were killed between 1935 and 1954",
+          "The passage estimates historical losses but does not say when the extent of the losses became known."
+        ],
+        [
+          27,
+          "Paragraph 9",
+          "expected to undergo a decline of 20% over the next 40 years",
+          "The forecast explicitly predicts a future population decline."
+        ],
+        [
+          27,
+          "Paragraph 9",
+          "A review of almost 1,800 cases",
+          "The study reports the number of cases during the period, not whether the risk increased over time."
+        ],
+        [
+          27,
+          "Paragraph 9",
+          "laws in certain parts of Florida now limit boat speeds",
+          "Speed restrictions give manatees more time to respond and are intended to reduce boat collisions."
+        ],
+        [
+          29,
+          "Section B",
+          "Contrary to popular belief",
+          "The author rejects common assumptions that procrastination is caused by laziness or poor time management."
+        ],
+        [
+          30,
+          "Section F",
+          "we're not the first person to procrastinate, nor the last",
+          "The writer recommends recognising that procrastination is a shared human experience."
+        ],
+        [
+          29,
+          "Section B",
+          "areas of the brain linked to detection of threats and emotion regulation",
+          "Brain imaging provides neurological evidence of differences associated with frequent procrastination."
+        ],
+        [
+          29,
+          "Section B",
+          "not due to laziness or poor time management",
+          "Laziness is one of the widely held but incorrect explanations."
+        ],
+        [
+          29,
+          "Section B",
+          "threatens our sense of self-worth or makes us anxious",
+          "Anxious describes the negative feeling that makes people delay a task."
+        ],
+        [
+          29,
+          "Section B",
+          "detection of threats and emotion regulation",
+          "The brain regions studied are associated with identifying threats and regulating emotions."
+        ],
+        [
+          29,
+          "Section C",
+          "such as preparing for exams",
+          "Preparing for examinations is the example of an emotionally loaded task."
+        ],
+        [
+          29,
+          "Section C",
+          "Another group of people who tend to procrastinate are perfectionists",
+          "The passage identifies perfectionists alongside people with low self-esteem."
+        ],
+        [
+          29,
+          "Section C",
+          "a sense of guilt",
+          "The temporary improvement in mood is followed by guilt, which reinforces procrastination."
+        ],
+        [
+          30,
+          "Section D",
+          "less annual income",
+          "The survey found that regular procrastinators had lower yearly earnings. Questions 23 and 24 allow either order."
+        ],
+        [
+          30,
+          "Section D",
+          "less employment stability",
+          "Regular procrastinators had less stable employment, which matches the second comparison."
+        ],
+        [
+          30,
+          "Section F",
+          "not be overly critical of ourselves",
+          "The writer recommends forgiveness and self-compassion rather than harsh self-judgment. Either order is accepted for Questions 25 and 26."
+        ],
+        [
+          30,
+          "Section F",
+          "fend off distractions",
+          "Avoiding distractions helps people focus on the task they need to complete."
+        ],
+        [
+          33,
+          "Paragraph 1",
+          "Instead of making any judgments himself",
+          "DeJesus received decisions through an earpiece rather than sharing responsibility for making them."
+        ],
+        [
+          33,
+          "Paragraph 4",
+          "decided to tweak the dimensions of the zone",
+          "MLB adjusted the size of the strike zone in response to players' complaints."
+        ],
+        [
+          33,
+          "Paragraph 4",
+          "precise to within fractions of an inch",
+          "The passage discusses accuracy but does not state that MLB wanted to justify its expenditure."
+        ],
+        [
+          34,
+          "Paragraph 6",
+          "a type of play lacking much action",
+          "The fastball reduced the variety of play rather than making the game more exciting."
+        ],
+        [
+          34,
+          "Paragraph 7",
+          "Any rule that existed, they talked about changing",
+          "The passage lists proposed changes but gives no indication that bat proposals caused fierce debate."
+        ],
+        [
+          34,
+          "Paragraph 7",
+          "you can load any strike zone you want into the system",
+          "ABS can accommodate different shapes, allowing the zone to evolve."
+        ],
+        [
+          33,
+          "Paragraph 2",
+          "just as they would have done in the past",
+          "Human umpires continue announcing decisions as they did in their former roles."
+        ],
+        [
+          33,
+          "Paragraph 2",
+          "a judgment call on the part of the umpire",
+          "Calling a strike originally depended on a human's subjective assessment."
+        ],
+        [
+          33,
+          "Paragraph 2",
+          "an imaginary zone",
+          "The strike zone is an imagined or perceived area between specified boundaries."
+        ],
+        [
+          33,
+          "Paragraph 3",
+          "countless arguments",
+          "Disagreements between managers and umpires were historically common."
+        ],
+        [
+          33,
+          "Paragraph 2",
+          "Nobody said a word",
+          "The calls made using ABS were received in total silence."
+        ],
+        [
+          33,
+          "Paragraph 5",
+          "There was a dialogue between pitcher and umpire",
+          "The rigid precision of ABS removes some of the human flexibility and interaction that contributed to the appeal of the game."
+        ],
+        [
+          34,
+          "Paragraph 6",
+          "executives are terrified of losing younger fans",
+          "Sword explains that the project aims to make baseball more exciting and retain younger audiences."
+        ],
+        [
+          34,
+          "Final paragraph",
+          "believing that accuracy is not the answer",
+          "Noë and Russo question the pursuit of perfect decisions, suggesting that accuracy does not guarantee enjoyment."
+        ]
+      ],
+      "listening": [
+        [
+          87,
+          "they sometimes need a break",
+          "The council recognises that carers need time for other responsibilities and opportunities to rest."
+        ],
+        [
+          87,
+          "the amount of time you spend looking after your mother",
+          "The assessment asks how much time is devoted to care each day."
+        ],
+        [
+          87,
+          "I help her get into the shower",
+          "The woman gives showering as an example of a daily task for which her mother needs assistance."
+        ],
+        null,
+        [
+          87,
+          "problems with her memory",
+          "The mother sometimes forgets to eat and loses track of the day."
+        ],
+        [
+          88,
+          "Lifting her, for example?",
+          "Lifting the mother is identified as a physical difficulty that could injure the carer."
+        ],
+        [
+          88,
+          "the possibility of your mum having a fall",
+          "The council can advise the carer on preventing falls."
+        ],
+        [
+          88,
+          "get a taxi to take your mother for an appointment",
+          "Taxi fares are an example of transport costs that may be covered."
+        ],
+        [
+          88,
+          "you can claim for the insurance too",
+          "In addition to petrol, car insurance may be claimed."
+        ],
+        [
+          88,
+          "you're under quite a bit of stress",
+          "The council may offer advice on reducing the carer's stress."
+        ],
+        [
+          88,
+          "recommendations about what to visit",
+          "Volunteers walking around the town centre provide directions and advice to visitors."
+        ],
+        [
+          88,
+          "get everyone in the audience to the right place",
+          "At concerts, volunteers help audience members find their seats."
+        ],
+        [
+          89,
+          "how groups can help each other",
+          "Volunteers encourage cooperation between local community organisations."
+        ],
+        [
+          89,
+          "find out what people think of events",
+          "Volunteers collect feedback and suggestions for the magazine editors."
+        ],
+        [
+          89,
+          "some volunteers put on a show",
+          "At lunches for retired residents, volunteers provide entertainment."
+        ],
+        [
+          89,
+          "making sure residents know about it",
+          "Volunteers publicise the council's website."
+        ],
+        [
+          89,
+          "even more help is required for the science festival",
+          "The science festival requires the largest number of volunteers, despite lasting only two days."
+        ],
+        [
+          89,
+          "being able to get on well with other people",
+          "The speaker identifies interpersonal skills as essential; flexibility and personal interest are less important."
+        ],
+        [
+          89,
+          "the following week from the 9th onward",
+          "Training starts on 2 September, but duties begin the following week."
+        ],
+        [
+          90,
+          "a trip along the canal",
+          "The forthcoming event is a boat trip; the barbecue and party occurred in earlier years."
+        ],
+        [
+          90,
+          "quite straightforward to find on the internet",
+          "The students agree that population facts and statistics are easy to obtain."
+        ],
+        [
+          90,
+          "Yes, fascinating, wasn't it?",
+          "Both students found the lecture about cholera and geography interesting."
+        ],
+        [
+          90,
+          "taken off the syllabus for this year",
+          "They are unsure whether economies remains relevant to the current course."
+        ],
+        [
+          90,
+          "It was all so general",
+          "The students found the lecture on culture too vague and lacking examples."
+        ],
+        [
+          91,
+          "They're sometimes deliberately manipulated",
+          "Poverty statistics may be altered for political reasons and thus may be unreliable."
+        ],
+        [
+          91,
+          "a lot of people don't have jobs. That's getting worse and worse",
+          "Rosie describes unemployment as a more serious issue linked to crime."
+        ],
+        [
+          91,
+          "the outskirts are ideal for buildings that need a lot of space, like for conferences",
+          "Both students approve of new conference facilities outside their cities."
+        ],
+        [
+          91,
+          "the whole site has to be made safe",
+          "Contamination may require expensive work that is not included in the original budget."
+        ],
+        [
+          92,
+          "depend entirely on renewable energy",
+          "Rosie suggests using Masdar City to illustrate sustainable energy, rather than waste or transport initiatives."
+        ],
+        [
+          92,
+          "I'm not sure how far they've got with it",
+          "Colin is uncertain about progress in constructing the ecotown."
+        ],
+        [
+          92,
+          "taking photos of their food and instantly sharing them",
+          "Interest in food trends grew when smartphone users began sharing photographs of meals."
+        ],
+        [
+          92,
+          "Companies which sell vegan produce were pioneers",
+          "Vegan food companies were among the first to increase sales rapidly through influencer marketing."
+        ],
+        [
+          92,
+          "what well-known chefs are putting on their menus",
+          "Supermarkets monitor the ingredients used by famous chefs."
+        ],
+        [
+          92,
+          "a group of journalists to travel out to South Africa",
+          "Journalists visited growers and wrote articles introducing British consumers to avocados."
+        ],
+        [
+          93,
+          "rich in nutrients and therefore beneficial for health",
+          "The campaign presented the avocado as a nutritious superfood with health benefits."
+        ],
+        [
+          93,
+          "getting the product into coffee chains",
+          "In the United States, Oatly promoted its product through coffee chains instead of a major retail launch."
+        ],
+        [
+          93,
+          "less of an impact on the environment",
+          "Oat milk uses relatively little water and has a lower carbon footprint, making it attractive environmentally."
+        ],
+        [
+          93,
+          "build the reputation of Norway's fisheries in general",
+          "Demand for the seasonal fish was used to strengthen the reputation of Norwegian seafood."
+        ],
+        [
+          93,
+          "the price soared making it unaffordable for local people",
+          "Rising global demand drove up the price of quinoa for consumers in Peru."
+        ],
+        [
+          93,
+          "the fertility of the soil decreased dramatically",
+          "Intensive production reduced soil fertility and raised the risk of desertification."
+        ]
+      ]
+    }
   }
 };
