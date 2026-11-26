@@ -452,443 +452,443 @@ window.WORDHOP_CAMBRIDGE12_REVIEW={
         36,
         "A",
         "Two things distinguish food production",
-        "Sản xuất thực phẩm có hai đặc điểm riêng: nhu cầu hằng ngày và sự phụ thuộc thiên nhiên."
+        "Food production is distinctive because everyone needs food daily and production depends heavily on natural conditions."
       ],
       [
         36,
         "B",
         "smallholder farmers in developing countries",
-        "Nông dân nhỏ ở các nước đang phát triển còn gặp bất lợi về môi trường tự nhiên và hạ tầng."
+        "Smallholder farmers in developing countries face additional environmental and infrastructure difficulties."
       ],
       [
         38,
         "H",
         "It takes time, effort and money",
-        "Giel Ton chỉ ra khó khăn về thời gian, công sức và tiền bạc để tổ chức hợp tác."
+        "Giel Ton stresses that organising cooperation requires time, effort and money."
       ],
       [
         37,
         "E",
         "sixty percent of beneficiaries of subsidies are not poor",
-        "Kabir cho biết nhiều người nhận trợ cấp là chủ đất giàu và thương nhân, không phải nông dân nghèo."
+        "Rokeya Kabir explains that many subsidy recipients are wealthy landowners or traders rather than poor farmers."
       ],
       [
         38,
         "H",
         "collective action offers an important way",
-        "Murphy cho rằng hành động tập thể tăng sức thương lượng và giảm rủi ro."
+        "Sophia Murphy argues that collective action strengthens farmers' bargaining power and helps manage risk."
       ],
       [
         37,
         "E",
         "valuable ways to address poverty among farming families",
-        "Fan ủng hộ phúc lợi xã hội để giảm nghèo và rủi ro cho gia đình nông dân."
+        "Shenggen Fan supports social protection as a way to reduce poverty among farming families."
       ],
       [
         38,
         "I",
         "consumers invest in local farmers by subscription",
-        "Bisht đề xuất người tiêu dùng góp vốn và bảo đảm mức giá công bằng."
+        "Sonali Bisht proposes that consumers invest in farmers through subscriptions and guarantee fair prices."
       ],
       [
         36,
         "D",
         "mitigate wild swings in food prices",
-        "Murphy cho rằng dự trữ của chính phủ có thể giảm biến động giá."
+        "Government food reserves can help reduce extreme fluctuations in food prices, according to Sophia Murphy."
       ],
       [
         36,
         "D",
         "providing basic services like roads",
-        "Nwanze cho rằng đường, nước và kho bảo quản giúp giảm rủi ro đáng kể."
+        "Kanayo Nwanze highlights basic services such as roads, water and storage as ways of reducing risk."
       ],
       [
         37,
         "G",
         "growing unpredictability of weather patterns",
-        "Thời tiết khó dự đoán làm nông dân khó quản lý rủi ro; D và E có thể đổi thứ tự."
+        "Increasingly unpredictable weather makes risk management difficult. The two correct options may be given in either order."
       ],
       [
         38,
         "I",
         "intermediary purchasers who ... dictate prices",
-        "Người mua trung gian áp đặt giá và lợi dụng vị thế yếu của nông dân."
+        "Intermediary buyers can exploit farmers' weak bargaining position by dictating prices."
       ],
       [
         38,
         "H",
         "all stakeholders ... must work together",
-        "Doanh nghiệp, chính phủ, nhà khoa học và xã hội cần cùng hợp tác; C và D có thể đổi thứ tự."
+        "Businesses, governments, scientists and civil society need to cooperate. The two correct options may be given in either order."
       ],
       [
         38,
         "I",
         "consumers invest in local farmers by subscription",
-        "Người tiêu dùng trực tiếp đóng góp tài chính cho nông dân."
+        "Consumers can support farmers financially by paying subscriptions."
       ],
       [
         43,
         "A",
         "His goal was to locate the remains of a city called Vitcos",
-        "Mục tiêu chuyến đi là tìm tàn tích thành phố Inca Vitcos."
+        "Bingham's original objective was to locate the remains of the Inca city of Vitcos."
       ],
       [
         43,
         "B",
         "a track had recently been blasted down the valley canyon",
-        "Một tuyến đường mới mở giúp đoàn đến khu vực trước đây bị bỏ qua."
+        "A recently constructed track allowed the expedition to reach an area previous travellers had overlooked."
       ],
       [
         43,
         "C",
         "without having the least expectation",
-        "Bingham không hào hứng và không kỳ vọng tìm được điều quan trọng."
+        "Bingham was reluctant to climb the hill and did not expect to discover anything significant."
       ],
       [
         43,
         "D",
         "Bingham writes about the approach in vivid style",
-        "Tác giả mô tả sinh động hành trình leo đồi và phát hiện di tích."
+        "The paragraph describes the dramatic journey uphill and the impressive ruins Bingham encountered."
       ],
       [
         44,
         "E",
         "His journal entries ... reveal a much more gradual appreciation",
-        "Nhật ký đương thời và cuốn sách viết nhiều năm sau có cách kể khác nhau."
+        "His contemporary journal reveals a more gradual recognition of the site's importance than his later account."
       ],
       [
         44,
         "F",
         "the National Geographic magazine article that broke the story to the world",
-        "Bingham công bố giả thuyết về nơi khởi đầu và kết thúc nền văn minh Inca."
+        "Bingham publicly proposed that Machu Picchu marked the beginning and end of Inca civilisation."
       ],
       [
         44,
         "G",
         "An idea which has gained wide acceptance",
-        "Quan điểm phổ biến cho rằng Machu Picchu là điền trang nghỉ dưỡng của hoàng đế Inca."
+        "A widely accepted explanation is that Machu Picchu was a royal retreat for the Inca emperor."
       ],
       [
         43,
         "A",
         "His goal was to locate the remains of a city called Vitcos",
-        "Ông đến Nam Mỹ để tìm một thành phố Inca."
+        "Bingham travelled to South America in search of an Inca city."
       ],
       [
         43,
         "B",
         "Almost all previous travellers had left the river at Ollantaytambo",
-        "Tuyến đường mới khác với tuyến phổ biến của những người đi trước."
+        "The newly opened route differed from the one most previous travellers had taken."
       ],
       [
         44,
         "E",
         "Bingham didn't realise the extent or the importance of the site",
-        "Ông không hiểu ngay quy mô và tầm quan trọng của di tích."
+        "Bingham did not immediately appreciate the extent or significance of the discovery."
       ],
       [
         44,
         "F",
         "Bingham made desperate attempts to prove this belief for nearly 40 years",
-        "Bài không xác nhận ông quay lại Machu Picchu để chứng minh giả thuyết."
+        "Although he tried for decades to prove his theory, the passage does not confirm that he returned to the site for this purpose."
       ],
       [
         43,
         "B",
         "to enable rubber to be brought up by mules",
-        "Con đường phục vụ việc vận chuyển cao su từ rừng lên bằng la."
+        "The road was built to transport rubber from the jungle by mule."
       ],
       [
         43,
         "C",
         "a local farmer, Melchor Arteaga, had told them",
-        "Một người nông dân địa phương thông báo về di tích."
+        "A local farmer, Melchor Arteaga, told the party about the ruins."
       ],
       [
         46,
         "B",
         "comes from studying eye movements",
-        "Nghiên cứu quan sát chuyển động mắt khi người song ngữ chọn đồ vật."
+        "Researchers observed eye movements while bilingual participants selected objects."
       ],
       [
         46,
         "B",
         "called ‘language co-activation’",
-        "Hai ngôn ngữ được kích hoạt đồng thời gọi là language co-activation."
+        "The simultaneous activation of two languages is called language co-activation."
       ],
       [
         46,
         "C",
         "In the classic Stroop Task",
-        "Thí nghiệm yêu cầu gọi tên màu chữ, đôi khi khác nghĩa của từ."
+        "The Stroop Task requires participants to name the colour of a word, even when its meaning conflicts with that colour."
       ],
       [
         46,
         "C",
         "tasks that require conflict management",
-        "Người song ngữ xử lý tốt hơn các nhiệm vụ quản lý xung đột thông tin."
+        "Bilinguals tend to perform better on tasks that require conflict management."
       ],
       [
         47,
         "C, continuation",
         "reflecting better cognitive control",
-        "Chuyển đổi nhiệm vụ nhanh hơn phản ánh khả năng kiểm soát nhận thức."
+        "Faster switching between tasks reflects better cognitive control."
       ],
       [
         46,
         "A",
         "In the past, such children were considered to be at a disadvantage",
-        "Quan niệm cũ coi song ngữ là bất lợi; nghiên cứu mới tìm ra lợi ích."
+        "Bilingualism was once regarded as a disadvantage, but more recent studies reveal benefits."
       ],
       [
         46,
         "B",
         "the brain’s language system begins to guess",
-        "Bài mô tả dự đoán từ nhưng không so sánh độ chính xác giữa hai nhóm."
+        "The passage describes how the brain predicts words but does not compare the accuracy of the two groups' predictions."
       ],
       [
         46,
         "C",
         "can cause speakers to name pictures more slowly",
-        "Song ngữ có thể làm việc gọi tên hình ảnh chậm hơn."
+        "Knowing two languages can slow down picture naming rather than making it faster."
       ],
       [
         47,
         "D",
         "they show highly similar brain stem responses",
-        "Không có tiếng ồn, hai nhóm phản ứng gần như giống nhau; lợi thế không xuất hiện trong mọi tình huống."
+        "In quiet conditions the groups' brain responses are similar; the bilingual advantage appears in noisy conditions."
       ],
       [
         47,
         "F",
         "initial symptoms of the disease an average of five years later",
-        "Triệu chứng Alzheimer xuất hiện muộn hơn, nhưng tỷ lệ mắc bệnh không được so sánh."
+        "Alzheimer's symptoms appeared later in bilingual patients, but the passage does not compare their likelihood of developing the disease."
       ],
       [
         47,
         "D",
         "the bilingual listeners’ neural response is considerably larger",
-        "Đoạn D so sánh phản ứng não với âm thanh khi có tiếng ồn nền."
+        "Paragraph D compares neural responses to sound in the presence of background noise."
       ],
       [
         47,
         "G",
         "only the bilingual babies were able to successfully learn the new rule",
-        "Trẻ song ngữ bảy tháng tuổi thích ứng tốt hơn với quy tắc mới."
+        "Seven-month-old bilingual infants adapted to a new rule even before they could speak."
       ],
       [
         46,
         "B",
         "the sounds arrive in sequential order",
-        "Đoạn B mô tả cách bộ não nhận dạng từ đang nghe."
+        "Paragraph B explains how the brain predicts words before the complete sequence of sounds has arrived."
       ],
       [
         46,
         "C",
         "persistent linguistic competition can result in difficulties",
-        "Đoạn C nêu bất lợi: gọi tên chậm và khó nhớ từ."
+        "Paragraph C discusses difficulties caused by competition between languages, including slower naming and word retrieval."
       ]
     ],
     "listening": [
       [
         100,
         "the events will start at 2.45",
-        "2 giờ là lúc tập trung; sự kiện chính thức bắt đầu lúc 2.45."
+        "People assemble at two o'clock, but the events themselves start at 2.45."
       ],
       [
         100,
         "a performance by a band",
-        "Năm nay có ban nhạc biểu diễn thay vì dàn hợp xướng."
+        "A band will perform this year instead of the usual children's choir."
       ],
       [
         100,
         "will perform a play",
-        "Nhóm cộng đồng diễn một vở kịch tự viết."
+        "A local community group will perform a play it has written."
       ],
       [
         100,
         "She was a scientist years ago",
-        "Helen Tungate là nhà khoa học được vinh danh."
+        "Helen Tungate was a scientist whose birth is being commemorated."
       ],
       [
         100,
         "on the opposite side of the river",
-        "Pháo hoa diễn ra phía bên kia sông, công viên là nơi xem."
+        "The fireworks take place across the river; the park is the viewing area."
       ],
       [
         100,
         "relationships between children and their grandparents",
-        "Video nói về mối quan hệ với ông bà, không phải cha mẹ."
+        "The videos explore children's relationships with their grandparents rather than their parents."
       ],
       [
         100,
         "shown in Handsworth House",
-        "Địa điểm trình chiếu là Handsworth House, được đánh vần ngay sau đó."
+        "Handsworth House is the venue where the videos will be shown."
       ],
       [
         100,
         "a demonstration of traditional dances",
-        "Các điệu múa truyền thống thay cho ballet."
+        "The performance features traditional dances rather than ballet."
       ],
       [
         101,
         "the outdoor one, not the covered market",
-        "Biểu diễn tại chợ ngoài trời, không phải chợ có mái che."
+        "The speaker specifies the outdoor market, not the covered market."
       ],
       [
         101,
         "shops displaying our logo in the windows",
-        "Cửa hàng có logo lễ hội trên cửa sổ sẽ bán vé."
+        "Tickets are sold in shops displaying the festival logo in their windows."
       ],
       [
         101,
         "meet there for coffee at 10",
-        "Nhóm uống cà phê tại sân bay; ăn sáng ở nhà và chưa đến giờ ăn trưa."
+        "The group will meet at the airport for coffee; breakfast is eaten at home and lunch is later."
       ],
       [
         101,
         "Claus works for a tour operator",
-        "Claus là nhân viên tổ chức tour, không phải quản lý nhà hát."
+        "Claus works for a tour operator rather than as a theatre manager."
       ],
       [
         101,
         "negotiate a rate of 110",
-        "150 là giá thường, 120 là kỳ vọng; 110 euro là giá cuối."
+        "The normal rate is 150 euros and 120 was hoped for; the negotiated final rate is 110 euros."
       ],
       [
         101,
         "I decided to book a Lebanese one",
-        "Nhà hàng Lebanon được chọn thay cho nhà hàng Ý hoặc món địa phương."
+        "The Lebanese restaurant is the final choice, rather than the Italian or local alternatives."
       ],
       [
         101,
         "the director of the play ... will talk to us",
-        "Nhóm gặp đạo diễn vở kịch vào chiều thứ Tư."
+        "The group will meet the director of the play on Wednesday afternoon."
       ],
       [
         102,
         "we’re going to the premiere",
-        "Premiere là buổi công diễn đầu tiên; nhà viết kịch không tham dự."
+        "A premiere is the first public performance; the playwright will not be there."
       ],
       [
         102,
         "commissioned to mark a hundred years since the birth",
-        "Vở kịch được đặt viết để kỷ niệm 100 năm ngày sinh nhà khoa học."
+        "The play was commissioned to commemorate the centenary of the scientist's birth."
       ],
       [
         102,
         "in the garden of a palace",
-        "Vở diễn thứ Sáu ở ngoài trời, trong vườn cung điện."
+        "Friday's performance takes place outdoors in a palace garden."
       ],
       [
         102,
         "the mayor and all the other dignitaries",
-        "Quan chức thành phố sẽ tham dự buổi diễn thứ Bảy."
+        "The mayor and other important local officials will attend Saturday's performance."
       ],
       [
         102,
         "the old Town Hall, which dates back to the 14th century",
-        "Buổi diễn thứ Hai ở tòa thị chính lịch sử."
+        "Monday's play takes place in the historic Town Hall."
       ],
       [
         102,
         "her relations or friends ... always came to see us",
-        "James gặp người thân và bạn bè Đan Mạch tại Anh; hiếm khi đến Đan Mạch."
+        "James met Danish relatives and friends when they visited England; he rarely travelled to Denmark himself."
       ],
       [
         102,
         "interested in journalism ... writing for magazines",
-        "James muốn làm báo và viết tạp chí, tức làm truyền thông."
+        "His interest in journalism and magazine writing points to a career in the media."
       ],
       [
         103,
         "Scandinavian literature ... will be replaced",
-        "Môn văn học Scandinavia kết thúc; môn điện ảnh Thụy Điển tiếp tục."
+        "The Scandinavian literature course ends this term; the Swedish cinema course continues."
       ],
       [
         103,
         "I’ve read or seen several plays in translation",
-        "James đồng ý viết về các nhà viết kịch thế kỷ 19."
+        "James agrees to the nineteenth-century playwright topic because he has already read or seen several plays."
       ],
       [
         103,
         "the literature in the context of the society",
-        "Beth khuyên nghiên cứu bối cảnh xã hội của văn học."
+        "Beth advises him to consider literature in its social context rather than concentrating on a single writer or genre."
       ],
       [
         103,
         "an assignment a student wrote last year",
-        "Bài làm của sinh viên năm trước là tài liệu mẫu để chọn đề tài."
+        "An assignment written by a previous student can help James choose a suitable topic."
       ],
       [
         103,
         "a recording of a documentary",
-        "Beth đề xuất phim tài liệu, không phải phim hư cấu."
+        "Beth recommends a documentary rather than a fictional film to help narrow down the topic."
       ],
       [
         103,
         "Just headings for different sections",
-        "Lập tiêu đề từng phần tức lập cấu trúc bài viết."
+        "Headings for the different sections form the initial structure of the assignment."
       ],
       [
         103,
         "take notes which you organise according to those headings",
-        "Đọc tài liệu và ghi chú theo các tiêu đề."
+        "The next step is to take notes from the sources and organise them under the headings."
       ],
       [
         103,
         "short phrases and sentences as bullet points",
-        "Viết ý ngắn dạng gạch đầu dòng trước khi viết bài đầy đủ."
+        "Short phrases and bullet points are written before the full assignment."
       ],
       [
         104,
         "covered by the term bullying",
-        "Bullying gồm hành vi bắt nạt và gây hấn trong công việc."
+        "Bullying is the term used for common aggressive or intimidating workplace behaviour."
       ],
       [
         104,
         "show their superiority over someone else",
-        "Một nguyên nhân là mong muốn chứng tỏ mình vượt trội."
+        "Conflict may arise from a desire to demonstrate superiority over another person."
       ],
       [
         104,
         "the personality of one is in some way incompatible",
-        "Tính cách không tương thích có thể gây xung đột."
+        "Incompatible personalities can be a source of workplace conflict."
       ],
       [
         104,
         "These conflicts are called ‘structural’",
-        "Xung đột cơ cấu xuất hiện khi nhóm ưu tiên lợi ích riêng."
+        "Structural conflict occurs when groups prioritise their own interests over the organisation's interests."
       ],
       [
         104,
         "resulting in their absence from work",
-        "Nạn nhân có thể nghỉ làm nhiều tháng do căng thẳng."
+        "The resulting stress can lead to prolonged absence from work."
       ],
       [
         104,
         "confidence ... with a high level of anxiety",
-        "Nhiều CEO vừa tự tin vừa lo lắng về mục tiêu."
+        "Some chief executives combine confidence in their abilities with anxiety about achieving their goals."
       ],
       [
         104,
         "all trying to achieve their own visions",
-        "Các quản lý theo đuổi tầm nhìn khác nhau nên bất đồng."
+        "Managers pursuing different visions may disagree about business strategy."
       ],
       [
         104,
         "a more democratic business model",
-        "Mô hình dân chủ hơn có thể gây không rõ ràng về cấp quản lý."
+        "A more democratic business model may create uncertainty about who reports to whom."
       ],
       [
         104,
         "earn the respect of the people they work with",
-        "Quản lý phải giành được sự tôn trọng của người lao động."
+        "Managers need to earn employees' respect through fair and courteous treatment."
       ],
       [
         105,
         "an external mediator might be able to help",
-        "Người hòa giải độc lập bên ngoài có thể lắng nghe hai phía."
+        "An independent external mediator can listen to both sides and help resolve a conflict."
       ]
     ]
   },
