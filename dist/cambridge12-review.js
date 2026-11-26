@@ -1,4 +1,4 @@
-/* WordHop teaching explanations, Cambridge IELTS 12 Academic, supplied original book. Reading: [page, location, short evidence, explanationVi]. Listening: [transcript page, short evidence, explanationVi]. */
+/* Source-grounded teaching review; supplied Cambridge IELTS 12 book. */
 window.WORDHOP_CAMBRIDGE12_REVIEW={
   "5": {
     "reading": [
@@ -443,6 +443,452 @@ window.WORDHOP_CAMBRIDGE12_REVIEW={
         99,
         "an average market share of 29 percent",
         "Nghiên cứu so sánh thị phần trung bình của người tiên phong (29%) và người theo sau (13%)."
+      ]
+    ]
+  },
+  "6": {
+    "reading": [
+      [
+        36,
+        "A",
+        "Two things distinguish food production",
+        "Sản xuất thực phẩm có hai đặc điểm riêng: nhu cầu hằng ngày và sự phụ thuộc thiên nhiên."
+      ],
+      [
+        36,
+        "B",
+        "smallholder farmers in developing countries",
+        "Nông dân nhỏ ở các nước đang phát triển còn gặp bất lợi về môi trường tự nhiên và hạ tầng."
+      ],
+      [
+        38,
+        "H",
+        "It takes time, effort and money",
+        "Giel Ton chỉ ra khó khăn về thời gian, công sức và tiền bạc để tổ chức hợp tác."
+      ],
+      [
+        37,
+        "E",
+        "sixty percent of beneficiaries of subsidies are not poor",
+        "Kabir cho biết nhiều người nhận trợ cấp là chủ đất giàu và thương nhân, không phải nông dân nghèo."
+      ],
+      [
+        38,
+        "H",
+        "collective action offers an important way",
+        "Murphy cho rằng hành động tập thể tăng sức thương lượng và giảm rủi ro."
+      ],
+      [
+        37,
+        "E",
+        "valuable ways to address poverty among farming families",
+        "Fan ủng hộ phúc lợi xã hội để giảm nghèo và rủi ro cho gia đình nông dân."
+      ],
+      [
+        38,
+        "I",
+        "consumers invest in local farmers by subscription",
+        "Bisht đề xuất người tiêu dùng góp vốn và bảo đảm mức giá công bằng."
+      ],
+      [
+        36,
+        "D",
+        "mitigate wild swings in food prices",
+        "Murphy cho rằng dự trữ của chính phủ có thể giảm biến động giá."
+      ],
+      [
+        36,
+        "D",
+        "providing basic services like roads",
+        "Nwanze cho rằng đường, nước và kho bảo quản giúp giảm rủi ro đáng kể."
+      ],
+      [
+        37,
+        "G",
+        "growing unpredictability of weather patterns",
+        "Thời tiết khó dự đoán làm nông dân khó quản lý rủi ro; D và E có thể đổi thứ tự."
+      ],
+      [
+        38,
+        "I",
+        "intermediary purchasers who ... dictate prices",
+        "Người mua trung gian áp đặt giá và lợi dụng vị thế yếu của nông dân."
+      ],
+      [
+        38,
+        "H",
+        "all stakeholders ... must work together",
+        "Doanh nghiệp, chính phủ, nhà khoa học và xã hội cần cùng hợp tác; C và D có thể đổi thứ tự."
+      ],
+      [
+        38,
+        "I",
+        "consumers invest in local farmers by subscription",
+        "Người tiêu dùng trực tiếp đóng góp tài chính cho nông dân."
+      ],
+      [
+        43,
+        "A",
+        "His goal was to locate the remains of a city called Vitcos",
+        "Mục tiêu chuyến đi là tìm tàn tích thành phố Inca Vitcos."
+      ],
+      [
+        43,
+        "B",
+        "a track had recently been blasted down the valley canyon",
+        "Một tuyến đường mới mở giúp đoàn đến khu vực trước đây bị bỏ qua."
+      ],
+      [
+        43,
+        "C",
+        "without having the least expectation",
+        "Bingham không hào hứng và không kỳ vọng tìm được điều quan trọng."
+      ],
+      [
+        43,
+        "D",
+        "Bingham writes about the approach in vivid style",
+        "Tác giả mô tả sinh động hành trình leo đồi và phát hiện di tích."
+      ],
+      [
+        44,
+        "E",
+        "His journal entries ... reveal a much more gradual appreciation",
+        "Nhật ký đương thời và cuốn sách viết nhiều năm sau có cách kể khác nhau."
+      ],
+      [
+        44,
+        "F",
+        "the National Geographic magazine article that broke the story to the world",
+        "Bingham công bố giả thuyết về nơi khởi đầu và kết thúc nền văn minh Inca."
+      ],
+      [
+        44,
+        "G",
+        "An idea which has gained wide acceptance",
+        "Quan điểm phổ biến cho rằng Machu Picchu là điền trang nghỉ dưỡng của hoàng đế Inca."
+      ],
+      [
+        43,
+        "A",
+        "His goal was to locate the remains of a city called Vitcos",
+        "Ông đến Nam Mỹ để tìm một thành phố Inca."
+      ],
+      [
+        43,
+        "B",
+        "Almost all previous travellers had left the river at Ollantaytambo",
+        "Tuyến đường mới khác với tuyến phổ biến của những người đi trước."
+      ],
+      [
+        44,
+        "E",
+        "Bingham didn't realise the extent or the importance of the site",
+        "Ông không hiểu ngay quy mô và tầm quan trọng của di tích."
+      ],
+      [
+        44,
+        "F",
+        "Bingham made desperate attempts to prove this belief for nearly 40 years",
+        "Bài không xác nhận ông quay lại Machu Picchu để chứng minh giả thuyết."
+      ],
+      [
+        43,
+        "B",
+        "to enable rubber to be brought up by mules",
+        "Con đường phục vụ việc vận chuyển cao su từ rừng lên bằng la."
+      ],
+      [
+        43,
+        "C",
+        "a local farmer, Melchor Arteaga, had told them",
+        "Một người nông dân địa phương thông báo về di tích."
+      ],
+      [
+        46,
+        "B",
+        "comes from studying eye movements",
+        "Nghiên cứu quan sát chuyển động mắt khi người song ngữ chọn đồ vật."
+      ],
+      [
+        46,
+        "B",
+        "called ‘language co-activation’",
+        "Hai ngôn ngữ được kích hoạt đồng thời gọi là language co-activation."
+      ],
+      [
+        46,
+        "C",
+        "In the classic Stroop Task",
+        "Thí nghiệm yêu cầu gọi tên màu chữ, đôi khi khác nghĩa của từ."
+      ],
+      [
+        46,
+        "C",
+        "tasks that require conflict management",
+        "Người song ngữ xử lý tốt hơn các nhiệm vụ quản lý xung đột thông tin."
+      ],
+      [
+        47,
+        "C, continuation",
+        "reflecting better cognitive control",
+        "Chuyển đổi nhiệm vụ nhanh hơn phản ánh khả năng kiểm soát nhận thức."
+      ],
+      [
+        46,
+        "A",
+        "In the past, such children were considered to be at a disadvantage",
+        "Quan niệm cũ coi song ngữ là bất lợi; nghiên cứu mới tìm ra lợi ích."
+      ],
+      [
+        46,
+        "B",
+        "the brain’s language system begins to guess",
+        "Bài mô tả dự đoán từ nhưng không so sánh độ chính xác giữa hai nhóm."
+      ],
+      [
+        46,
+        "C",
+        "can cause speakers to name pictures more slowly",
+        "Song ngữ có thể làm việc gọi tên hình ảnh chậm hơn."
+      ],
+      [
+        47,
+        "D",
+        "they show highly similar brain stem responses",
+        "Không có tiếng ồn, hai nhóm phản ứng gần như giống nhau; lợi thế không xuất hiện trong mọi tình huống."
+      ],
+      [
+        47,
+        "F",
+        "initial symptoms of the disease an average of five years later",
+        "Triệu chứng Alzheimer xuất hiện muộn hơn, nhưng tỷ lệ mắc bệnh không được so sánh."
+      ],
+      [
+        47,
+        "D",
+        "the bilingual listeners’ neural response is considerably larger",
+        "Đoạn D so sánh phản ứng não với âm thanh khi có tiếng ồn nền."
+      ],
+      [
+        47,
+        "G",
+        "only the bilingual babies were able to successfully learn the new rule",
+        "Trẻ song ngữ bảy tháng tuổi thích ứng tốt hơn với quy tắc mới."
+      ],
+      [
+        46,
+        "B",
+        "the sounds arrive in sequential order",
+        "Đoạn B mô tả cách bộ não nhận dạng từ đang nghe."
+      ],
+      [
+        46,
+        "C",
+        "persistent linguistic competition can result in difficulties",
+        "Đoạn C nêu bất lợi: gọi tên chậm và khó nhớ từ."
+      ]
+    ],
+    "listening": [
+      [
+        100,
+        "the events will start at 2.45",
+        "2 giờ là lúc tập trung; sự kiện chính thức bắt đầu lúc 2.45."
+      ],
+      [
+        100,
+        "a performance by a band",
+        "Năm nay có ban nhạc biểu diễn thay vì dàn hợp xướng."
+      ],
+      [
+        100,
+        "will perform a play",
+        "Nhóm cộng đồng diễn một vở kịch tự viết."
+      ],
+      [
+        100,
+        "She was a scientist years ago",
+        "Helen Tungate là nhà khoa học được vinh danh."
+      ],
+      [
+        100,
+        "on the opposite side of the river",
+        "Pháo hoa diễn ra phía bên kia sông, công viên là nơi xem."
+      ],
+      [
+        100,
+        "relationships between children and their grandparents",
+        "Video nói về mối quan hệ với ông bà, không phải cha mẹ."
+      ],
+      [
+        100,
+        "shown in Handsworth House",
+        "Địa điểm trình chiếu là Handsworth House, được đánh vần ngay sau đó."
+      ],
+      [
+        100,
+        "a demonstration of traditional dances",
+        "Các điệu múa truyền thống thay cho ballet."
+      ],
+      [
+        101,
+        "the outdoor one, not the covered market",
+        "Biểu diễn tại chợ ngoài trời, không phải chợ có mái che."
+      ],
+      [
+        101,
+        "shops displaying our logo in the windows",
+        "Cửa hàng có logo lễ hội trên cửa sổ sẽ bán vé."
+      ],
+      [
+        101,
+        "meet there for coffee at 10",
+        "Nhóm uống cà phê tại sân bay; ăn sáng ở nhà và chưa đến giờ ăn trưa."
+      ],
+      [
+        101,
+        "Claus works for a tour operator",
+        "Claus là nhân viên tổ chức tour, không phải quản lý nhà hát."
+      ],
+      [
+        101,
+        "negotiate a rate of 110",
+        "150 là giá thường, 120 là kỳ vọng; 110 euro là giá cuối."
+      ],
+      [
+        101,
+        "I decided to book a Lebanese one",
+        "Nhà hàng Lebanon được chọn thay cho nhà hàng Ý hoặc món địa phương."
+      ],
+      [
+        101,
+        "the director of the play ... will talk to us",
+        "Nhóm gặp đạo diễn vở kịch vào chiều thứ Tư."
+      ],
+      [
+        102,
+        "we’re going to the premiere",
+        "Premiere là buổi công diễn đầu tiên; nhà viết kịch không tham dự."
+      ],
+      [
+        102,
+        "commissioned to mark a hundred years since the birth",
+        "Vở kịch được đặt viết để kỷ niệm 100 năm ngày sinh nhà khoa học."
+      ],
+      [
+        102,
+        "in the garden of a palace",
+        "Vở diễn thứ Sáu ở ngoài trời, trong vườn cung điện."
+      ],
+      [
+        102,
+        "the mayor and all the other dignitaries",
+        "Quan chức thành phố sẽ tham dự buổi diễn thứ Bảy."
+      ],
+      [
+        102,
+        "the old Town Hall, which dates back to the 14th century",
+        "Buổi diễn thứ Hai ở tòa thị chính lịch sử."
+      ],
+      [
+        102,
+        "her relations or friends ... always came to see us",
+        "James gặp người thân và bạn bè Đan Mạch tại Anh; hiếm khi đến Đan Mạch."
+      ],
+      [
+        102,
+        "interested in journalism ... writing for magazines",
+        "James muốn làm báo và viết tạp chí, tức làm truyền thông."
+      ],
+      [
+        103,
+        "Scandinavian literature ... will be replaced",
+        "Môn văn học Scandinavia kết thúc; môn điện ảnh Thụy Điển tiếp tục."
+      ],
+      [
+        103,
+        "I’ve read or seen several plays in translation",
+        "James đồng ý viết về các nhà viết kịch thế kỷ 19."
+      ],
+      [
+        103,
+        "the literature in the context of the society",
+        "Beth khuyên nghiên cứu bối cảnh xã hội của văn học."
+      ],
+      [
+        103,
+        "an assignment a student wrote last year",
+        "Bài làm của sinh viên năm trước là tài liệu mẫu để chọn đề tài."
+      ],
+      [
+        103,
+        "a recording of a documentary",
+        "Beth đề xuất phim tài liệu, không phải phim hư cấu."
+      ],
+      [
+        103,
+        "Just headings for different sections",
+        "Lập tiêu đề từng phần tức lập cấu trúc bài viết."
+      ],
+      [
+        103,
+        "take notes which you organise according to those headings",
+        "Đọc tài liệu và ghi chú theo các tiêu đề."
+      ],
+      [
+        103,
+        "short phrases and sentences as bullet points",
+        "Viết ý ngắn dạng gạch đầu dòng trước khi viết bài đầy đủ."
+      ],
+      [
+        104,
+        "covered by the term bullying",
+        "Bullying gồm hành vi bắt nạt và gây hấn trong công việc."
+      ],
+      [
+        104,
+        "show their superiority over someone else",
+        "Một nguyên nhân là mong muốn chứng tỏ mình vượt trội."
+      ],
+      [
+        104,
+        "the personality of one is in some way incompatible",
+        "Tính cách không tương thích có thể gây xung đột."
+      ],
+      [
+        104,
+        "These conflicts are called ‘structural’",
+        "Xung đột cơ cấu xuất hiện khi nhóm ưu tiên lợi ích riêng."
+      ],
+      [
+        104,
+        "resulting in their absence from work",
+        "Nạn nhân có thể nghỉ làm nhiều tháng do căng thẳng."
+      ],
+      [
+        104,
+        "confidence ... with a high level of anxiety",
+        "Nhiều CEO vừa tự tin vừa lo lắng về mục tiêu."
+      ],
+      [
+        104,
+        "all trying to achieve their own visions",
+        "Các quản lý theo đuổi tầm nhìn khác nhau nên bất đồng."
+      ],
+      [
+        104,
+        "a more democratic business model",
+        "Mô hình dân chủ hơn có thể gây không rõ ràng về cấp quản lý."
+      ],
+      [
+        104,
+        "earn the respect of the people they work with",
+        "Quản lý phải giành được sự tôn trọng của người lao động."
+      ],
+      [
+        105,
+        "an external mediator might be able to help",
+        "Người hòa giải độc lập bên ngoài có thể lắng nghe hai phía."
       ]
     ]
   }
