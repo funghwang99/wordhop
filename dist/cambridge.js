@@ -463,16 +463,57 @@
       '<input id="'+id+'" name="'+n+'" data-cam-answer="'+n+'" value="'+esc(v)+'" maxlength="90" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Your answer"'+(isChecked?' disabled':'')+'>';
     return '<div class="reading-answer-row'+(isChecked?(good?' reading-correct':' reading-incorrect'):'')+'"><label for="'+id+'">Question '+n+'</label>'+control+(isChecked?'<span class="reading-answer-state">'+(good?'Correct':String(v).trim()?'Review':'Not answered')+'</span>':'')+'</div>';
   }
+  // Review data is independent of scoring and is available only after checking answers.
+  let camReviewAudio=null;
+  function stopReviewAudio(){
+    if(camReviewAudio){camReviewAudio.audio.removeEventListener('timeupdate',camReviewAudio.onTime);camReviewAudio.audio.removeEventListener('ended',camReviewAudio.onEnd);camReviewAudio.audio.pause();camReviewAudio.button.textContent=camReviewAudio.label;camReviewAudio=null;}
+  }
   function solution(test,skill,n,item,graded){
-    const value=item.answers[n]||'';
-    const k=keyFor(test,skill,n);
-    return '<article class="reading-solution '+(graded[n]?'reading-correct':'reading-incorrect')+'"><div class="reading-solution-top"><h4>Question '+n+' · '+esc(k)+'</h4><span>'+(graded[n]?'Correct':'Review')+'</span></div><p class="reading-your-answer">Your answer: <strong>'+esc(String(value).trim()||'Not answered')+'</strong></p><p>Publisher answer key: '+esc(k)+'.</p></article>';
+    const value=item.answers[n]||'', k=keyFor(test,skill,n);
+    const detail=window.WORDHOP_CAMBRIDGE12_REVIEW?.[test]?.[skill]?.[n-1];
+    let explanation='';
+    if(detail&&skill==='reading'){
+      const [page,location,evidence,why]=detail;
+      explanation='<p lang="vi">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Evidence · Page '+page+' · '+esc(location)+'</strong><p>'+esc(evidence)+'</p></blockquote><button type="button" class="text-button cam-review-jump" data-cam-action="evidence-page" data-evidence-page="'+page+'">View evidence on original page ↑</button>';
+    }else if(detail&&skill==='listening'){
+      const [page,evidence,why]=detail;
+      const cue=window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];
+      explanation='<p lang="vi">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Transcript · Page '+page+'</strong><p>'+esc(evidence)+'</p></blockquote>'+
+        '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to answer cue (automatic)':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Automatically matched to the supplied audio; timing may vary.':'Exact answer timestamp has not been verified.')+'</p>';
+    }else{
+      explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
+      if(skill==='listening'&&/^[5-8]$/.test(test))explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status"></p>';
+    }
+    return '<article class="reading-solution '+(graded[n]?'reading-correct':'reading-incorrect')+'"><div class="reading-solution-top"><h4>Question '+n+' · '+esc(k)+'</h4><span>'+(graded[n]?'Correct':'Review')+'</span></div><p class="reading-your-answer">Your answer: <strong>'+esc(String(value).trim()||'Not answered')+'</strong></p>'+explanation+'</article>';
+  }
+  function replayReviewAnswer(a,button){
+    const audio=a.container.querySelector?.('#listening-audio');
+    const status=button.parentElement?.querySelector('.cam-review-status');
+    if(!audio){if(status)status.textContent='Section audio is unavailable.';return;}
+    const previous=camReviewAudio?.button===button;
+    stopReviewAudio();if(previous)return;
+    const cue=window.WORDHOP_CAMBRIDGE12_CUES?.[a.test]?.[Number(button.dataset.reviewQuestion)];
+    const label=button.textContent;
+    const begin=()=>{
+      if(context()!==a)return;
+      // Cue times were obtained from the supplied MP3. A duration mismatch disables cue seeking.
+      const verified=cue&&Number.isFinite(audio.duration)&&Math.abs(audio.duration-cue[2])<1.5&&cue[1]<=audio.duration;
+      const start=verified?cue[0]:0,end=verified?cue[1]:Infinity;
+      const finish=()=>{if(camReviewAudio?.button===button){stopReviewAudio();if(status)status.textContent='Replay finished.';}};
+      const onTime=()=>{if(audio.currentTime>=end)finish();};
+      camReviewAudio={audio,button,label,onTime,onEnd:finish};
+      audio.addEventListener('timeupdate',onTime);audio.addEventListener('ended',finish);
+      audio.currentTime=start;button.textContent='Stop replay';
+      if(status)status.textContent=verified?'Playing automatically located answer cue.':'Playing the whole section; an exact cue is not verified for this audio.';
+      audio.play().catch(()=>{stopReviewAudio();if(status)status.textContent='Could not start replay. Use the audio player.';});
+    };
+    if(audio.readyState>=1)begin();else{if(status)status.textContent='Loading audio…';audio.addEventListener('loadedmetadata',begin,{once:true});audio.load();}
   }
   function answerSheet(test,skill,part){
     const [from,to]=range(skill,part),item=attempt(test,skill,part),graded=score(test,skill,item.answers);
     const total=to-from+1,correct=Array.from({length:total},(_,i)=>from+i).filter(n=>graded[n]).length;
     return '<form class="reading-answer-sheet" data-cam-form="'+skill+'"><div class="reading-sheet-heading"><div><h3>Answer sheet</h3><p>Follow the original book instructions and word limits for Questions '+from+'–'+to+'. Answers are saved on this device.</p></div>'+(item.checked?'<strong class="reading-score" role="status" tabindex="-1">'+correct+'/'+total+' correct</strong>':'')+'</div><div class="reading-answer-inputs">'+Array.from({length:total},(_,i)=>answerInput(test,skill,from+i,item)).join('')+'</div><div class="reading-submit-row">'+(item.checked?'<button type="button" class="btn" data-cam-action="retry">Try this part again</button>':'<button type="submit" class="btn btn-primary">Check answers</button>')+'<button class="text-button" type="button" data-cam-action="back-to-page">Back to book page ↑</button></div></form>'+
-      (item.checked?'<section class="reading-solutions"><h3>Answer key &amp; results</h3><p class="reading-solution-note">Checked against the publisher answer key in the supplied Cambridge IELTS PDF. Detailed explanations and timestamped audio replays are not available yet.</p>'+Array.from({length:total},(_,i)=>solution(test,skill,from+i,item,graded)).join('')+'</section>':'<p class="reading-key-note">Check your answers to see the answer key for every question. Unanswered questions receive no mark.</p>');
+      (item.checked?'<section class="reading-solutions"><h3>Answer key &amp; explanations</h3><p class="reading-solution-note">Checked against the publisher answer key. WordHop explanations and source evidence are shown where reviewed; audio cues are marked when automatically located.</p>'+Array.from({length:total},(_,i)=>solution(test,skill,from+i,item,graded)).join('')+'</section>':'<p class="reading-key-note">Check your answers to see the answer key for every question. Unanswered questions receive no mark.</p>');
   }
 
 
@@ -782,6 +823,7 @@
     }
   }
   function render({container,route,header:crumbs,base}){
+    stopReviewAudio();
     const skill=(skills.includes(route.skill)||route.volume.id==='cambridge-ielts-academic-21'&&['flashcards','practice'].includes(route.skill))?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
     active={container,route,base,skill,part,test:testCode(route)};
     const page={...route,part};
@@ -789,7 +831,7 @@
     container.innerHTML=header(route,crumbs,base,skill)+body;
     if(typeof window.requestAnimationFrame==='function')window.requestAnimationFrame(()=>sizeSplit(container));
   }
-  function stop(){const audio=document.querySelector('#listening-audio');if(audio)audio.pause();}
+  function stop(){stopReviewAudio();const audio=document.querySelector('#listening-audio');if(audio)audio.pause();}
   function context(){const a=active;if(!a)return null;const hash=location.hash||'';return hash.startsWith(a.base)&&hash.includes('/'+a.skill+'/')?a:null;}
   function updateField(event){
     const a=context();if(!a)return;
@@ -923,7 +965,12 @@
     const button=event.target.closest('[data-cam-action]');if(!button)return;
     const a=context();if(!a)return;
     const act=button.dataset.camAction;
-    if(act==='zoom'){
+    if(act==='evidence-page'){
+      const page=Number(button.dataset.evidencePage);
+      const target=a.container.querySelector?.('[data-cam-page="'+page+'"]');
+      if(target){target.scrollIntoView?.({block:'start',behavior:'smooth'});target.classList.add('cam-evidence-focus');}
+    }else if(act==='review-replay'){replayReviewAnswer(a,button);}
+    else if(act==='zoom'){
       const page=a.container.querySelector?.('.cm-question-pane .reading-page');
       if(page){const zoomed=page.classList.toggle('is-zoomed');button.setAttribute('aria-pressed',String(zoomed));button.textContent=zoomed?'Fit page':'Zoom page';}
     }else if(act==='retry'){
