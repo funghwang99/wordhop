@@ -17,7 +17,7 @@ const context={
   localStorage, console
 };
 vm.createContext(context);
-for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge21-keys.js','cambridge12-vocabulary.js','cambridge.js']){
+for(const name of ['data.js','cambridge-keys.js','cambridge13-keys.js','cambridge14-keys.js','cambridge15-keys.js','cambridge16-keys.js','cambridge17-keys.js','cambridge18-keys.js','cambridge19-keys.js','cambridge20-keys.js','cambridge21-keys.js','cambridge12-vocabulary.js','cambridge12-review.js','cambridge.js']){
   vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),context,{filename:name});
 }
 const catalog=context.window.WQ_CATALOG;
@@ -99,8 +99,27 @@ const data={volume,exam:volume.tests[0],skill:'reading',part:1};
 const container={innerHTML:''};
 component.render({container,route:data,header:'<nav class="breadcrumbs">Course</nav>',base:'#/ielts/cambridge-ielts/'+volume.id+'/test-5'});
 assert(container.innerHTML.includes('Not answered'));
-assert(container.innerHTML.includes('Answer key &amp; results'));
+assert(container.innerHTML.includes('Answer key &amp; explanations'));
 assert(container.innerHTML.includes('Try this part again'));
+const review=context.window.WORDHOP_CAMBRIDGE12_REVIEW;
+for(const exam of volume.tests){
+  const number=exam.id.replace('test-','');
+  assert.equal(review[number].reading.length,40,'40 reading explanations');
+  assert.equal(review[number].listening.length,40,'40 listening explanations');
+  for(const skill of ['reading','listening']){
+    const parts=skill==='reading'?3:4;
+    for(let part=1;part<=parts;part++){
+      values.set('wordhop.cambridge.exam.v2.test-'+number+'.'+skill+'.part-'+part,JSON.stringify({answers:{},checked:true}));
+      const el={innerHTML:''};
+      component.render({container:el,route:{volume,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base:'#/ielts/cambridge-ielts/'+volume.id+'/'+exam.id});
+      assert(el.innerHTML.includes('Answer key &amp; explanations'),'Reviewed answer key for all parts');
+      assert(el.innerHTML.includes('cam-review-evidence'),'Source evidence visible');
+      assert(el.innerHTML.includes(skill==='reading'?'data-evidence-page':'data-review-question'),'Evidence jump or replay control');
+      values.delete('wordhop.cambridge.exam.v2.test-'+number+'.'+skill+'.part-'+part);
+    }
+  }
+}
+
 
 // Cambridge IELTS 13 must be isolated from Cambridge 12 while retaining PET interface parity.
 const volume13=catalog.volumes.find(item=>item.id==='cambridge-ielts-academic-13');
