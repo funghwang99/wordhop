@@ -6,443 +6,443 @@ window.WORDHOP_CAMBRIDGE12_REVIEW={
         16,
         "Paragraph 2",
         "Its bark grows up to 20 cm in thickness",
-        "Bài cho biết vỏ dày tới 20 cm, nhưng không so sánh với tất cả các loài cây khác. Vì vậy không thể kết luận đây là vỏ dày nhất."
+        "The passage states that cork bark can be up to 20 cm thick, but it does not compare it with every other tree. The superlative is therefore NOT GIVEN."
       ],
       [
         16,
         "Paragraph 2",
         "that technology has never succeeded in replicating",
-        "Cấu trúc tế bào của cork chưa từng được công nghệ tái tạo thành công, trái với thông tin đã tạo được cork tổng hợp tương đương."
+        "Technology has never successfully reproduced cork's cellular structure, contradicting the statement."
       ],
       [
         16,
         "Paragraph 4",
         "a gap of approximately a decade must separate harvests",
-        "25 năm là thời gian từ lúc trồng đến lần thu hoạch đầu tiên; khoảng cách giữa các lần thu hoạch chỉ khoảng 10 năm."
+        "The first harvest takes place after 25 years; subsequent harvests must be approximately ten years apart."
       ],
       [
         16,
         "Paragraph 4",
         "when the air is damp — the tree will be damaged",
-        "Thu hoạch khi không khí ẩm sẽ gây hại cho cây. Do đó điều kiện khô ráo là phù hợp."
+        "Harvesting in damp conditions damages the tree, so the bark must be collected in dry conditions."
       ],
       [
         17,
         "Paragraph 5",
         "No mechanical means of stripping cork bark has been invented",
-        "Chưa có phương pháp cơ giới; công việc do các nhóm thợ lành nghề thực hiện bằng tay."
+        "No mechanical method exists; skilled workers strip the bark by hand."
       ],
       [
         17,
         "Paragraph 6",
         "can spoil the taste of the product",
-        "Hợp chất TCA trong cork có thể làm hỏng hương vị đồ uống; đây là nhược điểm mà nắp thay thế tránh được."
+        "TCA can spoil the taste of the drink. Alternative closures avoid this drawback."
       ],
       [
         17,
         "Paragraph 6",
         "These substitutes are cheaper to manufacture",
-        "Cheaper to manufacture tương đương với cheaper to produce."
+        "Cheaper to manufacture means cheaper to produce."
       ],
       [
         17,
         "Paragraph 6",
         "more convenient for the user",
-        "More convenient for the user tương đương với convenient to use."
+        "The phrase more convenient for the user directly matches the idea of convenience."
       ],
       [
         17,
         "Paragraph 7",
         "its traditional image is more in keeping with",
-        "Hình ảnh truyền thống của nút cork phù hợp với hình ảnh của hàng hóa chất lượng cao."
+        "The traditional image of cork is associated with high-quality products."
       ],
       [
         17,
         "Paragraph 7",
         "cork is a sustainable product",
-        "Từ sustainable mô tả trực tiếp tính bền vững của vật liệu cork."
+        "The passage explicitly describes cork as a sustainable product."
       ],
       [
         17,
         "Paragraph 7",
         "recycled without difficulty",
-        "Without difficulty tương đương với easily; cần dùng dạng quá khứ phân từ recycled."
+        "Recycled without difficulty means easily recycled."
       ],
       [
         17,
         "Paragraph 7",
         "support local biodiversity",
-        "Support tương đương với aid; rừng cork duy trì đa dạng sinh học tại địa phương."
+        "Supporting local biodiversity means helping to maintain a variety of living species."
       ],
       [
         17,
         "Paragraph 7",
         "prevent desertification",
-        "Prevent tương đương với stop something happening."
+        "Prevent desertification means stopping land from becoming desert."
       ],
       [
         20,
         "Paragraph 2",
         "antiques that they can buy cheaply",
-        "Đồ cổ là ví dụ về vật được sưu tầm để mua rẻ và bán kiếm lời."
+        "Antiques are given as examples of items bought cheaply and sold at a profit."
       ],
       [
         20,
         "Paragraph 2",
         "a sense of triumph",
-        "Sense of triumph tương đương với feeling of triumph; cảm giác chiến thắng khi mua rẻ bán đắt."
+        "A sense of triumph means a feeling of victory when a purchase produces a profit."
       ],
       [
         20,
         "Paragraph 3",
         "exchanging information on items",
-        "Exchanging tương đương với sharing: thành viên trao đổi thông tin về vật sưu tầm."
+        "Exchanging information means sharing knowledge about collected items."
       ],
       [
         20,
         "Paragraph 3",
         "contact with like-minded people",
-        "Tham dự meetings giúp người sưu tầm tiếp xúc (contact) với người có cùng sở thích; cả hai đáp án phù hợp ngữ cảnh."
+        "Meetings provide contact with people who share the collector's interests."
       ],
       [
         20,
         "Paragraph 4",
         "their whole lives in a hunt for this",
-        "Whole lives tương đương với life-long; hunt hoặc desire chỉ việc theo đuổi món đồ đặc biệt."
+        "A lifetime spent hunting for a special item describes a lifelong hunt or desire."
       ],
       [
         20,
         "Paragraph 4",
         "a life that otherwise feels aimless",
-        "Cuộc tìm kiếm tạo mục đích cho cuộc sống vốn có thể vô định (aimless); bài cũng nhắc cảm giác empty khi mục tiêu biến mất."
+        "The search gives purpose to an otherwise aimless life; its end can also leave a feeling of emptiness."
       ],
       [
         20,
         "Paragraph 5",
         "its educational value",
-        "Tem cung cấp kiến thức về các quốc gia, vì vậy hoạt động sưu tầm có giá trị giáo dục."
+        "Collecting stamps has educational value because it teaches collectors about other countries."
       ],
       [
         20,
         "Paragraph 6",
         "particularly among boys and men",
-        "Trainspotting phổ biến đặc biệt ở nam giới, tương đương mostly a male hobby."
+        "Trainspotting is described as particularly popular among boys and men."
       ],
       [
         21,
         "Paragraph 7",
         "These have changed over the centuries",
-        "Đoạn này mô tả vật liệu làm búp bê thay đổi qua các thế kỷ, không cho biết số người mua có tăng hay không."
+        "The passage discusses changes in doll materials, not whether the number of buyers increased."
       ],
       [
         21,
         "Paragraph 7",
         "the wood that was standard in 16th century Europe",
-        "Búp bê châu Âu thế kỷ 16 thường làm bằng gỗ; wax và porcelain thuộc các thế kỷ sau."
+        "Wood was the standard material in sixteenth-century Europe; wax and porcelain became common later."
       ],
       [
         21,
         "Paragraph 8",
         "organising their collection according to certain commonplace principles",
-        "Bài nêu cách sắp xếp theo quốc gia hoặc hình ảnh, nhưng không so sánh mức phổ biến của việc sắp xếp theo kích thước."
+        "The author gives examples of ordinary organising principles but does not compare how often collections are arranged by size."
       ],
       [
         21,
         "Paragraph 9",
         "to show the collector's individualism",
-        "Người chọn vật sưu tầm khác thường có thể muốn thể hiện bản thân cũng thú vị hoặc độc đáo."
+        "An unusual collection may be a way for collectors to express their individuality."
       ],
       [
         21,
         "Paragraph 10",
         "More than most other hobbies",
-        "Collecting mang lại sự đam mê, cuốn hút và cảm giác thỏa mãn mạnh hơn đa số sở thích khác."
+        "Collecting can be more engrossing and satisfying than most other hobbies."
       ],
       [
         24,
         "Section A",
         "a course called ‘Arson for Profit’",
-        "Đoạn mở đầu nhấn mạnh tên khóa học gây bất ngờ, không phải nội dung chuyên môn hay lợi ích tài chính."
+        "The unusual course title, Arson for Profit, introduces the unexpected ethical issue."
       ],
       [
         24,
         "Section B",
         "the perfect course for prospective arsonists",
-        "Kiến thức dành cho điều tra viên cũng có thể bị kẻ muốn phóng hỏa lợi dụng; đây là nguy cơ thu hút sai đối tượng."
+        "The knowledge taught to investigators could also appeal to people intending to commit arson."
       ],
       [
         24,
         "Section C",
         "principles in the sense of being codified",
-        "Tác giả phân biệt principles theo nghĩa quy tắc và principled theo nghĩa có đạo đức: tên môn học gợi hai nghĩa."
+        "The author distinguishes principles as established rules from being principled in an ethical sense."
       ],
       [
         24,
         "Section D",
         "marketing is by definition principled",
-        "Tác giả áp dụng tư tưởng về phương tiện và mục đích của Kant vào marketing, một bối cảnh bất ngờ."
+        "Kant's distinction between means and ends is applied to the unexpected context of marketing."
       ],
       [
         25,
         "Section E",
         "hence both deserve scrutiny",
-        "Phương tiện và mục đích đều định nghĩa một lĩnh vực chuyên môn; cả hai cần được xem xét."
+        "Both the means and the ends of a professional activity deserve ethical scrutiny."
       ],
       [
         25,
         "Section F",
         "We have a separate word for it: arson",
-        "Cùng kiến thức nhưng khác mục đích dẫn đến tên gọi khác nhau: firefighting/arson, marketing/fraud, medicine/murder."
+        "Similar technical knowledge has different names depending on its purpose, such as firefighting versus arson."
       ],
       [
         24,
         "Section A",
         "our program in ‘fire science’",
-        "Khóa Arson for Profit thuộc chương trình fire science; đáp án gồm hai từ."
+        "Arson for Profit belongs to a programme in fire science."
       ],
       [
         24,
         "Section B",
         "prospective arson investigators",
-        "Khóa học dành cho người dự định trở thành điều tra viên các vụ phóng hỏa."
+        "The course is intended for prospective arson investigators."
       ],
       [
         24,
         "Section B",
         "establishing a chain of evidence",
-        "Điều tra viên học cách thiết lập chuỗi bằng chứng để xác định tội phạm."
+        "Investigators learn how to establish a chain of evidence."
       ],
       [
         24,
         "Section B",
         "effective prosecution in a court of law",
-        "Effective prosecution tương đương successful prosecution; quá trình truy tố tại tòa."
+        "Effective prosecution in a court of law means successful legal prosecution."
       ],
       [
         24,
         "Sections A–B",
         "A student can prepare for a career",
-        "Bài liệt kê các ngành định hướng nghề nghiệp, nhưng không nói mức độ khó khi tuyển sinh cho các khóa không định hướng nghề."
+        "The passage lists career-oriented subjects but does not discuss admission difficulty for non-vocational courses."
       ],
       [
         24,
         "Section B",
         "the perfect course for prospective arsonists",
-        "Tác giả thừa nhận kiến thức điều tra cháy có thể hữu ích cho những người có ý định phóng hỏa."
+        "The author acknowledges that the same knowledge could benefit prospective arsonists."
       ],
       [
         24,
         "Section B",
         "they are highly welcome",
-        "Tác giả hoan nghênh các chương trình fire science vì giúp chuyên nghiệp hóa nghề nghiệp, không cho rằng chúng quá hàn lâm."
+        "The author welcomes fire science programmes because they professionalise the field, rather than criticising them as too academic."
       ],
       [
         25,
         "Section F",
         "they eventually generalize to something like",
-        "Sinh viên chỉ đưa ra khái quát về an toàn và phúc lợi xã hội, không phải một định nghĩa chi tiết."
+        "Students eventually offer broad ideas about public safety and welfare, not a detailed definition."
       ]
     ],
     "listening": [
       [
         95,
         "take pictures of the mountains",
-        "Take pictures tương đương với take photos. Những ngọn núi bao quanh hồ là đối tượng có thể chụp ảnh."
+        "Take pictures means take photos; the mountains around the lake are the subject."
       ],
       [
         95,
         "a 40-minute trek round the farm on a horse",
-        "Trek on a horse chính là chuyến cưỡi ngựa dài 40 phút."
+        "A trek around the farm on a horse is a horse-riding activity."
       ],
       [
         95,
         "gardens along the side of the lake",
-        "Khu vườn thuộc nông trại nằm bên hồ; du khách có thể đi dạo tại đó."
+        "The gardens are located beside the lake and visitors can walk around them."
       ],
       [
         95,
         "it's not included in the basic cost",
-        "Khách hỏi về lunch và được trả lời rằng phải trả riêng khi tới nơi."
+        "Lunch is not included in the basic price and must be paid for separately."
       ],
       [
         95,
         "They’ll give you a map",
-        "Give you a map và no extra charge cho biết bản đồ được cung cấp miễn phí."
+        "A map is provided at no extra charge."
       ],
       [
         95,
         "someone who's got a bit more experience",
-        "Tuyến đường có đoạn khó, phù hợp với người đã có kinh nghiệm đi xe đạp."
+        "The more challenging route is suitable for cyclists with more experience."
       ],
       [
         95,
         "It’s called Ratchesons",
-        "Tên cửa hàng cho thuê xe được nói rõ, sau đó đánh vần ở trang 96."
+        "The bicycle hire shop is named Ratchesons, and the speaker spells it out."
       ],
       [
         96,
         "rent a helmet from the bike place",
-        "Khách có thể thuê mũ bảo hiểm; đồ ăn, nước và bộ sửa xe là các vật cần mang."
+        "The visitor can hire a helmet from the bicycle shop."
       ],
       [
         96,
         "you won't see any shops round there",
-        "Khu vực hẻo lánh không có cửa hàng hay chỗ lưu trú."
+        "The route is remote, with no shops or accommodation nearby."
       ],
       [
         96,
         "Then I'm afraid it's $267",
-        "Giá $214 ban đầu bị sửa lại vì con gái 15 tuổi phải mua vé người lớn. Giá cuối cùng là $267."
+        "The original total is revised because the fifteen-year-old must pay the adult fare; the final price is $267."
       ],
       [
         96,
         "so many different things to do",
-        "Đa dạng công việc khiến trợ lý bếp không thấy chán. Promotion chỉ là khả năng được nhắc sau đó."
+        "A variety of tasks means kitchen assistants do not become bored."
       ],
       [
         96,
         "remove your rings and bracelets",
-        "Quản lý hài lòng về giày và tóc, nhưng yêu cầu tháo nhẫn, vòng tay vì nguy cơ mất an toàn."
+        "The manager asks staff to remove rings and bracelets for safety."
       ],
       [
         96,
         "we don't have any tables free for this evening",
-        "Bàn tối đã kín và trưa chỉ còn vài bàn; bếp bận vì nhà hàng gần như kín chỗ."
+        "The evening is fully booked and only a few lunch tables remain, explaining why the kitchen is busy."
       ],
       [
         96,
         "the meat slicer is out of bounds",
-        "Hai nhân viên dưới 18 tuổi không được dùng máy thái thịt. Máy khác yêu cầu đào tạo, không phải giới hạn tuổi."
+        "The meat slicer is prohibited for staff under eighteen; other equipment requires training."
       ],
       [
         96,
         "when someone tells you to do something you need to do it straightaway",
-        "Đáp án A và E đều đúng, không cần đúng thứ tự: phải làm ngay theo yêu cầu và công việc tốn sức."
+        "Staff must act immediately when asked to do something. The two correct options can be given in either order."
       ],
       [
         96,
         "you're on your feet all day long, lifting and carrying",
-        "Công việc đòi hỏi đứng cả ngày, nâng và mang đồ. Nghỉ giữa ca được bảo đảm; làm thêm là tùy chọn."
+        "Standing, lifting and carrying make the work physically demanding. This is the other correct option."
       ],
       [
         97,
         "I decide who does what during the day and how long they work for",
-        "Joy Parkins phân công người làm việc và thời gian làm, tức timetables."
+        "Joy decides who works when and for how long, which is responsibility for timetables."
       ],
       [
         97,
         "he’s trained to give basic treatment",
-        "David Field sơ cứu và ghi nhận tai nạn, tương ứng với first aid."
+        "David provides basic medical treatment and records accidents, so he handles first aid."
       ],
       [
         97,
         "if you smash a plate",
-        "Dexter Wills xử lý đồ bị vỡ, ghi nhận và thay thế: breakages."
+        "Dexter records and replaces broken items, so he deals with breakages."
       ],
       [
         97,
         "takes care of all the stores of perishables",
-        "Mike Smith phụ trách lượng thực phẩm dự trữ và đặt hàng bổ sung: food stocks."
+        "Mike manages stocks of perishable food and orders replacements."
       ],
       [
         97,
         "relate the changes in libraries to external developments",
-        "Họ tập trung vào mối liên hệ giữa thay đổi xã hội và thư viện, không đi sâu vào quốc gia khác hay nguồn tài trợ."
+        "The students want to link changes in libraries to wider social developments."
       ],
       [
         97,
         "mostly out of copyright",
-        "Sách miễn phí chủ yếu đã hết bản quyền, nên thường là sách cũ, không có thông tin mới nhất. Trải nghiệm đọc màn hình là ý kiến cá nhân."
+        "Free online books are mainly out of copyright and are therefore often too old to provide up-to-date information."
       ],
       [
         97,
         "books and magazines will all disappear",
-        "Stewart lo rằng sách giấy sẽ biến mất và chỉ còn máy tính; đây là dự đoán của anh."
+        "Stewart predicts that printed books and magazines may disappear and computers may replace them."
       ],
       [
         98,
         "whether the library has its own budget",
-        "Họ muốn tìm hiểu thư viện tự quản ngân sách hay ngân sách do hội đồng địa phương quản lý."
+        "The students want to find out whether the library controls its own budget."
       ],
       [
         98,
         "affected by employment laws",
-        "Các luật liên quan thời gian làm việc, cơ sở vật chất cho nhân viên thuộc employment."
+        "Laws affecting working hours and facilities for employees are employment laws."
       ],
       [
         98,
         "measures does the library take to ensure their safety",
-        "Thiết kế phải bảo đảm an toàn khách hàng, ví dụ sàn không trơn và lối thoát hiểm."
+        "The students consider measures to protect visitors, such as safe floors and exits."
       ],
       [
         98,
         "the kind of insurance the library needs to have",
-        "Insurance cần thiết trong trường hợp có người bị thương."
+        "Insurance is needed in case somebody is injured."
       ],
       [
         98,
         "the diary of a well-known politician",
-        "Họ muốn tìm lý do nhật ký của một chính trị gia nổi tiếng được lưu tại thư viện."
+        "The diary of a well-known politician is an example of a special item kept by the library."
       ],
       [
         98,
         "if they keep a database",
-        "Họ muốn biết thư viện có cơ sở dữ liệu về tổ chức địa phương hay chỉ tìm trên mạng."
+        "The students want to know whether the library maintains a database."
       ],
       [
         98,
         "one that’s part of a museum",
-        "Họ so sánh thư viện công cộng với thư viện thuộc một bảo tàng."
+        "They compare a public library with one that is part of a museum."
       ],
       [
         98,
         "They can actually cause damage",
-        "Các giá trị kinh doanh tưởng như tích cực cũng có thể gây thiệt hại."
+        "Apparently positive business values can also cause damage."
       ],
       [
         98,
         "managing the side effects that arise",
-        "Lãnh đạo phải hiểu và xử lý tác dụng phụ của các giá trị mà họ áp dụng."
+        "Leaders must understand and manage the side effects of their chosen values."
       ],
       [
         98,
         "construct a bridge across a stream",
-        "Nhóm trong khóa đào tạo phải xây một cây cầu bằng các khối vật liệu."
+        "The training task involves constructing a bridge across a stream."
       ],
       [
         99,
         "descended into confusion",
-        "Những đội hợp tác quá nhiều trở nên rối loạn, cản trở lẫn nhau."
+        "Teams that cooperate excessively can descend into confusion."
       ],
       [
         99,
         "a smartphone that a certain company launched",
-        "Chiến lược phối hợp không nhất quán khiến một mẫu điện thoại thông minh bán kém."
+        "The example concerns a smartphone whose launch was undermined by inconsistent cooperation."
       ],
       [
         99,
         "wastes the resources that companies value most",
-        "Làm việc chăm chỉ nhưng sai mục tiêu làm lãng phí tài nguyên công ty, nhất là thời gian và năng lượng."
+        "Working hard on the wrong tasks wastes valuable resources, including time and energy."
       ],
       [
         99,
         "not to carry out unnecessary tasks",
-        "Lazy ở đây chỉ người chủ động tránh việc không cần thiết, không phải lười làm mọi việc."
+        "Being productively lazy means avoiding unnecessary tasks."
       ],
       [
         99,
         "the launch of a chocolate bar",
-        "Quảng cáo thanh chocolate sáng tạo, được nhớ đến nhưng không làm tăng doanh số."
+        "A creative chocolate bar advertisement was memorable but failed to increase sales."
       ],
       [
         99,
         "to solve a problem that the company has identified",
-        "Sáng tạo phải nhằm giải quyết một vấn đề cụ thể của công ty."
+        "Creativity should address a problem the company has identified."
       ],
       [
         99,
         "an average market share of 29 percent",
-        "Nghiên cứu so sánh thị phần trung bình của người tiên phong (29%) và người theo sau (13%)."
+        "The study compares an average market share of 29% for pioneers with 13% for followers."
       ]
     ]
   },
