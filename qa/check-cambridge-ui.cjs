@@ -136,7 +136,7 @@ for (const exam of volume13.tests) {
       component.render({container:element,route:{volume:volume13,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=element.innerHTML;
       assert(html.includes('class="unit-heading"'),'Cambridge 13 reuses course heading');
-      assert(html.includes(n===1?'class="unit-tabs cm-six-skill-tabs"':'class="unit-tabs"'),'Cambridge 13 reuses skill tabs');
+      assert(html.includes('class="unit-tabs cm-six-skill-tabs"'),'Cambridge 13 reuses skill tabs');
       assert(html.includes(base+'/'+skill+'/part-'+part),'Cambridge 13 has correct part route');
       if(skill==='listening'){
         assert(html.includes('class="listening-player-card"'));
@@ -156,25 +156,30 @@ for (const exam of volume13.tests) {
   assert.equal(publisher.reading.length,40);
 }
 assert.equal(rendered13,40,'All Cambridge 13 screens should work');
-const shared13=context.window.WORDHOP_CAMBRIDGE_STUDY['13-1'];
-assert.equal(shared13.vocabulary.words.length,35);
-assert.equal(shared13.review.reading.filter(Boolean).length,40);
-assert.equal(shared13.review.listening.filter(Boolean).length,40);
-for(const skill of ['flashcards','practice','reading','listening']){
-  const node={innerHTML:''},exam=volume13.tests[0],base='#/ielts/cambridge-ielts/'+volume13.id+'/'+exam.id;
-  const partCount=skill==='reading'?3:skill==='listening'?4:1;
-  for(let part=1;part<=partCount;part++){
-    const storageKey='wordhop.cambridge.exam.v2.test-13-1.'+skill+'.part-'+part;
-    if(skill==='reading'||skill==='listening')values.set(storageKey,JSON.stringify({answers:{},checked:true}));
-    component.render({container:node,route:{volume:volume13,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
-    assert(node.innerHTML.includes('cm-six-skill-tabs'),'Cam 13 Test 1 has six tabs');
-    if(skill==='flashcards')assert(node.innerHTML.includes('cm-flipcard')&&node.innerHTML.includes('data-cam-vocab="speak"')&&node.innerHTML.includes('35 words'));
-    if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>node.innerHTML.includes(label)));
-    if(skill==='reading'||skill==='listening')assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'English answer review for every part');
-    values.delete(storageKey);
+const cam13ExpectedWords=[35,38,37,37],cam13ExpectedListening=[40,40,29,40];
+for(let i=0;i<4;i++){
+  const n=i+1,code='13-'+n,shared=context.window.WORDHOP_CAMBRIDGE_STUDY[code],exam=volume13.tests[i];
+  assert.equal(shared.vocabulary.words.length,cam13ExpectedWords[i]);
+  assert.equal(shared.review.reading.filter(Boolean).length,40);
+  assert.equal(shared.review.listening.filter(Boolean).length,cam13ExpectedListening[i]);
+  assert(shared.vocabulary.words.every(w=>/\((n\.|v\.|adj\.|adv\.)\)$/.test(w.word)&&w.definition&&w.example),'Cam13 vocabulary has valid part-of-speech labels');
+  for(const skill of ['flashcards','practice','reading','listening']){
+    const node={innerHTML:''},base='#/ielts/cambridge-ielts/'+volume13.id+'/'+exam.id;
+    for(let part=1;part<=(skill==='reading'?3:skill==='listening'?4:1);part++){
+      const storageKey='wordhop.cambridge.exam.v2.test-'+code+'.'+skill+'.part-'+part;
+      if(skill==='reading'||skill==='listening')values.set(storageKey,JSON.stringify({answers:{},checked:true}));
+      component.render({container:node,route:{volume:volume13,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+      assert(node.innerHTML.includes('cm-six-skill-tabs'),'Cam13 six-tab navigation');
+      if(skill==='flashcards')assert(node.innerHTML.includes('cm-flipcard')&&node.innerHTML.includes('data-cam-vocab="speak"')&&node.innerHTML.includes(cam13ExpectedWords[i]+' words'));
+      if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>node.innerHTML.includes(label)));
+      if(skill==='reading'||skill==='listening'){
+        if(!(i===2&&skill==='listening'&&part===2))assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'English source-based explanations');
+        if(i===2&&skill==='listening'&&part===2)assert(node.innerHTML.includes('Detailed evidence has not been added'),'Missing source remains explicit');
+      }
+      values.delete(storageKey);
+    }
   }
 }
-
 const reversed=component.score('13-2','listening',{17:'E',18:'C',19:'D',20:'B'});
 assert(reversed[17]&&reversed[18]&&reversed[19]&&reversed[20],'Unordered option pairs must grade correctly');
 assert(!component.score('13-2','listening',{17:'C',18:'C'})[18],'Duplicate choice must not be counted twice');
