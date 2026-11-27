@@ -3234,192 +3234,192 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "title": "Test 2 · Reading vocabulary",
       "words": [
         {
-          "word": "fragrant (adj..)",
+          "word": "fragrant (adj.)",
           "definition": "Having a pleasant smell.",
           "example": "Fragrant spices are used in many traditional dishes."
         },
         {
-          "word": "anoint (v..)",
+          "word": "anoint (v.)",
           "definition": "Apply oil or another substance ceremonially.",
           "example": "The priest anointed the king with oil."
         },
         {
-          "word": "condiment (n..)",
+          "word": "condiment (n.)",
           "definition": "A substance added to food to improve its flavour.",
           "example": "Mustard is a popular condiment."
         },
         {
-          "word": "ailment (n..)",
+          "word": "ailment (n.)",
           "definition": "An illness, usually not very serious.",
           "example": "The herb was used to treat minor ailments."
         },
         {
-          "word": "indigestion (n..)",
+          "word": "indigestion (n.)",
           "definition": "Discomfort caused by difficulty digesting food.",
           "example": "Rich meals sometimes cause indigestion."
         },
         {
-          "word": "monopoly (n..)",
+          "word": "monopoly (n.)",
           "definition": "Exclusive control of a market or supply.",
           "example": "The company held a monopoly over the trade."
         },
         {
-          "word": "lucrative (adj..)",
+          "word": "lucrative (adj.)",
           "definition": "Producing a large financial profit.",
           "example": "The merchants pursued lucrative opportunities."
         },
         {
-          "word": "pliable (adj..)",
+          "word": "pliable (adj.)",
           "definition": "Easily bent or shaped without breaking.",
           "example": "The material becomes pliable when heated."
         },
         {
-          "word": "tribute (n..)",
+          "word": "tribute (n.)",
           "definition": "A payment made to a ruler or powerful authority.",
           "example": "The kingdom demanded tribute from neighbouring territories."
         },
         {
-          "word": "displace (v..)",
+          "word": "displace (v.)",
           "definition": "Take the place of someone or something.",
           "example": "New technology may displace older methods."
         },
         {
-          "word": "exhausted (adj..)",
+          "word": "exhausted (adj.)",
           "definition": "Completely used up or depleted.",
           "example": "The supply of timber was nearly exhausted."
         },
         {
-          "word": "supersede (v..)",
+          "word": "supersede (v.)",
           "definition": "Replace something older or less effective.",
           "example": "Modern equipment superseded traditional tools."
         },
         {
-          "word": "pituitary gland (n..)",
+          "word": "pituitary gland (n.)",
           "definition": "A gland at the base of the brain that releases hormones.",
           "example": "The pituitary gland regulates several bodily processes."
         },
         {
-          "word": "reinforce (v..)",
+          "word": "reinforce (v.)",
           "definition": "Strengthen an existing bond, belief or behaviour.",
           "example": "Regular interaction reinforces social bonds."
         },
         {
-          "word": "empathetic (adj..)",
+          "word": "empathetic (adj.)",
           "definition": "Able to understand another person's feelings.",
           "example": "An empathetic teacher listens carefully."
         },
         {
-          "word": "groundbreaking (adj..)",
+          "word": "groundbreaking (adj.)",
           "definition": "Introducing important new discoveries or methods.",
           "example": "The study was groundbreaking in its field."
         },
         {
-          "word": "anonymous (adj..)",
+          "word": "anonymous (adj.)",
           "definition": "Having an unknown or undisclosed identity.",
           "example": "Participants completed an anonymous survey."
         },
         {
-          "word": "placebo (n..)",
+          "word": "placebo (n.)",
           "definition": "An inactive treatment used for comparison in research.",
           "example": "Half the participants received a placebo."
         },
         {
-          "word": "disposition (n..)",
+          "word": "disposition (n.)",
           "definition": "A person's usual temperament or tendency to behave in a particular way.",
           "example": "Her calm disposition helped during the crisis."
         },
         {
-          "word": "adept (adj..)",
+          "word": "adept (adj.)",
           "definition": "Highly skilled at something.",
           "example": "She is adept at recognising emotions."
         },
         {
-          "word": "favouritism (n..)",
+          "word": "favouritism (n.)",
           "definition": "Unfair preference for particular people or groups.",
           "example": "The policy was criticised for encouraging favouritism."
         },
         {
-          "word": "bias (n..)",
+          "word": "bias (n.)",
           "definition": "A tendency to favour one viewpoint or group unfairly.",
           "example": "The researchers attempted to reduce bias."
         },
         {
-          "word": "subtlety (n..)",
+          "word": "subtlety (n.)",
           "definition": "A fine distinction or detail that is not immediately obvious.",
           "example": "The study revealed several subtleties in human behaviour."
         },
         {
-          "word": "hypothesis (n..)",
+          "word": "hypothesis (n.)",
           "definition": "A proposed explanation that can be tested.",
           "example": "The researchers tested their hypothesis."
         },
         {
-          "word": "manifest (v..)",
+          "word": "manifest (v.)",
           "definition": "Become apparent or be expressed in a particular form.",
           "example": "Anxiety can manifest in different ways."
         },
         {
-          "word": "aspiration (n..)",
+          "word": "aspiration (n.)",
           "definition": "A strong hope or ambition.",
           "example": "The campaign reflected consumers' aspirations."
         },
         {
-          "word": "peripheral (adj..)",
+          "word": "peripheral (adj.)",
           "definition": "Of secondary importance rather than central.",
           "example": "The issue was considered peripheral to the business."
         },
         {
-          "word": "jeopardise (v..)",
+          "word": "jeopardise (v.)",
           "definition": "Put something at risk of harm or failure.",
           "example": "The decision could jeopardise the project."
         },
         {
-          "word": "cede (v..)",
+          "word": "cede (v.)",
           "definition": "Give up control or possession of something.",
           "example": "The firm ceded its market position to competitors."
         },
         {
-          "word": "augment (v..)",
+          "word": "augment (v.)",
           "definition": "Increase or improve something by adding to it.",
           "example": "The service was augmented with new features."
         },
         {
-          "word": "opulence (n..)",
+          "word": "opulence (n.)",
           "definition": "Great wealth or luxury.",
           "example": "The interior was designed to convey opulence."
         },
         {
-          "word": "downturn (n..)",
+          "word": "downturn (n.)",
           "definition": "A decline in economic activity or performance.",
           "example": "The retailer adapted to the economic downturn."
         },
         {
-          "word": "tangible (adj..)",
+          "word": "tangible (adj.)",
           "definition": "Clear, definite or capable of being measured.",
           "example": "The initiative produced tangible benefits."
         },
         {
-          "word": "redeem (v..)",
+          "word": "redeem (v.)",
           "definition": "Exchange a voucher, points or similar item for a benefit.",
           "example": "Customers can redeem points for discounts."
         },
         {
-          "word": "transcend (v..)",
+          "word": "transcend (v.)",
           "definition": "Go beyond the usual limits of something.",
           "example": "The product transcends traditional categories."
         },
         {
-          "word": "reaffirm (v..)",
+          "word": "reaffirm (v.)",
           "definition": "State or strengthen a commitment again.",
           "example": "The company reaffirmed its core values."
         },
         {
-          "word": "disparity (n..)",
+          "word": "disparity (n.)",
           "definition": "A significant difference between two things.",
           "example": "The report highlights a disparity in access to services."
         },
         {
-          "word": "undesirable (adj..)",
+          "word": "undesirable (adj.)",
           "definition": "Unwanted or considered harmful.",
           "example": "The intervention reduced undesirable effects."
         }
@@ -3877,192 +3877,187 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "title": "Test 3 · Reading vocabulary",
       "words": [
         {
-          "word": "millennia (n..)",
+          "word": "millennia (n.)",
           "definition": "Periods of a thousand years.",
           "example": "The practice has existed for millennia."
         },
         {
-          "word": "exotic (adj..)",
+          "word": "exotic (adj.)",
           "definition": "Unusual and associated with a distant place.",
           "example": "The market sells exotic fruits."
         },
         {
-          "word": "cliché (n..)",
+          "word": "cliché (n.)",
           "definition": "An expression or image that has become overused.",
           "example": "The advertisement relies on familiar travel clichés."
         },
         {
-          "word": "slender (adj..)",
+          "word": "slender (adj.)",
           "definition": "Thin and relatively narrow.",
           "example": "The palm has a tall, slender trunk."
         },
         {
-          "word": "hardwood (n..)",
+          "word": "hardwood (n.)",
           "definition": "Wood from certain broad-leaved trees.",
           "example": "Hardwood is used to make durable furniture."
         },
         {
-          "word": "fibrous (adj..)",
+          "word": "fibrous (adj.)",
           "definition": "Containing or consisting of fibres.",
           "example": "The fruit has a thick fibrous layer."
         },
         {
-          "word": "impermeable (adj..)",
+          "word": "impermeable (adj.)",
           "definition": "Not allowing liquid or gas to pass through.",
           "example": "The container has an impermeable lining."
         },
         {
-          "word": "embryo (n..)",
+          "word": "embryo (n.)",
           "definition": "An organism in its earliest stage of development.",
           "example": "The seed protects the developing embryo."
         },
         {
-          "word": "endosperm (n..)",
+          "word": "endosperm (n.)",
           "definition": "Nutrient-rich tissue inside a seed.",
           "example": "The endosperm supplies energy to the young plant."
         },
         {
-          "word": "solidify (v..)",
+          "word": "solidify (v.)",
           "definition": "Become solid or make something solid.",
           "example": "The liquid solidifies as it cools."
         },
         {
-          "word": "derivative (n..)",
+          "word": "derivative (n.)",
           "definition": "A substance or product obtained from another.",
           "example": "The laboratory identified a derivative of the original compound."
         },
         {
-          "word": "viable (adj..)",
+          "word": "viable (adj.)",
           "definition": "Capable of surviving or succeeding.",
           "example": "Seeds can remain viable for several months."
         },
         {
-          "word": "germinate (v..)",
+          "word": "germinate (v.)",
           "definition": "Begin to grow from a seed.",
           "example": "The seeds germinate in warm conditions."
         },
         {
-          "word": "indigenous (adj..)",
+          "word": "indigenous (adj.)",
           "definition": "Native to a particular region.",
           "example": "The plant is indigenous to the Pacific islands."
         },
         {
-          "word": "disperse (v..)",
+          "word": "disperse (v.)",
           "definition": "Spread or scatter over a wide area.",
           "example": "Ocean currents disperse seeds between islands."
         },
         {
-          "word": "high-pitched (adj..)",
+          "word": "high-pitched (adj.)",
           "definition": "Having a high sound frequency.",
           "example": "Infants often respond to high-pitched speech."
         },
         {
-          "word": "exaggerated (adj..)",
+          "word": "exaggerated (adj.)",
           "definition": "Made to seem greater or more extreme than usual.",
           "example": "The actor used exaggerated gestures."
         },
         {
-          "word": "prioritise (v..)",
+          "word": "prioritise (v.)",
           "definition": "Treat something as more important than other things.",
           "example": "Students must prioritise essential tasks."
         },
         {
-          "word": "repertoire (n..)",
+          "word": "repertoire (n.)",
           "definition": "A range of skills, behaviours or performances available to someone.",
           "example": "Practice expands a learner's repertoire of expressions."
         },
         {
-          "word": "socioeconomic (adj..)",
+          "word": "socioeconomic (adj.)",
           "definition": "Relating to social and economic circumstances.",
           "example": "The research considered socioeconomic differences."
         },
         {
-          "word": "vocalise (v..)",
-          "definition": "Produce sounds using the voice.",
-          "example": "Babies begin to vocalise before they can speak."
-        },
-        {
-          "word": "synthesise (v..)",
+          "word": "synthesise (v.)",
           "definition": "Produce or combine something artificially.",
           "example": "The researchers synthesised speech sounds."
         },
         {
-          "word": "babble (v..)",
+          "word": "babble (v.)",
           "definition": "Make speech-like sounds without clear words.",
           "example": "Infants babble as they develop language skills."
         },
         {
-          "word": "motor (adj..)",
+          "word": "motor (adj.)",
           "definition": "Relating to bodily movement.",
           "example": "Writing requires fine motor control."
         },
         {
-          "word": "archaeological (adj..)",
+          "word": "archaeological (adj.)",
           "definition": "Relating to the study of past societies through physical remains.",
           "example": "The team conducted an archaeological survey."
         },
         {
-          "word": "flourish (v..)",
+          "word": "flourish (v.)",
           "definition": "Develop successfully or thrive.",
           "example": "The civilisation flourished beside major rivers."
         },
         {
-          "word": "alleyway (n..)",
+          "word": "alleyway (n.)",
           "definition": "A narrow passage between buildings.",
           "example": "The old town contains many narrow alleyways."
         },
         {
-          "word": "provision (n..)",
+          "word": "provision (n.)",
           "definition": "The act or process of supplying something needed.",
           "example": "Water provision was essential to the settlement."
         },
         {
-          "word": "succumb (v..)",
+          "word": "succumb (v.)",
           "definition": "Fail to resist something harmful.",
           "example": "The settlements may have succumbed to environmental pressures."
         },
         {
-          "word": "speculation (n..)",
+          "word": "speculation (n.)",
           "definition": "Ideas based on incomplete evidence.",
           "example": "The cause of the collapse remains a matter of speculation."
         },
         {
-          "word": "definitive (adj..)",
+          "word": "definitive (adj.)",
           "definition": "Providing a clear and conclusive answer.",
           "example": "Scientists sought definitive evidence of climate change."
         },
         {
-          "word": "geochemical (adj..)",
+          "word": "geochemical (adj.)",
           "definition": "Relating to chemical processes in the Earth and its materials.",
           "example": "Geochemical analysis revealed changes in water levels."
         },
         {
-          "word": "sediment (n..)",
+          "word": "sediment (n.)",
           "definition": "Material deposited by water, wind or other natural processes.",
           "example": "The researchers collected samples of lake sediment."
         },
         {
-          "word": "monsoon (n..)",
+          "word": "monsoon (n.)",
           "definition": "A seasonal wind system associated with heavy rainfall.",
           "example": "Farmers depend on the summer monsoon."
         },
         {
-          "word": "evaporation (n..)",
+          "word": "evaporation (n.)",
           "definition": "The process by which liquid changes into vapour.",
           "example": "Evaporation increased during the dry season."
         },
         {
-          "word": "drought (n..)",
+          "word": "drought (n.)",
           "definition": "A prolonged period of unusually low rainfall.",
           "example": "The crops suffered during a prolonged drought."
         },
         {
-          "word": "distinctive (adj..)",
+          "word": "distinctive (adj.)",
           "definition": "Having qualities that make something recognisably different.",
           "example": "The pottery has a distinctive decorative style."
         },
         {
-          "word": "heritage (n..)",
+          "word": "heritage (n.)",
           "definition": "Traditions or objects inherited from the past.",
           "example": "The community works to preserve its cultural heritage."
         }
@@ -4079,8 +4074,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         [
           60,
           "Paragraph 2",
-          "allowed to ferment into a type of sugar",
-          "Sap collected from the flower stems can be processed into sugar."
+          "by boiling to produce a type of sugar",
+          "Sap from the flower stems can be drunk directly or boiled to produce sugar."
         ],
         [
           60,
@@ -4104,7 +4099,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           60,
           "Paragraph 4",
           "provides the hormones which encourage other plants to grow",
-          "Coconut water contains hormones that stimulate plant growth."
+          "Coconut water contains hormones that promote plant growth."
         ],
         [
           60,
