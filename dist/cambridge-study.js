@@ -3228,5 +3228,648 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "13-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "fragrant (adj..)",
+          "definition": "Having a pleasant smell.",
+          "example": "Fragrant spices are used in many traditional dishes."
+        },
+        {
+          "word": "anoint (v..)",
+          "definition": "Apply oil or another substance ceremonially.",
+          "example": "The priest anointed the king with oil."
+        },
+        {
+          "word": "condiment (n..)",
+          "definition": "A substance added to food to improve its flavour.",
+          "example": "Mustard is a popular condiment."
+        },
+        {
+          "word": "ailment (n..)",
+          "definition": "An illness, usually not very serious.",
+          "example": "The herb was used to treat minor ailments."
+        },
+        {
+          "word": "indigestion (n..)",
+          "definition": "Discomfort caused by difficulty digesting food.",
+          "example": "Rich meals sometimes cause indigestion."
+        },
+        {
+          "word": "monopoly (n..)",
+          "definition": "Exclusive control of a market or supply.",
+          "example": "The company held a monopoly over the trade."
+        },
+        {
+          "word": "lucrative (adj..)",
+          "definition": "Producing a large financial profit.",
+          "example": "The merchants pursued lucrative opportunities."
+        },
+        {
+          "word": "pliable (adj..)",
+          "definition": "Easily bent or shaped without breaking.",
+          "example": "The material becomes pliable when heated."
+        },
+        {
+          "word": "tribute (n..)",
+          "definition": "A payment made to a ruler or powerful authority.",
+          "example": "The kingdom demanded tribute from neighbouring territories."
+        },
+        {
+          "word": "displace (v..)",
+          "definition": "Take the place of someone or something.",
+          "example": "New technology may displace older methods."
+        },
+        {
+          "word": "exhausted (adj..)",
+          "definition": "Completely used up or depleted.",
+          "example": "The supply of timber was nearly exhausted."
+        },
+        {
+          "word": "supersede (v..)",
+          "definition": "Replace something older or less effective.",
+          "example": "Modern equipment superseded traditional tools."
+        },
+        {
+          "word": "pituitary gland (n..)",
+          "definition": "A gland at the base of the brain that releases hormones.",
+          "example": "The pituitary gland regulates several bodily processes."
+        },
+        {
+          "word": "reinforce (v..)",
+          "definition": "Strengthen an existing bond, belief or behaviour.",
+          "example": "Regular interaction reinforces social bonds."
+        },
+        {
+          "word": "empathetic (adj..)",
+          "definition": "Able to understand another person's feelings.",
+          "example": "An empathetic teacher listens carefully."
+        },
+        {
+          "word": "groundbreaking (adj..)",
+          "definition": "Introducing important new discoveries or methods.",
+          "example": "The study was groundbreaking in its field."
+        },
+        {
+          "word": "anonymous (adj..)",
+          "definition": "Having an unknown or undisclosed identity.",
+          "example": "Participants completed an anonymous survey."
+        },
+        {
+          "word": "placebo (n..)",
+          "definition": "An inactive treatment used for comparison in research.",
+          "example": "Half the participants received a placebo."
+        },
+        {
+          "word": "disposition (n..)",
+          "definition": "A person's usual temperament or tendency to behave in a particular way.",
+          "example": "Her calm disposition helped during the crisis."
+        },
+        {
+          "word": "adept (adj..)",
+          "definition": "Highly skilled at something.",
+          "example": "She is adept at recognising emotions."
+        },
+        {
+          "word": "favouritism (n..)",
+          "definition": "Unfair preference for particular people or groups.",
+          "example": "The policy was criticised for encouraging favouritism."
+        },
+        {
+          "word": "bias (n..)",
+          "definition": "A tendency to favour one viewpoint or group unfairly.",
+          "example": "The researchers attempted to reduce bias."
+        },
+        {
+          "word": "subtlety (n..)",
+          "definition": "A fine distinction or detail that is not immediately obvious.",
+          "example": "The study revealed several subtleties in human behaviour."
+        },
+        {
+          "word": "hypothesis (n..)",
+          "definition": "A proposed explanation that can be tested.",
+          "example": "The researchers tested their hypothesis."
+        },
+        {
+          "word": "manifest (v..)",
+          "definition": "Become apparent or be expressed in a particular form.",
+          "example": "Anxiety can manifest in different ways."
+        },
+        {
+          "word": "aspiration (n..)",
+          "definition": "A strong hope or ambition.",
+          "example": "The campaign reflected consumers' aspirations."
+        },
+        {
+          "word": "peripheral (adj..)",
+          "definition": "Of secondary importance rather than central.",
+          "example": "The issue was considered peripheral to the business."
+        },
+        {
+          "word": "jeopardise (v..)",
+          "definition": "Put something at risk of harm or failure.",
+          "example": "The decision could jeopardise the project."
+        },
+        {
+          "word": "cede (v..)",
+          "definition": "Give up control or possession of something.",
+          "example": "The firm ceded its market position to competitors."
+        },
+        {
+          "word": "augment (v..)",
+          "definition": "Increase or improve something by adding to it.",
+          "example": "The service was augmented with new features."
+        },
+        {
+          "word": "opulence (n..)",
+          "definition": "Great wealth or luxury.",
+          "example": "The interior was designed to convey opulence."
+        },
+        {
+          "word": "downturn (n..)",
+          "definition": "A decline in economic activity or performance.",
+          "example": "The retailer adapted to the economic downturn."
+        },
+        {
+          "word": "tangible (adj..)",
+          "definition": "Clear, definite or capable of being measured.",
+          "example": "The initiative produced tangible benefits."
+        },
+        {
+          "word": "redeem (v..)",
+          "definition": "Exchange a voucher, points or similar item for a benefit.",
+          "example": "Customers can redeem points for discounts."
+        },
+        {
+          "word": "transcend (v..)",
+          "definition": "Go beyond the usual limits of something.",
+          "example": "The product transcends traditional categories."
+        },
+        {
+          "word": "reaffirm (v..)",
+          "definition": "State or strengthen a commitment again.",
+          "example": "The company reaffirmed its core values."
+        },
+        {
+          "word": "disparity (n..)",
+          "definition": "A significant difference between two things.",
+          "example": "The report highlights a disparity in access to services."
+        },
+        {
+          "word": "undesirable (adj..)",
+          "definition": "Unwanted or considered harmful.",
+          "example": "The intervention reduced undesirable effects."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          38,
+          "Paragraph 1",
+          "oils for anointing people's bodies",
+          "Cinnamon was added to oils used for anointing in biblical times."
+        ],
+        [
+          38,
+          "Paragraph 1",
+          "a token indicating friendship",
+          "Cinnamon was used as a sign of friendship between people."
+        ],
+        [
+          38,
+          "Paragraph 1",
+          "mourners attending funerals burnt cinnamon",
+          "Romans burned cinnamon at funerals to create a pleasant scent."
+        ],
+        [
+          38,
+          "Paragraph 1",
+          "sign of the wealth at his or her disposal",
+          "Providing spices at a banquet showed the host's wealth."
+        ],
+        [
+          38,
+          "Paragraph 1",
+          "various ailments, such as indigestion",
+          "Indigestion is explicitly named as a condition cinnamon was believed to treat."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "They took it from India",
+          "Arab merchants obtained the spice from India."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "on camels via an overland route",
+          "Camels carried cinnamon overland to the Mediterranean."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "when they reached Alexandria",
+          "The overland journey ended at Alexandria."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "brought it back to Venice",
+          "European traders transported the spice to Venice and distributed it across Europe."
+        ],
+        [
+          39,
+          "Paragraph 3",
+          "a monopoly in the cinnamon trade",
+          "The Portuguese developed control of the Ceylon cinnamon trade during the sixteenth century."
+        ],
+        [
+          39,
+          "Paragraph 4",
+          "By 1658, they had permanently expelled the Portuguese",
+          "The Dutch did not take control immediately; the takeover occurred over several decades."
+        ],
+        [
+          39,
+          "Paragraph 5",
+          "cultivating their own cinnamon trees to supplement",
+          "The text explains why trees were cultivated, but does not compare their yield with wild trees."
+        ],
+        [
+          39,
+          "Final paragraph",
+          "the spice trade overall was diminishing in economic potential",
+          "The economic importance of spices declined as other commodities became more important."
+        ],
+        [
+          42,
+          "Section B",
+          "more charitable, better at reading emotions",
+          "The paragraph describes studies suggesting beneficial effects on trust, charity and social interaction."
+        ],
+        [
+          43,
+          "Section F",
+          "higher-order thinking and social situations",
+          "A simple ancient molecule interacts with complex human thinking and different social contexts, producing varied effects."
+        ],
+        [
+          42,
+          "Section B",
+          "For eight years, it was quite a lonesome field",
+          "Heinrichs describes an initial period when little research attention was paid to oxytocin."
+        ],
+        [
+          43,
+          "Section E",
+          "researchers took no notice of such findings",
+          "Earlier researchers overlooked evidence that the hormone affected only some individuals or circumstances."
+        ],
+        [
+          42,
+          "Section B",
+          "invested more money than those who received a placebo",
+          "Heinrichs's experiment found greater trust among participants given oxytocin."
+        ],
+        [
+          42,
+          "Section C",
+          "showed more pleasure when they beat other players, and felt more envy",
+          "Shamay-Tsoory found that oxytocin increased envy in a competitive game."
+        ],
+        [
+          42,
+          "Section C",
+          "sharply contrasting outcomes depending on a person's disposition",
+          "Bartz's research shows that the effects vary with a person's existing social abilities and sensitivity."
+        ],
+        [
+          42,
+          "Section A",
+          "studies focusing on animals",
+          "The earliest evidence about bonding came from animal research."
+        ],
+        [
+          42,
+          "Section A",
+          "released by women in childbirth",
+          "Oxytocin is released during childbirth and strengthens mother-baby attachment."
+        ],
+        [
+          42,
+          "Section B",
+          "those who received a placebo instead",
+          "The comparison group received a placebo rather than the hormone."
+        ],
+        [
+          42,
+          "Section C",
+          "played a competitive game",
+          "Participants played a game in which the hormone increased envy and pleasure at winning."
+        ],
+        [
+          43,
+          "Section D",
+          "less cooperative when dealing with complete strangers",
+          "Oxytocin reduced willingness to cooperate with strangers in DeClerck's study."
+        ],
+        [
+          43,
+          "Section D",
+          "associate positive words with Dutch names than with foreign ones",
+          "De Dreu found stronger positive associations with familiar national names."
+        ],
+        [
+          46,
+          "Paragraph 1",
+          "fail to recognise the less obvious but profound ways these trends are influencing consumers",
+          "Managers often recognise major trends but overlook their deeper influence on consumers' lives."
+        ],
+        [
+          46,
+          "Paragraph 3",
+          "safeguard its reputation as a manufacturer of luxury goods",
+          "Coach avoided lowering its main product prices because it wanted to protect its luxury brand image."
+        ],
+        [
+          46,
+          "Paragraph 4",
+          "has not abandoned its traditional retail offering but augmented its business",
+          "Tesco added environmental incentives without abandoning its core retail business."
+        ],
+        [
+          47,
+          "Paragraph 5",
+          "at first glance ... hardly worthwhile",
+          "Nike's strategy appeared to offer few obvious benefits before the collaboration demonstrated its value."
+        ],
+        [
+          47,
+          "Paragraph 6",
+          "counteracting the negative associations with lack of exercise and obesity",
+          "The ME2 combined video games with physical activity to address concerns about unhealthy lifestyles."
+        ],
+        [
+          47,
+          "Paragraph 6",
+          "counteracting the negative associations",
+          "iToys turned concerns about sedentary gaming into an opportunity by rewarding physical activity."
+        ],
+        [
+          47,
+          "Paragraph 5",
+          "teamed up with technology company Apple",
+          "Nike extended its offering through a partnership with Apple."
+        ],
+        [
+          46,
+          "Paragraph 4",
+          "accumulate points for such activities as reusing bags",
+          "Tesco rewarded environmentally responsible behaviour through a points scheme."
+        ],
+        [
+          46,
+          "Paragraph 3",
+          "consumers were eager to lift themselves",
+          "Coach's research showed that customers wanted to improve their mood during difficult economic times."
+        ],
+        [
+          47,
+          "Paragraph 5",
+          "integrate the digital revolution into its reputation for high-performance athletic footwear",
+          "Nike responded to the digital technology trend beyond its traditional footwear sector."
+        ],
+        [
+          46,
+          "Paragraph 3",
+          "avoid an across-the-board price cut",
+          "The Poppy sub-brand helped Coach maintain prices across its established range."
+        ],
+        [
+          47,
+          "Paragraph 7",
+          "determine which of our three innovation strategies to pursue",
+          "After identifying a trend's influence, managers should choose the most suitable innovation strategy."
+        ],
+        [
+          47,
+          "Paragraph 7",
+          "counteract those changes by reaffirming the core values",
+          "When a trend highlights negative associations with the category, the counteract-and-reaffirm strategy is appropriate."
+        ],
+        [
+          47,
+          "Paragraph 7",
+          "an increasing disparity ... transcend the category to integrate the two worlds",
+          "When consumers' new priorities diverge from the existing offering, combining the two worlds is the recommended strategy."
+        ]
+      ],
+      "listening": [
+        [
+          102,
+          "for racing both here in the city and also in other parts of Australia",
+          "Full membership covers ordinary cycling and participation in races across Australia."
+        ],
+        [
+          102,
+          "They also provide insurance in case you have an accident",
+          "Both memberships include insurance in addition to the club fee."
+        ],
+        [
+          102,
+          "they're called Jerriz",
+          "The manufacturer of the club cycling kit is Jerriz, spelled J-E-R-R-I-Z."
+        ],
+        [
+          102,
+          "about 25 kilometres an hour, you'd probably be level B",
+          "The suggested cycling speed for Level B is approximately 25 kilometres per hour."
+        ],
+        [
+          102,
+          "the meeting point's the stadium",
+          "Tuesday morning sessions begin at the stadium."
+        ],
+        [
+          102,
+          "they meet at the main gate to the park",
+          "Thursday sessions begin at the park entrance."
+        ],
+        [
+          103,
+          "go somewhere for coffee afterwards",
+          "Members frequently have coffee together after the training rides."
+        ],
+        [
+          103,
+          "Sometimes, but not always",
+          "A group leader is not present on every ride because members support each other."
+        ],
+        [
+          103,
+          "the route for each ride is clearly marked",
+          "Members can check and print the route from the club website."
+        ],
+        [
+          103,
+          "make sure your bike's got lights",
+          "Lights are necessary because winter rides begin before sunrise."
+        ],
+        [
+          103,
+          "eight hours of your time ... over several months throughout the year",
+          "The company provides eight paid volunteering hours each year, which can be used in different ways."
+        ],
+        [
+          103,
+          "doing something really useful ... more motivated at work",
+          "Nearly everyone reported greater motivation at work, indicating improved job satisfaction."
+        ],
+        [
+          103,
+          "improve their phone skills ... speaking with confidence",
+          "Staff helped unemployed people communicate more effectively rather than improving literacy or completing applications."
+        ],
+        [
+          104,
+          "a conservation project in Redfern Park",
+          "The new volunteering project involves conservation work in a local park."
+        ],
+        [
+          104,
+          "we're using the ICT suite at Hill College",
+          "This year's Digital Inclusion Day takes place at the college, not the company's training facility."
+        ],
+        [
+          104,
+          "complete the relevant form",
+          "Staff register by completing a form in the website's volunteering section."
+        ],
+        [
+          104,
+          "they tended to be outdated models",
+          "Most participants owned phones, but these were often old models. Questions 17 and 18 accept either order."
+        ],
+        [
+          104,
+          "they couldn't see the point of updating their skills",
+          "Some participants initially lacked interest in improving their digital skills."
+        ],
+        [
+          104,
+          "more confident about using social media to keep in touch with their grandchildren",
+          "Participants valued communication with family members. Questions 19 and 20 accept either order."
+        ],
+        [
+          104,
+          "playing online games would help them make new friends",
+          "Participants identified online games as a way to socialise and keep mentally active."
+        ],
+        [
+          104,
+          "what I wanted to achieve",
+          "Russ is uncertain about the presentation's objective despite knowing the subject and having time to prepare."
+        ],
+        [
+          105,
+          "focus on its impact in one particular area",
+          "They agree to limit the presentation to one field rather than cover many applications or the full chronology."
+        ],
+        [
+          105,
+          "You might find it better to leave them out",
+          "The tutor advises that slides are optional and may be omitted if finding suitable ones takes too much time."
+        ],
+        [
+          105,
+          "mention a particular way that nanotechnology is used",
+          "Starting with a concrete example will attract the audience's attention."
+        ],
+        [
+          105,
+          "write a single short sentence that ties together the whole presentation",
+          "The tutor recommends summarising the central message before organising the content."
+        ],
+        [
+          105,
+          "ended rather abruptly, without rounding it off",
+          "The previous presentation lacked a proper conclusion."
+        ],
+        [
+          105,
+          "very little eye contact with the audience",
+          "Russ looked down at his notes too often instead of engaging the audience visually."
+        ],
+        [
+          105,
+          "you kept scratching your head",
+          "His movements and turning his back to the audience were distracting."
+        ],
+        [
+          105,
+          "a few words that are specific to the field ... explained what they meant",
+          "His specialist terms were explained clearly, so his vocabulary was not excessively technical."
+        ],
+        [
+          106,
+          "a good summary ... useful to refer to later on",
+          "The handouts were useful for future reference."
+        ],
+        [
+          106,
+          "when an event happened and other information such as the location",
+          "Episodic memory includes the time and location of a personal event."
+        ],
+        [
+          106,
+          "our general knowledge of the world",
+          "Semantic memory stores general information about the world."
+        ],
+        [
+          106,
+          "isn't dependent on recalling personal experiences",
+          "Unlike episodic memory, semantic memory does not rely on personal information."
+        ],
+        [
+          106,
+          "depends on the level of attention you give to an event",
+          "Greater attention during an event improves the encoding of episodic memories."
+        ],
+        [
+          106,
+          "Charlie's name is much easier if you have a strategy",
+          "The example illustrates how using an association helps encode a person's name."
+        ],
+        [
+          106,
+          "linked to an existing network of information",
+          "Consolidation works best when new information can be connected to an existing network."
+        ],
+        [
+          106,
+          "depends on the frequency with which you try to retrieve them",
+          "Repeated retrieval strengthens memories, whereas infrequently used memories become harder to recall."
+        ],
+        [
+          106,
+          "use the colour of a sign close to where you parked",
+          "The colour of a nearby sign can act as a retrieval prompt."
+        ],
+        [
+          107,
+          "games designed to keep the brain active",
+          "Computer-assisted games stimulate the brain and may help people with schizophrenia improve episodic memory."
+        ],
+        [
+          107,
+          "an absence of a sense of self",
+          "An absent sense of self may contribute to difficulties forming episodic memories in children with autism."
+        ]
+      ]
+    }
   }
 };
