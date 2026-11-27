@@ -3871,5 +3871,604 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "13-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "millennia (n..)",
+          "definition": "Periods of a thousand years.",
+          "example": "The practice has existed for millennia."
+        },
+        {
+          "word": "exotic (adj..)",
+          "definition": "Unusual and associated with a distant place.",
+          "example": "The market sells exotic fruits."
+        },
+        {
+          "word": "cliché (n..)",
+          "definition": "An expression or image that has become overused.",
+          "example": "The advertisement relies on familiar travel clichés."
+        },
+        {
+          "word": "slender (adj..)",
+          "definition": "Thin and relatively narrow.",
+          "example": "The palm has a tall, slender trunk."
+        },
+        {
+          "word": "hardwood (n..)",
+          "definition": "Wood from certain broad-leaved trees.",
+          "example": "Hardwood is used to make durable furniture."
+        },
+        {
+          "word": "fibrous (adj..)",
+          "definition": "Containing or consisting of fibres.",
+          "example": "The fruit has a thick fibrous layer."
+        },
+        {
+          "word": "impermeable (adj..)",
+          "definition": "Not allowing liquid or gas to pass through.",
+          "example": "The container has an impermeable lining."
+        },
+        {
+          "word": "embryo (n..)",
+          "definition": "An organism in its earliest stage of development.",
+          "example": "The seed protects the developing embryo."
+        },
+        {
+          "word": "endosperm (n..)",
+          "definition": "Nutrient-rich tissue inside a seed.",
+          "example": "The endosperm supplies energy to the young plant."
+        },
+        {
+          "word": "solidify (v..)",
+          "definition": "Become solid or make something solid.",
+          "example": "The liquid solidifies as it cools."
+        },
+        {
+          "word": "derivative (n..)",
+          "definition": "A substance or product obtained from another.",
+          "example": "The laboratory identified a derivative of the original compound."
+        },
+        {
+          "word": "viable (adj..)",
+          "definition": "Capable of surviving or succeeding.",
+          "example": "Seeds can remain viable for several months."
+        },
+        {
+          "word": "germinate (v..)",
+          "definition": "Begin to grow from a seed.",
+          "example": "The seeds germinate in warm conditions."
+        },
+        {
+          "word": "indigenous (adj..)",
+          "definition": "Native to a particular region.",
+          "example": "The plant is indigenous to the Pacific islands."
+        },
+        {
+          "word": "disperse (v..)",
+          "definition": "Spread or scatter over a wide area.",
+          "example": "Ocean currents disperse seeds between islands."
+        },
+        {
+          "word": "high-pitched (adj..)",
+          "definition": "Having a high sound frequency.",
+          "example": "Infants often respond to high-pitched speech."
+        },
+        {
+          "word": "exaggerated (adj..)",
+          "definition": "Made to seem greater or more extreme than usual.",
+          "example": "The actor used exaggerated gestures."
+        },
+        {
+          "word": "prioritise (v..)",
+          "definition": "Treat something as more important than other things.",
+          "example": "Students must prioritise essential tasks."
+        },
+        {
+          "word": "repertoire (n..)",
+          "definition": "A range of skills, behaviours or performances available to someone.",
+          "example": "Practice expands a learner's repertoire of expressions."
+        },
+        {
+          "word": "socioeconomic (adj..)",
+          "definition": "Relating to social and economic circumstances.",
+          "example": "The research considered socioeconomic differences."
+        },
+        {
+          "word": "vocalise (v..)",
+          "definition": "Produce sounds using the voice.",
+          "example": "Babies begin to vocalise before they can speak."
+        },
+        {
+          "word": "synthesise (v..)",
+          "definition": "Produce or combine something artificially.",
+          "example": "The researchers synthesised speech sounds."
+        },
+        {
+          "word": "babble (v..)",
+          "definition": "Make speech-like sounds without clear words.",
+          "example": "Infants babble as they develop language skills."
+        },
+        {
+          "word": "motor (adj..)",
+          "definition": "Relating to bodily movement.",
+          "example": "Writing requires fine motor control."
+        },
+        {
+          "word": "archaeological (adj..)",
+          "definition": "Relating to the study of past societies through physical remains.",
+          "example": "The team conducted an archaeological survey."
+        },
+        {
+          "word": "flourish (v..)",
+          "definition": "Develop successfully or thrive.",
+          "example": "The civilisation flourished beside major rivers."
+        },
+        {
+          "word": "alleyway (n..)",
+          "definition": "A narrow passage between buildings.",
+          "example": "The old town contains many narrow alleyways."
+        },
+        {
+          "word": "provision (n..)",
+          "definition": "The act or process of supplying something needed.",
+          "example": "Water provision was essential to the settlement."
+        },
+        {
+          "word": "succumb (v..)",
+          "definition": "Fail to resist something harmful.",
+          "example": "The settlements may have succumbed to environmental pressures."
+        },
+        {
+          "word": "speculation (n..)",
+          "definition": "Ideas based on incomplete evidence.",
+          "example": "The cause of the collapse remains a matter of speculation."
+        },
+        {
+          "word": "definitive (adj..)",
+          "definition": "Providing a clear and conclusive answer.",
+          "example": "Scientists sought definitive evidence of climate change."
+        },
+        {
+          "word": "geochemical (adj..)",
+          "definition": "Relating to chemical processes in the Earth and its materials.",
+          "example": "Geochemical analysis revealed changes in water levels."
+        },
+        {
+          "word": "sediment (n..)",
+          "definition": "Material deposited by water, wind or other natural processes.",
+          "example": "The researchers collected samples of lake sediment."
+        },
+        {
+          "word": "monsoon (n..)",
+          "definition": "A seasonal wind system associated with heavy rainfall.",
+          "example": "Farmers depend on the summer monsoon."
+        },
+        {
+          "word": "evaporation (n..)",
+          "definition": "The process by which liquid changes into vapour.",
+          "example": "Evaporation increased during the dry season."
+        },
+        {
+          "word": "drought (n..)",
+          "definition": "A prolonged period of unusually low rainfall.",
+          "example": "The crops suffered during a prolonged drought."
+        },
+        {
+          "word": "distinctive (adj..)",
+          "definition": "Having qualities that make something recognisably different.",
+          "example": "The pottery has a distinctive decorative style."
+        },
+        {
+          "word": "heritage (n..)",
+          "definition": "Traditions or objects inherited from the past.",
+          "example": "The community works to preserve its cultural heritage."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          60,
+          "Paragraph 2",
+          "a replacement for endangered hardwoods in the furniture construction industry",
+          "Coconut timber can be used as an alternative to hardwood for furniture."
+        ],
+        [
+          60,
+          "Paragraph 2",
+          "allowed to ferment into a type of sugar",
+          "Sap collected from the flower stems can be processed into sugar."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "Coir fibres are used for manufacturing ropes",
+          "The fibrous middle layer is used to make ropes and other products."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "An important product obtained from the shell is charcoal",
+          "The hard inner shell is processed to obtain charcoal, a fuel used in industry and the home."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "shells are also used as bowls",
+          "A coconut shell cut in half can serve as a bowl."
+        ],
+        [
+          60,
+          "Paragraph 4",
+          "provides the hormones which encourage other plants to grow",
+          "Coconut water contains hormones that stimulate plant growth."
+        ],
+        [
+          60,
+          "Paragraph 4",
+          "used in cooking ... as well as in cosmetics",
+          "Coconut oil and milk have applications in cooking and cosmetics."
+        ],
+        [
+          61,
+          "Paragraph 4, continued",
+          "nitroglycerine-based invention: dynamite",
+          "Glycerine obtained from coconut fat has an industrial application in dynamite."
+        ],
+        [
+          61,
+          "Paragraph 5",
+          "exposed to the full glare of the tropical sun",
+          "Coconut seeds can germinate in full sunlight on exposed island shores, contradicting the need for shade."
+        ],
+        [
+          61,
+          "Final paragraph",
+          "from South and Southeast Asia to Africa and then across the Atlantic",
+          "The passage describes movement from Asia towards the Americas, not from America to Asia."
+        ],
+        [
+          61,
+          "Final paragraph",
+          "the origin of coconuts discovered along the west coast of America ... has been the subject of centuries of discussion",
+          "The text discusses uncertain origins but does not establish whether the west-coast and east-coast coconuts were different types."
+        ],
+        [
+          61,
+          "Final paragraph",
+          "there are no relatives growing in the wild",
+          "The absence of wild relatives in Asia supports the statement that the Asian coconuts are cultivated varieties."
+        ],
+        [
+          61,
+          "Final paragraph",
+          "coconuts originated on coral islands in the Pacific",
+          "The passage discusses possible origins, but does not compare methods of cultivating coconuts in America and the Pacific."
+        ],
+        [
+          65,
+          "Section D",
+          "the more parents use baby talk one-on-one",
+          "Ramirez-Esparza emphasises that individually directed baby talk is particularly beneficial."
+        ],
+        [
+          65,
+          "Section F",
+          "listening to baby talk prompts infant brains to start practising their language skills",
+          "Kuhl's research connects hearing speech with the brain's preparation for producing it."
+        ],
+        [
+          64,
+          "Section C",
+          "the kid then has a wider repertoire of kinds of speech",
+          "VanDam suggests that different styles of parental speech give a baby more types of language to practise."
+        ],
+        [
+          65,
+          "Section D",
+          "The more babies babble, and the more the words they produce later in life",
+          "Ramirez-Esparza links the amount of baby talk with increased babbling and later vocabulary."
+        ],
+        [
+          64,
+          "Section C",
+          "equipped parents with recording devices and speech-recognition software",
+          "The researchers used recording devices and specialist software to observe everyday parent-child interaction."
+        ],
+        [
+          64,
+          "Section C",
+          "Dads didn't raise their pitch",
+          "Fathers did not generally modify the pitch of their speech in the same way as mothers."
+        ],
+        [
+          64,
+          "Section C",
+          "the bridge hypothesis",
+          "This hypothesis suggests that fathers' more adult-like speech prepares infants for language outside the family."
+        ],
+        [
+          64,
+          "Section C",
+          "a wider repertoire of kinds of speech",
+          "Exposure to different speaking styles expands the infant's range of speech patterns."
+        ],
+        [
+          64,
+          "Section D",
+          "audio-recording vests",
+          "Babies wore special recording vests to capture conversations throughout the day."
+        ],
+        [
+          64,
+          "Section D",
+          "boosted vocabulary",
+          "At age two, children exposed to more baby talk had a larger vocabulary."
+        ],
+        [
+          65,
+          "Section F",
+          "the brains of the older infants worked harder",
+          "The study compares brain activity in infants aged seven months and eleven and a half months."
+        ],
+        [
+          64,
+          "Section A",
+          "some hopeful parents to play classical music to their unborn babies",
+          "Playing music before birth is given as an example of parents attempting to benefit their unborn children."
+        ],
+        [
+          65,
+          "Section E",
+          "babies seem to like listening to each other rather than to adults",
+          "The study found that infant sounds held babies' attention longer than adult speech."
+        ],
+        [
+          68,
+          "Section C",
+          "Some have claimed that major glacier-fed rivers changed their course",
+          "The paragraph lists proposed explanations for the decline, including river changes, exhausted resources, invasion and climate change."
+        ],
+        [
+          69,
+          "Section H",
+          "learn from the past to engage with the public",
+          "Petrie explains how archaeological findings may inform modern water management, development and heritage preservation."
+        ],
+        [
+          68,
+          "Section A",
+          "left almost no depictions of themselves",
+          "Unlike contemporary Egyptians, the Harappans left very few images of themselves."
+        ],
+        [
+          68,
+          "Section B",
+          "Houses were arranged in blocks, with wide main streets and narrow alleyways",
+          "This paragraph describes the planned streets, blocks and water facilities of Harappan cities."
+        ],
+        [
+          68,
+          "Section D",
+          "found inaccuracies in the published geographic locations of ancient settlements",
+          "The team discovered errors in previous geographical records and conducted new surveys."
+        ],
+        [
+          69,
+          "Section E",
+          "gathered shells of Melanoides tuberculata snails",
+          "The researchers collected snail shells for geochemical analysis."
+        ],
+        [
+          69,
+          "Section E",
+          "sediments of an ancient lake",
+          "The shell samples came from lake sediments, enabling researchers to reconstruct changes in water levels."
+        ],
+        [
+          69,
+          "Section E",
+          "amount of evaporation from the lake exceeded the rainfall",
+          "Rainfall became insufficient to compensate for evaporation, indicating drought."
+        ],
+        [
+          69,
+          "Section G",
+          "analysing grains cultivated at the time",
+          "Ancient grains help researchers identify how agricultural practices adapted to water stress."
+        ],
+        [
+          69,
+          "Section G",
+          "types of pottery used",
+          "Pottery and other material objects are examined to identify regional connections."
+        ],
+        [
+          69,
+          "Section F",
+          "vital that we obtain more climate data from areas close to the great cities",
+          "Singh stresses the need for additional climate evidence from areas where Harappan people lived."
+        ],
+        [
+          69,
+          "Section H",
+          "By investigating responses to environmental pressures ... we can learn from the past",
+          "Petrie believes studying past behaviour can improve future responses to environmental challenges."
+        ],
+        [
+          69,
+          "Section E",
+          "We estimate that the weakening of the Indian summer monsoon climate lasted about 200 years",
+          "Hodell gives an approximate duration for the prolonged dry period."
+        ],
+        [
+          68,
+          "Section B",
+          "relatively little about its fall",
+          "Petrie notes that archaeological evidence about the civilisation's decline is much more limited than evidence about its rise."
+        ]
+      ],
+      "listening": [
+        [
+          108,
+          "something reasonable for 850 pounds per month",
+          "Linda estimates that a reasonable monthly rent is £850, although it could be as high as £900."
+        ],
+        [
+          108,
+          "I go by bike",
+          "Linda cycles to work because she lives near the city centre."
+        ],
+        [
+          108,
+          "there's hardly any parking",
+          "Parking in the city centre is limited, so driving is difficult."
+        ],
+        [
+          108,
+          "a fast train every 30 minutes",
+          "The fast London service runs every thirty minutes and takes about forty-five minutes."
+        ],
+        [
+          108,
+          "It's weekends that are a problem",
+          "Weekend engineering work disrupts rail services and passengers may need to use buses."
+        ],
+        [
+          108,
+          "a brand new cinema",
+          "A new cinema has opened recently."
+        ],
+        [
+          108,
+          "the hospital here is one of the best in the country",
+          "The local hospital has an excellent reputation."
+        ],
+        [
+          108,
+          "my dentist too in Bridge Street",
+          "Linda recommends her dentist on Bridge Street."
+        ],
+        [
+          108,
+          "Either a Tuesday or Thursday is good for me, after 5.30",
+          "Thursday is preferable because she must be home by six on Tuesday."
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          110,
+          "I went to a carpet shop with my parents when we were on holiday in Turkey",
+          "Seeing colourful carpets during a holiday originally inspired Jim's interest, rather than the later museum exhibition or book."
+        ],
+        [
+          110,
+          "I looked at cotton and wool and nylon",
+          "Jim expanded the experiment to include different fibres and various dyes."
+        ],
+        [
+          110,
+          "I had to chop up a whole pile of it",
+          "Jim was surprised by the large quantity of beetroot needed to produce the dye."
+        ],
+        [
+          110,
+          "when I rinsed the material, the colour just washed away",
+          "Tartrazine initially coloured cotton but washed out, so it was not a permanent dye."
+        ],
+        [
+          110,
+          "it washes and it's gone",
+          "Turmeric does not produce a long-lasting colour when used to dye fabric."
+        ],
+        [
+          110,
+          "the wool ended up just a sort of watery cream shade",
+          "Beetroot produced an unexpected pale colour rather than the red Jim anticipated."
+        ],
+        [
+          110,
+          "It fell out of use centuries ago",
+          "Tyrian purple is no longer generally available, although a researcher recently obtained a sample."
+        ],
+        [
+          111,
+          "it can be extremely dangerous if it's ingested",
+          "Logwood is poisonous if swallowed, requiring careful handling."
+        ],
+        [
+          111,
+          "But it cost a fortune",
+          "Cochineal dye was expensive to obtain."
+        ],
+        [
+          111,
+          "the metal can actually affect the fabric",
+          "Metal oxide may harm the fabric, so the dyeing process requires care."
+        ],
+        [
+          111,
+          "the colour of their tongues",
+          "The lizards are recognisable by their distinctive deep-blue tongues."
+        ],
+        [
+          111,
+          "they have quite a varied diet ... plants",
+          "Although the lizards also eat insects and small animals, their diet consists mainly of plants."
+        ],
+        [
+          111,
+          "quite a lot of sleepy lizards were killed by snakes",
+          "Snakes are a natural predator of the sleepy lizard, alongside large birds."
+        ],
+        [
+          111,
+          "use the sky ... they didn't need any other landmarks on the ground",
+          "The study found that sleepy lizards could navigate using the sky rather than ground landmarks."
+        ],
+        [
+          111,
+          "returning to the same partner year after year",
+          "Sleepy lizards are relatively monogamous and repeatedly return to the same partner."
+        ],
+        [
+          112,
+          "hardly any contact with their parents",
+          "Young lizards have little contact with their parents after hatching, weakening the theory of parental care."
+        ],
+        [
+          112,
+          "give the female lizards protection from other males",
+          "One possible explanation for staying together is protection for female lizards."
+        ],
+        [
+          112,
+          "we fixed this onto their tails",
+          "The researchers attached tiny GPS tracking devices to the lizards' tails."
+        ],
+        [
+          112,
+          "how many steps they took during this period",
+          "The tracking system recorded movement and the number of steps."
+        ],
+        [
+          112,
+          "lizards can cause quite serious injuries to one another",
+          "Avoiding other lizards may reduce the risk of injury caused by encounters."
+        ]
+      ]
+    }
   }
 };
