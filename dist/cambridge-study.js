@@ -4465,5 +4465,643 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "13-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "propulsion (n.)",
+          "definition": "The force that moves a vehicle forward.",
+          "example": "Steam propulsion changed maritime transport."
+        },
+        {
+          "word": "clipper (n.)",
+          "definition": "A fast sailing ship used for trade.",
+          "example": "Clippers carried valuable cargo across oceans."
+        },
+        {
+          "word": "prestige (n.)",
+          "definition": "Respect or admiration associated with achievement or status.",
+          "example": "The race brought prestige to the winning ship."
+        },
+        {
+          "word": "maiden voyage (n.)",
+          "definition": "The first journey of a ship.",
+          "example": "The vessel left port on its maiden voyage."
+        },
+        {
+          "word": "rudder (n.)",
+          "definition": "A movable part used to steer a ship.",
+          "example": "The storm damaged the ship's rudder."
+        },
+        {
+          "word": "daunting (adj.)",
+          "definition": "Seeming difficult or intimidating.",
+          "example": "Repairing the vessel at sea was a daunting task."
+        },
+        {
+          "word": "cargo capacity (n.)",
+          "definition": "The amount of goods a vehicle can carry.",
+          "example": "Steamships had increasing cargo capacity."
+        },
+        {
+          "word": "incompetent (adj.)",
+          "definition": "Lacking the ability to do something properly.",
+          "example": "The company replaced its incompetent manager."
+        },
+        {
+          "word": "navigator (n.)",
+          "definition": "A person skilled in planning and directing a journey.",
+          "example": "The captain was an experienced navigator."
+        },
+        {
+          "word": "life expectancy (n.)",
+          "definition": "The expected length of existence or survival.",
+          "example": "Maintenance extended the ship's life expectancy."
+        },
+        {
+          "word": "gale (n.)",
+          "definition": "A very strong wind.",
+          "example": "A gale forced the ship into harbour."
+        },
+        {
+          "word": "degradation (n.)",
+          "definition": "A decline in quality or condition.",
+          "example": "Soil degradation threatens agricultural productivity."
+        },
+        {
+          "word": "decompose (v.)",
+          "definition": "Break down into simpler substances.",
+          "example": "Organic matter decomposes naturally in the soil."
+        },
+        {
+          "word": "antibiotic-resistant (adj.)",
+          "definition": "Able to survive treatment with antibiotics.",
+          "example": "Scientists are studying antibiotic-resistant bacteria."
+        },
+        {
+          "word": "cultivate (v.)",
+          "definition": "Prepare land and grow crops.",
+          "example": "Farmers cultivate different crops each season."
+        },
+        {
+          "word": "synthetic (adj.)",
+          "definition": "Made artificially rather than occurring naturally.",
+          "example": "Synthetic fertilisers supply nutrients to crops."
+        },
+        {
+          "word": "indiscriminate (adj.)",
+          "definition": "Done without careful consideration or selection.",
+          "example": "Indiscriminate use of chemicals can damage ecosystems."
+        },
+        {
+          "word": "acidic (adj.)",
+          "definition": "Containing acid or having a low pH.",
+          "example": "Some plants grow poorly in acidic soil."
+        },
+        {
+          "word": "cocktail (n.)",
+          "definition": "A mixture of several substances.",
+          "example": "The treatment contains a cocktail of beneficial microorganisms."
+        },
+        {
+          "word": "humus (n.)",
+          "definition": "Organic material in soil formed from decayed plants and animals.",
+          "example": "Humus improves soil structure."
+        },
+        {
+          "word": "benchmark (n.)",
+          "definition": "A standard against which other results can be compared.",
+          "example": "Healthy soil provides a benchmark for restoration."
+        },
+        {
+          "word": "neutrality (n.)",
+          "definition": "The state of being balanced or having no net effect.",
+          "example": "The policy aims to achieve carbon neutrality."
+        },
+        {
+          "word": "self-evident (adj.)",
+          "definition": "Clearly true without requiring proof.",
+          "example": "The argument assumes that happiness is self-evidently valuable."
+        },
+        {
+          "word": "collective (adj.)",
+          "definition": "Shared by or involving a group of people.",
+          "example": "The policy aims to promote collective well-being."
+        },
+        {
+          "word": "implement (v.)",
+          "definition": "Put a plan or decision into effect.",
+          "example": "The government implemented the new programme."
+        },
+        {
+          "word": "oblivious (adj.)",
+          "definition": "Unaware of something happening around oneself.",
+          "example": "The author argues that some thinkers are oblivious to earlier ideas."
+        },
+        {
+          "word": "philosophical (adj.)",
+          "definition": "Relating to fundamental questions about knowledge, existence or values.",
+          "example": "The book explores philosophical accounts of happiness."
+        },
+        {
+          "word": "propound (v.)",
+          "definition": "Put forward an idea or theory for consideration.",
+          "example": "The philosopher propounded a theory of moral action."
+        },
+        {
+          "word": "ethical (adj.)",
+          "definition": "Relating to principles of right and wrong.",
+          "example": "The proposal raises ethical questions."
+        },
+        {
+          "word": "inquiry (n.)",
+          "definition": "A systematic investigation or examination.",
+          "example": "Scientific inquiry requires reliable evidence."
+        },
+        {
+          "word": "unforgeable (adj.)",
+          "definition": "Impossible or extremely difficult to copy fraudulently.",
+          "example": "The device was intended to print unforgeable banknotes."
+        },
+        {
+          "word": "solitary confinement (n.)",
+          "definition": "The isolation of a prisoner from other people.",
+          "example": "The prison design involved solitary confinement."
+        },
+        {
+          "word": "quantify (v.)",
+          "definition": "Express or measure something as a numerical amount.",
+          "example": "Researchers attempted to quantify well-being."
+        },
+        {
+          "word": "entrepreneurship (n.)",
+          "definition": "The activity of creating and managing business ventures.",
+          "example": "The programme encourages entrepreneurship."
+        },
+        {
+          "word": "reductive (adj.)",
+          "definition": "Simplifying a complex issue in a way that ignores important details.",
+          "example": "The reviewer rejects a reductive account of human motivation."
+        },
+        {
+          "word": "intellectual pedigree (n.)",
+          "definition": "The history and intellectual origins of an idea.",
+          "example": "The theory has a long intellectual pedigree."
+        },
+        {
+          "word": "manipulate (v.)",
+          "definition": "Control or influence someone or something, often unfairly.",
+          "example": "The author warns against attempts to manipulate behaviour."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          82,
+          "Paragraph 2",
+          "built to transport goods around the world, although some also took passengers",
+          "Clippers were designed primarily to carry goods, not originally as passenger ships."
+        ],
+        [
+          82,
+          "Paragraph 3",
+          "name comes from the poem Tam O'Shanter",
+          "The name refers to a short nightdress worn by a character, not the character's own name."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "the contract with them put him in a very strong position",
+          "Willis negotiated a contract that favoured him."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "designed to make the journey more quickly than any other ship",
+          "Willis wanted Cutty Sark to outperform its rivals on the China tea route."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "Cutty Sark reached London a week after Thermopylae",
+          "Damage to the rudder delayed Cutty Sark, so it lost the race."
+        ],
+        [
+          83,
+          "Paragraph 6",
+          "Steam ships reduced the journey time between Britain and China",
+          "The Suez Canal gave steamships a shorter and more direct route that sailing ships could not easily use."
+        ],
+        [
+          83,
+          "Paragraph 6",
+          "sailing ships needed the much stronger winds of the oceans",
+          "The passage contrasts routes but does not establish whether steamships sometimes used the ocean route."
+        ],
+        [
+          83,
+          "Paragraph 8",
+          "dangerously close to icebergs off the southern tip of South America",
+          "Woodget took the ship close to icebergs to benefit from stronger winds."
+        ],
+        [
+          83,
+          "Paragraph 7",
+          "transporting wool from Australia to Britain",
+          "Wool became the ship's principal cargo during its successful period after 1880."
+        ],
+        [
+          83,
+          "Paragraph 8",
+          "was an excellent navigator",
+          "Woodget is explicitly described as a skilled navigator."
+        ],
+        [
+          83,
+          "Paragraph 10",
+          "Badly damaged in a gale in 1922",
+          "The storm damage led to repairs at Falmouth."
+        ],
+        [
+          83,
+          "Final paragraph",
+          "used Cutty Sark as a training ship",
+          "The vessel served as a training ship before its transfer to dry dock in 1954."
+        ],
+        [
+          83,
+          "Final paragraph",
+          "suffered from fire in 2007, and again, less seriously, in 2014",
+          "Two fires damaged the ship during the twenty-first century."
+        ],
+        [
+          85,
+          "Section B",
+          "decomposing plants and various minerals",
+          "Healthy soil contains minerals as well as microorganisms and decaying plant matter."
+        ],
+        [
+          85,
+          "Section B",
+          "holding three times the amount of carbon",
+          "Soil stores substantial amounts of carbon, giving it an important role in climate regulation."
+        ],
+        [
+          85,
+          "Section B",
+          "Soils also store water, preventing flood damage",
+          "Stored water helps reduce floods and damage to infrastructure."
+        ],
+        [
+          85,
+          "Section C",
+          "Agriculture is by far the biggest problem",
+          "Agriculture is identified as the main human cause of soil degradation."
+        ],
+        [
+          85,
+          "Section C",
+          "Humans tend not to return unused parts of harvested crops",
+          "Removing plant material interrupts the natural return of nutrients to the soil."
+        ],
+        [
+          86,
+          "Section D",
+          "turning it acidic and salty, and degrading the soil",
+          "Synthetic fertilisers can damage soil, pollute waterways and release gases into the atmosphere."
+        ],
+        [
+          86,
+          "Section E",
+          "a good crop of plants emerged",
+          "Floris's mixture improved plant growth and health compared with the conventionally fertilised plots."
+        ],
+        [
+          86,
+          "Section G",
+          "an easily understood target that can help shape expectations and encourage action",
+          "A clear goal can communicate soil degradation to policymakers and encourage action."
+        ],
+        [
+          86,
+          "Section E",
+          "the best way to ensure his trees flourished was to take care of the soil",
+          "Floris's work with trees motivated him to improve soil health."
+        ],
+        [
+          85,
+          "Section C",
+          "when the plants die and decay these nutrients are returned",
+          "Before intensive farming, decaying plants naturally replenished soil nutrients."
+        ],
+        [
+          86,
+          "Section F",
+          "surveys, satellite imagery, lab analyses and so on",
+          "The Global Soil Map project combines several data-collection techniques."
+        ],
+        [
+          86,
+          "Section G",
+          "creation of protected zones for endangered soils",
+          "Protected areas are proposed as a way to safeguard vulnerable soils."
+        ],
+        [
+          86,
+          "Section F",
+          "no agreed international system for classifying soil",
+          "The lack of a common classification system makes a global overview difficult."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "oblivious to the vast philosophical literature",
+          "The reviewer criticises positive psychology advocates for neglecting earlier philosophical thinking about happiness."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "Aristotle may have identified happiness with self-realisation",
+          "Aristotle illustrates an alternative conception of happiness beyond pleasure and the absence of pain."
+        ],
+        [
+          90,
+          "Paragraph 4",
+          "set the stage for the entangling of psychological research and capitalism",
+          "Linking money with inner experience established an important connection between psychology and economic activity."
+        ],
+        [
+          89,
+          "Paragraph 3",
+          "linked together through a set of conversation tubes",
+          "Bentham proposed a system for communication between government departments."
+        ],
+        [
+          90,
+          "Paragraph 3, continued",
+          "unforgeable banknotes",
+          "His printing device aimed to improve banknote security by preventing forgery."
+        ],
+        [
+          90,
+          "Paragraph 3, continued",
+          "a frigidarium to keep provisions",
+          "The device was intended to preserve food."
+        ],
+        [
+          90,
+          "Paragraph 3, continued",
+          "being visible at all times to the guards",
+          "The prison's design enabled continuous observation of prisoners."
+        ],
+        [
+          90,
+          "Paragraph 4",
+          "If happiness is to be regarded as a science, it has to be measured",
+          "Bentham proposed methods for measuring happiness, such as pulse rate and money."
+        ],
+        [
+          90,
+          "Paragraph 5",
+          "how the project of a science of happiness has become integral to capitalism",
+          "The reviewer values the book's examination of the relationship between psychological research and capitalism."
+        ],
+        [
+          90,
+          "Paragraph 5",
+          "inner states of pleasure and displeasure can be objectively measured",
+          "The review describes attempts to measure internal states but does not compare the difficulty of measuring different emotions."
+        ],
+        [
+          90,
+          "Paragraph 5",
+          "His research had been confined to experiments on white rats",
+          "Watson had not studied human subjects before becoming president of the association in 1915."
+        ],
+        [
+          90,
+          "Paragraph 5",
+          "is now widely applied ... in Britain",
+          "The reviewer provides an example from Britain but does not compare the influence of Watson's ideas inside and outside America."
+        ],
+        [
+          90,
+          "Final paragraph",
+          "Modern industrial societies appear to need the possibility of ever-increasing happiness",
+          "The reviewer links the pursuit of ever-increasing happiness with the motivation of workers in industrial societies."
+        ],
+        [
+          90,
+          "Final paragraph",
+          "always a threat to human freedom",
+          "The reviewer opposes the idea that governments should be responsible for promoting citizens' happiness."
+        ]
+      ],
+      "listening": [
+        [
+          113,
+          "I did my initial training in Finance",
+          "Alex's original training department was Finance, although he now works in customer services."
+        ],
+        [
+          113,
+          "I failed Maths",
+          "Alex lacked a school qualification in Maths, but additional training allowed him to overcome the difficulty."
+        ],
+        [
+          113,
+          "I took the one on IT skills but I wish I'd done that one instead",
+          "Alex regrets choosing IT skills rather than the business skills diploma Martha intends to take."
+        ],
+        [
+          113,
+          "one person younger than me, who was 17",
+          "The youngest trainee was seventeen years old."
+        ],
+        [
+          113,
+          "you get the same number of days' holiday as everyone else",
+          "Although trainees receive lower wages, their holiday entitlement matches permanent employees."
+        ],
+        [
+          113,
+          "one day each month",
+          "Trainees attend college once a month."
+        ],
+        [
+          113,
+          "the location's a real advantage",
+          "The company's proximity to the railway station makes its location convenient."
+        ],
+        [
+          114,
+          "Nothing too casual, like jeans",
+          "Alex advises against wearing jeans to the interview."
+        ],
+        [
+          114,
+          "arrive in plenty of time",
+          "Candidates should avoid arriving late because the company dislikes lateness."
+        ],
+        [
+          114,
+          "the main thing is to smile",
+          "A manager's advice was to smile during the interview, even when feeling nervous."
+        ],
+        [
+          114,
+          "get away from these and go off on your own",
+          "Annie recommends exploring beyond the regular cross-country trails rather than staying on them."
+        ],
+        [
+          114,
+          "have your own team for the afternoon and learn how to drive them",
+          "Anyone interested can learn to drive a dog team."
+        ],
+        [
+          114,
+          "there's a medal for everyone who takes part",
+          "All relay participants receive a medal, not just the winners."
+        ],
+        [
+          114,
+          "you'll enjoy spectacular views",
+          "The snow-shoe trip crosses an old mining area and reaches a high vantage point on the mountain."
+        ],
+        [
+          114,
+          "cooking facilities, firewood and water for drinking",
+          "Drinking water is included; visitors arrange their own food and luggage transport."
+        ],
+        [
+          114,
+          "stay in the hut until it passes",
+          "In a storm, visitors should remain in the hut until conditions improve."
+        ],
+        [
+          115,
+          "give first-timers an experience they'll enjoy ... also ideal for experts",
+          "The Highland Trail caters to all skill levels."
+        ],
+        [
+          115,
+          "if you've fully mastered the techniques needed for hills",
+          "The Pine Trail is recommended only to experienced skiers with suitable skills."
+        ],
+        [
+          115,
+          "There's a shelter half-way where you can sit and take a break",
+          "Stony Trail provides a sheltered resting place."
+        ],
+        [
+          115,
+          "check with us before you set out to make sure the trail's open",
+          "The exposed section of Loser's Trail may be closed in adverse weather."
+        ],
+        [
+          115,
+          "I've never really been concerned enough to check how healthy a lot of the food is",
+          "Jack previously checked labels for peanuts because of his allergy, but did not read all nutritional information."
+        ],
+        [
+          115,
+          "I now realise that the 'healthy' yoghurt ... is full of sugar",
+          "Alice had not realised that certain foods contained so much sugar and were high in calories."
+        ],
+        [
+          115,
+          "the nutritional values given are for half a pizza",
+          "The students agree that giving figures for only half a pizza can mislead consumers."
+        ],
+        [
+          115,
+          "at least you get the full story",
+          "Jack prefers the daily value system because it provides more comprehensive information."
+        ],
+        [
+          115,
+          "they only contain artificial additives",
+          "The students expected chicken-flavoured crisps to contain some real chicken, but there was none."
+        ],
+        [
+          116,
+          "Those findings weren't that conclusive",
+          "The research was small-scale and did not provide clear evidence about changes in buying behaviour."
+        ],
+        [
+          116,
+          "it's not been adopted universally and not on all products",
+          "The students are surprised that the system is not mandatory for all supermarkets and products. The two correct options can be given in either order."
+        ],
+        [
+          116,
+          "brought in without enough consultation",
+          "The students are also surprised by how little prior consultation and research was carried out."
+        ],
+        [
+          116,
+          "people from all socio-economic groups",
+          "The study included participants from different socioeconomic backgrounds. The two options can be given in either order."
+        ],
+        [
+          116,
+          "interviewed participants face-to-face",
+          "The study used in-person interviews, although the students question the limited sample size."
+        ],
+        [
+          117,
+          "demanded the destruction of all the coffee houses",
+          "In 1623, the ruler of Constantinople ordered the coffee houses to be destroyed."
+        ],
+        [
+          117,
+          "performed a similar function to universities",
+          "Coffee houses enabled discussion and exchange of ideas, prompting comparisons with universities."
+        ],
+        [
+          117,
+          "many social movements and political developments",
+          "Coffee house discussions contributed to social movements and political changes."
+        ],
+        [
+          117,
+          "types ... were often taken from the port they were shipped from",
+          "Coffee varieties were frequently named after the ports from which they were exported."
+        ],
+        [
+          117,
+          "the workers there were almost all slaves",
+          "Large plantations in Brazil and the Caribbean depended heavily on enslaved labour."
+        ],
+        [
+          117,
+          "passed a proportion of their crop ... as a means of taxation",
+          "In Java, coffee growers gave part of their harvest as tax."
+        ],
+        [
+          117,
+          "nearly as important as sugar production",
+          "Coffee became comparable to sugar as a major colonial commodity."
+        ],
+        [
+          117,
+          "they identified this drink with Britain",
+          "Tea became popular in Britain, while coffee remained the preferred drink in the United States after independence."
+        ],
+        [
+          117,
+          "new types of transportation had been developed",
+          "Cheaper and more efficient transport contributed to a fall in coffee prices."
+        ],
+        [
+          117,
+          "work didn't stop when it got dark ... throughout the night",
+          "Coffee helped workers remain alert during night shifts as industrial working patterns changed."
+        ]
+      ]
+    }
   }
 };
