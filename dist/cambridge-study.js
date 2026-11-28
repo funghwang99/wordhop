@@ -21830,12 +21830,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "inner-city slum (n.)",
           "definition": "A poor, overcrowded urban area with inadequate housing.",
-          "example": "The redevelopment project replaced inner-city slums with modern flats."
+          "example": "The redevelopment project replaced inner-city slums with modern flats.",
+          "clozeAnswer": "inner-city slums"
         },
         {
           "word": "submit (v.)",
           "definition": "To formally present something for consideration.",
-          "example": "The architects submitted their proposal to the council."
+          "example": "The architects submitted their proposal to the council.",
+          "clozeAnswer": "submitted"
         },
         {
           "word": "coincide with (v. phr.)",
@@ -21845,7 +21847,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "merge (v.)",
           "definition": "To combine two or more things into one.",
-          "example": "The two companies merged to expand their services."
+          "example": "The two companies merged to expand their services.",
+          "clozeAnswer": "merged"
         },
         {
           "word": "raise funding (v. phr.)",
@@ -21865,17 +21868,20 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "emission (n.)",
           "definition": "A substance released into the air, especially a pollutant.",
-          "example": "Vehicle emissions contribute to poor air quality."
+          "example": "Vehicle emissions contribute to poor air quality.",
+          "clozeAnswer": "emissions"
         },
         {
           "word": "persist (v.)",
           "definition": "To continue despite difficulty or opposition.",
-          "example": "The researchers persisted despite early failures."
+          "example": "The researchers persisted despite early failures.",
+          "clozeAnswer": "persisted"
         },
         {
           "word": "demolish (v.)",
           "definition": "To destroy a building or other structure completely.",
-          "example": "The old warehouse was demolished to make space for housing."
+          "example": "The old warehouse was demolished to make space for housing.",
+          "clozeAnswer": "demolished"
         },
         {
           "word": "trench (n.)",
@@ -21890,12 +21896,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "authorise (v.)",
           "definition": "To give official permission for something.",
-          "example": "The government authorised construction of the bridge."
+          "example": "The government authorised construction of the bridge.",
+          "clozeAnswer": "authorised"
         },
         {
           "word": "ventilation shaft (n.)",
           "definition": "A vertical passage that allows air to enter or escape.",
-          "example": "Ventilation shafts help remove stale air from tunnels."
+          "example": "Ventilation shafts help remove stale air from tunnels.",
+          "clozeAnswer": "Ventilation shafts"
         },
         {
           "word": "congestion (n.)",
@@ -21945,12 +21953,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "soar (v.)",
           "definition": "To increase very quickly to a high level.",
-          "example": "Construction costs soared as material prices rose."
+          "example": "Construction costs soared as material prices rose.",
+          "clozeAnswer": "soared"
         },
         {
           "word": "fall into disuse (v. phr.)",
           "definition": "To stop being used over time.",
-          "example": "The abandoned railway station fell into disuse."
+          "example": "The abandoned railway station fell into disuse.",
+          "clozeAnswer": "fell into disuse"
         },
         {
           "word": "disrepair (n.)",
@@ -21965,7 +21975,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "adapt (v.)",
           "definition": "To change something to make it suitable for a new use.",
-          "example": "The former factory was adapted into a cultural centre."
+          "example": "The former factory was adapted into a cultural centre.",
+          "clozeAnswer": "adapted"
         },
         {
           "word": "emblematic (adj.)",
@@ -21995,7 +22006,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "endure (v.)",
           "definition": "To continue to exist over a long period of time.",
-          "example": "Some Roman structures have endured for centuries."
+          "example": "Some Roman structures have endured for centuries.",
+          "clozeAnswer": "endured"
         },
         {
           "word": "acoustics (n. pl.)",
@@ -22005,7 +22017,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "absorb into the fabric of (v. phr.)",
           "definition": "To become integrated into the structure or character of something.",
-          "example": "The old market was absorbed into the fabric of the modern city."
+          "example": "The old market was absorbed into the fabric of the modern city.",
+          "clozeAnswer": "absorbed into the fabric of"
         },
         {
           "word": "depot (n.)",
@@ -22040,7 +22053,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "mixed-use development (n.)",
           "definition": "A project combining different functions, such as housing, retail and offices.",
-          "example": "Mixed-use developments can reduce the need for car journeys."
+          "example": "Mixed-use developments can reduce the need for car journeys.",
+          "clozeAnswer": "Mixed-use developments"
         },
         {
           "word": "regenerate (v.)",
@@ -22050,7 +22064,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "cater to (v. phr.)",
           "definition": "To provide what a particular group needs or wants.",
-          "example": "The sports complex caters to families and professional athletes."
+          "example": "The sports complex caters to families and professional athletes.",
+          "clozeAnswer": "caters to"
         },
         {
           "word": "blueprint (n.)",
@@ -22060,7 +22075,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "fluctuation (n.)",
           "definition": "An irregular change in level, amount or value.",
-          "example": "The system responds to fluctuations in electricity demand."
+          "example": "The system responds to fluctuations in electricity demand.",
+          "clozeAnswer": "fluctuations"
         },
         {
           "word": "photovoltaic (adj.)",
@@ -22075,7 +22091,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "be executed (v. phr.)",
           "definition": "To be put to death as a legal or political punishment.",
-          "example": "The ruler was executed after the revolution."
+          "example": "The ruler was executed after the revolution.",
+          "clozeAnswer": "was executed"
         },
         {
           "word": "comprehensively (adv.)",
@@ -22095,7 +22112,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "seek refuge (v. phr.)",
           "definition": "To look for a safe place or protection from danger.",
-          "example": "Families sought refuge in nearby villages."
+          "example": "Families sought refuge in nearby villages.",
+          "clozeAnswer": "sought refuge"
         },
         {
           "word": "penniless (adj.)",
@@ -22110,12 +22128,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "commit something to paper (v. phr.)",
           "definition": "To record an idea or account in writing.",
-          "example": "She committed her childhood memories to paper."
+          "example": "She committed her childhood memories to paper.",
+          "clozeAnswer": "committed her childhood memories to paper"
         },
         {
           "word": "recollection (n.)",
           "definition": "A memory of a past experience or event.",
-          "example": "His recollections helped historians understand the period."
+          "example": "His recollections helped historians understand the period.",
+          "clozeAnswer": "recollections"
         },
         {
           "word": "intrigue (n.)",
@@ -22130,12 +22150,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "dye (v.)",
           "definition": "To change the colour of something using a colouring substance.",
-          "example": "The fabric was dyed a darker shade of blue."
+          "example": "The fabric was dyed a darker shade of blue.",
+          "clozeAnswer": "dyed"
         },
         {
           "word": "scour (v.)",
           "definition": "To search a place very thoroughly.",
-          "example": "Search teams scoured the countryside for the missing hiker."
+          "example": "Search teams scoured the countryside for the missing hiker.",
+          "clozeAnswer": "scoured"
         },
         {
           "word": "preposterous (adj.)",
@@ -22145,12 +22167,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "disguise (v.)",
           "definition": "To change someone's appearance to prevent recognition.",
-          "example": "He disguised himself as a merchant to cross the border."
+          "example": "He disguised himself as a merchant to cross the border.",
+          "clozeAnswer": "disguised"
         },
         {
           "word": "beneath someone's dignity (phr.)",
           "definition": "Too humiliating or inappropriate for someone's social position.",
-          "example": "The official considered such behaviour beneath his dignity."
+          "example": "The official considered such behaviour beneath his dignity.",
+          "clozeAnswer": "beneath his dignity"
         },
         {
           "word": "cautiously (adv.)",
@@ -22165,22 +22189,26 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "bolt (v.)",
           "definition": "To fasten or secure a door using a metal bar or lock.",
-          "example": "The residents bolted their doors before nightfall."
+          "example": "The residents bolted their doors before nightfall.",
+          "clozeAnswer": "bolted"
         },
         {
           "word": "memorialise (v.)",
           "definition": "To preserve the memory of a person or event.",
-          "example": "The exhibition memorialises the lives of local workers."
+          "example": "The exhibition memorialises the lives of local workers.",
+          "clozeAnswer": "memorialises"
         },
         {
           "word": "depict (v.)",
           "definition": "To show or represent someone or something in art or writing.",
-          "example": "The painting depicts a scene from the civil war."
+          "example": "The painting depicts a scene from the civil war.",
+          "clozeAnswer": "depicts"
         },
         {
           "word": "commission (v.)",
           "definition": "To formally request and pay for a piece of work.",
-          "example": "The museum commissioned an artist to create a new portrait."
+          "example": "The museum commissioned an artist to create a new portrait.",
+          "clozeAnswer": "commissioned"
         },
         {
           "word": "deftly (adv.)",
