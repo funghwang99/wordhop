@@ -286,7 +286,7 @@ for(const test of volume15.tests){
       component.render({container:element,route:{volume:volume15,exam:test,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=element.innerHTML;
       const p=expected15[n][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'));
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'));
       assert(html.includes(base+'/'+skill+'/part-'+part));
       assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Correct source pages '+n+'/'+skill+'/'+part);
       assert(html.includes('Original book page'),'Original Cambridge 15 page placeholder exists before upload');
@@ -331,7 +331,7 @@ for(const exam of volume16.tests){
       const base='#/ielts/cambridge-ielts/'+volume16.id+'/'+exam.id;
       component.render({container:node,route:{volume:volume16,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=node.innerHTML,p=printed16[t][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'),'Cam 16 uses same WordHop interface');
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'),'Cam 16 uses same WordHop interface');
       assert(html.includes(base+'/'+skill+'/part-'+part),'Correct part URL');
       assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Printed page range valid');
       assert(html.includes('Original book page'),'Source page placeholder shown before the ZIP upload');
@@ -381,7 +381,7 @@ for(const exam of volume17.tests){
       const base='#/ielts/cambridge-ielts/'+volume17.id+'/'+exam.id;
       component.render({container:element,route:{volume:volume17,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=element.innerHTML,p=printed17[t][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'));
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'));
       assert(html.includes(base+'/'+skill+'/part-'+part));
       assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Printed page group should match the PDF');
       assert(html.includes('Original book page'),'Source placeholder before upload');
@@ -447,7 +447,7 @@ for(const exam of volume18.tests){
       component.render({container,route:{volume:volume18,exam,skill,part},
         header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=container.innerHTML,p=pages18[n][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'));
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'));
       assert(html.includes(base+'/'+skill+'/part-'+part));
       assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Book page mapping must match source PDF');
       assert(html.includes('Original book page'),'Media pending state must not show broken images');
@@ -516,7 +516,7 @@ for(const exam of volume19.tests){
       const base='#/ielts/cambridge-ielts/'+volume19.id+'/'+exam.id;
       component.render({container:node,route:{volume:volume19,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=node.innerHTML,p=printed19[n][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'),'PET style retained');
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'),'PET style retained');
       assert(html.includes(base+'/'+skill+'/part-'+part),'Correct Cambridge 19 test route');
       assert(html.includes(p[0]===p[1]?String(p[0]):p.join('–')),'Source page group '+n+'/'+skill+'/'+part);
       assert(html.includes('Original book page'),'Pending media placeholders remain useful');
@@ -705,7 +705,7 @@ for(const exam of volume21.tests){
       component.render({container:el,route:{volume:volume21,exam,skill,part},
         header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=el.innerHTML,pg=printed21[n][skill][part-1];
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'),'Matching existing Cambridge UI');
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'),'Matching existing Cambridge UI');
       assert(html.includes(base+'/'+skill+'/part-'+part),'Source book URL stays isolated');
       assert(html.includes(pg[0]===pg[1]?String(pg[0]):pg.join('–')),'Original book page map');
       assert(html.includes('Original book page'),'No broken images while ZIP uploads are pending');
@@ -949,6 +949,29 @@ for(const exam of volume.tests){
 }
 assert.equal(replayCount,160);
 console.log('PASS: 160/160 Cam12 replay intervals; all replay handlers seek to start and pause at end in simulated audio playback.');
+
+// All newly populated Cambridge decks must expose both study routes in every test.
+for(const book of [15,16,17,18,19,20,21]){
+  const vol=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-'+book+(book===21?'-2026':''));
+  assert(vol&&vol.tests.length===4,'Vocabulary volume '+book);
+  for(const exam of vol.tests){
+    const code=book+'-'+exam.id.slice(5),base='#/ielts/cambridge-ielts/'+vol.id+'/'+exam.id;
+    const words=context.window.WORDHOP_CAMBRIDGE_STUDY[code]?.vocabulary?.words;
+    assert(words?.length>=24,'Vocabulary deck '+code);
+    assert(words.every(w=>/\((n\.|v\.|adj\.|adv\.)\)$/.test(w.word)&&w.definition&&w.example),'English vocabulary data '+code);
+    for(const skill of ['listening','reading','writing','speaking','flashcards','practice']){
+      const node={innerHTML:''};
+      component.render({container:node,route:{volume:vol,exam,skill,part:1},header:'',base});
+      const html=node.innerHTML;
+      assert(html.includes('cm-six-skill-tabs'),code+' '+skill+' six tabs');
+      assert.equal((html.match(/class="unit-tab(?: active)?"/g)||[]).length,6,code+' '+skill+' six links');
+      assert(html.includes(base+'/flashcards/part-1')&&html.includes(base+'/practice/part-1'),code+' vocabulary links');
+      if(skill==='flashcards')assert(html.includes('cm-flipcard')&&html.includes('data-cam-vocab="speak"')&&html.includes(words.length+' words'),code+' flashcards');
+      if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>html.includes(label)),code+' practice');
+    }
+  }
+}
+console.log('PASS: CAM15–21 all 28 vocabulary decks; six tabs on every skill route, pronunciation and three practice modes.');
 
 // Check every current study replay cue, including CAM15, and exercise safe fallback.
 for(const book of [13,14,15,16]){
