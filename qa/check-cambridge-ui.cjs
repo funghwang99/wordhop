@@ -114,7 +114,7 @@ for(const exam of volume.tests){
       component.render({container:el,route:{volume,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base:'#/ielts/cambridge-ielts/'+volume.id+'/'+exam.id});
       assert(el.innerHTML.includes('Answer key &amp; explanations'),'Reviewed answer key for all parts');
       assert(el.innerHTML.includes('cam-review-evidence'),'Source evidence visible');
-      assert(el.innerHTML.includes(skill==='reading'?'data-evidence-page':'data-review-question'),'Evidence jump or replay control');
+      assert(el.innerHTML.includes(skill==='reading'?'data-evidence-page':'cam-review-status'),'Evidence jump or explicit replay status');
       values.delete('wordhop.cambridge.exam.v2.test-'+number+'.'+skill+'.part-'+part);
     }
   }
@@ -879,7 +879,13 @@ function submitOnRoute(book,volume,exam,skill,part,hash,routeSkill=skill){
   assert(eventDispatch('submit',form).defaultPrevented,'Native form submission prevented');
   assert(node.innerHTML.includes((to-from+1)+'/'+(to-from+1)+' correct'),code+' '+skill+' '+part+' full marks after actual submit');
   assert(node.innerHTML.includes('Answer key &amp; explanations'),'Review opened by actual submit');
-  if(skill==='listening')assert.equal((node.innerHTML.match(/data-review-question="/g)||[]).length,to-from+1,code+' every checked Listening question exposes replay');
+  if(skill==='listening'){
+    const study=context.window.WORDHOP_CAMBRIDGE_STUDY,legacy=context.window.WORDHOP_CAMBRIDGE12_CUES;
+    const matched=(context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH?.[code+'-'+part]||context.window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[code+'-'+part])?.matched===true;
+    const located=Array.from({length:to-from+1},(_,i)=>from+i).filter(n=>{const c=study?.[code]?.cues?.[n]||legacy?.[code]?.[n];return matched&&c?.length===3&&c.every(Number.isFinite)&&c[0]>=0&&c[1]>c[0]&&c[1]<=c[2];});
+    assert.equal((node.innerHTML.match(/data-review-question="/g)||[]).length,located.length,code+' only verified timestamp buttons');
+    assert(!node.innerHTML.includes('Replay section'));
+  }
   assert.equal(JSON.parse(values.get(storageKey)).checked,true,'Checked state saved');
   // Retry keeps previous responses while unlocking the answer sheet.
   const retry={dataset:{camAction:'retry'},closest:sel=>sel==='[data-cam-action]'?retry:null};
@@ -974,7 +980,7 @@ for(const book of [15,16,17,18,19,20,21]){
 }
 console.log('PASS: CAM15–21 all 28 vocabulary decks; six tabs on every skill route, pronunciation and three practice modes.');
 
-// Check every current study replay cue, including CAM15, and exercise safe fallback.
+// Check bounded answer replay and reject missing cues or unmatched recordings.
 for(const book of [13,14,15,16]){
   const vol=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-'+book);
   assert(vol,'Missing Cambridge volume '+book);
@@ -997,14 +1003,15 @@ for(const book of [13,14,15,16]){
       context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:true};
       component.render({container:node,route:{volume:vol,exam,skill:'listening',part},header:'',base});
       assert.equal((node.innerHTML.match(/Listen to (?:this answer|answer context)/g)||[]).length,located.length,code+' part '+part);
-      assert.equal((node.innerHTML.match(/Replay section/g)||[]).length,10-located.length);
+      assert.equal((node.innerHTML.match(/Answer replay unavailable: individual timestamp not verified/g)||[]).length,10-located.length);
+      assert(!node.innerHTML.includes('Replay section'));
       for(const n of questions){
         const cue=data.cues[n],method=data.cueMethod[n];
-        const label=!cue?'Replay section':method==='context'?'Listen to answer context':'Listen to this answer',status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:label,parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
+        const label=method==='context'?'Listen to answer context':'Listen to this answer',status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:label,parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
         if(!cue){
           assert.equal(data.cueAuditStatus[n],'unresolved-asr-gap');
-          eventDispatch('click',button);assert.equal(audio.currentTime,0);assert.equal(audio.paused,false);
-          eventDispatch('click',button);assert.equal(audio.paused,true);assert.equal(button.textContent,label);
+          assert(!node.innerHTML.includes('data-review-question="'+n+'"'));
+          const before=audio.currentTime;eventDispatch('click',button);assert.equal(audio.currentTime,before);assert.equal(audio.paused,true);assert(status.textContent.includes('unavailable'));
           fallbacks++;continue;
         }
         assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=duration&&cue[2]===duration);
@@ -1016,12 +1023,20 @@ for(const book of [13,14,15,16]){
       }
       context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:false};
       component.render({container:node,route:{volume:vol,exam,skill:'listening',part},header:'',base});
-      assert.equal((node.innerHTML.match(/Replay section/g)||[]).length,10);
+      assert.equal((node.innerHTML.match(/data-review-question="/g)||[]).length,0);
+      assert(!node.innerHTML.includes('Replay section'));
+      const n=located[0],status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:'Listen to this answer',parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
+      const before=audio.currentTime;
+      eventDispatch('click',button);assert.equal(audio.currentTime,before);assert.equal(audio.paused,true);assert(status.textContent.includes('unavailable'));
+      context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:true};
+      audio.duration=duration+5;
+      eventDispatch('click',button);assert.equal(audio.currentTime,before);assert.equal(audio.paused,true);assert(status.textContent.includes('duration does not match'));
+      audio.duration=duration;
       assert(!node.innerHTML.includes('Listen to this answer')&&!node.innerHTML.includes('Listen to answer context'));
       values.delete(key);
     }
   }
   assert.equal(checked+fallbacks,160);
   assert.equal(fallbacks,book===14?1:book===16?3:0);
-  console.log('PASS: CAM '+book+' '+checked+' specific replay handlers, '+contextual+' contextual labels, '+fallbacks+' safe missing-cue fallbacks; all 16 mismatched-source sections tested.');
+  console.log('PASS: CAM '+book+' '+checked+' specific replay handlers, '+contextual+' contextual labels, '+fallbacks+' missing cues disabled; all 16 mismatched-source and duration checks tested.');
 }
