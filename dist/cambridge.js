@@ -617,8 +617,16 @@
     cam12VocabDecks.set(test,merged);
     return merged;
   }
-  function cam12VocabStem(w){return w.word.replace(/\s*\((n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
-  function cam12VocabPos(w){return w.word.match(/\((n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
+  function cam12VocabStem(w){return w.word.replace(/\s*\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
+  function cam12VocabPos(w){return w.word.match(/\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
+  function cam12ClozeItem(w){
+    const term=cam12VocabStem(w),answer=w.clozeAnswer||term;
+    const escaped=answer.replace(/[.*+?^${}()|[\]\\]/g,'\\  function cam12VocabSessionFor(route,part){');
+    const pattern=new RegExp('\\b'+escaped+'\\b','i');
+    return pattern.test(w.example)
+      ? {sentence:w.example.replace(pattern,'__________'),answer}
+      : {sentence:'Recall the vocabulary from the definition: __________.',answer:term};
+  }
   function cam12VocabSessionFor(route,part){
     const key=testCode(route)+'-'+route.skill;
     if(!cam12VocabSession||cam12VocabSession.key!==key)cam12VocabSession={
@@ -645,7 +653,7 @@
         '<span class="flash-example">'+esc(word.example)+'</span></span></span></button></div>'+
         '<div class="flash-actions">'+btn('previous','Previous')+btn('flip','Flip card',true)+btn('next','Next')+'</div><p class="cm-swipe-help">Swipe left or right to change cards · Tap to flip</p></div>';
     }else if(v.mode==='menu'){
-      body='<p class="practice-intro">Choose a practice mode for the '+words.length+' words in this passage.</p>'+
+      body='<p class="practice-intro">Choose a practice mode for the '+words.length+' words in this test.</p>'+
         '<div class="practice-grid cm-pet-practice-grid">'+
         [['match','Matching','Match words and definitions in sets of five.'],['quiz','Multiple choice','Choose the correct word from four answers.'],
         ['cloze','Fill in the blanks','Type the missing word without a word bank.']].map(([a,label,description])=>
@@ -680,22 +688,19 @@
           (v.selected===i?'Correct!':'Correct answer: '+esc(term))+'</strong><em>'+esc(word.example)+'</em></div>')+
         '<div class="question-footer">'+btn('menu','Change mode')+btn('next-question',i===words.length-1?'See results':'Next',true,v.selected===null)+'</div></div></div>';
     }else if(v.mode==='cloze'){
-      const normterm=term.replace(/[.*+?^$()|[\]{}\\]/g,'\\$&');
-      const pattern=new RegExp(normterm,'i');
-      const sentence=pattern.test(word.example)?word.example.replace(pattern,'__________'):
-        word.example+' The target word is __________.';
+      const {sentence,answer}=cam12ClozeItem(word);
       body='<div class="game-wrap"><div class="game-top"><h2>Fill in the blanks</h2><span>'+(i+1)+'/'+words.length+' · '+v.score+' correct</span></div>'+
-        '<div class="question-card"><p class="instruction">Type the missing vocabulary. Press Enter to check.</p>'+
+        '<div class="question-card"><p class="instruction">Type the missing vocabulary as used in the sentence. Press Enter to check.</p>'+
         '<p class="cloze-sentence">'+esc(sentence)+'</p><p class="cm-cloze-clue">'+esc(word.definition)+'</p>'+
         '<div class="cloze-form"><label for="cam12-cloze-input">Your answer</label>'+
         '<input id="cam12-cloze-input" type="text" data-cam-cloze value="'+esc(v.typed)+'" autocomplete="off" spellcheck="false"'+(v.checked!==null?' disabled':'')+' /></div>'+
         (v.checked===null?'':'<div class="feedback'+(v.checked?'':' wrong')+'"><strong>'+
-        (v.checked?'Correct!':'Correct answer: '+esc(term))+'</strong><em>'+esc(word.example)+'</em></div>')+
+        (v.checked?'Correct!':'Correct answer: '+esc(answer))+'</strong><em>'+esc(word.example)+'</em></div>')+
         '<div class="question-footer">'+btn('menu','Change mode')+
         (v.checked===null?btn('check-cloze','Check answer',true):btn('next-question',i===words.length-1?'See results':'Next',true))+
         '</div></div></div>';
     }else if(v.mode==='results'){
-      body='<div class="result-summary"><h2>Practice complete!</h2><p>Your results for this passage</p>'+
+      body='<div class="result-summary"><h2>Practice complete!</h2><p>Your results for this test</p>'+
         '<div class="result-numbers"><div><strong>'+v.score+'</strong><small>Correct</small></div>'+
         '<div><strong>'+words.length+'</strong><small>Total words</small></div></div>'+
         '<div class="result-actions">'+btn('restart','Try again',true)+btn('menu','Choose another mode')+'</div></div>';
@@ -763,7 +768,7 @@
       const input=a.container.querySelector?.('[data-cam-cloze]');v.typed=String(input?.value||'').trim();
       if(!v.typed){input?.focus?.();return;}
       const clean=t=>String(t).trim().toLowerCase().replace(/[.!?,]+$/,'').replace(/\s+/g,' ');
-      v.checked=clean(v.typed)===clean(cam12VocabStem(words[v.index]));if(v.checked)v.score++;
+      v.checked=clean(v.typed)===clean(cam12ClozeItem(words[v.index]).answer);if(v.checked)v.score++;
     }else if(act==='next-question'){
       if(v.index+1>=n)v.mode='results';else{v.index++;v.selected=null;v.typed='';v.checked=null;}
     }
