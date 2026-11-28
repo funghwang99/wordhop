@@ -12792,7 +12792,212 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "Redeployment helped staff remain employed."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          98,
+          "special cover that goes round an egg",
+          "The cover protects an egg when it is dropped."
+        ],
+        [
+          98,
+          "make the highest tower",
+          "The competition is to build the tallest tower."
+        ],
+        [
+          98,
+          "design and build a car",
+          "The children build a car powered by air from a balloon."
+        ],
+        [
+          98,
+          "construct animals",
+          "Junior Engineers construct animal models as well as vehicles."
+        ],
+        [
+          98,
+          "to build a bridge",
+          "The competition involves building a bridge using recycled materials."
+        ],
+        [
+          98,
+          "a short movie and then film it",
+          "The animation activity involves making a movie or film."
+        ],
+        [
+          98,
+          "decorate it and program it",
+          "The children decorate the robot before programming it."
+        ],
+        [
+          99,
+          "we moved them to Wednesdays",
+          "The classes now take place on Wednesdays rather than Mondays."
+        ],
+        [
+          99,
+          "Fradstone Industrial Estate",
+          "The workshops are located on Fradstone Industrial Estate."
+        ],
+        [
+          99,
+          "will I have any parking problems there",
+          "The staff member confirms that parking is available."
+        ],
+        [
+          99,
+          "finished his apprenticeship, in 1926",
+          "The company was established in 1926, not when the founder left school in 1923."
+        ],
+        [
+          99,
+          "make goods for hospitals and other players in the healthcare industry",
+          "The company initially produced healthcare goods rather than machine or automotive products."
+        ],
+        [
+          99,
+          "we intend to carry out major refurbishment of this site",
+          "The company plans to improve its current premises instead of moving."
+        ],
+        [
+          99,
+          "a presentation from one of the managers",
+          "The work experience programme includes presentations by staff."
+        ],
+        [
+          100,
+          "the door facing you at the end is the entrance to the coffee room",
+          "The coffee room is at the corridor end, with views of the road and trees."
+        ],
+        [
+          100,
+          "the warehouse, which can be accessed by lorries going up the road",
+          "The warehouse is next to the factory, with access from the turning area."
+        ],
+        [
+          100,
+          "the staff canteen. This is right next to reception",
+          "The canteen is directly beside reception."
+        ],
+        [
+          100,
+          "walking along the corridor to the left of the courtyard",
+          "The meeting room is the last room on the right of that corridor."
+        ],
+        [
+          100,
+          "the second room you come to",
+          "Human resources is the second room along the left corridor from reception."
+        ],
+        [
+          100,
+          "the boardroom is on the left, next to the factory",
+          "The boardroom is at the corridor end on the left, next to the factory."
+        ],
+        [
+          100,
+          "What about the trip to the Natural History Museum",
+          "Both students approve of the museum trip rather than the Bird Park visit."
+        ],
+        [
+          100,
+          "the more I read, the more interested I got",
+          "The research handouts helped both students become interested in the project."
+        ],
+        [
+          101,
+          "it's best not to be too precise about your actual outcome",
+          "Both agree to make the proposed outcome less specific."
+        ],
+        [
+          100,
+          "I haven't actually evaluated anything",
+          "They agree their notes need more evaluation, not just descriptions."
+        ],
+        [
+          101,
+          "the possible danger suggested by the bird's look",
+          "The falcon painting suggests a potential threat."
+        ],
+        [
+          101,
+          "concentrate on the impression of rapid motion it gives",
+          "The fish hawk painting conveys fast movement."
+        ],
+        [
+          101,
+          "I saw a real kingfisher once when I was little",
+          "The kingfisher evokes a childhood memory."
+        ],
+        [
+          101,
+          "it's an example of how people are in two minds about the natural world",
+          "William Wells suggests a conflicted attitude to nature."
+        ],
+        [
+          101,
+          "a reference to the never-ending cycle of existence",
+          "The Gauguin painting represents the continuity of life."
+        ],
+        [
+          101,
+          "holding it carefully so he doesn't hurt it",
+          "The boy's treatment of the bird suggests protection of nature."
+        ],
+        [
+          101,
+          "the most practical of all philosophies",
+          "Stoicism is described as a practical philosophy."
+        ],
+        [
+          102,
+          "the most famous Stoics never wrote anything down for publication",
+          "Many leading Stoics did not write their ideas for publication."
+        ],
+        [
+          102,
+          "the choices I make with regard to them, I do control",
+          "People can control their choices, even if external events are beyond control."
+        ],
+        [
+          102,
+          "different perspective on experiences which most of us would see as wholly negative",
+          "A Stoic may reinterpret experiences that others regard as negative."
+        ],
+        [
+          102,
+          "put on a play based on the life of Cato",
+          "George Washington used a play about Cato to inspire his men."
+        ],
+        [
+          102,
+          "Adam Smith's theories on capitalism were significantly influenced by the Stoicism",
+          "Stoic ideas influenced Smith's theories of capitalism."
+        ],
+        [
+          102,
+          "used to treat depression",
+          "Cognitive Behaviour Therapy is commonly used for depression."
+        ],
+        [
+          102,
+          "using logic instead",
+          "Stoic reasoning involves replacing irrational thinking with logic."
+        ],
+        [
+          102,
+          "turning obstacles into opportunity",
+          "Stoicism encourages people to see obstacles as opportunities."
+        ],
+        [
+          103,
+          "will require considerable practice",
+          "Living according to Stoicism requires substantial practice."
+        ]
+      ]
+    },
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
   },
   "16-2": {
     "vocabulary": {
@@ -12919,7 +13124,212 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "The manager chose not to retaliate."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          104,
+          "some of them are in a frame",
+          "The customer asks whether she needs to remove the photos from their frames."
+        ],
+        [
+          104,
+          "one ninety five for 300 photos",
+          "The quoted basic price is 195 for 300 photos."
+        ],
+        [
+          104,
+          "once we've received the payment",
+          "The company sends the photos after receiving payment."
+        ],
+        [
+          104,
+          "one called Grandparents",
+          "Grandparents is the suggested folder name."
+        ],
+        [
+          104,
+          "touch the colour up a bit",
+          "The service can improve colour or contrast."
+        ],
+        [
+          104,
+          "we'd do them by hand",
+          "Fragile photos are handled manually."
+        ],
+        [
+          104,
+          "alter the background",
+          "The service can change the background of a photograph."
+        ],
+        [
+          105,
+          "a few that aren't properly in focus",
+          "The company cannot repair an out-of-focus image."
+        ],
+        [
+          105,
+          "get the copying done in ten days",
+          "The stated turnaround is ten days."
+        ],
+        [
+          105,
+          "plastic ones sometimes break in the post",
+          "The customer should use cardboard rather than plastic packaging."
+        ],
+        [
+          105,
+          "the local council, who turned it into offices",
+          "Before becoming a school, the house was used as council offices."
+        ],
+        [
+          105,
+          "Developers will construct houses on the existing lower school site",
+          "New homes are planned for the lower school site."
+        ],
+        [
+          105,
+          "most pupils have to wait a considerable time to be served",
+          "Long queues prompted the catering changes."
+        ],
+        [
+          105,
+          "discuss with your children each morning which type of food they want to eat",
+          "Parents should help children choose their serving point in advance."
+        ],
+        [
+          105,
+          "pupils can eat food from the Food Hall or lunch they've brought from home",
+          "Pupils will still be able to eat in the old canteen."
+        ],
+        [
+          106,
+          "serve a different country's cuisine each day",
+          "World Adventures changes its menu daily."
+        ],
+        [
+          106,
+          "we'll ask pupils to make suggestions",
+          "Street Life asks pupils to help suggest menus."
+        ],
+        [
+          106,
+          "cater particularly for the many pupils who don't eat meat or fish",
+          "Speedy Italian is designed to serve vegetarian pupils."
+        ],
+        [
+          106,
+          "a few pupils will be able to learn at the school instead of going to the local college",
+          "Piano lessons will be available at the school."
+        ],
+        [
+          106,
+          "start drama classes",
+          "Drama or acting classes are being introduced."
+        ],
+        [
+          106,
+          "we might get mixed up about what actually happened and what we dreamed",
+          "Forgetting dreams may prevent confusion between dreams and reality."
+        ],
+        [
+          106,
+          "it's just a coincidence really",
+          "The students agree that apparently predictive dreams may be coincidences."
+        ],
+        [
+          107,
+          "the results didn't seem to show any obvious patterns",
+          "The preschool nap study did not reach a clear conclusion."
+        ],
+        [
+          107,
+          "I got marked down for the self-assessment as well",
+          "Both students had difficulty with self-assessment."
+        ],
+        [
+          107,
+          "Let's use people from a different department. What about history",
+          "They decide to recruit students from the history department."
+        ],
+        [
+          107,
+          "paper might be better as they'll be doing it straight after they wake up",
+          "They decide that participants should record answers on paper."
+        ],
+        [
+          107,
+          "our experiment involves humans",
+          "Ethical regulations apply to research with human participants."
+        ],
+        [
+          107,
+          "making sure they aren't put under any unnecessary stress",
+          "The study must minimise participant stress."
+        ],
+        [
+          107,
+          "present our results visually in a graph",
+          "A graph will show the correlation between the variables."
+        ],
+        [
+          107,
+          "think about our research and evaluate it",
+          "Evaluation is the final stage of the research."
+        ],
+        [
+          108,
+          "those who chose to dance showed much more creativity",
+          "The dancing group performed better on creative problem-solving tasks."
+        ],
+        [
+          108,
+          "dance should be prescribed as therapy",
+          "Dr Lovatt proposes dance as a therapeutic intervention."
+        ],
+        [
+          108,
+          "the risk of injury with fitness is quite low",
+          "Dance can improve fitness without a high risk of injury."
+        ],
+        [
+          108,
+          "beneficial in older adults who have a poor sense of balance",
+          "Dance can improve balance in older adults."
+        ],
+        [
+          108,
+          "forces their brain to process things more quickly",
+          "Learning dance sequences encourages faster mental processing."
+        ],
+        [
+          108,
+          "greater motivation to be more active",
+          "Participants became more motivated to undertake everyday activities."
+        ],
+        [
+          108,
+          "reduce older people's sense of isolation",
+          "Group dance can reduce social isolation."
+        ],
+        [
+          108,
+          "a class lasting 40 minutes burns about 370 calories",
+          "Zumba burns approximately 370 calories in a 40-minute session."
+        ],
+        [
+          109,
+          "women with obesity",
+          "The study involved women with obesity."
+        ],
+        [
+          109,
+          "they made it a habit",
+          "The participants continued to attend classes regularly, making exercise a habit."
+        ]
+      ]
+    },
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
   },
   "16-3": {
     "vocabulary": {
@@ -13046,7 +13456,212 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "The discovery was the culmination of years of work."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          110,
+          "first they're taken to ride in the park",
+          "The children first practise cycling in the park away from traffic."
+        ],
+        [
+          110,
+          "the instructors themselves are in blue shirts",
+          "The instructors wear blue shirts."
+        ],
+        [
+          110,
+          "have to submit a reference from someone who's seen them work with children",
+          "Instructors must provide a reference."
+        ],
+        [
+          110,
+          "their instructor might tell them a story",
+          "The children may listen to a story during a break."
+        ],
+        [
+          110,
+          "we don't let that put us off",
+          "Rain does not stop the cycling programme."
+        ],
+        [
+          110,
+          "a snack for break time",
+          "Children should bring a snack."
+        ],
+        [
+          110,
+          "Charlie has to take medication every few hours",
+          "Charlie requires medication during the camp."
+        ],
+        [
+          110,
+          "check to make sure that every child's helmet fits",
+          "Staff ensure that each child's helmet fits properly."
+        ],
+        [
+          111,
+          "meet up in the tent",
+          "Children meet their instructor in the tent."
+        ],
+        [
+          111,
+          "one hundred ninety-nine dollars",
+          "The weekly cost is 199 dollars."
+        ],
+        [
+          111,
+          "certainly health benefits",
+          "Outdoor work offers benefits associated with an active lifestyle."
+        ],
+        [
+          111,
+          "people who don't want to be stuck with a 40-hour week",
+          "Flexible working opportunities are a major benefit."
+        ],
+        [
+          111,
+          "pretty remote areas",
+          "Remote workplaces can be unsuitable for people who prefer city life."
+        ],
+        [
+          111,
+          "extremely unpleasant when it's cold and windy",
+          "Bad weather is a disadvantage of outdoor work."
+        ],
+        [
+          111,
+          "a very fast-paced environment but a good one",
+          "The commercial manager role is intensive but enjoyable."
+        ],
+        [
+          111,
+          "good opportunities for the right person to quickly make their way up the career ladder",
+          "The agronomist role offers rapid promotion."
+        ],
+        [
+          111,
+          "a 12-month maternity cover contract",
+          "The buyer position is temporary."
+        ],
+        [
+          112,
+          "be visiting centres in the region",
+          "The sales manager role requires local travel."
+        ],
+        [
+          112,
+          "consider someone who has just completed an appropriate training course",
+          "The tree technician position can be suitable for newly qualified applicants."
+        ],
+        [
+          112,
+          "renting a small cottage on the estate",
+          "The farm worker can rent accommodation on site."
+        ],
+        [
+          112,
+          "had so many people doing it",
+          "A large number of people participated in Adam's experiment."
+        ],
+        [
+          112,
+          "make sure that people didn't know which drink I was giving them",
+          "Participants were unaware of which drink they received."
+        ],
+        [
+          112,
+          "I should probably have ground up the nuts more",
+          "Rosie thinks the nuts were not ground finely enough."
+        ],
+        [
+          112,
+          "it's possible that the scales for weighing the fat weren't accurate enough",
+          "Rosie suspects the weighing equipment was unsuitable."
+        ],
+        [
+          112,
+          "put the low-calorie items at the beginning and end of the menu",
+          "Adam suggests arranging menus so healthier choices attract attention."
+        ],
+        [
+          112,
+          "the information's normally really confusing and I suspect they do it on purpose",
+          "The students think calorie labels are deliberately confusing."
+        ],
+        [
+          113,
+          "when you objectively measure the amount of walking they do",
+          "Actual activity measurements are far lower than self-reported exercise."
+        ],
+        [
+          113,
+          "make the stairs wider and in an obvious place",
+          "Changing the built environment can encourage people to exercise."
+        ],
+        [
+          113,
+          "we should be talking about exercise in our presentation",
+          "They decide not to focus on exercise because their assignment concerns nutrition."
+        ],
+        [
+          113,
+          "let's think about what we're going to include and how to organise it",
+          "Their next step is planning presentation content and structure."
+        ],
+        [
+          113,
+          "an elderly person, a grandmother perhaps",
+          "Knitting is traditionally associated with grandmothers."
+        ],
+        [
+          113,
+          "during the previous decade it was one of the skills that was predicted to vanish",
+          "Knitting was previously predicted to disappear during the last decade."
+        ],
+        [
+          113,
+          "increase in the sales figures for knitting equipment",
+          "Growing interest is reflected in equipment sales."
+        ],
+        [
+          113,
+          "helpful if you're experiencing economic hardship",
+          "Knitting can be useful during financial difficulties."
+        ],
+        [
+          114,
+          "the skills you need to get going are really quite basic",
+          "The initial skills required for knitting are basic."
+        ],
+        [
+          114,
+          "the items produced were round rather than flat",
+          "Early knitted items were round in shape."
+        ],
+        [
+          114,
+          "made of bone",
+          "Early knitting needles were sometimes made from bone."
+        ],
+        [
+          114,
+          "very rough on the skin",
+          "Early yarn could feel rough against the skin."
+        ],
+        [
+          114,
+          "regional differences in style developed",
+          "Different geographical regions developed distinctive knitting styles."
+        ],
+        [
+          114,
+          "watching over sheep",
+          "People knitted while tending sheep."
+        ]
+      ]
+    },
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
   },
   "16-4": {
     "vocabulary": {
@@ -13173,7 +13788,212 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "Greater transparency can improve public trust."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          115,
+          "it's free the week beginning the 28th",
+          "Granary Cottage is available from the 28th rather than the 14th."
+        ],
+        [
+          115,
+          "550 for the week",
+          "The weekly price is 550 pounds."
+        ],
+        [
+          115,
+          "Chervil Cottage",
+          "The alternative cottage is called Chervil Cottage."
+        ],
+        [
+          115,
+          "the building was built as a garage",
+          "The building was originally a garage."
+        ],
+        [
+          115,
+          "you get to it from the living room through French doors",
+          "The garden is accessed directly from the living room."
+        ],
+        [
+          115,
+          "parking isn't a problem",
+          "There is ample parking space at the front."
+        ],
+        [
+          116,
+          "we can provide all the wood you need",
+          "Wood is provided for the stove."
+        ],
+        [
+          116,
+          "a famous stone bridge",
+          "There is a famous stone bridge nearby."
+        ],
+        [
+          116,
+          "the monument at the top",
+          "The bedroom overlooks the hills and a monument."
+        ],
+        [
+          116,
+          "the last day of March, please",
+          "The remaining payment is due by the end of March."
+        ],
+        [
+          116,
+          "the increasing number of heavy vehicles",
+          "The main concern was an increase in heavy traffic."
+        ],
+        [
+          116,
+          "add a bit on the side to make it wider",
+          "The council will widen the cycle path."
+        ],
+        [
+          116,
+          "dangerous to have a pedestrian crossing",
+          "The proposed crossing is unsafe because of a bend."
+        ],
+        [
+          116,
+          "not to leave their engines running",
+          "Drivers are asked to switch off their engines while waiting."
+        ],
+        [
+          117,
+          "a new car park on the opposite side of the Community Hall",
+          "The new car park is on the other side of the hall."
+        ],
+        [
+          117,
+          "the east end of the recreation ground, beyond the trees",
+          "The cricket pitch will be moved to the eastern end beyond the trees."
+        ],
+        [
+          117,
+          "accessible by a footpath from the Community Hall and will be alongside the river",
+          "The playground is reached by a footpath and lies beside the river."
+        ],
+        [
+          117,
+          "in the southeast corner near the road",
+          "The skateboard ramp is in the southeast corner."
+        ],
+        [
+          117,
+          "to the left of the line of trees and near to the river",
+          "The pavilion will be northwards near the river, left of the trees."
+        ],
+        [
+          117,
+          "on people's right as they go from the road into the recreation ground",
+          "The notice board is on the right when entering from the road."
+        ],
+        [
+          118,
+          "cut the number of cars on the road significantly",
+          "The students agree that reducing traffic congestion is an important benefit."
+        ],
+        [
+          117,
+          "reduced emissions or air pollution have a more significant effect",
+          "They regard improving air quality as more important than exercise."
+        ],
+        [
+          118,
+          "a fully functional app so people can make payments and book bikes easily",
+          "An easy-to-use app is necessary for a successful scheme."
+        ],
+        [
+          118,
+          "what does matter though is having a big publicity campaign",
+          "They agree public awareness is essential."
+        ],
+        [
+          118,
+          "there was such a demand for bike-sharing because you'd have thought most people would have used their own bikes",
+          "They are surprised Amsterdam succeeded despite widespread bicycle ownership."
+        ],
+        [
+          118,
+          "the public transport system's quite limited",
+          "The students disagree on why Dublin's scheme succeeded."
+        ],
+        [
+          118,
+          "not enough's been spent on increasing the number of cycle lanes",
+          "London needs more investment in cycling infrastructure."
+        ],
+        [
+          118,
+          "an example of good planning",
+          "Buenos Aires is praised for the design and planning of its scheme."
+        ],
+        [
+          119,
+          "more than ten times the price of most other schemes",
+          "New York's scheme is considered too expensive."
+        ],
+        [
+          119,
+          "it hasn't been an instant success like some of the others",
+          "Both students consider Sydney's results disappointing."
+        ],
+        [
+          119,
+          "carrying spices",
+          "The Portuguese ships were carrying spices, and Mauritius was a convenient stopping place."
+        ],
+        [
+          119,
+          "set up a colony there",
+          "The Dutch established a colony on Mauritius."
+        ],
+        [
+          119,
+          "the bird appears to be extremely fat",
+          "Early paintings depict a very fat dodo."
+        ],
+        [
+          119,
+          "a complete skeleton in existence",
+          "A complete skeleton was assembled from remains."
+        ],
+        [
+          119,
+          "capable of movement which was not slow",
+          "The skeleton suggests the bird could move quite fast."
+        ],
+        [
+          119,
+          "probably used their wings for balance",
+          "The wings likely helped the dodo balance."
+        ],
+        [
+          119,
+          "the size of the brain",
+          "The brain size indicated the dodo was reasonably intelligent."
+        ],
+        [
+          119,
+          "sense which was particularly well developed was that of smell",
+          "The bird had a well-developed sense of smell."
+        ],
+        [
+          120,
+          "another type of creature, rats",
+          "Rats arrived on ships and consumed dodo eggs."
+        ],
+        [
+          120,
+          "the forest that had once covered all the island",
+          "Deforestation for agriculture was probably the main cause of extinction."
+        ]
+      ]
+    },
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
   },
   "21-1": {
     "vocabulary": {
