@@ -16646,6 +16646,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         380.3,
         422.51
       ],
+      "11": [
+        80.8,
+        87,
+        417.379
+      ],
       "12": [
         95.2,
         129.4,
@@ -16803,6 +16808,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "8": "keyword",
       "9": "keyword",
       "10": "keyword",
+      "11": "context",
       "12": "context",
       "13": "context",
       "14": "context",
@@ -16873,6 +16879,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "10": [
         368.5,
         378.8
+      ],
+      "11": [
+        81.56,
+        86.4
       ],
       "12": [
         96.7,
@@ -17002,7 +17012,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "8": "asr-candidate",
       "9": "asr-candidate",
       "10": "asr-candidate",
-      "11": "unresolved-asr-gap",
+      "11": "asr-small-en-script-aligned",
       "12": "asr-context-reviewed",
       "13": "asr-context-reviewed",
       "14": "asr-context-reviewed",
@@ -17039,7 +17049,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "2e6cbab31c461fffdaf33e6b309c43569bf5da84d5a47e48990c618a7d3c1912",
       "4": "1d504b04434d0ec79a9799733855fc14b444867082f88e393ad425ce267a6ee7"
     },
-    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback."
+    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback.",
+    "cueAuditNotes": {
+      "11": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253569629,
+        "phrase": "He set up this company when he finished his apprenticeship in 1926.",
+        "manualVerified": false
+      }
+    }
   },
   "16-2": {
     "vocabulary": {
@@ -18987,6 +19006,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         349.8,
         426.295
       ],
+      "9": [
+        350.4,
+        358.8,
+        426.295
+      ],
       "10": [
         372.6,
         385.5,
@@ -19087,6 +19111,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         349.2,
         408.346
       ],
+      "30": [
+        356.4,
+        364,
+        408.346
+      ],
       "31": [
         118.1,
         131,
@@ -19147,6 +19176,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": "keyword",
       "7": "keyword",
       "8": "keyword",
+      "9": "keyword",
       "10": "keyword",
       "11": "context",
       "12": "context",
@@ -19167,6 +19197,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "27": "context",
       "28": "context",
       "29": "context",
+      "30": "context",
       "31": "keyword",
       "32": "keyword",
       "33": "keyword",
@@ -19210,6 +19241,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "8": [
         336.6,
         348.3
+      ],
+      "9": [
+        351.14,
+        358.12
       ],
       "10": [
         374.1,
@@ -19291,6 +19326,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         330.8,
         347.7
       ],
+      "30": [
+        357.1,
+        363.38
+      ],
       "31": [
         119.6,
         129.5
@@ -19341,7 +19380,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": "asr-candidate",
       "7": "asr-candidate",
       "8": "asr-candidate",
-      "9": "unresolved-asr-gap",
+      "9": "asr-small-en-script-aligned",
       "10": "asr-candidate",
       "11": "asr-context-reviewed",
       "12": "asr-context-reviewed",
@@ -19362,7 +19401,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "27": "asr-context-reviewed",
       "28": "asr-context-reviewed",
       "29": "asr-context-reviewed",
-      "30": "unresolved-asr-gap",
+      "30": "asr-small-en-script-aligned",
       "31": "asr-candidate",
       "32": "asr-candidate",
       "33": "asr-candidate",
@@ -19380,7 +19419,23 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "c3c71a53bca9fb3452656d7d7aca796f52337187e677507e45b23c22e33ae9d5",
       "4": "a8c394f084b4ee7f23060029b5b7708d8b6917ee053cf8830bd128adec9898f6"
     },
-    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback."
+    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback.",
+    "cueAuditNotes": {
+      "9": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253569629,
+        "phrase": "The bedroom window looks in the opposite direction and has a lovely view of the hills and the monument at the top.",
+        "manualVerified": false
+      },
+      "30": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253569629,
+        "phrase": "I can't quite work out why it hasn't been an instant success like some of the others. It's a shame, really.",
+        "manualVerified": false
+      }
+    }
   },
   "21-1": {
     "vocabulary": {
@@ -21915,6 +21970,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         114.96,
         413.44
       ],
+      "13": [
+        130.3,
+        135,
+        413.44
+      ],
       "14": [
         158.62,
         168.48,
@@ -21933,6 +21993,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "17": [
         300.27,
         317.4,
+        413.44
+      ],
+      "18": [
+        321.7,
+        330.6,
         413.44
       ],
       "19": [
@@ -22059,10 +22124,12 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "10": "script-phrase-asr",
       "11": "script-phrase-asr",
       "12": "script-phrase-asr",
+      "13": "context",
       "14": "script-phrase-asr",
       "15": "script-phrase-asr",
       "16": "script-phrase-asr",
       "17": "script-phrase-asr",
+      "18": "context",
       "19": "script-phrase-asr",
       "20": "script-phrase-asr",
       "21": "script-phrase-asr",
@@ -22099,10 +22166,12 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "10": "ASR transcript aligned; not manually listened",
       "11": "ASR transcript aligned; not manually listened",
       "12": "ASR transcript aligned; not manually listened",
+      "13": "asr-small-en-script-aligned",
       "14": "ASR transcript aligned; not manually listened",
       "15": "ASR transcript aligned; not manually listened",
       "16": "ASR transcript aligned; not manually listened",
       "17": "ASR transcript aligned; not manually listened",
+      "18": "asr-small-en-script-aligned",
       "19": "ASR transcript aligned; not manually listened",
       "20": "ASR transcript aligned; not manually listened",
       "21": "ASR transcript aligned; not manually listened",
@@ -22175,6 +22244,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         109.54,
         110.96
       ],
+      "13": [
+        131.04,
+        134.32
+      ],
       "14": [
         160.62,
         164.48
@@ -22190,6 +22263,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "17": [
         302.28,
         313.4
+      ],
+      "18": [
+        322.48,
+        330
       ],
       "19": [
         366.32,
@@ -22286,7 +22363,23 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "4bb289c91002ca38ccecd116daa8e7318875a5ee9dcb84082612e9d852e7b9dc",
       "4": "7147c0dca84c6c0ca128a6e79bb4262886c378ffbf20a66c5988d322a2750033"
     },
-    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld."
+    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld.",
+    "cueAuditNotes": {
+      "13": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253753998,
+        "phrase": "Lunch box two contains a cheddar cheese roll.",
+        "manualVerified": false
+      },
+      "18": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253753998,
+        "phrase": "Dolphins, on the other hand, can sometimes approach on their own or in groups as they ride the waves beside us.",
+        "manualVerified": false
+      }
+    }
   },
   "17-2": {
     "vocabulary": {
@@ -22575,6 +22668,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         130.05,
         434.39
       ],
+      "33": [
+        160.4,
+        167.1,
+        434.39
+      ],
       "34": [
         177.92,
         188.98,
@@ -22644,6 +22742,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "30": "script-phrase-asr",
       "31": "script-phrase-asr",
       "32": "script-phrase-asr",
+      "33": "keyword",
       "34": "script-phrase-asr",
       "35": "script-phrase-asr",
       "36": "script-phrase-asr",
@@ -22685,6 +22784,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "30": "ASR transcript aligned; not manually listened",
       "31": "ASR transcript aligned; not manually listened",
       "32": "ASR transcript aligned; not manually listened",
+      "33": "asr-small-en-script-aligned",
       "34": "ASR transcript aligned; not manually listened",
       "35": "ASR transcript aligned; not manually listened",
       "36": "ASR transcript aligned; not manually listened",
@@ -22822,6 +22922,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         122.6,
         126.04
       ],
+      "33": [
+        161.18,
+        166.44
+      ],
       "34": [
         179.92,
         184.98
@@ -22857,7 +22961,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "27e4e36783a8b0290e77fe987b6040776533afecee3c0623f16e6096dace3eaa",
       "4": "b9363d5585f4898f404ee0e031c24757f5ea3cc0328e9368428f7f6a350c1c2c"
     },
-    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld."
+    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld.",
+    "cueAuditNotes": {
+      "33": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253753998,
+        "phrase": "Then there's an Icelandic word for podcast, which is too hard to pronounce.",
+        "manualVerified": false
+      }
+    }
   },
   "17-3": {
     "vocabulary": {
@@ -23026,6 +23139,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         333.12,
         415.321
       ],
+      "9": [
+        342.9,
+        350.5,
+        415.321
+      ],
       "10": [
         363.12,
         372.34,
@@ -23191,6 +23309,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": "script-phrase-asr",
       "7": "script-phrase-asr",
       "8": "script-phrase-asr",
+      "9": "keyword",
       "10": "script-phrase-asr",
       "11": "script-phrase-asr",
       "12": "script-phrase-asr",
@@ -23232,6 +23351,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": "ASR transcript aligned; not manually listened",
       "7": "ASR transcript aligned; not manually listened",
       "8": "ASR transcript aligned; not manually listened",
+      "9": "asr-small-en-script-aligned",
       "10": "ASR transcript aligned; not manually listened",
       "11": "ASR transcript aligned; not manually listened",
       "12": "ASR transcript aligned; not manually listened",
@@ -23296,6 +23416,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "8": [
         326.1,
         329.12
+      ],
+      "9": [
+        343.66,
+        349.84
       ],
       "10": [
         365.12,
@@ -23428,7 +23552,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "3ae505608b1ed460924a3bbc954c7eca2841a1734658076c0d891fc333822081",
       "4": "6a235c26b3a94c15314cece250213be0558068d9823ec754f035536c4d493e6c"
     },
-    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld."
+    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld.",
+    "cueAuditNotes": {
+      "9": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253753998,
+        "phrase": "Expect to pay a daily rate of about 30 euros for the hire of a wetsuit and board.",
+        "manualVerified": false
+      }
+    }
   },
   "17-4": {
     "vocabulary": {
