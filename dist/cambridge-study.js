@@ -5736,5 +5736,633 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "14-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "emigrate (v.)",
+          "definition": "Leave one's country to settle in another.",
+          "example": "The family emigrated to Canada."
+        },
+        {
+          "word": "merchant (n.)",
+          "definition": "A person who trades in goods.",
+          "example": "The merchant imported textiles."
+        },
+        {
+          "word": "prospect (n.)",
+          "definition": "The possibility of a future event or outcome.",
+          "example": "The prospect of a new career appealed to him."
+        },
+        {
+          "word": "enthusiast (n.)",
+          "definition": "Someone with a strong interest in a subject.",
+          "example": "She became a photography enthusiast."
+        },
+        {
+          "word": "magnesium flare (n.)",
+          "definition": "A bright light produced by burning magnesium.",
+          "example": "Early photographers used magnesium flares."
+        },
+        {
+          "word": "realism (n.)",
+          "definition": "A style that represents subjects as they appear in real life.",
+          "example": "The photographs were admired for their realism."
+        },
+        {
+          "word": "portraiture (n.)",
+          "definition": "The art of producing portraits.",
+          "example": "The artist specialised in portraiture."
+        },
+        {
+          "word": "souvenir (n.)",
+          "definition": "An object kept as a reminder of an experience.",
+          "example": "Visitors bought photographs as souvenirs."
+        },
+        {
+          "word": "document (v.)",
+          "definition": "Record information or events.",
+          "example": "The photographer documented railway construction."
+        },
+        {
+          "word": "undertake (v.)",
+          "definition": "Begin or agree to carry out a task.",
+          "example": "The team undertook several expeditions."
+        },
+        {
+          "word": "culmination (n.)",
+          "definition": "The final result of a long process.",
+          "example": "The book was the culmination of decades of research."
+        },
+        {
+          "word": "ventilation (n.)",
+          "definition": "The movement of fresh air into a space.",
+          "example": "Natural ventilation reduces energy use."
+        },
+        {
+          "word": "reinvention (n.)",
+          "definition": "The act of changing something into a new form.",
+          "example": "The architect called for a reinvention of building design."
+        },
+        {
+          "word": "contemporary (adj.)",
+          "definition": "Belonging to the present or recent times.",
+          "example": "Contemporary buildings often rely on mechanical cooling."
+        },
+        {
+          "word": "habitable (adj.)",
+          "definition": "Suitable for people to live or work in.",
+          "example": "The building remained habitable during summer."
+        },
+        {
+          "word": "pathogen (n.)",
+          "definition": "An organism capable of causing disease.",
+          "example": "Ventilation may reduce airborne pathogens."
+        },
+        {
+          "word": "tuberculosis (n.)",
+          "definition": "An infectious disease usually affecting the lungs.",
+          "example": "The historical hospital treated patients with tuberculosis."
+        },
+        {
+          "word": "communal (adj.)",
+          "definition": "Shared by members of a group.",
+          "example": "Patients used communal areas."
+        },
+        {
+          "word": "miasma (n.)",
+          "definition": "An unpleasant or supposedly harmful atmosphere.",
+          "example": "Nineteenth-century doctors feared miasmas."
+        },
+        {
+          "word": "epidemic (n.)",
+          "definition": "A widespread outbreak of disease.",
+          "example": "The city suffered a cholera epidemic."
+        },
+        {
+          "word": "disprove (v.)",
+          "definition": "Show that a claim or theory is false.",
+          "example": "Later research disproved the earlier theory."
+        },
+        {
+          "word": "liability (n.)",
+          "definition": "Something that causes difficulty or creates a disadvantage.",
+          "example": "Energy-intensive buildings may become a liability."
+        },
+        {
+          "word": "hybrid (adj.)",
+          "definition": "Combining two different elements or systems.",
+          "example": "A hybrid ventilation system uses both natural and mechanical cooling."
+        },
+        {
+          "word": "hierarchy (n.)",
+          "definition": "A system in which people or things are ranked.",
+          "example": "The firm reduced its management hierarchy."
+        },
+        {
+          "word": "perfectionist (n.)",
+          "definition": "Someone who strives for complete accuracy or perfection.",
+          "example": "A perfectionist may struggle to finish tasks."
+        },
+        {
+          "word": "rhetoric (n.)",
+          "definition": "Language used to persuade or influence people.",
+          "example": "The company's rhetoric emphasised efficiency."
+        },
+        {
+          "word": "entrepreneur (n.)",
+          "definition": "Someone who starts and runs a business.",
+          "example": "Entrepreneurs often experiment with new ideas."
+        },
+        {
+          "word": "absenteeism (n.)",
+          "definition": "Repeated absence from work or school.",
+          "example": "Poor morale increased absenteeism."
+        },
+        {
+          "word": "misguided (adj.)",
+          "definition": "Based on incorrect judgement or reasoning.",
+          "example": "The policy reflected a misguided assumption."
+        },
+        {
+          "word": "detrimental (adj.)",
+          "definition": "Causing damage or harm.",
+          "example": "Excessive regulation may be detrimental to innovation."
+        },
+        {
+          "word": "diminishing returns (n.)",
+          "definition": "Progressively smaller benefits from additional effort or investment.",
+          "example": "More meetings eventually produced diminishing returns."
+        },
+        {
+          "word": "devoid (adj.)",
+          "definition": "Completely lacking something.",
+          "example": "The environment was devoid of rigid rules."
+        },
+        {
+          "word": "bottleneck (n.)",
+          "definition": "A point that restricts progress or flow.",
+          "example": "Approvals created a bottleneck in production."
+        },
+        {
+          "word": "embrace (v.)",
+          "definition": "Accept an idea or change willingly.",
+          "example": "The company embraced flexible working."
+        },
+        {
+          "word": "collaboration (n.)",
+          "definition": "Working together to achieve something.",
+          "example": "Cross-team collaboration encouraged innovation."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          38,
+          "Paragraph 1",
+          "The family often stayed at Press Castle",
+          "Henderson visited the estate frequently in his youth, contradicting rarely."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "In 1849 he began a three-year apprenticeship to become an accountant",
+          "He trained as an accountant to please his family."
+        ],
+        [
+          38,
+          "Paragraph 3",
+          "cooperated on experiments with magnesium flares",
+          "The experiment is mentioned, but there is no information about their emotional reaction."
+        ],
+        [
+          38,
+          "Paragraph 4",
+          "their styles of photography were quite different",
+          "Notman's realism contrasted with Henderson's romantic landscapes."
+        ],
+        [
+          39,
+          "Paragraph 5",
+          "open a photographic studio",
+          "The location relative to his home is not given."
+        ],
+        [
+          39,
+          "Paragraph 5",
+          "dropped portraiture to specialise in landscape photography",
+          "He abandoned portraits to concentrate on scenery."
+        ],
+        [
+          39,
+          "Paragraph 7",
+          "the almost-completed line",
+          "The Montreal–Halifax line was not yet finished when he photographed it."
+        ],
+        [
+          39,
+          "Paragraph 8",
+          "retired completely from photography",
+          "His last photographic work was managing the Canadian Pacific Railway department."
+        ],
+        [
+          38,
+          "Paragraph 1",
+          "son of a successful merchant",
+          "His father worked as a merchant."
+        ],
+        [
+          39,
+          "Paragraph 5",
+          "time-consuming techniques involved and the weight of the equipment",
+          "Heavy equipment discouraged amateur photographers and encouraged purchases of professional images."
+        ],
+        [
+          39,
+          "Paragraph 5",
+          "as souvenirs of a trip or as gifts",
+          "People bought photographs as gifts or souvenirs."
+        ],
+        [
+          39,
+          "Paragraph 7",
+          "He travelled by canoe",
+          "He used a canoe on his river expeditions."
+        ],
+        [
+          39,
+          "Paragraph 7",
+          "photographs of the mountains and the progress of construction",
+          "At Rogers Pass he photographed the mountain scenery and railway construction."
+        ],
+        [
+          43,
+          "Section F",
+          "The prosperous steered clear of hospitals",
+          "People with money avoided hospitals because they feared unhealthy air."
+        ],
+        [
+          42,
+          "Section C",
+          "symbols of status",
+          "The author argues that prestige helps sustain the popularity of glass, steel and air-conditioned skyscrapers."
+        ],
+        [
+          43,
+          "Section E",
+          "similar to the performance of a modern-day computer-controlled operating theatre",
+          "Historical hospital ventilation achieved air-change rates comparable to modern standards."
+        ],
+        [
+          42,
+          "Section D",
+          "digitally modelling Billings' final designs",
+          "Short modelled the historical building and tested the movement of air and pathogens."
+        ],
+        [
+          42,
+          "Section B",
+          "air conditioning which were relentlessly and aggressively marketed",
+          "The passage links the widespread adoption of air conditioning to aggressive marketing."
+        ],
+        [
+          42,
+          "Section D",
+          "architectural designs of John Shaw Billings",
+          "Short investigated Billings' hospital designs to understand their ventilation."
+        ],
+        [
+          42,
+          "Section D",
+          "We put pathogens in the airstreams",
+          "The modelling tested how airborne pathogens moved through the wards."
+        ],
+        [
+          42,
+          "Section D",
+          "someone with tuberculosis",
+          "Tuberculosis was the disease used in the simulation."
+        ],
+        [
+          43,
+          "Section E",
+          "hospital wards would generate up to 24 air changes an hour",
+          "The wards achieved impressive rates of air replacement."
+        ],
+        [
+          43,
+          "Section E",
+          "Communal wards appropriate for certain patients",
+          "Shared wards could be appropriate for some patients and reduce energy use."
+        ],
+        [
+          43,
+          "Section F",
+          "a panicked public clamouring for buildings that could protect",
+          "Public concern about unhealthy air motivated the development of ventilation."
+        ],
+        [
+          43,
+          "Section F",
+          "malaria — toxic air ... Miasmas were feared",
+          "The feared harmful air was referred to as miasmas."
+        ],
+        [
+          43,
+          "Section F",
+          "cholera outbreaks in London and Paris",
+          "Cholera epidemics were attributed to miasmas during the nineteenth century."
+        ],
+        [
+          47,
+          "Section A",
+          "organisation is big business",
+          "The section describes increasing expectations that individuals and businesses organise their lives and work."
+        ],
+        [
+          47,
+          "Section B",
+          "dissatisfied with the way their work is structured",
+          "It describes complaints, dissatisfaction and stress despite the emphasis on organisation."
+        ],
+        [
+          47,
+          "Section C",
+          "order actually has diminishing returns",
+          "Frederick Taylor introduced early principles of scientific management."
+        ],
+        [
+          47,
+          "Section D",
+          "order is a necessary condition for productivity",
+          "The writer challenges the assumption that organisation is essential to productivity."
+        ],
+        [
+          47,
+          "Section E",
+          "order actually has diminishing returns",
+          "Research suggests that beyond a certain point the costs of additional structure outweigh the benefits."
+        ],
+        [
+          48,
+          "Section F",
+          "lead to new solutions that ... would never be reached",
+          "Less structured environments can generate innovative solutions otherwise impossible."
+        ],
+        [
+          48,
+          "Section G",
+          "Oticon ... General Electric ... Google",
+          "The section describes companies adopting flexible organisational structures."
+        ],
+        [
+          48,
+          "Section H",
+          "disorder, much like order, also seems to have diminishing utility",
+          "Neither structure nor disorder guarantees improvement; both may damage performance if taken too far."
+        ],
+        [
+          47,
+          "Section A",
+          "more productive",
+          "Training sessions target people who want to become more productive."
+        ],
+        [
+          47,
+          "Section A",
+          "self-proclaimed perfectionists",
+          "The rhetoric of organisation particularly appeals to people who consider themselves perfectionists."
+        ],
+        [
+          47,
+          "Section B",
+          "dissatisfied with the way their work is structured",
+          "Employees report dissatisfaction with their work arrangements."
+        ],
+        [
+          47,
+          "Section D",
+          "looking for the sake of organising",
+          "Individuals and companies pursue order itself without necessarily considering its practical benefits."
+        ],
+        [
+          48,
+          "Section F",
+          "devoid of structure and hierarchy",
+          "The passage argues that innovation benefits from less rigid roles and hierarchy."
+        ],
+        [
+          48,
+          "Section G",
+          "Google and a number of other tech companies",
+          "Google and General Electric are both examples, but the text does not say one inspired the other."
+        ]
+      ],
+      "listening": [
+        [
+          102,
+          "219 442 9785",
+          "Julie provides this telephone number as her contact."
+        ],
+        [
+          102,
+          "October tenth, 1992",
+          "October tenth, 1992"
+        ],
+        [
+          102,
+          "I'm a manager now",
+          "She started as a waitress but is now a restaurant manager."
+        ],
+        [
+          102,
+          "Cawley Life Insurance",
+          "Her insurance company is named Cawley, spelled C-A-W-L-E-Y."
+        ],
+        [
+          102,
+          "a pain in my knee",
+          "The pain affecting Julie's left knee prompted her visit."
+        ],
+        [
+          102,
+          "it's three weeks since I first noticed it",
+          "She first noticed the pain three weeks ago."
+        ],
+        [
+          103,
+          "I play a lot of tennis",
+          "Tennis is her main sport, although she stopped playing after the pain began."
+        ],
+        [
+          103,
+          "I go running a few times a week",
+          "Running is her usual form of additional exercise."
+        ],
+        [
+          103,
+          "hurt my shoulder",
+          "An earlier accident injured her shoulder rather than her legs."
+        ],
+        [
+          103,
+          "I take vitamins",
+          "Vitamins are the only regular medication or supplement mentioned."
+        ],
+        [
+          103,
+          "make a new house for her out of wood",
+          "A separate wooden house was constructed for Queen Elizabeth I during her visit."
+        ],
+        [
+          103,
+          "a company who owned a number of amusement parks",
+          "A company acquired the castle after the family could no longer afford its upkeep."
+        ],
+        [
+          103,
+          "life-like moving wax models",
+          "Visitors can see wax figures illustrating different historical periods."
+        ],
+        [
+          103,
+          "public displays of paintings and sculpture",
+          "The old zoo buildings are now used for art exhibitions."
+        ],
+        [
+          104,
+          "the same place, where afternoon tea will be served",
+          "Visitors will meet in the conservatory for afternoon tea."
+        ],
+        [
+          104,
+          "walk round the walls ... just past the south gate",
+          "The starting point for the wall walk is near the south gate."
+        ],
+        [
+          104,
+          "first left after the main entrance ... past the bridge",
+          "Archers are located beyond the bridge on the path to the left of the entrance."
+        ],
+        [
+          104,
+          "first left ... turn right past the first tower",
+          "turn right before you get to the bridge"
+        ],
+        [
+          104,
+          "the other side of the castle from the entrance ... over the bridge",
+          "The children's play area is outside the castle, across the bridge."
+        ],
+        [
+          104,
+          "first left after the main entrance ... take the first right",
+          "The shop is reached from outside the tower by taking the specified path."
+        ],
+        [
+          104,
+          "a timeline to show when they lived, with illustrations",
+          "The students choose an illustrated timeline for the introduction."
+        ],
+        [
+          105,
+          "found on the North American mainland were much less recent",
+          "The tooth was newer than mainland mammoth remains, revealing late survival on the island."
+        ],
+        [
+          105,
+          "mammoths on the island couldn't escape",
+          "Rising sea levels separated the island from the mainland, trapping the mammoths."
+        ],
+        [
+          105,
+          "5,600 years ago, which is a very precise time",
+          "The team established a remarkably precise extinction date."
+        ],
+        [
+          105,
+          "write down all the ideas we want to include",
+          "The presentation introduction needs written planning."
+        ],
+        [
+          105,
+          "get in touch with the researcher",
+          "They plan to contact the scientist who discovered the tooth for more details."
+        ],
+        [
+          105,
+          "ask the audience to suggest some questions",
+          "They decide to involve the audience in identifying possible research questions."
+        ],
+        [
+          105,
+          "followed a chronological pattern",
+          "The analysis section should be arranged chronologically."
+        ],
+        [
+          105,
+          "practise it so we're sure it won't overrun",
+          "The findings section needs timed rehearsal to avoid exceeding the time limit."
+        ],
+        [
+          106,
+          "give your own viewpoint",
+          "The tutor wants the students to express an original opinion in their final section."
+        ],
+        [
+          106,
+          "dances in order to make the weather gods look kindly on them",
+          "Native American civilisations developed dances intended to influence the weather."
+        ],
+        [
+          106,
+          "their survival depended on it",
+          "Accurate weather observations were crucial for the survival of communities."
+        ],
+        [
+          106,
+          "based on their observations of clouds",
+          "Babylonian forecasts drew on observations of cloud formations."
+        ],
+        [
+          106,
+          "each associated with a different weather phenomenon",
+          "The Chinese divided the year into twenty-four festivals associated with weather."
+        ],
+        [
+          106,
+          "haloes ... and comets",
+          "Aristotle's book included explanations of comets alongside other phenomena."
+        ],
+        [
+          106,
+          "observations of the sky",
+          "Medieval weather proverbs were based on observations of the sky."
+        ],
+        [
+          106,
+          "instruments to provide scientifically valid data",
+          "Scientists needed instruments to move beyond subjective observations."
+        ],
+        [
+          106,
+          "developed the world's first thermometer",
+          "Galileo developed a thermometer in 1592."
+        ],
+        [
+          107,
+          "storms generally travel from west to east",
+          "Franklin discovered the typical direction of storm movement."
+        ],
+        [
+          107,
+          "the telegraph made it possible for these records to be collated",
+          "The telegraph allowed observations from different locations to be brought together."
+        ]
+      ]
+    }
   }
 };
