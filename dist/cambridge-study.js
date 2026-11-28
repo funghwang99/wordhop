@@ -5103,5 +5103,638 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "14-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "repercussion (n.)",
+          "definition": "An indirect consequence of an action.",
+          "example": "The decision had long-term repercussions."
+        },
+        {
+          "word": "rehearse (v.)",
+          "definition": "Practise an action or performance in advance.",
+          "example": "The children rehearsed the scene."
+        },
+        {
+          "word": "underpin (v.)",
+          "definition": "Provide a foundation or support for something.",
+          "example": "Evidence underpins the theory."
+        },
+        {
+          "word": "adaptable (adj.)",
+          "definition": "Able to adjust to different circumstances.",
+          "example": "Play helps children become adaptable."
+        },
+        {
+          "word": "extol (v.)",
+          "definition": "Praise something highly.",
+          "example": "The writer extols the benefits of exercise."
+        },
+        {
+          "word": "curtail (v.)",
+          "definition": "Reduce or limit something.",
+          "example": "New rules curtailed outdoor activities."
+        },
+        {
+          "word": "perception (n.)",
+          "definition": "The way something is understood or regarded.",
+          "example": "Public perceptions of risk can change."
+        },
+        {
+          "word": "spontaneous (adj.)",
+          "definition": "Happening naturally without planning.",
+          "example": "The children engaged in spontaneous play."
+        },
+        {
+          "word": "self-regulate (v.)",
+          "definition": "Control one's own behaviour or reactions.",
+          "example": "Children gradually learn to self-regulate."
+        },
+        {
+          "word": "controversy (n.)",
+          "definition": "Public disagreement about an issue.",
+          "example": "The policy generated controversy."
+        },
+        {
+          "word": "consumerism (n.)",
+          "definition": "A social emphasis on buying goods and services.",
+          "example": "The activists criticised excessive consumerism."
+        },
+        {
+          "word": "condemn (v.)",
+          "definition": "Express strong disapproval of something.",
+          "example": "The group condemned the use of private cars."
+        },
+        {
+          "word": "confiscate (v.)",
+          "definition": "Officially take something away from someone.",
+          "example": "The police confiscated the equipment."
+        },
+        {
+          "word": "municipality (n.)",
+          "definition": "A town or city governed by local authorities.",
+          "example": "The municipality funds public transport."
+        },
+        {
+          "word": "unanimously (adv.)",
+          "definition": "With everyone's agreement.",
+          "example": "The council unanimously rejected the proposal."
+        },
+        {
+          "word": "arouse (v.)",
+          "definition": "Cause a feeling or interest to arise.",
+          "example": "The project aroused public interest."
+        },
+        {
+          "word": "conspicuous (adj.)",
+          "definition": "Easy to notice or see.",
+          "example": "The brightly coloured bicycles were conspicuous."
+        },
+        {
+          "word": "vandalism (n.)",
+          "definition": "Deliberate damage to property.",
+          "example": "The system was vulnerable to vandalism."
+        },
+        {
+          "word": "theft (n.)",
+          "definition": "The act of stealing something.",
+          "example": "Secure locks can prevent theft."
+        },
+        {
+          "word": "patent (n.)",
+          "definition": "A legal right protecting an invention.",
+          "example": "The inventor applied for a patent."
+        },
+        {
+          "word": "optimistic (adj.)",
+          "definition": "Expecting good results in the future.",
+          "example": "The designer remained optimistic."
+        },
+        {
+          "word": "mentality (n.)",
+          "definition": "A particular way of thinking.",
+          "example": "Public attitudes reflect a changing mentality."
+        },
+        {
+          "word": "hospitality (n.)",
+          "definition": "The business of providing accommodation and related services.",
+          "example": "She works in the hospitality industry."
+        },
+        {
+          "word": "retain (v.)",
+          "definition": "Keep something or someone.",
+          "example": "Companies try to retain skilled workers."
+        },
+        {
+          "word": "underdeveloped (adj.)",
+          "definition": "Not developed sufficiently.",
+          "example": "The organisation has underdeveloped training systems."
+        },
+        {
+          "word": "foster (v.)",
+          "definition": "Encourage the development of something.",
+          "example": "Supportive managers foster cooperation."
+        },
+        {
+          "word": "compensation (n.)",
+          "definition": "Money or benefits received for work or loss.",
+          "example": "Employees receive fair compensation."
+        },
+        {
+          "word": "inadequate (adj.)",
+          "definition": "Not enough or not good enough.",
+          "example": "Inadequate benefits can reduce morale."
+        },
+        {
+          "word": "morale (n.)",
+          "definition": "The confidence and enthusiasm of a group.",
+          "example": "Staff morale improved after the changes."
+        },
+        {
+          "word": "predisposition (n.)",
+          "definition": "A tendency to behave or respond in a particular way.",
+          "example": "The study examined a predisposition towards anxiety."
+        },
+        {
+          "word": "sophisticated (adj.)",
+          "definition": "Advanced or highly developed.",
+          "example": "Luxury hotels require sophisticated management."
+        },
+        {
+          "word": "extrinsic (adj.)",
+          "definition": "Originating outside the activity or person.",
+          "example": "Pay is an extrinsic motivator."
+        },
+        {
+          "word": "intrinsic (adj.)",
+          "definition": "Belonging naturally to something.",
+          "example": "Recognition can encourage intrinsic motivation."
+        },
+        {
+          "word": "dissatisfaction (n.)",
+          "definition": "A feeling that something is not good enough.",
+          "example": "Poor conditions caused employee dissatisfaction."
+        },
+        {
+          "word": "turnover (n.)",
+          "definition": "The rate at which staff leave and are replaced.",
+          "example": "The company reduced staff turnover."
+        },
+        {
+          "word": "organizational (adj.)",
+          "definition": "Relating to the structure or management of an organisation.",
+          "example": "The policy supports organizational goals."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          16,
+          "Paragraph 1",
+          "capacity for creativity",
+          "Building an imaginary kingdom helps Alice develop creativity, a skill with consequences for adult life."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "obeying rules and taking turns",
+          "Board games teach children to follow rules and take turns with others."
+        ],
+        [
+          16,
+          "Paragraph 5",
+          "over half the people in the world now live in cities",
+          "Urban populations have increased, reducing opportunities for free play."
+        ],
+        [
+          16,
+          "Paragraph 5",
+          "risks to do with traffic",
+          "Concerns about traffic restrict outdoor play."
+        ],
+        [
+          16,
+          "Paragraph 5",
+          "victims of crime",
+          "Parents' wish to protect children from crime is another restriction."
+        ],
+        [
+          16,
+          "Paragraph 5",
+          "greater competition in academic learning and schools",
+          "Pressure to achieve academically reduces time available for play."
+        ],
+        [
+          16,
+          "Paragraph 6",
+          "they often lack is the evidence to base policies on",
+          "International bodies need evidence to support policies concerning children's play."
+        ],
+        [
+          16,
+          "Paragraph 7",
+          "the long-term impact of play",
+          "Researchers want to know how play affects later life, not simply immediate development."
+        ],
+        [
+          17,
+          "Paragraph 5",
+          "a key predictor of academic performance",
+          "The ability to self-regulate predicts later academic achievement."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "useful in the diagnosis of neurodevelopmental disorders",
+          "Play behaviour may reveal information about medical or developmental conditions."
+        ],
+        [
+          17,
+          "Paragraph 7",
+          "Children wrote longer and better-structured stories",
+          "The research describes improved writing, but does not compare girls with boys."
+        ],
+        [
+          17,
+          "Paragraph 7",
+          "not a single child said this",
+          "None of the children complained that they lacked ideas during the Lego-building project."
+        ],
+        [
+          17,
+          "Final paragraph",
+          "the importance of play has been lost in recent decades",
+          "The author argues that play is now regarded as less important than previously."
+        ],
+        [
+          21,
+          "Section E",
+          "there would always be a couple of bikes missing",
+          "The scheme suffered from theft and vandalism despite the specially designed bicycles."
+        ],
+        [
+          20,
+          "Section C",
+          "the council unanimously rejected the plan",
+          "The council regarded bicycles as outdated and preferred a future dominated by cars."
+        ],
+        [
+          21,
+          "Section F",
+          "financially I didn't really benefit from it",
+          "Schimmelpennink explains that he did not make money because he had never patented the idea."
+        ],
+        [
+          20,
+          "Section C",
+          "only 10% of what it contributed to public transport",
+          "The calculations indicated that bicycles would cost the municipality far less per kilometre than public transport."
+        ],
+        [
+          20,
+          "Section A",
+          "threats of air pollution and consumerism",
+          "The original scheme aimed to highlight environmental damage and consumerism."
+        ],
+        [
+          21,
+          "Sections D–E",
+          "Postbank decided to abolish the chip card",
+          "The withdrawal of the chip card system removed a key element of the scheme. Questions 19 and 20 accept either order."
+        ],
+        [
+          21,
+          "Section D",
+          "People had become more environmentally conscious",
+          "Changes in public attitudes helped make the 1999 scheme possible."
+        ],
+        [
+          21,
+          "Section G",
+          "People who travel on the underground don't carry their bikes around",
+          "Bike sharing could help people who need transport after a journey by public transport. Questions 21 and 22 accept either order."
+        ],
+        [
+          21,
+          "Section G",
+          "one of the two most cycle-friendly capitals",
+          "Amsterdam is widely regarded as a city that welcomes cyclists."
+        ],
+        [
+          20,
+          "Section A",
+          "a group of Dutch activists",
+          "The Provo group consisted of activists who wanted social change."
+        ],
+        [
+          20,
+          "Section A",
+          "air pollution and consumerism",
+          "Consumerism was one of the problems the activists wanted to highlight."
+        ],
+        [
+          20,
+          "Section A",
+          "distributed leaflets describing the dangers of cars",
+          "The activists distributed leaflets to criticise the use of cars."
+        ],
+        [
+          20,
+          "Section B",
+          "the police were opposed ... took the white bikes away",
+          "Police confiscation caused the scheme to end shortly after the bicycles were placed around the city."
+        ],
+        [
+          26,
+          "Paragraph 8",
+          "understanding of what motivates employees",
+          "Enz and Siguaw emphasise identifying the practices that encourage staff satisfaction and retention."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "employees feel more obligated to stay with the company",
+          "Ng and Sorensen link managerial support to a stronger sense of loyalty."
+        ],
+        [
+          25,
+          "Paragraph 3",
+          "underdeveloped HR practices",
+          "Lucas argues that the hospitality sector has paid insufficient attention to employee development."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "motivate employees to work together",
+          "Ng and Sorensen explain that encouraging teamwork and removing obstacles improve staff commitment."
+        ],
+        [
+          25,
+          "Paragraph 4",
+          "low compensation, inadequate benefits, poor working conditions and compromised employee morale",
+          "Maroudas and colleagues identify several causes of turnover beyond low pay."
+        ],
+        [
+          25,
+          "Paragraph 4",
+          "compromised employee morale and attitudes",
+          "Low morale is explicitly identified as one cause of employee turnover."
+        ],
+        [
+          26,
+          "Paragraph 6",
+          "no evidence exists to support this hypothesis",
+          "The author rejects the suggestion that staff have a natural tendency to view their working environment negatively."
+        ],
+        [
+          26,
+          "Paragraph 9",
+          "improving these factors does not result in satisfaction",
+          "Better working conditions and job security reduce dissatisfaction but do not necessarily create satisfaction."
+        ],
+        [
+          26,
+          "Final paragraph",
+          "allowing adequate breaks during the working day",
+          "The passage recommends adequate breaks but does not specify that employees should choose their timing."
+        ],
+        [
+          26,
+          "Paragraph 11",
+          "staff from a chain of themed restaurants",
+          "The research was conducted in a chain of themed restaurants in the United States."
+        ],
+        [
+          26,
+          "Paragraph 11",
+          "fun activities had a favorable impact on performance",
+          "Activities intended to make work enjoyable improved employee performance."
+        ],
+        [
+          26,
+          "Paragraph 11",
+          "manager support for fun had a favorable impact in reducing turnover",
+          "Managerial support for enjoyable activities helped reduce staff turnover."
+        ],
+        [
+          26,
+          "Paragraph 11",
+          "aligned with both organizational goals",
+          "The activities must be consistent with the organisation's goals."
+        ],
+        [
+          26,
+          "Paragraph 11",
+          "employee characteristics",
+          "The activities also need to suit the characteristics of the employees."
+        ]
+      ],
+      "listening": [
+        [
+          97,
+          "I'm actually Canadian, though my mother was British",
+          "Louise identifies her own nationality as Canadian; British refers to her mother."
+        ],
+        [
+          97,
+          "I come over to buy old furniture",
+          "As an interior designer, Louise visits to buy antique furniture."
+        ],
+        [
+          97,
+          "a place at Park Apartments",
+          "Her current address is Park Apartments, not the Riverside Apartments she used before."
+        ],
+        [
+          97,
+          "I must have already spent about £50 of that",
+          "She withdrew £300 and spent about £50, leaving approximately £250."
+        ],
+        [
+          97,
+          "my phone had gone as well",
+          "She discovered that her recently purchased phone was also missing."
+        ],
+        [
+          98,
+          "that was September the tenth",
+          "The theft took place on 10 September."
+        ],
+        [
+          98,
+          "a couple of hours in the museum",
+          "The suspected theft occurred outside the museum as she was leaving."
+        ],
+        [
+          98,
+          "they were asking us what time it was",
+          "The boys approached Louise by asking for the time."
+        ],
+        [
+          98,
+          "he was blond",
+          "The boy was blond, unlike the other boys who had dark hair."
+        ],
+        [
+          98,
+          "eight seven nine five four, eight two three six one",
+          "The officer supplies the crime reference number 87954 82361."
+        ],
+        [
+          98,
+          "talk to as many people as possible",
+          "The manager recommends getting to know colleagues in different departments. The two correct options may be given in either order."
+        ],
+        [
+          98,
+          "check with someone if you're not sure what to do",
+          "The manager advises apprentices to ask questions whenever they are uncertain."
+        ],
+        [
+          98,
+          "more long-term ambitions",
+          "Mentors can discuss longer-term career plans with apprentices. The two correct options may be given in either order."
+        ],
+        [
+          98,
+          "goals you've achieved so far",
+          "Mentors can review progress and identify areas for improvement."
+        ],
+        [
+          98,
+          "don't use it for personal use",
+          "Internet access is permitted for work research, but personal use is restricted."
+        ],
+        [
+          99,
+          "it will depend on which department you're in",
+          "Flexible working is possible only in certain departments and circumstances."
+        ],
+        [
+          99,
+          "don't book any holidays until after your six-month apprenticeship has finished",
+          "Apprentices must not book ordinary holidays during the six-month training period."
+        ],
+        [
+          99,
+          "it can be a valuable experience ... advise you to take it up",
+          "Overtime is encouraged for the experience, although it is not compulsory."
+        ],
+        [
+          99,
+          "Comfortable shoes like trainers are preferable",
+          "The company permits and prefers comfortable footwear such as trainers."
+        ],
+        [
+          99,
+          "introduce a no packed lunch policy",
+          "Bringing a packed lunch is against the company rules."
+        ],
+        [
+          99,
+          "most of the biggest cities are actually built by the sea",
+          "The students were surprised that most of the largest cities are coastal."
+        ],
+        [
+          99,
+          "more and more pollutants are discharged into the rivers",
+          "Industrial and agricultural activity upstream can carry pollution into coastal cities."
+        ],
+        [
+          99,
+          "what they didn't take into account was global warming",
+          "Miami's drainage channels were built too close to sea level because climate change was not considered."
+        ],
+        [
+          100,
+          "find the money for something to replace the drainage channels",
+          "The immediate priority is funding an effective replacement drainage system."
+        ],
+        [
+          100,
+          "they should be able to work together to some extent",
+          "The students agree that better coordination is possible before full international policy agreement."
+        ],
+        [
+          100,
+          "we don't want to spend too long on that",
+          "The historical background should be kept brief."
+        ],
+        [
+          100,
+          "some slides everyone can see",
+          "The students plan to illustrate geographical factors with maps or slides."
+        ],
+        [
+          100,
+          "use that as the basis for that part of the talk",
+          "They choose New Orleans as the main example of past mistakes."
+        ],
+        [
+          100,
+          "look at some websites",
+          "The students will conduct online research into future risks."
+        ],
+        [
+          100,
+          "ask people in the audience",
+          "They propose involving classmates who come from different places in the international discussion."
+        ],
+        [
+          100,
+          "increasing population and expanding industry",
+          "Growing industry and population create greater demand for energy."
+        ],
+        [
+          101,
+          "the source is constant",
+          "Wave energy is a constant renewable resource because waves do not stop."
+        ],
+        [
+          101,
+          "the wind making them travel in every direction",
+          "Changing wave directions make it difficult to design efficient generating equipment."
+        ],
+        [
+          101,
+          "sediment on the ocean floor might be stopped from flowing normally",
+          "Wave energy structures can interfere with movement of material on the ocean floor."
+        ],
+        [
+          101,
+          "it's predictable",
+          "Tides are more predictable than waves because their timing is known."
+        ],
+        [
+          101,
+          "within a bay at Swansea",
+          "The proposed tidal lagoon is situated in a bay on the Welsh coast."
+        ],
+        [
+          101,
+          "gates in the breakwater are opened",
+          "Opening the gates releases stored water through the turbines as the tide falls."
+        ],
+        [
+          101,
+          "without the need for fuel",
+          "The turbines do not need fuel and are not dependent on weather conditions."
+        ],
+        [
+          101,
+          "create more than 2,000 jobs",
+          "Manufacturing the components could create thousands of jobs in the local economy."
+        ],
+        [
+          101,
+          "disturbing migration patterns",
+          "A lagoon could harm wildlife by disrupting migration and increasing silt accumulation."
+        ]
+      ]
+    }
   }
 };
