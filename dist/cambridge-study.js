@@ -16567,6 +16567,248 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "builds its nests",
           "The bird uses the vegetation for nesting."
         ]
+      ],
+      "reading": [
+        [
+          16,
+          "Paragraph 1",
+          "Paraphrased evidence: Leaf shape",
+          "The description identifies oval as the shape rather than the colour of the leaves."
+        ],
+        [
+          16,
+          "Paragraph 1",
+          "Paraphrased evidence: Outer fruit covering",
+          "The husk encloses the fruit and divides when it ripens."
+        ],
+        [
+          16,
+          "Paragraph 1",
+          "Paraphrased evidence: Dried plant material",
+          "Nutmeg comes from the seed; the surrounding aril produces a different spice."
+        ],
+        [
+          16,
+          "Paragraph 1",
+          "Paraphrased evidence: Red seed covering",
+          "Mace is made from the aril, not from the seed itself."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "Paraphrased evidence: Secret geographical origin",
+          "European buyers were not told where nutmeg was grown, contradicting the statement."
+        ],
+        [
+          17,
+          "Paragraph 4",
+          "Paraphrased evidence: VOC commercial wealth",
+          "Being the wealthiest operation does not establish whether the VOC was the first major trading company."
+        ],
+        [
+          17,
+          "Paragraph 5",
+          "Paraphrased evidence: Treaty of Breda",
+          "Acquiring Run removed the remaining British-held nutmeg-producing island from the Dutch monopoly."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "Paraphrased evidence: Medieval spice imports",
+          "Arab merchants supplied European buyers during this period."
+        ],
+        [
+          17,
+          "Paragraph 4",
+          "Paraphrased evidence: Disease and demand",
+          "Belief that nutmeg could treat plague increased demand."
+        ],
+        [
+          17,
+          "Paragraph 5",
+          "Paraphrased evidence: Preventing seed germination",
+          "Lime was applied to exports to stop viable seeds being cultivated abroad."
+        ],
+        [
+          17,
+          "Paragraph 5",
+          "Paraphrased evidence: British-held island",
+          "The territorial agreement transferred Run to Dutch control."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "Paraphrased evidence: Secret plant transfer in 1770",
+          "The destination of the smuggled plants was Mauritius."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "Paraphrased evidence: Disaster in 1778",
+          "The tsunami, triggered by volcanic activity, destroyed approximately half the plantations."
+        ],
+        [
+          20,
+          "Section C",
+          "Paraphrased evidence: Time spent parked",
+          "The statistic concerns cars being stationary rather than travelling."
+        ],
+        [
+          20,
+          "Section B",
+          "Paraphrased evidence: Benefits for individuals",
+          "The section discusses safety, usable travel time and independence for passengers."
+        ],
+        [
+          21,
+          "Section E",
+          "Paraphrased evidence: Vehicle choice for different journeys",
+          "Access to multiple vehicles would allow users to choose one suited to a specific trip."
+        ],
+        [
+          21,
+          "Section G",
+          "Paraphrased evidence: Estimated period for solutions",
+          "The author suggests the outstanding obstacles could be resolved within a decade."
+        ],
+        [
+          20,
+          "Section D",
+          "Paraphrased evidence: Replacement frequency",
+          "More intensive use may shorten vehicle life, offsetting a reduction in the fleet size."
+        ],
+        [
+          20,
+          "Section B",
+          "Paraphrased evidence: Cause of collisions",
+          "Driver mistakes contribute to most collisions, so the missing cause is human error."
+        ],
+        [
+          20,
+          "Section C",
+          "Paraphrased evidence: Shared access to vehicles",
+          "Automation makes car-sharing schemes more practical."
+        ],
+        [
+          20,
+          "Section D",
+          "Paraphrased evidence: 43 percent reduction",
+          "The prediction concerns how many vehicles people own, rather than how far they travel."
+        ],
+        [
+          20,
+          "Section D",
+          "Paraphrased evidence: Annual distance travelled",
+          "The model predicts that distance covered per vehicle will double."
+        ],
+        [
+          20,
+          "Section B",
+          "Paraphrased evidence: Time and independence",
+          "Both C and D are supported: passengers can use travel time differently and people unable to drive easily gain independence."
+        ],
+        [
+          20,
+          "Section B",
+          "Paraphrased evidence: Time and independence",
+          "Both C and D are supported: passengers can use travel time differently and people unable to drive easily gain independence."
+        ],
+        [
+          21,
+          "Section F",
+          "Paraphrased evidence: Public acceptance and reliability",
+          "Both A and E are supported: trust must be established and the technology must cope with varied conditions."
+        ],
+        [
+          21,
+          "Section F",
+          "Paraphrased evidence: Public acceptance and reliability",
+          "Both A and E are supported: trust must be established and the technology must cope with varied conditions."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "Paraphrased evidence: Finding one's way in New York",
+          "The everyday example illustrates the universal human impulse to explore."
+        ],
+        [
+          24,
+          "Paragraph 2",
+          "Paraphrased evidence: Shared curiosity",
+          "Although some people may be especially adventurous, the desire to investigate the unknown is not exclusive to them."
+        ],
+        [
+          24,
+          "Paragraph 3",
+          "Paraphrased evidence: Hardy's fictional landscape",
+          "Egdon Heath provides a means of examining characters' fears and desires."
+        ],
+        [
+          24,
+          "Paragraph 4",
+          "Paraphrased evidence: Gaps in scientific knowledge",
+          "The many unexplored aspects of nature undermine the assumption that discovery belongs to the past."
+        ],
+        [
+          25,
+          "Paragraph 6",
+          "Paraphrased evidence: Professional perspectives",
+          "Definitions differ because explorers interpret the activity through their own specialist interests."
+        ],
+        [
+          25,
+          "Final paragraph",
+          "Paraphrased evidence: New interpretations of familiar places",
+          "The writer values insights produced by reinterpreting locations that are already known."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "Paraphrased evidence: Camel versus car",
+          "Thesiger argues that an unnecessarily difficult transport choice would turn an expedition into a performance."
+        ],
+        [
+          24,
+          "Paragraph 3",
+          "Paraphrased evidence: Returning to loved ones",
+          "Fleming describes the contrast between an explorer's distant existence and familiar identity at home."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "Paraphrased evidence: Campaigning for remote communities",
+          "Hanbury-Tenison advocates for the interests of particular indigenous groups."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "Paraphrased evidence: Information versus personal discovery",
+          "Thesiger prioritises reporting knowledge gained in remote places over learning about oneself."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "Paraphrased evidence: Novelty and scientific contribution",
+          "Fiennes requires an unprecedented achievement that also provides scientific value."
+        ],
+        [
+          25,
+          "Final paragraph",
+          "Paraphrased evidence: Numerous distinctive journeys",
+          "The author describes his many expeditions, each different from the others."
+        ],
+        [
+          25,
+          "Final paragraph",
+          "Paraphrased evidence: Communities without outside contact",
+          "The writer lived with isolated groups, including tribes previously uncontacted by outsiders."
+        ],
+        [
+          25,
+          "Final paragraph",
+          "Paraphrased evidence: Mapped terrestrial geography",
+          "The broad layout of Earth's land surface is known; remaining work focuses on specific details."
+        ]
       ]
     },
     "cues": {
@@ -17023,7 +17265,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "38": "asr-context-reviewed",
       "39": "asr-context-reviewed",
       "40": "asr-context-reviewed"
-    }
+    },
+    "readingEvidenceProvenance": "Cross-checked against Cambridge 15 Test 1 answer key and https://www.readingielts.com/cambridge-ielts-15-reading-test-1-answers/; evidence labels paraphrased; page locations not visually verified."
   },
   "15-2": {
     "vocabulary": {
