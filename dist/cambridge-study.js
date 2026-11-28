@@ -26541,6 +26541,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         161.5,
         436.3
       ],
+      "14": [
+        194.3,
+        199.8,
+        436.3
+      ],
       "15": [
         219.9,
         231.7,
@@ -26686,6 +26691,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "11": "context",
       "12": "context",
       "13": "context",
+      "14": "context",
       "15": "context",
       "16": "context",
       "17": "context",
@@ -26765,6 +26771,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "13": [
         151.46,
         155.5
+      ],
+      "14": [
+        195.08,
+        199.16
       ],
       "15": [
         222.92,
@@ -26885,7 +26895,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "11": "asr-script-aligned",
       "12": "asr-script-aligned",
       "13": "asr-script-aligned",
-      "14": "unresolved-asr-gap",
+      "14": "asr-small-en-script-aligned",
       "15": "asr-script-aligned",
       "16": "asr-script-aligned",
       "17": "asr-script-aligned",
@@ -26919,7 +26929,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "1d14c2dd727e1399b29a11bfc28da1d3c5717182492b108d467c80fa409f6112",
       "4": "8631fe8662f13c2643b7524aebb0021429b97dcfecb1006784bf15054ea2866b"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15251564796; compared word-level transcript with supplied CAM19 printed audioscripts pp99–119, question options and listening keys pp120/122/124/126. Source hashes from audit; live audio must match. ASR-based approximate bounds; not human listening verified. Missing speech remains disabled."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15251564796; compared word-level transcript with supplied CAM19 printed audioscripts pp99–119, question options and listening keys pp120/122/124/126. Source hashes from audit; live audio must match. ASR-based approximate bounds; not human listening verified. Missing speech remains disabled.",
+    "cueAuditNotes": {
+      "14": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253862298,
+        "phrase": "Have dinner in the house or garden, rather than eating out.",
+        "manualVerified": false
+      }
+    }
   },
   "19-2": {
     "vocabulary": {
@@ -28297,6 +28316,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         234,
         397.5
       ],
+      "18": [
+        256.3,
+        261.1,
+        397.5
+      ],
       "19": [
         289.2,
         301.8,
@@ -28325,6 +28349,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "24": [
         164.9,
         180,
+        441.5
+      ],
+      "25": [
+        189.8,
+        195.4,
         441.5
       ],
       "26": [
@@ -28421,12 +28450,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "15": "context",
       "16": "context",
       "17": "context",
+      "18": "context",
       "19": "context",
       "20": "context",
       "21": "context",
       "22": "context",
       "23": "context",
       "24": "context",
+      "25": "context",
       "26": "context",
       "27": "context",
       "28": "context",
@@ -28512,6 +28543,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         224.24,
         227.92
       ],
+      "18": [
+        257.02,
+        260.48
+      ],
       "19": [
         292.26,
         295.8
@@ -28535,6 +28570,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "24": [
         167.96,
         174
+      ],
+      "25": [
+        190.54,
+        194.72
       ],
       "26": [
         271.96,
@@ -28615,14 +28654,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "15": "asr-script-aligned",
       "16": "asr-script-aligned",
       "17": "asr-script-aligned",
-      "18": "unresolved-asr-gap",
+      "18": "asr-small-en-script-aligned",
       "19": "asr-script-aligned",
       "20": "asr-script-aligned",
       "21": "asr-script-aligned",
       "22": "asr-script-aligned",
       "23": "asr-script-aligned",
       "24": "asr-script-aligned",
-      "25": "unresolved-asr-gap",
+      "25": "asr-small-en-script-aligned",
       "26": "asr-script-aligned",
       "27": "asr-script-aligned",
       "28": "asr-script-aligned",
@@ -28645,6 +28684,22 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "f61d1fbc2dbb3b573080e53b9bf0b2f507323f245fc2b612baeb9e60bec65741",
       "4": "553a21a7f0bab57d86f55cfb87b9e6421cc6da617623c57799cdaf3732236651"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15251564796; compared word-level transcript with supplied CAM19 printed audioscripts pp99–119, question options and listening keys pp120/122/124/126. Source hashes from audit; live audio must match. ASR-based approximate bounds; not human listening verified. Missing speech remains disabled."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15251564796; compared word-level transcript with supplied CAM19 printed audioscripts pp99–119, question options and listening keys pp120/122/124/126. Source hashes from audit; live audio must match. ASR-based approximate bounds; not human listening verified. Missing speech remains disabled.",
+    "cueAuditNotes": {
+      "18": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253862298,
+        "phrase": "It took him months to find the courage to contact us.",
+        "manualVerified": false
+      },
+      "25": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253862298,
+        "phrase": "New books aren't cheap though, are they? I guess we're lucky we can buy them.",
+        "manualVerified": false
+      }
+    }
   }
 };
