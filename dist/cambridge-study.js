@@ -25461,7 +25461,251 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "082d12864a061d4b8e0eb7d3facd975cb1d942d09e0422cca0ab5dba1cf57885",
       "4": "d5981fa7d56dca1ef82268284fc110bfe36b7590626d8bc1ccae001e270c4e87"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue.",
+    "review": {
+      "reading": [
+        [
+          16,
+          "Paragraph 1",
+          "shipping and mining industries",
+          "Shipping means transportation by sea. Mining is the other source of their grandfather's fortune."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "education was rigorously geared toward such pursuits",
+          "Their education was designed to encourage cultural interests such as art collecting."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "making extensive notes",
+          "Extensive means lengthy or detailed. They recorded what they saw in galleries."
+        ],
+        [
+          16,
+          "Paragraph 4",
+          "journals reveal their preference for Old Master paintings",
+          "Their journals record their preference for these paintings."
+        ],
+        [
+          17,
+          "Paragraph 5",
+          "scenes of Venice",
+          "The first Impressionist works they bought depicted Venice."
+        ],
+        [
+          17,
+          "Paragraph 6",
+          "volunteer at a canteen for troops",
+          "Troops means soldiers; the sisters worked in a canteen in France."
+        ],
+        [
+          17,
+          "Paragraph 8",
+          "didn't make friends with artists or gallery owners",
+          "They did not have artists among their friends."
+        ],
+        [
+          16,
+          "Paragraph 1",
+          "religious upbringing in rural Wales",
+          "Their childhood instilled a sense of social responsibility which shaped how they used their inheritance."
+        ],
+        [
+          16,
+          "Paragraph 4",
+          "paintings by the French artist Jean-Baptiste-Camille Corot",
+          "The artist's nationality is given, but the location of the gallery where they purchased his works is not specified."
+        ],
+        [
+          17,
+          "Paragraph 5",
+          "had a hand in the decision",
+          "Blaker supported contemporary French art and contributed to their decision rather than opposing it."
+        ],
+        [
+          17,
+          "Paragraph 7",
+          "first works by Cezanne to go on display in a public gallery in Britain",
+          "The exhibition's historical significance is mentioned, but the public's reaction or attendance is not."
+        ],
+        [
+          17,
+          "Paragraph 9",
+          "increasingly uncomfortable buying art works",
+          "Postwar poverty and upheaval led Gwendoline to concentrate on social causes rather than art purchases."
+        ],
+        [
+          17,
+          "Paragraph 10",
+          "routinely ignored by individuals and institutions alike",
+          "They collected Impressionist paintings when most individuals and institutions paid little attention to them."
+        ],
+        [
+          20,
+          "Section C",
+          "quieter buses, reducing noise from roads",
+          "This section gives concrete noise-reduction measures in several cities."
+        ],
+        [
+          20,
+          "Section B",
+          "at least 1 in 5 people",
+          "The report quantifies how widespread harmful noise exposure is in Europe."
+        ],
+        [
+          20,
+          "Section A",
+          "blood pressure goes up, muscles tense",
+          "This section describes bodily reactions to unexpected sounds, including hormonal changes."
+        ],
+        [
+          21,
+          "Section G",
+          "outdoor garden compared with a completely silent room",
+          "Participants felt more relaxed and less bored outdoors than in total silence."
+        ],
+        [
+          20,
+          "Section D",
+          "focus on the breath",
+          "Concentrating on breathing helps flotation-tank users reach a relaxed or meditative state."
+        ],
+        [
+          21,
+          "Section E",
+          "answer a questionnaire prior to and following a flotation session",
+          "The 50 participants completed a questionnaire both before and after floating."
+        ],
+        [
+          21,
+          "Section E",
+          "increase in feelings of relaxation and overall wellbeing",
+          "Improved general wellbeing is reported alongside reduced symptoms."
+        ],
+        [
+          21,
+          "Section E",
+          "brain regions commonly linked with depression",
+          "Flotation reduced activity in the default mode network, associated with depression."
+        ],
+        [
+          21,
+          "Section F",
+          "When people do not want silence, it can be very distressing.",
+          "Ben-Soussan says that willingness matters and unwanted silence can cause distress."
+        ],
+        [
+          20,
+          "Section C",
+          "I expect we will see much more of this in the future.",
+          "Antonio predicts that urban noise-reduction efforts will become more common."
+        ],
+        [
+          20,
+          "Section D",
+          "the brain tries to fill the void",
+          "Feinstein explains that the brain generates auditory or visual effects when external sensory information is absent."
+        ],
+        [
+          21,
+          "Section G",
+          "a few minutes at a time",
+          "Pfeifer argues that short, frequent periods of silence can make a substantial difference."
+        ],
+        [
+          21,
+          "Section F",
+          "more aware of what is happening around us",
+          "Ben-Soussan links inner and outer silence to greater awareness and more appropriate responses."
+        ],
+        [
+          25,
+          "Paragraph 1",
+          "massively subsidised and sold at artificially low prices",
+          "Subsidies lower beet sugar prices and make it more competitive against cane sugar internationally."
+        ],
+        [
+          25,
+          "Paragraph 2",
+          "started to import beet sugar from continental Europe",
+          "The paragraph traces changes in Britain's sources of sugar, from colonial cane sugar to imports and domestic beet sugar."
+        ],
+        [
+          25,
+          "Paragraph 3",
+          "Contrary to popular belief",
+          "The reviewer corrects the assumption that cane sugar was produced exclusively on rich men's large plantations."
+        ],
+        [
+          26,
+          "Final paragraph",
+          "we could always have done without sugar",
+          "The review stresses sugar's unnecessary nature and the tragedies connected with its production, supporting option A."
+        ],
+        [
+          25,
+          "Paragraph 4",
+          "imported labour has been used",
+          "Workers from Poland, Mexico and Sicily exemplify migrant workers in German and US sugar production."
+        ],
+        [
+          25,
+          "Paragraph 4",
+          "traditional methods on small farms",
+          "Small-scale cultivation continued to dominate in parts of South Asia and Latin America."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "capitalists and sugar dynasties, as well as corporations",
+          "These are powerful individuals and businesses involved in sugar production."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "profound influence on the policies of states",
+          "The industry influenced government policy and politics."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "trade barriers and subsidies",
+          "These financial and economic controls protected the interests of sugar producers."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "poor countries which came off worse",
+          "Less wealthy nations were disadvantaged by the competition for control."
+        ],
+        [
+          26,
+          "Paragraph beginning Where once",
+          "new techniques, varieties, fertilisers, irrigation systems",
+          "Multiple agricultural improvements helped transform sugar into a widely available product."
+        ],
+        [
+          26,
+          "Paragraph beginning Where once",
+          "Once regarded as a luxury, sugar came to be promoted as a valuable source of energy.",
+          "The author mentions its former luxury status, but does not say advertisers initially marketed it as a luxury."
+        ],
+        [
+          26,
+          "Paragraph beginning Where once",
+          "worrying new developments in mass sweetening",
+          "The writer describes corn syrup as worrying and links it to obesity, not as a positive invention."
+        ],
+        [
+          26,
+          "Paragraph beginning Where once",
+          "a large number of processed foods",
+          "High-fructose corn syrup is widely used in processed foods and soft drinks."
+        ]
+      ]
+    }
   },
   "21-2": {
     "vocabulary": {
