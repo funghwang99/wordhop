@@ -9784,7 +9784,462 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "We should not disregard the available evidence."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          96,
+          "Jamieson",
+          "The contact's surname is spelled out."
+        ],
+        [
+          96,
+          "afternoon",
+          "The recommended time to call is the afternoon."
+        ],
+        [
+          96,
+          "communication",
+          "Communication skills are more important than computer skills."
+        ],
+        [
+          96,
+          "a week at first",
+          "The initial assignment lasts a week."
+        ],
+        [
+          96,
+          "hourly rate",
+          "The quoted starting rate is ten pounds per hour."
+        ],
+        [
+          96,
+          "suit",
+          "A suit is needed for the interview."
+        ],
+        [
+          97,
+          "passport",
+          "The passport is the document mentioned."
+        ],
+        [
+          97,
+          "personality",
+          "The interview helps assess personality."
+        ],
+        [
+          97,
+          "feedback on your performance",
+          "The agency provides feedback after the interview."
+        ],
+        [
+          97,
+          "less time",
+          "The agency saves applicants time."
+        ],
+        [
+          97,
+          "many years' experience",
+          "The tour company emphasises its long experience."
+        ],
+        [
+          97,
+          "Heysham",
+          "The manager meets passengers at the departure point."
+        ],
+        [
+          97,
+          "lunch on the three days",
+          "Lunch is provided on organised excursion days."
+        ],
+        [
+          97,
+          "a different tour",
+          "An alternative date or tour is offered if necessary."
+        ],
+        [
+          97,
+          "river",
+          "The dining room overlooks the river."
+        ],
+        [
+          98,
+          "1422",
+          "This is the year given for the historical building."
+        ],
+        [
+          98,
+          "to the top",
+          "The excursion includes reaching the top."
+        ],
+        [
+          98,
+          "using the pass",
+          "The pass covers the transport mentioned."
+        ],
+        [
+          98,
+          "steam railway",
+          "The railway uses steam."
+        ],
+        [
+          98,
+          "capital",
+          "The destination is the island's capital."
+        ],
+        [
+          98,
+          "nurturing",
+          "The eldest child is associated with looking after others."
+        ],
+        [
+          98,
+          "eager to please",
+          "Middle children are described as helpful."
+        ],
+        [
+          98,
+          "made friends easily",
+          "The youngest child is described as sociable."
+        ],
+        [
+          99,
+          "shy in social situations",
+          "The twins are associated with shyness."
+        ],
+        [
+          99,
+          "world revolves around them",
+          "Only children may expect attention to centre on them."
+        ],
+        [
+          99,
+          "grow up more quickly",
+          "Children with much older siblings may mature faster."
+        ],
+        [
+          99,
+          "family size",
+          "Family size is a factor in interpreting the research."
+        ],
+        [
+          99,
+          "teachers for their younger siblings",
+          "Older children may benefit from teaching younger siblings."
+        ],
+        [
+          99,
+          "defend myself",
+          "One benefit discussed is learning to defend oneself."
+        ],
+        [
+          99,
+          "put up with each other",
+          "Another benefit is learning tolerance."
+        ],
+        [
+          100,
+          "gives shelter",
+          "The tree provides shelter."
+        ],
+        [
+          100,
+          "oil",
+          "Oil is extracted from the tree."
+        ],
+        [
+          100,
+          "construction of roads",
+          "Road building is one cause of habitat disturbance."
+        ],
+        [
+          100,
+          "insects",
+          "Insects settle in the affected environment."
+        ],
+        [
+          100,
+          "grass to grow",
+          "The altered conditions allow grass to grow."
+        ],
+        [
+          100,
+          "water",
+          "Water availability is important for restoration."
+        ],
+        [
+          100,
+          "composition of the soil",
+          "The soil must have appropriate properties."
+        ],
+        [
+          100,
+          "dry rainforest",
+          "The habitat described is dry rainforest."
+        ],
+        [
+          100,
+          "simple one",
+          "The restoration method is described as simple."
+        ],
+        [
+          100,
+          "builds its nests",
+          "The bird uses the vegetation for nesting."
+        ]
+      ]
+    },
+    "cues": {
+      "1": [
+        132,
+        151,
+        460.245
+      ],
+      "2": [
+        158,
+        179,
+        460.245
+      ],
+      "3": [
+        207,
+        218,
+        460.245
+      ],
+      "4": [
+        230,
+        240,
+        460.245
+      ],
+      "5": [
+        244,
+        255,
+        460.245
+      ],
+      "6": [
+        313,
+        323,
+        460.245
+      ],
+      "7": [
+        327,
+        337,
+        460.245
+      ],
+      "8": [
+        339,
+        352,
+        460.245
+      ],
+      "9": [
+        360,
+        371,
+        460.245
+      ],
+      "10": [
+        376,
+        386,
+        460.245
+      ],
+      "11": [
+        78,
+        93,
+        418.474
+      ],
+      "12": [
+        110,
+        125,
+        418.474
+      ],
+      "13": [
+        131,
+        145,
+        418.474
+      ],
+      "14": [
+        171,
+        185,
+        418.474
+      ],
+      "15": [
+        240,
+        256,
+        418.474
+      ],
+      "16": [
+        276,
+        287,
+        418.474
+      ],
+      "17": [
+        305,
+        316,
+        418.474
+      ],
+      "18": [
+        315,
+        328,
+        418.474
+      ],
+      "19": [
+        338,
+        351,
+        418.474
+      ],
+      "20": [
+        356,
+        367,
+        418.474
+      ],
+      "21": [
+        105,
+        120,
+        432.853
+      ],
+      "22": [
+        124,
+        136,
+        432.853
+      ],
+      "23": [
+        149,
+        161,
+        432.853
+      ],
+      "24": [
+        166,
+        179,
+        432.853
+      ],
+      "25": [
+        188,
+        201,
+        432.853
+      ],
+      "26": [
+        203,
+        216,
+        432.853
+      ],
+      "27": [
+        299,
+        312,
+        432.853
+      ],
+      "28": [
+        332,
+        350,
+        432.853
+      ],
+      "29": [
+        359,
+        383,
+        432.853
+      ],
+      "30": [
+        359,
+        383,
+        432.853
+      ],
+      "31": [
+        113,
+        125,
+        546.645
+      ],
+      "32": [
+        136,
+        149,
+        546.645
+      ],
+      "33": [
+        191,
+        204,
+        546.645
+      ],
+      "34": [
+        248,
+        260,
+        546.645
+      ],
+      "35": [
+        326,
+        340,
+        546.645
+      ],
+      "36": [
+        354,
+        366,
+        546.645
+      ],
+      "37": [
+        371,
+        384,
+        546.645
+      ],
+      "38": [
+        412,
+        425,
+        546.645
+      ],
+      "39": [
+        434,
+        446,
+        546.645
+      ],
+      "40": [
+        450,
+        463,
+        546.645
+      ]
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "context",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "context",
+      "6": "keyword",
+      "7": "context",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "keyword",
+      "12": "context",
+      "13": "keyword",
+      "14": "context",
+      "15": "context",
+      "16": "keyword",
+      "17": "keyword",
+      "18": "keyword",
+      "19": "keyword",
+      "20": "keyword",
+      "21": "keyword",
+      "22": "keyword",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "keyword",
+      "28": "context",
+      "29": "context",
+      "30": "context",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "audioSha256": {
+      "1": "8dbf852f878a729c202a63a9910ccfec53ebe5bfac47c59d2e3865ba329246dd",
+      "2": "23569a6c516514652f55c723c704dc73f80c1a49a32156bc993cd2eef9a788c1",
+      "3": "39c30c0f92af2b16215528fc4967d7f7e54a47331754d36cbc33ade76289486f",
+      "4": "bec1bdcc869b6ccace93144edc2bc19e2640b804bfe9428c0a664c2a7f49c6d0"
+    },
+    "cueProvenance": "Approximate source-clock alignment using automatic phrase recognition and transcript context; not human-audited. Context cues may cover a wider passage."
   },
   "15-2": {
     "vocabulary": {
@@ -9911,7 +10366,462 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "Other scientists tried to replicate the experiment."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          101,
+          "Eustatis",
+          "The ballet company's unusual name is given and spelled."
+        ],
+        [
+          101,
+          "review in the local paper",
+          "A local newspaper review is mentioned."
+        ],
+        [
+          101,
+          "dance",
+          "Dance is the next performance category."
+        ],
+        [
+          101,
+          "Chat",
+          "The performance has the unusual title Chat."
+        ],
+        [
+          101,
+          "healthy lifestyle",
+          "The activity promotes a healthy lifestyle."
+        ],
+        [
+          101,
+          "creating posters",
+          "Participants create posters."
+        ],
+        [
+          102,
+          "toys out of wood",
+          "Wood is the material used."
+        ],
+        [
+          102,
+          "in a lake",
+          "The activity takes place in a lake."
+        ],
+        [
+          102,
+          "expert on insects",
+          "The speaker specialises in insects."
+        ],
+        [
+          102,
+          "keeping a blog",
+          "Participants are encouraged to keep a blog."
+        ],
+        [
+          102,
+          "waste land",
+          "Local people began planting flowers on unused land."
+        ],
+        [
+          102,
+          "petitions and demonstrations",
+          "Residents campaigned to protect the site."
+        ],
+        [
+          102,
+          "planted with vegetables",
+          "Part of the area was used to grow vegetables."
+        ],
+        [
+          103,
+          "2016",
+          "The changes finally began in 2016."
+        ],
+        [
+          103,
+          "north of the lily pond",
+          "Follow the position immediately north of the pond."
+        ],
+        [
+          103,
+          "river bank",
+          "The relevant feature is at the sharp bend in the river."
+        ],
+        [
+          103,
+          "playground",
+          "Follow the path between the pond and the river."
+        ],
+        [
+          103,
+          "west gate",
+          "Enter at the west gate, head north and turn left."
+        ],
+        [
+          103,
+          "south-west corner",
+          "The feature is in the south-west corner."
+        ],
+        [
+          103,
+          "lily pond",
+          "The fitness area is beside the pond on the west-gate side."
+        ],
+        [
+          103,
+          "publicised in the city",
+          "One audience is the wider city community."
+        ],
+        [
+          103,
+          "prospective students",
+          "The event also targets students applying next year."
+        ],
+        [
+          104,
+          "well-known novels",
+          "The popularity of the novels is one reason for the choice."
+        ],
+        [
+          104,
+          "terrible conditions",
+          "The novels exposed shocking social conditions."
+        ],
+        [
+          104,
+          "keeps falling asleep",
+          "The character's symptoms suggest a medical condition."
+        ],
+        [
+          104,
+          "went to school",
+          "Few children received formal education at the time."
+        ],
+        [
+          104,
+          "touring actors",
+          "The novel depicts travelling entertainment."
+        ],
+        [
+          104,
+          "his experience",
+          "The writer draws on personal experience."
+        ],
+        [
+          104,
+          "childhood with her aunt",
+          "The heroine's relationships and mistreatment are central."
+        ],
+        [
+          105,
+          "inherits a fortune",
+          "The character's inherited wealth changes his circumstances."
+        ],
+        [
+          105,
+          "systems of irrigation",
+          "Irrigation is needed to supply water."
+        ],
+        [
+          105,
+          "women",
+          "Women formed the majority of participants."
+        ],
+        [
+          105,
+          "wire",
+          "Wire is needed for the project."
+        ],
+        [
+          105,
+          "seeds",
+          "Seeds are among the required materials."
+        ],
+        [
+          105,
+          "posts",
+          "Posts support the fences."
+        ],
+        [
+          105,
+          "transport",
+          "Access to transport matters."
+        ],
+        [
+          105,
+          "preservation",
+          "The project includes methods of preserving produce."
+        ],
+        [
+          106,
+          "breeding fish",
+          "Fish are raised as another food source."
+        ],
+        [
+          106,
+          "colonies of bees",
+          "Beekeeping is another activity."
+        ],
+        [
+          106,
+          "its design",
+          "The project is particularly recognised for its design."
+        ]
+      ]
+    },
+    "cues": {
+      "1": [
+        127,
+        150,
+        486.997
+      ],
+      "2": [
+        170,
+        183,
+        486.997
+      ],
+      "3": [
+        186,
+        205,
+        486.997
+      ],
+      "4": [
+        207,
+        220,
+        486.997
+      ],
+      "5": [
+        285,
+        298,
+        486.997
+      ],
+      "6": [
+        304,
+        316,
+        486.997
+      ],
+      "7": [
+        332,
+        345,
+        486.997
+      ],
+      "8": [
+        341,
+        355,
+        486.997
+      ],
+      "9": [
+        379,
+        392,
+        486.997
+      ],
+      "10": [
+        398,
+        410,
+        486.997
+      ],
+      "11": [
+        86,
+        107,
+        423.68
+      ],
+      "12": [
+        123,
+        155,
+        423.68
+      ],
+      "13": [
+        159,
+        171,
+        423.68
+      ],
+      "14": [
+        207,
+        224,
+        423.68
+      ],
+      "15": [
+        279,
+        309,
+        423.68
+      ],
+      "16": [
+        306,
+        321,
+        423.68
+      ],
+      "17": [
+        319,
+        335,
+        423.68
+      ],
+      "18": [
+        336,
+        350,
+        423.68
+      ],
+      "19": [
+        349,
+        364,
+        423.68
+      ],
+      "20": [
+        365,
+        379,
+        423.68
+      ],
+      "21": [
+        88,
+        109,
+        427.69
+      ],
+      "22": [
+        88,
+        109,
+        427.69
+      ],
+      "23": [
+        122,
+        149,
+        427.69
+      ],
+      "24": [
+        122,
+        149,
+        427.69
+      ],
+      "25": [
+        234,
+        250,
+        427.69
+      ],
+      "26": [
+        263,
+        275,
+        427.69
+      ],
+      "27": [
+        282,
+        300,
+        427.69
+      ],
+      "28": [
+        303,
+        319,
+        427.69
+      ],
+      "29": [
+        332,
+        360,
+        427.69
+      ],
+      "30": [
+        367,
+        382,
+        427.69
+      ],
+      "31": [
+        139,
+        154,
+        524.842
+      ],
+      "32": [
+        182,
+        195,
+        524.842
+      ],
+      "33": [
+        209,
+        221,
+        524.842
+      ],
+      "34": [
+        229,
+        242,
+        524.842
+      ],
+      "35": [
+        251,
+        262,
+        524.842
+      ],
+      "36": [
+        287,
+        301,
+        524.842
+      ],
+      "37": [
+        312,
+        326,
+        524.842
+      ],
+      "38": [
+        338,
+        351,
+        524.842
+      ],
+      "39": [
+        361,
+        376,
+        524.842
+      ],
+      "40": [
+        416,
+        432,
+        524.842
+      ]
+    },
+    "cueMethod": {
+      "1": "context",
+      "2": "keyword",
+      "3": "context",
+      "4": "context",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "keyword",
+      "12": "keyword",
+      "13": "keyword",
+      "14": "context",
+      "15": "context",
+      "16": "keyword",
+      "17": "keyword",
+      "18": "keyword",
+      "19": "keyword",
+      "20": "keyword",
+      "21": "keyword",
+      "22": "keyword",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "keyword",
+      "28": "keyword",
+      "29": "context",
+      "30": "keyword",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "audioSha256": {
+      "1": "7dac223f807d4c9cf196984be4d5de4607196941441242d50f75004b07c4543f",
+      "2": "cc311bdcce33fdecfd5c074be65dd624b49a29183666d5a3d2049896ecbac61f",
+      "3": "65ea3cbff5d534e5f7cb9bbc485ec9e23c81cdd0c4523f1ddb6427e5fe1faba0",
+      "4": "ff963afe25a73386f56d55a7f30e7c56183193b06717cba0289e6479ae664b61"
+    },
+    "cueProvenance": "Approximate source-clock alignment using automatic phrase recognition and transcript context; not human-audited. Context cues may cover a wider passage."
   },
   "15-3": {
     "vocabulary": {
@@ -10038,7 +10948,462 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "Housing affordability is a perennial concern."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          107,
+          "make furniture",
+          "Furniture is the product made by the company."
+        ],
+        [
+          107,
+          "attend meetings",
+          "Attending meetings is a responsibility."
+        ],
+        [
+          107,
+          "manage the diary",
+          "The worker manages the diary."
+        ],
+        [
+          107,
+          "details",
+          "The job requires attention to detail."
+        ],
+        [
+          107,
+          "at least one year",
+          "The minimum experience is one year."
+        ],
+        [
+          108,
+          "deliveries",
+          "The role involves handling deliveries."
+        ],
+        [
+          108,
+          "tidy",
+          "The work area must be kept tidy."
+        ],
+        [
+          108,
+          "part of a team",
+          "Teamwork is essential."
+        ],
+        [
+          108,
+          "heavy things",
+          "Some objects are heavy and require lifting."
+        ],
+        [
+          108,
+          "customer service",
+          "Experience with customer service is useful."
+        ],
+        [
+          108,
+          "three years",
+          "The scheme has operated for three years."
+        ],
+        [
+          108,
+          "once a week",
+          "The frequency mentioned is weekly."
+        ],
+        [
+          108,
+          "elderly residents",
+          "The scheme takes local residents' needs into account."
+        ],
+        [
+          109,
+          "twenty kilometres per hour",
+          "The speed limit is twenty kilometres an hour."
+        ],
+        [
+          109,
+          "greatest demand",
+          "Demand is particularly high on busy city roads."
+        ],
+        [
+          109,
+          "children out on the street",
+          "Children playing outdoors is an important outcome."
+        ],
+        [
+          109,
+          "without parents",
+          "Children gain confidence and independence."
+        ],
+        [
+          109,
+          "get to know adults",
+          "Children also meet adults in their community."
+        ],
+        [
+          109,
+          "much quieter",
+          "Reduced noise is a benefit."
+        ],
+        [
+          109,
+          "sales went up considerably",
+          "Businesses reported increased sales."
+        ],
+        [
+          109,
+          "which page",
+          "The students should record the page number."
+        ],
+        [
+          110,
+          "column inches",
+          "Column inches measure the size of an article."
+        ],
+        [
+          110,
+          "anything visual",
+          "Graphics form part of the analysis."
+        ],
+        [
+          110,
+          "structure",
+          "The structure of each article should be analysed."
+        ],
+        [
+          110,
+          "purpose",
+          "The students should consider the writer's purpose."
+        ],
+        [
+          110,
+          "assumptions",
+          "The underlying assumptions should be identified."
+        ],
+        [
+          110,
+          "national news item",
+          "The student considers a political news topic."
+        ],
+        [
+          110,
+          "compare editorials",
+          "Comparing editorials is rejected because suitable examples cannot be found."
+        ],
+        [
+          110,
+          "strong feelings",
+          "Human-interest stories could lead to a strongly emotional response."
+        ],
+        [
+          110,
+          "arts topic",
+          "The student chooses an arts-related topic."
+        ],
+        [
+          111,
+          "mud",
+          "Mud is removed from the hands."
+        ],
+        [
+          111,
+          "made of clay",
+          "Clay is the material identified."
+        ],
+        [
+          111,
+          "metal instrument",
+          "A metal tool is used for cleaning."
+        ],
+        [
+          111,
+          "tint hair red",
+          "The substance also colours hair."
+        ],
+        [
+          111,
+          "Roman baths",
+          "The Romans were known for their baths."
+        ],
+        [
+          111,
+          "outbreaks of disease",
+          "Disease outbreaks increased the importance of hygiene."
+        ],
+        [
+          111,
+          "perfume",
+          "Perfume is another ingredient mentioned."
+        ],
+        [
+          111,
+          "salt into soda ash",
+          "Salt is converted into soda ash."
+        ],
+        [
+          111,
+          "became a science",
+          "Soap-making developed into a science."
+        ],
+        [
+          112,
+          "tax was removed",
+          "The removal of the tax affected soap production."
+        ]
+      ]
+    },
+    "cues": {
+      "1": [
+        123,
+        136,
+        470.613
+      ],
+      "2": [
+        148,
+        160,
+        470.613
+      ],
+      "3": [
+        164,
+        175,
+        470.613
+      ],
+      "4": [
+        195,
+        208,
+        470.613
+      ],
+      "5": [
+        217,
+        230,
+        470.613
+      ],
+      "6": [
+        294,
+        306,
+        470.613
+      ],
+      "7": [
+        319,
+        331,
+        470.613
+      ],
+      "8": [
+        338,
+        350,
+        470.613
+      ],
+      "9": [
+        360,
+        374,
+        470.613
+      ],
+      "10": [
+        384,
+        397,
+        470.613
+      ],
+      "11": [
+        111,
+        123,
+        424.533
+      ],
+      "12": [
+        123,
+        134,
+        424.533
+      ],
+      "13": [
+        132,
+        150,
+        424.533
+      ],
+      "14": [
+        169,
+        181,
+        424.533
+      ],
+      "15": [
+        189,
+        207,
+        424.533
+      ],
+      "16": [
+        231,
+        242,
+        424.533
+      ],
+      "17": [
+        296,
+        328,
+        424.533
+      ],
+      "18": [
+        296,
+        328,
+        424.533
+      ],
+      "19": [
+        359,
+        381,
+        424.533
+      ],
+      "20": [
+        359,
+        381,
+        424.533
+      ],
+      "21": [
+        82,
+        95,
+        410.069
+      ],
+      "22": [
+        101,
+        117,
+        410.069
+      ],
+      "23": [
+        118,
+        132,
+        410.069
+      ],
+      "24": [
+        135,
+        148,
+        410.069
+      ],
+      "25": [
+        182,
+        195,
+        410.069
+      ],
+      "26": [
+        202,
+        214,
+        410.069
+      ],
+      "27": [
+        282,
+        302,
+        410.069
+      ],
+      "28": [
+        300,
+        321,
+        410.069
+      ],
+      "29": [
+        341,
+        351,
+        410.069
+      ],
+      "30": [
+        348,
+        359,
+        410.069
+      ],
+      "31": [
+        88,
+        110,
+        467.072
+      ],
+      "32": [
+        109,
+        122,
+        467.072
+      ],
+      "33": [
+        140,
+        152,
+        467.072
+      ],
+      "34": [
+        164,
+        176,
+        467.072
+      ],
+      "35": [
+        191,
+        225,
+        467.072
+      ],
+      "36": [
+        245,
+        258,
+        467.072
+      ],
+      "37": [
+        267,
+        281,
+        467.072
+      ],
+      "38": [
+        291,
+        305,
+        467.072
+      ],
+      "39": [
+        333,
+        346,
+        467.072
+      ],
+      "40": [
+        358,
+        371,
+        467.072
+      ]
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "keyword",
+      "12": "keyword",
+      "13": "keyword",
+      "14": "keyword",
+      "15": "keyword",
+      "16": "keyword",
+      "17": "context",
+      "18": "context",
+      "19": "keyword",
+      "20": "keyword",
+      "21": "keyword",
+      "22": "keyword",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "context",
+      "28": "keyword",
+      "29": "keyword",
+      "30": "keyword",
+      "31": "context",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "context",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "audioSha256": {
+      "1": "5b5920c1f2ffec9d6d58890957f9fbf23ceef6705f954ef9017be970db8175b9",
+      "2": "2e20fc2e2ef78817e25ea79ab2d9371bc344d5301bb1da765e37abefa37f7dd4",
+      "3": "fe62b46af83ffb20fb7f2d60ddec4800b52364ee73041666fe07f737db9c5161",
+      "4": "9158a297f45cc1b4b67de3d0110b36399bcc045552ff683a1996c62d5d43e2c3"
+    },
+    "cueProvenance": "Approximate source-clock alignment using automatic phrase recognition and transcript context; not human-audited. Context cues may cover a wider passage."
   },
   "15-4": {
     "vocabulary": {
@@ -10165,6 +11530,461 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "The agreement contains explicit safety requirements."
         }
       ]
-    }
+    },
+    "review": {
+      "listening": [
+        [
+          113,
+          "journalist",
+          "The caller works as a journalist."
+        ],
+        [
+          113,
+          "shopping",
+          "Shopping is one reason for the journey."
+        ],
+        [
+          113,
+          "Staunfirth",
+          "The destination name is spelled out."
+        ],
+        [
+          113,
+          "return ticket",
+          "The caller wants a return ticket."
+        ],
+        [
+          113,
+          "twenty-three seventy",
+          "The fare is 23.70."
+        ],
+        [
+          113,
+          "online",
+          "The ticket can be purchased online."
+        ],
+        [
+          114,
+          "delay",
+          "The caller discusses delays."
+        ],
+        [
+          114,
+          "information about train times",
+          "Information about train times is requested."
+        ],
+        [
+          114,
+          "platforms",
+          "The service gives platform information."
+        ],
+        [
+          114,
+          "parking",
+          "The caller asks about parking at the station."
+        ],
+        [
+          114,
+          "old museum",
+          "The feature is next to the old museum overlooking the lake."
+        ],
+        [
+          114,
+          "adventure playground",
+          "The location is near the adventure playground."
+        ],
+        [
+          114,
+          "south gate",
+          "Follow the area between the boundary and the museum path."
+        ],
+        [
+          114,
+          "glass houses",
+          "The glass houses are on the right of the south-gate path."
+        ],
+        [
+          115,
+          "old museum",
+          "Follow the branch off the main path between the lake and the museum."
+        ],
+        [
+          115,
+          "east side of the lake",
+          "The feature is south of the adventure playground."
+        ],
+        [
+          115,
+          "entrance completely free",
+          "Visitors do not pay admission."
+        ],
+        [
+          115,
+          "children alone",
+          "Adults must supervise their children."
+        ],
+        [
+          115,
+          "fire",
+          "A fire destroyed the western side."
+        ],
+        [
+          115,
+          "weekend opening",
+          "The speaker discusses plans to open at weekends."
+        ],
+        [
+          115,
+          "straw or sawdust",
+          "Insulation prevented blocks of ice from melting for months."
+        ],
+        [
+          115,
+          "ice and snow",
+          "Both products were sold."
+        ],
+        [
+          116,
+          "dump old fridges",
+          "Disposal of old refrigerators in the countryside was hard to prevent."
+        ],
+        [
+          116,
+          "divide the cost",
+          "The expense could be spread over several years."
+        ],
+        [
+          116,
+          "range of refrigerated goods",
+          "Annie offers to research this topic."
+        ],
+        [
+          116,
+          "people's health",
+          "The discussion concerns refrigeration and health."
+        ],
+        [
+          116,
+          "food producers",
+          "Jack takes responsibility for researching food producers and exports."
+        ],
+        [
+          116,
+          "whole cities",
+          "Jack agrees to look into the broader effects on cities."
+        ],
+        [
+          116,
+          "refrigerated trucks",
+          "Annie volunteers to investigate refrigerated transport."
+        ],
+        [
+          117,
+          "split into two",
+          "Both students will research parts of this topic."
+        ],
+        [
+          117,
+          "wealth of the country",
+          "The country's wealth is the factor discussed."
+        ],
+        [
+          117,
+          "technology",
+          "Technological change was important."
+        ],
+        [
+          117,
+          "sources of power",
+          "Sources of power contributed to industrial change."
+        ],
+        [
+          117,
+          "textiles",
+          "The textile industry is highlighted."
+        ],
+        [
+          117,
+          "new machines",
+          "New machinery changed production methods."
+        ],
+        [
+          118,
+          "newspapers",
+          "Newspapers are the medium mentioned."
+        ],
+        [
+          118,
+          "local",
+          "The discussion concerns the local market."
+        ],
+        [
+          118,
+          "lighting",
+          "Improved lighting changed the shopping environment."
+        ],
+        [
+          118,
+          "windows",
+          "Shop windows became important for displaying goods."
+        ],
+        [
+          118,
+          "advertising",
+          "Advertising is discussed as a way to attract customers."
+        ]
+      ]
+    },
+    "cues": {
+      "1": [
+        113,
+        130,
+        474.666
+      ],
+      "2": [
+        126,
+        138,
+        474.666
+      ],
+      "3": [
+        144,
+        158,
+        474.666
+      ],
+      "4": [
+        169,
+        183,
+        474.666
+      ],
+      "5": [
+        186,
+        199,
+        474.666
+      ],
+      "6": [
+        237,
+        244,
+        474.666
+      ],
+      "7": [
+        313,
+        339,
+        474.666
+      ],
+      "8": [
+        335,
+        357,
+        474.666
+      ],
+      "9": [
+        360,
+        374,
+        474.666
+      ],
+      "10": [
+        383,
+        397,
+        474.666
+      ],
+      "11": [
+        90,
+        103,
+        381.184
+      ],
+      "12": [
+        102,
+        115,
+        381.184
+      ],
+      "13": [
+        119,
+        136,
+        381.184
+      ],
+      "14": [
+        141,
+        156,
+        381.184
+      ],
+      "15": [
+        162,
+        180,
+        381.184
+      ],
+      "16": [
+        181,
+        195,
+        381.184
+      ],
+      "17": [
+        259,
+        281,
+        381.184
+      ],
+      "18": [
+        259,
+        281,
+        381.184
+      ],
+      "19": [
+        289,
+        335,
+        381.184
+      ],
+      "20": [
+        289,
+        335,
+        381.184
+      ],
+      "21": [
+        82,
+        107,
+        418.858
+      ],
+      "22": [
+        106,
+        133,
+        418.858
+      ],
+      "23": [
+        141,
+        157,
+        418.858
+      ],
+      "24": [
+        162,
+        180,
+        418.858
+      ],
+      "25": [
+        247,
+        267,
+        418.858
+      ],
+      "26": [
+        265,
+        282,
+        418.858
+      ],
+      "27": [
+        286,
+        310,
+        418.858
+      ],
+      "28": [
+        307,
+        336,
+        418.858
+      ],
+      "29": [
+        336,
+        352,
+        418.858
+      ],
+      "30": [
+        361,
+        378,
+        418.858
+      ],
+      "31": [
+        104,
+        116,
+        467.797
+      ],
+      "32": [
+        117,
+        145,
+        467.797
+      ],
+      "33": [
+        143,
+        164,
+        467.797
+      ],
+      "34": [
+        163,
+        175,
+        467.797
+      ],
+      "35": [
+        178,
+        208,
+        467.797
+      ],
+      "36": [
+        250,
+        275,
+        467.797
+      ],
+      "37": [
+        275,
+        304,
+        467.797
+      ],
+      "38": [
+        304,
+        321,
+        467.797
+      ],
+      "39": [
+        329,
+        350,
+        467.797
+      ],
+      "40": [
+        351,
+        384,
+        467.797
+      ]
+    },
+    "cueMethod": {
+      "1": "context",
+      "2": "keyword",
+      "3": "context",
+      "4": "keyword",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "context",
+      "8": "context",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "keyword",
+      "12": "keyword",
+      "13": "keyword",
+      "14": "context",
+      "15": "keyword",
+      "16": "context",
+      "17": "context",
+      "18": "context",
+      "19": "context",
+      "20": "context",
+      "21": "context",
+      "22": "context",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "context",
+      "26": "context",
+      "27": "context",
+      "28": "context",
+      "29": "context",
+      "30": "context",
+      "31": "keyword",
+      "32": "context",
+      "33": "context",
+      "34": "keyword",
+      "35": "context",
+      "36": "context",
+      "37": "context",
+      "38": "context",
+      "39": "context",
+      "40": "context"
+    },
+    "audioSha256": {
+      "1": "5b51a2b675abdb931f17b2d4520cbfae13628cda981efa6c5c16cb51b9aaa243",
+      "2": "f2c3476adc493811a1c09258a90b358a46a87522bb894383a47b1516297a21a2",
+      "3": "d525df9fd799910eb858c37cc3fd5560ea9c25aa942f1872fdcdd319d9a438aa",
+      "4": "6bf75aee0d1d061d475bd0ff0d9564c3c7ea623ab21b760125b2e9c77b5cd02a"
+    },
+    "cueProvenance": "Approximate source-clock alignment using automatic phrase recognition and transcript context; not human-audited. Context cues may cover a wider passage."
   }
 };
