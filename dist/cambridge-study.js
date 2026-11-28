@@ -14190,5 +14190,513 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         }
       ]
     }
+  },
+  "18-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "abundantly (adv.)",
+          "definition": "In large quantities.",
+          "example": "Wildflowers grow abundantly in spring."
+        },
+        {
+          "word": "aromatic (adj.)",
+          "definition": "Having a pleasant or distinctive smell.",
+          "example": "The kitchen was filled with aromatic herbs."
+        },
+        {
+          "word": "aeroponic (adj.)",
+          "definition": "Relating to growing plants with roots suspended in nutrient-rich mist.",
+          "example": "The farm uses an aeroponic growing system."
+        },
+        {
+          "word": "constraint (n.)",
+          "definition": "A limitation or restriction.",
+          "example": "Limited space is a major constraint."
+        },
+        {
+          "word": "flourishing (adj.)",
+          "definition": "Growing or developing successfully.",
+          "example": "The district has a flourishing local economy."
+        },
+        {
+          "word": "refrigerated (adj.)",
+          "definition": "Kept cold by artificial cooling.",
+          "example": "The produce travelled in refrigerated trucks."
+        },
+        {
+          "word": "withstand (v.)",
+          "definition": "To resist or endure difficult conditions.",
+          "example": "The material can withstand high temperatures."
+        },
+        {
+          "word": "phenomenon (n.)",
+          "definition": "An observable event or occurrence.",
+          "example": "Urban farming is a growing phenomenon."
+        },
+        {
+          "word": "timber (n.)",
+          "definition": "Wood prepared for construction or other use.",
+          "example": "The house was built using local timber."
+        },
+        {
+          "word": "regeneration (n.)",
+          "definition": "The process of renewal or regrowth.",
+          "example": "Selective cutting can encourage forest regeneration."
+        },
+        {
+          "word": "vulnerable (adj.)",
+          "definition": "Likely to be harmed or affected.",
+          "example": "Young trees are vulnerable to disease."
+        },
+        {
+          "word": "combustion (n.)",
+          "definition": "The process of burning fuel.",
+          "example": "Combustion releases energy as heat."
+        },
+        {
+          "word": "gasify (v.)",
+          "definition": "To convert a solid or liquid substance into gas.",
+          "example": "Special equipment can gasify biomass."
+        },
+        {
+          "word": "invasive (adj.)",
+          "definition": "Spreading into an area and disrupting native species.",
+          "example": "Invasive plants threaten the local ecosystem."
+        },
+        {
+          "word": "pathogen (n.)",
+          "definition": "An organism or agent that causes disease.",
+          "example": "The laboratory identified a harmful pathogen."
+        },
+        {
+          "word": "resilience (n.)",
+          "definition": "The ability to recover from or withstand difficulties.",
+          "example": "Species diversity improves forest resilience."
+        },
+        {
+          "word": "debris (n.)",
+          "definition": "Scattered remains of broken or destroyed objects.",
+          "example": "The collision created dangerous debris."
+        },
+        {
+          "word": "constellation (n.)",
+          "definition": "A group of related satellites or stars.",
+          "example": "The company launched a satellite constellation."
+        },
+        {
+          "word": "catalogue (n.)",
+          "definition": "An organized list of items or information.",
+          "example": "The database contains a catalogue of space objects."
+        },
+        {
+          "word": "cascade (n.)",
+          "definition": "A succession of events, each triggering another.",
+          "example": "The failure caused a cascade of technical problems."
+        },
+        {
+          "word": "render (v.)",
+          "definition": "To cause something to become a particular state.",
+          "example": "The damage could render the equipment unusable."
+        },
+        {
+          "word": "mitigation (n.)",
+          "definition": "Action taken to reduce the severity of a problem.",
+          "example": "Risk mitigation is essential in engineering."
+        },
+        {
+          "word": "disintegrate (v.)",
+          "definition": "To break apart into smaller pieces.",
+          "example": "Old equipment may disintegrate over time."
+        },
+        {
+          "word": "authoritative (adj.)",
+          "definition": "Regarded as reliable or officially recognized.",
+          "example": "The report is an authoritative source of information."
+        }
+      ]
+    }
+  },
+  "18-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "erect (v.)",
+          "definition": "To build or set up a structure.",
+          "example": "Workers erect temporary shelters after storms."
+        },
+        {
+          "word": "prehistoric (adj.)",
+          "definition": "Relating to the period before written records.",
+          "example": "The cave contains prehistoric artwork."
+        },
+        {
+          "word": "primitive (adj.)",
+          "definition": "Belonging to an early or simple stage of development.",
+          "example": "The builders used primitive tools."
+        },
+        {
+          "word": "hoist (v.)",
+          "definition": "To lift something heavy using equipment.",
+          "example": "A crane will hoist the beams into position."
+        },
+        {
+          "word": "hypothesis (n.)",
+          "definition": "A proposed explanation that can be tested.",
+          "example": "The archaeologists proposed a new hypothesis."
+        },
+        {
+          "word": "industrious (adj.)",
+          "definition": "Hard-working and diligent.",
+          "example": "The industrious craftspeople completed the project quickly."
+        },
+        {
+          "word": "consensus (n.)",
+          "definition": "General agreement among a group.",
+          "example": "Experts reached a consensus on the findings."
+        },
+        {
+          "word": "obscure (v.)",
+          "definition": "To prevent something from being seen or understood clearly.",
+          "example": "Clouds can obscure the stars."
+        },
+        {
+          "word": "prodigious (adj.)",
+          "definition": "Remarkably great in size, amount or ability.",
+          "example": "The machine processes a prodigious amount of data."
+        },
+        {
+          "word": "constraint (n.)",
+          "definition": "A factor that limits what can be done.",
+          "example": "Limited funding is a significant constraint."
+        },
+        {
+          "word": "coexistence (n.)",
+          "definition": "The state of existing together peacefully.",
+          "example": "The project promotes coexistence between people and wildlife."
+        },
+        {
+          "word": "amplify (v.)",
+          "definition": "To increase the strength or extent of something.",
+          "example": "Poor regulation can amplify existing inequalities."
+        },
+        {
+          "word": "fallible (adj.)",
+          "definition": "Capable of making mistakes.",
+          "example": "Even experienced judges are fallible."
+        },
+        {
+          "word": "autonomy (n.)",
+          "definition": "The freedom to make one's own decisions.",
+          "example": "The policy protects personal autonomy."
+        },
+        {
+          "word": "far-fetched (adj.)",
+          "definition": "Unlikely to be true or realistic.",
+          "example": "The explanation initially sounded far-fetched."
+        },
+        {
+          "word": "cooperative (adj.)",
+          "definition": "Willing to work together towards a shared aim.",
+          "example": "The negotiations require a cooperative approach."
+        },
+        {
+          "word": "embody (v.)",
+          "definition": "To represent an idea or quality in concrete form.",
+          "example": "The design aims to embody modern principles."
+        },
+        {
+          "word": "displacement (n.)",
+          "definition": "The forced movement of people or things from their usual place.",
+          "example": "Flooding caused widespread displacement."
+        },
+        {
+          "word": "pestilence (n.)",
+          "definition": "A severe infectious disease causing many deaths.",
+          "example": "The historical account describes a devastating pestilence."
+        },
+        {
+          "word": "urbanism (n.)",
+          "definition": "The study or practice of designing urban environments.",
+          "example": "Modern urbanism emphasizes walkable neighbourhoods."
+        },
+        {
+          "word": "reconfiguration (n.)",
+          "definition": "The process of changing the arrangement of something.",
+          "example": "The reconfiguration of streets improved access."
+        },
+        {
+          "word": "unconventional (adj.)",
+          "definition": "Different from what is normally accepted or practised.",
+          "example": "The architect proposed an unconventional solution."
+        },
+        {
+          "word": "hydraulic (adj.)",
+          "definition": "Operated by or relating to the movement of liquids.",
+          "example": "The lift uses a hydraulic mechanism."
+        },
+        {
+          "word": "subdivision (n.)",
+          "definition": "The act of dividing something into smaller parts.",
+          "example": "The subdivision of land changed the neighbourhood."
+        }
+      ]
+    }
+  },
+  "18-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "aggravate (v.)",
+          "definition": "To make a problem or condition worse.",
+          "example": "Heavy traffic can aggravate air pollution."
+        },
+        {
+          "word": "scramble (n.)",
+          "definition": "A hurried effort to obtain or achieve something.",
+          "example": "There was a scramble for alternative materials."
+        },
+        {
+          "word": "commodity (n.)",
+          "definition": "A product or raw material that can be bought and sold.",
+          "example": "Copper is an important industrial commodity."
+        },
+        {
+          "word": "abundance (n.)",
+          "definition": "A very large quantity of something.",
+          "example": "The region has an abundance of natural resources."
+        },
+        {
+          "word": "thermal expansion (n.)",
+          "definition": "An increase in size caused by rising temperature.",
+          "example": "Engineers allow for thermal expansion in bridges."
+        },
+        {
+          "word": "susceptible (adj.)",
+          "definition": "Likely to be harmed or affected by something.",
+          "example": "Untreated wood is susceptible to moisture."
+        },
+        {
+          "word": "incorporate (v.)",
+          "definition": "To include something as part of a whole.",
+          "example": "The builders incorporate recycled materials into concrete."
+        },
+        {
+          "word": "durability (n.)",
+          "definition": "The ability to last without serious damage.",
+          "example": "The material was tested for durability."
+        },
+        {
+          "word": "miniaturized (adj.)",
+          "definition": "Made much smaller than the original version.",
+          "example": "The device contains a miniaturized motor."
+        },
+        {
+          "word": "replenishment (n.)",
+          "definition": "The process of filling or supplying something again.",
+          "example": "The reservoir requires regular replenishment."
+        },
+        {
+          "word": "shortcoming (n.)",
+          "definition": "A fault or weakness.",
+          "example": "The new design addressed a major shortcoming."
+        },
+        {
+          "word": "phase out (phr. v.)",
+          "definition": "To gradually stop using or producing something.",
+          "example": "The company plans to phase out older vehicles."
+        },
+        {
+          "word": "rekindle (v.)",
+          "definition": "To revive a feeling or interest.",
+          "example": "The exhibition helped rekindle interest in steam engines."
+        },
+        {
+          "word": "ignition (n.)",
+          "definition": "The process of starting combustion in an engine.",
+          "example": "The faulty ignition prevented the car from starting."
+        },
+        {
+          "word": "sluggish (adj.)",
+          "definition": "Moving or reacting slowly.",
+          "example": "The old vehicle felt sluggish on steep roads."
+        },
+        {
+          "word": "negligible (adj.)",
+          "definition": "Too small to be significant.",
+          "example": "The experiment produced negligible emissions."
+        },
+        {
+          "word": "extract (n.)",
+          "definition": "A short passage taken from a longer text.",
+          "example": "The class discussed an extract from the play."
+        },
+        {
+          "word": "attainment (n.)",
+          "definition": "The achievement of a particular level of ability or knowledge.",
+          "example": "The programme aims to raise educational attainment."
+        },
+        {
+          "word": "aptitude (n.)",
+          "definition": "A natural ability to learn or do something.",
+          "example": "She showed an aptitude for mathematics."
+        },
+        {
+          "word": "pedagogical (adj.)",
+          "definition": "Relating to teaching methods and education.",
+          "example": "The course explores pedagogical approaches."
+        },
+        {
+          "word": "paradigm (n.)",
+          "definition": "A model or framework for understanding something.",
+          "example": "The study challenged the dominant educational paradigm."
+        },
+        {
+          "word": "empirical (adj.)",
+          "definition": "Based on observation or experiment.",
+          "example": "Teachers need empirical evidence of effectiveness."
+        },
+        {
+          "word": "entrench (v.)",
+          "definition": "To establish something so firmly that it is difficult to change.",
+          "example": "Unequal access can entrench social disadvantage."
+        },
+        {
+          "word": "collaborative (adj.)",
+          "definition": "Involving people working together.",
+          "example": "The task encourages collaborative learning."
+        }
+      ]
+    }
+  },
+  "18-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "mitigate (v.)",
+          "definition": "To reduce the harmful effects of something.",
+          "example": "Green roofs can mitigate urban heat."
+        },
+        {
+          "word": "drainage (n.)",
+          "definition": "The removal or controlled flow of excess water.",
+          "example": "The building needs an effective drainage system."
+        },
+        {
+          "word": "mainstream (n.)",
+          "definition": "Ideas or practices accepted by most people.",
+          "example": "Green building methods are entering the mainstream."
+        },
+        {
+          "word": "retrofit (v.)",
+          "definition": "To add new features to an existing structure or system.",
+          "example": "Engineers can retrofit older buildings with insulation."
+        },
+        {
+          "word": "landscaping (n.)",
+          "definition": "The design and improvement of outdoor areas.",
+          "example": "The project includes landscaping around the offices."
+        },
+        {
+          "word": "biodiversity (n.)",
+          "definition": "The variety of living organisms in an environment.",
+          "example": "Urban gardens support biodiversity."
+        },
+        {
+          "word": "replicate (v.)",
+          "definition": "To reproduce or repeat something.",
+          "example": "Other cities hope to replicate the successful project."
+        },
+        {
+          "word": "underpin (v.)",
+          "definition": "To support or form the basis of something.",
+          "example": "Scientific evidence should underpin environmental policy."
+        },
+        {
+          "word": "innate (adj.)",
+          "definition": "Existing naturally from birth.",
+          "example": "The theory questions whether intelligence is entirely innate."
+        },
+        {
+          "word": "supplant (v.)",
+          "definition": "To replace something or take its place.",
+          "example": "New ideas can supplant established beliefs."
+        },
+        {
+          "word": "setback (n.)",
+          "definition": "A problem that delays progress.",
+          "example": "The failed experiment was a temporary setback."
+        },
+        {
+          "word": "impediment (n.)",
+          "definition": "Something that obstructs progress.",
+          "example": "Lack of funding is an impediment to reform."
+        },
+        {
+          "word": "dissonance (n.)",
+          "definition": "A conflict between beliefs, ideas or feelings.",
+          "example": "Students may experience cognitive dissonance."
+        },
+        {
+          "word": "conflate (v.)",
+          "definition": "To combine two distinct ideas as if they were the same.",
+          "example": "The argument tends to conflate effort with achievement."
+        },
+        {
+          "word": "intervention (n.)",
+          "definition": "An action intended to change a situation or outcome.",
+          "example": "The school evaluated an educational intervention."
+        },
+        {
+          "word": "elixir (n.)",
+          "definition": "Something believed to provide a powerful remedy or benefit.",
+          "example": "There is no single elixir for educational inequality."
+        },
+        {
+          "word": "continental drift (n.)",
+          "definition": "The gradual movement of continents across Earth's surface.",
+          "example": "Continental drift was once a disputed theory."
+        },
+        {
+          "word": "plausible (adj.)",
+          "definition": "Seeming reasonable or likely to be true.",
+          "example": "The scientist offered a plausible explanation."
+        },
+        {
+          "word": "descendant (n.)",
+          "definition": "A person or thing developed from an earlier one.",
+          "example": "The modern theory is a descendant of earlier ideas."
+        },
+        {
+          "word": "pursue (v.)",
+          "definition": "To continue working towards an aim or activity.",
+          "example": "She decided to pursue research in physics."
+        },
+        {
+          "word": "expedition (n.)",
+          "definition": "An organized journey with a particular purpose.",
+          "example": "The expedition collected geological samples."
+        },
+        {
+          "word": "entail (v.)",
+          "definition": "To involve something as a necessary consequence.",
+          "example": "Field research can entail considerable expense."
+        },
+        {
+          "word": "correspondence (n.)",
+          "definition": "Letters or written communication exchanged between people.",
+          "example": "The archive preserves the scientist's correspondence."
+        },
+        {
+          "word": "retrospectively (adv.)",
+          "definition": "Looking back at past events from a later point in time.",
+          "example": "The historian interpreted the events retrospectively."
+        }
+      ]
+    }
   }
 };
