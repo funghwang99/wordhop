@@ -455,6 +455,460 @@
     return '<div class="reading-page-actions"><button class="btn" type="button" data-cam-action="zoom" aria-pressed="false">Zoom page</button><a class="text-button" href="'+esc(src)+'" target="_blank" rel="noopener">Open full-size page ↗</a></div>';
   }
   function keyFor(test,skill,n){return String((keys[test]||{})[skill]?.[n-1]||'');}
+  // Exact choice banks transcribed from the question instructions, not the answer key.
+  const choiceBanks={
+  "20-1": {
+    "listening": [
+      [
+        11,
+        16,
+        "C"
+      ],
+      [
+        17,
+        18,
+        "E"
+      ],
+      [
+        19,
+        20,
+        "E"
+      ],
+      [
+        21,
+        22,
+        "E"
+      ],
+      [
+        23,
+        24,
+        "E"
+      ],
+      [
+        25,
+        26,
+        "E"
+      ],
+      [
+        27,
+        30,
+        "C"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        18,
+        "G"
+      ],
+      [
+        19,
+        23,
+        "C"
+      ],
+      [
+        27,
+        30,
+        "D"
+      ],
+      [
+        31,
+        35,
+        "G"
+      ]
+    ]
+  },
+  "20-2": {
+    "listening": [
+      [
+        11,
+        16,
+        "I"
+      ],
+      [
+        17,
+        20,
+        "C"
+      ],
+      [
+        21,
+        25,
+        "G"
+      ],
+      [
+        26,
+        30,
+        "C"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        16,
+        "F"
+      ],
+      [
+        23,
+        24,
+        "E"
+      ],
+      [
+        25,
+        26,
+        "E"
+      ],
+      [
+        33,
+        37,
+        "H"
+      ],
+      [
+        38,
+        40,
+        "D"
+      ]
+    ]
+  },
+  "20-3": {
+    "listening": [
+      [
+        11,
+        16,
+        "C"
+      ],
+      [
+        17,
+        20,
+        "G"
+      ],
+      [
+        21,
+        26,
+        "C"
+      ],
+      [
+        27,
+        30,
+        "F"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        19,
+        "vii"
+      ],
+      [
+        20,
+        21,
+        "E"
+      ],
+      [
+        22,
+        23,
+        "E"
+      ],
+      [
+        27,
+        33,
+        "C"
+      ],
+      [
+        34,
+        36,
+        "D"
+      ],
+      [
+        37,
+        40,
+        "D"
+      ]
+    ]
+  },
+  "20-4": {
+    "listening": [
+      [
+        11,
+        12,
+        "E"
+      ],
+      [
+        13,
+        14,
+        "E"
+      ],
+      [
+        15,
+        20,
+        "H"
+      ],
+      [
+        21,
+        22,
+        "E"
+      ],
+      [
+        23,
+        24,
+        "E"
+      ],
+      [
+        25,
+        30,
+        "C"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        17,
+        "F"
+      ],
+      [
+        23,
+        26,
+        "E"
+      ],
+      [
+        27,
+        31,
+        "G"
+      ],
+      [
+        32,
+        36,
+        "E"
+      ]
+    ]
+  },
+  "21-1": {
+    "listening": [
+      [
+        11,
+        16,
+        "C"
+      ],
+      [
+        17,
+        20,
+        "C"
+      ],
+      [
+        21,
+        22,
+        "E"
+      ],
+      [
+        23,
+        24,
+        "E"
+      ],
+      [
+        25,
+        30,
+        "H"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        17,
+        "G"
+      ],
+      [
+        22,
+        26,
+        "D"
+      ],
+      [
+        27,
+        30,
+        "D"
+      ],
+      [
+        31,
+        36,
+        "I"
+      ]
+    ]
+  },
+  "21-2": {
+    "listening": [
+      [
+        11,
+        12,
+        "E"
+      ],
+      [
+        13,
+        14,
+        "E"
+      ],
+      [
+        15,
+        20,
+        "I"
+      ],
+      [
+        21,
+        22,
+        "E"
+      ],
+      [
+        23,
+        24,
+        "E"
+      ],
+      [
+        25,
+        26,
+        "E"
+      ],
+      [
+        27,
+        30,
+        "F"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        19,
+        "G"
+      ],
+      [
+        20,
+        21,
+        "E"
+      ],
+      [
+        27,
+        29,
+        "D"
+      ],
+      [
+        30,
+        35,
+        "I"
+      ],
+      [
+        40,
+        40,
+        "D"
+      ]
+    ]
+  },
+  "21-3": {
+    "listening": [
+      [
+        11,
+        12,
+        "E"
+      ],
+      [
+        13,
+        14,
+        "E"
+      ],
+      [
+        15,
+        16,
+        "C"
+      ],
+      [
+        17,
+        20,
+        "F"
+      ],
+      [
+        21,
+        22,
+        "E"
+      ],
+      [
+        23,
+        24,
+        "E"
+      ],
+      [
+        25,
+        30,
+        "H"
+      ]
+    ],
+    "reading": [
+      [
+        27,
+        30,
+        "D"
+      ],
+      [
+        31,
+        34,
+        "F"
+      ]
+    ]
+  },
+  "21-4": {
+    "listening": [
+      [
+        11,
+        12,
+        "E"
+      ],
+      [
+        13,
+        14,
+        "E"
+      ],
+      [
+        15,
+        20,
+        "G"
+      ],
+      [
+        21,
+        23,
+        "C"
+      ],
+      [
+        24,
+        30,
+        "I"
+      ]
+    ],
+    "reading": [
+      [
+        14,
+        19,
+        "J"
+      ],
+      [
+        24,
+        26,
+        "D"
+      ],
+      [
+        27,
+        32,
+        "J"
+      ],
+      [
+        37,
+        40,
+        "D"
+      ]
+    ]
+  }
+};
+  const romanChoices=['i','ii','iii','iv','v','vi','vii','viii','ix','x','xi','xii','xiii','xiv','xv'];
+  function sourceChoiceOptions(test,skill,n){
+    const bank=choiceBanks[test]?.[skill]?.find(([start,end])=>n>=start&&n<=end);
+    if(!bank)return null;
+    const limit=bank[2];
+    return romanChoices.includes(limit)?romanChoices.slice(0,romanChoices.indexOf(limit)+1):
+      Array.from({length:limit.charCodeAt(0)-64},(_,i)=>String.fromCharCode(65+i));
+  }
   function answerOptions(test,skill,n){
     const raw=keyFor(test,skill,n),k=raw.toUpperCase();
     if(k==='NOT GIVEN'){
@@ -472,17 +926,19 @@
     }
     if(['TRUE','FALSE'].includes(k))return ['TRUE','FALSE','NOT GIVEN'];
     if(['YES','NO'].includes(k))return ['YES','NO','NOT GIVEN'];
-    // Publisher keys use lowercase Roman numerals and uppercase option letters.
-    if(/^(?:viii|vii|vi|iv|iii|ii|ix|v|i|x|xi|xii|xiii|xiv|xv)$/.test(raw))return ['i','ii','iii','iv','v','vi','vii','viii','ix','x','xi','xii','xiii','xiv','xv'];
-    if(/^[A-Z]$/.test(raw))return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    // Do not invent distractors or omit valid ones when the original bank has not been verified.
+    if(romanChoices.includes(raw)||/^[A-Z]$/.test(raw))return sourceChoiceOptions(test,skill,n);
     return null;
   }
   function answerInput(test,skill,n,item){
     const id='cambridge-'+skill+'-'+n,v=item.answers[n]||'',isChecked=item.checked;
     const good=isChecked?score(test,skill,item.answers)[n]:false;
     const opts=answerOptions(test,skill,n);
+    const raw=keyFor(test,skill,n),letter=/^[A-Z]$/.test(raw),roman=romanChoices.includes(raw);
+    const placeholder=letter?'Enter a letter':roman?'Enter a Roman numeral':'Your answer';
+    const maxLength=letter?1:roman?5:90;
     const control=opts?'<select id="'+id+'" name="'+n+'" data-cam-answer="'+n+'"'+(isChecked?' disabled':'')+'><option value="">Choose</option>'+opts.map(x=>'<option value="'+esc(x)+'"'+(normal(x)===normal(v)?' selected':'')+'>'+esc(x)+'</option>').join('')+'</select>':
-      '<input id="'+id+'" name="'+n+'" data-cam-answer="'+n+'" value="'+esc(v)+'" maxlength="90" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Your answer"'+(isChecked?' disabled':'')+'>';
+      '<input id="'+id+'" name="'+n+'" data-cam-answer="'+n+'" value="'+esc(v)+'" maxlength="'+maxLength+'" autocomplete="off" autocapitalize="'+(letter?'characters':'none')+'" spellcheck="false" placeholder="'+placeholder+'"'+(isChecked?' disabled':'')+'>';
     return '<div class="reading-answer-row'+(isChecked?(good?' reading-correct':' reading-incorrect'):'')+'"><label for="'+id+'">Question '+n+'</label>'+control+(isChecked?'<span class="reading-answer-state">'+(good?'Correct':String(v).trim()?'Review':'Not answered')+'</span>':'')+'</div>';
   }
   // Review data is independent of scoring and is available only after checking answers.
