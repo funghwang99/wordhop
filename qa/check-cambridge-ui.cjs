@@ -951,7 +951,7 @@ assert.equal(replayCount,160);
 console.log('PASS: 160/160 Cam12 replay intervals; all replay handlers seek to start and pause at end in simulated audio playback.');
 
 // Check every current study replay cue, including CAM15, and exercise safe fallback.
-for(const book of [13,14,15]){
+for(const book of [13,14,15,16]){
   const vol=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-'+book);
   assert(vol,'Missing Cambridge volume '+book);
   context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH={};
@@ -998,6 +998,6 @@ for(const book of [13,14,15]){
     }
   }
   assert.equal(checked+fallbacks,160);
-  assert.equal(fallbacks,book===14?1:0);
+  assert.equal(fallbacks,book===14?1:book===16?3:0);
   console.log('PASS: CAM '+book+' '+checked+' specific replay handlers, '+contextual+' contextual labels, '+fallbacks+' safe missing-cue fallbacks; all 16 mismatched-source sections tested.');
 }
