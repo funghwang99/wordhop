@@ -223,8 +223,8 @@
   // Session fallback keeps checking/retrying usable even when browser storage is blocked.
   const volatileAttempts=new Map();
   const get=(k)=>{if(volatileAttempts.has(k))return volatileAttempts.get(k);try{return localStorage.getItem(k)||'';}catch{return '';}};
-  const set=(k,v)=>{volatileAttempts.set(k,v);try{localStorage.setItem(k,v);return true;}catch{return false;}};
-  const remove=(k)=>{volatileAttempts.set(k,'');try{localStorage.removeItem(k);}catch{}};
+  const set=(k,v)=>{try{localStorage.setItem(k,v);volatileAttempts.delete(k);return true;}catch{volatileAttempts.set(k,v);return false;}};
+  const remove=(k)=>{try{localStorage.removeItem(k);volatileAttempts.delete(k);}catch{volatileAttempts.set(k,'');}};
   const ranges={reading:[[1,13],[14,26],[27,40]],listening:[[1,10],[11,20],[21,30],[31,40]]};
   function range(skill,part){return ranges[skill]?.[part-1]||[1,10];}
   function variants(key){
