@@ -11,23 +11,43 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Inspect main publication runs and live brand
+      - name: Inspect latest main deployment
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          gh api "repos/$REPO/actions/workflows/pages.yml/runs?branch=main&per_page=10" --jq '.workflow_runs[] | {id,head_sha,status,conclusion,html_url}' || true
-          gh api "repos/$REPO/pages" --jq '{html_url,status,build_type}' || true
-          for url in https://funghwang99.github.io/wordhop/ https://wordhop.funghwang99.chatgpt.site/; do
-            echo "$url"
-            curl -L -sS --max-time 25 -H 'Cache-Control: no-cache' "$url?brandcheck=${GITHUB_RUN_ID}" -o /tmp/live.html && python3 -c 'import re; s=open("/tmp/live.html").read(); print("Title:",re.findall(r"<title>(.*?)</title>",s,re.I|re.S)); print("EnglishLab:", "EnglishLab" in s, "Old brand:", ">WordHop<" in s)' || true
-          done
-      - name: Check all Cambridge routes
-        run: node qa/check-cambridge-ui.cjs
-      - name: Build and verify brand
+          gh api "repos/$REPO/actions/workflows/pages.yml/runs?branch=main&per_page=5" --jq '.workflow_runs[] | {id,head_sha,status,conclusion,html_url}'
+      - name: Inspect both live sites and their actual replay assets
         run: |
-          command -v ffmpeg >/dev/null || (sudo apt-get update && sudo apt-get install -y ffmpeg)
-          python3 -B scripts/build_github_pages.py
-          python3 -B qa/check_github_pages.py
-          python3 -c 'from pathlib import Path; s=Path("_site/index.html").read_text(); assert "<title>EnglishLab" in s and ">EnglishLab<" in s and ">WordHop<" not in s; print("Built site carries EnglishLab brand")'
+          python3 - <<'PY'
+          import urllib.request, urllib.parse, re, json, hashlib, os
+          from html.parser import HTMLParser
+          class HTML(HTMLParser):
+              def __init__(self): super().__init__(); self.scripts=[]
+              def handle_starttag(self, tag, attrs):
+                  a=dict(attrs)
+                  if tag=='script' and a.get('src'): self.scripts.append(a['src'])
+          def fetch(url):
+              req=urllib.request.Request(url,headers={'Cache-Control':'no-cache','User-Agent':'EnglishLab deployment verifier'})
+              with urllib.request.urlopen(req,timeout=20) as r: return r.read().decode('utf-8','replace')
+          for base in ['https://funghwang99.github.io/wordhop/','https://wordhop.funghwang99.chatgpt.site/']:
+              print('SITE',base,flush=True)
+              try:
+                  html=fetch(base+'?verify='+os.environ['GITHUB_RUN_ID'])
+                  print('TITLE',re.findall(r'<title>(.*?)</title>',html,re.S|re.I),'approved_logo', 'data:image/webp;base64,' in html)
+                  p=HTML();p.feed(html)
+                  for src in p.scripts:
+                      if not any(x in src for x in ['cambridge.js','cambridge-study.js','cambridge12-review.js']): continue
+                      code=fetch(urllib.parse.urljoin(base,src))
+                      print('ASSET',src,hashlib.sha256(code.encode()).hexdigest()[:12])
+                      if 'cambridge.js' in src: print('REPLAY_FALLBACK', "if(skill==='listening')explanation+=" in code)
+                      for name in ['WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH','WORDHOP_CAMBRIDGE_STUDY']:
+                          m=re.search(r'window\.'+name+r'\s*=\s*',code)
+                          if not m: continue
+                          d=json.JSONDecoder().raw_decode(code[m.end():])[0]
+                          if name.endswith('MATCH'):
+                              print('MATCHES', {b:sum(bool(v.get('matched')) for k,v in d.items() if k.startswith(str(b)+'-')) for b in range(13,22)})
+                          else:
+                              print('CUES', {b:sum(len(d.get(f'{b}-{t}',{}).get('cues',{})) for t in range(1,5)) for b in range(13,22)})
+              except Exception as e: print('LIVE CHECK ERROR',repr(e))
+          PY
