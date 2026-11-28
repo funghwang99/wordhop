@@ -9658,5 +9658,513 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "40": "context"
     },
     "cueProvenance": "PocketSphinx phrase spotting on all 16 source files with silence preserved and targeted language-model decoding. Approximate audio intervals; context labels indicate less certain word recognition. Not human listening audited."
+  },
+  "15-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "commodity (n.)",
+          "definition": "A product or raw material that can be traded.",
+          "example": "Coffee is a major commodity on global markets."
+        },
+        {
+          "word": "preservative (n.)",
+          "definition": "A substance used to prevent food from spoiling.",
+          "example": "The jam contains no artificial preservative."
+        },
+        {
+          "word": "dominance (n.)",
+          "definition": "A position of control or superior influence.",
+          "example": "The company lost its dominance in the market."
+        },
+        {
+          "word": "subcontract (v.)",
+          "definition": "Arrange for another company to perform part of a job.",
+          "example": "Many firms subcontract their delivery services."
+        },
+        {
+          "word": "contagious (adj.)",
+          "definition": "Able to spread from one person to another.",
+          "example": "The illness is highly contagious."
+        },
+        {
+          "word": "monopoly (n.)",
+          "definition": "Exclusive control over a market or service.",
+          "example": "The new law ended the company's monopoly."
+        },
+        {
+          "word": "smuggle (v.)",
+          "definition": "Move goods secretly and illegally across borders.",
+          "example": "The gang tried to smuggle rare animals abroad."
+        },
+        {
+          "word": "thrive (v.)",
+          "definition": "Grow or develop successfully.",
+          "example": "Native plants thrive in this climate."
+        },
+        {
+          "word": "automation (n.)",
+          "definition": "The use of machines or software to perform tasks automatically.",
+          "example": "Automation can improve factory productivity."
+        },
+        {
+          "word": "contributory (adj.)",
+          "definition": "Helping to cause a particular result.",
+          "example": "Fatigue was a contributory factor in the accident."
+        },
+        {
+          "word": "incidence (n.)",
+          "definition": "The frequency with which something occurs.",
+          "example": "Vaccination reduced the incidence of the disease."
+        },
+        {
+          "word": "autonomy (n.)",
+          "definition": "The ability to act or make decisions independently.",
+          "example": "Flexible working gives employees greater autonomy."
+        },
+        {
+          "word": "implication (n.)",
+          "definition": "A possible effect or consequence of something.",
+          "example": "One implication of the policy is higher costs."
+        },
+        {
+          "word": "viable (adj.)",
+          "definition": "Capable of working successfully in practice.",
+          "example": "The team proposed a viable alternative."
+        },
+        {
+          "word": "turnover (n.)",
+          "definition": "The rate at which things are replaced.",
+          "example": "Frequent equipment turnover increases costs."
+        },
+        {
+          "word": "liability (n.)",
+          "definition": "Legal responsibility for damage or loss.",
+          "example": "The contract limits the supplier's liability."
+        },
+        {
+          "word": "nomadic (adj.)",
+          "definition": "Moving from place to place rather than settling permanently.",
+          "example": "Some communities maintain a nomadic lifestyle."
+        },
+        {
+          "word": "peculiar (adj.)",
+          "definition": "Unusual or distinctive.",
+          "example": "The island has a peculiar climate."
+        },
+        {
+          "word": "delve into (v.)",
+          "definition": "Examine a subject in considerable depth.",
+          "example": "The researchers delve into the causes of migration."
+        },
+        {
+          "word": "confine (v.)",
+          "definition": "Restrict something to a particular range or area.",
+          "example": "We should confine the study to local schools."
+        },
+        {
+          "word": "scarcely (adv.)",
+          "definition": "Almost not at all.",
+          "example": "The road was scarcely visible in the fog."
+        },
+        {
+          "word": "endeavour (n.)",
+          "definition": "A serious effort to achieve something.",
+          "example": "Scientific discovery is a collaborative endeavour."
+        },
+        {
+          "word": "outset (n.)",
+          "definition": "The beginning of an activity or process.",
+          "example": "The objectives were clear from the outset."
+        },
+        {
+          "word": "disregard (v.)",
+          "definition": "Pay no attention to something.",
+          "example": "We should not disregard the available evidence."
+        }
+      ]
+    }
+  },
+  "15-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "quantitative (adj.)",
+          "definition": "Relating to data that can be expressed in numbers.",
+          "example": "The study combines quantitative and qualitative methods."
+        },
+        {
+          "word": "stimulate (v.)",
+          "definition": "Encourage an activity or development to happen.",
+          "example": "Public investment can stimulate economic growth."
+        },
+        {
+          "word": "blueprint (n.)",
+          "definition": "A detailed plan for a building or project.",
+          "example": "The architect prepared a blueprint for the new library."
+        },
+        {
+          "word": "improvise (v.)",
+          "definition": "Create or perform something without advance preparation.",
+          "example": "The engineers had to improvise a temporary solution."
+        },
+        {
+          "word": "drawback (n.)",
+          "definition": "A disadvantage of an idea or situation.",
+          "example": "The main drawback is the high cost."
+        },
+        {
+          "word": "prevalent (adj.)",
+          "definition": "Common or widespread in a particular place or time.",
+          "example": "This attitude was prevalent in the past."
+        },
+        {
+          "word": "counter-intuitive (adj.)",
+          "definition": "Contrary to what people would normally expect.",
+          "example": "The experiment produced a counter-intuitive result."
+        },
+        {
+          "word": "simulate (v.)",
+          "definition": "Imitate a real situation or process.",
+          "example": "The software can simulate traffic conditions."
+        },
+        {
+          "word": "specimen (n.)",
+          "definition": "An individual example used for scientific study.",
+          "example": "The museum preserves a rare specimen."
+        },
+        {
+          "word": "premise (n.)",
+          "definition": "An idea on which an argument or plan is based.",
+          "example": "The proposal rests on a questionable premise."
+        },
+        {
+          "word": "abundant (adj.)",
+          "definition": "Existing in large quantities.",
+          "example": "Solar energy is abundant in the region."
+        },
+        {
+          "word": "niche (n.)",
+          "definition": "A specialised role within an ecosystem or market.",
+          "example": "The bird occupies a distinct ecological niche."
+        },
+        {
+          "word": "debilitating (adj.)",
+          "definition": "Causing serious weakness or loss of normal function.",
+          "example": "The illness causes debilitating fatigue."
+        },
+        {
+          "word": "hybrid (n.)",
+          "definition": "Something formed by combining two different types.",
+          "example": "The plant is a hybrid of two wild varieties."
+        },
+        {
+          "word": "regenerate (v.)",
+          "definition": "Grow again or restore damaged material.",
+          "example": "Some organisms can regenerate damaged tissue."
+        },
+        {
+          "word": "mitigate (v.)",
+          "definition": "Make a harmful effect less severe.",
+          "example": "Trees can help mitigate urban heat."
+        },
+        {
+          "word": "stimulus (n.)",
+          "definition": "Something that produces a response or reaction.",
+          "example": "The experiment used light as a visual stimulus."
+        },
+        {
+          "word": "perception (n.)",
+          "definition": "The way something is understood or interpreted.",
+          "example": "Social media can influence public perception."
+        },
+        {
+          "word": "hierarchy (n.)",
+          "definition": "A system in which people or things are ranked.",
+          "example": "The organisation has a strict hierarchy."
+        },
+        {
+          "word": "submissive (adj.)",
+          "definition": "Too willing to accept another person's authority.",
+          "example": "The animal adopted a submissive posture."
+        },
+        {
+          "word": "hypothesis (n.)",
+          "definition": "A proposed explanation that can be tested.",
+          "example": "The results support the original hypothesis."
+        },
+        {
+          "word": "tedious (adj.)",
+          "definition": "Boring because something is long or repetitive.",
+          "example": "Data entry can be a tedious task."
+        },
+        {
+          "word": "persistence (n.)",
+          "definition": "Continued effort despite difficulty.",
+          "example": "Success often requires persistence and patience."
+        },
+        {
+          "word": "replicate (v.)",
+          "definition": "Repeat or reproduce something, especially a study.",
+          "example": "Other scientists tried to replicate the experiment."
+        }
+      ]
+    }
+  },
+  "15-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "comply (v.)",
+          "definition": "Act according to a rule, request or instruction.",
+          "example": "All contractors must comply with safety regulations."
+        },
+        {
+          "word": "abandon (v.)",
+          "definition": "Stop doing or pursuing something completely.",
+          "example": "The team decided to abandon the original plan."
+        },
+        {
+          "word": "depiction (n.)",
+          "definition": "A representation of someone or something in art or writing.",
+          "example": "The painting offers a vivid depiction of rural life."
+        },
+        {
+          "word": "notorious (adj.)",
+          "definition": "Famous for something bad.",
+          "example": "The road is notorious for traffic congestion."
+        },
+        {
+          "word": "inclination (n.)",
+          "definition": "A natural tendency or preference.",
+          "example": "She has an inclination to work independently."
+        },
+        {
+          "word": "distort (v.)",
+          "definition": "Change the original shape or meaning of something.",
+          "example": "Poor reporting can distort public understanding."
+        },
+        {
+          "word": "resemblance (n.)",
+          "definition": "A similarity in appearance or character.",
+          "example": "The sculpture bears a resemblance to a human figure."
+        },
+        {
+          "word": "acclaim (n.)",
+          "definition": "Strong public praise or approval.",
+          "example": "The exhibition received international acclaim."
+        },
+        {
+          "word": "purify (v.)",
+          "definition": "Remove unwanted or harmful substances.",
+          "example": "The device uses sunlight to purify water."
+        },
+        {
+          "word": "desalination (n.)",
+          "definition": "The process of removing salt from water.",
+          "example": "Desalination provides fresh water in dry regions."
+        },
+        {
+          "word": "carbon footprint (n.)",
+          "definition": "The greenhouse gas emissions associated with an activity.",
+          "example": "Public transport can reduce your carbon footprint."
+        },
+        {
+          "word": "distilled (adj.)",
+          "definition": "Purified by evaporation and condensation.",
+          "example": "The laboratory uses distilled water."
+        },
+        {
+          "word": "scarcity (n.)",
+          "definition": "A shortage of something necessary.",
+          "example": "Water scarcity affects agricultural production."
+        },
+        {
+          "word": "self-sufficient (adj.)",
+          "definition": "Able to meet one's own needs without outside help.",
+          "example": "The village aims to become self-sufficient."
+        },
+        {
+          "word": "municipal (adj.)",
+          "definition": "Relating to a town or city government.",
+          "example": "The municipal authority maintains local roads."
+        },
+        {
+          "word": "venture (n.)",
+          "definition": "A new business or project involving risk.",
+          "example": "The founders launched a social venture."
+        },
+        {
+          "word": "enduring (adj.)",
+          "definition": "Continuing to exist for a long time.",
+          "example": "The novel has enduring appeal."
+        },
+        {
+          "word": "cautionary (adj.)",
+          "definition": "Giving a warning about potential danger.",
+          "example": "The film tells a cautionary story about greed."
+        },
+        {
+          "word": "genre (n.)",
+          "definition": "A category of art, music or literature.",
+          "example": "Mystery is a popular literary genre."
+        },
+        {
+          "word": "devise (v.)",
+          "definition": "Invent or plan a method or system.",
+          "example": "Teachers can devise creative learning activities."
+        },
+        {
+          "word": "variant (n.)",
+          "definition": "A form that differs from another version.",
+          "example": "Researchers identified a rare variant of the gene."
+        },
+        {
+          "word": "trivial (adj.)",
+          "definition": "Of little importance or value.",
+          "example": "The disagreement began over a trivial detail."
+        },
+        {
+          "word": "gruesome (adj.)",
+          "definition": "Extremely unpleasant or shocking, especially involving injury.",
+          "example": "The detective novel contains a gruesome scene."
+        },
+        {
+          "word": "perennial (adj.)",
+          "definition": "Continuing or recurring over a long time.",
+          "example": "Housing affordability is a perennial concern."
+        }
+      ]
+    }
+  },
+  "15-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "arid (adj.)",
+          "definition": "Extremely dry with very little rainfall.",
+          "example": "Few crops can survive in an arid climate."
+        },
+        {
+          "word": "withstand (v.)",
+          "definition": "Resist damage or remain strong under pressure.",
+          "example": "The building can withstand strong winds."
+        },
+        {
+          "word": "erosion (n.)",
+          "definition": "The gradual removal of soil or rock by natural forces.",
+          "example": "Tree roots help prevent soil erosion."
+        },
+        {
+          "word": "prejudice (n.)",
+          "definition": "An unfair opinion formed without enough knowledge.",
+          "example": "Education can challenge prejudice."
+        },
+        {
+          "word": "reinstate (v.)",
+          "definition": "Restore something to its former position or condition.",
+          "example": "The council plans to reinstate the old bus route."
+        },
+        {
+          "word": "counteract (v.)",
+          "definition": "Reduce or neutralise the effect of something.",
+          "example": "Exercise can help counteract the effects of inactivity."
+        },
+        {
+          "word": "refuge (n.)",
+          "definition": "A place that provides protection or shelter.",
+          "example": "The wetland offers refuge to migrating birds."
+        },
+        {
+          "word": "biodiversity (n.)",
+          "definition": "The variety of living organisms in an area.",
+          "example": "Protecting forests helps preserve biodiversity."
+        },
+        {
+          "word": "terrain (n.)",
+          "definition": "The physical character of an area of land.",
+          "example": "Rescuers struggled to cross the steep terrain."
+        },
+        {
+          "word": "transmit (v.)",
+          "definition": "Send information or signals from one place to another.",
+          "example": "Satellites transmit data across long distances."
+        },
+        {
+          "word": "interpret (v.)",
+          "definition": "Understand or explain the meaning of something.",
+          "example": "Children learn to interpret facial expressions."
+        },
+        {
+          "word": "ambiguity (n.)",
+          "definition": "A situation in which more than one meaning is possible.",
+          "example": "The wording creates unnecessary ambiguity."
+        },
+        {
+          "word": "indigenous (adj.)",
+          "definition": "Originating naturally in a particular place.",
+          "example": "The region protects indigenous languages."
+        },
+        {
+          "word": "modality (n.)",
+          "definition": "A particular form or mode in which something occurs.",
+          "example": "Speech is one modality of human communication."
+        },
+        {
+          "word": "obscure (adj.)",
+          "definition": "Not clearly known or understood.",
+          "example": "The origin of this custom remains obscure."
+        },
+        {
+          "word": "dwindling (adj.)",
+          "definition": "Gradually becoming smaller in number or amount.",
+          "example": "The island faces dwindling freshwater supplies."
+        },
+        {
+          "word": "quota (n.)",
+          "definition": "An officially fixed amount or limit.",
+          "example": "The government set a quota on fish catches."
+        },
+        {
+          "word": "shareholder (n.)",
+          "definition": "A person or organisation that owns shares in a company.",
+          "example": "Each shareholder has the right to vote."
+        },
+        {
+          "word": "obligation (n.)",
+          "definition": "A duty or responsibility that must be fulfilled.",
+          "example": "Employers have an obligation to protect workers."
+        },
+        {
+          "word": "liable (adj.)",
+          "definition": "Legally responsible for something.",
+          "example": "A company may be liable for environmental damage."
+        },
+        {
+          "word": "enforce (v.)",
+          "definition": "Ensure that a law or rule is obeyed.",
+          "example": "Local authorities enforce building regulations."
+        },
+        {
+          "word": "exert (v.)",
+          "definition": "Apply force, pressure or influence.",
+          "example": "Consumers can exert pressure on manufacturers."
+        },
+        {
+          "word": "plummet (v.)",
+          "definition": "Fall suddenly and sharply.",
+          "example": "Sales can plummet after a product recall."
+        },
+        {
+          "word": "explicit (adj.)",
+          "definition": "Stated clearly and directly.",
+          "example": "The agreement contains explicit safety requirements."
+        }
+      ]
+    }
   }
 };
