@@ -908,3 +908,14 @@ assert.equal(submissions,360);
 assert.equal(defaultRoutes,80);
 assert.equal(answerCount,4120);
 console.log('CAMBRIDGE INTERACTION COVERAGE: '+submissions+' answer sheets submitted with correct and blank answers and retry; '+defaultRoutes+' default/short routes; all 40 tests, all 10 books.');
+
+// Cambridge 12: only publish replay intervals that were located in the supplied recordings.
+const sourceCues=context.window.WORDHOP_CAMBRIDGE12_CUES;
+assert.deepEqual(Object.keys(sourceCues).map(t=>Object.keys(sourceCues[t]).length),[37,39,40,35]);
+for(const [test,cues] of Object.entries(sourceCues))for(const [n,cue] of Object.entries(cues)){
+  assert(Number(n)>=1&&Number(n)<=40);
+  assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=cue[2]);
+}
+assert(sourceCues['5']['1'][0]<=190.8&&sourceCues['5']['1'][1]>=191.95,'Replay must include the actual source-audio cue for Test 5 Q1');
+assert(!sourceCues['8']['2']&&!sourceCues['8']['5'],'Unresolved audio cues remain unavailable');
+console.log('PASS: 151 source-aligned Cam12 replay intervals; nine unresolved cues explicitly omitted');
