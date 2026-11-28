@@ -621,7 +621,7 @@
   function cam12VocabPos(w){return w.word.match(/\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
   function cam12ClozeItem(w){
     const term=cam12VocabStem(w),answer=w.clozeAnswer||term;
-    const escaped=answer.replace(/[.*+?^${}()|[\]\\]/g,'\\  function cam12VocabSessionFor(route,part){');
+    const escaped=answer.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
     const pattern=new RegExp('\\b'+escaped+'\\b','i');
     return pattern.test(w.example)
       ? {sentence:w.example.replace(pattern,'__________'),answer}
