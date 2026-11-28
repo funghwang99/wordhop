@@ -511,7 +511,7 @@
         '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?(contextual?'Listen to answer context':'Listen to this answer'):'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Source-audio match · '+reviewClock(cue[0])+'–'+reviewClock(cue[1])+(contextual?' · Context-based alignment; answer wording needs manual verification.':' · Automatically aligned; timing is approximate.'):candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
     }else{
       explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
-      if(skill==='listening'&&(/^[5-8]$/.test(test)||window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.review?.listening))explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status"></p>';
+      if(skill==='listening')explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status" aria-live="polite">An individual answer cue has not been located reliably.</p>';
     }
     return '<article class="reading-solution '+(graded[n]?'reading-correct':'reading-incorrect')+'"><div class="reading-solution-top"><h4>Question '+n+' · '+esc(k)+'</h4><span>'+(graded[n]?'Correct':'Review')+'</span></div><p class="reading-your-answer">Your answer: <strong>'+esc(String(value).trim()||'Not answered')+'</strong></p>'+explanation+'</article>';
   }
