@@ -27742,7 +27742,251 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "5c554263372906d84f08799c83e124fc1e24f1afbd79c4ad667bccf8dc3aac70",
       "4": "0da2ba1ddef24403af805ed8b986665f118957f97f327742d3166c91433fa8bf"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue.",
+    "review": {
+      "reading": [
+        [
+          60,
+          "Paragraph 2",
+          "they filter out dust",
+          "The swollen nostrils prevent dust from entering the respiratory system."
+        ],
+        [
+          60,
+          "Paragraph 2",
+          "cool the blood during hot, dry summers",
+          "Cooling the blood means lowering its temperature."
+        ],
+        [
+          60,
+          "Paragraph 2",
+          "a heavy winter coat",
+          "The saiga grows a heavy coat for winter and sheds it when temperatures rise."
+        ],
+        [
+          60,
+          "Paragraph 4",
+          "their horns are highly prized",
+          "Male saiga are hunted particularly for their horns."
+        ],
+        [
+          60,
+          "Paragraph 5",
+          "loss of habitat",
+          "Agricultural expansion and human settlement reduce the available habitat."
+        ],
+        [
+          60,
+          "Paragraph 5",
+          "block the seasonal migration routes",
+          "Railways, fences and pipelines obstruct the routes used for seasonal migration."
+        ],
+        [
+          61,
+          "Paragraph beginning Climate change",
+          "many of the smaller streams ... have dried up and vanished",
+          "The disappearance of streams reduces the water sources on which saiga depend."
+        ],
+        [
+          60,
+          "Paragraph 1",
+          "well over 90% of the global saiga population",
+          "Kazakhstan contains most saiga, so the population is not evenly distributed across the four countries."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "numbers steadily recovered throughout most of the 20th century",
+          "The population was recovering rather than declining during most of that century."
+        ],
+        [
+          60,
+          "Paragraph 4",
+          "encouraging the use of saiga horns ... as an alternative to those of rhinos",
+          "Efforts to reduce pressure on African rhinos encouraged saiga poaching, causing a population crash."
+        ],
+        [
+          61,
+          "Paragraph beginning Climate change",
+          "unpredictable fluctuations in climate",
+          "Climate fluctuations threaten saiga, but no comparison with wildlife in other parts of the world is made."
+        ],
+        [
+          61,
+          "Paragraph beginning Recent efforts",
+          "the many species they support",
+          "The initiative protects ecosystems and the many species living in them, not solely saiga."
+        ],
+        [
+          61,
+          "Paragraph beginning Recent efforts",
+          "recognised the initiative as a World Restoration Flagship project",
+          "The UN recognition is reported, but the passage does not say it attracted additional funding."
+        ],
+        [
+          64,
+          "Paragraph 1",
+          "United Nations projections anticipate",
+          "Current population growth and forecasts are given, but they are not compared with earlier predictions."
+        ],
+        [
+          64,
+          "Paragraph 2",
+          "single-storey informal settlements",
+          "Most residents live in single-storey housing, not high-rise blocks."
+        ],
+        [
+          64,
+          "Paragraph 3",
+          "A single suburban rail line serves residents in a few areas",
+          "The rail line is described, but consultation with residents is not mentioned."
+        ],
+        [
+          64,
+          "Paragraph 4",
+          "nearly all takes place informally without any agreed strategy",
+          "Most development occurs without a plan or agreed strategy."
+        ],
+        [
+          64,
+          "Paragraph 5",
+          "Unlike many cities on the continent",
+          "Dar es Salaam chose buses instead of following the common preference for metro systems."
+        ],
+        [
+          64,
+          "Paragraph 6",
+          "bus lanes separated from other traffic",
+          "Dedicated bus lanes reduce stoppages and delays."
+        ],
+        [
+          64,
+          "Paragraph 6",
+          "Ticket purchase and control takes place at stations prior to boarding",
+          "Passengers pay for tickets before boarding the buses."
+        ],
+        [
+          64,
+          "Paragraph 6",
+          "accessible to people using wheelchairs",
+          "Step-free buses allow wheelchair users to access the entire route."
+        ],
+        [
+          65,
+          "Paragraph 1",
+          "refuse to turn on the air conditioning to save fuel",
+          "Air conditioning is sometimes switched off to reduce fuel consumption."
+        ],
+        [
+          65,
+          "Paragraph 2",
+          "a serious flood at the main depot",
+          "The flood caused a shortage of available buses."
+        ],
+        [
+          65,
+          "Paragraph 2",
+          "Smartcards can't be used as the mechanical readers aren't working",
+          "Broken readers prevent passengers from using smartcards."
+        ],
+        [
+          65,
+          "Paragraph 2",
+          "Staff stand by the gates and tear tickets",
+          "Tickets are manually checked by staff at the station gates."
+        ],
+        [
+          65,
+          "Paragraph 2",
+          "queues are considerable at peak times",
+          "Peak times means rush hours; queues build up because of manual ticket processing."
+        ],
+        [
+          68,
+          "Paragraph 2",
+          "Two things stand out to me.",
+          "The author identifies two major changes in our understanding of prehistoric behaviour and gender roles."
+        ],
+        [
+          69,
+          "Paragraph beginning In a sense",
+          "Evolution usually works by incremental steps and so does technology.",
+          "Early mobile phones illustrate gradual improvement rather than an instant leap in sophistication."
+        ],
+        [
+          69,
+          "Paragraph beginning One way or another",
+          "those notions fed into their research",
+          "Unpicking refers to reassessing earlier archaeology influenced by outdated patriarchal assumptions."
+        ],
+        [
+          69,
+          "Final paragraph",
+          "Inequality, authoritarianism and patriarchy aren't inevitable.",
+          "Prehistory shows that unequal social arrangements are choices, suggesting we can build a fairer society."
+        ],
+        [
+          68,
+          "Paragraph 3",
+          "buried logs that had been shaped with stone tools so that they interlocked",
+          "The workmanship predates Homo sapiens, suggesting other hominins could make sophisticated structures."
+        ],
+        [
+          68,
+          "Paragraph 3",
+          "extinct hominins ... lived on the frozen heights",
+          "Denisovans occupied extreme environments long before modern humans settled there."
+        ],
+        [
+          69,
+          "Paragraph beginning Perhaps the most dramatic",
+          "found women hunted in 80 per cent of them",
+          "The analysis challenges the assumption that hunting was exclusively men's work."
+        ],
+        [
+          69,
+          "Paragraph beginning Perhaps the most dramatic",
+          "turned out to be female, not male as many had assumed",
+          "The Iberian leader's sex contradicts previous assumptions about who held authority."
+        ],
+        [
+          68,
+          "Paragraph 4",
+          "Even earlier species, such as Homo erectus, may also have made art",
+          "Art may predate Neanderthal cave paintings, contradicting the claim that they were the first."
+        ],
+        [
+          68,
+          "Paragraph 4",
+          "engraving patterns on shells",
+          "Shell engravings are mentioned, but their rarity is not established."
+        ],
+        [
+          68,
+          "Paragraph beginning By far the most contentious",
+          "researchers have found what seem to be etchings",
+          "The discovery is described, but the methods used to examine the cave are not characterised as unconventional."
+        ],
+        [
+          68,
+          "Paragraph beginning By far the most contentious",
+          "these have yet to be firmly dated",
+          "The date of the etchings remains uncertain."
+        ],
+        [
+          68,
+          "Paragraph beginning To say these claims",
+          "The dispute has only been heightened by the way the results were released",
+          "The unusual publication format intensified the controversy."
+        ],
+        [
+          69,
+          "Paragraph beginning My views",
+          "the species' small brains are a distraction",
+          "The writer explicitly argues that brain size is not the decisive factor and that internal wiring may also matter."
+        ]
+      ]
+    }
   },
   "21-4": {
     "vocabulary": {
