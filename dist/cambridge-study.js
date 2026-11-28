@@ -23056,7 +23056,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         {
           "word": "catapult into the mainstream (v. phr.)",
           "definition": "To bring something rapidly into widespread popularity or use.",
-          "example": "A major discovery could catapult the technology into the mainstream."
+          "example": "A major discovery could catapult the technology into the mainstream.",
+          "clozeAnswer": "catapult the technology into the mainstream"
         },
         {
           "word": "thrive (v.)",
