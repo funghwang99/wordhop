@@ -879,6 +879,7 @@ function submitOnRoute(book,volume,exam,skill,part,hash,routeSkill=skill){
   assert(eventDispatch('submit',form).defaultPrevented,'Native form submission prevented');
   assert(node.innerHTML.includes((to-from+1)+'/'+(to-from+1)+' correct'),code+' '+skill+' '+part+' full marks after actual submit');
   assert(node.innerHTML.includes('Answer key &amp; explanations'),'Review opened by actual submit');
+  if(skill==='listening')assert.equal((node.innerHTML.match(/data-review-question="/g)||[]).length,to-from+1,code+' every checked Listening question exposes replay');
   assert.equal(JSON.parse(values.get(storageKey)).checked,true,'Checked state saved');
   // Retry keeps previous responses while unlocking the answer sheet.
   const retry={dataset:{camAction:'retry'},closest:sel=>sel==='[data-cam-action]'?retry:null};
