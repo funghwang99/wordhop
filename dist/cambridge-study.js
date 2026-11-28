@@ -26254,6 +26254,386 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "epilogue (n.)",
           "definition": "A concluding section of a book or story.",
           "example": "The epilogue considers the city's future."
+        },
+        {
+          "word": "superficial resemblance (n.)",
+          "definition": "A similarity in outward appearance rather than essential features.",
+          "example": "The two animals have a superficial resemblance."
+        },
+        {
+          "word": "distinguishing feature (n.)",
+          "definition": "A characteristic that makes something recognisable or different.",
+          "example": "The stripes are its distinguishing feature."
+        },
+        {
+          "word": "terrain (n.)",
+          "definition": "The physical features of an area of land.",
+          "example": "The animal occupies a variety of terrain."
+        },
+        {
+          "word": "prime habitat (n.)",
+          "definition": "The most suitable natural living environment for a species.",
+          "example": "Open woodland is its prime habitat."
+        },
+        {
+          "word": "exclusively (adv.)",
+          "definition": "Only and without exception.",
+          "example": "The animal feeds exclusively on meat."
+        },
+        {
+          "word": "compensate for (v. phr.)",
+          "definition": "To make up for a disadvantage or loss.",
+          "example": "Stored energy can compensate for a shortage of food."
+        },
+        {
+          "word": "scarce (adj.)",
+          "definition": "Available in insufficient quantities.",
+          "example": "Food becomes scarce during droughts."
+        },
+        {
+          "word": "prey (n.)",
+          "definition": "An animal hunted by another for food.",
+          "example": "The predator tracks its prey by scent."
+        },
+        {
+          "word": "exhaust (v.)",
+          "definition": "To make someone or something extremely tired.",
+          "example": "A long chase may exhaust the prey."
+        },
+        {
+          "word": "pursuit (n.)",
+          "definition": "The act of following or chasing someone or something.",
+          "example": "The animal gave up the pursuit."
+        },
+        {
+          "word": "scent (n.)",
+          "definition": "A smell that may be used to locate something.",
+          "example": "The dog follows a scent through the forest."
+        },
+        {
+          "word": "retreat (v.)",
+          "definition": "To move back to a safer place.",
+          "example": "The animals retreat into the hills at dawn."
+        },
+        {
+          "word": "temperament (n.)",
+          "definition": "The typical emotional nature or behaviour of an individual.",
+          "example": "The animal has a nervous temperament."
+        },
+        {
+          "word": "bask (v.)",
+          "definition": "To lie or sit in warmth or sunlight.",
+          "example": "The reptiles bask in the sun."
+        },
+        {
+          "word": "pouch (n.)",
+          "definition": "A pocket of skin in which a marsupial carries its young.",
+          "example": "The newborn develops inside the pouch."
+        },
+        {
+          "word": "teat (n.)",
+          "definition": "A nipple through which a young animal obtains milk.",
+          "example": "The newborn attaches itself to a teat."
+        },
+        {
+          "word": "lair (n.)",
+          "definition": "A wild animal's resting or hiding place.",
+          "example": "The animal returned to its lair."
+        },
+        {
+          "word": "hollow (adj.)",
+          "definition": "Having an empty space inside.",
+          "example": "The young hid in a hollow log."
+        },
+        {
+          "word": "carbon-dated (adj.)",
+          "definition": "Having its age estimated through analysis of radioactive carbon.",
+          "example": "The cave contains a carbon-dated fossil."
+        },
+        {
+          "word": "coincide with (v. phr.)",
+          "definition": "To happen at the same time as another event.",
+          "example": "The decline may coincide with the arrival of a predator."
+        },
+        {
+          "word": "attribute to (v. phr.)",
+          "definition": "To regard something as being caused by a particular factor.",
+          "example": "Scientists attribute the decline to several factors."
+        },
+        {
+          "word": "bounty hunter (n.)",
+          "definition": "A person paid a reward for capturing or killing a target.",
+          "example": "A bounty hunter was rewarded for each animal killed."
+        },
+        {
+          "word": "undoubtedly (adv.)",
+          "definition": "Without any doubt.",
+          "example": "Habitat loss undoubtedly contributed to the decline."
+        },
+        {
+          "word": "foresee (v.)",
+          "definition": "To predict something before it occurs.",
+          "example": "Scientists may foresee the consequences of habitat loss."
+        },
+        {
+          "word": "demise (n.)",
+          "definition": "The end or death of something or someone.",
+          "example": "The book describes the species' demise."
+        },
+        {
+          "word": "diminish (v.)",
+          "definition": "To become or make something smaller or less important.",
+          "example": "The remaining populations continued to diminish."
+        },
+        {
+          "word": "extermination (n.)",
+          "definition": "The complete destruction of a group or species.",
+          "example": "The campaign led to the extermination of many animals."
+        },
+        {
+          "word": "scarcity (n.)",
+          "definition": "The condition of being in short supply.",
+          "example": "The scarcity of food threatened the species."
+        },
+        {
+          "word": "on the edge of extinction (phr.)",
+          "definition": "Very close to disappearing completely.",
+          "example": "The rare animal was on the edge of extinction."
+        },
+        {
+          "word": "definitive evidence (n.)",
+          "definition": "Evidence that establishes something conclusively.",
+          "example": "Researchers have found no definitive evidence of survival."
+        },
+        {
+          "word": "edible (adj.)",
+          "definition": "Suitable or safe to eat.",
+          "example": "Palm oil is an edible vegetable oil."
+        },
+        {
+          "word": "derive from (v. phr.)",
+          "definition": "To come or be obtained from a particular source.",
+          "example": "Many commercial oils derive from plants."
+        },
+        {
+          "word": "preservation (n.)",
+          "definition": "The act of protecting something from damage or spoilage.",
+          "example": "The oil assists with food preservation."
+        },
+        {
+          "word": "seize the opportunity (v. phr.)",
+          "definition": "To take advantage of a favourable chance.",
+          "example": "Farmers may seize the opportunity to increase production."
+        },
+        {
+          "word": "cropland (n.)",
+          "definition": "Land used for growing crops.",
+          "example": "Plantations occupy a growing share of cropland."
+        },
+        {
+          "word": "deforestation (n.)",
+          "definition": "The clearing or destruction of forests.",
+          "example": "Deforestation threatens tropical wildlife."
+        },
+        {
+          "word": "dwindling (adj.)",
+          "definition": "Gradually decreasing in amount or number.",
+          "example": "The region has dwindling animal populations."
+        },
+        {
+          "word": "fauna (n.)",
+          "definition": "The animals found in a particular region.",
+          "example": "The forest supports diverse fauna."
+        },
+        {
+          "word": "radical (adj.)",
+          "definition": "Involving a fundamental change to existing ideas or practices.",
+          "example": "Campaigners proposed a radical solution."
+        },
+        {
+          "word": "intuitive (adj.)",
+          "definition": "Based on instinct rather than deliberate reasoning.",
+          "example": "The argument seems intuitive at first."
+        },
+        {
+          "word": "supply chain (n.)",
+          "definition": "The network involved in producing and distributing a product.",
+          "example": "The company monitors its global supply chain."
+        },
+        {
+          "word": "utilitarian (adj.)",
+          "definition": "Concerned with practical usefulness or overall benefit.",
+          "example": "The policy reflects a utilitarian approach."
+        },
+        {
+          "word": "bone of contention (phr.)",
+          "definition": "An issue that causes disagreement.",
+          "example": "Land use remains a bone of contention."
+        },
+        {
+          "word": "yield (n.)",
+          "definition": "The amount produced from a crop or process.",
+          "example": "Palm oil has a high yield per hectare."
+        },
+        {
+          "word": "predominantly (adv.)",
+          "definition": "Mainly or for the most part.",
+          "example": "The region is predominantly agricultural."
+        },
+        {
+          "word": "sequester carbon (v. phr.)",
+          "definition": "To capture and store carbon for a period of time.",
+          "example": "Plants can sequester carbon as they grow."
+        },
+        {
+          "word": "virgin forest (n.)",
+          "definition": "Forest that has not been significantly disturbed by human activity.",
+          "example": "Clearing virgin forest releases stored carbon."
+        },
+        {
+          "word": "get out of hand (v. phr.)",
+          "definition": "To become difficult or impossible to control.",
+          "example": "The problem may get out of hand without regulation."
+        },
+        {
+          "word": "transparency (n.)",
+          "definition": "Openness and accessibility of information.",
+          "example": "Certification requires transparency."
+        },
+        {
+          "word": "carbon stock (n.)",
+          "definition": "The amount of carbon stored in a system or area.",
+          "example": "The assessment estimates the forest's carbon stock."
+        },
+        {
+          "word": "sterile (adj.)",
+          "definition": "Lacking living organisms or diversity in a particular context.",
+          "example": "The plantation can become a sterile environment for wildlife."
+        },
+        {
+          "word": "epiphytic (adj.)",
+          "definition": "Growing on another plant for physical support rather than nourishment.",
+          "example": "The fern has an epiphytic growth habit."
+        },
+        {
+          "word": "keystone species (n.)",
+          "definition": "A species with a disproportionately important effect on an ecosystem.",
+          "example": "A keystone species supports many other organisms."
+        },
+        {
+          "word": "invertebrate (n.)",
+          "definition": "An animal without a backbone.",
+          "example": "An insect is an invertebrate."
+        },
+        {
+          "word": "amphibian (n.)",
+          "definition": "A vertebrate that usually lives partly in water and partly on land.",
+          "example": "A frog is an amphibian."
+        },
+        {
+          "word": "cluster (n.)",
+          "definition": "A group of things located close together.",
+          "example": "A business cluster developed near the waterfront."
+        },
+        {
+          "word": "incorporate (v.)",
+          "definition": "To include something as part of a larger whole.",
+          "example": "The author may incorporate earlier research."
+        },
+        {
+          "word": "subsoil (n.)",
+          "definition": "The layer of soil beneath the surface layer.",
+          "example": "The survey examined the city's subsoil."
+        },
+        {
+          "word": "implementation (n.)",
+          "definition": "The process of putting a plan into effect.",
+          "example": "The implementation of the street plan changed the city."
+        },
+        {
+          "word": "set the stage for (v. phr.)",
+          "definition": "To create the conditions for a later event or development.",
+          "example": "Earlier chapters set the stage for the analysis."
+        },
+        {
+          "word": "slum clearance (n.)",
+          "definition": "The removal of poor-quality housing for redevelopment.",
+          "example": "Slum clearance changed the neighbourhood."
+        },
+        {
+          "word": "bedrock (n.)",
+          "definition": "Solid rock beneath loose soil or other surface material.",
+          "example": "Workers dug until they reached bedrock."
+        },
+        {
+          "word": "foundation cost (n.)",
+          "definition": "The expense of constructing the base of a building.",
+          "example": "The developer estimated the foundation cost."
+        },
+        {
+          "word": "at first glance (phr.)",
+          "definition": "Based on an initial impression.",
+          "example": "The explanation seems convincing at first glance."
+        },
+        {
+          "word": "amenity (n.)",
+          "definition": "A useful or pleasant facility or service.",
+          "example": "Access to a local amenity can influence land prices."
+        },
+        {
+          "word": "waterfront (n.)",
+          "definition": "An area of land next to a body of water.",
+          "example": "Factories once occupied the waterfront."
+        },
+        {
+          "word": "return on investment (n.)",
+          "definition": "The financial benefit gained relative to the amount invested.",
+          "example": "Developers seek to maximise return on investment."
+        },
+        {
+          "word": "skeletal frame (n.)",
+          "definition": "A supporting structural framework of a building.",
+          "example": "A steel skeletal frame supports the tower."
+        },
+        {
+          "word": "load-bearing (adj.)",
+          "definition": "Designed to support the weight of a structure.",
+          "example": "The design uses load-bearing walls."
+        },
+        {
+          "word": "square footage (n.)",
+          "definition": "An area measured in square feet.",
+          "example": "The new design increased usable square footage."
+        },
+        {
+          "word": "regression analysis (n.)",
+          "definition": "A statistical method for examining relationships between variables.",
+          "example": "The study uses regression analysis to estimate building height."
+        },
+        {
+          "word": "prohibitively (adv.)",
+          "definition": "To such a high degree that something becomes impractical.",
+          "example": "The proposed foundation was prohibitively expensive."
+        },
+        {
+          "word": "caisson (n.)",
+          "definition": "A watertight structure used in construction below ground or water.",
+          "example": "A caisson enables workers to reach solid rock."
+        },
+        {
+          "word": "water table (n.)",
+          "definition": "The level below which the ground is saturated with water.",
+          "example": "The excavation extended below the water table."
+        },
+        {
+          "word": "building boom (n.)",
+          "definition": "A period of rapid growth in construction activity.",
+          "example": "The city experienced a building boom."
+        },
+        {
+          "word": "viability (n.)",
+          "definition": "The ability of an idea or project to work successfully.",
+          "example": "The analysis assesses the viability of the explanation."
         }
       ]
     },
@@ -26845,6 +27225,431 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "obsession (n.)",
           "definition": "An idea or interest that occupies the mind excessively.",
           "example": "His obsession with detail improved his performance."
+        },
+        {
+          "word": "strained (adj.)",
+          "definition": "Affected by tension or difficulty.",
+          "example": "Relations between farmers and conservationists are strained."
+        },
+        {
+          "word": "cultivation (n.)",
+          "definition": "The process of growing crops.",
+          "example": "Rice cultivation is widespread on the island."
+        },
+        {
+          "word": "staple crop (n.)",
+          "definition": "A crop that forms a major part of a population's diet.",
+          "example": "Rice is a staple crop."
+        },
+        {
+          "word": "subsistence farmer (n.)",
+          "definition": "A farmer who grows mainly enough food to support a household.",
+          "example": "A subsistence farmer depends on the harvest for survival."
+        },
+        {
+          "word": "paddy field (n.)",
+          "definition": "A field flooded with water for growing rice.",
+          "example": "Bats hunt insects above a paddy field."
+        },
+        {
+          "word": "devastating (adj.)",
+          "definition": "Causing extremely serious damage.",
+          "example": "Deforestation has devastating consequences."
+        },
+        {
+          "word": "thrive (v.)",
+          "definition": "To grow or develop successfully.",
+          "example": "Some species thrive in altered habitats."
+        },
+        {
+          "word": "implication (n.)",
+          "definition": "A possible consequence or significance of something.",
+          "example": "The findings have an important implication for agriculture."
+        },
+        {
+          "word": "deforestation (n.)",
+          "definition": "The removal or destruction of forest.",
+          "example": "Deforestation reduces natural habitat."
+        },
+        {
+          "word": "feast on (v. phr.)",
+          "definition": "To feed on something in large quantities.",
+          "example": "Bats feast on insects above the crops."
+        },
+        {
+          "word": "plague (n.)",
+          "definition": "A large and harmful infestation of organisms.",
+          "example": "The fields suffered a plague of insects."
+        },
+        {
+          "word": "comprise (v.)",
+          "definition": "To consist of or make up a particular whole.",
+          "example": "Bats comprise a substantial share of local mammals."
+        },
+        {
+          "word": "native to (adj. phr.)",
+          "definition": "Naturally occurring in a particular region.",
+          "example": "The species is native to the island."
+        },
+        {
+          "word": "habitat modification (n.)",
+          "definition": "A change to the natural environment where an organism lives.",
+          "example": "Some species benefit from habitat modification."
+        },
+        {
+          "word": "swarm (v.)",
+          "definition": "To gather or move together in large numbers.",
+          "example": "Insects swarm above the rice fields."
+        },
+        {
+          "word": "pest suppressor (n.)",
+          "definition": "An organism or agent that reduces populations of pests.",
+          "example": "The bat acts as a natural pest suppressor."
+        },
+        {
+          "word": "prey on (v. phr.)",
+          "definition": "To hunt and feed on another animal.",
+          "example": "Several bat species prey on crop pests."
+        },
+        {
+          "word": "caterpillar (n.)",
+          "definition": "The larval stage of a butterfly or moth.",
+          "example": "A caterpillar feeds on the crop."
+        },
+        {
+          "word": "state-of-the-art (adj.)",
+          "definition": "Using the most advanced currently available technology.",
+          "example": "Researchers used state-of-the-art equipment."
+        },
+        {
+          "word": "droppings (n. pl.)",
+          "definition": "The solid waste produced by animals.",
+          "example": "Scientists analysed bat droppings."
+        },
+        {
+          "word": "preferentially (adv.)",
+          "definition": "In a way that shows a preference for one option.",
+          "example": "The animals preferentially feed near rice fields."
+        },
+        {
+          "word": "forage (v.)",
+          "definition": "To search for food.",
+          "example": "Bats forage after sunset."
+        },
+        {
+          "word": "nutrient run-off (n.)",
+          "definition": "The movement of dissolved nutrients from land into water or elsewhere.",
+          "example": "Nutrient run-off can alter soil conditions."
+        },
+        {
+          "word": "susceptible to (adj. phr.)",
+          "definition": "Likely to be harmed or affected by something.",
+          "example": "The crops are susceptible to pest attacks."
+        },
+        {
+          "word": "stakes (n. pl.)",
+          "definition": "The important things that may be gained or lost in a situation.",
+          "example": "The stakes are high for the farming community."
+        },
+        {
+          "word": "scarce (adj.)",
+          "definition": "Insufficient in quantity or difficult to obtain.",
+          "example": "Protein is scarce during the dry season."
+        },
+        {
+          "word": "roost (v.)",
+          "definition": "To settle or rest in a particular place, especially at night.",
+          "example": "Bats roost in caves and trees."
+        },
+        {
+          "word": "crop yield (n.)",
+          "definition": "The quantity of crops produced.",
+          "example": "Pest control can increase crop yield."
+        },
+        {
+          "word": "sustainable livelihood (n.)",
+          "definition": "A way of making a living that can be maintained over time.",
+          "example": "Conservation supports a sustainable livelihood."
+        },
+        {
+          "word": "quantify (v.)",
+          "definition": "To measure or express something numerically.",
+          "example": "Researchers aim to quantify the benefits."
+        },
+        {
+          "word": "regeneration (n.)",
+          "definition": "The process of renewal or regrowth.",
+          "example": "The project encourages forest regeneration."
+        },
+        {
+          "word": "compile (v.)",
+          "definition": "To collect and arrange information into a single source.",
+          "example": "The team will compile a historical database."
+        },
+        {
+          "word": "guild (n.)",
+          "definition": "An association of people practising a particular craft or trade.",
+          "example": "The guild controlled access to local employment."
+        },
+        {
+          "word": "ledger (n.)",
+          "definition": "A book or record of financial transactions.",
+          "example": "The historian examined a guild ledger."
+        },
+        {
+          "word": "parish register (n.)",
+          "definition": "An official local church record of events such as births and marriages.",
+          "example": "The parish register contains family records."
+        },
+        {
+          "word": "census (n.)",
+          "definition": "An official count or survey of a population.",
+          "example": "The village conducted a census."
+        },
+        {
+          "word": "possession (n.)",
+          "definition": "Something owned by a person.",
+          "example": "The records describe each personal possession."
+        },
+        {
+          "word": "archive (n.)",
+          "definition": "A collection of historical documents or records.",
+          "example": "The researcher consulted a local archive."
+        },
+        {
+          "word": "conundrum (n.)",
+          "definition": "A difficult and puzzling problem.",
+          "example": "The findings address an economic conundrum."
+        },
+        {
+          "word": "causal link (n.)",
+          "definition": "A relationship in which one factor causes another.",
+          "example": "The researchers investigated a causal link between education and growth."
+        },
+        {
+          "word": "productively (adv.)",
+          "definition": "In a way that produces useful results.",
+          "example": "Education can help people work productively."
+        },
+        {
+          "word": "literacy rate (n.)",
+          "definition": "The proportion of people who can read and write.",
+          "example": "The region had a high literacy rate."
+        },
+        {
+          "word": "mediocre (adj.)",
+          "definition": "Of only average or below-average quality.",
+          "example": "The country had mediocre educational outcomes."
+        },
+        {
+          "word": "industrialise (v.)",
+          "definition": "To develop industries on a large scale.",
+          "example": "The country began to industrialise in the nineteenth century."
+        },
+        {
+          "word": "belongings (n. pl.)",
+          "definition": "The things that a person owns.",
+          "example": "The inventory lists household belongings."
+        },
+        {
+          "word": "worldly goods (n. pl.)",
+          "definition": "A person's material possessions.",
+          "example": "The document records all her worldly goods."
+        },
+        {
+          "word": "bodice (n.)",
+          "definition": "The upper part of a woman's dress or garment.",
+          "example": "The inventory describes a scarlet bodice."
+        },
+        {
+          "word": "asset (n.)",
+          "definition": "Something valuable that a person or organisation owns.",
+          "example": "A workshop is a valuable asset."
+        },
+        {
+          "word": "debt (n.)",
+          "definition": "Money that is owed to another person or organisation.",
+          "example": "The records reveal each family's debt."
+        },
+        {
+          "word": "stifle (v.)",
+          "definition": "To prevent or restrict development or activity.",
+          "example": "Strict rules can stifle innovation."
+        },
+        {
+          "word": "enrolment (n.)",
+          "definition": "The act or process of registering as a student.",
+          "example": "School enrolment increased over the period."
+        },
+        {
+          "word": "industriousness (n.)",
+          "definition": "The quality of working hard and diligently.",
+          "example": "The researchers examined household industriousness."
+        },
+        {
+          "word": "descendant (n.)",
+          "definition": "A person related to someone who lived in an earlier generation.",
+          "example": "The historian traced each descendant."
+        },
+        {
+          "word": "chastise (v.)",
+          "definition": "To criticise or punish someone severely.",
+          "example": "The authorities chastise people for breaking the rules."
+        },
+        {
+          "word": "sermon (n.)",
+          "definition": "A religious speech delivered to a congregation.",
+          "example": "The congregation listened to the sermon."
+        },
+        {
+          "word": "spinster (n.)",
+          "definition": "An old-fashioned term for an unmarried woman.",
+          "example": "The historical record describes her as a spinster."
+        },
+        {
+          "word": "ordinance (n.)",
+          "definition": "An authoritative rule or regulation.",
+          "example": "The council introduced a new ordinance."
+        },
+        {
+          "word": "summon (v.)",
+          "definition": "To officially require someone to appear at a place.",
+          "example": "The court may summon a witness."
+        },
+        {
+          "word": "dominance (n.)",
+          "definition": "The state of having control or power over others.",
+          "example": "Guild dominance limited competition."
+        },
+        {
+          "word": "hold wealth constant (v. phr.)",
+          "definition": "To compare cases while keeping the level of wealth unchanged.",
+          "example": "The study will hold wealth constant during the analysis."
+        },
+        {
+          "word": "adoption (n.)",
+          "definition": "The act of beginning to use something new.",
+          "example": "The adoption of new machinery improved output."
+        },
+        {
+          "word": "threshold (n.)",
+          "definition": "A level or point at which an effect begins.",
+          "example": "The research examines an educational threshold."
+        },
+        {
+          "word": "tipping point (n.)",
+          "definition": "A critical point at which significant change occurs.",
+          "example": "The process may reach a tipping point."
+        },
+        {
+          "word": "legislate (v.)",
+          "definition": "To create or pass laws.",
+          "example": "Local authorities could legislate against competition."
+        },
+        {
+          "word": "undermine (v.)",
+          "definition": "To gradually weaken something.",
+          "example": "The reforms could undermine existing monopolies."
+        },
+        {
+          "word": "labour migration (n.)",
+          "definition": "The movement of workers between places in search of employment.",
+          "example": "Guild rules restricted labour migration."
+        },
+        {
+          "word": "blindfolded (adj.)",
+          "definition": "Unable to see because the eyes are covered.",
+          "example": "The player competed while blindfolded."
+        },
+        {
+          "word": "set a high bar (v. phr.)",
+          "definition": "To establish a demanding standard of achievement.",
+          "example": "The champion continues to set a high bar."
+        },
+        {
+          "word": "rarefied (adj.)",
+          "definition": "Restricted to a small, exclusive or highly specialised group.",
+          "example": "He entered the rarefied world of elite chess."
+        },
+        {
+          "word": "fondness (n.)",
+          "definition": "A strong liking for something.",
+          "example": "The player has a fondness for bright clothing."
+        },
+        {
+          "word": "get one's kicks (phr.)",
+          "definition": "To obtain excitement or enjoyment from an activity.",
+          "example": "Some athletes get their kicks from competition."
+        },
+        {
+          "word": "feat (n.)",
+          "definition": "An achievement requiring considerable skill or effort.",
+          "example": "The performance was an impressive feat."
+        },
+        {
+          "word": "crown (v.)",
+          "definition": "To award someone a title of champion or winner.",
+          "example": "The tournament will crown a new champion."
+        },
+        {
+          "word": "superhuman (adj.)",
+          "definition": "Exceeding what is normally possible for people.",
+          "example": "The achievement appears to require superhuman ability."
+        },
+        {
+          "word": "run through (v. phr.)",
+          "definition": "To mentally review or rehearse something.",
+          "example": "The players run through possible moves in their minds."
+        },
+        {
+          "word": "recall (n.)",
+          "definition": "The ability to bring information back to mind.",
+          "example": "Fatigue can impair recall."
+        },
+        {
+          "word": "taxing (adj.)",
+          "definition": "Requiring considerable mental or physical effort.",
+          "example": "Playing multiple games is mentally taxing."
+        },
+        {
+          "word": "exhaustion (n.)",
+          "definition": "A state of extreme tiredness.",
+          "example": "After hours of competition he experienced exhaustion."
+        },
+        {
+          "word": "set in (v. phr.)",
+          "definition": "To begin and become established, especially of an unpleasant condition.",
+          "example": "Fatigue can set in after several hours."
+        },
+        {
+          "word": "patchy (adj.)",
+          "definition": "Incomplete or inconsistent in quality.",
+          "example": "His memory became patchy."
+        },
+        {
+          "word": "exceptional (adj.)",
+          "definition": "Unusually good or remarkable.",
+          "example": "The champion demonstrated exceptional ability."
+        },
+        {
+          "word": "supremely (adv.)",
+          "definition": "To an extremely high degree.",
+          "example": "The player is supremely gifted."
+        },
+        {
+          "word": "frontoparietal (adj.)",
+          "definition": "Relating to frontal and parietal brain regions.",
+          "example": "The frontoparietal network supports complex tasks."
+        },
+        {
+          "word": "extraordinary (adj.)",
+          "definition": "Very unusual or remarkable.",
+          "example": "The player has extraordinary mental abilities."
+        },
+        {
+          "word": "dedicate oneself to (v. phr.)",
+          "definition": "To devote one's time and effort to a particular activity.",
+          "example": "An athlete may dedicate herself to a demanding sport."
         }
       ]
     },
