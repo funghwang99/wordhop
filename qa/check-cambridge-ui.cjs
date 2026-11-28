@@ -209,7 +209,7 @@ for(const exam of volume14.tests){
       component.render({container,route:{volume:volume14,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
       const html=container.innerHTML,pg=pages14[t][skill][part-1];
       const printRange=pg[0]===pg[1]?String(pg[0]):pg.join('–');
-      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs"'),'Same PET exam interface');
+      assert(html.includes('class="unit-heading"')&&html.includes('class="unit-tabs cm-six-skill-tabs"'),'Same PET exam interface');
       assert(html.includes(base+'/'+skill+'/part-'+part),'Part navigation uses Cambridge14 book ID');
       assert(html.includes('Original book page'),'Source placeholder is transparent before media upload');
       assert(html.includes(printRange),'Original Cambridge14 page mapping '+t+'/'+skill+'/'+part);
@@ -230,6 +230,30 @@ for(const exam of volume14.tests){
   }
 }
 assert.equal(rendered14,40);
+const expectedCam14=[36,35,34,31];
+for(let i=0;i<4;i++){
+  const code='14-'+(i+1),shared=context.window.WORDHOP_CAMBRIDGE_STUDY[code],exam=volume14.tests[i];
+  assert.equal(shared.vocabulary.words.length,expectedCam14[i]);
+  assert(shared.vocabulary.words.every(w=>/\((n\.|v\.|adj\.|adv\.)\)$/.test(w.word)&&w.definition&&w.example),'Cam14 vocabulary includes valid part of speech');
+  for(const skill of ['flashcards','practice','reading','listening']){
+    const base='#/ielts/cambridge-ielts/'+volume14.id+'/'+exam.id;
+    for(let part=1;part<=(skill==='reading'?3:skill==='listening'?4:1);part++){
+      const node={innerHTML:''},key='wordhop.cambridge.exam.v2.test-'+code+'.'+skill+'.part-'+part;
+      if(skill==='reading'||skill==='listening')values.set(key,JSON.stringify({answers:{},checked:true}));
+      component.render({container:node,route:{volume:volume14,exam,skill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+      assert(node.innerHTML.includes('cm-six-skill-tabs'),'Cam14 six-tab navigation');
+      if(skill==='flashcards')assert(node.innerHTML.includes('cm-flipcard')&&node.innerHTML.includes('data-cam-vocab="speak"')&&node.innerHTML.includes(expectedCam14[i]+' words'));
+      if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>node.innerHTML.includes(label)));
+      if(skill==='reading'||skill==='listening'){
+        assert.equal(shared.review[skill].length,40);
+        assert(shared.review[skill].every(row=>row&&row.length===(skill==='reading'?4:3)&&typeof row[0]==='number'&&row.slice(1).every(x=>typeof x==='string'&&x.length>0)));
+        assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'Cam14 source-based explanations');
+      }
+      values.delete(key);
+    }
+  }
+}
+
 const reverseListening=component.score('14-1','listening',{11:'C',12:'A',13:'E',14:'B'});
 assert(reverseListening[11]&&reverseListening[12]&&reverseListening[13]&&reverseListening[14]);
 const reverseReading=component.score('14-4','reading',{23:'D',24:'B',25:'E',26:'B'});
