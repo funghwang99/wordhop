@@ -950,80 +950,54 @@ for(const exam of volume.tests){
 assert.equal(replayCount,160);
 console.log('PASS: 160/160 Cam12 replay intervals; all replay handlers seek to start and pause at end in simulated audio playback.');
 
-const cam13CueVolume=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-13');
-context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH={};
-let checked13Cues=0,context13Cues=0;
-for(const exam of cam13CueVolume.tests){
-  const code='13-'+exam.id.slice(5),data=context.window.WORDHOP_CAMBRIDGE_STUDY[code],base='#/ielts/cambridge-ielts/'+cam13CueVolume.id+'/'+exam.id;
-  assert.equal(Object.keys(data.cues).length,40);
-  assert.equal(Object.keys(data.audioSha256).length,4);
-  for(let part=1;part<=4;part++){
-    const first=(part-1)*10+1,key='wordhop.cambridge.exam.v2.test-'+code+'.listening.part-'+part;
-    assert(/^[0-9a-f]{64}$/.test(data.audioSha256[part]));
-    const duration=data.cues[first][2],events=new Map();
-    const audio={duration,readyState:1,currentTime:0,paused:true,addEventListener:(name,fn)=>events.set(name,fn),removeEventListener:(name,fn)=>{if(events.get(name)===fn)events.delete(name);},play(){this.paused=false;return Promise.resolve();},pause(){this.paused=true;}};
-    const node={innerHTML:'',querySelector:sel=>sel==='#listening-audio'?audio:null};
-    eventLocation.hash=base+'/listening/part-'+part;
-    values.set(key,JSON.stringify({answers:{},checked:true}));
-    context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:true};
-    component.render({container:node,route:{volume:cam13CueVolume,exam,skill:'listening',part},header:'',base});
-    assert.equal((node.innerHTML.match(/Listen to (?:this answer|answer context)/g)||[]).length,10);
-    for(let n=first;n<first+10;n++){
-      const cue=data.cues[n],method=data.cueMethod[n];
-      assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=duration&&cue[2]===duration);
-      assert(['keyword','context'].includes(method));
-      if(method==='context')context13Cues++;
-      const label=method==='context'?'Listen to answer context':'Listen to this answer',status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:label,parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
-      eventDispatch('click',button);assert.equal(audio.currentTime,cue[0]);assert.equal(audio.paused,false);
-      audio.currentTime=cue[1];events.get('timeupdate')();assert.equal(audio.paused,true);assert.equal(button.textContent,label);
-      checked13Cues++;
+// Check every current study replay cue, including CAM15, and exercise safe fallback.
+for(const book of [13,14,15]){
+  const vol=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-'+book);
+  assert(vol,'Missing Cambridge volume '+book);
+  context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH={};
+  let checked=0,contextual=0,fallbacks=0;
+  for(const exam of vol.tests){
+    const code=book+'-'+exam.id.slice(5),data=context.window.WORDHOP_CAMBRIDGE_STUDY[code],base='#/ielts/cambridge-ielts/'+vol.id+'/'+exam.id;
+    assert.equal(data.review.listening.length,40);
+    assert.equal(Object.keys(data.audioSha256).length,4);
+    for(let part=1;part<=4;part++){
+      const first=(part-1)*10+1,key='wordhop.cambridge.exam.v2.test-'+code+'.listening.part-'+part;
+      assert(/^[0-9a-f]{64}$/.test(data.audioSha256[part]));
+      const questions=Array.from({length:10},(_,i)=>first+i);
+      const located=questions.filter(n=>data.cues[n]);
+      const duration=data.cues[located[0]][2],events=new Map();
+      const audio={duration,readyState:1,currentTime:0,paused:true,addEventListener:(name,fn)=>events.set(name,fn),removeEventListener:(name,fn)=>{if(events.get(name)===fn)events.delete(name);},play(){this.paused=false;return Promise.resolve();},pause(){this.paused=true;}};
+      const node={innerHTML:'',querySelector:sel=>sel==='#listening-audio'?audio:null};
+      eventLocation.hash=base+'/listening/part-'+part;
+      values.set(key,JSON.stringify({answers:{},checked:true}));
+      context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:true};
+      component.render({container:node,route:{volume:vol,exam,skill:'listening',part},header:'',base});
+      assert.equal((node.innerHTML.match(/Listen to (?:this answer|answer context)/g)||[]).length,located.length,code+' part '+part);
+      assert.equal((node.innerHTML.match(/Replay section/g)||[]).length,10-located.length);
+      for(const n of questions){
+        const cue=data.cues[n],method=data.cueMethod[n];
+        const label=!cue?'Replay section':method==='context'?'Listen to answer context':'Listen to this answer',status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:label,parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
+        if(!cue){
+          assert.equal(data.cueAuditStatus[n],'unresolved-asr-gap');
+          eventDispatch('click',button);assert.equal(audio.currentTime,0);assert.equal(audio.paused,false);
+          eventDispatch('click',button);assert.equal(audio.paused,true);assert.equal(button.textContent,label);
+          fallbacks++;continue;
+        }
+        assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=duration&&cue[2]===duration);
+        assert(['keyword','context'].includes(method));
+        if(method==='context')contextual++;
+        eventDispatch('click',button);assert.equal(audio.currentTime,cue[0]);assert.equal(audio.paused,false);
+        audio.currentTime=cue[1];events.get('timeupdate')();assert.equal(audio.paused,true);assert.equal(button.textContent,label);
+        checked++;
+      }
+      context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:false};
+      component.render({container:node,route:{volume:vol,exam,skill:'listening',part},header:'',base});
+      assert.equal((node.innerHTML.match(/Replay section/g)||[]).length,10);
+      assert(!node.innerHTML.includes('Listen to this answer')&&!node.innerHTML.includes('Listen to answer context'));
+      values.delete(key);
     }
-    // A mismatched source recording must never activate a specific cue.
-    context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:false};
-    component.render({container:node,route:{volume:cam13CueVolume,exam,skill:'listening',part},header:'',base});
-    assert.equal((node.innerHTML.match(/Replay section/g)||[]).length,10);
-    assert(!node.innerHTML.includes('Listen to this answer')&&!node.innerHTML.includes('Listen to answer context'));
-    values.delete(key);
   }
+  assert.equal(checked+fallbacks,160);
+  assert.equal(fallbacks,book===14?1:0);
+  console.log('PASS: CAM '+book+' '+checked+' specific replay handlers, '+contextual+' contextual labels, '+fallbacks+' safe missing-cue fallbacks; all 16 mismatched-source sections tested.');
 }
-assert.equal(checked13Cues,160);assert.equal(context13Cues,34);
-console.log('PASS: all 160 Cam13 replay handlers seek and stop in simulated audio; 34 contextual intervals labeled; 16 mismatched-source fallbacks.');
-
-const cam14CueVolume=catalog.volumes.find(v=>v.id==='cambridge-ielts-academic-14');
-context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH={};
-let checked14Cues=0,context14Cues=0;
-for(const exam of cam14CueVolume.tests){
-  const code='14-'+exam.id.slice(5),data=context.window.WORDHOP_CAMBRIDGE_STUDY[code],base='#/ielts/cambridge-ielts/'+cam14CueVolume.id+'/'+exam.id;
-  assert.equal(Object.keys(data.cues).length,40);
-  assert.equal(Object.keys(data.audioSha256).length,4);
-  for(let part=1;part<=4;part++){
-    const first=(part-1)*10+1,key='wordhop.cambridge.exam.v2.test-'+code+'.listening.part-'+part;
-    assert(/^[0-9a-f]{64}$/.test(data.audioSha256[part]));
-    const duration=data.cues[first][2],events=new Map();
-    const audio={duration,readyState:1,currentTime:0,paused:true,addEventListener:(name,fn)=>events.set(name,fn),removeEventListener:(name,fn)=>{if(events.get(name)===fn)events.delete(name);},play(){this.paused=false;return Promise.resolve();},pause(){this.paused=true;}};
-    const node={innerHTML:'',querySelector:sel=>sel==='#listening-audio'?audio:null};
-    eventLocation.hash=base+'/listening/part-'+part;
-    values.set(key,JSON.stringify({answers:{},checked:true}));
-    context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:true};
-    component.render({container:node,route:{volume:cam14CueVolume,exam,skill:'listening',part},header:'',base});
-    assert.equal((node.innerHTML.match(/Listen to (?:this answer|answer context)/g)||[]).length,10);
-    for(let n=first;n<first+10;n++){
-      const cue=data.cues[n],method=data.cueMethod[n];
-      assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=duration&&cue[2]===duration);
-      assert(['keyword','context'].includes(method));
-      if(method==='context')context14Cues++;
-      const label=method==='context'?'Listen to answer context':'Listen to this answer',status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:label,parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
-      eventDispatch('click',button);assert.equal(audio.currentTime,cue[0]);assert.equal(audio.paused,false);
-      audio.currentTime=cue[1];events.get('timeupdate')();assert.equal(audio.paused,true);assert.equal(button.textContent,label);
-      checked14Cues++;
-    }
-    // A mismatched source recording must never activate a specific cue.
-    context.window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH[code+'-'+part]={matched:false};
-    component.render({container:node,route:{volume:cam14CueVolume,exam,skill:'listening',part},header:'',base});
-    assert.equal((node.innerHTML.match(/Replay section/g)||[]).length,10);
-    assert(!node.innerHTML.includes('Listen to this answer')&&!node.innerHTML.includes('Listen to answer context'));
-    values.delete(key);
-  }
-}
-assert.equal(checked14Cues,160);assert.equal(context14Cues,55);
-console.log('PASS: all 160 Cam14 replay handlers seek and stop in simulated audio; 55 contextual intervals labeled; 16 mismatched-source fallbacks.');
