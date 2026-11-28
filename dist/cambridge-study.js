@@ -21788,124 +21788,424 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "title": "Test 1 · Reading vocabulary",
       "words": [
         {
+          "word": "at an astonishing rate (phr.)",
+          "definition": "At a surprisingly fast or high rate.",
+          "example": "The city's population grew at an astonishing rate."
+        },
+        {
           "word": "congested (adj.)",
-          "definition": "Overcrowded or blocked, especially with traffic.",
-          "example": "The city centre becomes congested at rush hour."
+          "definition": "Overcrowded or blocked, especially by traffic.",
+          "example": "Roads near the station become congested at rush hour."
+        },
+        {
+          "word": "expansion (n.)",
+          "definition": "An increase in size, scale or extent.",
+          "example": "The expansion of the rail network improved access to jobs."
+        },
+        {
+          "word": "horse-drawn (adj.)",
+          "definition": "Pulled by one or more horses.",
+          "example": "Horse-drawn carriages were once common in cities."
+        },
+        {
+          "word": "scheme (n.)",
+          "definition": "An organised plan for achieving a particular aim.",
+          "example": "The council proposed a scheme to reduce traffic."
         },
         {
           "word": "advocate (n.)",
-          "definition": "A person who publicly supports a proposal or cause.",
-          "example": "She is an advocate of affordable transport."
+          "definition": "A person who publicly supports an idea or policy.",
+          "example": "She is an advocate of affordable public transport."
+        },
+        {
+          "word": "solicitor (n.)",
+          "definition": "A lawyer who provides legal advice and services.",
+          "example": "The company consulted a solicitor before signing the agreement."
         },
         {
           "word": "relocate (v.)",
-          "definition": "To move to a different place.",
-          "example": "The company plans to relocate its headquarters."
+          "definition": "To move someone or something to a different place.",
+          "example": "The council helped families relocate to safer housing."
         },
         {
-          "word": "coincide (v.)",
-          "definition": "To happen at the same time.",
-          "example": "The repairs coincide with the school holidays."
+          "word": "inner-city slum (n.)",
+          "definition": "A poor, overcrowded urban area with inadequate housing.",
+          "example": "The redevelopment project replaced inner-city slums with modern flats."
+        },
+        {
+          "word": "submit (v.)",
+          "definition": "To formally present something for consideration.",
+          "example": "The architects submitted their proposal to the council."
+        },
+        {
+          "word": "coincide with (v. phr.)",
+          "definition": "To happen at the same time as something else.",
+          "example": "The roadworks coincide with the school holidays."
+        },
+        {
+          "word": "merge (v.)",
+          "definition": "To combine two or more things into one.",
+          "example": "The two companies merged to expand their services."
+        },
+        {
+          "word": "raise funding (v. phr.)",
+          "definition": "To obtain money needed for a project or activity.",
+          "example": "The charity struggled to raise funding for a new centre."
         },
         {
           "word": "radical (adj.)",
-          "definition": "Involving a major change to established ideas or methods.",
-          "example": "The city adopted a radical transport plan."
+          "definition": "Involving a major change from existing ideas or methods.",
+          "example": "The city adopted a radical approach to urban planning."
+        },
+        {
+          "word": "collapse (v.)",
+          "definition": "To fall down suddenly or lose structural support.",
+          "example": "The damaged tunnel could collapse without reinforcement."
         },
         {
           "word": "emission (n.)",
-          "definition": "A substance released into the air or environment.",
-          "example": "Vehicle emission standards are becoming stricter."
+          "definition": "A substance released into the air, especially a pollutant.",
+          "example": "Vehicle emissions contribute to poor air quality."
+        },
+        {
+          "word": "persist (v.)",
+          "definition": "To continue despite difficulty or opposition.",
+          "example": "The researchers persisted despite early failures."
         },
         {
           "word": "demolish (v.)",
-          "definition": "To completely destroy a building or structure.",
-          "example": "Workers will demolish the unsafe building."
+          "definition": "To destroy a building or other structure completely.",
+          "example": "The old warehouse was demolished to make space for housing."
         },
         {
-          "word": "ventilation (n.)",
-          "definition": "The movement of fresh air through an enclosed space.",
-          "example": "The tunnel needs effective ventilation."
+          "word": "trench (n.)",
+          "definition": "A long, narrow hole dug in the ground.",
+          "example": "Workers dug a trench to install the new pipes."
+        },
+        {
+          "word": "brick arch (n.)",
+          "definition": "A curved supporting structure made of bricks.",
+          "example": "A brick arch supports the entrance to the tunnel."
+        },
+        {
+          "word": "authorise (v.)",
+          "definition": "To give official permission for something.",
+          "example": "The government authorised construction of the bridge."
+        },
+        {
+          "word": "ventilation shaft (n.)",
+          "definition": "A vertical passage that allows air to enter or escape.",
+          "example": "Ventilation shafts help remove stale air from tunnels."
+        },
+        {
+          "word": "congestion (n.)",
+          "definition": "A condition in which too much traffic blocks movement.",
+          "example": "Better public transport can ease congestion."
+        },
+        {
+          "word": "circuit (n.)",
+          "definition": "A route that goes around an area and returns to its starting point.",
+          "example": "The buses follow a circuit around the town centre."
+        },
+        {
+          "word": "confined space (n.)",
+          "definition": "An enclosed area with limited room for movement.",
+          "example": "Special equipment is required to work in a confined space."
+        },
+        {
+          "word": "deep-level (adj.)",
+          "definition": "Located far below ground level.",
+          "example": "Deep-level tunnels require advanced engineering methods."
+        },
+        {
+          "word": "reliable (adj.)",
+          "definition": "Able to work consistently or be depended on.",
+          "example": "A reliable power supply is essential for electric trains."
+        },
+        {
+          "word": "make a profit (v. phr.)",
+          "definition": "To earn more money than is spent.",
+          "example": "The service took several years to make a profit."
+        },
+        {
+          "word": "urban architecture (n.)",
+          "definition": "The design of buildings and structures in cities.",
+          "example": "Urban architecture can influence how residents use public spaces."
+        },
+        {
+          "word": "dominate (v.)",
+          "definition": "To be the most noticeable or important feature of something.",
+          "example": "High-rise buildings dominate the city's skyline."
         },
         {
           "word": "scepticism (n.)",
-          "definition": "Doubt about whether something is true or effective.",
-          "example": "The proposal was met with scepticism."
+          "definition": "Doubt about whether something is true, useful or effective.",
+          "example": "The expensive proposal was met with scepticism."
+        },
+        {
+          "word": "soar (v.)",
+          "definition": "To increase very quickly to a high level.",
+          "example": "Construction costs soared as material prices rose."
+        },
+        {
+          "word": "fall into disuse (v. phr.)",
+          "definition": "To stop being used over time.",
+          "example": "The abandoned railway station fell into disuse."
+        },
+        {
+          "word": "disrepair (n.)",
+          "definition": "A poor condition caused by a lack of maintenance.",
+          "example": "The historic building fell into disrepair."
+        },
+        {
+          "word": "drive urban development (v. phr.)",
+          "definition": "To encourage the growth or improvement of a city.",
+          "example": "A new transport hub can drive urban development."
+        },
+        {
+          "word": "adapt (v.)",
+          "definition": "To change something to make it suitable for a new use.",
+          "example": "The former factory was adapted into a cultural centre."
         },
         {
           "word": "emblematic (adj.)",
           "definition": "Serving as a symbol of a particular idea or quality.",
-          "example": "The tower is emblematic of the city's industrial past."
+          "example": "The building is emblematic of the city's industrial heritage."
         },
         {
           "word": "amphitheatre (n.)",
-          "definition": "An open or circular venue with rising rows of seats.",
-          "example": "The ancient amphitheatre is still used for concerts."
+          "definition": "An open venue with rising rows of seats around a central area.",
+          "example": "The ancient amphitheatre still hosts performances."
         },
         {
-          "word": "versatile (adj.)",
-          "definition": "Able to be used in many different ways.",
-          "example": "The venue is versatile enough for exhibitions and sports."
+          "word": "fortress (n.)",
+          "definition": "A strongly protected building designed for defence.",
+          "example": "The fortress protected the town from attacks."
+        },
+        {
+          "word": "conservation (n.)",
+          "definition": "The protection and preservation of valuable places or things.",
+          "example": "The project supports the conservation of historic buildings."
+        },
+        {
+          "word": "venue (n.)",
+          "definition": "A place where an event takes place.",
+          "example": "The former theatre became a popular concert venue."
+        },
+        {
+          "word": "endure (v.)",
+          "definition": "To continue to exist over a long period of time.",
+          "example": "Some Roman structures have endured for centuries."
+        },
+        {
+          "word": "acoustics (n. pl.)",
+          "definition": "The way sound travels and is heard in a particular space.",
+          "example": "The hall is known for its excellent acoustics."
+        },
+        {
+          "word": "absorb into the fabric of (v. phr.)",
+          "definition": "To become integrated into the structure or character of something.",
+          "example": "The old market was absorbed into the fabric of the modern city."
+        },
+        {
+          "word": "depot (n.)",
+          "definition": "A place where goods or equipment are stored.",
+          "example": "The railway depot was converted into offices."
+        },
+        {
+          "word": "embedded (adj.)",
+          "definition": "Firmly fixed or integrated within something else.",
+          "example": "Fragments of the original wall remain embedded in the building."
+        },
+        {
+          "word": "flexibility (n.)",
+          "definition": "The ability to change or be used for different purposes.",
+          "example": "The flexibility of the hall makes it suitable for many events."
+        },
+        {
+          "word": "reinforced concrete (n.)",
+          "definition": "Concrete strengthened with steel or another material.",
+          "example": "The bridge was built from reinforced concrete."
+        },
+        {
+          "word": "urban hub (n.)",
+          "definition": "A central place in a city where activities and services are concentrated.",
+          "example": "The station has become a major urban hub."
+        },
+        {
+          "word": "innovative (adj.)",
+          "definition": "Introducing new and original ideas or methods.",
+          "example": "The architects developed an innovative stadium design."
+        },
+        {
+          "word": "mixed-use development (n.)",
+          "definition": "A project combining different functions, such as housing, retail and offices.",
+          "example": "Mixed-use developments can reduce the need for car journeys."
         },
         {
           "word": "regenerate (v.)",
-          "definition": "To renew or improve a place or system.",
-          "example": "The project aims to regenerate the neighbourhood."
+          "definition": "To improve an area by bringing new activity and investment to it.",
+          "example": "The project aims to regenerate a neglected neighbourhood."
+        },
+        {
+          "word": "cater to (v. phr.)",
+          "definition": "To provide what a particular group needs or wants.",
+          "example": "The sports complex caters to families and professional athletes."
         },
         {
           "word": "blueprint (n.)",
-          "definition": "A detailed plan for achieving something.",
-          "example": "The report offers a blueprint for urban renewal."
-        },
-        {
-          "word": "photovoltaic (adj.)",
-          "definition": "Producing electricity from light.",
-          "example": "The roof is covered with photovoltaic panels."
+          "definition": "A detailed plan or model for future action.",
+          "example": "The successful project provides a blueprint for other cities."
         },
         {
           "word": "fluctuation (n.)",
-          "definition": "An irregular change in level or amount.",
-          "example": "The system compensates for fluctuation in demand."
+          "definition": "An irregular change in level, amount or value.",
+          "example": "The system responds to fluctuations in electricity demand."
+        },
+        {
+          "word": "photovoltaic (adj.)",
+          "definition": "Producing electricity directly from sunlight.",
+          "example": "Photovoltaic panels provide power for the building."
         },
         {
           "word": "resounding (adj.)",
-          "definition": "Very clear, emphatic or complete.",
-          "example": "The campaign was a resounding success."
+          "definition": "Very clear, emphatic or complete, especially of a success or defeat.",
+          "example": "The campaign ended in a resounding success."
+        },
+        {
+          "word": "be executed (v. phr.)",
+          "definition": "To be put to death as a legal or political punishment.",
+          "example": "The ruler was executed after the revolution."
         },
         {
           "word": "comprehensively (adv.)",
-          "definition": "In a complete and thorough manner.",
-          "example": "The policy was comprehensively reviewed."
+          "definition": "Thoroughly and completely.",
+          "example": "The army was comprehensively defeated."
         },
         {
-          "word": "fugitive (n.)",
-          "definition": "A person who is fleeing capture.",
-          "example": "The fugitive sought refuge in a remote village."
+          "word": "subject of a manhunt (n. phr.)",
+          "definition": "A person whom authorities are actively trying to find and capture.",
+          "example": "The escaped prisoner became the subject of a manhunt."
+        },
+        {
+          "word": "evasion (n.)",
+          "definition": "The act of avoiding capture, danger or an obligation.",
+          "example": "The fugitive's evasion of the authorities lasted several weeks."
+        },
+        {
+          "word": "seek refuge (v. phr.)",
+          "definition": "To look for a safe place or protection from danger.",
+          "example": "Families sought refuge in nearby villages."
+        },
+        {
+          "word": "penniless (adj.)",
+          "definition": "Having no money at all.",
+          "example": "He arrived in the city penniless and without a job."
+        },
+        {
+          "word": "restoration (n.)",
+          "definition": "The return of a former ruler, system or condition.",
+          "example": "The restoration of the monarchy changed the political landscape."
+        },
+        {
+          "word": "commit something to paper (v. phr.)",
+          "definition": "To record an idea or account in writing.",
+          "example": "She committed her childhood memories to paper."
         },
         {
           "word": "recollection (n.)",
-          "definition": "A memory of a past event.",
-          "example": "Her recollection of the incident was remarkably detailed."
+          "definition": "A memory of a past experience or event.",
+          "example": "His recollections helped historians understand the period."
+        },
+        {
+          "word": "intrigue (n.)",
+          "definition": "Secret planning or plotting, often involving politics.",
+          "example": "The novel explores political intrigue at the royal court."
+        },
+        {
+          "word": "fugitive (n.)",
+          "definition": "A person who is escaping or hiding from capture.",
+          "example": "The fugitive hid in a remote farmhouse."
+        },
+        {
+          "word": "dye (v.)",
+          "definition": "To change the colour of something using a colouring substance.",
+          "example": "The fabric was dyed a darker shade of blue."
+        },
+        {
+          "word": "scour (v.)",
+          "definition": "To search a place very thoroughly.",
+          "example": "Search teams scoured the countryside for the missing hiker."
         },
         {
           "word": "preposterous (adj.)",
-          "definition": "Completely unreasonable or absurd.",
-          "example": "The witness rejected the preposterous claim."
+          "definition": "Completely unreasonable or ridiculous.",
+          "example": "The historian rejected the preposterous claim."
+        },
+        {
+          "word": "disguise (v.)",
+          "definition": "To change someone's appearance to prevent recognition.",
+          "example": "He disguised himself as a merchant to cross the border."
+        },
+        {
+          "word": "beneath someone's dignity (phr.)",
+          "definition": "Too humiliating or inappropriate for someone's social position.",
+          "example": "The official considered such behaviour beneath his dignity."
+        },
+        {
+          "word": "cautiously (adv.)",
+          "definition": "In a careful way that avoids unnecessary risk.",
+          "example": "The researchers cautiously interpreted the evidence."
+        },
+        {
+          "word": "appalled (adj.)",
+          "definition": "Extremely shocked or upset by something wrong or unpleasant.",
+          "example": "The public was appalled by the destruction of the monument."
+        },
+        {
+          "word": "bolt (v.)",
+          "definition": "To fasten or secure a door using a metal bar or lock.",
+          "example": "The residents bolted their doors before nightfall."
         },
         {
           "word": "memorialise (v.)",
-          "definition": "To preserve the memory of someone or something.",
-          "example": "The museum was built to memorialise the event."
+          "definition": "To preserve the memory of a person or event.",
+          "example": "The exhibition memorialises the lives of local workers."
+        },
+        {
+          "word": "depict (v.)",
+          "definition": "To show or represent someone or something in art or writing.",
+          "example": "The painting depicts a scene from the civil war."
+        },
+        {
+          "word": "commission (v.)",
+          "definition": "To formally request and pay for a piece of work.",
+          "example": "The museum commissioned an artist to create a new portrait."
+        },
+        {
+          "word": "deftly (adv.)",
+          "definition": "In a skilful and effective manner.",
+          "example": "The author deftly combines historical detail with suspense."
+        },
+        {
+          "word": "steer clear of (v. phr.)",
+          "definition": "To deliberately avoid something.",
+          "example": "Academic writers should steer clear of unsupported claims."
+        },
+        {
+          "word": "even-handed (adj.)",
+          "definition": "Treating opposing sides fairly and without bias.",
+          "example": "The book gives an even-handed account of the conflict."
         },
         {
           "word": "subterfuge (n.)",
-          "definition": "A deceptive method used to achieve something.",
-          "example": "The character escapes through clever subterfuge."
+          "definition": "A deceptive method used to achieve a hidden aim.",
+          "example": "The character relied on subterfuge to avoid detection."
         },
         {
           "word": "tantalising (adj.)",
-          "definition": "Arousing interest or desire without offering satisfaction.",
-          "example": "The letter provides a tantalising clue."
+          "definition": "Arousing strong interest without fully satisfying it.",
+          "example": "The discovery provides a tantalising clue to the mystery."
         }
       ]
     },
