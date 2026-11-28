@@ -14698,5 +14698,513 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         }
       ]
     }
+  },
+  "19-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "transformation (n.)",
+          "definition": "A major change in form, character or condition.",
+          "example": "The city underwent a remarkable transformation."
+        },
+        {
+          "word": "subtle (adj.)",
+          "definition": "Not obvious or immediately noticeable.",
+          "example": "The two designs have subtle differences."
+        },
+        {
+          "word": "underestimate (v.)",
+          "definition": "To judge something as less important or difficult than it is.",
+          "example": "Do not underestimate the effect of small changes."
+        },
+        {
+          "word": "maximisation (n.)",
+          "definition": "The process of making something as great as possible.",
+          "example": "The strategy focuses on maximisation of efficiency."
+        },
+        {
+          "word": "customisation (n.)",
+          "definition": "The adaptation of something to individual requirements.",
+          "example": "Product customisation can improve customer satisfaction."
+        },
+        {
+          "word": "synthetic (adj.)",
+          "definition": "Made artificially rather than occurring naturally.",
+          "example": "The equipment contains synthetic fibres."
+        },
+        {
+          "word": "durable (adj.)",
+          "definition": "Able to last a long time without being damaged.",
+          "example": "The manufacturer uses durable materials."
+        },
+        {
+          "word": "attribute (v.)",
+          "definition": "To regard something as being caused by a particular factor.",
+          "example": "Analysts attribute the improvement to better training."
+        },
+        {
+          "word": "piracy (n.)",
+          "definition": "The act of attacking or robbing ships at sea.",
+          "example": "Ancient trading routes were vulnerable to piracy."
+        },
+        {
+          "word": "eradicate (v.)",
+          "definition": "To completely remove or destroy something.",
+          "example": "Authorities are working to eradicate the disease."
+        },
+        {
+          "word": "predominantly (adv.)",
+          "definition": "Mainly or for the most part.",
+          "example": "The region is predominantly rural."
+        },
+        {
+          "word": "rugged (adj.)",
+          "definition": "Having a rough, uneven surface.",
+          "example": "The hikers crossed rugged terrain."
+        },
+        {
+          "word": "retaliation (n.)",
+          "definition": "An action taken in response to harm or an attack.",
+          "example": "The agreement reduced the risk of retaliation."
+        },
+        {
+          "word": "diplomatic (adj.)",
+          "definition": "Relating to official relations between countries.",
+          "example": "The countries established diplomatic relations."
+        },
+        {
+          "word": "hamper (v.)",
+          "definition": "To make progress or action more difficult.",
+          "example": "Poor weather can hamper rescue efforts."
+        },
+        {
+          "word": "concerted (adj.)",
+          "definition": "Planned and carried out jointly by several parties.",
+          "example": "A concerted effort helped restore the ecosystem."
+        },
+        {
+          "word": "misinformation (n.)",
+          "definition": "False or inaccurate information, whether or not intentionally shared.",
+          "example": "Misinformation spreads rapidly online."
+        },
+        {
+          "word": "inadvertently (adv.)",
+          "definition": "Without intending to do so.",
+          "example": "The report inadvertently omitted important details."
+        },
+        {
+          "word": "unduly (adv.)",
+          "definition": "To an excessive or unjustified degree.",
+          "example": "The rule may unduly restrict small businesses."
+        },
+        {
+          "word": "detrimental (adj.)",
+          "definition": "Causing harm or damage.",
+          "example": "Excessive screen time can be detrimental to sleep."
+        },
+        {
+          "word": "pre-emptively (adv.)",
+          "definition": "In advance to prevent an anticipated problem.",
+          "example": "The team acted pre-emptively to reduce risks."
+        },
+        {
+          "word": "empirical (adj.)",
+          "definition": "Based on observation or experimental evidence.",
+          "example": "The claim lacks empirical support."
+        },
+        {
+          "word": "persuasive (adj.)",
+          "definition": "Able to convince someone to accept an idea.",
+          "example": "The author presents a persuasive argument."
+        },
+        {
+          "word": "fallibility (n.)",
+          "definition": "The possibility of making mistakes.",
+          "example": "Human fallibility makes independent verification important."
+        }
+      ]
+    }
+  },
+  "19-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "agrarian (adj.)",
+          "definition": "Relating to farming or agricultural society.",
+          "example": "The country developed from an agrarian economy."
+        },
+        {
+          "word": "rotary (adj.)",
+          "definition": "Involving movement around a central axis.",
+          "example": "The machine uses a rotary mechanism."
+        },
+        {
+          "word": "mechanised (adj.)",
+          "definition": "Operated with machines rather than by hand.",
+          "example": "Mechanised farming increased crop production."
+        },
+        {
+          "word": "smelt (v.)",
+          "definition": "To obtain metal from ore by heating it.",
+          "example": "Factories smelt iron using high-temperature furnaces."
+        },
+        {
+          "word": "patent (v.)",
+          "definition": "To obtain legal protection for an invention.",
+          "example": "The engineer decided to patent the new device."
+        },
+        {
+          "word": "urbanisation (n.)",
+          "definition": "The growth of towns and cities as populations move into them.",
+          "example": "Rapid urbanisation increased demand for housing."
+        },
+        {
+          "word": "sanitation (n.)",
+          "definition": "Systems and practices that maintain hygienic conditions.",
+          "example": "The town invested in improved sanitation."
+        },
+        {
+          "word": "livelihood (n.)",
+          "definition": "A means of earning enough money to live.",
+          "example": "New machinery threatened the workers' livelihood."
+        },
+        {
+          "word": "accumulation (n.)",
+          "definition": "The gradual gathering or increase of something.",
+          "example": "The accumulation of stress affected her performance."
+        },
+        {
+          "word": "physiological (adj.)",
+          "definition": "Relating to the physical functions of a living organism.",
+          "example": "Exercise causes physiological changes in the body."
+        },
+        {
+          "word": "adrenaline (n.)",
+          "definition": "A hormone involved in the body's response to stress or danger.",
+          "example": "Adrenaline increases alertness during competition."
+        },
+        {
+          "word": "cortisol (n.)",
+          "definition": "A hormone involved in stress responses and metabolism.",
+          "example": "Researchers measured cortisol levels before the event."
+        },
+        {
+          "word": "inhibit (v.)",
+          "definition": "To slow down or prevent a process.",
+          "example": "Anxiety can inhibit effective decision-making."
+        },
+        {
+          "word": "perspiration (n.)",
+          "definition": "Sweat produced by the body.",
+          "example": "Physical activity increases perspiration."
+        },
+        {
+          "word": "debilitating (adj.)",
+          "definition": "Making someone very weak or unable to function effectively.",
+          "example": "The athlete recovered from a debilitating injury."
+        },
+        {
+          "word": "manifest (v.)",
+          "definition": "To become apparent through signs or symptoms.",
+          "example": "Stress can manifest in several physical symptoms."
+        },
+        {
+          "word": "resolute (adj.)",
+          "definition": "Firmly determined to achieve something.",
+          "example": "She remained resolute despite repeated setbacks."
+        },
+        {
+          "word": "setback (n.)",
+          "definition": "A difficulty that delays progress.",
+          "example": "The unsuccessful trial was a temporary setback."
+        },
+        {
+          "word": "neural pathway (n.)",
+          "definition": "A route along which signals travel through the nervous system.",
+          "example": "Repeated practice can strengthen a neural pathway."
+        },
+        {
+          "word": "replicable (adj.)",
+          "definition": "Able to be reproduced or repeated.",
+          "example": "Scientific findings should be replicable."
+        },
+        {
+          "word": "persistence (n.)",
+          "definition": "Continued effort despite difficulty.",
+          "example": "Persistence is important when learning a complex skill."
+        },
+        {
+          "word": "expertise (n.)",
+          "definition": "Specialized knowledge or skill.",
+          "example": "The research required mathematical expertise."
+        },
+        {
+          "word": "deliberate (adj.)",
+          "definition": "Intentional and carefully planned.",
+          "example": "Deliberate practice can improve performance."
+        },
+        {
+          "word": "epitome (n.)",
+          "definition": "A perfect or typical example of a quality.",
+          "example": "The design is the epitome of simplicity."
+        }
+      ]
+    }
+  },
+  "19-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "adept (adj.)",
+          "definition": "Very skilled at doing something.",
+          "example": "The researchers were adept at interpreting evidence."
+        },
+        {
+          "word": "forage (v.)",
+          "definition": "To search for food in the natural environment.",
+          "example": "Birds forage along the shoreline."
+        },
+        {
+          "word": "disperse (v.)",
+          "definition": "To spread or move in different directions.",
+          "example": "Early communities began to disperse across the region."
+        },
+        {
+          "word": "archipelago (n.)",
+          "definition": "A group or chain of islands.",
+          "example": "The explorers travelled through the archipelago."
+        },
+        {
+          "word": "corroborate (v.)",
+          "definition": "To support a claim with additional evidence.",
+          "example": "Further discoveries may corroborate the theory."
+        },
+        {
+          "word": "impenetrable (adj.)",
+          "definition": "Impossible or extremely difficult to pass through.",
+          "example": "Dense vegetation formed an impenetrable barrier."
+        },
+        {
+          "word": "obsidian (n.)",
+          "definition": "A naturally occurring volcanic glass.",
+          "example": "Ancient tools were made from obsidian."
+        },
+        {
+          "word": "undergrowth (n.)",
+          "definition": "Bushes and small plants growing beneath trees.",
+          "example": "The animals disappeared into the undergrowth."
+        },
+        {
+          "word": "wetland (n.)",
+          "definition": "Land covered or saturated with water for much of the year.",
+          "example": "The wetland provides habitat for migratory birds."
+        },
+        {
+          "word": "fertile (adj.)",
+          "definition": "Able to produce abundant plant growth.",
+          "example": "Farmers benefit from fertile soil."
+        },
+        {
+          "word": "mitigate (v.)",
+          "definition": "To reduce the severity of a harmful effect.",
+          "example": "Forests help mitigate climate change."
+        },
+        {
+          "word": "buffer (n.)",
+          "definition": "Something that provides protection from harm or impact.",
+          "example": "Coastal vegetation acts as a buffer against storms."
+        },
+        {
+          "word": "peatland (n.)",
+          "definition": "An area of wet ground containing accumulated organic matter called peat.",
+          "example": "Draining peatland releases stored carbon."
+        },
+        {
+          "word": "subsidence (n.)",
+          "definition": "The sinking of the ground surface.",
+          "example": "Excessive groundwater extraction can cause subsidence."
+        },
+        {
+          "word": "sediment (n.)",
+          "definition": "Particles of material deposited by water, wind or ice.",
+          "example": "Sediment accumulated at the bottom of the lake."
+        },
+        {
+          "word": "degradation (n.)",
+          "definition": "The process of becoming damaged or losing quality.",
+          "example": "Wetland degradation threatens wildlife."
+        },
+        {
+          "word": "obstacle (n.)",
+          "definition": "Something that blocks or makes progress difficult.",
+          "example": "Background noise remains an obstacle to translation."
+        },
+        {
+          "word": "domestic (adj.)",
+          "definition": "Relating to the home or household.",
+          "example": "The device was designed for domestic use."
+        },
+        {
+          "word": "prevalent (adj.)",
+          "definition": "Common or widespread in a particular place or time.",
+          "example": "Smartphones are increasingly prevalent."
+        },
+        {
+          "word": "simultaneous (adj.)",
+          "definition": "Happening at the same time.",
+          "example": "The conference offers simultaneous interpretation."
+        },
+        {
+          "word": "etiquette (n.)",
+          "definition": "Accepted rules of polite behaviour in a social setting.",
+          "example": "Business etiquette varies between cultures."
+        },
+        {
+          "word": "ubiquitous (adj.)",
+          "definition": "Present or found almost everywhere.",
+          "example": "Wireless devices have become ubiquitous."
+        },
+        {
+          "word": "outsource (v.)",
+          "definition": "To arrange for work to be performed by an external provider.",
+          "example": "The company decided to outsource technical support."
+        },
+        {
+          "word": "substitute (n.)",
+          "definition": "A person or thing used in place of another.",
+          "example": "Machine translation is not always a substitute for fluency."
+        }
+      ]
+    }
+  },
+  "19-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "conservationist (n.)",
+          "definition": "A person who works to protect nature and wildlife.",
+          "example": "The conservationist monitors local butterfly populations."
+        },
+        {
+          "word": "knock-on effect (n.)",
+          "definition": "An indirect consequence caused by an earlier event.",
+          "example": "Species loss can have a knock-on effect on an ecosystem."
+        },
+        {
+          "word": "phenology (n.)",
+          "definition": "The study of seasonal biological events and their timing.",
+          "example": "Climate researchers study changes in plant phenology."
+        },
+        {
+          "word": "abundance (n.)",
+          "definition": "A large amount or number of something.",
+          "example": "The meadow supports an abundance of insects."
+        },
+        {
+          "word": "emergence (n.)",
+          "definition": "The process of appearing or coming into existence.",
+          "example": "Warmer weather accelerated the emergence of adult butterflies."
+        },
+        {
+          "word": "reproductive (adj.)",
+          "definition": "Relating to the production of offspring.",
+          "example": "Temperature affects the insect's reproductive cycle."
+        },
+        {
+          "word": "specialist (n.)",
+          "definition": "An organism adapted to a narrow range of conditions or resources.",
+          "example": "A dietary specialist may struggle when its food disappears."
+        },
+        {
+          "word": "downfall (n.)",
+          "definition": "A loss of success, power or continued existence.",
+          "example": "Habitat loss contributed to the species' downfall."
+        },
+        {
+          "word": "pathogenic (adj.)",
+          "definition": "Capable of causing disease.",
+          "example": "The researchers isolated pathogenic bacteria."
+        },
+        {
+          "word": "antibiotic-resistant (adj.)",
+          "definition": "Able to survive treatment with antibiotics.",
+          "example": "Antibiotic-resistant infections are difficult to treat."
+        },
+        {
+          "word": "bioactive (adj.)",
+          "definition": "Having an effect on living organisms or tissues.",
+          "example": "The laboratory examined a bioactive compound."
+        },
+        {
+          "word": "diversify (v.)",
+          "definition": "To increase the variety of something.",
+          "example": "The industry aims to diversify its sources of raw materials."
+        },
+        {
+          "word": "slurry (n.)",
+          "definition": "A thick mixture of liquid and solid particles.",
+          "example": "The pump transfers the slurry into a processing tank."
+        },
+        {
+          "word": "ramification (n.)",
+          "definition": "A complex or indirect consequence of an action.",
+          "example": "The proposal has serious environmental ramifications."
+        },
+        {
+          "word": "regulatory (adj.)",
+          "definition": "Relating to rules or official control.",
+          "example": "The industry faces new regulatory requirements."
+        },
+        {
+          "word": "deplete (v.)",
+          "definition": "To greatly reduce the supply of a resource.",
+          "example": "Excessive extraction can deplete mineral reserves."
+        },
+        {
+          "word": "ruthless (adj.)",
+          "definition": "Showing no pity or concern for others.",
+          "example": "The story describes a ruthless pursuit of power."
+        },
+        {
+          "word": "ulterior motive (n.)",
+          "definition": "A hidden reason for doing something.",
+          "example": "The investigator suspected an ulterior motive."
+        },
+        {
+          "word": "transcend (v.)",
+          "definition": "To go beyond a usual limit or boundary.",
+          "example": "Cooperation can transcend cultural differences."
+        },
+        {
+          "word": "egalitarianism (n.)",
+          "definition": "The belief that people should have equal rights and opportunities.",
+          "example": "The community placed great importance on egalitarianism."
+        },
+        {
+          "word": "domineering (adj.)",
+          "definition": "Trying to control other people in an overbearing way.",
+          "example": "His domineering behaviour discouraged discussion."
+        },
+        {
+          "word": "autonomy (n.)",
+          "definition": "The freedom to make independent decisions.",
+          "example": "The policy respects individual autonomy."
+        },
+        {
+          "word": "ostracise (v.)",
+          "definition": "To exclude someone from a group or community.",
+          "example": "Groups may ostracise members who repeatedly break their rules."
+        },
+        {
+          "word": "altruism (n.)",
+          "definition": "Concern for others' welfare without expecting personal benefit.",
+          "example": "Altruism can strengthen social bonds."
+        }
+      ]
+    }
   }
 };
