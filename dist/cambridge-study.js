@@ -33869,7 +33869,251 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "b436bee8587b4f028c7080f17cf20f0269d58fcbaa656c3851ab0f1ca0aba18b",
       "4": "58a6a2d10a77434473fc16c87610793ae2e44396ee64745c35f065a1f97b3f9e"
     },
-    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld."
+    "cueProvenance": "Faster-Whisper word timestamps matched against supplied Cambridge 17 printed scripts and answer keys; reviewed ASR text, not manually listened. Answer-only clips; omitted speech withheld.",
+    "review": {
+      "reading": [
+        [
+          81,
+          "Paragraph 1",
+          "Madagascar's forests are being converted to agricultural land",
+          "Insects damage rice crops, leading farmers to clear forests; the forests themselves are not directly destroyed by insect attacks."
+        ],
+        [
+          81,
+          "Paragraph 1",
+          "some of the island's insectivorous bats are currently thriving",
+          "Some insect-eating bats are doing well despite habitat modification, rather than being badly affected by it."
+        ],
+        [
+          81,
+          "Paragraph 2",
+          "Rocha's new study shows",
+          "The passage describes his Madagascar research but does not establish whether he studied bats in other parts of the world."
+        ],
+        [
+          81,
+          "Paragraph 4",
+          "taking advantage of habitat modification to hunt insects",
+          "Native bats hunt crop pests in modified habitats, benefiting rice farmers."
+        ],
+        [
+          81,
+          "Paragraph 4",
+          "These include the Malagasy mouse-eared bat",
+          "This species is listed alongside others; their relative abundance is not given."
+        ],
+        [
+          81,
+          "Paragraph 5",
+          "including the paddy swarming caterpillar and grass webworm",
+          "Rocha identifies these two insects as rice pests eaten by bats."
+        ],
+        [
+          82,
+          "Paragraph 1",
+          "analyse droppings collected from bats",
+          "The researchers used DNA barcoding to analyse bat droppings."
+        ],
+        [
+          82,
+          "Paragraph 2",
+          "the black twig borer (which infests coffee plants)",
+          "Bats consume pests affecting coffee plants in addition to pests of rice and other crops."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "mosquitoes ... as well as blackflies",
+          "Eating these disease-carrying insects can help reduce disease transmission."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "a crucial source of protein",
+          "Local people hunt bats for food, especially when other food is scarce."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "not welcomed there because they make them unclean",
+          "Bats roosting in buildings can make those buildings dirty or unclean."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "very significant in the culture of the people",
+          "Their association with sacred caves and ancestors gives bats cultural significance."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "installing bat houses",
+          "Providing houses gives bats additional places to roost."
+        ],
+        [
+          86,
+          "Section E",
+          "hold wealth constant",
+          "Following individuals with similar wealth enables researchers to isolate the relationship between education and economic outcomes."
+        ],
+        [
+          85,
+          "Section A",
+          "court records, guild ledgers, parish registers, village censuses, tax lists",
+          "The author lists several archival sources used to compile the database."
+        ],
+        [
+          86,
+          "Section D",
+          "When Juliana continued taking jobs reserved for male guild members",
+          "Juliana defied the guild's rules by continuing to perform prohibited work."
+        ],
+        [
+          86,
+          "Section F",
+          "an excellent laboratory for testing theories of economic growth",
+          "German-speaking Central Europe is described as a particularly suitable setting for the research."
+        ],
+        [
+          85,
+          "Section C",
+          "From badger skins to Bibles, sewing machines to scarlet bodices",
+          "These examples illustrate the range of personal possessions documented in the inventories."
+        ],
+        [
+          86,
+          "Section D",
+          "the same people – and their descendants",
+          "The database follows individuals and their descendants across three centuries."
+        ],
+        [
+          86,
+          "Section D",
+          "reading books in church instead of listening to the sermon",
+          "The women were reprimanded for reading during the sermon."
+        ],
+        [
+          86,
+          "Section D",
+          "told to pay a fine",
+          "Juliana was punished with a monetary fine for breaking guild rules."
+        ],
+        [
+          86,
+          "Section D",
+          "held back even the simplest industrial innovation",
+          "Guild restrictions discouraged innovation and prevented skilled people from using their abilities."
+        ],
+        [
+          85,
+          "Section B",
+          "Germany and Scandinavia had excellent literacy rates",
+          "German literacy rates were high during the specified period, supporting option B."
+        ],
+        [
+          85,
+          "Section B",
+          "plenty of evidence that growth increases education",
+          "Economic growth can improve educational outcomes, supporting E. Answers 23–24 may be reversed."
+        ],
+        [
+          86,
+          "Section F",
+          "guilds blocked labour migration",
+          "Guilds resisted people moving into an area for work, supporting B."
+        ],
+        [
+          86,
+          "Section F",
+          "legislated against anything that undermined their monopolies",
+          "Guilds opposed activities that threatened their exclusive control of trades, supporting D. Answers 25–26 may be reversed."
+        ],
+        [
+          89,
+          "Section D",
+          "The first recorded game in Europe was played in 13th-century Florence",
+          "The paragraph gives historical examples, including Miguel Najdorf's performance in 1947."
+        ],
+        [
+          89,
+          "Section E",
+          "run through possible moves in the mind",
+          "The paragraph explains mentally visualising boards, recalling positions and updating them while playing."
+        ],
+        [
+          90,
+          "Section F",
+          "We didn't find anything other than playing chess that he seems to be supremely gifted at.",
+          "The standard memory tests did not reveal an exceptional general ability beyond chess."
+        ],
+        [
+          89,
+          "Section B",
+          "In the hope of understanding how he and others like him can perform such mental feats",
+          "Scientists study Gareyev to understand how he maintains multiple games in his mind."
+        ],
+        [
+          90,
+          "Section H",
+          "the one thing that I can fully dedicate myself to",
+          "Gareyev prioritises devotion to blindfold chess rather than his winning percentage."
+        ],
+        [
+          90,
+          "Section E",
+          "the ends of games are taxing too, as exhaustion sets in",
+          "Fatigue makes recall less reliable towards the end of a game."
+        ],
+        [
+          89,
+          "Section A",
+          "his challengers will play the games as normal, Gareyev himself will be blindfolded",
+          "Only Gareyev will be blindfolded, not all participants."
+        ],
+        [
+          89,
+          "Section A",
+          "he gets his kicks from the adventure sport of BASE jumping",
+          "He enjoys BASE jumping, but no competition results are mentioned."
+        ],
+        [
+          89,
+          "Section B",
+          "researchers at the University of California in Los Angeles ... called him in for tests",
+          "UCLA conducted tests, but the text does not establish that it was the first university to do so."
+        ],
+        [
+          89,
+          "Section E",
+          "Accomplished players can develop the skill of playing blind",
+          "Good players mentally rehearse moves and can therefore develop blindfold chess skills."
+        ],
+        [
+          90,
+          "Section F",
+          "standard memory tests",
+          "The initial tests assessed his ability to hold information in memory."
+        ],
+        [
+          90,
+          "Section F",
+          "how many numbers a person can repeat, both forwards and backwards",
+          "The test required him to repeat a sequence of numbers in both directions."
+        ],
+        [
+          90,
+          "Section F",
+          "much greater than average communication between parts of Gareyev's brain",
+          "The scans showed unusually strong communication within the network that helps allocate attention."
+        ],
+        [
+          90,
+          "Section G",
+          "the areas of his brain that process visual images",
+          "His visual processing network appeared more strongly connected than usual."
+        ]
+      ]
+    }
   },
   "18-1": {
     "vocabulary": {
