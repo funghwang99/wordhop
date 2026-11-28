@@ -22714,124 +22714,589 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "title": "Test 2 · Reading vocabulary",
       "words": [
         {
-          "word": "antiquities (n.)",
+          "word": "tend (v.)",
+          "definition": "To look after a person, animal or plant.",
+          "example": "She helps tend the sheep on the farm."
+        },
+        {
+          "word": "settlement (n.)",
+          "definition": "A place where people establish a community.",
+          "example": "Archaeologists discovered an ancient settlement."
+        },
+        {
+          "word": "shattering (adj.)",
+          "definition": "Involving the sudden breaking of something into pieces.",
+          "example": "A shattering sound came from the laboratory."
+        },
+        {
+          "word": "stumble across (v. phr.)",
+          "definition": "To discover something unexpectedly.",
+          "example": "Researchers sometimes stumble across important evidence."
+        },
+        {
+          "word": "scroll (n.)",
+          "definition": "A long roll of paper or other writing material.",
+          "example": "The museum displays a handwritten scroll."
+        },
+        {
+          "word": "antiquities (n. pl.)",
           "definition": "Objects surviving from ancient times.",
-          "example": "The gallery exhibits rare antiquities."
+          "example": "The museum specialises in Egyptian antiquities."
+        },
+        {
+          "word": "unearth (v.)",
+          "definition": "To discover something buried or previously unknown.",
+          "example": "Excavations can unearth valuable evidence."
+        },
+        {
+          "word": "fragment (n.)",
+          "definition": "A small piece broken off a larger object.",
+          "example": "The team examined a fragment of pottery."
         },
         {
           "word": "manuscript (n.)",
-          "definition": "A handwritten or original written document.",
-          "example": "The manuscript was preserved in a library."
+          "definition": "A handwritten or unpublished document.",
+          "example": "The library acquired a medieval manuscript."
+        },
+        {
+          "word": "scholarly debate (n.)",
+          "definition": "Discussion among academic experts.",
+          "example": "The findings sparked scholarly debate."
         },
         {
           "word": "prevailing (adj.)",
-          "definition": "Most common or generally accepted at a particular time.",
-          "example": "The prevailing view was challenged by new evidence."
+          "definition": "Most widely accepted or existing at a particular time.",
+          "example": "The prevailing theory has recently been challenged."
+        },
+        {
+          "word": "inhabit (v.)",
+          "definition": "To live in a particular place.",
+          "example": "Several species inhabit this forest."
+        },
+        {
+          "word": "devout (adj.)",
+          "definition": "Deeply committed to a religion.",
+          "example": "He came from a devout religious family."
+        },
+        {
+          "word": "sect (n.)",
+          "definition": "A religious group with distinctive beliefs.",
+          "example": "The text describes the practices of a small sect."
+        },
+        {
+          "word": "fall out of use (v. phr.)",
+          "definition": "To gradually stop being used.",
+          "example": "Traditional expressions can fall out of use."
+        },
+        {
+          "word": "siege (n.)",
+          "definition": "The surrounding of a place to force its surrender.",
+          "example": "The city survived a lengthy siege."
+        },
+        {
+          "word": "biblical (adj.)",
+          "definition": "Relating to the Bible.",
+          "example": "The scholar studies biblical texts."
+        },
+        {
+          "word": "sectarian (adj.)",
+          "definition": "Relating to divisions between religious or ideological groups.",
+          "example": "The report examined sectarian conflict."
         },
         {
           "word": "parchment (n.)",
-          "definition": "Prepared animal skin used as a writing material.",
-          "example": "The document was written on parchment."
+          "definition": "Prepared animal skin used as a writing surface.",
+          "example": "The letters were written on parchment."
         },
         {
-          "word": "inscribe (v.)",
-          "definition": "To write or carve words onto a surface.",
-          "example": "Craftspeople inscribe names on the monument."
+          "word": "papyrus (n.)",
+          "definition": "Ancient writing material made from a plant.",
+          "example": "The document was preserved on papyrus."
+        },
+        {
+          "word": "chisel (v.)",
+          "definition": "To cut or carve a hard material with a sharp tool.",
+          "example": "Workers chisel letters into the stone."
+        },
+        {
+          "word": "theorise (v.)",
+          "definition": "To form an explanation based on ideas or evidence.",
+          "example": "Scientists theorise about the origin of the universe."
+        },
+        {
+          "word": "withstand (v.)",
+          "definition": "To resist damage or pressure successfully.",
+          "example": "The material can withstand extreme temperatures."
+        },
+        {
+          "word": "intriguing (adj.)",
+          "definition": "Arousing strong curiosity or interest.",
+          "example": "The discovery raises an intriguing question."
+        },
+        {
+          "word": "cache (n.)",
+          "definition": "A hidden store of valuable items.",
+          "example": "They uncovered a cache of ancient coins."
+        },
+        {
+          "word": "unconventional (adj.)",
+          "definition": "Different from what is normally accepted or done.",
+          "example": "The scientist adopted an unconventional method."
+        },
+        {
+          "word": "safekeeping (n.)",
+          "definition": "Protection against loss or damage.",
+          "example": "The documents were moved elsewhere for safekeeping."
         },
         {
           "word": "hoard (n.)",
-          "definition": "A hidden or carefully stored collection of valuable things.",
-          "example": "Archaeologists discovered a hoard of coins."
+          "definition": "A stored collection of valuable things.",
+          "example": "A hoard of coins was found underground."
         },
         {
-          "word": "decipher (v.)",
-          "definition": "To work out the meaning of difficult or coded writing.",
-          "example": "Experts tried to decipher the ancient script."
+          "word": "pillage (v.)",
+          "definition": "To steal goods from a place using force.",
+          "example": "Invading armies sometimes pillage captured towns."
         },
         {
           "word": "hypothesis (n.)",
           "definition": "A proposed explanation that can be tested.",
-          "example": "The team developed a hypothesis about the site's purpose."
+          "example": "The experiment was designed to test a hypothesis."
+        },
+        {
+          "word": "miscellaneous (adj.)",
+          "definition": "Consisting of various different types of things.",
+          "example": "The box contained miscellaneous items."
+        },
+        {
+          "word": "negotiate (v.)",
+          "definition": "To discuss something in order to reach an agreement.",
+          "example": "The museum plans to negotiate a purchase."
+        },
+        {
+          "word": "decipher (v.)",
+          "definition": "To work out the meaning of something difficult to read or understand.",
+          "example": "Experts are trying to decipher the inscription."
+        },
+        {
+          "word": "reassemble (v.)",
+          "definition": "To put separate pieces back together.",
+          "example": "The conservators aim to reassemble the damaged object."
+        },
+        {
+          "word": "provide insight into (v. phr.)",
+          "definition": "To help someone understand something more clearly.",
+          "example": "The letters provide insight into daily life."
         },
         {
           "word": "domesticate (v.)",
           "definition": "To adapt a wild plant or animal for human use.",
-          "example": "Early farmers began to domesticate wild plants."
+          "example": "Early farmers learned to domesticate wild plants."
+        },
+        {
+          "word": "cultivate (v.)",
+          "definition": "To grow and care for crops.",
+          "example": "Farmers cultivate rice in the valley."
         },
         {
           "word": "nutritious (adj.)",
-          "definition": "Containing substances that support good health.",
-          "example": "Beans provide a nutritious source of protein."
+          "definition": "Containing substances needed for good health.",
+          "example": "Beans are a nutritious source of protein."
+        },
+        {
+          "word": "revolutionary (adj.)",
+          "definition": "Involving a major and fundamental change.",
+          "example": "The team developed a revolutionary technique."
+        },
+        {
+          "word": "genome editing (n.)",
+          "definition": "The deliberate modification of an organism's genetic information.",
+          "example": "Genome editing may improve crop resistance."
+        },
+        {
+          "word": "deliberately (adv.)",
+          "definition": "Intentionally and consciously.",
+          "example": "Researchers deliberately altered one variable."
+        },
+        {
+          "word": "alter (v.)",
+          "definition": "To change something.",
+          "example": "Small genetic differences can alter plant growth."
+        },
+        {
+          "word": "fast-track (adj.)",
+          "definition": "Designed to achieve a result more quickly than usual.",
+          "example": "A fast-track programme accelerated the research."
+        },
+        {
+          "word": "resistant to (adj. phr.)",
+          "definition": "Able to withstand the harmful effects of something.",
+          "example": "The crop is resistant to infection."
         },
         {
           "word": "devastate (v.)",
-          "definition": "To cause severe damage to something.",
-          "example": "A prolonged drought can devastate crops."
+          "definition": "To cause severe destruction or damage.",
+          "example": "Plant diseases can devastate harvests."
+        },
+        {
+          "word": "edible (adj.)",
+          "definition": "Safe or suitable to eat.",
+          "example": "Not all wild plants are edible."
+        },
+        {
+          "word": "mimic (v.)",
+          "definition": "To imitate a process or feature.",
+          "example": "The model can mimic natural conditions."
+        },
+        {
+          "word": "native to (adj. phr.)",
+          "definition": "Originally growing or living in a particular place.",
+          "example": "The tree is native to South America."
+        },
+        {
+          "word": "breed (v.)",
+          "definition": "To produce plants or animals with selected characteristics.",
+          "example": "Farmers breed cattle for desirable traits."
         },
         {
           "word": "mutation (n.)",
           "definition": "A change in an organism's genetic material.",
-          "example": "A mutation may affect resistance to disease."
+          "example": "A mutation may affect the colour of a plant."
+        },
+        {
+          "word": "desirable trait (n.)",
+          "definition": "A characteristic considered useful or attractive.",
+          "example": "Disease resistance is a desirable trait."
         },
         {
           "word": "genetic diversity (n.)",
-          "definition": "Variation in genetic characteristics within a population.",
-          "example": "Genetic diversity helps crops adapt to changing conditions."
+          "definition": "The variety of genetic characteristics within a population.",
+          "example": "Conservation helps protect genetic diversity."
         },
         {
           "word": "strain (n.)",
           "definition": "A particular variety of an organism.",
-          "example": "Scientists developed a disease-resistant strain."
+          "example": "Scientists identified a new strain of wheat."
+        },
+        {
+          "word": "from scratch (phr.)",
+          "definition": "From the very beginning, without using an existing version.",
+          "example": "The team built the system from scratch."
+        },
+        {
+          "word": "enhance (v.)",
+          "definition": "To improve the quality or value of something.",
+          "example": "The treatment may enhance crop productivity."
+        },
+        {
+          "word": "truss (n.)",
+          "definition": "A cluster of flowers or fruit growing on one stem.",
+          "example": "Each truss carries several tomatoes."
+        },
+        {
+          "word": "pigment (n.)",
+          "definition": "A substance that gives colour to something.",
+          "example": "A natural pigment gives the fruit its red colour."
+        },
+        {
+          "word": "boost (v.)",
+          "definition": "To increase or improve something.",
+          "example": "Better irrigation can boost crop production."
+        },
+        {
+          "word": "aromatic (adj.)",
+          "definition": "Having a noticeable and usually pleasant smell.",
+          "example": "The kitchen was filled with aromatic herbs."
+        },
+        {
+          "word": "yield (n.)",
+          "definition": "The amount produced by a crop or process.",
+          "example": "The new variety produces a higher yield."
+        },
+        {
+          "word": "salt tolerant (adj.)",
+          "definition": "Able to survive in conditions containing high levels of salt.",
+          "example": "A salt tolerant crop can grow in coastal soils."
+        },
+        {
+          "word": "to a limited extent (phr.)",
+          "definition": "Only partially or to a small degree.",
+          "example": "The treatment was effective to a limited extent."
+        },
+        {
+          "word": "sprawling (adj.)",
+          "definition": "Spreading out over a large or irregular area.",
+          "example": "The plant has a sprawling growth pattern."
+        },
+        {
+          "word": "compact (adj.)",
+          "definition": "Closely arranged and taking up little space.",
+          "example": "A compact plant is easier to grow indoors."
+        },
+        {
+          "word": "commercial crop (n.)",
+          "definition": "A plant grown mainly for sale and profit.",
+          "example": "Coffee is an important commercial crop."
         },
         {
           "word": "regulatory approval (n.)",
-          "definition": "Official permission from an authority to use or sell something.",
-          "example": "The product needs regulatory approval before launch."
+          "definition": "Official permission from a body that enforces rules.",
+          "example": "The new product requires regulatory approval."
         },
         {
-          "word": "mainstream (n.)",
-          "definition": "Ideas or practices accepted by most people.",
-          "example": "The technology has entered the mainstream."
+          "word": "obscure (adj.)",
+          "definition": "Not well known or widely understood.",
+          "example": "The researcher studied an obscure plant species."
+        },
+        {
+          "word": "staple crop (n.)",
+          "definition": "A crop that forms an important part of people's regular diet.",
+          "example": "Rice is a staple crop in many countries."
+        },
+        {
+          "word": "catapult into the mainstream (v. phr.)",
+          "definition": "To bring something rapidly into widespread popularity or use.",
+          "example": "A major discovery could catapult the technology into the mainstream."
+        },
+        {
+          "word": "thrive (v.)",
+          "definition": "To grow or develop successfully.",
+          "example": "These plants thrive in warm conditions."
+        },
+        {
+          "word": "sheer (adj.)",
+          "definition": "Complete or absolute, used to emphasise a quality.",
+          "example": "The task required sheer determination."
+        },
+        {
+          "word": "disregard (v.)",
+          "definition": "To ignore or pay insufficient attention to something.",
+          "example": "Researchers should not disregard earlier findings."
         },
         {
           "word": "predecessor (n.)",
           "definition": "A person or thing that came before another.",
-          "example": "The invention improved on its predecessor."
+          "example": "The inventor built on the work of a predecessor."
         },
         {
           "word": "conventional wisdom (n.)",
-          "definition": "A belief generally accepted by society.",
-          "example": "The discovery challenged conventional wisdom."
+          "definition": "A belief widely accepted by society.",
+          "example": "The research challenges conventional wisdom."
+        },
+        {
+          "word": "place great weight on (v. phr.)",
+          "definition": "To consider something particularly important.",
+          "example": "The committee may place great weight on practical evidence."
+        },
+        {
+          "word": "breakthrough (n.)",
+          "definition": "An important discovery or advance.",
+          "example": "The treatment represents a scientific breakthrough."
         },
         {
           "word": "spontaneously (adv.)",
-          "definition": "Without prior planning or external direction.",
-          "example": "The idea arose spontaneously during a discussion."
+          "definition": "Without external planning or prompting.",
+          "example": "The idea arose spontaneously during the discussion."
+        },
+        {
+          "word": "misrepresent (v.)",
+          "definition": "To describe something in a false or misleading way.",
+          "example": "Selective reporting can misrepresent the findings."
+        },
+        {
+          "word": "realm (n.)",
+          "definition": "A particular field or area of activity.",
+          "example": "The discovery belongs to the realm of physics."
+        },
+        {
+          "word": "endeavor (n.)",
+          "definition": "A serious effort or activity aimed at a goal.",
+          "example": "Scientific research is a collective endeavor."
+        },
+        {
+          "word": "monumental (adj.)",
+          "definition": "Extremely great or important.",
+          "example": "The expedition was a monumental achievement."
+        },
+        {
+          "word": "duly (adv.)",
+          "definition": "In the proper or expected manner.",
+          "example": "The researchers were duly recognised for their work."
+        },
+        {
+          "word": "trial and error (n.)",
+          "definition": "A process of learning by trying different methods and correcting failures.",
+          "example": "The design was refined through trial and error."
+        },
+        {
+          "word": "undermine (v.)",
+          "definition": "To gradually weaken the strength or validity of something.",
+          "example": "The new evidence may undermine the original theory."
         },
         {
           "word": "cumulative (adj.)",
-          "definition": "Increasing through successive additions.",
-          "example": "Small improvements have a cumulative effect."
+          "definition": "Increasing through successive additions or contributions.",
+          "example": "The cumulative effect of small discoveries can be substantial."
+        },
+        {
+          "word": "unheralded (adj.)",
+          "definition": "Not publicly recognised despite being worthy of attention.",
+          "example": "An unheralded researcher made the initial discovery."
         },
         {
           "word": "postulate (v.)",
-          "definition": "To suggest something as a basis for reasoning or research.",
-          "example": "Scientists postulate a new explanation for the results."
+          "definition": "To propose an idea as a basis for reasoning or research.",
+          "example": "Scientists may postulate the existence of unseen particles."
+        },
+        {
+          "word": "noteworthy (adj.)",
+          "definition": "Deserving attention because of importance or interest.",
+          "example": "The study produced a noteworthy result."
+        },
+        {
+          "word": "fanciful (adj.)",
+          "definition": "Based on imagination rather than reliable evidence.",
+          "example": "The claim was dismissed as fanciful."
+        },
+        {
+          "word": "speculation (n.)",
+          "definition": "Guessing or forming theories without sufficient evidence.",
+          "example": "The report clearly separates fact from speculation."
+        },
+        {
+          "word": "novel (adj.)",
+          "definition": "New and different from existing approaches.",
+          "example": "The team proposed a novel explanation."
+        },
+        {
+          "word": "conceive (v.)",
+          "definition": "To form an idea or plan in the mind.",
+          "example": "It took years to conceive a practical solution."
+        },
+        {
+          "word": "glean (v.)",
+          "definition": "To collect information gradually from different sources.",
+          "example": "Researchers can glean insights from historical records."
+        },
+        {
+          "word": "arbitrary (adj.)",
+          "definition": "Based on chance or personal choice rather than a clear reason.",
+          "example": "The decision appeared arbitrary."
+        },
+        {
+          "word": "pave the way for (v. phr.)",
+          "definition": "To make a later development possible.",
+          "example": "Early experiments pave the way for future advances."
+        },
+        {
+          "word": "confer (v.)",
+          "definition": "To give someone or something a benefit or advantage.",
+          "example": "This qualification may confer several advantages."
+        },
+        {
+          "word": "methodical (adj.)",
+          "definition": "Done in an orderly and systematic way.",
+          "example": "A methodical approach reduced errors."
+        },
+        {
+          "word": "shrewd (adj.)",
+          "definition": "Showing good judgement and practical intelligence.",
+          "example": "It was a shrewd decision."
+        },
+        {
+          "word": "foresee (v.)",
+          "definition": "To predict or anticipate something before it happens.",
+          "example": "Few people could foresee the consequences."
+        },
+        {
+          "word": "widespread adoption (n.)",
+          "definition": "The acceptance and use of something by many people.",
+          "example": "The invention led to widespread adoption of the new method."
+        },
+        {
+          "word": "misadventure (n.)",
+          "definition": "An unfortunate accident or unsuccessful experience.",
+          "example": "The discovery resulted from an unexpected misadventure."
         },
         {
           "word": "serendipity (n.)",
-          "definition": "The occurrence of a useful discovery by chance.",
-          "example": "The invention owed much to serendipity."
+          "definition": "The occurrence of a fortunate discovery by chance.",
+          "example": "Serendipity can play a role in scientific research."
+        },
+        {
+          "word": "affix (v.)",
+          "definition": "To attach something firmly to another thing.",
+          "example": "Please affix the label to the container."
+        },
+        {
+          "word": "phenomenally (adv.)",
+          "definition": "To an extraordinarily high degree.",
+          "example": "The experiment was phenomenally successful."
+        },
+        {
+          "word": "give lie to (v. phr.)",
+          "definition": "To show that a claim or belief is false.",
+          "example": "The findings give lie to the widely accepted claim."
+        },
+        {
+          "word": "ingenious (adj.)",
+          "definition": "Clever, original and inventive.",
+          "example": "The engineer devised an ingenious solution."
+        },
+        {
+          "word": "banal (adj.)",
+          "definition": "Ordinary and unoriginal.",
+          "example": "The explanation seemed rather banal."
+        },
+        {
+          "word": "invoke (v.)",
+          "definition": "To refer to an idea or principle as support for an argument.",
+          "example": "Writers sometimes invoke scientific authority."
+        },
+        {
+          "word": "vague (adj.)",
+          "definition": "Not clearly expressed or defined.",
+          "example": "The proposal remains vague about its objectives."
+        },
+        {
+          "word": "utility (n.)",
+          "definition": "The usefulness or practical value of something.",
+          "example": "The study questions the utility of the model."
+        },
+        {
+          "word": "enduring (adj.)",
+          "definition": "Continuing to exist or remain influential over time.",
+          "example": "The theory has enduring significance."
+        },
+        {
+          "word": "groundbreaking (adj.)",
+          "definition": "Introducing highly important new ideas or methods.",
+          "example": "The scientist published groundbreaking research."
+        },
+        {
+          "word": "refrain from (v. phr.)",
+          "definition": "To deliberately avoid doing something.",
+          "example": "Researchers should refrain from making unsupported claims."
         },
         {
           "word": "mechanical (adj.)",
-          "definition": "Operating according to physical or automatic processes.",
-          "example": "The device relies on a mechanical system."
+          "definition": "Operating through automatic or rule-governed processes.",
+          "example": "The theory describes a mechanical process of selection."
         },
         {
           "word": "provenance (n.)",
           "definition": "The origin or history of something.",
-          "example": "The museum investigated the painting's provenance."
+          "example": "Experts investigated the provenance of the manuscript."
+        },
+        {
+          "word": "constrained (adj.)",
+          "definition": "Limited or restricted by particular conditions.",
+          "example": "The experiment was constrained by limited funding."
+        },
+        {
+          "word": "naive (adj.)",
+          "definition": "Showing insufficient experience or understanding.",
+          "example": "The proposal was based on a naive assumption."
         }
       ]
     },
