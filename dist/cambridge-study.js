@@ -6610,8 +6610,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           97,
-          "I must have already spent about £50 of that",
-          "She withdrew £300 and spent about £50, leaving approximately £250."
+          "about £250 sterling, I should think",
+          "Louise estimates that about £250 remained after spending about £50 of the £300 she withdrew."
         ],
         [
           97,
@@ -6794,7 +6794,258 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "A lagoon could harm wildlife by disrupting migration and increasing silt accumulation."
         ]
       ]
-    }
+    },
+    "cues": {
+      "1": [
+        170,
+        181,
+        523.217
+      ],
+      "2": [
+        188,
+        199,
+        523.217
+      ],
+      "3": [
+        212,
+        225,
+        523.217
+      ],
+      "4": [
+        324,
+        344,
+        523.217
+      ],
+      "5": [
+        345,
+        356,
+        523.217
+      ],
+      "6": [
+        362,
+        374,
+        523.217
+      ],
+      "7": [
+        390,
+        403,
+        523.217
+      ],
+      "8": [
+        405,
+        417,
+        523.217
+      ],
+      "9": [
+        440,
+        453,
+        523.217
+      ],
+      "10": [
+        465,
+        478,
+        523.217
+      ],
+      "11": [
+        110,
+        122,
+        404.656
+      ],
+      "12": [
+        88,
+        101,
+        404.656
+      ],
+      "13": [
+        155,
+        167,
+        404.656
+      ],
+      "14": [
+        147,
+        157,
+        404.656
+      ],
+      "15": [
+        220,
+        237,
+        404.656
+      ],
+      "16": [
+        242,
+        255,
+        404.656
+      ],
+      "17": [
+        263,
+        278,
+        404.656
+      ],
+      "18": [
+        290,
+        302,
+        404.656
+      ],
+      "19": [
+        318,
+        329,
+        404.656
+      ],
+      "20": [
+        338,
+        350,
+        404.656
+      ],
+      "21": [
+        108,
+        122,
+        431.219
+      ],
+      "22": [
+        132,
+        145,
+        431.219
+      ],
+      "23": [
+        157,
+        170,
+        431.219
+      ],
+      "24": [
+        189,
+        202,
+        431.219
+      ],
+      "25": [
+        220,
+        232,
+        431.219
+      ],
+      "26": [
+        287,
+        298,
+        431.219
+      ],
+      "27": [
+        310,
+        322,
+        431.219
+      ],
+      "28": [
+        324,
+        338,
+        431.219
+      ],
+      "29": [
+        362,
+        372,
+        431.219
+      ],
+      "30": [
+        370,
+        383,
+        431.219
+      ],
+      "31": [
+        81,
+        94,
+        487.876
+      ],
+      "32": [
+        157,
+        169,
+        487.876
+      ],
+      "33": [
+        179,
+        191,
+        487.876
+      ],
+      "34": [
+        198,
+        211,
+        487.876
+      ],
+      "35": [
+        223,
+        235,
+        487.876
+      ],
+      "36": [
+        266,
+        280,
+        487.876
+      ],
+      "37": [
+        309,
+        322,
+        487.876
+      ],
+      "38": [
+        355,
+        367,
+        487.876
+      ],
+      "39": [
+        373,
+        384,
+        487.876
+      ],
+      "40": [
+        386,
+        397,
+        487.876
+      ]
+    },
+    "audioSha256": {
+      "1": "f8bbb6b49d7cf60554bbd81bfa2c97ec071998431eafc20f9f0e771b6dab3b06",
+      "2": "25b2436cd4b0ee0a0a412bd3efd798975e44abd4423949c9885624992a0e02d9",
+      "3": "24d4f7fc940869f313052264349984e6a6aef71cf1a38bf2e69e475bc56acee9",
+      "4": "436c4ea5431405b0995df4550f6ca7105d6073d00554a964b63b3183576316ca"
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "context",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "context",
+      "9": "keyword",
+      "10": "context",
+      "11": "keyword",
+      "12": "keyword",
+      "13": "keyword",
+      "14": "context",
+      "15": "context",
+      "16": "context",
+      "17": "keyword",
+      "18": "keyword",
+      "19": "context",
+      "20": "keyword",
+      "21": "context",
+      "22": "keyword",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "keyword",
+      "28": "keyword",
+      "29": "keyword",
+      "30": "context",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "context",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "cueProvenance": "PocketSphinx phrase spotting on all 16 source files with silence preserved and targeted language-model decoding. Approximate audio intervals; context labels indicate less certain word recognition. Not human listening audited."
   },
   "14-2": {
     "vocabulary": {
@@ -7422,7 +7673,258 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "The telegraph allowed observations from different locations to be brought together."
         ]
       ]
-    }
+    },
+    "cues": {
+      "1": [
+        187,
+        195,
+        462.055
+      ],
+      "2": [
+        195,
+        204,
+        462.055
+      ],
+      "3": [
+        217,
+        229,
+        462.055
+      ],
+      "4": [
+        235,
+        246,
+        462.055
+      ],
+      "5": [
+        297,
+        310,
+        462.055
+      ],
+      "6": [
+        317,
+        330,
+        462.055
+      ],
+      "7": [
+        356,
+        369,
+        462.055
+      ],
+      "8": [
+        377,
+        389,
+        462.055
+      ],
+      "9": [
+        390,
+        402,
+        462.055
+      ],
+      "10": [
+        400,
+        412,
+        462.055
+      ],
+      "11": [
+        113,
+        126,
+        443.154
+      ],
+      "12": [
+        149,
+        161,
+        443.154
+      ],
+      "13": [
+        162,
+        175,
+        443.154
+      ],
+      "14": [
+        196,
+        209,
+        443.154
+      ],
+      "15": [
+        235,
+        248,
+        443.154
+      ],
+      "16": [
+        310,
+        325,
+        443.154
+      ],
+      "17": [
+        330,
+        344,
+        443.154
+      ],
+      "18": [
+        350,
+        367,
+        443.154
+      ],
+      "19": [
+        365,
+        379,
+        443.154
+      ],
+      "20": [
+        382,
+        397,
+        443.154
+      ],
+      "21": [
+        100,
+        116,
+        461.962
+      ],
+      "22": [
+        151,
+        163,
+        461.962
+      ],
+      "23": [
+        185,
+        199,
+        461.962
+      ],
+      "24": [
+        219,
+        234,
+        461.962
+      ],
+      "25": [
+        310,
+        324,
+        461.962
+      ],
+      "26": [
+        340,
+        353,
+        461.962
+      ],
+      "27": [
+        350,
+        367,
+        461.962
+      ],
+      "28": [
+        380,
+        391,
+        461.962
+      ],
+      "29": [
+        387,
+        401,
+        461.962
+      ],
+      "30": [
+        402,
+        417,
+        461.962
+      ],
+      "31": [
+        125,
+        138,
+        1040.836
+      ],
+      "32": [
+        144,
+        155,
+        1040.836
+      ],
+      "33": [
+        159,
+        174,
+        1040.836
+      ],
+      "34": [
+        178,
+        191,
+        1040.836
+      ],
+      "35": [
+        226,
+        240,
+        1040.836
+      ],
+      "36": [
+        287,
+        305,
+        1040.836
+      ],
+      "37": [
+        309,
+        322,
+        1040.836
+      ],
+      "38": [
+        337,
+        355,
+        1040.836
+      ],
+      "39": [
+        412,
+        425,
+        1040.836
+      ],
+      "40": [
+        423,
+        441,
+        1040.836
+      ]
+    },
+    "audioSha256": {
+      "1": "39f8e825e45596fbac72e053e47d845dbc98b2ae990b32d7d4454478459e5bb2",
+      "2": "540e4275e303ca5f4cb2bb2b3cb30209e6219b02e39bcc318a40e0751ce23c05",
+      "3": "c21a6775fd56b4b4c28229f1f37404fe7b2fa54fd10abd7c85a37c8127ea1648",
+      "4": "08af39e570358cddf325d88dbe3438129dd880d1f788f306024f610e4573ae90"
+    },
+    "cueMethod": {
+      "1": "context",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "context",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "keyword",
+      "12": "keyword",
+      "13": "keyword",
+      "14": "context",
+      "15": "keyword",
+      "16": "context",
+      "17": "context",
+      "18": "keyword",
+      "19": "context",
+      "20": "keyword",
+      "21": "context",
+      "22": "context",
+      "23": "context",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "context",
+      "28": "keyword",
+      "29": "context",
+      "30": "context",
+      "31": "context",
+      "32": "keyword",
+      "33": "context",
+      "34": "keyword",
+      "35": "context",
+      "36": "context",
+      "37": "context",
+      "38": "context",
+      "39": "keyword",
+      "40": "context"
+    },
+    "cueProvenance": "PocketSphinx phrase spotting on all 16 source files with silence preserved and targeted language-model decoding. Approximate audio intervals; context labels indicate less certain word recognition. Not human listening audited."
   },
   "14-3": {
     "vocabulary": {
@@ -7891,8 +8393,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           109,
-          "a great many to choose from",
-          "There are numerous clubs near the hotel for evening entertainment."
+          "one of the clubs in the area",
+          "The speaker recommends the clubs near Wilby Street for evening entertainment."
         ],
         [
           109,
@@ -8045,7 +8547,258 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "The concert includes his music written for the Olympic flag hand-over ceremony."
         ]
       ]
-    }
+    },
+    "cues": {
+      "1": [
+        239,
+        254,
+        525.448
+      ],
+      "2": [
+        253,
+        266,
+        525.448
+      ],
+      "3": [
+        271,
+        284,
+        525.448
+      ],
+      "4": [
+        292,
+        308,
+        525.448
+      ],
+      "5": [
+        310,
+        326,
+        525.448
+      ],
+      "6": [
+        387,
+        401,
+        525.448
+      ],
+      "7": [
+        410,
+        422,
+        525.448
+      ],
+      "8": [
+        422,
+        434,
+        525.448
+      ],
+      "9": [
+        446,
+        459,
+        525.448
+      ],
+      "10": [
+        459,
+        476,
+        525.448
+      ],
+      "11": [
+        102,
+        114,
+        397.643
+      ],
+      "12": [
+        111,
+        126,
+        397.643
+      ],
+      "13": [
+        144,
+        155,
+        397.643
+      ],
+      "14": [
+        131,
+        145,
+        397.643
+      ],
+      "15": [
+        223,
+        235,
+        397.643
+      ],
+      "16": [
+        244,
+        263,
+        397.643
+      ],
+      "17": [
+        261,
+        276,
+        397.643
+      ],
+      "18": [
+        282,
+        295,
+        397.643
+      ],
+      "19": [
+        309,
+        323,
+        397.643
+      ],
+      "20": [
+        334,
+        347,
+        397.643
+      ],
+      "21": [
+        82,
+        95,
+        381.482
+      ],
+      "22": [
+        98,
+        110,
+        381.482
+      ],
+      "23": [
+        113,
+        125,
+        381.482
+      ],
+      "24": [
+        132,
+        146,
+        381.482
+      ],
+      "25": [
+        151,
+        164,
+        381.482
+      ],
+      "26": [
+        171,
+        184,
+        381.482
+      ],
+      "27": [
+        244,
+        256,
+        381.482
+      ],
+      "28": [
+        270,
+        283,
+        381.482
+      ],
+      "29": [
+        285,
+        298,
+        381.482
+      ],
+      "30": [
+        306,
+        320,
+        381.482
+      ],
+      "31": [
+        119,
+        136,
+        488.34
+      ],
+      "32": [
+        157,
+        170,
+        488.34
+      ],
+      "33": [
+        176,
+        187,
+        488.34
+      ],
+      "34": [
+        191,
+        204,
+        488.34
+      ],
+      "35": [
+        230,
+        243,
+        488.34
+      ],
+      "36": [
+        295,
+        307,
+        488.34
+      ],
+      "37": [
+        318,
+        331,
+        488.34
+      ],
+      "38": [
+        377,
+        390,
+        488.34
+      ],
+      "39": [
+        387,
+        404,
+        488.34
+      ],
+      "40": [
+        409,
+        422,
+        488.34
+      ]
+    },
+    "audioSha256": {
+      "1": "0c3a789d973e910d192b00ec771727d9e74cd45475f3f8e51e094130ffa7c59a",
+      "2": "f2022e64d4fd7015a9b6616245bfa95fab2a4e021e23449c5652aa80f57eb1ac",
+      "3": "e80037d9a5ea7daadf2765aaafd5b23d7c33bfe16df595b809cca358882b4555",
+      "4": "892ac0d394743b5fc558e6506de5f7c6bdf253c54dcab46b711adb9c656474f2"
+    },
+    "cueMethod": {
+      "1": "context",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "context",
+      "6": "context",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "context",
+      "11": "context",
+      "12": "context",
+      "13": "context",
+      "14": "context",
+      "15": "context",
+      "16": "context",
+      "17": "context",
+      "18": "keyword",
+      "19": "context",
+      "20": "keyword",
+      "21": "keyword",
+      "22": "keyword",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "keyword",
+      "28": "keyword",
+      "29": "keyword",
+      "30": "keyword",
+      "31": "context",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "context",
+      "40": "keyword"
+    },
+    "cueProvenance": "PocketSphinx phrase spotting on all 16 source files with silence preserved and targeted language-model decoding. Approximate audio intervals; context labels indicate less certain word recognition. Not human listening audited."
   },
   "14-4": {
     "vocabulary": {
@@ -8653,6 +9406,257 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "Other wrecks carried containers of olive oil and wine."
         ]
       ]
-    }
+    },
+    "cues": {
+      "1": [
+        187,
+        203,
+        491.73
+      ],
+      "2": [
+        226,
+        240,
+        491.73
+      ],
+      "3": [
+        244,
+        257,
+        491.73
+      ],
+      "4": [
+        266,
+        278,
+        491.73
+      ],
+      "5": [
+        307,
+        322,
+        491.73
+      ],
+      "6": [
+        325,
+        340,
+        491.73
+      ],
+      "7": [
+        345,
+        365,
+        491.73
+      ],
+      "8": [
+        407,
+        417,
+        491.73
+      ],
+      "9": [
+        413,
+        424,
+        491.73
+      ],
+      "10": [
+        423,
+        436,
+        491.73
+      ],
+      "11": [
+        91,
+        103,
+        432.566
+      ],
+      "12": [
+        110,
+        123,
+        432.566
+      ],
+      "13": [
+        146,
+        159,
+        432.566
+      ],
+      "14": [
+        169,
+        182,
+        432.566
+      ],
+      "15": [
+        220,
+        234,
+        432.566
+      ],
+      "16": [
+        237,
+        249,
+        432.566
+      ],
+      "17": [
+        294,
+        307,
+        432.566
+      ],
+      "18": [
+        320,
+        334,
+        432.566
+      ],
+      "19": [
+        376,
+        389,
+        432.566
+      ],
+      "20": [
+        362,
+        374,
+        432.566
+      ],
+      "21": [
+        104,
+        117,
+        463.216
+      ],
+      "22": [
+        128,
+        142,
+        463.216
+      ],
+      "23": [
+        175,
+        187,
+        463.216
+      ],
+      "24": [
+        207,
+        220,
+        463.216
+      ],
+      "25": [
+        241,
+        253,
+        463.216
+      ],
+      "26": [
+        319,
+        331,
+        463.216
+      ],
+      "27": [
+        339,
+        352,
+        463.216
+      ],
+      "28": [
+        350,
+        363,
+        463.216
+      ],
+      "29": [
+        390,
+        403,
+        463.216
+      ],
+      "30": [
+        405,
+        418,
+        463.216
+      ],
+      "31": [
+        133,
+        151,
+        558.418
+      ],
+      "32": [
+        182,
+        194,
+        558.418
+      ],
+      "33": [
+        244,
+        256,
+        558.418
+      ],
+      "34": [
+        262,
+        275,
+        558.418
+      ],
+      "35": [
+        323,
+        336,
+        558.418
+      ],
+      "36": [
+        361,
+        376,
+        558.418
+      ],
+      "37": [
+        414,
+        426,
+        558.418
+      ],
+      "38": [
+        449,
+        462,
+        558.418
+      ],
+      "39": [
+        462,
+        478,
+        558.418
+      ],
+      "40": [
+        480,
+        499,
+        558.418
+      ]
+    },
+    "audioSha256": {
+      "1": "b1f255690b01dd26ffa0326dd0e1fa6acfcde415dac60e20ba3477b7d01d50b6",
+      "2": "749becc46eb098dfd0c8087542cec26017694fcd19a0ffd6e1624a8bce608edd",
+      "3": "f1c07be34b090154afde2aa87d2ffc35c537de367a264c45dfb20dfcee17deab",
+      "4": "42dd2bd3d5a3120246a4898428d31958fc09b2c9f7391603f9ea333196071005"
+    },
+    "cueMethod": {
+      "1": "context",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "context",
+      "6": "keyword",
+      "7": "context",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "keyword",
+      "12": "context",
+      "13": "context",
+      "14": "keyword",
+      "15": "keyword",
+      "16": "keyword",
+      "17": "context",
+      "18": "keyword",
+      "19": "keyword",
+      "20": "keyword",
+      "21": "keyword",
+      "22": "keyword",
+      "23": "keyword",
+      "24": "keyword",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "keyword",
+      "28": "keyword",
+      "29": "keyword",
+      "30": "keyword",
+      "31": "context",
+      "32": "context",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "context",
+      "36": "context",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "context",
+      "40": "context"
+    },
+    "cueProvenance": "PocketSphinx phrase spotting on all 16 source files with silence preserved and targeted language-model decoding. Approximate audio intervals; context labels indicate less certain word recognition. Not human listening audited."
   }
 };
