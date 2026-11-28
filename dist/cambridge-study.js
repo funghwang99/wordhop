@@ -14505,7 +14505,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "example": "The new design addressed a major shortcoming."
         },
         {
-          "word": "phase out (phr. v.)",
+          "word": "phase out (v.)",
           "definition": "To gradually stop using or producing something.",
           "example": "The company plans to phase out older vehicles."
         },
