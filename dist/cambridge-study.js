@@ -13174,5 +13174,513 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         }
       ]
     }
+  },
+  "21-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "amass (v.)",
+          "definition": "To collect a large quantity over time.",
+          "example": "Collectors amass rare objects over many years."
+        },
+        {
+          "word": "inheritance (n.)",
+          "definition": "Money or property received from someone who has died.",
+          "example": "She used her inheritance to establish a charity."
+        },
+        {
+          "word": "philanthropic (adj.)",
+          "definition": "Intended to help others through charitable activity.",
+          "example": "The foundation supports philanthropic projects."
+        },
+        {
+          "word": "rigorously (adv.)",
+          "definition": "In a thorough and careful manner.",
+          "example": "The new method was rigorously tested."
+        },
+        {
+          "word": "coincide (v.)",
+          "definition": "To happen at the same time.",
+          "example": "The two events often coincide."
+        },
+        {
+          "word": "humanitarian (adj.)",
+          "definition": "Concerned with reducing human suffering.",
+          "example": "The organisation provides humanitarian assistance."
+        },
+        {
+          "word": "tedious (adj.)",
+          "definition": "Long, repetitive and boring.",
+          "example": "Checking each entry is a tedious task."
+        },
+        {
+          "word": "acquire (v.)",
+          "definition": "To obtain or gain something.",
+          "example": "Museums acquire artworks through donations."
+        },
+        {
+          "word": "attuned (adj.)",
+          "definition": "Aware of and sensitive to something.",
+          "example": "Experienced teachers are attuned to students' needs."
+        },
+        {
+          "word": "cardiovascular (adj.)",
+          "definition": "Relating to the heart and blood vessels.",
+          "example": "Exercise can improve cardiovascular health."
+        },
+        {
+          "word": "designate (v.)",
+          "definition": "To officially identify or assign a status to something.",
+          "example": "Authorities designate the area as a nature reserve."
+        },
+        {
+          "word": "acoustic (adj.)",
+          "definition": "Relating to sound and its properties.",
+          "example": "The hall has excellent acoustic design."
+        },
+        {
+          "word": "therapeutic (adj.)",
+          "definition": "Helping to treat or relieve a condition.",
+          "example": "Music may have therapeutic benefits."
+        },
+        {
+          "word": "sensory deprivation (n.)",
+          "definition": "The reduction or removal of stimulation to the senses.",
+          "example": "Researchers studied sensory deprivation in controlled conditions."
+        },
+        {
+          "word": "advocate (n.)",
+          "definition": "A person who publicly supports an idea or cause.",
+          "example": "She is an advocate of accessible education."
+        },
+        {
+          "word": "compensate (v.)",
+          "definition": "To make up for a loss or deficiency.",
+          "example": "The brain can compensate for reduced sensory input."
+        },
+        {
+          "word": "subsidise (v.)",
+          "definition": "To provide financial support to reduce costs.",
+          "example": "Governments sometimes subsidise public transport."
+        },
+        {
+          "word": "livelihood (n.)",
+          "definition": "A means of earning enough money to live.",
+          "example": "Tourism provides a livelihood for many families."
+        },
+        {
+          "word": "abolition (n.)",
+          "definition": "The official ending of a practice or system.",
+          "example": "The abolition of unfair restrictions took years."
+        },
+        {
+          "word": "labour-intensive (adj.)",
+          "definition": "Requiring a large amount of human labour.",
+          "example": "Traditional farming is often labour-intensive."
+        },
+        {
+          "word": "cultivation (n.)",
+          "definition": "The process of growing crops or plants.",
+          "example": "Rice cultivation requires suitable soil and water."
+        },
+        {
+          "word": "dynasty (n.)",
+          "definition": "A succession of rulers or influential members of a family.",
+          "example": "The dynasty controlled trade for generations."
+        },
+        {
+          "word": "profound (adj.)",
+          "definition": "Very great or significant in effect.",
+          "example": "The discovery had a profound impact on medicine."
+        },
+        {
+          "word": "trade barrier (n.)",
+          "definition": "A restriction on the exchange of goods between countries.",
+          "example": "A trade barrier can increase the cost of imported goods."
+        }
+      ]
+    }
+  },
+  "21-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "electrode (n.)",
+          "definition": "A conductor used to transmit or detect electrical signals.",
+          "example": "An electrode recorded activity in the brain."
+        },
+        {
+          "word": "alternate (v.)",
+          "definition": "To occur or take place in turn.",
+          "example": "Periods of activity alternate with rest."
+        },
+        {
+          "word": "paralyse (v.)",
+          "definition": "To make someone or something unable to move.",
+          "example": "Certain toxins can paralyse muscles."
+        },
+        {
+          "word": "vivid (adj.)",
+          "definition": "Producing clear, strong mental images or impressions.",
+          "example": "She had a vivid memory of the journey."
+        },
+        {
+          "word": "intriguingly (adv.)",
+          "definition": "In a way that arouses curiosity or interest.",
+          "example": "Intriguingly, both groups showed similar results."
+        },
+        {
+          "word": "integrate (v.)",
+          "definition": "To combine parts into a functioning whole.",
+          "example": "The brain may integrate new memories during sleep."
+        },
+        {
+          "word": "pursue (v.)",
+          "definition": "To follow or chase in an attempt to catch.",
+          "example": "Predators pursue prey across open grassland."
+        },
+        {
+          "word": "vibration (n.)",
+          "definition": "A rapid back-and-forth movement.",
+          "example": "Spiders can detect a slight vibration in their webs."
+        },
+        {
+          "word": "flourish (v.)",
+          "definition": "To develop successfully or thrive.",
+          "example": "Trade can flourish when transport improves."
+        },
+        {
+          "word": "plateau (n.)",
+          "definition": "An area of high, relatively flat land.",
+          "example": "The settlement stood on a plateau."
+        },
+        {
+          "word": "surplus (n.)",
+          "definition": "An amount greater than what is needed.",
+          "example": "The farmers sold their surplus at the market."
+        },
+        {
+          "word": "domesticated (adj.)",
+          "definition": "Adapted to living under human control.",
+          "example": "Domesticated animals support rural livelihoods."
+        },
+        {
+          "word": "demarcate (v.)",
+          "definition": "To establish the boundaries of an area.",
+          "example": "Fences demarcate the protected zone."
+        },
+        {
+          "word": "monopolise (v.)",
+          "definition": "To gain exclusive control over something.",
+          "example": "One company attempted to monopolise the market."
+        },
+        {
+          "word": "lucrative (adj.)",
+          "definition": "Producing a large amount of profit.",
+          "example": "The region developed a lucrative trading network."
+        },
+        {
+          "word": "intrinsic (adj.)",
+          "definition": "Belonging naturally to the essential nature of something.",
+          "example": "The object has intrinsic value."
+        },
+        {
+          "word": "sensationalist (adj.)",
+          "definition": "Presenting information in an exaggerated way to attract attention.",
+          "example": "Sensationalist headlines can distort public understanding."
+        },
+        {
+          "word": "infiltrate (v.)",
+          "definition": "To gradually enter or spread through a place or system.",
+          "example": "New technologies infiltrate many industries."
+        },
+        {
+          "word": "jeopardise (v.)",
+          "definition": "To put something at risk.",
+          "example": "Poor security can jeopardise personal data."
+        },
+        {
+          "word": "disregard (v.)",
+          "definition": "To pay no attention to something.",
+          "example": "Decision-makers should not disregard safety concerns."
+        },
+        {
+          "word": "dystopian (adj.)",
+          "definition": "Describing an imagined society characterized by suffering or injustice.",
+          "example": "The novel depicts a dystopian future."
+        },
+        {
+          "word": "deploy (v.)",
+          "definition": "To put a resource or system into use.",
+          "example": "Hospitals deploy new software cautiously."
+        },
+        {
+          "word": "bureaucracy (n.)",
+          "definition": "An administrative system involving many formal procedures.",
+          "example": "Complex bureaucracy delayed the project."
+        },
+        {
+          "word": "adversarial (adj.)",
+          "definition": "Involving opposition or deliberate attempts to defeat something.",
+          "example": "The system was tested against adversarial attacks."
+        }
+      ]
+    }
+  },
+  "21-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "confined (adj.)",
+          "definition": "Restricted to a particular place or limit.",
+          "example": "The species is confined to a small island."
+        },
+        {
+          "word": "respite (n.)",
+          "definition": "A temporary period of relief from difficulty.",
+          "example": "Rain offered a brief respite from the drought."
+        },
+        {
+          "word": "poaching (n.)",
+          "definition": "The illegal hunting or capturing of wild animals.",
+          "example": "Poaching threatens several endangered species."
+        },
+        {
+          "word": "transboundary (adj.)",
+          "definition": "Extending across political or geographical boundaries.",
+          "example": "The river requires transboundary cooperation."
+        },
+        {
+          "word": "mortality (n.)",
+          "definition": "Death or the rate of death in a population.",
+          "example": "Disease increased infant mortality."
+        },
+        {
+          "word": "fluctuation (n.)",
+          "definition": "A variation or irregular change in level or amount.",
+          "example": "The market experienced a sudden fluctuation."
+        },
+        {
+          "word": "arid (adj.)",
+          "definition": "Extremely dry and receiving little rainfall.",
+          "example": "Few crops grow in arid regions."
+        },
+        {
+          "word": "spearhead (v.)",
+          "definition": "To lead an important activity or initiative.",
+          "example": "Local groups spearhead conservation efforts."
+        },
+        {
+          "word": "projection (n.)",
+          "definition": "An estimate of a future situation based on current data.",
+          "example": "The population projection guides planning."
+        },
+        {
+          "word": "informal settlement (n.)",
+          "definition": "Housing developed outside formal planning systems.",
+          "example": "The informal settlement lacks adequate sanitation."
+        },
+        {
+          "word": "intersection (n.)",
+          "definition": "A place where roads or paths cross.",
+          "example": "Traffic builds up at the intersection."
+        },
+        {
+          "word": "arterial (adj.)",
+          "definition": "Relating to a major route carrying traffic.",
+          "example": "The city depends on arterial roads."
+        },
+        {
+          "word": "periphery (n.)",
+          "definition": "The outer edge of an area.",
+          "example": "New housing appeared on the city's periphery."
+        },
+        {
+          "word": "depot (n.)",
+          "definition": "A place for storing or maintaining vehicles or supplies.",
+          "example": "The buses return to the depot each night."
+        },
+        {
+          "word": "imminently (adv.)",
+          "definition": "Very soon or about to happen.",
+          "example": "Construction is expected to begin imminently."
+        },
+        {
+          "word": "stakeholder (n.)",
+          "definition": "A person or group with an interest in a decision or project.",
+          "example": "Every stakeholder was invited to the meeting."
+        },
+        {
+          "word": "discern (v.)",
+          "definition": "To recognize or distinguish something with effort.",
+          "example": "Researchers discern patterns in the data."
+        },
+        {
+          "word": "patriarchal (adj.)",
+          "definition": "Characterized by social power held mainly by men.",
+          "example": "The study examines patriarchal institutions."
+        },
+        {
+          "word": "interlock (v.)",
+          "definition": "To fit or connect closely together.",
+          "example": "The pieces interlock without glue."
+        },
+        {
+          "word": "contentious (adj.)",
+          "definition": "Likely to cause disagreement or debate.",
+          "example": "The proposal remains contentious."
+        },
+        {
+          "word": "rudimentary (adj.)",
+          "definition": "Basic and not fully developed.",
+          "example": "The shelter was built with rudimentary tools."
+        },
+        {
+          "word": "incremental (adj.)",
+          "definition": "Happening through small gradual increases or changes.",
+          "example": "The reform produced incremental improvements."
+        },
+        {
+          "word": "preconception (n.)",
+          "definition": "An opinion formed before adequate evidence is available.",
+          "example": "A preconception can affect how evidence is interpreted."
+        },
+        {
+          "word": "foraging (n.)",
+          "definition": "The activity of searching for food in the natural environment.",
+          "example": "Foraging was important to early human societies."
+        }
+      ]
+    }
+  },
+  "21-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "aquatic (adj.)",
+          "definition": "Living or growing in water.",
+          "example": "Aquatic plants provide shelter for fish."
+        },
+        {
+          "word": "obstruct (v.)",
+          "definition": "To block a passage or prevent progress.",
+          "example": "Fallen branches obstruct the path."
+        },
+        {
+          "word": "downstream (adv.)",
+          "definition": "In the direction in which a river flows.",
+          "example": "The pollution travelled downstream."
+        },
+        {
+          "word": "habitat (n.)",
+          "definition": "The natural environment in which an organism lives.",
+          "example": "Wetlands are an important habitat for birds."
+        },
+        {
+          "word": "demographic (adj.)",
+          "definition": "Relating to the characteristics of a population.",
+          "example": "Demographic changes affect public services."
+        },
+        {
+          "word": "foliage (n.)",
+          "definition": "The leaves of a plant or tree.",
+          "example": "Dense foliage provides shade."
+        },
+        {
+          "word": "biofuel (n.)",
+          "definition": "Fuel made from recently living organic material.",
+          "example": "Waste crops can be converted into biofuel."
+        },
+        {
+          "word": "captivate (v.)",
+          "definition": "To attract and hold someone's interest.",
+          "example": "The unusual findings captivate young scientists."
+        },
+        {
+          "word": "multilingualism (n.)",
+          "definition": "The use or knowledge of several languages.",
+          "example": "Multilingualism can support communication across communities."
+        },
+        {
+          "word": "bustling (adj.)",
+          "definition": "Full of busy activity and movement.",
+          "example": "The bustling market attracts shoppers."
+        },
+        {
+          "word": "teem (v.)",
+          "definition": "To be full of living things or activity.",
+          "example": "The streets teem with people during festivals."
+        },
+        {
+          "word": "overriding (adj.)",
+          "definition": "More important than all other considerations.",
+          "example": "The overriding concern is student safety."
+        },
+        {
+          "word": "subtraction (n.)",
+          "definition": "The mathematical operation of taking one number away from another.",
+          "example": "Children practise subtraction using counters."
+        },
+        {
+          "word": "disproportionately (adv.)",
+          "definition": "To a degree that is larger or smaller than expected.",
+          "example": "Rising costs affect poorer families disproportionately."
+        },
+        {
+          "word": "migration (n.)",
+          "definition": "Movement from one place to another, often to settle there.",
+          "example": "Rural migration has transformed the city."
+        },
+        {
+          "word": "infrastructure (n.)",
+          "definition": "The basic systems and facilities needed for society to function.",
+          "example": "Investment in infrastructure supports development."
+        },
+        {
+          "word": "obsessive (adj.)",
+          "definition": "Involving excessive or persistent attention to something.",
+          "example": "His obsessive attention to detail slowed the work."
+        },
+        {
+          "word": "deter (v.)",
+          "definition": "To discourage someone from doing something.",
+          "example": "High costs may deter potential customers."
+        },
+        {
+          "word": "bespoke (adj.)",
+          "definition": "Made specifically for an individual customer or purpose.",
+          "example": "The workshop produces bespoke furniture."
+        },
+        {
+          "word": "impulsive (adj.)",
+          "definition": "Done suddenly without careful thought.",
+          "example": "An impulsive purchase can be expensive."
+        },
+        {
+          "word": "accolade (n.)",
+          "definition": "An award or expression of praise for achievement.",
+          "example": "The designer received an international accolade."
+        },
+        {
+          "word": "artisan (n.)",
+          "definition": "A skilled person who makes things by hand.",
+          "example": "An artisan crafted the wooden bowl."
+        },
+        {
+          "word": "thwart (v.)",
+          "definition": "To prevent someone from achieving a goal.",
+          "example": "Technical failures can thwart a project."
+        },
+        {
+          "word": "circumference (n.)",
+          "definition": "The distance around a circle or rounded object.",
+          "example": "Students measured the circumference of the globe."
+        }
+      ]
+    }
   }
 };
