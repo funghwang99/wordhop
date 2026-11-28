@@ -488,11 +488,12 @@
   // Review data is independent of scoring and is available only after checking answers.
   let camReviewAudio=null;
   function stopReviewAudio(){
-    if(camReviewAudio){camReviewAudio.audio.removeEventListener('timeupdate',camReviewAudio.onTime);camReviewAudio.audio.removeEventListener('ended',camReviewAudio.onEnd);camReviewAudio.audio.pause();camReviewAudio.button.textContent=camReviewAudio.label;camReviewAudio=null;}
+    if(camReviewAudio){const r=camReviewAudio;camReviewAudio=null;if(r.onTime)r.audio.removeEventListener('timeupdate',r.onTime);if(r.onEnd)r.audio.removeEventListener('ended',r.onEnd);if(r.onMetadata)r.audio.removeEventListener('loadedmetadata',r.onMetadata);r.audio.pause();r.button.textContent=r.label;}
   }
   function reviewCue(test,n){return window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.cues?.[n]||window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];}
   function reviewAudioMatched(test,part){return (window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH?.[test+'-'+part]||window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[test+'-'+part])?.matched===true;}
   function reviewClock(sec){const whole=Math.floor(sec);return Math.floor(whole/60)+':'+String(whole%60).padStart(2,'0');}
+  function validReviewCue(cue){return Array.isArray(cue)&&cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=cue[2];}
   function solution(test,skill,n,item,graded){
     const value=item.answers[n]||'', k=keyFor(test,skill,n);
     const detail=window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.review?.[skill]?.[n-1]||window.WORDHOP_CAMBRIDGE12_REVIEW?.[test]?.[skill]?.[n-1];
@@ -503,15 +504,16 @@
     }else if(detail&&skill==='listening'){
       const [page,evidence,why,source]=detail;
       const external=source==='external-transcript-paraphrase';
-      const candidate=reviewCue(test,n);
-      const matched=reviewAudioMatched(test,Math.ceil(n/10));
-      const cue=matched?candidate:null;
-      const contextual=window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.cueMethod?.[n]==='context';
-      explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>'+(external?'Transcript cue (paraphrased) · Missing print page '+page:'Transcript · Page '+page)+'</strong><p>'+esc(evidence)+'</p>'+(external?'<a href="https://www.ielts-hub.com/exams/listening/cambridge-ielts-13-test-3/transcript" target="_blank" rel="noopener noreferrer">Supplementary transcript source</a>':'')+'</blockquote>'+
-        '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?(contextual?'Listen to answer context':'Listen to this answer'):'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Source-audio match · '+reviewClock(cue[0])+'–'+reviewClock(cue[1])+(contextual?' · Context-based alignment; answer wording needs manual verification.':' · Automatically aligned; timing is approximate.'):candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
+      explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>'+(external?'Transcript cue (paraphrased) · Missing print page '+page:'Transcript · Page '+page)+'</strong><p>'+esc(evidence)+'</p>'+(external?'<a href="https://www.ielts-hub.com/exams/listening/cambridge-ielts-13-test-3/transcript" target="_blank" rel="noopener noreferrer">Supplementary transcript source</a>':'')+'</blockquote>';
     }else{
       explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
-      if(skill==='listening')explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status" aria-live="polite">An individual answer cue has not been located reliably.</p>';
+    }
+    if(skill==='listening'){
+      const candidate=reviewCue(test,n),matched=reviewAudioMatched(test,Math.ceil(n/10));
+      const cue=matched&&validReviewCue(candidate)?candidate:null;
+      const contextual=window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.cueMethod?.[n]==='context';
+      if(cue)explanation+='<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(contextual?'Listen to answer context':'Listen to this answer')+'</button>';
+      explanation+='<p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Source-audio match · '+reviewClock(cue[0])+'–'+reviewClock(cue[1])+(contextual?' · Context-based alignment; answer wording needs manual verification.':' · Automatically aligned; timing is approximate.'):candidate&&!matched?'Answer replay unavailable: source audio does not match.':'Answer replay unavailable: individual timestamp not verified.')+'</p>';
     }
     return '<article class="reading-solution '+(graded[n]?'reading-correct':'reading-incorrect')+'"><div class="reading-solution-top"><h4>Question '+n+' · '+esc(k)+'</h4><span>'+(graded[n]?'Correct':'Review')+'</span></div><p class="reading-your-answer">Your answer: <strong>'+esc(String(value).trim()||'Not answered')+'</strong></p>'+explanation+'</article>';
   }
@@ -521,23 +523,27 @@
     if(!audio){if(status)status.textContent='Section audio is unavailable.';return;}
     const previous=camReviewAudio?.button===button;
     stopReviewAudio();if(previous)return;
-    const cue=reviewCue(a.test,Number(button.dataset.reviewQuestion));
+    const n=Number(button.dataset.reviewQuestion),cue=reviewCue(a.test,n);
+    if(!Number.isInteger(n)||Math.ceil(n/10)!==a.part||!validReviewCue(cue)||!reviewAudioMatched(a.test,a.part)){
+      if(status)status.textContent='Answer replay unavailable: individual timestamp or source audio not verified.';
+      return;
+    }
     const label=button.textContent;
     const begin=()=>{
-      if(context()!==a)return;
-      // Cue times were obtained from the supplied MP3. A duration mismatch disables cue seeking.
-      const matched=reviewAudioMatched(a.test,a.part);
-      const verified=matched&&cue&&Number.isFinite(audio.duration)&&Math.abs(audio.duration-cue[2])<1.5&&cue[1]<=audio.duration;
-      const start=verified?cue[0]:0,end=verified?cue[1]:Infinity;
+      if(context()!==a||camReviewAudio?.button!==button)return;
+      const verified=reviewAudioMatched(a.test,a.part)&&Number.isFinite(audio.duration)&&Math.abs(audio.duration-cue[2])<1.5&&cue[1]<=audio.duration;
+      if(!verified){stopReviewAudio();if(status)status.textContent='Answer replay unavailable: recording duration does not match.';return;}
+      const [start,end]=cue;
       const finish=()=>{if(camReviewAudio?.button===button){stopReviewAudio();if(status)status.textContent='Replay finished.';}};
       const onTime=()=>{if(audio.currentTime>=end)finish();};
-      camReviewAudio={audio,button,label,onTime,onEnd:finish};
+      Object.assign(camReviewAudio,{onTime,onEnd:finish});
       audio.addEventListener('timeupdate',onTime);audio.addEventListener('ended',finish);
       audio.currentTime=start;button.textContent='Stop replay';
-      if(status)status.textContent=verified?'Playing the automatically located answer cue.':'Playing the whole section; an exact cue is not verified for this audio.';
-      audio.play().catch(()=>{stopReviewAudio();if(status)status.textContent='Could not start replay. Use the audio player.';});
+      if(status)status.textContent='Playing the automatically located answer cue.';
+      audio.play().catch(()=>{if(camReviewAudio?.button===button){stopReviewAudio();if(status)status.textContent='Could not start answer replay.';}});
     };
-    if(audio.readyState>=1)begin();else{if(status)status.textContent='Loading audio…';audio.addEventListener('loadedmetadata',begin,{once:true});audio.load();}
+    camReviewAudio={audio,button,label,onMetadata:begin};
+    if(audio.readyState>=1)begin();else{button.textContent='Stop replay';if(status)status.textContent='Loading audio…';audio.addEventListener('loadedmetadata',begin,{once:true});audio.load();}
   }
   function answerSheet(test,skill,part){
     const [from,to]=range(skill,part),item=attempt(test,skill,part),graded=score(test,skill,item.answers);
