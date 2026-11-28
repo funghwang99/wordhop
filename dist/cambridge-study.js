@@ -12666,5 +12666,513 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "39": "Decoded development of larger shop windows; target word imperfectly recognized.",
       "40": "Decoded informing potential customers and expansion of advertising; recognizer rendered advertising as appetizing."
     }
+  },
+  "16-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "far-reaching (adj.)",
+          "definition": "Having effects that extend widely.",
+          "example": "The policy has far-reaching consequences."
+        },
+        {
+          "word": "adipose tissue (n.)",
+          "definition": "Body tissue that stores fat.",
+          "example": "Adipose tissue helps insulate the body."
+        },
+        {
+          "word": "genetic structure (n.)",
+          "definition": "The arrangement of an organism's genetic material.",
+          "example": "Scientists compared the genetic structure of two species."
+        },
+        {
+          "word": "osteoporosis (n.)",
+          "definition": "A condition in which bones become weak and fragile.",
+          "example": "Exercise may help reduce the risk of osteoporosis."
+        },
+        {
+          "word": "deplete (v.)",
+          "definition": "To greatly reduce the supply of something.",
+          "example": "Overfishing can deplete marine resources."
+        },
+        {
+          "word": "paradox (n.)",
+          "definition": "A situation that seems contradictory but may be true.",
+          "example": "The findings reveal an interesting paradox."
+        },
+        {
+          "word": "anecdotal (adj.)",
+          "definition": "Based on personal accounts rather than systematic evidence.",
+          "example": "Anecdotal reports cannot replace clinical trials."
+        },
+        {
+          "word": "manipulation (n.)",
+          "definition": "The skilled handling or control of something.",
+          "example": "The robot allows precise manipulation of small objects."
+        },
+        {
+          "word": "tribute (n.)",
+          "definition": "Something done to show respect or admiration.",
+          "example": "The memorial was a tribute to the workers."
+        },
+        {
+          "word": "monument (n.)",
+          "definition": "A structure built to commemorate a person or event.",
+          "example": "The monument attracts thousands of visitors."
+        },
+        {
+          "word": "conceive (v.)",
+          "definition": "To form an idea or plan in the mind.",
+          "example": "Architects conceive new designs for public spaces."
+        },
+        {
+          "word": "attribute (v.)",
+          "definition": "To regard something as being caused by or belonging to someone or something.",
+          "example": "Researchers attribute the decline to habitat loss."
+        },
+        {
+          "word": "intricate (adj.)",
+          "definition": "Having many small and complicated parts.",
+          "example": "The watch contains an intricate mechanism."
+        },
+        {
+          "word": "excavate (v.)",
+          "definition": "To dig out earth in order to uncover something.",
+          "example": "Archaeologists excavate the site each summer."
+        },
+        {
+          "word": "precaution (n.)",
+          "definition": "An action taken to prevent harm or danger.",
+          "example": "Wearing gloves is a useful precaution."
+        },
+        {
+          "word": "archetype (n.)",
+          "definition": "An original model or typical example of something.",
+          "example": "The building became an archetype for later designs."
+        },
+        {
+          "word": "disruptive (adj.)",
+          "definition": "Causing major changes to established ways of working.",
+          "example": "Disruptive technologies can transform industries."
+        },
+        {
+          "word": "algorithm (n.)",
+          "definition": "A set of rules used to solve a problem or process data.",
+          "example": "An algorithm sorts the search results."
+        },
+        {
+          "word": "enhance (v.)",
+          "definition": "To improve the quality or value of something.",
+          "example": "Training can enhance employee performance."
+        },
+        {
+          "word": "expertise (n.)",
+          "definition": "Specialized knowledge or skill.",
+          "example": "The project requires technical expertise."
+        },
+        {
+          "word": "trajectory (n.)",
+          "definition": "The course of development over time.",
+          "example": "The company changed its growth trajectory."
+        },
+        {
+          "word": "fallacy (n.)",
+          "definition": "A mistaken belief or faulty argument.",
+          "example": "The claim rests on a logical fallacy."
+        },
+        {
+          "word": "redundancy (n.)",
+          "definition": "Loss of employment because a job is no longer needed.",
+          "example": "Automation may lead to redundancy."
+        },
+        {
+          "word": "redeployment (n.)",
+          "definition": "The transfer of workers to different roles.",
+          "example": "Redeployment helped staff remain employed."
+        }
+      ]
+    }
+  },
+  "16-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "geoglyph (n.)",
+          "definition": "A large design made on the surface of the ground.",
+          "example": "The geoglyph is visible from a hill."
+        },
+        {
+          "word": "controversial (adj.)",
+          "definition": "Causing disagreement or public debate.",
+          "example": "The new theory remains controversial."
+        },
+        {
+          "word": "scour (v.)",
+          "definition": "To clean a surface thoroughly by rubbing or scraping.",
+          "example": "Workers scour the stone to remove dirt."
+        },
+        {
+          "word": "continuity (n.)",
+          "definition": "The state of continuing without interruption.",
+          "example": "The festival preserves cultural continuity."
+        },
+        {
+          "word": "stylised (adj.)",
+          "definition": "Represented in a simplified or non-realistic artistic form.",
+          "example": "The logo features a stylised bird."
+        },
+        {
+          "word": "enigmatic (adj.)",
+          "definition": "Difficult to understand or explain.",
+          "example": "The inscription remains enigmatic."
+        },
+        {
+          "word": "depiction (n.)",
+          "definition": "A representation of someone or something in art or words.",
+          "example": "The painting offers a vivid depiction of village life."
+        },
+        {
+          "word": "fertility (n.)",
+          "definition": "The ability to produce offspring or support growth.",
+          "example": "The ritual was associated with fertility."
+        },
+        {
+          "word": "ubiquitous (adj.)",
+          "definition": "Present or found almost everywhere.",
+          "example": "Smartphones have become ubiquitous."
+        },
+        {
+          "word": "microbiome (n.)",
+          "definition": "The community of microorganisms living in a particular environment.",
+          "example": "Diet influences the gut microbiome."
+        },
+        {
+          "word": "multitude (n.)",
+          "definition": "A very large number of people or things.",
+          "example": "A multitude of factors affects health."
+        },
+        {
+          "word": "symbiotic (adj.)",
+          "definition": "Involving a close relationship between different organisms.",
+          "example": "The two species have a symbiotic relationship."
+        },
+        {
+          "word": "exaggerate (v.)",
+          "definition": "To describe something as greater or worse than it is.",
+          "example": "Reports sometimes exaggerate the risk."
+        },
+        {
+          "word": "disrupt (v.)",
+          "definition": "To interrupt the normal operation of something.",
+          "example": "Antibiotics can disrupt the bacterial balance."
+        },
+        {
+          "word": "predator (n.)",
+          "definition": "An animal that hunts and eats other animals.",
+          "example": "The small fish hides from a predator."
+        },
+        {
+          "word": "manipulate (v.)",
+          "definition": "To control or change something skilfully.",
+          "example": "Researchers manipulate conditions in the laboratory."
+        },
+        {
+          "word": "revered (adj.)",
+          "definition": "Deeply respected or admired.",
+          "example": "She is a revered scholar in her field."
+        },
+        {
+          "word": "empirical (adj.)",
+          "definition": "Based on observation or experiment rather than theory.",
+          "example": "The argument requires empirical evidence."
+        },
+        {
+          "word": "contextual (adj.)",
+          "definition": "Relating to the circumstances surrounding something.",
+          "example": "Contextual factors influence decisions."
+        },
+        {
+          "word": "intellectual humility (n.)",
+          "definition": "Awareness of the limits of one's own knowledge.",
+          "example": "Intellectual humility helps people learn from criticism."
+        },
+        {
+          "word": "compromise (n.)",
+          "definition": "An agreement involving concessions from both sides.",
+          "example": "The negotiators reached a compromise."
+        },
+        {
+          "word": "impartiality (n.)",
+          "definition": "The quality of being fair and unbiased.",
+          "example": "Judges must maintain impartiality."
+        },
+        {
+          "word": "recession (n.)",
+          "definition": "A period of declining economic activity.",
+          "example": "Unemployment rose during the recession."
+        },
+        {
+          "word": "retaliate (v.)",
+          "definition": "To respond to harm by causing harm in return.",
+          "example": "The manager chose not to retaliate."
+        }
+      ]
+    }
+  },
+  "16-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "rigging (n.)",
+          "definition": "The ropes and equipment supporting a ship's sails.",
+          "example": "Sailors repaired the damaged rigging."
+        },
+        {
+          "word": "vessel (n.)",
+          "definition": "A ship or large boat.",
+          "example": "The vessel carried grain across the sea."
+        },
+        {
+          "word": "dismantle (v.)",
+          "definition": "To take a structure or machine apart.",
+          "example": "Engineers dismantle old equipment carefully."
+        },
+        {
+          "word": "ballast (n.)",
+          "definition": "Heavy material used to stabilize a vessel.",
+          "example": "The ship carried ballast for stability."
+        },
+        {
+          "word": "afloat (adj.)",
+          "definition": "Floating on water rather than sinking.",
+          "example": "The damaged boat remained afloat."
+        },
+        {
+          "word": "dominant (adj.)",
+          "definition": "More powerful or important than others.",
+          "example": "The company became the dominant supplier."
+        },
+        {
+          "word": "supersede (v.)",
+          "definition": "To replace something older or less effective.",
+          "example": "Digital maps may supersede printed ones."
+        },
+        {
+          "word": "facilitate (v.)",
+          "definition": "To make an action or process easier.",
+          "example": "Clear signs facilitate navigation."
+        },
+        {
+          "word": "artefact (n.)",
+          "definition": "An object made by people, often of historical interest.",
+          "example": "The museum displayed an ancient artefact."
+        },
+        {
+          "word": "degradation (n.)",
+          "definition": "The process of becoming damaged or deteriorating.",
+          "example": "Moisture accelerates material degradation."
+        },
+        {
+          "word": "permafrost (n.)",
+          "definition": "Ground that remains frozen for at least two years.",
+          "example": "Warming temperatures threaten Arctic permafrost."
+        },
+        {
+          "word": "retreat (v.)",
+          "definition": "To move back or become smaller in extent.",
+          "example": "Glaciers retreat as temperatures rise."
+        },
+        {
+          "word": "radiocarbon-date (v.)",
+          "definition": "To determine age using radioactive carbon.",
+          "example": "Scientists radiocarbon-date organic remains."
+        },
+        {
+          "word": "subsistence (n.)",
+          "definition": "The means of obtaining enough food to survive.",
+          "example": "Farming provided a means of subsistence."
+        },
+        {
+          "word": "expansion (n.)",
+          "definition": "An increase in size, scale or influence.",
+          "example": "Trade expansion transformed the region."
+        },
+        {
+          "word": "disintegrate (v.)",
+          "definition": "To break into small pieces or lose structure.",
+          "example": "Old paper can disintegrate in damp conditions."
+        },
+        {
+          "word": "resilient (adj.)",
+          "definition": "Able to withstand or recover from difficulties.",
+          "example": "Farmers need crops resilient to drought."
+        },
+        {
+          "word": "proportional (adj.)",
+          "definition": "Changing in a corresponding ratio to another quantity.",
+          "example": "Energy use is proportional to operating time."
+        },
+        {
+          "word": "pinpoint (v.)",
+          "definition": "To identify the exact position or cause of something.",
+          "example": "Tests can pinpoint the source of the fault."
+        },
+        {
+          "word": "unpredictable (adj.)",
+          "definition": "Difficult to forecast accurately.",
+          "example": "The region experiences unpredictable weather."
+        },
+        {
+          "word": "inhibit (v.)",
+          "definition": "To slow down or prevent a process.",
+          "example": "Low temperatures inhibit plant growth."
+        },
+        {
+          "word": "revert (v.)",
+          "definition": "To return to a previous state.",
+          "example": "The system may revert to its original settings."
+        },
+        {
+          "word": "dictate (v.)",
+          "definition": "To determine how something happens.",
+          "example": "Weather conditions dictate the planting schedule."
+        },
+        {
+          "word": "culmination (n.)",
+          "definition": "The final result of a long process.",
+          "example": "The discovery was the culmination of years of work."
+        }
+      ]
+    }
+  },
+  "16-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "excavation (n.)",
+          "definition": "The process of digging out earth or rock.",
+          "example": "Tunnel excavation took several months."
+        },
+        {
+          "word": "vertical shaft (n.)",
+          "definition": "A deep upright opening in the ground or a structure.",
+          "example": "Workers used a vertical shaft for access."
+        },
+        {
+          "word": "ventilation (n.)",
+          "definition": "The supply of fresh air to an enclosed space.",
+          "example": "Proper ventilation is essential underground."
+        },
+        {
+          "word": "irrigation (n.)",
+          "definition": "The artificial supply of water to crops.",
+          "example": "The canal provides irrigation for farmland."
+        },
+        {
+          "word": "deviation (n.)",
+          "definition": "A departure from a planned route or standard.",
+          "example": "The survey detected a slight deviation."
+        },
+        {
+          "word": "penetrate (v.)",
+          "definition": "To pass into or through something.",
+          "example": "Water can penetrate cracks in concrete."
+        },
+        {
+          "word": "extraction (n.)",
+          "definition": "The process of removing a substance from a source.",
+          "example": "Mineral extraction can damage landscapes."
+        },
+        {
+          "word": "divert (v.)",
+          "definition": "To change the direction or route of something.",
+          "example": "Engineers divert water away from the town."
+        },
+        {
+          "word": "implication (n.)",
+          "definition": "A possible consequence or significance of something.",
+          "example": "The findings have an important implication for education."
+        },
+        {
+          "word": "acquisition (n.)",
+          "definition": "The process of gaining knowledge or a skill.",
+          "example": "Language acquisition begins early in life."
+        },
+        {
+          "word": "literacy (n.)",
+          "definition": "The ability to read and write.",
+          "example": "Literacy programmes support adult learners."
+        },
+        {
+          "word": "inference (n.)",
+          "definition": "A conclusion drawn from evidence and reasoning.",
+          "example": "The reader makes an inference from the clues."
+        },
+        {
+          "word": "innovation (n.)",
+          "definition": "A new idea, method or technology.",
+          "example": "Innovation has changed how people communicate."
+        },
+        {
+          "word": "comprehension (n.)",
+          "definition": "The ability to understand information.",
+          "example": "Reading comprehension improves with practice."
+        },
+        {
+          "word": "chronological (adj.)",
+          "definition": "Arranged in order of time.",
+          "example": "The historian presented events in chronological order."
+        },
+        {
+          "word": "susceptible (adj.)",
+          "definition": "Likely to be affected or harmed by something.",
+          "example": "Young plants are susceptible to frost."
+        },
+        {
+          "word": "forecast (n.)",
+          "definition": "A prediction about what will happen in the future.",
+          "example": "The economic forecast predicts slower growth."
+        },
+        {
+          "word": "reluctant (adj.)",
+          "definition": "Unwilling or hesitant to do something.",
+          "example": "Some employees are reluctant to adopt new software."
+        },
+        {
+          "word": "contradict (v.)",
+          "definition": "To state the opposite of another claim or idea.",
+          "example": "The results contradict earlier findings."
+        },
+        {
+          "word": "competent (adj.)",
+          "definition": "Having sufficient ability or skill to do something.",
+          "example": "She is a competent medical professional."
+        },
+        {
+          "word": "disproportionate (adj.)",
+          "definition": "Too large or small compared with what is appropriate.",
+          "example": "The incident received disproportionate media attention."
+        },
+        {
+          "word": "polarise (v.)",
+          "definition": "To divide people into opposing groups or views.",
+          "example": "The debate may polarise public opinion."
+        },
+        {
+          "word": "confirmation bias (n.)",
+          "definition": "The tendency to favour information supporting existing beliefs.",
+          "example": "Confirmation bias can distort research conclusions."
+        },
+        {
+          "word": "transparency (n.)",
+          "definition": "Openness about how decisions or processes work.",
+          "example": "Greater transparency can improve public trust."
+        }
+      ]
+    }
   }
 };
