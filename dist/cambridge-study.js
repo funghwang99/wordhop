@@ -26611,6 +26611,250 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         "phrase": "The centre is connected to the ticket office via a short section of covered walkway.",
         "manualVerified": false
       }
+    },
+    "review": {
+      "reading": [
+        [
+          38,
+          "Paragraph 2",
+          "brain patterns of rats running through a maze",
+          "The animals compared while awake and during REM sleep were rats."
+        ],
+        [
+          38,
+          "Paragraph 3",
+          "processing visual information",
+          "Brain activity in sleeping pigeons was concentrated in areas processing visual input."
+        ],
+        [
+          38,
+          "Paragraph 4",
+          "only half of it, keeping the rest awake",
+          "Whales and dolphins keep half of their brains awake during sleep."
+        ],
+        [
+          38,
+          "Paragraph 4",
+          "more vulnerable to extremes of temperature",
+          "The suggested explanation for their lack of REM sleep concerns sensitivity to temperature."
+        ],
+        [
+          38,
+          "Paragraph 4",
+          "non-REM dreams, which are less vivid",
+          "Their dreams are probably less vivid because they lack REM sleep."
+        ],
+        [
+          39,
+          "Paragraph 5",
+          "integrate memories into longer-term storage",
+          "Replaying experiences in dreams is thought to help create lasting memories."
+        ],
+        [
+          39,
+          "Paragraph 6",
+          "we don't know if there is an internal experience of chasing rabbits",
+          "The passage explicitly says that outward behaviour does not reveal the exact content of a dog's dream."
+        ],
+        [
+          39,
+          "Paragraph 7",
+          "while making a documentary",
+          "Scheel's documentary is described, but its influence on other researchers is not established."
+        ],
+        [
+          39,
+          "Paragraph 8",
+          "as though he were being attacked by a predator",
+          "Costello acted as if defending himself from an attack, not hunting prey."
+        ],
+        [
+          39,
+          "Paragraph 8",
+          "brain imaging is needed",
+          "Scheel calls for further evidence from brain imaging rather than relying solely on behaviour."
+        ],
+        [
+          39,
+          "Paragraph 9",
+          "That goes for other humans' dreams too.",
+          "The writer says we will never experience another individual's dreams, contradicting the claim that we may soon share them."
+        ],
+        [
+          39,
+          "Paragraph 9",
+          "Dogs primarily navigate the world using smell while spiders rely much more on vibrations.",
+          "The passage mentions vision, smell and vibrations, but does not specifically establish the importance of hearing in animals' dreams."
+        ],
+        [
+          39,
+          "Final paragraph",
+          "better understanding of these purposes might shed light",
+          "The writer discusses potential benefits of research, but does not describe a recent rise in interest."
+        ],
+        [
+          43,
+          "Section E",
+          "their precise function is not known",
+          "The purpose of the human and animal figurines remains uncertain."
+        ],
+        [
+          43,
+          "Section G",
+          "a series of droughts",
+          "Droughts may have intensified resource pressure and contributed to the kingdom's decline."
+        ],
+        [
+          42,
+          "Section C",
+          "probably belonged to male relatives of the king",
+          "The grander residences around Babandyanalo are thought to have housed male members of the royal family."
+        ],
+        [
+          43,
+          "Section D",
+          "merchants travelling from India by sea",
+          "The paragraph mentions coastal trade with merchants who arrived by ship."
+        ],
+        [
+          42,
+          "Section B",
+          "around 5,000 people",
+          "The population at its peak is estimated at about 5,000."
+        ],
+        [
+          42,
+          "Section A",
+          "a surplus that could be traded for needed goods",
+          "Surplus agricultural produce could be exchanged for other goods."
+        ],
+        [
+          43,
+          "Section F",
+          "all found at the royal burial site",
+          "The discovery of gold objects at the royal burial site supports option B."
+        ],
+        [
+          43,
+          "Section F",
+          "found nowhere else except Great Zimbabwe",
+          "The same gold-decoration technique was practised in Great Zimbabwe, supporting option D. Questions 20–21 can be answered in either order."
+        ],
+        [
+          43,
+          "Section E",
+          "another indicator of the prosperity of Mapungubwe society",
+          "Large-scale professional pottery production indicates prosperity."
+        ],
+        [
+          43,
+          "Section E",
+          "ceramic discs, and whistles",
+          "Alongside round ceramic objects and figurines, the finds include whistles."
+        ],
+        [
+          43,
+          "Section E",
+          "elongated bodies and short limbs",
+          "Elongated means stretched or lengthened; the figurines had elongated bodies."
+        ],
+        [
+          43,
+          "Section E",
+          "offerings to ancestors",
+          "The figures may have been used in ceremonies honouring ancestors."
+        ],
+        [
+          43,
+          "Section E",
+          "small jewellery items made from locally sourced copper",
+          "The local metal is copper, and it was used to make jewellery."
+        ],
+        [
+          46,
+          "Paragraph 1",
+          "Just looking at the media headlines, you might think",
+          "The writer describes the exaggerated impression of AI conveyed by sensationalist media rather than making a personal prediction."
+        ],
+        [
+          46,
+          "Paragraph 2",
+          "jeopardises the value of machine intelligence",
+          "The writer highlights the risk of solutionism: unrealistic expectations and neglected safety principles."
+        ],
+        [
+          46,
+          "Paragraph 4",
+          "fail to realise the complexity around deploying advanced machine learning systems",
+          "Politicians may underestimate the practical challenges of implementing AI."
+        ],
+        [
+          46,
+          "Paragraph beginning One of the most promising",
+          "more inclusive or fair",
+          "Inclusion and fairness correspond to equality; a neural network does not automatically guarantee them."
+        ],
+        [
+          46,
+          "Paragraph beginning AI systems need",
+          "appropriate data infrastructure",
+          "Infrastructure means the framework required to manage and use data."
+        ],
+        [
+          46,
+          "Paragraph beginning AI systems need",
+          "special permissions to be accessed",
+          "Special permissions correspond to approval to access government data."
+        ],
+        [
+          46,
+          "Paragraph beginning AI systems need",
+          "human talent with the right technological capabilities",
+          "Technological capabilities means the skills required to use AI effectively."
+        ],
+        [
+          47,
+          "Paragraph beginning The medical profession",
+          "human experts found it hard to trust the machine",
+          "A lack of trust in the system corresponds to doubts about its reliability."
+        ],
+        [
+          47,
+          "Paragraph beginning Similar difficulties",
+          "amplify structural racial discrimination",
+          "The algorithm magnified existing racial prejudices in the legal system."
+        ],
+        [
+          46,
+          "Paragraph beginning For these reasons",
+          "a more sensible and realistic approach",
+          "The writer characterises Russell's proposals as realistic, not impractical."
+        ],
+        [
+          47,
+          "Paragraph beginning hypothetical takeover",
+          "far, far, longer to be really widely deployed",
+          "Brooks's view is quoted, but no unfair criticism of him is reported."
+        ],
+        [
+          47,
+          "Paragraph beginning One of the many difficulties",
+          "AI security remains an often overlooked topic",
+          "Security is often neglected rather than always being considered."
+        ],
+        [
+          47,
+          "Paragraph beginning If we are to reap",
+          "the distrust that many people have towards machine learning",
+          "The writer explicitly calls for discussion of public distrust and AI ethics."
+        ],
+        [
+          47,
+          "Concluding discussion",
+          "there is no AI solution for everything",
+          "The central argument is that AI has limitations and is not necessarily the answer to every problem."
+        ]
+      ]
     }
   },
   "21-3": {
