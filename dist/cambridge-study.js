@@ -13682,5 +13682,513 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         }
       ]
     }
+  },
+  "17-1": {
+    "vocabulary": {
+      "title": "Test 1 · Reading vocabulary",
+      "words": [
+        {
+          "word": "congested (adj.)",
+          "definition": "Overcrowded or blocked, especially with traffic.",
+          "example": "The city centre becomes congested at rush hour."
+        },
+        {
+          "word": "advocate (n.)",
+          "definition": "A person who publicly supports a proposal or cause.",
+          "example": "She is an advocate of affordable transport."
+        },
+        {
+          "word": "relocate (v.)",
+          "definition": "To move to a different place.",
+          "example": "The company plans to relocate its headquarters."
+        },
+        {
+          "word": "coincide (v.)",
+          "definition": "To happen at the same time.",
+          "example": "The repairs coincide with the school holidays."
+        },
+        {
+          "word": "radical (adj.)",
+          "definition": "Involving a major change to established ideas or methods.",
+          "example": "The city adopted a radical transport plan."
+        },
+        {
+          "word": "emission (n.)",
+          "definition": "A substance released into the air or environment.",
+          "example": "Vehicle emission standards are becoming stricter."
+        },
+        {
+          "word": "demolish (v.)",
+          "definition": "To completely destroy a building or structure.",
+          "example": "Workers will demolish the unsafe building."
+        },
+        {
+          "word": "ventilation (n.)",
+          "definition": "The movement of fresh air through an enclosed space.",
+          "example": "The tunnel needs effective ventilation."
+        },
+        {
+          "word": "scepticism (n.)",
+          "definition": "Doubt about whether something is true or effective.",
+          "example": "The proposal was met with scepticism."
+        },
+        {
+          "word": "emblematic (adj.)",
+          "definition": "Serving as a symbol of a particular idea or quality.",
+          "example": "The tower is emblematic of the city's industrial past."
+        },
+        {
+          "word": "amphitheatre (n.)",
+          "definition": "An open or circular venue with rising rows of seats.",
+          "example": "The ancient amphitheatre is still used for concerts."
+        },
+        {
+          "word": "versatile (adj.)",
+          "definition": "Able to be used in many different ways.",
+          "example": "The venue is versatile enough for exhibitions and sports."
+        },
+        {
+          "word": "regenerate (v.)",
+          "definition": "To renew or improve a place or system.",
+          "example": "The project aims to regenerate the neighbourhood."
+        },
+        {
+          "word": "blueprint (n.)",
+          "definition": "A detailed plan for achieving something.",
+          "example": "The report offers a blueprint for urban renewal."
+        },
+        {
+          "word": "photovoltaic (adj.)",
+          "definition": "Producing electricity from light.",
+          "example": "The roof is covered with photovoltaic panels."
+        },
+        {
+          "word": "fluctuation (n.)",
+          "definition": "An irregular change in level or amount.",
+          "example": "The system compensates for fluctuation in demand."
+        },
+        {
+          "word": "resounding (adj.)",
+          "definition": "Very clear, emphatic or complete.",
+          "example": "The campaign was a resounding success."
+        },
+        {
+          "word": "comprehensively (adv.)",
+          "definition": "In a complete and thorough manner.",
+          "example": "The policy was comprehensively reviewed."
+        },
+        {
+          "word": "fugitive (n.)",
+          "definition": "A person who is fleeing capture.",
+          "example": "The fugitive sought refuge in a remote village."
+        },
+        {
+          "word": "recollection (n.)",
+          "definition": "A memory of a past event.",
+          "example": "Her recollection of the incident was remarkably detailed."
+        },
+        {
+          "word": "preposterous (adj.)",
+          "definition": "Completely unreasonable or absurd.",
+          "example": "The witness rejected the preposterous claim."
+        },
+        {
+          "word": "memorialise (v.)",
+          "definition": "To preserve the memory of someone or something.",
+          "example": "The museum was built to memorialise the event."
+        },
+        {
+          "word": "subterfuge (n.)",
+          "definition": "A deceptive method used to achieve something.",
+          "example": "The character escapes through clever subterfuge."
+        },
+        {
+          "word": "tantalising (adj.)",
+          "definition": "Arousing interest or desire without offering satisfaction.",
+          "example": "The letter provides a tantalising clue."
+        }
+      ]
+    }
+  },
+  "17-2": {
+    "vocabulary": {
+      "title": "Test 2 · Reading vocabulary",
+      "words": [
+        {
+          "word": "antiquities (n.)",
+          "definition": "Objects surviving from ancient times.",
+          "example": "The gallery exhibits rare antiquities."
+        },
+        {
+          "word": "manuscript (n.)",
+          "definition": "A handwritten or original written document.",
+          "example": "The manuscript was preserved in a library."
+        },
+        {
+          "word": "prevailing (adj.)",
+          "definition": "Most common or generally accepted at a particular time.",
+          "example": "The prevailing view was challenged by new evidence."
+        },
+        {
+          "word": "parchment (n.)",
+          "definition": "Prepared animal skin used as a writing material.",
+          "example": "The document was written on parchment."
+        },
+        {
+          "word": "inscribe (v.)",
+          "definition": "To write or carve words onto a surface.",
+          "example": "Craftspeople inscribe names on the monument."
+        },
+        {
+          "word": "hoard (n.)",
+          "definition": "A hidden or carefully stored collection of valuable things.",
+          "example": "Archaeologists discovered a hoard of coins."
+        },
+        {
+          "word": "decipher (v.)",
+          "definition": "To work out the meaning of difficult or coded writing.",
+          "example": "Experts tried to decipher the ancient script."
+        },
+        {
+          "word": "hypothesis (n.)",
+          "definition": "A proposed explanation that can be tested.",
+          "example": "The team developed a hypothesis about the site's purpose."
+        },
+        {
+          "word": "domesticate (v.)",
+          "definition": "To adapt a wild plant or animal for human use.",
+          "example": "Early farmers began to domesticate wild plants."
+        },
+        {
+          "word": "nutritious (adj.)",
+          "definition": "Containing substances that support good health.",
+          "example": "Beans provide a nutritious source of protein."
+        },
+        {
+          "word": "devastate (v.)",
+          "definition": "To cause severe damage to something.",
+          "example": "A prolonged drought can devastate crops."
+        },
+        {
+          "word": "mutation (n.)",
+          "definition": "A change in an organism's genetic material.",
+          "example": "A mutation may affect resistance to disease."
+        },
+        {
+          "word": "genetic diversity (n.)",
+          "definition": "Variation in genetic characteristics within a population.",
+          "example": "Genetic diversity helps crops adapt to changing conditions."
+        },
+        {
+          "word": "strain (n.)",
+          "definition": "A particular variety of an organism.",
+          "example": "Scientists developed a disease-resistant strain."
+        },
+        {
+          "word": "regulatory approval (n.)",
+          "definition": "Official permission from an authority to use or sell something.",
+          "example": "The product needs regulatory approval before launch."
+        },
+        {
+          "word": "mainstream (n.)",
+          "definition": "Ideas or practices accepted by most people.",
+          "example": "The technology has entered the mainstream."
+        },
+        {
+          "word": "predecessor (n.)",
+          "definition": "A person or thing that came before another.",
+          "example": "The invention improved on its predecessor."
+        },
+        {
+          "word": "conventional wisdom (n.)",
+          "definition": "A belief generally accepted by society.",
+          "example": "The discovery challenged conventional wisdom."
+        },
+        {
+          "word": "spontaneously (adv.)",
+          "definition": "Without prior planning or external direction.",
+          "example": "The idea arose spontaneously during a discussion."
+        },
+        {
+          "word": "cumulative (adj.)",
+          "definition": "Increasing through successive additions.",
+          "example": "Small improvements have a cumulative effect."
+        },
+        {
+          "word": "postulate (v.)",
+          "definition": "To suggest something as a basis for reasoning or research.",
+          "example": "Scientists postulate a new explanation for the results."
+        },
+        {
+          "word": "serendipity (n.)",
+          "definition": "The occurrence of a useful discovery by chance.",
+          "example": "The invention owed much to serendipity."
+        },
+        {
+          "word": "mechanical (adj.)",
+          "definition": "Operating according to physical or automatic processes.",
+          "example": "The device relies on a mechanical system."
+        },
+        {
+          "word": "provenance (n.)",
+          "definition": "The origin or history of something.",
+          "example": "The museum investigated the painting's provenance."
+        }
+      ]
+    }
+  },
+  "17-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "marsupial (n.)",
+          "definition": "A mammal whose young develop further in a pouch.",
+          "example": "The kangaroo is a familiar marsupial."
+        },
+        {
+          "word": "superficial (adj.)",
+          "definition": "Existing only on the surface or in outward appearance.",
+          "example": "The two species share a superficial resemblance."
+        },
+        {
+          "word": "carnivorous (adj.)",
+          "definition": "Feeding mainly on other animals.",
+          "example": "The carnivorous animal hunts at night."
+        },
+        {
+          "word": "distend (v.)",
+          "definition": "To swell or expand through internal pressure.",
+          "example": "A large meal can distend the stomach."
+        },
+        {
+          "word": "nocturnal (adj.)",
+          "definition": "Active mainly during the night.",
+          "example": "Nocturnal animals often avoid daytime heat."
+        },
+        {
+          "word": "relentless (adj.)",
+          "definition": "Continuing without weakening or stopping.",
+          "example": "The forest faces relentless pressure from development."
+        },
+        {
+          "word": "captivity (n.)",
+          "definition": "The state of being confined under human control.",
+          "example": "Some endangered animals breed in captivity."
+        },
+        {
+          "word": "definitive (adj.)",
+          "definition": "Providing a final or conclusive answer.",
+          "example": "There is no definitive evidence of survival."
+        },
+        {
+          "word": "monoculture (n.)",
+          "definition": "Cultivation of a single crop across a large area.",
+          "example": "Monoculture can reduce local biodiversity."
+        },
+        {
+          "word": "boycott (v.)",
+          "definition": "To refuse to buy or use something as a protest.",
+          "example": "Consumers may boycott unsustainable products."
+        },
+        {
+          "word": "nuanced (adj.)",
+          "definition": "Recognizing subtle differences and complexities.",
+          "example": "The issue requires a nuanced discussion."
+        },
+        {
+          "word": "livelihood (n.)",
+          "definition": "A means of earning enough money to live.",
+          "example": "Farming provides a livelihood for local families."
+        },
+        {
+          "word": "contention (n.)",
+          "definition": "Disagreement or argument.",
+          "example": "Land ownership remains a source of contention."
+        },
+        {
+          "word": "sequester (v.)",
+          "definition": "To capture and store something away from its surroundings.",
+          "example": "Forests sequester carbon from the atmosphere."
+        },
+        {
+          "word": "sustainable (adj.)",
+          "definition": "Able to continue without exhausting resources or causing serious damage.",
+          "example": "The region needs sustainable agricultural practices."
+        },
+        {
+          "word": "biodiversity (n.)",
+          "definition": "The variety of living organisms in an area.",
+          "example": "Protecting wetlands supports biodiversity."
+        },
+        {
+          "word": "compilation (n.)",
+          "definition": "A collection of material brought together.",
+          "example": "The book is a compilation of historical studies."
+        },
+        {
+          "word": "subterranean (adj.)",
+          "definition": "Existing or occurring below the ground.",
+          "example": "The explorers entered a subterranean chamber."
+        },
+        {
+          "word": "tenement (n.)",
+          "definition": "A building divided into rented apartments.",
+          "example": "The family lived in a crowded tenement."
+        },
+        {
+          "word": "empirical (adj.)",
+          "definition": "Based on observation or experimental evidence.",
+          "example": "The theory requires empirical support."
+        },
+        {
+          "word": "enclave (n.)",
+          "definition": "A distinct area or community surrounded by another.",
+          "example": "The neighbourhood developed into an immigrant enclave."
+        },
+        {
+          "word": "immense (adj.)",
+          "definition": "Extremely large in size or degree.",
+          "example": "The project required immense investment."
+        },
+        {
+          "word": "exuberance (n.)",
+          "definition": "A state of great enthusiasm or excitement.",
+          "example": "Investor exuberance contributed to the boom."
+        },
+        {
+          "word": "epilogue (n.)",
+          "definition": "A concluding section of a book or story.",
+          "example": "The epilogue considers the city's future."
+        }
+      ]
+    }
+  },
+  "17-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "insectivorous (adj.)",
+          "definition": "Feeding mainly on insects.",
+          "example": "Insectivorous birds help control pests."
+        },
+        {
+          "word": "indigenous (adj.)",
+          "definition": "Native to a particular place.",
+          "example": "The island supports many indigenous species."
+        },
+        {
+          "word": "modification (n.)",
+          "definition": "A change made to something.",
+          "example": "Habitat modification affects animal behaviour."
+        },
+        {
+          "word": "ultrasonic (adj.)",
+          "definition": "Using sound frequencies above human hearing.",
+          "example": "The researchers used ultrasonic detectors."
+        },
+        {
+          "word": "echolocation (n.)",
+          "definition": "Locating objects by interpreting reflected sound.",
+          "example": "Bats use echolocation to navigate in darkness."
+        },
+        {
+          "word": "infestation (n.)",
+          "definition": "The presence of a large number of harmful pests.",
+          "example": "The crop suffered a serious infestation."
+        },
+        {
+          "word": "tangible (adj.)",
+          "definition": "Real and clearly noticeable or measurable.",
+          "example": "The programme delivered tangible benefits."
+        },
+        {
+          "word": "mutually beneficial (adj.)",
+          "definition": "Providing advantages to both parties.",
+          "example": "The partnership was mutually beneficial."
+        },
+        {
+          "word": "inventory (n.)",
+          "definition": "A detailed list of possessions or goods.",
+          "example": "The researcher examined a household inventory."
+        },
+        {
+          "word": "causal (adj.)",
+          "definition": "Relating to a cause-and-effect relationship.",
+          "example": "Correlation does not necessarily establish a causal link."
+        },
+        {
+          "word": "numeracy (n.)",
+          "definition": "The ability to understand and work with numbers.",
+          "example": "Basic numeracy is essential for managing money."
+        },
+        {
+          "word": "demographic (adj.)",
+          "definition": "Relating to the characteristics of populations.",
+          "example": "The study examined demographic changes."
+        },
+        {
+          "word": "reprimand (v.)",
+          "definition": "To criticize someone officially for wrongdoing.",
+          "example": "Supervisors may reprimand workers for unsafe conduct."
+        },
+        {
+          "word": "defiance (n.)",
+          "definition": "Open resistance to authority or rules.",
+          "example": "The decision was an act of defiance."
+        },
+        {
+          "word": "monopoly (n.)",
+          "definition": "Exclusive control over a market or activity.",
+          "example": "The guild maintained a monopoly on the trade."
+        },
+        {
+          "word": "mobility (n.)",
+          "definition": "The ability to move or change position, job or social status.",
+          "example": "Education can improve social mobility."
+        },
+        {
+          "word": "simultaneously (adv.)",
+          "definition": "At the same time.",
+          "example": "The system processes several requests simultaneously."
+        },
+        {
+          "word": "prowess (n.)",
+          "definition": "Outstanding skill or ability.",
+          "example": "The athlete demonstrated remarkable prowess."
+        },
+        {
+          "word": "uninitiated (adj.)",
+          "definition": "Without knowledge or experience of a subject.",
+          "example": "The rules are confusing to the uninitiated."
+        },
+        {
+          "word": "accomplished (adj.)",
+          "definition": "Highly skilled or successful.",
+          "example": "She is an accomplished musician."
+        },
+        {
+          "word": "fragmented (adj.)",
+          "definition": "Broken into separate or incomplete parts.",
+          "example": "His account was based on fragmented memories."
+        },
+        {
+          "word": "tentative (adj.)",
+          "definition": "Not yet certain or final.",
+          "example": "The study reached a tentative conclusion."
+        },
+        {
+          "word": "allocate (v.)",
+          "definition": "To assign resources, time or attention for a purpose.",
+          "example": "The team must allocate its time efficiently."
+        },
+        {
+          "word": "obsession (n.)",
+          "definition": "An idea or interest that occupies the mind excessively.",
+          "example": "His obsession with detail improved his performance."
+        }
+      ]
+    }
   }
 };
