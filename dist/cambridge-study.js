@@ -10020,6 +10020,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         323.38,
         460.245
       ],
+      "7": [
+        327,
+        336,
+        460.245
+      ],
       "8": [
         342.02,
         351.99,
@@ -10130,6 +10135,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         380.1,
         432.853
       ],
+      "30": [
+        369,
+        378,
+        432.853
+      ],
       "31": [
         114.08,
         123.94,
@@ -10188,6 +10198,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "4": "keyword",
       "5": "context",
       "6": "keyword",
+      "7": "context",
       "8": "keyword",
       "9": "keyword",
       "10": "keyword",
@@ -10210,6 +10221,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "27": "context",
       "28": "context",
       "29": "context",
+      "30": "context",
       "31": "keyword",
       "32": "keyword",
       "33": "keyword",
@@ -10227,7 +10239,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "39c30c0f92af2b16215528fc4967d7f7e54a47331754d36cbc33ade76289486f",
       "4": "bec1bdcc869b6ccace93144edc2bc19e2640b804bfe9428c0a664c2a7f49c6d0"
     },
-    "cueProvenance": "Rechecked on original teacher-uploaded recordings using PocketSphinx automatic phrase detection, preserving source time. Retained only selected detections with plausible transcript context; other cues removed. Context labels are approximate, not human-listening verified. Source hashes unchanged.",
+    "cueProvenance": "Automatic audio phrase detection and second-pass unconstrained PocketSphinx decoding on source-clock excerpts from all 16 exact-hash teacher recordings. Context cues indicate a nearby recognized passage rather than a verified answer word. Not manually listening-audited; word recognition and replay boundaries are approximate.",
     "cueAudioEvidence": {
       "1": [
         137.5,
@@ -10252,6 +10264,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": [
         317.43,
         318.38
+      ],
+      "7": [
+        330.85,
+        334.36
       ],
       "8": [
         346.02,
@@ -10341,6 +10357,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         365.05,
         366.1
       ],
+      "30": [
+        372.73,
+        373.59
+      ],
       "31": [
         118.08,
         118.94
@@ -10381,6 +10401,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         456.31,
         457.76
       ]
+    },
+    "cueEvidenceNotes": {
+      "7": "Question about document; decoder recognized 'about my possible ... yes ... also see that'.",
+      "30": "Decoded 'put up with each' and nearby amicable coexistence."
     }
   },
   "15-2": {
@@ -10784,6 +10808,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         227.73,
         423.68
       ],
+      "15": [
+        291,
+        308,
+        423.68
+      ],
       "16": [
         304.29,
         323.8,
@@ -10925,6 +10954,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "12": "context",
       "13": "context",
       "14": "context",
+      "15": "context",
       "16": "context",
       "17": "context",
       "18": "context",
@@ -10957,7 +10987,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "65ea3cbff5d534e5f7cb9bbc485ec9e23c81cdd0c4523f1ddb6427e5fe1faba0",
       "4": "ff963afe25a73386f56d55a7f30e7c56183193b06717cba0289e6479ae664b61"
     },
-    "cueProvenance": "Rechecked on original teacher-uploaded recordings using PocketSphinx automatic phrase detection, preserving source time. Retained only selected detections with plausible transcript context; other cues removed. Context labels are approximate, not human-listening verified. Source hashes unchanged.",
+    "cueProvenance": "Automatic audio phrase detection and second-pass unconstrained PocketSphinx decoding on source-clock excerpts from all 16 exact-hash teacher recordings. Context cues indicate a nearby recognized passage rather than a verified answer word. Not manually listening-audited; word recognition and replay boundaries are approximate.",
     "cueAudioEvidence": {
       "1": [
         130.73,
@@ -11014,6 +11044,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "14": [
         212.17,
         220.73
+      ],
+      "15": [
+        291.9,
+        306.39
       ],
       "16": [
         310.29,
@@ -11115,6 +11149,9 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         422.98,
         425.39
       ]
+    },
+    "cueEvidenceNotes": {
+      "15": "Decoded statue of Diana, moved from south gate, and new position in park."
     }
   },
   "15-3": {
@@ -11533,6 +11570,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         321.74,
         424.533
       ],
+      "18": [
+        307,
+        317,
+        424.533
+      ],
       "19": [
         358.47,
         379.45,
@@ -11573,6 +11615,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         214.12,
         410.069
       ],
+      "27": [
+        268,
+        293,
+        410.069
+      ],
       "28": [
         297.52,
         319.07,
@@ -11587,6 +11634,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         345.32,
         360.09,
         410.069
+      ],
+      "31": [
+        93,
+        103,
+        467.072
       ],
       "32": [
         110.85,
@@ -11652,6 +11704,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "15": "context",
       "16": "context",
       "17": "context",
+      "18": "context",
       "19": "context",
       "20": "context",
       "21": "keyword",
@@ -11660,9 +11713,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "24": "keyword",
       "25": "keyword",
       "26": "keyword",
+      "27": "context",
       "28": "context",
       "29": "context",
       "30": "context",
+      "31": "context",
       "32": "keyword",
       "33": "keyword",
       "34": "keyword",
@@ -11679,7 +11734,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "fe62b46af83ffb20fb7f2d60ddec4800b52364ee73041666fe07f737db9c5161",
       "4": "9158a297f45cc1b4b67de3d0110b36399bcc045552ff683a1996c62d5d43e2c3"
     },
-    "cueProvenance": "Rechecked on original teacher-uploaded recordings using PocketSphinx automatic phrase detection, preserving source time. Retained only selected detections with plausible transcript context; other cues removed. Context labels are approximate, not human-listening verified. Source hashes unchanged.",
+    "cueProvenance": "Automatic audio phrase detection and second-pass unconstrained PocketSphinx decoding on source-clock excerpts from all 16 exact-hash teacher recordings. Context cues indicate a nearby recognized passage rather than a verified answer word. Not manually listening-audited; word recognition and replay boundaries are approximate.",
     "cueAudioEvidence": {
       "1": [
         128.94,
@@ -11749,6 +11804,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         306.63,
         307.74
       ],
+      "18": [
+        311.48,
+        316.4
+      ],
       "19": [
         364.47,
         365.45
@@ -11781,6 +11840,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         208.1,
         209.12
       ],
+      "27": [
+        270.31,
+        291.94
+      ],
       "28": [
         303.52,
         305.07
@@ -11792,6 +11855,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "30": [
         351.32,
         353.09
+      ],
+      "31": [
+        97.47,
+        99.82
       ],
       "32": [
         114.85,
@@ -11829,6 +11896,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         363.35,
         365.31
       ]
+    },
+    "cueEvidenceNotes": {
+      "18": "Decoded reference to adults in the street and extended family.",
+      "27": "Decoded politics, newspaper and suitable topic discussion.",
+      "31": "Decoded cleansing properties and removing material off the hands; target noun not clearly recognized."
     }
   },
   "15-4": {
@@ -12162,6 +12234,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       ]
     },
     "cues": {
+      "1": [
+        115,
+        125,
+        474.666
+      ],
       "2": [
         127.41,
         137.4,
@@ -12185,6 +12262,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": [
         238.65,
         249.23,
+        474.666
+      ],
+      "7": [
+        310,
+        322,
+        474.666
+      ],
+      "8": [
+        332,
+        343,
         474.666
       ],
       "9": [
@@ -12212,14 +12299,29 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         136,
         381.184
       ],
+      "14": [
+        141,
+        155,
+        381.184
+      ],
       "15": [
         162,
         182.55,
         381.184
       ],
+      "16": [
+        180,
+        196,
+        381.184
+      ],
       "17": [
         258.61,
         280.65,
+        381.184
+      ],
+      "18": [
+        269,
+        285,
         381.184
       ],
       "19": [
@@ -12232,6 +12334,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         337.05,
         381.184
       ],
+      "21": [
+        81,
+        96,
+        418.858
+      ],
+      "22": [
+        98,
+        122,
+        418.858
+      ],
       "23": [
         141,
         157,
@@ -12242,9 +12354,19 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         181.85,
         418.858
       ],
+      "25": [
+        246,
+        266,
+        418.858
+      ],
       "26": [
         263.58,
         282,
+        418.858
+      ],
+      "27": [
+        290,
+        308,
         418.858
       ],
       "28": [
@@ -12257,6 +12379,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         352,
         418.858
       ],
+      "30": [
+        354,
+        378,
+        418.858
+      ],
       "31": [
         105.76,
         115.91,
@@ -12267,35 +12394,88 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         133.87,
         467.797
       ],
+      "33": [
+        145,
+        161,
+        467.797
+      ],
       "34": [
         164.42,
         174.63,
         467.797
+      ],
+      "35": [
+        184,
+        197,
+        467.797
+      ],
+      "36": [
+        254,
+        270,
+        467.797
+      ],
+      "37": [
+        275,
+        290,
+        467.797
+      ],
+      "38": [
+        316,
+        330,
+        467.797
+      ],
+      "39": [
+        329,
+        342,
+        467.797
+      ],
+      "40": [
+        345,
+        359,
+        467.797
       ]
     },
     "cueMethod": {
+      "1": "context",
       "2": "keyword",
       "3": "context",
       "4": "keyword",
       "5": "keyword",
       "6": "keyword",
+      "7": "context",
+      "8": "keyword",
       "9": "keyword",
       "10": "keyword",
       "11": "context",
       "12": "context",
       "13": "context",
+      "14": "context",
       "15": "context",
+      "16": "context",
       "17": "context",
+      "18": "context",
       "19": "context",
       "20": "context",
+      "21": "context",
+      "22": "context",
       "23": "context",
       "24": "context",
+      "25": "context",
       "26": "context",
+      "27": "context",
       "28": "context",
       "29": "context",
+      "30": "context",
       "31": "keyword",
       "32": "keyword",
-      "34": "keyword"
+      "33": "keyword",
+      "34": "keyword",
+      "35": "context",
+      "36": "context",
+      "37": "context",
+      "38": "context",
+      "39": "context",
+      "40": "context"
     },
     "audioSha256": {
       "1": "5b51a2b675abdb931f17b2d4520cbfae13628cda981efa6c5c16cb51b9aaa243",
@@ -12303,8 +12483,12 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "d525df9fd799910eb858c37cc3fd5560ea9c25aa942f1872fdcdd319d9a438aa",
       "4": "6bf75aee0d1d061d475bd0ff0d9564c3c7ea623ab21b760125b2e9c77b5cd02a"
     },
-    "cueProvenance": "Rechecked on original teacher-uploaded recordings using PocketSphinx automatic phrase detection, preserving source time. Retained only selected detections with plausible transcript context; other cues removed. Context labels are approximate, not human-listening verified. Source hashes unchanged.",
+    "cueProvenance": "Automatic audio phrase detection and second-pass unconstrained PocketSphinx decoding on source-clock excerpts from all 16 exact-hash teacher recordings. Context cues indicate a nearby recognized passage rather than a verified answer word. Not manually listening-audited; word recognition and replay boundaries are approximate.",
     "cueAudioEvidence": {
+      "1": [
+        117.49,
+        122.49
+      ],
       "2": [
         131.41,
         132.4
@@ -12324,6 +12508,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "6": [
         242.65,
         244.23
+      ],
+      "7": [
+        313.54,
+        318.33
+      ],
+      "8": [
+        336.62,
+        340.43
       ],
       "9": [
         366.29,
@@ -12345,13 +12537,25 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         124.63,
         126.64
       ],
+      "14": [
+        145.93,
+        149.5
+      ],
       "15": [
         168.01,
         175.55
       ],
+      "16": [
+        180.56,
+        194.55
+      ],
       "17": [
         264.61,
         266.65
+      ],
+      "18": [
+        275.95,
+        283.26
       ],
       "19": [
         297.89,
@@ -12361,6 +12565,14 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         328.99,
         330.05
       ],
+      "21": [
+        83.34,
+        93.27
+      ],
+      "22": [
+        101.16,
+        120.84
+      ],
       "23": [
         147.37,
         148.32
@@ -12369,9 +12581,17 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         168.86,
         174.85
       ],
+      "25": [
+        248.74,
+        262.96
+      ],
       "26": [
         269.59,
         270.47
+      ],
+      "27": [
+        292.76,
+        304.71
       ],
       "28": [
         311.62,
@@ -12381,6 +12601,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         340.27,
         341.38
       ],
+      "30": [
+        357.85,
+        374.1
+      ],
       "31": [
         109.76,
         110.91
@@ -12389,10 +12613,58 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         128.18,
         128.87
       ],
+      "33": [
+        154.44,
+        155.26
+      ],
       "34": [
         168.42,
         169.63
+      ],
+      "35": [
+        186.01,
+        195.2
+      ],
+      "36": [
+        258.25,
+        263.26
+      ],
+      "37": [
+        283.14,
+        287.52
+      ],
+      "38": [
+        320.33,
+        327
+      ],
+      "39": [
+        334.7,
+        338.87
+      ],
+      "40": [
+        351.71,
+        356.74
       ]
+    },
+    "cueEvidenceNotes": {
+      "1": "Decoded occupation question and response; recognizer mistranscribed occupation noun.",
+      "7": "Decoded the train running about fifteen minutes behind.",
+      "8": "Decoded 'amount of information' and train times given to passengers.",
+      "14": "Decoded directions to the right of the path from south gate; feature name imperfect.",
+      "16": "Decoded feature south of the adventure playground.",
+      "18": "Decoded instruction not to leave children on their own, and adults keeping an eye on them.",
+      "21": "Decoded blocks of ice and insulation discussion; insulation words imperfect.",
+      "22": "Decoded imported snow, ice, cost and who could afford it.",
+      "25": "Decoded range of refrigerated goods and speaker offering to do that topic.",
+      "27": "Decoded division of research, effects on food producers and different countries; target phrase imperfect.",
+      "30": "Decoded domestic refrigerators and speakers splitting historical and present-day research.",
+      "33": "Decoded 'new sources of power' in industrial revolution discussion.",
+      "35": "Decoded production of goods on a larger scale and space requirements; machinery term imperfect.",
+      "36": "Decoded discussion of mass publication and knowledge of national events; newspaper word imperfect.",
+      "37": "Decoded sale around the country instead of the local market; local imperfectly recognized.",
+      "38": "Decoded improved shop conditions and visibility of goods; lighting word imperfect.",
+      "39": "Decoded development of larger shop windows; target word imperfectly recognized.",
+      "40": "Decoded informing potential customers and expansion of advertising; recognizer rendered advertising as appetizing."
     }
   }
 };
