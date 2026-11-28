@@ -14690,8 +14690,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           101,
-          "it's an example of how people are in two minds about the natural world",
-          "William Wells suggests a conflicted attitude to nature."
+          "ambiguous people are in the way they exploit the natural world",
+          "The portrait conveys a conflicted attitude towards nature."
         ],
         [
           101,
@@ -14755,7 +14755,452 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     },
-    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted.",
+    "cues": {
+      "1": [
+        112.7,
+        130.5,
+        422.51
+      ],
+      "2": [
+        127.9,
+        145.6,
+        422.51
+      ],
+      "3": [
+        147.9,
+        162.4,
+        422.51
+      ],
+      "4": [
+        231.2,
+        254.4,
+        422.51
+      ],
+      "5": [
+        263.1,
+        280.8,
+        422.51
+      ],
+      "6": [
+        278.3,
+        293.7,
+        422.51
+      ],
+      "7": [
+        299.6,
+        313.5,
+        422.51
+      ],
+      "8": [
+        319,
+        338.2,
+        422.51
+      ],
+      "9": [
+        348.7,
+        365.9,
+        422.51
+      ],
+      "10": [
+        367,
+        380.3,
+        422.51
+      ],
+      "12": [
+        95.2,
+        129.4,
+        417.379
+      ],
+      "13": [
+        127.7,
+        153,
+        417.379
+      ],
+      "14": [
+        152.5,
+        171,
+        417.379
+      ],
+      "15": [
+        253.4,
+        272,
+        417.379
+      ],
+      "16": [
+        276.7,
+        294.1,
+        417.379
+      ],
+      "17": [
+        292.3,
+        306.8,
+        417.379
+      ],
+      "18": [
+        313.5,
+        338.5,
+        417.379
+      ],
+      "19": [
+        336.8,
+        356.6,
+        417.379
+      ],
+      "20": [
+        354.9,
+        373.8,
+        417.379
+      ],
+      "21": [
+        78.1,
+        93.9,
+        401.845
+      ],
+      "22": [
+        55.2,
+        75,
+        401.845
+      ],
+      "23": [
+        157.7,
+        177,
+        401.845
+      ],
+      "24": [
+        113.4,
+        133.3,
+        401.845
+      ],
+      "25": [
+        229.2,
+        254,
+        401.845
+      ],
+      "26": [
+        264.5,
+        278.4,
+        401.845
+      ],
+      "27": [
+        287.7,
+        300.6,
+        401.845
+      ],
+      "28": [
+        311.1,
+        327.3,
+        401.845
+      ],
+      "29": [
+        336.3,
+        347.9,
+        401.845
+      ],
+      "30": [
+        345.5,
+        361.4,
+        401.845
+      ],
+      "31": [
+        88.6,
+        101.7,
+        505.615
+      ],
+      "32": [
+        110.6,
+        134.3,
+        505.615
+      ],
+      "33": [
+        171.5,
+        183.3,
+        505.615
+      ],
+      "34": [
+        181.8,
+        201,
+        505.615
+      ],
+      "35": [
+        235.2,
+        249.9,
+        505.615
+      ],
+      "36": [
+        271.5,
+        287.5,
+        505.615
+      ],
+      "37": [
+        320.6,
+        339.8,
+        505.615
+      ],
+      "38": [
+        338,
+        352,
+        505.615
+      ],
+      "39": [
+        355.7,
+        368.4,
+        505.615
+      ],
+      "40": [
+        388.9,
+        402.8,
+        505.615
+      ]
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "12": "context",
+      "13": "context",
+      "14": "context",
+      "15": "context",
+      "16": "context",
+      "17": "context",
+      "18": "context",
+      "19": "context",
+      "20": "context",
+      "21": "context",
+      "22": "context",
+      "23": "context",
+      "24": "context",
+      "25": "context",
+      "26": "context",
+      "27": "context",
+      "28": "context",
+      "29": "context",
+      "30": "context",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "cueAudioEvidence": {
+      "1": [
+        114.2,
+        129
+      ],
+      "2": [
+        129.4,
+        144.1
+      ],
+      "3": [
+        149.4,
+        160.9
+      ],
+      "4": [
+        232.7,
+        252.9
+      ],
+      "5": [
+        264.6,
+        279.3
+      ],
+      "6": [
+        279.8,
+        292.2
+      ],
+      "7": [
+        301.1,
+        312
+      ],
+      "8": [
+        320.5,
+        336.7
+      ],
+      "9": [
+        350.2,
+        364.4
+      ],
+      "10": [
+        368.5,
+        378.8
+      ],
+      "12": [
+        96.7,
+        127.9
+      ],
+      "13": [
+        129.2,
+        151.5
+      ],
+      "14": [
+        154,
+        169.5
+      ],
+      "15": [
+        254.9,
+        270.5
+      ],
+      "16": [
+        278.2,
+        292.6
+      ],
+      "17": [
+        293.8,
+        305.3
+      ],
+      "18": [
+        315,
+        337
+      ],
+      "19": [
+        338.3,
+        355.1
+      ],
+      "20": [
+        356.4,
+        372.3
+      ],
+      "21": [
+        79.6,
+        92.4
+      ],
+      "22": [
+        56.7,
+        73.5
+      ],
+      "23": [
+        159.2,
+        175.5
+      ],
+      "24": [
+        114.9,
+        131.8
+      ],
+      "25": [
+        230.7,
+        252.5
+      ],
+      "26": [
+        266,
+        276.9
+      ],
+      "27": [
+        289.2,
+        299.1
+      ],
+      "28": [
+        312.6,
+        325.8
+      ],
+      "29": [
+        337.8,
+        346.4
+      ],
+      "30": [
+        347,
+        359.9
+      ],
+      "31": [
+        90.1,
+        100.2
+      ],
+      "32": [
+        112.1,
+        132.8
+      ],
+      "33": [
+        173,
+        181.8
+      ],
+      "34": [
+        183.3,
+        199.5
+      ],
+      "35": [
+        236.7,
+        248.4
+      ],
+      "36": [
+        273,
+        286
+      ],
+      "37": [
+        322.1,
+        338.3
+      ],
+      "38": [
+        339.5,
+        350.5
+      ],
+      "39": [
+        357.2,
+        366.9
+      ],
+      "40": [
+        390.4,
+        401.3
+      ]
+    },
+    "cueAuditStatus": {
+      "1": "asr-candidate",
+      "2": "asr-candidate",
+      "3": "asr-candidate",
+      "4": "asr-candidate",
+      "5": "asr-candidate",
+      "6": "asr-candidate",
+      "7": "asr-candidate",
+      "8": "asr-candidate",
+      "9": "asr-candidate",
+      "10": "asr-candidate",
+      "11": "unresolved-asr-gap",
+      "12": "asr-context-reviewed",
+      "13": "asr-context-reviewed",
+      "14": "asr-context-reviewed",
+      "15": "asr-context-reviewed",
+      "16": "asr-context-reviewed",
+      "17": "asr-context-reviewed",
+      "18": "asr-context-reviewed",
+      "19": "asr-context-reviewed",
+      "20": "asr-context-reviewed",
+      "21": "asr-context-reviewed",
+      "22": "asr-context-reviewed",
+      "23": "asr-context-reviewed",
+      "24": "asr-context-reviewed",
+      "25": "asr-context-reviewed",
+      "26": "asr-context-reviewed",
+      "27": "asr-context-reviewed",
+      "28": "asr-context-reviewed",
+      "29": "asr-context-reviewed",
+      "30": "asr-context-reviewed",
+      "31": "asr-candidate",
+      "32": "asr-candidate",
+      "33": "asr-candidate",
+      "34": "asr-candidate",
+      "35": "asr-candidate",
+      "36": "asr-candidate",
+      "37": "asr-candidate",
+      "38": "asr-candidate",
+      "39": "asr-candidate",
+      "40": "asr-candidate"
+    },
+    "audioSha256": {
+      "1": "ead07c8f79537c47ca6e7a717b85c7867623e40c80947848e3d8319b11a70d9f",
+      "2": "055c0e6c18c6c473580391aeb77e2f1dcfa8627628eccaae5ad34d46e51f64ed",
+      "3": "2e6cbab31c461fffdaf33e6b309c43569bf5da84d5a47e48990c618a7d3c1912",
+      "4": "1d504b04434d0ec79a9799733855fc14b444867082f88e393ad425ce267a6ee7"
+    },
+    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback."
   },
   "16-2": {
     "vocabulary": {
@@ -15047,13 +15492,13 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           108,
-          "the risk of injury with fitness is quite low",
-          "Dance can improve fitness without a high risk of injury."
+          "even those whose standard of fitness is quite low",
+          "Dance is accessible even to people with low fitness levels."
         ],
         [
           108,
-          "beneficial in older adults who have a poor sense of balance",
-          "Dance can improve balance in older adults."
+          "helping people to improve their balance",
+          "Dance can improve balance and reduce the risk of falls in older adults."
         ],
         [
           108,
@@ -15087,7 +15532,462 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     },
-    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted.",
+    "cues": {
+      "1": [
+        126.9,
+        137.9,
+        397.99
+      ],
+      "2": [
+        147,
+        160.8,
+        397.99
+      ],
+      "3": [
+        166.4,
+        186.7,
+        397.99
+      ],
+      "4": [
+        245.1,
+        261.3,
+        397.99
+      ],
+      "5": [
+        263.5,
+        279.7,
+        397.99
+      ],
+      "6": [
+        282,
+        295.7,
+        397.99
+      ],
+      "7": [
+        293.2,
+        309,
+        397.99
+      ],
+      "8": [
+        310.9,
+        327.7,
+        397.99
+      ],
+      "9": [
+        329.9,
+        338.5,
+        397.99
+      ],
+      "10": [
+        342.7,
+        353.3,
+        397.99
+      ],
+      "11": [
+        73.2,
+        104.1,
+        464.213
+      ],
+      "12": [
+        123.8,
+        137.6,
+        464.213
+      ],
+      "13": [
+        147.8,
+        169.6,
+        464.213
+      ],
+      "14": [
+        182.7,
+        206.3,
+        464.213
+      ],
+      "15": [
+        218.4,
+        232.9,
+        464.213
+      ],
+      "16": [
+        292.7,
+        315.8,
+        464.213
+      ],
+      "17": [
+        312.8,
+        338.4,
+        464.213
+      ],
+      "18": [
+        337.3,
+        353.1,
+        464.213
+      ],
+      "19": [
+        403.4,
+        425.5,
+        464.213
+      ],
+      "20": [
+        385.8,
+        402.2,
+        464.213
+      ],
+      "21": [
+        69.8,
+        91.3,
+        416.682
+      ],
+      "22": [
+        97.3,
+        127.8,
+        416.682
+      ],
+      "23": [
+        156.5,
+        177.7,
+        416.682
+      ],
+      "24": [
+        178.5,
+        197.7,
+        416.682
+      ],
+      "25": [
+        271.2,
+        287,
+        416.682
+      ],
+      "26": [
+        300.8,
+        317.8,
+        416.682
+      ],
+      "27": [
+        319.5,
+        332.7,
+        416.682
+      ],
+      "28": [
+        334.4,
+        346,
+        416.682
+      ],
+      "29": [
+        346.7,
+        367.1,
+        416.682
+      ],
+      "30": [
+        364.7,
+        372.3,
+        416.682
+      ],
+      "31": [
+        155.1,
+        172.7,
+        526.303
+      ],
+      "32": [
+        171.5,
+        192.4,
+        526.303
+      ],
+      "33": [
+        210.9,
+        225.5,
+        526.303
+      ],
+      "34": [
+        243.8,
+        259.7,
+        526.303
+      ],
+      "35": [
+        272.1,
+        293.9,
+        526.303
+      ],
+      "36": [
+        302.7,
+        320.7,
+        526.303
+      ],
+      "37": [
+        336.6,
+        349,
+        526.303
+      ],
+      "38": [
+        374.1,
+        384.5,
+        526.303
+      ],
+      "39": [
+        390.5,
+        411.4,
+        526.303
+      ],
+      "40": [
+        409.2,
+        427.1,
+        526.303
+      ]
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "context",
+      "12": "context",
+      "13": "context",
+      "14": "context",
+      "15": "context",
+      "16": "context",
+      "17": "context",
+      "18": "context",
+      "19": "context",
+      "20": "context",
+      "21": "context",
+      "22": "context",
+      "23": "context",
+      "24": "context",
+      "25": "keyword",
+      "26": "keyword",
+      "27": "keyword",
+      "28": "keyword",
+      "29": "keyword",
+      "30": "keyword",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "cueAudioEvidence": {
+      "1": [
+        128.4,
+        136.4
+      ],
+      "2": [
+        148.5,
+        159.3
+      ],
+      "3": [
+        167.9,
+        185.2
+      ],
+      "4": [
+        246.6,
+        259.8
+      ],
+      "5": [
+        265,
+        278.2
+      ],
+      "6": [
+        283.5,
+        294.2
+      ],
+      "7": [
+        294.7,
+        307.5
+      ],
+      "8": [
+        312.4,
+        326.2
+      ],
+      "9": [
+        331.4,
+        337
+      ],
+      "10": [
+        344.2,
+        351.8
+      ],
+      "11": [
+        74.7,
+        102.6
+      ],
+      "12": [
+        125.3,
+        136.1
+      ],
+      "13": [
+        149.3,
+        168.1
+      ],
+      "14": [
+        184.2,
+        204.8
+      ],
+      "15": [
+        219.9,
+        231.4
+      ],
+      "16": [
+        294.2,
+        314.3
+      ],
+      "17": [
+        314.3,
+        336.9
+      ],
+      "18": [
+        338.8,
+        351.6
+      ],
+      "19": [
+        404.9,
+        424
+      ],
+      "20": [
+        387.3,
+        400.7
+      ],
+      "21": [
+        71.3,
+        89.8
+      ],
+      "22": [
+        98.8,
+        126.3
+      ],
+      "23": [
+        158,
+        176.2
+      ],
+      "24": [
+        180,
+        196.2
+      ],
+      "25": [
+        272.7,
+        285.5
+      ],
+      "26": [
+        302.3,
+        316.3
+      ],
+      "27": [
+        321,
+        331.2
+      ],
+      "28": [
+        335.9,
+        344.5
+      ],
+      "29": [
+        348.2,
+        365.6
+      ],
+      "30": [
+        366.2,
+        370.8
+      ],
+      "31": [
+        156.6,
+        171.2
+      ],
+      "32": [
+        173,
+        190.9
+      ],
+      "33": [
+        212.4,
+        224
+      ],
+      "34": [
+        245.3,
+        258.2
+      ],
+      "35": [
+        273.6,
+        292.4
+      ],
+      "36": [
+        304.2,
+        319.2
+      ],
+      "37": [
+        338.1,
+        347.5
+      ],
+      "38": [
+        375.6,
+        383
+      ],
+      "39": [
+        392,
+        409.9
+      ],
+      "40": [
+        410.7,
+        425.6
+      ]
+    },
+    "cueAuditStatus": {
+      "1": "asr-candidate",
+      "2": "asr-candidate",
+      "3": "asr-candidate",
+      "4": "asr-candidate",
+      "5": "asr-candidate",
+      "6": "asr-candidate",
+      "7": "asr-candidate",
+      "8": "asr-candidate",
+      "9": "asr-candidate",
+      "10": "asr-candidate",
+      "11": "asr-context-reviewed",
+      "12": "asr-context-reviewed",
+      "13": "asr-context-reviewed",
+      "14": "asr-context-reviewed",
+      "15": "asr-context-reviewed",
+      "16": "asr-context-reviewed",
+      "17": "asr-context-reviewed",
+      "18": "asr-context-reviewed",
+      "19": "asr-context-reviewed",
+      "20": "asr-context-reviewed",
+      "21": "asr-context-reviewed",
+      "22": "asr-context-reviewed",
+      "23": "asr-context-reviewed",
+      "24": "asr-context-reviewed",
+      "25": "asr-candidate",
+      "26": "asr-candidate",
+      "27": "asr-candidate",
+      "28": "asr-candidate",
+      "29": "asr-candidate",
+      "30": "asr-candidate",
+      "31": "asr-candidate",
+      "32": "asr-candidate",
+      "33": "asr-candidate",
+      "34": "asr-candidate",
+      "35": "asr-candidate",
+      "36": "asr-candidate",
+      "37": "asr-candidate",
+      "38": "asr-candidate",
+      "39": "asr-candidate",
+      "40": "asr-candidate"
+    },
+    "audioSha256": {
+      "1": "940b5fd053b3f3da1b160a790457ef960bb67b1c610cc63805413c975d4a4ed6",
+      "2": "5892412e7111e68381b7bad56d333563d8391a5912d3a81e7db8f2043e230517",
+      "3": "515503bd20652970180bb70e5f70ff6fc10fe56b28e1b440cc54c935ed4c4b03",
+      "4": "3d43c1b1078d6e49f625d9820fdaef271d9ce7568f1d3cf6f2833bb2267e866b"
+    },
+    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback."
   },
   "16-3": {
     "vocabulary": {
@@ -15354,13 +16254,13 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           113,
-          "make the stairs wider and in an obvious place",
-          "Changing the built environment can encourage people to exercise."
+          "increase the width of the stairs",
+          "The position and width of stairs can influence people's behaviour."
         ],
         [
           113,
-          "we should be talking about exercise in our presentation",
-          "They decide not to focus on exercise because their assignment concerns nutrition."
+          "we need to focus on causes and solutions in terms of nutrition",
+          "They agree to leave exercise out of their presentation to avoid making it too broad."
         ],
         [
           113,
@@ -15419,7 +16319,462 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     },
-    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted.",
+    "cues": {
+      "1": [
+        130.9,
+        146.6,
+        493.563
+      ],
+      "2": [
+        150.4,
+        180.1,
+        493.563
+      ],
+      "3": [
+        177.8,
+        197.5,
+        493.563
+      ],
+      "4": [
+        228.1,
+        248.1,
+        493.563
+      ],
+      "5": [
+        249.4,
+        266.9,
+        493.563
+      ],
+      "6": [
+        310.9,
+        325.7,
+        493.563
+      ],
+      "7": [
+        330.5,
+        352.3,
+        493.563
+      ],
+      "8": [
+        381.2,
+        393.4,
+        493.563
+      ],
+      "9": [
+        403.4,
+        422.8,
+        493.563
+      ],
+      "10": [
+        429.6,
+        449.3,
+        493.563
+      ],
+      "11": [
+        95.8,
+        107.1,
+        408.462
+      ],
+      "12": [
+        70,
+        87.5,
+        408.462
+      ],
+      "13": [
+        149.6,
+        170.4,
+        408.462
+      ],
+      "14": [
+        127.2,
+        135.5,
+        408.462
+      ],
+      "15": [
+        233.2,
+        248.8,
+        408.462
+      ],
+      "16": [
+        258.1,
+        274.5,
+        408.462
+      ],
+      "17": [
+        273.1,
+        283.9,
+        408.462
+      ],
+      "18": [
+        294.3,
+        315.1,
+        408.462
+      ],
+      "19": [
+        328.9,
+        340.5,
+        408.462
+      ],
+      "20": [
+        342.9,
+        363.7,
+        408.462
+      ],
+      "21": [
+        71.5,
+        85.5,
+        411.388
+      ],
+      "22": [
+        63.3,
+        74.5,
+        411.388
+      ],
+      "23": [
+        118.1,
+        124.3,
+        411.388
+      ],
+      "24": [
+        122.1,
+        128.9,
+        411.388
+      ],
+      "25": [
+        201.1,
+        223.5,
+        411.388
+      ],
+      "26": [
+        226.1,
+        256.3,
+        411.388
+      ],
+      "27": [
+        268.3,
+        290.2,
+        411.388
+      ],
+      "28": [
+        295.8,
+        324.7,
+        411.388
+      ],
+      "29": [
+        328.4,
+        355.8,
+        411.388
+      ],
+      "30": [
+        358.3,
+        370.7,
+        411.388
+      ],
+      "31": [
+        92.8,
+        108.2,
+        515.088
+      ],
+      "32": [
+        114.7,
+        128.1,
+        515.088
+      ],
+      "33": [
+        161,
+        172.7,
+        515.088
+      ],
+      "34": [
+        192.3,
+        209.3,
+        515.088
+      ],
+      "35": [
+        215.5,
+        233.7,
+        515.088
+      ],
+      "36": [
+        280.9,
+        301.1,
+        515.088
+      ],
+      "37": [
+        320.7,
+        336.7,
+        515.088
+      ],
+      "38": [
+        342.7,
+        356.5,
+        515.088
+      ],
+      "39": [
+        373.5,
+        386.7,
+        515.088
+      ],
+      "40": [
+        410.5,
+        426.5,
+        515.088
+      ]
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "9": "keyword",
+      "10": "keyword",
+      "11": "context",
+      "12": "context",
+      "13": "context",
+      "14": "context",
+      "15": "context",
+      "16": "context",
+      "17": "context",
+      "18": "context",
+      "19": "context",
+      "20": "context",
+      "21": "context",
+      "22": "context",
+      "23": "context",
+      "24": "context",
+      "25": "context",
+      "26": "context",
+      "27": "context",
+      "28": "context",
+      "29": "context",
+      "30": "context",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "cueAudioEvidence": {
+      "1": [
+        132.4,
+        145.1
+      ],
+      "2": [
+        151.9,
+        178.6
+      ],
+      "3": [
+        179.3,
+        196
+      ],
+      "4": [
+        229.6,
+        246.6
+      ],
+      "5": [
+        250.9,
+        265.4
+      ],
+      "6": [
+        312.4,
+        324.2
+      ],
+      "7": [
+        332,
+        350.8
+      ],
+      "8": [
+        382.7,
+        391.9
+      ],
+      "9": [
+        404.9,
+        421.3
+      ],
+      "10": [
+        431.1,
+        447.8
+      ],
+      "11": [
+        97.3,
+        105.6
+      ],
+      "12": [
+        71.5,
+        86
+      ],
+      "13": [
+        151.1,
+        168.9
+      ],
+      "14": [
+        128.7,
+        134
+      ],
+      "15": [
+        234.7,
+        247.3
+      ],
+      "16": [
+        259.6,
+        273
+      ],
+      "17": [
+        274.6,
+        282.4
+      ],
+      "18": [
+        295.8,
+        313.6
+      ],
+      "19": [
+        330.4,
+        339
+      ],
+      "20": [
+        344.4,
+        362.2
+      ],
+      "21": [
+        73,
+        84
+      ],
+      "22": [
+        64.8,
+        73
+      ],
+      "23": [
+        119.6,
+        122.8
+      ],
+      "24": [
+        123.6,
+        127.4
+      ],
+      "25": [
+        202.6,
+        222
+      ],
+      "26": [
+        227.6,
+        254.8
+      ],
+      "27": [
+        269.8,
+        288.7
+      ],
+      "28": [
+        297.3,
+        323.2
+      ],
+      "29": [
+        329.9,
+        354.3
+      ],
+      "30": [
+        359.8,
+        369.2
+      ],
+      "31": [
+        94.3,
+        106.7
+      ],
+      "32": [
+        116.2,
+        126.6
+      ],
+      "33": [
+        162.5,
+        171.2
+      ],
+      "34": [
+        193.8,
+        207.8
+      ],
+      "35": [
+        217,
+        232.2
+      ],
+      "36": [
+        282.4,
+        299.6
+      ],
+      "37": [
+        322.2,
+        335.2
+      ],
+      "38": [
+        344.2,
+        355
+      ],
+      "39": [
+        375,
+        385.2
+      ],
+      "40": [
+        412,
+        425
+      ]
+    },
+    "cueAuditStatus": {
+      "1": "asr-candidate",
+      "2": "asr-candidate",
+      "3": "asr-candidate",
+      "4": "asr-candidate",
+      "5": "asr-candidate",
+      "6": "asr-candidate",
+      "7": "asr-candidate",
+      "8": "asr-candidate",
+      "9": "asr-candidate",
+      "10": "asr-candidate",
+      "11": "asr-context-reviewed",
+      "12": "asr-context-reviewed",
+      "13": "asr-context-reviewed",
+      "14": "asr-context-reviewed",
+      "15": "asr-context-reviewed",
+      "16": "asr-context-reviewed",
+      "17": "asr-context-reviewed",
+      "18": "asr-context-reviewed",
+      "19": "asr-context-reviewed",
+      "20": "asr-context-reviewed",
+      "21": "asr-context-reviewed",
+      "22": "asr-context-reviewed",
+      "23": "asr-context-reviewed",
+      "24": "asr-context-reviewed",
+      "25": "asr-context-reviewed",
+      "26": "asr-context-reviewed",
+      "27": "asr-context-reviewed",
+      "28": "asr-context-reviewed",
+      "29": "asr-context-reviewed",
+      "30": "asr-context-reviewed",
+      "31": "asr-candidate",
+      "32": "asr-candidate",
+      "33": "asr-candidate",
+      "34": "asr-candidate",
+      "35": "asr-candidate",
+      "36": "asr-candidate",
+      "37": "asr-candidate",
+      "38": "asr-candidate",
+      "39": "asr-candidate",
+      "40": "asr-candidate"
+    },
+    "audioSha256": {
+      "1": "0246084375fc6ba05af4b2a019384785c7afd07e8905742879438fa2b09df2d3",
+      "2": "85bbcfde1fcf5c826bfa5726eace282135113b166f307306959c8c7db7f3ad9f",
+      "3": "837565c269e68ff750a44d99ec509ac18b7d78d3f7d7c0159296af9df03d54a1",
+      "4": "07175f23a84de4ddb8a5ac67a78c6c7911fa0ecac841b1ea180344f9ee21df41"
+    },
+    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback."
   },
   "16-4": {
     "vocabulary": {
@@ -15716,8 +17071,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           119,
-          "a complete skeleton in existence",
-          "A complete skeleton was assembled from remains."
+          "one example of soft tissue from the dodo survives, a dodo head",
+          "Only the head survives as an example of soft tissue; the skeleton is a separate finding."
         ],
         [
           119,
@@ -15751,7 +17106,442 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     },
-    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted."
+    "listeningEvidenceProvenance": "Teacher-supplied Cambridge IELTS 16 Academic, printed audioscript pages 98–120 and official listening key pages 121, 123, 125, 127. Evidence phrases selected for ASR alignment; no timestamp or human-listening verification asserted.",
+    "cues": {
+      "1": [
+        111.4,
+        135,
+        426.295
+      ],
+      "2": [
+        139.2,
+        155.3,
+        426.295
+      ],
+      "3": [
+        153.5,
+        180.6,
+        426.295
+      ],
+      "4": [
+        190.5,
+        200.6,
+        426.295
+      ],
+      "5": [
+        200.9,
+        214.6,
+        426.295
+      ],
+      "6": [
+        218.7,
+        231.1,
+        426.295
+      ],
+      "7": [
+        309.7,
+        325.5,
+        426.295
+      ],
+      "8": [
+        335.1,
+        349.8,
+        426.295
+      ],
+      "10": [
+        372.6,
+        385.5,
+        426.295
+      ],
+      "11": [
+        63.5,
+        82,
+        385.103
+      ],
+      "12": [
+        89.3,
+        107.2,
+        385.103
+      ],
+      "13": [
+        128.6,
+        150.2,
+        385.103
+      ],
+      "14": [
+        148.4,
+        170.6,
+        385.103
+      ],
+      "15": [
+        251.9,
+        269.3,
+        385.103
+      ],
+      "16": [
+        267.2,
+        287.5,
+        385.103
+      ],
+      "17": [
+        290.7,
+        307.4,
+        385.103
+      ],
+      "18": [
+        305.8,
+        321.9,
+        385.103
+      ],
+      "19": [
+        319.5,
+        333.7,
+        385.103
+      ],
+      "20": [
+        330.7,
+        345.8,
+        385.103
+      ],
+      "21": [
+        93.8,
+        108.2,
+        408.346
+      ],
+      "22": [
+        84.1,
+        100.1,
+        408.346
+      ],
+      "23": [
+        130.5,
+        147.8,
+        408.346
+      ],
+      "24": [
+        177,
+        193.6,
+        408.346
+      ],
+      "25": [
+        244,
+        266.7,
+        408.346
+      ],
+      "26": [
+        264.9,
+        290.9,
+        408.346
+      ],
+      "27": [
+        288.3,
+        308.7,
+        408.346
+      ],
+      "28": [
+        312.4,
+        332.3,
+        408.346
+      ],
+      "29": [
+        329.3,
+        349.2,
+        408.346
+      ],
+      "31": [
+        118.1,
+        131,
+        553.958
+      ],
+      "32": [
+        128,
+        144.5,
+        553.958
+      ],
+      "33": [
+        169.7,
+        187,
+        553.958
+      ],
+      "34": [
+        194.9,
+        214,
+        553.958
+      ],
+      "35": [
+        244.3,
+        258,
+        553.958
+      ],
+      "36": [
+        264.8,
+        281.7,
+        553.958
+      ],
+      "37": [
+        286.8,
+        304.4,
+        553.958
+      ],
+      "38": [
+        311.4,
+        328.5,
+        553.958
+      ],
+      "39": [
+        388.3,
+        407.4,
+        553.958
+      ],
+      "40": [
+        429.3,
+        462.1,
+        553.958
+      ]
+    },
+    "cueMethod": {
+      "1": "keyword",
+      "2": "keyword",
+      "3": "keyword",
+      "4": "keyword",
+      "5": "keyword",
+      "6": "keyword",
+      "7": "keyword",
+      "8": "keyword",
+      "10": "keyword",
+      "11": "context",
+      "12": "context",
+      "13": "context",
+      "14": "context",
+      "15": "context",
+      "16": "context",
+      "17": "context",
+      "18": "context",
+      "19": "context",
+      "20": "context",
+      "21": "context",
+      "22": "context",
+      "23": "context",
+      "24": "context",
+      "25": "context",
+      "26": "context",
+      "27": "context",
+      "28": "context",
+      "29": "context",
+      "31": "keyword",
+      "32": "keyword",
+      "33": "keyword",
+      "34": "keyword",
+      "35": "keyword",
+      "36": "keyword",
+      "37": "keyword",
+      "38": "keyword",
+      "39": "keyword",
+      "40": "keyword"
+    },
+    "cueAudioEvidence": {
+      "1": [
+        112.9,
+        133.5
+      ],
+      "2": [
+        140.7,
+        153.8
+      ],
+      "3": [
+        155,
+        179.1
+      ],
+      "4": [
+        192,
+        199.1
+      ],
+      "5": [
+        202.4,
+        213.1
+      ],
+      "6": [
+        220.2,
+        229.6
+      ],
+      "7": [
+        311.2,
+        324
+      ],
+      "8": [
+        336.6,
+        348.3
+      ],
+      "10": [
+        374.1,
+        384
+      ],
+      "11": [
+        65,
+        80.5
+      ],
+      "12": [
+        90.8,
+        105.7
+      ],
+      "13": [
+        130.1,
+        148.7
+      ],
+      "14": [
+        149.9,
+        169.1
+      ],
+      "15": [
+        253.4,
+        267.8
+      ],
+      "16": [
+        268.7,
+        286
+      ],
+      "17": [
+        292.2,
+        305.9
+      ],
+      "18": [
+        307.3,
+        320.4
+      ],
+      "19": [
+        321,
+        332.2
+      ],
+      "20": [
+        332.2,
+        344.3
+      ],
+      "21": [
+        95.3,
+        106.7
+      ],
+      "22": [
+        85.6,
+        98.6
+      ],
+      "23": [
+        132,
+        146.3
+      ],
+      "24": [
+        178.5,
+        192.1
+      ],
+      "25": [
+        245.5,
+        265.2
+      ],
+      "26": [
+        266.4,
+        289.4
+      ],
+      "27": [
+        289.8,
+        307.2
+      ],
+      "28": [
+        313.9,
+        330.8
+      ],
+      "29": [
+        330.8,
+        347.7
+      ],
+      "31": [
+        119.6,
+        129.5
+      ],
+      "32": [
+        129.5,
+        143
+      ],
+      "33": [
+        171.2,
+        185.5
+      ],
+      "34": [
+        196.4,
+        212.5
+      ],
+      "35": [
+        245.8,
+        256.5
+      ],
+      "36": [
+        266.3,
+        280.2
+      ],
+      "37": [
+        288.3,
+        302.9
+      ],
+      "38": [
+        312.9,
+        327
+      ],
+      "39": [
+        389.8,
+        405.9
+      ],
+      "40": [
+        430.8,
+        460.6
+      ]
+    },
+    "cueAuditStatus": {
+      "1": "asr-candidate",
+      "2": "asr-candidate",
+      "3": "asr-candidate",
+      "4": "asr-candidate",
+      "5": "asr-candidate",
+      "6": "asr-candidate",
+      "7": "asr-candidate",
+      "8": "asr-candidate",
+      "9": "unresolved-asr-gap",
+      "10": "asr-candidate",
+      "11": "asr-context-reviewed",
+      "12": "asr-context-reviewed",
+      "13": "asr-context-reviewed",
+      "14": "asr-context-reviewed",
+      "15": "asr-context-reviewed",
+      "16": "asr-context-reviewed",
+      "17": "asr-context-reviewed",
+      "18": "asr-context-reviewed",
+      "19": "asr-context-reviewed",
+      "20": "asr-context-reviewed",
+      "21": "asr-context-reviewed",
+      "22": "asr-context-reviewed",
+      "23": "asr-context-reviewed",
+      "24": "asr-context-reviewed",
+      "25": "asr-context-reviewed",
+      "26": "asr-context-reviewed",
+      "27": "asr-context-reviewed",
+      "28": "asr-context-reviewed",
+      "29": "asr-context-reviewed",
+      "30": "unresolved-asr-gap",
+      "31": "asr-candidate",
+      "32": "asr-candidate",
+      "33": "asr-candidate",
+      "34": "asr-candidate",
+      "35": "asr-candidate",
+      "36": "asr-candidate",
+      "37": "asr-candidate",
+      "38": "asr-candidate",
+      "39": "asr-candidate",
+      "40": "asr-candidate"
+    },
+    "audioSha256": {
+      "1": "ed6824933ae314c46f14803e1729b99dde5038e8409078d637b9b5a786a5482b",
+      "2": "bc8e3c045fcb69988a974d3e73aeca3575ffba135f159c1e5c764fb7a5d855b2",
+      "3": "c3c71a53bca9fb3452656d7d7aca796f52337187e677507e45b23c22e33ae9d5",
+      "4": "a8c394f084b4ee7f23060029b5b7708d8b6917ee053cf8830bd128adec9898f6"
+    },
+    "cueProvenance": "Faster-Whisper base.en source audit run 46115682932 / artifact 15251602725. Compared decoded timed dialogue to official CAM16 audioscript and answer key; all 16 media hashes and container durations verified. Replay windows are approximate and not human listening-verified. Missing ASR passages retain full-section fallback."
   },
   "21-1": {
     "vocabulary": {
