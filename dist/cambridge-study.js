@@ -10979,6 +10979,231 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "organizational (adj.)",
           "definition": "Relating to the structure or management of an organisation.",
           "example": "The policy supports organizational goals."
+        },
+        {
+          "word": "turret (n.)",
+          "definition": "A small tower projecting from a building.",
+          "example": "The child built a castle with a turret."
+        },
+        {
+          "word": "gallant (adj.)",
+          "definition": "Brave and noble.",
+          "example": "The story features a gallant hero."
+        },
+        {
+          "word": "pretence (n.)",
+          "definition": "The act of pretending something is true.",
+          "example": "Children explore emotions through pretence."
+        },
+        {
+          "word": "boss someone around (v. phr.)",
+          "definition": "Give someone orders in a controlling manner.",
+          "example": "The child bosses her brother around during play."
+        },
+        {
+          "word": "settle down (v. phr.)",
+          "definition": "Become calm and begin an activity.",
+          "example": "They settled down with a board game."
+        },
+        {
+          "word": "child-initiated (adj.)",
+          "definition": "Started by a child rather than an adult.",
+          "example": "Researchers observe child-initiated play."
+        },
+        {
+          "word": "neurodevelopmental (adj.)",
+          "definition": "Relating to the development of the nervous system.",
+          "example": "Play may reveal neurodevelopmental difficulties."
+        },
+        {
+          "word": "backwater (n.)",
+          "definition": "An area or field with little activity or development.",
+          "example": "The field was once a quiet academic backwater."
+        },
+        {
+          "word": "lose sight of (v. phr.)",
+          "definition": "Forget the importance of something.",
+          "example": "We must not lose sight of the benefits of play."
+        },
+        {
+          "word": "publicise (v.)",
+          "definition": "Make something widely known.",
+          "example": "The campaign publicised its aims."
+        },
+        {
+          "word": "get off the ground (v. phr.)",
+          "definition": "Begin operating successfully.",
+          "example": "The original scheme struggled to get off the ground."
+        },
+        {
+          "word": "seize an opportunity (v. phr.)",
+          "definition": "Act quickly to take advantage of a chance.",
+          "example": "The engineer seized an opportunity to present his plan."
+        },
+        {
+          "word": "not in the least (phr.)",
+          "definition": "Not at all.",
+          "example": "He was not in the least discouraged."
+        },
+        {
+          "word": "environmentally conscious (adj. phr.)",
+          "definition": "Aware of environmental impacts.",
+          "example": "Residents became more environmentally conscious."
+        },
+        {
+          "word": "file for a patent (v. phr.)",
+          "definition": "Submit an application for legal protection of an invention.",
+          "example": "The inventor did not file for a patent."
+        },
+        {
+          "word": "long for (v. phr.)",
+          "definition": "Strongly desire something.",
+          "example": "Residents long for cleaner cities."
+        },
+        {
+          "word": "human resource management (n.)",
+          "definition": "The management of employees and employment practices.",
+          "example": "Hotels invest in human resource management."
+        },
+        {
+          "word": "employee turnover (n.)",
+          "definition": "The rate at which employees leave and are replaced.",
+          "example": "Poor working conditions increase employee turnover."
+        },
+        {
+          "word": "draw out (v. phr.)",
+          "definition": "Encourage someone to develop or reveal a quality.",
+          "example": "Managers aim to draw out employee potential."
+        },
+        {
+          "word": "compromised (adj.)",
+          "definition": "Weakened or negatively affected.",
+          "example": "Stress led to compromised employee morale."
+        },
+        {
+          "word": "succinctly (adv.)",
+          "definition": "Clearly and briefly.",
+          "example": "The study summarised its findings succinctly."
+        },
+        {
+          "word": "job security (n.)",
+          "definition": "Confidence that one's employment will continue.",
+          "example": "Workers value job security."
+        },
+        {
+          "word": "themed (adj.)",
+          "definition": "Designed around a particular subject.",
+          "example": "The study involved themed restaurants."
+        },
+        {
+          "word": "align with (v. phr.)",
+          "definition": "Make or become consistent with something.",
+          "example": "The programme must align with organisational goals."
+        },
+        {
+          "word": "delicate balance (n.)",
+          "definition": "A difficult balance between competing needs.",
+          "example": "Managers must achieve a delicate balance."
+        },
+        {
+          "word": "regulate (v.)",
+          "definition": "To control or maintain something at an appropriate level.",
+          "example": "Athletes learn to regulate their breathing."
+        },
+        {
+          "word": "millennia (n. pl.)",
+          "definition": "Periods of a thousand years.",
+          "example": "The technique has existed for millennia."
+        },
+        {
+          "word": "scarce (adj.)",
+          "definition": "Insufficient in quantity or difficult to obtain.",
+          "example": "Protein is scarce during the dry season."
+        },
+        {
+          "word": "implication (n.)",
+          "definition": "A possible consequence or significance of something.",
+          "example": "The findings have an important implication for agriculture."
+        },
+        {
+          "word": "undertake (v.)",
+          "definition": "Agree to do or begin a task.",
+          "example": "Employees undertake complex assignments."
+        },
+        {
+          "word": "facilitate (v.)",
+          "definition": "To make something easier or more likely.",
+          "example": "Digital platforms facilitate information sharing."
+        },
+        {
+          "word": "stimulus (n.)",
+          "definition": "Something that causes a response.",
+          "example": "A sudden sound is an auditory stimulus."
+        },
+        {
+          "word": "trivial (adj.)",
+          "definition": "Of little importance or value.",
+          "example": "The disagreement began over a trivial detail."
+        },
+        {
+          "word": "fundamental (adj.)",
+          "definition": "Basic and essential.",
+          "example": "Training is fundamental to the transition."
+        },
+        {
+          "word": "perceived (adj.)",
+          "definition": "Understood or believed to exist in a particular way.",
+          "example": "The study assessed perceived threats to wildlife."
+        },
+        {
+          "word": "seize (v.)",
+          "definition": "Take control by force or decisive action.",
+          "example": "The army seized the islands."
+        },
+        {
+          "word": "deposit (n.)",
+          "definition": "A payment made in advance towards a purchase.",
+          "example": "Customers paid a deposit for the vehicle."
+        },
+        {
+          "word": "acquire (v.)",
+          "definition": "To obtain or gain something.",
+          "example": "Museums acquire artworks through donations."
+        },
+        {
+          "word": "competitive advantage (n.)",
+          "definition": "A feature that helps someone perform better than rivals.",
+          "example": "Equipment can offer a competitive advantage."
+        },
+        {
+          "word": "enhance (v.)",
+          "definition": "To improve the quality or value of something.",
+          "example": "The treatment may enhance crop productivity."
+        },
+        {
+          "word": "retention (n.)",
+          "definition": "The act of keeping or preserving something.",
+          "example": "The retention of dead wood benefits wildlife."
+        },
+        {
+          "word": "inherently (adv.)",
+          "definition": "As a natural or essential characteristic.",
+          "example": "The task is not inherently difficult."
+        },
+        {
+          "word": "hypothesis (n.)",
+          "definition": "A proposed explanation that can be tested.",
+          "example": "The archaeologists proposed a new hypothesis."
+        },
+        {
+          "word": "dichotomy (n.)",
+          "definition": "A division between two contrasting things.",
+          "example": "The author challenges the dichotomy between work and play."
+        },
+        {
+          "word": "competent (adj.)",
+          "definition": "Having sufficient ability or skill to do something.",
+          "example": "She is a competent medical professional."
         }
       ]
     },
@@ -12071,6 +12296,208 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "collaboration (n.)",
           "definition": "Working together to achieve something.",
           "example": "Cross-team collaboration encouraged innovation."
+        },
+        {
+          "word": "landholding (n.)",
+          "definition": "An area of land owned by someone.",
+          "example": "The family had extensive landholdings."
+        },
+        {
+          "word": "outskirts (n. pl.)",
+          "definition": "The outer parts of a town or city.",
+          "example": "The school was on the outskirts of Edinburgh."
+        },
+        {
+          "word": "bold realism (n.)",
+          "definition": "A striking style representing subjects realistically.",
+          "example": "His landscapes were noted for bold realism."
+        },
+        {
+          "word": "lumber trade (n.)",
+          "definition": "Commerce involving timber for construction or other uses.",
+          "example": "The photographer documented the lumber trade."
+        },
+        {
+          "word": "cater to (v. phr.)",
+          "definition": "Provide what a particular group needs or wants.",
+          "example": "The studio catered to tourist demand."
+        },
+        {
+          "word": "stock photograph (n.)",
+          "definition": "A ready-made photograph available for purchase or use.",
+          "example": "The studio kept stock photographs on display."
+        },
+        {
+          "word": "mounting (n.)",
+          "definition": "The process of attaching a picture to a support.",
+          "example": "Customers bought prints for mounting."
+        },
+        {
+          "word": "glass negative (n.)",
+          "definition": "A photographic negative produced on a glass plate.",
+          "example": "The archive preserves a glass negative."
+        },
+        {
+          "word": "sweeping (adj.)",
+          "definition": "Extensive and affecting many aspects of something.",
+          "example": "The architect proposes sweeping changes."
+        },
+        {
+          "word": "sealed (adj.)",
+          "definition": "Closed so that air or liquid cannot pass through.",
+          "example": "Many modern buildings are sealed."
+        },
+        {
+          "word": "relentlessly (adv.)",
+          "definition": "Without stopping or becoming less intense.",
+          "example": "The system was relentlessly marketed."
+        },
+        {
+          "word": "airstream (n.)",
+          "definition": "A current of moving air.",
+          "example": "Pathogens travel in an airstream."
+        },
+        {
+          "word": "operating theatre (n.)",
+          "definition": "A hospital room where surgery is performed.",
+          "example": "The ventilation matched that of an operating theatre."
+        },
+        {
+          "word": "clamour for (v. phr.)",
+          "definition": "Demand something loudly or insistently.",
+          "example": "The public clamoured for safer buildings."
+        },
+        {
+          "word": "steer clear of (v. phr.)",
+          "definition": "Avoid someone or something.",
+          "example": "Wealthy people steered clear of hospitals."
+        },
+        {
+          "word": "in its wake (phr.)",
+          "definition": "As a result of or following something.",
+          "example": "New architectural practices developed in its wake."
+        },
+        {
+          "word": "passively cooled (adj. phr.)",
+          "definition": "Cooled using natural design rather than powered cooling systems.",
+          "example": "The building is passively cooled."
+        },
+        {
+          "word": "come to pass (v. phr.)",
+          "definition": "Happen or become reality.",
+          "example": "The prediction may come to pass."
+        },
+        {
+          "word": "self-proclaimed (adj.)",
+          "definition": "Described as something by oneself rather than others.",
+          "example": "The speakers were self-proclaimed perfectionists."
+        },
+        {
+          "word": "sure shot (n.)",
+          "definition": "Something expected to succeed with certainty.",
+          "example": "Organisation appeared to be a sure shot."
+        },
+        {
+          "word": "fall short of (v. phr.)",
+          "definition": "Fail to reach a required or expected level.",
+          "example": "The results fell short of expectations."
+        },
+        {
+          "word": "for the sake of (phr.)",
+          "definition": "For the purpose or benefit of something.",
+          "example": "Organising for the sake of organising can waste resources."
+        },
+        {
+          "word": "boundaryless (adj.)",
+          "definition": "Without rigid limits or divisions.",
+          "example": "The company experimented with a boundaryless organisation."
+        },
+        {
+          "word": "jump on the bandwagon (v. phr.)",
+          "definition": "Adopt a popular trend because others are doing so.",
+          "example": "Managers should not jump on the bandwagon without evidence."
+        },
+        {
+          "word": "diminishing utility (n.)",
+          "definition": "A decreasing level of usefulness as use increases.",
+          "example": "Excessive structure has diminishing utility."
+        },
+        {
+          "word": "amateur (adj.)",
+          "definition": "Participating in an activity without being a professional.",
+          "example": "An amateur player developed the design."
+        },
+        {
+          "word": "depict (v.)",
+          "definition": "To show or represent someone or something in art or writing.",
+          "example": "The painting depicts a scene from the civil war.",
+          "clozeAnswer": "depicts"
+        },
+        {
+          "word": "commission (v.)",
+          "definition": "To formally request and pay for a piece of work.",
+          "example": "The museum commissioned an artist to create a new portrait.",
+          "clozeAnswer": "commissioned"
+        },
+        {
+          "word": "administer (v.)",
+          "definition": "To give or apply a test, treatment or procedure.",
+          "example": "Researchers administer the intervention in classrooms."
+        },
+        {
+          "word": "ingenious (adj.)",
+          "definition": "Clever, original and inventive.",
+          "example": "The engineer devised an ingenious solution."
+        },
+        {
+          "word": "reliance (n.)",
+          "definition": "Dependence on someone or something.",
+          "example": "The city aims to reduce reliance on cars."
+        },
+        {
+          "word": "dementia (n.)",
+          "definition": "A condition involving significant decline in cognitive functioning.",
+          "example": "Access to gardens may help people with dementia."
+        },
+        {
+          "word": "lament (v.)",
+          "definition": "To express sadness or regret.",
+          "example": "Craftspeople lament the loss of traditional skills."
+        },
+        {
+          "word": "advocate (v.)",
+          "definition": "To publicly support or recommend something.",
+          "example": "Some teachers advocate mixed-ability classes."
+        },
+        {
+          "word": "legacy (n.)",
+          "definition": "Something left behind by earlier actions or conditions.",
+          "example": "Poor management left a legacy of damaged trees."
+        },
+        {
+          "word": "demographic (adj.)",
+          "definition": "Relating to the characteristics of populations.",
+          "example": "The study examined demographic changes."
+        },
+        {
+          "word": "productivity (n.)",
+          "definition": "The amount of useful work produced.",
+          "example": "Frequent distractions reduce productivity."
+        },
+        {
+          "word": "assumption (n.)",
+          "definition": "A belief accepted without definite proof.",
+          "example": "The study tested common assumptions."
+        },
+        {
+          "word": "outweigh (v.)",
+          "definition": "To be greater in importance than something else.",
+          "example": "The benefits may outweigh the risks."
+        },
+        {
+          "word": "utility (n.)",
+          "definition": "The practical usefulness of something.",
+          "example": "The study examines the utility of media literacy."
         }
       ]
     },
@@ -13149,6 +13576,246 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "predominantly (adv.)",
           "definition": "Mainly or for the most part.",
           "example": "The activity should be predominantly child-directed."
+        },
+        {
+          "word": "implicit theory (n.)",
+          "definition": "An underlying belief that is not necessarily expressed formally.",
+          "example": "Parents hold an implicit theory of intelligence."
+        },
+        {
+          "word": "extant (adj.)",
+          "definition": "Still existing.",
+          "example": "The study compared extant theories."
+        },
+        {
+          "word": "keep in line (v. phr.)",
+          "definition": "Ensure someone behaves according to expectations or rules.",
+          "example": "The authority attempts to keep people in line."
+        },
+        {
+          "word": "avail oneself of (v. phr.)",
+          "definition": "Make use of an available opportunity or resource.",
+          "example": "People may avail themselves of educational opportunities."
+        },
+        {
+          "word": "intersubstitutable (adj.)",
+          "definition": "Able to replace one another.",
+          "example": "The theory regards people as largely intersubstitutable."
+        },
+        {
+          "word": "toxin-oozing (adj.)",
+          "definition": "Slowly releasing a poisonous substance.",
+          "example": "Monkeys use toxin-oozing millipedes."
+        },
+        {
+          "word": "rid oneself of (v. phr.)",
+          "definition": "Free oneself from something unwanted.",
+          "example": "The animals use plants to rid themselves of parasites."
+        },
+        {
+          "word": "scratch the surface (v. phr.)",
+          "definition": "Explore only a small part of a subject.",
+          "example": "Scientists have barely scratched the surface."
+        },
+        {
+          "word": "back on the map (phr.)",
+          "definition": "Important or noticed again.",
+          "example": "New techniques put natural products back on the map."
+        },
+        {
+          "word": "undisputed (adj.)",
+          "definition": "Not challenged or questioned.",
+          "example": "Insects are undisputed masters of many terrestrial habitats."
+        },
+        {
+          "word": "larva (n.)",
+          "definition": "An immature form of an animal before metamorphosis.",
+          "example": "Researchers studied the larva of a fly."
+        },
+        {
+          "word": "rear in captivity (v. phr.)",
+          "definition": "Raise animals under controlled human care.",
+          "example": "Some insects are difficult to rear in captivity."
+        },
+        {
+          "word": "carcass (n.)",
+          "definition": "The dead body of an animal.",
+          "example": "The insects feed on a carcass."
+        },
+        {
+          "word": "snip out (v. phr.)",
+          "definition": "Remove a small part by cutting.",
+          "example": "Researchers can snip out selected DNA sequences."
+        },
+        {
+          "word": "deprive oneself of (v. phr.)",
+          "definition": "Lose or deny oneself something valuable.",
+          "example": "Habitat loss may deprive us of future medicines."
+        },
+        {
+          "word": "give someone a leg up (v. phr.)",
+          "definition": "Give someone an advantage or assistance.",
+          "example": "Parents hope to give children a leg up."
+        },
+        {
+          "word": "lay the foundations (v. phr.)",
+          "definition": "Create the basis for future development.",
+          "example": "Play helps lay the foundations for learning."
+        },
+        {
+          "word": "purposeless (adj.)",
+          "definition": "Appearing to have no particular aim.",
+          "example": "Play may appear purposeless."
+        },
+        {
+          "word": "process-oriented (adj.)",
+          "definition": "Focused on the activity rather than its final outcome.",
+          "example": "Free play is often process-oriented."
+        },
+        {
+          "word": "make-believe (n.)",
+          "definition": "Imaginary or pretended situations.",
+          "example": "Children enjoy make-believe."
+        },
+        {
+          "word": "goal-oriented (adj.)",
+          "definition": "Directed towards achieving a specific objective.",
+          "example": "Work tends to be goal-oriented."
+        },
+        {
+          "word": "stem from (v. phr.)",
+          "definition": "Originate from or be caused by something.",
+          "example": "Play should stem from the child's own desire."
+        },
+        {
+          "word": "perceive (v.)",
+          "definition": "Notice or interpret something.",
+          "example": "Animals perceive threats differently."
+        },
+        {
+          "word": "cognitive (adj.)",
+          "definition": "Relating to mental processes such as thinking or learning.",
+          "example": "The experiment measured cognitive ability."
+        },
+        {
+          "word": "framework (n.)",
+          "definition": "A structure of rules, ideas or procedures.",
+          "example": "The industry needs a clear regulatory framework."
+        },
+        {
+          "word": "correspondence (n.)",
+          "definition": "Written communication between people or organisations.",
+          "example": "The archives contain diplomatic correspondence."
+        },
+        {
+          "word": "construct (n.)",
+          "definition": "An abstract idea or concept developed to explain something.",
+          "example": "The study treats intelligence as a psychological construct."
+        },
+        {
+          "word": "elite (n.)",
+          "definition": "A group regarded as the best or most powerful in a field.",
+          "example": "The tournament attracts the world's tennis elite."
+        },
+        {
+          "word": "foster (v.)",
+          "definition": "Encourage the development of something.",
+          "example": "Reflection can foster wiser reasoning."
+        },
+        {
+          "word": "assumption (n.)",
+          "definition": "A belief accepted without definite proof.",
+          "example": "The study tested common assumptions."
+        },
+        {
+          "word": "primate (n.)",
+          "definition": "A member of the mammal group including apes, monkeys and humans.",
+          "example": "A primate may respond to habitat disruption."
+        },
+        {
+          "word": "from scratch (phr.)",
+          "definition": "From the very beginning, without using an existing version.",
+          "example": "The team built the system from scratch."
+        },
+        {
+          "word": "hurdle (n.)",
+          "definition": "A difficulty to overcome.",
+          "example": "Regulation is a major hurdle."
+        },
+        {
+          "word": "genome (n.)",
+          "definition": "The complete genetic material of an organism.",
+          "example": "Researchers sequenced the bear's genome."
+        },
+        {
+          "word": "niche (n.)",
+          "definition": "A specialised role within an ecosystem or market.",
+          "example": "The bird occupies a distinct ecological niche."
+        },
+        {
+          "word": "potent (adj.)",
+          "definition": "Having a strong effect.",
+          "example": "The microbes can be potent."
+        },
+        {
+          "word": "captivity (n.)",
+          "definition": "The state of being confined under human control.",
+          "example": "Some endangered animals breed in captivity."
+        },
+        {
+          "word": "groundbreaking (adj.)",
+          "definition": "Introducing highly important new ideas or methods.",
+          "example": "The scientist published groundbreaking research."
+        },
+        {
+          "word": "conservation (n.)",
+          "definition": "The protection and preservation of valuable places or things.",
+          "example": "The project supports the conservation of historic buildings."
+        },
+        {
+          "word": "regulate (v.)",
+          "definition": "To control or maintain something at an appropriate level.",
+          "example": "Athletes learn to regulate their breathing."
+        },
+        {
+          "word": "repertoire (n.)",
+          "definition": "A range of skills, behaviours or performances available to someone.",
+          "example": "Practice expands a learner's repertoire of expressions."
+        },
+        {
+          "word": "consensus (n.)",
+          "definition": "General agreement among a group.",
+          "example": "Scientific consensus supports the conclusion."
+        },
+        {
+          "word": "intrinsic (adj.)",
+          "definition": "Belonging naturally to the essential nature of something.",
+          "example": "The object has intrinsic value."
+        },
+        {
+          "word": "spontaneous (adj.)",
+          "definition": "Happening naturally without planning.",
+          "example": "The children engaged in spontaneous play."
+        },
+        {
+          "word": "extrinsic (adj.)",
+          "definition": "Originating outside the activity or person.",
+          "example": "Pay is an extrinsic motivator."
+        },
+        {
+          "word": "detriment (n.)",
+          "definition": "Harm or damage to someone or something.",
+          "example": "The change was made to the detriment of poorer pupils."
+        },
+        {
+          "word": "robust (adj.)",
+          "definition": "Strong, reliable or effective.",
+          "example": "The study used a robust methodology."
+        },
+        {
+          "word": "enrich (v.)",
+          "definition": "To improve something by adding beneficial substances.",
+          "example": "Farmers enrich the water with nutrients."
         }
       ]
     },
@@ -14212,6 +14879,231 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "misconception (n.)",
           "definition": "An incorrect idea or belief.",
           "example": "The study addresses misconceptions about pollution."
+        },
+        {
+          "word": "age-defying (adj.)",
+          "definition": "Resisting the usual effects of ageing.",
+          "example": "The ants show age-defying abilities."
+        },
+        {
+          "word": "telltale (adj.)",
+          "definition": "Revealing or indicating something clearly.",
+          "example": "The insects follow a telltale scent."
+        },
+        {
+          "word": "mandible (n.)",
+          "definition": "A jaw or jaw-like structure used for grasping or biting.",
+          "example": "The ant moved its mandibles."
+        },
+        {
+          "word": "synaptic complex (n.)",
+          "definition": "A structure involving connections between nerve cells.",
+          "example": "The study examined synaptic complexes."
+        },
+        {
+          "word": "behavioural (adj.)",
+          "definition": "Relating to the way organisms act.",
+          "example": "The study measured behavioural changes."
+        },
+        {
+          "word": "neural (adj.)",
+          "definition": "Relating to nerves or the nervous system.",
+          "example": "Researchers examined neural changes."
+        },
+        {
+          "word": "steep decline (n.)",
+          "definition": "A rapid and substantial reduction.",
+          "example": "The animal may experience a steep decline shortly before death."
+        },
+        {
+          "word": "in good shape (phr.)",
+          "definition": "In good physical condition.",
+          "example": "The older ants remained in good shape."
+        },
+        {
+          "word": "captive (adj.)",
+          "definition": "Kept under human control rather than living freely.",
+          "example": "A captive animal may receive veterinary care."
+        },
+        {
+          "word": "colossal (adj.)",
+          "definition": "Extremely large.",
+          "example": "Colossal numbers of species are threatened."
+        },
+        {
+          "word": "reservoir population (n.)",
+          "definition": "A protected population available to support or restore a species.",
+          "example": "Captive breeding can provide a reservoir population."
+        },
+        {
+          "word": "population crash (n.)",
+          "definition": "A sudden large fall in the size of a population.",
+          "example": "The species experienced a population crash."
+        },
+        {
+          "word": "late in the day (phr.)",
+          "definition": "At a relatively late stage.",
+          "example": "The decline was discovered late in the day."
+        },
+        {
+          "word": "few and far between (phr.)",
+          "definition": "Rare or infrequent.",
+          "example": "Successful reintroductions are few and far between."
+        },
+        {
+          "word": "in the flesh (phr.)",
+          "definition": "Physically present rather than seen in a picture.",
+          "example": "Visitors can see a living animal in the flesh."
+        },
+        {
+          "word": "knowledge base (n.)",
+          "definition": "A body of information or expertise available for use.",
+          "example": "Zoos provide a knowledge base for conservation."
+        },
+        {
+          "word": "environmentally conscious (adj. phr.)",
+          "definition": "Aware of environmental effects and responsibilities.",
+          "example": "Education can make visitors more environmentally conscious."
+        },
+        {
+          "word": "sound alarm bells (v. phr.)",
+          "definition": "Warn of a serious potential problem.",
+          "example": "The findings sounded alarm bells."
+        },
+        {
+          "word": "set out to (v. phr.)",
+          "definition": "Begin an activity with a particular purpose.",
+          "example": "The researchers set out to evaluate the risks."
+        },
+        {
+          "word": "faulty statistics (n. pl.)",
+          "definition": "Statistical information or methods containing errors.",
+          "example": "Faulty statistics can undermine conclusions."
+        },
+        {
+          "word": "strikingly (adv.)",
+          "definition": "In a very noticeable or surprising way.",
+          "example": "Strikingly, one study did not detect harm."
+        },
+        {
+          "word": "bothersome (adj.)",
+          "definition": "Causing trouble or annoyance.",
+          "example": "The debris is bothersome to marine animals."
+        },
+        {
+          "word": "cutoff point (n.)",
+          "definition": "A limit beyond which something is excluded.",
+          "example": "The researchers chose a cutoff point for publications."
+        },
+        {
+          "word": "conjure up (v. phr.)",
+          "definition": "Bring an image or idea to mind.",
+          "example": "The name conjures up a floating island of trash."
+        },
+        {
+          "word": "stranding (n.)",
+          "definition": "An event in which a marine animal becomes trapped on shore.",
+          "example": "The study examined reports of strandings."
+        },
+        {
+          "word": "interrogate (v.)",
+          "definition": "Examine or question something closely.",
+          "example": "Scientists interrogate the existing literature."
+        },
+        {
+          "word": "address a problem (v. phr.)",
+          "definition": "Take action to deal with a difficulty.",
+          "example": "Researchers must identify which problems to address."
+        },
+        {
+          "word": "colony (n.)",
+          "definition": "A group of organisms living in the same place.",
+          "example": "A colony may contain hundreds of individuals."
+        },
+        {
+          "word": "trait (n.)",
+          "definition": "A particular quality or characteristic.",
+          "example": "Curiosity is a useful trait for learners."
+        },
+        {
+          "word": "prey (n.)",
+          "definition": "An animal hunted for food by another animal.",
+          "example": "Butterflies are prey for some birds."
+        },
+        {
+          "word": "life expectancy (n.)",
+          "definition": "The expected length of existence or survival.",
+          "example": "Maintenance extended the ship's life expectancy."
+        },
+        {
+          "word": "starvation (n.)",
+          "definition": "Extreme suffering caused by lack of food.",
+          "example": "Stored fat helps prevent starvation."
+        },
+        {
+          "word": "predator (n.)",
+          "definition": "An animal that hunts other animals for food.",
+          "example": "The bird escapes from a predator."
+        },
+        {
+          "word": "extinction (n.)",
+          "definition": "The disappearance of an entire species.",
+          "example": "Habitat loss threatens species with extinction."
+        },
+        {
+          "word": "reintroduce (v.)",
+          "definition": "To bring a species back to an area it once occupied.",
+          "example": "Researchers hope to reintroduce elm trees."
+        },
+        {
+          "word": "specimen (n.)",
+          "definition": "An individual example used for scientific study.",
+          "example": "The museum preserves a rare specimen."
+        },
+        {
+          "word": "ecosystem (n.)",
+          "definition": "A community of organisms and their environment.",
+          "example": "Insects play a crucial role in an ecosystem."
+        },
+        {
+          "word": "variable (n.)",
+          "definition": "A factor that can change or take different values.",
+          "example": "Temperature is an important variable."
+        },
+        {
+          "word": "control group (n.)",
+          "definition": "A comparison group in an experiment.",
+          "example": "The control group received different instructions."
+        },
+        {
+          "word": "bloodstream (n.)",
+          "definition": "The blood circulating in the body.",
+          "example": "Some microbes enter the bloodstream."
+        },
+        {
+          "word": "synthetic (adj.)",
+          "definition": "Made artificially rather than occurring naturally.",
+          "example": "The equipment contains synthetic fibres."
+        },
+        {
+          "word": "ecological (adj.)",
+          "definition": "Relating to living organisms and their environment.",
+          "example": "The researchers investigated ecological effects."
+        },
+        {
+          "word": "strategically (adv.)",
+          "definition": "In a planned way to achieve an aim.",
+          "example": "People may use laughter strategically."
+        },
+        {
+          "word": "misperception (n.)",
+          "definition": "An incorrect understanding or belief.",
+          "example": "A headline may create a misperception."
+        },
+        {
+          "word": "entanglement (n.)",
+          "definition": "The state of becoming caught or twisted in something.",
+          "example": "Entanglement in discarded nets threatens marine animals."
         }
       ]
     },
