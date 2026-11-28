@@ -617,8 +617,8 @@
     cam12VocabDecks.set(test,merged);
     return merged;
   }
-  function cam12VocabStem(w){return w.word.replace(/\s*\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.)\)\s*$/,'').trim();}
-  function cam12VocabPos(w){return w.word.match(/\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.)\)\s*$/)?.[1]||'';}
+  function cam12VocabStem(w){return w.word.replace(/\s*\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.|prep\.|conj\.)\)\s*$/,'').trim();}
+  function cam12VocabPos(w){return w.word.match(/\((n\. pl\.|n\. phr\.|v\. phr\.|adj\. phr\.|adv\. phr\.|phr\. v\.|phrasal v\.|phr\.|idiom|n\.|v\.|adj\.|adv\.|prep\.|conj\.)\)\s*$/)?.[1]||'';}
   function cam12ClozeItem(w){
     const term=cam12VocabStem(w),answer=w.clozeAnswer||term;
     const escaped=answer.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
