@@ -156,7 +156,7 @@ for (const exam of volume13.tests) {
   assert.equal(publisher.reading.length,40);
 }
 assert.equal(rendered13,40,'All Cambridge 13 screens should work');
-const cam13ExpectedWords=[35,38,37,37],cam13ExpectedListening=[40,40,29,40];
+const cam13ExpectedWords=[35,38,37,37],cam13ExpectedListening=[40,40,40,40];
 for(let i=0;i<4;i++){
   const n=i+1,code='13-'+n,shared=context.window.WORDHOP_CAMBRIDGE_STUDY[code],exam=volume13.tests[i];
   assert.equal(shared.vocabulary.words.length,cam13ExpectedWords[i]);
@@ -173,8 +173,9 @@ for(let i=0;i<4;i++){
       if(skill==='flashcards')assert(node.innerHTML.includes('cm-flipcard')&&node.innerHTML.includes('data-cam-vocab="speak"')&&node.innerHTML.includes(cam13ExpectedWords[i]+' words'));
       if(skill==='practice')assert(['Matching','Multiple choice','Fill in the blanks'].every(label=>node.innerHTML.includes(label)));
       if(skill==='reading'||skill==='listening'){
-        if(!(i===2&&skill==='listening'&&part===2))assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'English source-based explanations');
-        if(i===2&&skill==='listening'&&part===2)assert(node.innerHTML.includes('Detailed evidence has not been added'),'Missing source remains explicit');
+        assert(node.innerHTML.includes('cam-review-evidence')&&node.innerHTML.includes('lang="en"'),'English source-based explanations');
+        assert(!node.innerHTML.includes('Detailed evidence has not been added'),'Cam13 review complete');
+        if(i===2&&skill==='listening'&&part<=2)assert(node.innerHTML.includes('Supplementary transcript source'),'Supplementary source is visible for recovered transcript');
       }
       values.delete(storageKey);
     }
