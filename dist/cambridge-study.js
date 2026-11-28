@@ -17851,6 +17851,248 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "its design",
           "The project is particularly recognised for its design."
         ]
+      ],
+      "reading": [
+        [
+          37,
+          "B (passage start page)",
+          "commuting versus design",
+          "The writer rejects dancing to work and proposes borrowing choreography techniques."
+        ],
+        [
+          37,
+          "C (passage start page)",
+          "medieval versus modern construction",
+          "Earlier builders adjusted on site; modern designers work through representations."
+        ],
+        [
+          37,
+          "F (passage start page)",
+          "movement within constraints",
+          "Both disciplines organise movement in a limited space."
+        ],
+        [
+          37,
+          "D (passage start page)",
+          "Atlanta cafés",
+          "The lack of shade made cooling necessary in hot weather."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "rail removal",
+          "Unintended obstacles to walking and community access explain the reversal."
+        ],
+        [
+          37,
+          "A (passage start page)",
+          "urban mobility",
+          "Transport affects sustainability, health and quality of life."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "pedestrian protection",
+          "The intended benefit is safety."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "vehicle flow",
+          "Traffic is what the design keeps moving."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "two-stage crossing",
+          "Each carriageway is crossed separately."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "physical mobility",
+          "People least able to move are particularly affected."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "risky shortcuts",
+          "Some pedestrians bypass the barriers dangerously."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "neighbourhood division",
+          "The rails separate communities."
+        ],
+        [
+          37,
+          "E (passage start page)",
+          "active travel",
+          "Healthy forms of transport become harder to use."
+        ],
+        [
+          40,
+          "F (passage start page)",
+          "genetic rescue",
+          "Shapiro proposes genetic changes to avert further extinctions."
+        ],
+        [
+          40,
+          "A (passage start page)",
+          "cloning",
+          "An embryo from extinct-species DNA is carried by a living relative."
+        ],
+        [
+          40,
+          "D (passage start page)",
+          "forest regeneration",
+          "Without passenger pigeons, eastern US forests lost their renewal process."
+        ],
+        [
+          40,
+          "A (passage start page)",
+          "last passenger pigeon",
+          "The death at Cincinnati Zoo is dated precisely."
+        ],
+        [
+          40,
+          "E (passage start page)",
+          "cold adaptation",
+          "The project seeks the genetic traits underlying cold tolerance."
+        ],
+        [
+          40,
+          "E (passage start page)",
+          "temperature regulation",
+          "The adaptations aim to limit heat loss."
+        ],
+        [
+          40,
+          "E (passage start page)",
+          "ear size",
+          "Mammoth-like ears would be smaller."
+        ],
+        [
+          40,
+          "E (passage start page)",
+          "body insulation",
+          "Additional insulating fat would help retain warmth."
+        ],
+        [
+          40,
+          "E (passage start page)",
+          "permafrost",
+          "Cooling the ground could reduce carbon emissions."
+        ],
+        [
+          40,
+          "B (passage start page)",
+          "Tasmanian devils",
+          "Archer connects thylacine restoration with limiting disease among devils."
+        ],
+        [
+          40,
+          "F (passage start page)",
+          "reasons for extinction",
+          "Shapiro prioritises understanding why species disappeared."
+        ],
+        [
+          40,
+          "D (passage start page)",
+          "pigeon nesting",
+          "Novak links pigeon restoration to renewing forest vegetation."
+        ],
+        [
+          40,
+          "F (passage start page)",
+          "conservation shortfall",
+          "Shapiro explicitly calls current measures inadequate."
+        ],
+        [
+          44,
+          "Opening paragraph (passage start page)",
+          "research uses",
+          "Laughter provides researchers with information about psychological processes."
+        ],
+        [
+          44,
+          "TV laugh tracks (passage start page)",
+          "shared amusement",
+          "Douglass recreated the feeling of laughing alongside other people."
+        ],
+        [
+          44,
+          "Santa Cruz study (passage start page)",
+          "cross-cultural consistency",
+          "Listeners across different societies achieved comparable accuracy."
+        ],
+        [
+          44,
+          "San Diego experiment (passage start page)",
+          "rotating roles",
+          "Participants took turns being the target of teasing."
+        ],
+        [
+          44,
+          "Status ratings (passage start page)",
+          "high-status listeners' ratings",
+          "High-status laughers retained their perceived status regardless of laugh type."
+        ],
+        [
+          44,
+          "ANU first experiment (passage start page)",
+          "video reactions",
+          "The clips were selected to generate distinct emotional responses."
+        ],
+        [
+          44,
+          "Persistence task (passage start page)",
+          "comedy group",
+          "The amusing clip led to greater persistence."
+        ],
+        [
+          44,
+          "Second ANU experiment (passage start page)",
+          "manual multiplication",
+          "The second task was deliberately tedious, meaning boring."
+        ],
+        [
+          44,
+          "Conclusion (passage start page)",
+          "stress reduction",
+          "Anxiety corresponds to the stress humour can relieve."
+        ],
+        [
+          44,
+          "Conclusion (passage start page)",
+          "energy",
+          "A stimulating effect corresponds to increased energy."
+        ],
+        [
+          44,
+          "Santa Cruz study (passage start page)",
+          "overall accuracy",
+          "The overall success rate is given, but no friend-versus-stranger breakdown."
+        ],
+        [
+          44,
+          "San Diego experiment (passage start page)",
+          "expected behaviour",
+          "High-status participants produced the predicted pattern of dominant laughter."
+        ],
+        [
+          44,
+          "Persistence task (passage start page)",
+          "voluntary stopping",
+          "Participants could stop whenever they chose, so no fixed duration."
+        ],
+        [
+          44,
+          "Conclusion (passage start page)",
+          "traditional advice",
+          "The researchers challenge the conventional view that humour distracts from work."
+        ]
       ]
     },
     "cues": {
@@ -18307,7 +18549,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "38": "asr-context-reviewed",
       "39": "asr-context-reviewed",
       "40": "asr-context-reviewed"
-    }
+    },
+    "readingEvidenceProvenance": "Original teaching reasoning, based on passage and answer key at https://www.ieltsolve.com/cambridge-15-ielts-academic-reading-test-2/; passage-start navigation, not verified exact printed page."
   },
   "15-3": {
     "vocabulary": {
@@ -18887,6 +19130,248 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "tax was removed",
           "The removal of the tax affected soap production."
         ]
+      ],
+      "reading": [
+        [
+          58,
+          "Opening paragraph (passage start page)",
+          "teacher training",
+          "Moore followed his father's wish to train as a teacher."
+        ],
+        [
+          58,
+          "Leeds studies (passage start page)",
+          "second year",
+          "Sculpture instruction began only in year two."
+        ],
+        [
+          58,
+          "Royal College studies (passage start page)",
+          "scholarship",
+          "The passage gives his admission but not the college's reputation."
+        ],
+        [
+          58,
+          "London museums (passage start page)",
+          "ancient art",
+          "Museum visits introduced him to ancient Egyptian and African sculpture."
+        ],
+        [
+          58,
+          "Paris visit (passage start page)",
+          "personal reaction",
+          "Moore's fascination is described, not the general public's response."
+        ],
+        [
+          58,
+          "Paris visit (passage start page)",
+          "originality",
+          "He regarded the Mayan work as unlike other stone sculpture."
+        ],
+        [
+          58,
+          "Unit One (passage start page)",
+          "public persuasion",
+          "The group sought wider appreciation of modern art and architecture."
+        ],
+        [
+          58,
+          "Leicester exhibition (passage start page)",
+          "pressure to leave",
+          "Critics demanded his resignation."
+        ],
+        [
+          58,
+          "Wartime work (passage start page)",
+          "shortage",
+          "Lack of sculpting materials led him to drawing."
+        ],
+        [
+          58,
+          "Castleford visit (passage start page)",
+          "workers",
+          "He sketched local miners."
+        ],
+        [
+          58,
+          "Harlow commission (passage start page)",
+          "subject",
+          "The sculpture represented a family."
+        ],
+        [
+          58,
+          "Bronze editions (passage start page)",
+          "worldwide buyers",
+          "Multiple casts made works accessible to collectors."
+        ],
+        [
+          58,
+          "Bronze editions (passage start page)",
+          "earnings",
+          "Greater income enabled larger projects."
+        ],
+        [
+          62,
+          "A (passage start page)",
+          "Thai rooftop heaters",
+          "The opening traces the device's inspiration."
+        ],
+        [
+          62,
+          "B (passage start page)",
+          "water sources and need",
+          "This section explains the kinds of contaminated water it can treat."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "operation",
+          "This section describes the device's mechanisms and output."
+        ],
+        [
+          62,
+          "D (passage start page)",
+          "water scarcity",
+          "The emphasis is on the global scale of water shortages."
+        ],
+        [
+          62,
+          "E (passage start page)",
+          "potential users",
+          "The section identifies customer groups and applications."
+        ],
+        [
+          62,
+          "F (passage start page)",
+          "pricing",
+          "The focus is affordability and commercial viability."
+        ],
+        [
+          62,
+          "G (passage start page)",
+          "future expansion",
+          "Funding, sales targets and anticipated markets concern future plans."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "portability",
+          "Two wheels make the unit movable."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "thin layer",
+          "Water runs across the panel in a film."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "particle removal",
+          "A filter captures solid impurities."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "separate outlet",
+          "The other tube releases waste rather than drinking water."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "LCD monitoring",
+          "The screen reports performance."
+        ],
+        [
+          62,
+          "C (passage start page)",
+          "maintenance",
+          "Monitoring tells the company when servicing is needed."
+        ],
+        [
+          66,
+          "Opening paragraph (passage start page)",
+          "different versions",
+          "The same plot can vary across cultures."
+        ],
+        [
+          66,
+          "Cautionary messages (passage start page)",
+          "traditional explanation",
+          "Survival lessons are commonly proposed as the reason for enduring popularity."
+        ],
+        [
+          66,
+          "Research gap (passage start page)",
+          "unverified theories",
+          "Scholars proposed theories despite limited evidence about storytelling history."
+        ],
+        [
+          66,
+          "Phylogenetic analysis (passage start page)",
+          "biological method",
+          "Tehrani adapts a technique for tracing evolutionary relationships."
+        ],
+        [
+          66,
+          "Story collection (passage start page)",
+          "oral tradition",
+          "The 58 variants were collected from spoken storytelling traditions."
+        ],
+        [
+          66,
+          "Story comparison (passage start page)",
+          "relationships",
+          "The method establishes links among versions."
+        ],
+        [
+          66,
+          "Story comparison (passage start page)",
+          "different forms",
+          "Related stories are examined through their variations."
+        ],
+        [
+          66,
+          "Story evolution (passage start page)",
+          "incidents versus characters",
+          "Folklorists expected events to be more stable than characters."
+        ],
+        [
+          66,
+          "Cautionary elements (passage start page)",
+          "survival advice",
+          "The warning elements changed more than expected."
+        ],
+        [
+          66,
+          "Fear and retention (passage start page)",
+          "frightening details",
+          "Horror proved especially persistent across versions."
+        ],
+        [
+          66,
+          "Story collection (passage start page)",
+          "related variants",
+          "He compared many versions of the same underlying tale."
+        ],
+        [
+          66,
+          "Zipes (passage start page)",
+          "lasting relevance",
+          "He argues that gruesome details must have meaning to survive."
+        ],
+        [
+          66,
+          "Asian versions (passage start page)",
+          "counterexamples",
+          "Female villains contradict the idea that female victims are essential."
+        ],
+        [
+          66,
+          "Clasen (passage start page)",
+          "safe exposure",
+          "Frightening fiction lets people experience fear without actual danger."
+        ]
       ]
     },
     "cues": {
@@ -19343,7 +19828,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "38": "asr-candidate",
       "39": "asr-context-reviewed",
       "40": "asr-context-reviewed"
-    }
+    },
+    "readingEvidenceProvenance": "Original teaching reasoning, based on passage and answer key at https://www.ieltsolve.com/cambridge-15-ielts-academic-reading-test-3/; passage-start navigation, not verified exact printed page."
   },
   "15-4": {
     "vocabulary": {
@@ -19928,6 +20414,248 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "advertising",
           "Advertising is discussed as a way to attract customers."
         ]
+      ],
+      "reading": [
+        [
+          80,
+          "Opening paragraphs (passage start page)",
+          "deep roots",
+          "The roots reach water far underground."
+        ],
+        [
+          80,
+          "Ancient diet (passage start page)",
+          "food source",
+          "The tree was central to what local people ate."
+        ],
+        [
+          80,
+          "Ancient diet (passage start page)",
+          "dry periods",
+          "Deep water access helped communities endure drought."
+        ],
+        [
+          80,
+          "Woodland loss (passage start page)",
+          "soil stability",
+          "Removing the trees leaves soil vulnerable to erosion."
+        ],
+        [
+          80,
+          "Woodland loss (passage start page)",
+          "desertification",
+          "Without the trees the area becomes desert."
+        ],
+        [
+          80,
+          "Traditional uses (passage start page)",
+          "charcoal",
+          "Branches supplied fuel for heating and cooking."
+        ],
+        [
+          80,
+          "Traditional uses (passage start page)",
+          "herbal remedies",
+          "Both leaves and bark were medicinal resources."
+        ],
+        [
+          80,
+          "Traditional uses (passage start page)",
+          "house building",
+          "The trunk provided construction material."
+        ],
+        [
+          80,
+          "Whaley and families (passage start page)",
+          "food products",
+          "Their collaboration is described, but who told him the historical uses is unspecified."
+        ],
+        [
+          80,
+          "Benevides (passage start page)",
+          "farm income",
+          "The farm does not yet earn enough to support him."
+        ],
+        [
+          80,
+          "Forest corridors (passage start page)",
+          "farm cooperation",
+          "Whaley needs farmers' permission to reconnect wildlife habitats."
+        ],
+        [
+          80,
+          "Desert habitats (passage start page)",
+          "small patches",
+          "The author explains that desert ecosystems need not cover vast areas."
+        ],
+        [
+          80,
+          "Final paragraph (passage start page)",
+          "Africa",
+          "Africa is a possible beneficiary of the model; no personal travel plan is stated."
+        ],
+        [
+          84,
+          "Opening paragraph (passage start page)",
+          "mountainous terrain",
+          "The terrain is described without ranking it against the other islands."
+        ],
+        [
+          84,
+          "Everyday communication (passage start page)",
+          "full sentences",
+          "Silbo can transmit any Spanish sentence, not only short messages."
+        ],
+        [
+          84,
+          "Brain study (passage start page)",
+          "different neural responses",
+          "Trained whistlers and untrained listeners activate different brain areas."
+        ],
+        [
+          84,
+          "Origins (passage start page)",
+          "pre-conquest tradition",
+          "Islanders already used whistling before the Spanish arrived."
+        ],
+        [
+          84,
+          "Origins (passage start page)",
+          "incomplete research",
+          "Only a fraction of the estimated languages have been scientifically studied."
+        ],
+        [
+          84,
+          "Preservation (passage start page)",
+          "primary schools",
+          "Elementary schools have taught Silbo since 1999."
+        ],
+        [
+          84,
+          "Whistling technique (passage start page)",
+          "coded speech",
+          "Spanish words are transformed into tones."
+        ],
+        [
+          84,
+          "Whistling technique (passage start page)",
+          "pitch",
+          "A finger in the mouth raises the pitch."
+        ],
+        [
+          84,
+          "Whistling technique (passage start page)",
+          "sound aim",
+          "A cupped hand changes the direction."
+        ],
+        [
+          84,
+          "Everyday communication (passage start page)",
+          "brief instructions",
+          "Commands are the usual short messages."
+        ],
+        [
+          84,
+          "Emergency communication (passage start page)",
+          "wildfire alerts",
+          "Silbo enables rapid communication about fires."
+        ],
+        [
+          84,
+          "Preservation (passage start page)",
+          "modern alternatives",
+          "Modern communication technology threatens its continued use."
+        ],
+        [
+          84,
+          "Preservation (passage start page)",
+          "UNESCO recognition",
+          "Authorities seek an award to protect the tradition."
+        ],
+        [
+          88,
+          "Opening paragraph (passage start page)",
+          "profit versus justice",
+          "The question describes apparent disregard for moral standards."
+        ],
+        [
+          88,
+          "Opening paragraph (passage start page)",
+          "weak regulation",
+          "Government regulation corresponds to control."
+        ],
+        [
+          88,
+          "Opening paragraph (passage start page)",
+          "public concern",
+          "Lack of public awareness or concern corresponds to lack of involvement."
+        ],
+        [
+          88,
+          "Opening paragraph (passage start page)",
+          "unmanaged fisheries",
+          "Without quotas fishing can become excessive."
+        ],
+        [
+          88,
+          "Opening paragraph (passage start page)",
+          "logging leases",
+          "Logging is the example of tree destruction."
+        ],
+        [
+          88,
+          "Third paragraph (passage start page)",
+          "public power",
+          "Ordinary citizens can make harmful practices unprofitable or illegal."
+        ],
+        [
+          88,
+          "Fourth paragraph (passage start page)",
+          "consumer and political actions",
+          "The examples show ways to change corporate and government policies."
+        ],
+        [
+          88,
+          "BSE example (passage start page)",
+          "supplier pressure",
+          "A fast-food buyer made meat suppliers comply with existing rules."
+        ],
+        [
+          88,
+          "Public responsibility (passage start page)",
+          "higher prices",
+          "The writer says consumers should accept the costs of responsible practices."
+        ],
+        [
+          88,
+          "Moral principles (passage start page)",
+          "no comparison",
+          "The writer discusses morality but does not compare different firms' principles."
+        ],
+        [
+          88,
+          "Final paragraph (passage start page)",
+          "not a moral judgment",
+          "The conclusion explicitly rejects sorting actors into good and bad."
+        ],
+        [
+          88,
+          "Final paragraph (passage start page)",
+          "historical change",
+          "Past businesses responded to changed public expectations."
+        ],
+        [
+          88,
+          "Final paragraph (passage start page)",
+          "conditional change",
+          "Public attitudes must change, but future improvement itself is not guaranteed."
+        ],
+        [
+          88,
+          "Whole passage (passage start page)",
+          "ultimate responsibility",
+          "The central issue is whether businesses alone deserve blame."
+        ]
       ]
     },
     "cues": {
@@ -20384,7 +21112,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "38": "asr-context-reviewed",
       "39": "asr-context-reviewed",
       "40": "asr-context-reviewed"
-    }
+    },
+    "readingEvidenceProvenance": "Original teaching reasoning, based on passage and answer key at https://www.ieltsolve.com/cambridge-15-ielts-academic-reading-test-4/; passage-start navigation, not verified exact printed page."
   },
   "16-1": {
     "vocabulary": {
