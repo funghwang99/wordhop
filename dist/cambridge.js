@@ -490,6 +490,8 @@
   function stopReviewAudio(){
     if(camReviewAudio){camReviewAudio.audio.removeEventListener('timeupdate',camReviewAudio.onTime);camReviewAudio.audio.removeEventListener('ended',camReviewAudio.onEnd);camReviewAudio.audio.pause();camReviewAudio.button.textContent=camReviewAudio.label;camReviewAudio=null;}
   }
+  function reviewCue(test,n){return window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.cues?.[n]||window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];}
+  function reviewAudioMatched(test,part){return (window.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH?.[test+'-'+part]||window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[test+'-'+part])?.matched===true;}
   function reviewClock(sec){const whole=Math.floor(sec);return Math.floor(whole/60)+':'+String(whole%60).padStart(2,'0');}
   function solution(test,skill,n,item,graded){
     const value=item.answers[n]||'', k=keyFor(test,skill,n);
@@ -501,8 +503,8 @@
     }else if(detail&&skill==='listening'){
       const [page,evidence,why,source]=detail;
       const external=source==='external-transcript-paraphrase';
-      const candidate=window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];
-      const matched=window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[test+'-'+Math.ceil(n/10)]?.matched===true;
+      const candidate=reviewCue(test,n);
+      const matched=reviewAudioMatched(test,Math.ceil(n/10));
       const cue=matched?candidate:null;
       explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>'+(external?'Transcript cue (paraphrased) · Missing print page '+page:'Transcript · Page '+page)+'</strong><p>'+esc(evidence)+'</p>'+(external?'<a href="https://www.ielts-hub.com/exams/listening/cambridge-ielts-13-test-3/transcript" target="_blank" rel="noopener noreferrer">Supplementary transcript source</a>':'')+'</blockquote>'+
         '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to this answer':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Source-audio match · '+reviewClock(cue[0])+'–'+reviewClock(cue[1])+' · Automatically aligned; timing is approximate.':candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
@@ -518,12 +520,12 @@
     if(!audio){if(status)status.textContent='Section audio is unavailable.';return;}
     const previous=camReviewAudio?.button===button;
     stopReviewAudio();if(previous)return;
-    const cue=window.WORDHOP_CAMBRIDGE12_CUES?.[a.test]?.[Number(button.dataset.reviewQuestion)];
+    const cue=reviewCue(a.test,Number(button.dataset.reviewQuestion));
     const label=button.textContent;
     const begin=()=>{
       if(context()!==a)return;
       // Cue times were obtained from the supplied MP3. A duration mismatch disables cue seeking.
-      const matched=window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[a.test+'-'+a.part]?.matched===true;
+      const matched=reviewAudioMatched(a.test,a.part);
       const verified=matched&&cue&&Number.isFinite(audio.duration)&&Math.abs(audio.duration-cue[2])<1.5&&cue[1]<=audio.duration;
       const start=verified?cue[0]:0,end=verified?cue[1]:Infinity;
       const finish=()=>{if(camReviewAudio?.button===button){stopReviewAudio();if(status)status.textContent='Replay finished.';}};
