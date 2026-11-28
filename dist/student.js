@@ -108,14 +108,14 @@
       ? '<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="#/" data-nav="#/">Courses</a>' +
         '<span class="sep" aria-hidden="true">/</span><span class="current" aria-current="page">Student account</span></nav>'
       : '';
-    main.innerHTML = breadcrumbs + '<section class="student-account"><span class="student-account-kicker">WORDHOP</span>' +
+    main.innerHTML = breadcrumbs + '<section class="student-account"><span class="student-account-kicker">ENGLISHLAB</span>' +
       (account
         ? '<h1>Student account</h1><p>Signed in as <strong>'+esc(account.name)+'</strong>.</p>' +
             '<p class="student-username">'+esc(account.username)+'</p>' +
             (memorySession ? '<p class="student-username">Your browser blocked the sign-in cookie. You are signed in for this tab only.</p>' : '') +
             '<a class="btn btn-primary" href="'+esc(returnPath)+'" data-nav="'+esc(returnPath)+'">Continue studying</a>' +
             '<form class="student-signout" method="post"><button class="btn" type="submit">Sign out</button><p role="status"></p></form>'
-          : '<h1>Student sign in</h1><p>Use the username and password from your teacher to open WordHop.</p>' +
+          : '<h1>Student sign in</h1><p>Use the username and password from your teacher to open EnglishLab.</p>' +
             '<form class="student-signin" method="post">' +
             '<label for="student-username">Username</label><input id="student-username" name="username" autocomplete="username" ' +
             'autocapitalize="none" spellcheck="false" required minlength="3" maxlength="40">' +
