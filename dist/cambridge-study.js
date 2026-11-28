@@ -17477,6 +17477,291 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "redeployment (n.)",
           "definition": "The transfer of workers to different roles.",
           "example": "Redeployment helped staff remain employed."
+        },
+        {
+          "word": "obese (adj.)",
+          "definition": "Having excessive body fat.",
+          "example": "The study compared obese and lean animals."
+        },
+        {
+          "word": "shed light on (v. phr.)",
+          "definition": "Help explain something previously unclear.",
+          "example": "The findings shed light on ageing."
+        },
+        {
+          "word": "mutation (n.)",
+          "definition": "A change in genetic material.",
+          "example": "A mutation can affect metabolism."
+        },
+        {
+          "word": "genome (n.)",
+          "definition": "The complete genetic material of an organism.",
+          "example": "Researchers sequenced the bear's genome."
+        },
+        {
+          "word": "starvation (n.)",
+          "definition": "Extreme suffering caused by lack of food.",
+          "example": "Stored fat helps prevent starvation."
+        },
+        {
+          "word": "remodel (v.)",
+          "definition": "Change the structure or form of something.",
+          "example": "Bones continually remodel themselves."
+        },
+        {
+          "word": "undergo (v.)",
+          "definition": "Experience a process or change.",
+          "example": "The animals undergo physiological changes."
+        },
+        {
+          "word": "fasting (n.)",
+          "definition": "Abstaining from food for a period.",
+          "example": "Fasting affects energy use."
+        },
+        {
+          "word": "hibernation (n.)",
+          "definition": "A period of greatly reduced activity and metabolism.",
+          "example": "Hibernation helps animals survive winter."
+        },
+        {
+          "word": "resort to (v. phr.)",
+          "definition": "Use something as a last or necessary option.",
+          "example": "Animals may resort to stored energy."
+        },
+        {
+          "word": "bedridden (adj.)",
+          "definition": "Confined to bed due to illness or weakness.",
+          "example": "Bedridden patients may lose bone density."
+        },
+        {
+          "word": "anecdotal evidence (n.)",
+          "definition": "Evidence based on individual accounts rather than systematic research.",
+          "example": "Anecdotal evidence needs further testing."
+        },
+        {
+          "word": "perceive (v.)",
+          "definition": "Notice or interpret something.",
+          "example": "Animals perceive threats differently."
+        },
+        {
+          "word": "dislodge (v.)",
+          "definition": "Remove something from its fixed position.",
+          "example": "The bear tried to dislodge the object."
+        },
+        {
+          "word": "calculated move (n.)",
+          "definition": "A deliberately planned action.",
+          "example": "The decision was a calculated move."
+        },
+        {
+          "word": "agile (adj.)",
+          "definition": "Able to move or think quickly and easily.",
+          "example": "The animal was surprisingly agile."
+        },
+        {
+          "word": "miss out on (v. phr.)",
+          "definition": "Lose the opportunity to experience something.",
+          "example": "We may miss out on valuable discoveries."
+        },
+        {
+          "word": "extinction (n.)",
+          "definition": "The disappearance of an entire species.",
+          "example": "Habitat loss threatens species with extinction."
+        },
+        {
+          "word": "breakthrough (n.)",
+          "definition": "An important discovery or advance.",
+          "example": "The research led to a medical breakthrough."
+        },
+        {
+          "word": "majestic (adj.)",
+          "definition": "Impressive in beauty or dignity.",
+          "example": "The majestic animal attracted attention."
+        },
+        {
+          "word": "dynasty (n.)",
+          "definition": "A succession of rulers from the same family.",
+          "example": "The dynasty lasted several centuries."
+        },
+        {
+          "word": "reign (n.)",
+          "definition": "The period during which a monarch rules.",
+          "example": "Construction began during his reign."
+        },
+        {
+          "word": "deceased (adj.)",
+          "definition": "No longer alive.",
+          "example": "The tomb honoured the deceased ruler."
+        },
+        {
+          "word": "slab (n.)",
+          "definition": "A thick, flat piece of material.",
+          "example": "Workers moved a stone slab."
+        },
+        {
+          "word": "attribute to (v. phr.)",
+          "definition": "Regard something as caused or created by someone or something.",
+          "example": "Historians attribute the design to an architect."
+        },
+        {
+          "word": "owing to (prep.)",
+          "definition": "Because of.",
+          "example": "The structure survived owing to its solid foundations."
+        },
+        {
+          "word": "experimentation (n.)",
+          "definition": "The process of trying new methods.",
+          "example": "Experimentation produced an improved design."
+        },
+        {
+          "word": "incline (n.)",
+          "definition": "A slope or slanted surface.",
+          "example": "The wall has a slight incline."
+        },
+        {
+          "word": "courtyard (n.)",
+          "definition": "An open area enclosed by buildings or walls.",
+          "example": "The courtyard was surrounded by chambers."
+        },
+        {
+          "word": "shrine (n.)",
+          "definition": "A sacred place associated with worship.",
+          "example": "Visitors approached the shrine."
+        },
+        {
+          "word": "living quarters (n. pl.)",
+          "definition": "Rooms or buildings where people live.",
+          "example": "The complex included living quarters."
+        },
+        {
+          "word": "trench (n.)",
+          "definition": "A long, narrow ditch.",
+          "example": "A deep trench protected the site."
+        },
+        {
+          "word": "incorporate (v.)",
+          "definition": "Include something as part of a whole.",
+          "example": "The design incorporated several innovations."
+        },
+        {
+          "word": "burial chamber (n.)",
+          "definition": "A room in which a dead person is buried.",
+          "example": "The burial chamber lay underground."
+        },
+        {
+          "word": "maze (n.)",
+          "definition": "A complicated network of passages.",
+          "example": "The tunnels formed a maze."
+        },
+        {
+          "word": "inscribe (v.)",
+          "definition": "Write or carve words on a surface.",
+          "example": "Craftspeople inscribed names on stone."
+        },
+        {
+          "word": "predecessor (n.)",
+          "definition": "A person or thing that came before another.",
+          "example": "The ruler continued his predecessor's work."
+        },
+        {
+          "word": "shaft (n.)",
+          "definition": "A long, narrow vertical passage.",
+          "example": "The shaft led underground."
+        },
+        {
+          "word": "grave goods (n. pl.)",
+          "definition": "Objects placed in a grave with the dead.",
+          "example": "The archaeologists recovered grave goods."
+        },
+        {
+          "word": "constitute (v.)",
+          "definition": "Form or amount to something.",
+          "example": "The discovery constitutes a milestone."
+        },
+        {
+          "word": "milestone (n.)",
+          "definition": "An important stage in development.",
+          "example": "The pyramid marked a milestone in architecture."
+        },
+        {
+          "word": "workforce (n.)",
+          "definition": "The people engaged in work.",
+          "example": "Automation is transforming the workforce."
+        },
+        {
+          "word": "fundamental (adj.)",
+          "definition": "Basic and essential.",
+          "example": "Training is fundamental to the transition."
+        },
+        {
+          "word": "knowledge economy (n.)",
+          "definition": "An economy based on knowledge and information.",
+          "example": "Education supports the knowledge economy."
+        },
+        {
+          "word": "undertake (v.)",
+          "definition": "Agree to do or begin a task.",
+          "example": "Employees undertake complex assignments."
+        },
+        {
+          "word": "outperform (v.)",
+          "definition": "Perform better than someone or something else.",
+          "example": "The program can outperform human analysts."
+        },
+        {
+          "word": "cognitive (adj.)",
+          "definition": "Relating to thinking and mental processes.",
+          "example": "Learning develops cognitive skills."
+        },
+        {
+          "word": "novice (n.)",
+          "definition": "A person who is new to an activity.",
+          "example": "A novice needs practical guidance."
+        },
+        {
+          "word": "short-sighted (adj.)",
+          "definition": "Failing to consider long-term consequences.",
+          "example": "The decision was short-sighted."
+        },
+        {
+          "word": "creep into (v. phr.)",
+          "definition": "Gradually enter or influence something.",
+          "example": "Automation may creep into daily work."
+        },
+        {
+          "word": "dilemma (n.)",
+          "definition": "A difficult choice between alternatives.",
+          "example": "Managers face an ethical dilemma."
+        },
+        {
+          "word": "envisage (v.)",
+          "definition": "Imagine a future possibility.",
+          "example": "Researchers envisage longer working lives."
+        },
+        {
+          "word": "retraining (n.)",
+          "definition": "Training to develop new skills for different work.",
+          "example": "Retraining can support displaced workers."
+        },
+        {
+          "word": "advent (n.)",
+          "definition": "The arrival of an important development.",
+          "example": "The advent of automation changed employment."
+        },
+        {
+          "word": "seize the opportunity (v. phr.)",
+          "definition": "Act to take advantage of a favourable chance.",
+          "example": "Employees should seize the opportunity to learn."
+        },
+        {
+          "word": "pre-empt (v.)",
+          "definition": "Act before something happens to prevent or anticipate it.",
+          "example": "Training may pre-empt skills shortages."
+        },
+        {
+          "word": "subsistence agriculture (n.)",
+          "definition": "Farming mainly to feed one's household.",
+          "example": "The community relied on subsistence agriculture."
         }
       ]
     },
@@ -18273,6 +18558,311 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "retaliate (v.)",
           "definition": "To respond to harm by causing harm in return.",
           "example": "The manager chose not to retaliate."
+        },
+        {
+          "word": "scatter (v.)",
+          "definition": "Spread over a wide area.",
+          "example": "The remains were scattered across the region."
+        },
+        {
+          "word": "prehistoric (adj.)",
+          "definition": "Dating from before written history.",
+          "example": "The design may be prehistoric."
+        },
+        {
+          "word": "priory (n.)",
+          "definition": "A religious house governed by a prior or prioress.",
+          "example": "The monk lived in a nearby priory."
+        },
+        {
+          "word": "overlying (adj.)",
+          "definition": "Located on top of something.",
+          "example": "Workers removed the overlying soil."
+        },
+        {
+          "word": "gleaming (adj.)",
+          "definition": "Shining brightly.",
+          "example": "Gleaming chalk contrasted with the grass."
+        },
+        {
+          "word": "fade (v.)",
+          "definition": "Gradually become weaker or less visible.",
+          "example": "The tradition began to fade."
+        },
+        {
+          "word": "outline (n.)",
+          "definition": "The outer shape or boundary of something.",
+          "example": "The outline changed over time."
+        },
+        {
+          "word": "testament to (phr.)",
+          "definition": "Evidence of the strength or truth of something.",
+          "example": "The monument is a testament to local traditions."
+        },
+        {
+          "word": "millennia (n. pl.)",
+          "definition": "Periods of one thousand years.",
+          "example": "The practice has survived for millennia."
+        },
+        {
+          "word": "sleek (adj.)",
+          "definition": "Smooth and elegantly shaped.",
+          "example": "The figure has a sleek body."
+        },
+        {
+          "word": "disjointed (adj.)",
+          "definition": "Not smoothly or logically connected.",
+          "example": "The design includes disjointed limbs."
+        },
+        {
+          "word": "burial mound (n.)",
+          "definition": "A raised area of earth covering a grave.",
+          "example": "Archaeologists investigated the burial mound."
+        },
+        {
+          "word": "close quarters (n. pl.)",
+          "definition": "A position very near something.",
+          "example": "The image is difficult to appreciate at close quarters."
+        },
+        {
+          "word": "tribal emblem (n.)",
+          "definition": "A symbol representing a tribe.",
+          "example": "The carving may have served as a tribal emblem."
+        },
+        {
+          "word": "inhabitant (n.)",
+          "definition": "A person or animal living in a place.",
+          "example": "The inhabitants maintained local customs."
+        },
+        {
+          "word": "ritual (n.)",
+          "definition": "A formal series of actions with symbolic meaning.",
+          "example": "The figure may have been part of a ritual."
+        },
+        {
+          "word": "attest to (v. phr.)",
+          "definition": "Provide evidence of something.",
+          "example": "The objects attest to the horse's importance."
+        },
+        {
+          "word": "mythology (n.)",
+          "definition": "Traditional stories and beliefs of a culture.",
+          "example": "The figure appears in local mythology."
+        },
+        {
+          "word": "glimpse (n.)",
+          "definition": "A brief view or insight.",
+          "example": "The carving offers a glimpse into ancient beliefs."
+        },
+        {
+          "word": "microbe (n.)",
+          "definition": "A microscopic organism.",
+          "example": "A microbe may affect human health."
+        },
+        {
+          "word": "inhabit (v.)",
+          "definition": "Live in a place.",
+          "example": "Microbes inhabit the human body."
+        },
+        {
+          "word": "at one's peril (phr.)",
+          "definition": "With the risk of serious consequences.",
+          "example": "We ignore microbial balance at our peril."
+        },
+        {
+          "word": "colony (n.)",
+          "definition": "A group of organisms living together.",
+          "example": "The sample contained a bacterial colony."
+        },
+        {
+          "word": "dub (v.)",
+          "definition": "Give something an informal name.",
+          "example": "Scientists dubbed the combined unit a holobiont."
+        },
+        {
+          "word": "by and large (phr.)",
+          "definition": "Generally or on the whole.",
+          "example": "By and large, the microbes are harmless."
+        },
+        {
+          "word": "out of context (phr.)",
+          "definition": "Outside the circumstances in which something belongs.",
+          "example": "A normally harmless bacterium may be dangerous out of context."
+        },
+        {
+          "word": "bloodstream (n.)",
+          "definition": "The blood circulating in the body.",
+          "example": "Some microbes enter the bloodstream."
+        },
+        {
+          "word": "adept (adj.)",
+          "definition": "Highly skilled at something.",
+          "example": "The writer is adept at explaining science."
+        },
+        {
+          "word": "panache (n.)",
+          "definition": "Confident and stylish manner.",
+          "example": "She described the discovery with panache."
+        },
+        {
+          "word": "have a knack for (v. phr.)",
+          "definition": "Have a natural skill for something.",
+          "example": "He has a knack for simplifying complex ideas."
+        },
+        {
+          "word": "enthralling (adj.)",
+          "definition": "Extremely interesting and captivating.",
+          "example": "The book is enthralling."
+        },
+        {
+          "word": "in a bid to (phr.)",
+          "definition": "In an attempt to achieve something.",
+          "example": "Researchers changed the method in a bid to improve results."
+        },
+        {
+          "word": "potent (adj.)",
+          "definition": "Having a strong effect.",
+          "example": "The microbes can be potent."
+        },
+        {
+          "word": "teem with (v. phr.)",
+          "definition": "Contain large numbers of something.",
+          "example": "The water teems with microscopic life."
+        },
+        {
+          "word": "endure (v.)",
+          "definition": "Continue to exist over time.",
+          "example": "The negative image endures."
+        },
+        {
+          "word": "plea (n.)",
+          "definition": "An urgent or sincere request.",
+          "example": "The book makes a plea for microbial tolerance."
+        },
+        {
+          "word": "mutually beneficial (adj. phr.)",
+          "definition": "Helpful to both parties.",
+          "example": "The relationship is mutually beneficial."
+        },
+        {
+          "word": "unravel (v.)",
+          "definition": "Discover or explain something complicated.",
+          "example": "Scientists are trying to unravel the mechanism."
+        },
+        {
+          "word": "regulate (v.)",
+          "definition": "Control or maintain a process.",
+          "example": "Bacteria help regulate digestion."
+        },
+        {
+          "word": "eliminate (v.)",
+          "definition": "Remove completely.",
+          "example": "The body works to eliminate toxins."
+        },
+        {
+          "word": "soaring (adj.)",
+          "definition": "Rising very rapidly.",
+          "example": "Doctors are concerned about soaring allergy rates."
+        },
+        {
+          "word": "keep at bay (v. phr.)",
+          "definition": "Prevent something from approaching or causing harm.",
+          "example": "Helpful bacteria keep harmful germs at bay."
+        },
+        {
+          "word": "wipe out (v. phr.)",
+          "definition": "Destroy completely.",
+          "example": "Disease can wipe out a population."
+        },
+        {
+          "word": "luminescent (adj.)",
+          "definition": "Giving off light without significant heat.",
+          "example": "The squid carries luminescent bacteria."
+        },
+        {
+          "word": "neonatal (adj.)",
+          "definition": "Relating to newborn babies.",
+          "example": "The hospital improved its neonatal care."
+        },
+        {
+          "word": "few and far between (phr.)",
+          "definition": "Rare or infrequent.",
+          "example": "Truly exceptional examples are few and far between."
+        },
+        {
+          "word": "experiential (adj.)",
+          "definition": "Relating to experience.",
+          "example": "Experiential factors influence judgement."
+        },
+        {
+          "word": "situational (adj.)",
+          "definition": "Dependent on particular circumstances.",
+          "example": "Wisdom has a situational component."
+        },
+        {
+          "word": "cumulatively (adv.)",
+          "definition": "With effects building up over time.",
+          "example": "The findings cumulatively support the theory."
+        },
+        {
+          "word": "characterise (v.)",
+          "definition": "Describe the distinctive nature of something.",
+          "example": "Researchers characterise different thinking styles."
+        },
+        {
+          "word": "unfold (v.)",
+          "definition": "Develop or become apparent over time.",
+          "example": "The process unfolds differently in each setting."
+        },
+        {
+          "word": "integration (n.)",
+          "definition": "Combining separate elements into a whole.",
+          "example": "Wisdom involves integration of different beliefs."
+        },
+        {
+          "word": "third-party perspective (n.)",
+          "definition": "A viewpoint adopted by an outside observer.",
+          "example": "Try considering a dispute from a third-party perspective."
+        },
+        {
+          "word": "focal (adj.)",
+          "definition": "Central or most important.",
+          "example": "The study examined focal features of the situation."
+        },
+        {
+          "word": "interpersonal (adj.)",
+          "definition": "Relating to relationships between people.",
+          "example": "Interpersonal skills improve communication."
+        },
+        {
+          "word": "foster (v.)",
+          "definition": "Encourage the development of something.",
+          "example": "Reflection can foster wiser reasoning."
+        },
+        {
+          "word": "personal stake (n.)",
+          "definition": "A personal interest in the outcome of something.",
+          "example": "Both parties have a personal stake in the dispute."
+        },
+        {
+          "word": "control group (n.)",
+          "definition": "A comparison group in an experiment.",
+          "example": "The control group received different instructions."
+        },
+        {
+          "word": "egocentric (adj.)",
+          "definition": "Centred on one's own perspective.",
+          "example": "An egocentric viewpoint may limit understanding."
+        },
+        {
+          "word": "crystallized intelligence (n.)",
+          "definition": "Knowledge and abilities acquired through experience.",
+          "example": "Crystallized intelligence tends to reflect accumulated learning."
+        },
+        {
+          "word": "agreeableness (n.)",
+          "definition": "A personality trait involving cooperation and friendliness.",
+          "example": "Agreeableness was measured in the study."
         }
       ]
     },
@@ -19060,6 +19650,346 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "culmination (n.)",
           "definition": "The final result of a long process.",
           "example": "The discovery was the culmination of years of work."
+        },
+        {
+          "word": "sophisticated (adj.)",
+          "definition": "Advanced and complex in design.",
+          "example": "Modern ships use sophisticated instruments."
+        },
+        {
+          "word": "estimation (n.)",
+          "definition": "An approximate calculation or judgement.",
+          "example": "Early builders relied on estimation."
+        },
+        {
+          "word": "inherited (adj.)",
+          "definition": "Received from previous generations.",
+          "example": "The craftspeople used inherited techniques."
+        },
+        {
+          "word": "excavated (adj.)",
+          "definition": "Dug up from the ground.",
+          "example": "The excavated vessels revealed construction methods."
+        },
+        {
+          "word": "hull (n.)",
+          "definition": "The main body of a ship.",
+          "example": "The hull was made of timber."
+        },
+        {
+          "word": "plank (n.)",
+          "definition": "A long, flat piece of wood.",
+          "example": "Each plank was fitted carefully."
+        },
+        {
+          "word": "mortise and tenon (n.)",
+          "definition": "A joint connecting a projecting piece to a matching hole.",
+          "example": "Builders used a mortise and tenon joint."
+        },
+        {
+          "word": "systematic (adj.)",
+          "definition": "Organised according to a method or plan.",
+          "example": "The new technique was more systematic."
+        },
+        {
+          "word": "merchant ship (n.)",
+          "definition": "A vessel used to transport goods commercially.",
+          "example": "A merchant ship carried grain."
+        },
+        {
+          "word": "crippled (adj.)",
+          "definition": "Severely damaged or unable to function normally.",
+          "example": "The crippled ship remained afloat."
+        },
+        {
+          "word": "naval (adj.)",
+          "definition": "Relating to a navy or military ships.",
+          "example": "The museum displays naval history."
+        },
+        {
+          "word": "oarsman (n.)",
+          "definition": "A person who rows a boat.",
+          "example": "Each oarsman followed the rhythm."
+        },
+        {
+          "word": "contrary to (prep.)",
+          "definition": "In opposition to an idea or expectation.",
+          "example": "Contrary to popular belief, the rowers were citizens."
+        },
+        {
+          "word": "cargo (n.)",
+          "definition": "Goods carried by a ship or other vehicle.",
+          "example": "The cargo included agricultural products."
+        },
+        {
+          "word": "planking (n.)",
+          "definition": "Boards used to form a surface or structure.",
+          "example": "Double planking increased stability."
+        },
+        {
+          "word": "rudder (n.)",
+          "definition": "A movable part used to steer a vessel.",
+          "example": "The rudder controlled the ship's direction."
+        },
+        {
+          "word": "stern (n.)",
+          "definition": "The rear part of a ship.",
+          "example": "The steering equipment was near the stern."
+        },
+        {
+          "word": "mast (n.)",
+          "definition": "A tall pole supporting a ship's sails.",
+          "example": "The ship had a tall mast."
+        },
+        {
+          "word": "bow (n.)",
+          "definition": "The front part of a ship.",
+          "example": "A small sail was fixed near the bow."
+        },
+        {
+          "word": "intercept (v.)",
+          "definition": "Meet or stop something on its way somewhere.",
+          "example": "Towboats intercepted arriving ships."
+        },
+        {
+          "word": "quay (n.)",
+          "definition": "A platform beside water where ships load or unload.",
+          "example": "Goods were unloaded at the quay."
+        },
+        {
+          "word": "natural phenomena (n. pl.)",
+          "definition": "Observable events or processes occurring in nature.",
+          "example": "Sailors observed natural phenomena."
+        },
+        {
+          "word": "landmark (n.)",
+          "definition": "A recognisable feature used to identify a location.",
+          "example": "The mountain was a useful landmark."
+        },
+        {
+          "word": "mariner (n.)",
+          "definition": "A sailor, especially an experienced one.",
+          "example": "The mariner estimated his direction."
+        },
+        {
+          "word": "swell (n.)",
+          "definition": "A long rolling movement of the sea.",
+          "example": "The ship moved with the swell."
+        },
+        {
+          "word": "treeline (n.)",
+          "definition": "The elevation beyond which trees cannot grow.",
+          "example": "The artefacts were found above the treeline."
+        },
+        {
+          "word": "insight (n.)",
+          "definition": "A clear or deep understanding of something.",
+          "example": "The find provides insight into daily life."
+        },
+        {
+          "word": "hide (n.)",
+          "definition": "The skin of an animal, especially when used as material.",
+          "example": "The traders sold animal hides."
+        },
+        {
+          "word": "microorganism (n.)",
+          "definition": "A microscopic living organism.",
+          "example": "A microorganism can cause decay."
+        },
+        {
+          "word": "thaw out (v. phr.)",
+          "definition": "Become unfrozen as temperature rises.",
+          "example": "Frozen material can deteriorate when it thaws out."
+        },
+        {
+          "word": "race the clock (v. phr.)",
+          "definition": "Work urgently to finish before time runs out.",
+          "example": "Researchers must race the clock to recover objects."
+        },
+        {
+          "word": "fragile (adj.)",
+          "definition": "Easily damaged or broken.",
+          "example": "The fragile textile required careful handling."
+        },
+        {
+          "word": "windblown (adj.)",
+          "definition": "Moved or carried by wind.",
+          "example": "The dry material became windblown."
+        },
+        {
+          "word": "fieldwork (n.)",
+          "definition": "Practical research carried out in a natural setting.",
+          "example": "The team conducted fieldwork in the mountains."
+        },
+        {
+          "word": "congregate (v.)",
+          "definition": "Gather in a group.",
+          "example": "Reindeer congregated on the ice."
+        },
+        {
+          "word": "stationary (adj.)",
+          "definition": "Not moving.",
+          "example": "The team examined stationary ice patches."
+        },
+        {
+          "word": "frost-weathered (adj.)",
+          "definition": "Worn or altered by repeated freezing.",
+          "example": "Frost-weathered rocks covered the slopes."
+        },
+        {
+          "word": "bedrock (n.)",
+          "definition": "Solid rock beneath soil or loose material.",
+          "example": "Exposed bedrock surrounded the site."
+        },
+        {
+          "word": "contracting (adj.)",
+          "definition": "Becoming smaller.",
+          "example": "The contracting ice exposed objects."
+        },
+        {
+          "word": "material record (n.)",
+          "definition": "Physical evidence documenting past human activity.",
+          "example": "Artefacts form a material record."
+        },
+        {
+          "word": "misplace (v.)",
+          "definition": "Lose something by putting it in the wrong place.",
+          "example": "Hunters may have misplaced their tools."
+        },
+        {
+          "word": "discard (v.)",
+          "definition": "Throw away something no longer wanted.",
+          "example": "The travellers discarded broken equipment."
+        },
+        {
+          "word": "traverse (v.)",
+          "definition": "Travel across an area.",
+          "example": "Hunters traversed mountain passes."
+        },
+        {
+          "word": "daunting (adj.)",
+          "definition": "Seeming difficult or intimidating.",
+          "example": "The terrain was daunting."
+        },
+        {
+          "word": "elevation (n.)",
+          "definition": "Height above a reference level, usually sea level.",
+          "example": "People settled at lower elevations."
+        },
+        {
+          "word": "venture (v.)",
+          "definition": "Go somewhere despite uncertainty or risk.",
+          "example": "Hunters ventured into the mountains."
+        },
+        {
+          "word": "supplement (v.)",
+          "definition": "Add to something to improve or complete it.",
+          "example": "Hunting supplemented agricultural harvests."
+        },
+        {
+          "word": "antler (n.)",
+          "definition": "A branched horn-like structure on a deer's head.",
+          "example": "Craftspeople used antlers to make combs."
+        },
+        {
+          "word": "retreating (adj.)",
+          "definition": "Moving back or shrinking.",
+          "example": "Retreating ice revealed new finds."
+        },
+        {
+          "word": "photoreceptor (n.)",
+          "definition": "A biological molecule or cell that detects light.",
+          "example": "Plants use photoreceptors to respond to sunlight."
+        },
+        {
+          "word": "molecule (n.)",
+          "definition": "A group of atoms chemically bonded together.",
+          "example": "The molecule responds to temperature."
+        },
+        {
+          "word": "phytochrome (n.)",
+          "definition": "A light-sensitive pigment protein involved in plant development.",
+          "example": "Phytochrome activity affects plant growth."
+        },
+        {
+          "word": "cellular (adj.)",
+          "definition": "Relating to biological cells.",
+          "example": "The discovery revealed a cellular mechanism."
+        },
+        {
+          "word": "gauge (n.)",
+          "definition": "An instrument or means of measuring something.",
+          "example": "The protein acts as a temperature gauge."
+        },
+        {
+          "word": "stimulate (v.)",
+          "definition": "Encourage a process or activity.",
+          "example": "Warmth stimulates plant development."
+        },
+        {
+          "word": "bud (v.)",
+          "definition": "Begin to produce new growth or flowers.",
+          "example": "Plants bud earlier in warm conditions."
+        },
+        {
+          "word": "agricultural yield (n.)",
+          "definition": "The amount of crops produced.",
+          "example": "Heat stress reduces agricultural yield."
+        },
+        {
+          "word": "thermal stress (n.)",
+          "definition": "Harmful pressure on an organism caused by temperature.",
+          "example": "The crop is sensitive to thermal stress."
+        },
+        {
+          "word": "accelerate (v.)",
+          "definition": "Increase the speed of a process.",
+          "example": "The discovery may accelerate crop breeding."
+        },
+        {
+          "word": "inactivate (v.)",
+          "definition": "Make something inactive or stop it functioning.",
+          "example": "Shade can inactivate the protein."
+        },
+        {
+          "word": "deactivation (n.)",
+          "definition": "The process of making something inactive.",
+          "example": "The rate of deactivation changes at night."
+        },
+        {
+          "word": "reversion (n.)",
+          "definition": "A return to a previous state.",
+          "example": "Dark reversion is temperature-dependent."
+        },
+        {
+          "word": "growth-suppressing (adj.)",
+          "definition": "Preventing or reducing growth.",
+          "example": "The molecule remains in a growth-suppressing state."
+        },
+        {
+          "word": "detach (v.)",
+          "definition": "Separate from something to which it is attached.",
+          "example": "The molecules detach from DNA."
+        },
+        {
+          "word": "resume (v.)",
+          "definition": "Start again after a pause.",
+          "example": "Growth resumes as temperatures increase."
+        },
+        {
+          "word": "co-opt (v.)",
+          "definition": "Adapt or use an existing system for another purpose.",
+          "example": "Evolution co-opted an existing biological network."
+        },
+        {
+          "word": "dual role (n.)",
+          "definition": "Two functions performed by the same thing.",
+          "example": "The protein has a dual role."
+        },
+        {
+          "word": "collaborator (n.)",
+          "definition": "Someone who works jointly with others.",
+          "example": "The project involved international collaborators."
         }
       ]
     },
@@ -19847,6 +20777,341 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "transparency (n.)",
           "definition": "Openness about how decisions or processes work.",
           "example": "Greater transparency can improve public trust."
+        },
+        {
+          "word": "territory (n.)",
+          "definition": "An area of land under a particular authority.",
+          "example": "The empire controlled a vast territory."
+        },
+        {
+          "word": "settlement (n.)",
+          "definition": "A place where people establish a community.",
+          "example": "The tunnel supplied a human settlement."
+        },
+        {
+          "word": "at regular intervals (phr.)",
+          "definition": "With equal or repeated spacing.",
+          "example": "Posts were placed at regular intervals."
+        },
+        {
+          "word": "excavate (v.)",
+          "definition": "Remove earth or rock by digging.",
+          "example": "The builders excavated the tunnel."
+        },
+        {
+          "word": "foothold (n.)",
+          "definition": "A place where the foot can be supported.",
+          "example": "Workers used a foothold to descend."
+        },
+        {
+          "word": "plumb line (n.)",
+          "definition": "A weighted cord used to establish a vertical line.",
+          "example": "Builders used a plumb line to check alignment."
+        },
+        {
+          "word": "drain (v.)",
+          "definition": "Remove water from a place.",
+          "example": "The tunnel was built to drain a lake."
+        },
+        {
+          "word": "counter-excavation (n.)",
+          "definition": "Digging a tunnel from opposite ends toward each other.",
+          "example": "Counter-excavation required precise planning."
+        },
+        {
+          "word": "surveying (n.)",
+          "definition": "Measuring and mapping land or structures.",
+          "example": "The project demanded surveying expertise."
+        },
+        {
+          "word": "geological (adj.)",
+          "definition": "Relating to the structure and materials of the Earth.",
+          "example": "Workers encountered geological problems."
+        },
+        {
+          "word": "deviate from (v. phr.)",
+          "definition": "Depart from a planned route or standard.",
+          "example": "The passage deviated from its intended path."
+        },
+        {
+          "word": "inscription (n.)",
+          "definition": "Words carved or written on a durable surface.",
+          "example": "The inscription recorded the construction date."
+        },
+        {
+          "word": "aqueduct (n.)",
+          "definition": "A structure carrying water from one place to another.",
+          "example": "The Romans built an aqueduct."
+        },
+        {
+          "word": "lateral (adj.)",
+          "definition": "Situated or directed to the side.",
+          "example": "A lateral passage joined the tunnels."
+        },
+        {
+          "word": "mineral extraction (n.)",
+          "definition": "Removal of valuable minerals from the ground.",
+          "example": "The tunnel was used for mineral extraction."
+        },
+        {
+          "word": "mineral vein (n.)",
+          "definition": "A narrow deposit of mineral within rock.",
+          "example": "Miners followed a mineral vein."
+        },
+        {
+          "word": "straightforward (adj.)",
+          "definition": "Simple and uncomplicated.",
+          "example": "This method was relatively straightforward."
+        },
+        {
+          "word": "fire quenching (n.)",
+          "definition": "A rock-breaking technique involving heating and rapid cooling.",
+          "example": "Fire quenching helped workers break hard rock."
+        },
+        {
+          "word": "patron (n.)",
+          "definition": "Someone who commissions or financially supports a project.",
+          "example": "The inscription named the patron."
+        },
+        {
+          "word": "pacifier (n.)",
+          "definition": "Something used to calm a baby or person.",
+          "example": "The device became a digital pacifier."
+        },
+        {
+          "word": "hunch over (v. phr.)",
+          "definition": "Bend the upper body forward over something.",
+          "example": "Children hunch over their screens."
+        },
+        {
+          "word": "skim (v.)",
+          "definition": "Read quickly to obtain the main idea.",
+          "example": "Readers skim short messages."
+        },
+        {
+          "word": "unbeknown (adj.)",
+          "definition": "Unknown to a person.",
+          "example": "The change occurred unbeknown to most readers."
+        },
+        {
+          "word": "game-changing (adj.)",
+          "definition": "Causing a major change in how something works.",
+          "example": "The technology created a game-changing transformation."
+        },
+        {
+          "word": "neuronal circuit (n.)",
+          "definition": "A network of connected nerve cells.",
+          "example": "Reading depends on a neuronal circuit."
+        },
+        {
+          "word": "underlie (v.)",
+          "definition": "Form the basis or cause of something.",
+          "example": "Several processes underlie literacy."
+        },
+        {
+          "word": "subtly (adv.)",
+          "definition": "In a way that is not immediately noticeable.",
+          "example": "Reading habits change subtly."
+        },
+        {
+          "word": "necessitate (v.)",
+          "definition": "Make something necessary.",
+          "example": "Literacy necessitated new neural connections."
+        },
+        {
+          "word": "decode (v.)",
+          "definition": "Interpret information presented in a coded form.",
+          "example": "Readers decode written symbols."
+        },
+        {
+          "word": "elaborated (adj.)",
+          "definition": "Developed into a more complex form.",
+          "example": "The brain uses an elaborated reading network."
+        },
+        {
+          "word": "affective (adj.)",
+          "definition": "Relating to feelings and emotions.",
+          "example": "Reading engages affective processes."
+        },
+        {
+          "word": "analogical reasoning (n.)",
+          "definition": "Reasoning by identifying similarities between situations.",
+          "example": "Analogical reasoning helps readers connect ideas."
+        },
+        {
+          "word": "empathy (n.)",
+          "definition": "The ability to understand another person's feelings.",
+          "example": "Literature can develop empathy."
+        },
+        {
+          "word": "binary (adj.)",
+          "definition": "Involving only two alternatives.",
+          "example": "The debate is not a simple binary issue."
+        },
+        {
+          "word": "err (v.)",
+          "definition": "Make a mistake.",
+          "example": "Society may err by ignoring the consequences."
+        },
+        {
+          "word": "diminish (v.)",
+          "definition": "Become or make something smaller or weaker.",
+          "example": "Frequent skimming may diminish concentration."
+        },
+        {
+          "word": "hinge moment (n.)",
+          "definition": "A critical turning point.",
+          "example": "Education is at a hinge moment."
+        },
+        {
+          "word": "genetic blueprint (n.)",
+          "definition": "Inherited biological instructions for development.",
+          "example": "The reading circuit is not a fixed genetic blueprint."
+        },
+        {
+          "word": "allocate (v.)",
+          "definition": "Assign resources or time to a purpose.",
+          "example": "Readers allocate less time to analysis."
+        },
+        {
+          "word": "bear out (v. phr.)",
+          "definition": "Confirm or support something with evidence.",
+          "example": "Further studies bear out the concern."
+        },
+        {
+          "word": "cognitive impatience (n.)",
+          "definition": "A reduced willingness to engage in demanding thought.",
+          "example": "Cognitive impatience may affect reading."
+        },
+        {
+          "word": "comprehend (v.)",
+          "definition": "Understand something fully.",
+          "example": "Students must comprehend complex arguments."
+        },
+        {
+          "word": "downstream effect (n.)",
+          "definition": "A later consequence of an earlier event or process.",
+          "example": "Screen use may have a downstream effect."
+        },
+        {
+          "word": "reconstruct (v.)",
+          "definition": "Build or piece together something again.",
+          "example": "Participants reconstructed the plot."
+        },
+        {
+          "word": "chronological order (n.)",
+          "definition": "The sequence in which events occurred in time.",
+          "example": "Students recalled events in chronological order."
+        },
+        {
+          "word": "collateral damage (n.)",
+          "definition": "Unintended harm caused by an action.",
+          "example": "Reduced attention may be collateral damage."
+        },
+        {
+          "word": "atrophy (n.)",
+          "definition": "Gradual weakening or decline through disuse.",
+          "example": "The author warns of cognitive atrophy."
+        },
+        {
+          "word": "bombardment (n.)",
+          "definition": "A continuous and overwhelming stream of something.",
+          "example": "The bombardment of information can be exhausting."
+        },
+        {
+          "word": "incentivise (v.)",
+          "definition": "Encourage behaviour by providing motivation.",
+          "example": "Digital platforms incentivise quick responses."
+        },
+        {
+          "word": "redress (v.)",
+          "definition": "Correct or remedy an undesirable situation.",
+          "example": "Education can help redress the problem."
+        },
+        {
+          "word": "entrenched (adj.)",
+          "definition": "Firmly established and difficult to change.",
+          "example": "The habit may become entrenched."
+        },
+        {
+          "word": "account for (v. phr.)",
+          "definition": "Represent or explain a proportion of something.",
+          "example": "The conditions account for many cases."
+        },
+        {
+          "word": "coincide with (v. phr.)",
+          "definition": "Agree with or occur at the same time as something.",
+          "example": "The recommendation coincided with expert opinion."
+        },
+        {
+          "word": "plausible (adj.)",
+          "definition": "Seeming reasonable or believable.",
+          "example": "The machine offered a plausible explanation."
+        },
+        {
+          "word": "suspicion (n.)",
+          "definition": "A feeling of distrust or doubt.",
+          "example": "Unexpected recommendations created suspicion."
+        },
+        {
+          "word": "outlandish (adj.)",
+          "definition": "Extremely unusual or difficult to believe.",
+          "example": "Doctors rejected the outlandish suggestion."
+        },
+        {
+          "word": "stick to (v. phr.)",
+          "definition": "Continue using or following something.",
+          "example": "Experts often stick to familiar methods."
+        },
+        {
+          "word": "reluctance (n.)",
+          "definition": "Unwillingness or hesitation.",
+          "example": "The study investigated public reluctance."
+        },
+        {
+          "word": "acutely (adv.)",
+          "definition": "With strong awareness or intensity.",
+          "example": "People are acutely aware of failures."
+        },
+        {
+          "word": "foolproof (adj.)",
+          "definition": "Designed to be reliable even when users make mistakes.",
+          "example": "No system is entirely foolproof."
+        },
+        {
+          "word": "guarded (adj.)",
+          "definition": "Cautious about expressing feelings or opinions.",
+          "example": "Sceptics became increasingly guarded."
+        },
+        {
+          "word": "deep-rooted (adj.)",
+          "definition": "Firmly established over a long period.",
+          "example": "The distrust is deep-rooted."
+        },
+        {
+          "word": "pertinently (adv.)",
+          "definition": "In a way relevant to the issue being discussed.",
+          "example": "More pertinently, the technology may increase inequality."
+        },
+        {
+          "word": "surveillance (n.)",
+          "definition": "Close observation or monitoring of people or activities.",
+          "example": "The report disclosed government surveillance."
+        },
+        {
+          "word": "disclosure (n.)",
+          "definition": "The act of making information known.",
+          "example": "The company published a disclosure."
+        },
+        {
+          "word": "intricate (adj.)",
+          "definition": "Complex and containing many connected details.",
+          "example": "Users need not understand the intricate system."
+        },
+        {
+          "word": "implement (v.)",
+          "definition": "Put a plan or system into effect.",
+          "example": "The hospital implemented new software."
         }
       ]
     },
