@@ -6091,7 +6091,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         [
           47,
           "Section C",
-          "order actually has diminishing returns",
+          "principles to improve the efficiency of the work process",
           "Frederick Taylor introduced early principles of scientific management."
         ],
         [
@@ -6170,7 +6170,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         [
           102,
           "October tenth, 1992",
-          "October tenth, 1992"
+          "Her date of birth is confirmed as 10 October 1992."
         ],
         [
           102,
@@ -6249,8 +6249,8 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ],
         [
           104,
-          "first left ... turn right past the first tower",
-          "turn right before you get to the bridge"
+          "turn right past the first tower",
+          "The bird display is reached by following the path to the left, then turning right past the first tower."
         ],
         [
           104,
@@ -7476,26 +7476,22 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         [
           115,
           "become fully booked several weeks in advance",
-          "become fully booked several weeks in advance",
-          "Advance booking is necessary because tickets sell out quickly. The pair can be given in either order."
+          "Advance booking is necessary because tickets sell out quickly. The two correct options can be given in either order."
         ],
         [
           115,
-          "cast members come down from the stage ... a chance to chat with them",
-          "Guests can meet and speak to performers after the musical show. The pair may be given in either order.",
-          "Guests can meet performers and chat to them after the show."
+          "a chance to chat with them",
+          "Guests can meet and speak to performers after the show."
         ],
         [
           115,
-          "watch the dancers in the ballroom and join in",
-          "Visitors can join the dancing after the meal.",
-          "Visitors can join in the dancing after the meal. The pair can be given in either order."
+          "join in as well if you want",
+          "Visitors can join the dancing after the meal. The two correct options can be given in either order."
         ],
         [
           115,
           "use your hands instead of cutlery",
-          "At the Castle Feast, guests eat without knives and forks. The pair may be given in either order.",
-          "Guests eat using their hands rather than knives and forks."
+          "Guests eat without knives and forks."
         ],
         [
           115,
