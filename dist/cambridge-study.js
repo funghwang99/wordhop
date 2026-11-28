@@ -32618,6 +32618,250 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         "phrase": "Expect to pay a daily rate of about 30 euros for the hire of a wetsuit and board.",
         "manualVerified": false
       }
+    },
+    "review": {
+      "reading": [
+        [
+          59,
+          "Paragraph 2",
+          "it was exclusively carnivorous",
+          "Exclusively means entirely; the thylacine ate only animal flesh."
+        ],
+        [
+          59,
+          "Paragraph 2",
+          "relied more on scent than any other sense",
+          "Scent was probably its main sense during long-distance pursuit of prey."
+        ],
+        [
+          59,
+          "Paragraph 3",
+          "Newborns crawled into the pouch",
+          "The young remained inside their mother's pouch for up to three months."
+        ],
+        [
+          59,
+          "Paragraph 4",
+          "a carbon-dated fossil ... around 3,100 years old",
+          "The fossil is the most recent reliably dated evidence from mainland Australia."
+        ],
+        [
+          60,
+          "Paragraph 1",
+          "loss of habitat along with the disappearance of prey species",
+          "Loss of habitat and food sources were contributing factors in the Tasmanian decline."
+        ],
+        [
+          60,
+          "Paragraph 1",
+          "relentless efforts of sheep farmers and bounty hunters",
+          "Human hunting played a large part in the decline beginning in the 1830s."
+        ],
+        [
+          60,
+          "Paragraph 2",
+          "There was only one successful attempt to breed a thylacine in captivity",
+          "The text records only one successful captive-breeding attempt in 1899, contradicting several births in zoos."
+        ],
+        [
+          60,
+          "Paragraph 2",
+          "The famous naturalist John Gould foresaw the thylacine's demise",
+          "His prediction is quoted, but the reactions of other biologists are not described."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "nor was much concern expressed by scientists",
+          "There was little scientific concern in the early twentieth century, not widespread concern."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "captured and placed on a small island",
+          "Flynn's proposal is described, but whether it proved impractical is not stated."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "with the species on the very edge of extinction",
+          "The 1929 protection was introduced when numbers were already extremely low."
+        ],
+        [
+          60,
+          "Paragraph 3",
+          "leaving just captive specimens",
+          "The last known wild individual was killed in 1930; only captive specimens remained until the final known individual died in 1936."
+        ],
+        [
+          60,
+          "Final paragraph",
+          "numerous expeditions and searches ... over the years",
+          "Searches have occurred, but the passage does not establish their present frequency."
+        ],
+        [
+          64,
+          "Section F",
+          "at least four and potentially up to ten times more oil per hectare",
+          "The section explains potential environmental benefits of higher yields and carbon sequestration."
+        ],
+        [
+          64,
+          "Section G",
+          "The industry is now regulated by a group",
+          "The RSPO regulates the industry through standards for sustainable production."
+        ],
+        [
+          63,
+          "Section A",
+          "soap we wash with ... sandwich ... biscuits",
+          "Examples of everyday products demonstrate the widespread use of palm oil."
+        ],
+        [
+          64,
+          "Section H",
+          "reintroducing the bird's nest fern",
+          "The fern could restore habitat and improve biodiversity on plantations."
+        ],
+        [
+          63,
+          "Section B",
+          "from 6 to 17 million hectares",
+          "Statistics on land area and production illustrate the industry's rapid growth."
+        ],
+        [
+          64,
+          "Section E",
+          "lifting many millions of people ... out of poverty",
+          "The livelihoods supported by the industry provide an economic argument against a total boycott."
+        ],
+        [
+          63,
+          "Section C",
+          "the Sumatran orangutan ... rhinos, elephants, tigers",
+          "These are examples of threatened animals affected by plantation expansion."
+        ],
+        [
+          64,
+          "Section G",
+          "transparency and regular assessment of carbon stocks",
+          "Transparency requires certified producers to be open about their practices, supporting B."
+        ],
+        [
+          64,
+          "Section G",
+          "Over the past decade or so, an agreement has gradually been reached",
+          "The certification criteria took several years to establish, supporting C. Answers 21–22 may be reversed."
+        ],
+        [
+          63,
+          "Section A",
+          "remaining solid at room temperature",
+          "Palm oil stays solid without refrigeration, making it useful in manufactured products."
+        ],
+        [
+          63,
+          "Section C",
+          "most famously the Sumatran orangutan",
+          "The Sumatran orangutan is the best-known species suffering habitat loss."
+        ],
+        [
+          64,
+          "Section G",
+          "regular assessment of carbon stocks",
+          "Routine assessment of carbon stocks is one of the certification requirements."
+        ],
+        [
+          64,
+          "Section H",
+          "allow these areas to recover their biodiversity",
+          "The researchers suggest the bird's nest fern may help plantations regain biodiversity."
+        ],
+        [
+          67,
+          "Paragraph 1",
+          "combines geology, history, economics, and a lot of data",
+          "The book draws on several disciplines and factors affecting New York's development."
+        ],
+        [
+          67,
+          "Paragraph 3",
+          "it is not obvious why slum clearance would be limiting",
+          "The reviewer questions whether Barr's explanation of the limiting effects of tenements is consistent with his argument about foundation costs."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapter five also",
+          "more technical than would be preferred by a general audience",
+          "Chapter six's technical treatment may be too specialised for most general readers."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapters eight and nine",
+          "may serve as a distraction to readers primarily interested in New York",
+          "The discussions of urban economic theory may have limited appeal for readers interested in the city itself."
+        ],
+        [
+          68,
+          "Final paragraph",
+          "The data work that went into these estimations is particularly impressive.",
+          "The reviewer is most impressed by the research and data analysis behind land-value estimates."
+        ],
+        [
+          67,
+          "Paragraph 2",
+          "giving a fascinating account",
+          "The reviewer calls the aerial description fascinating rather than uninteresting."
+        ],
+        [
+          67,
+          "Paragraph 3",
+          "set the stage for the economic analysis that comes later",
+          "The early historical chapters provide background for the later economic analysis."
+        ],
+        [
+          68,
+          "Paragraph 1",
+          "analyses their locations in terms of the amenities available",
+          "Amenities are considered, but the reviewer does not say a shortage of them was the biggest problem."
+        ],
+        [
+          68,
+          "Paragraph 1",
+          "between the industries located on the waterfront and the wealthy neighbourhoods bordering Central Park",
+          "The enclaves were situated in a broader zone of less valuable land rather than concentrated around the harbour."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapter seven",
+          "between Downtown and Midtown New York",
+          "The bedrock myth concerns skyscrapers being absent from particular areas."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapter seven",
+          "these costs were neither prohibitively high",
+          "Greater foundation cost was not an excessive expense that prevented construction."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapter seven",
+          "compared to the overall cost of building a skyscraper",
+          "The additional cost was small relative to total expenditure."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapter seven",
+          "enable workers to dig down for considerable distances",
+          "Caissons enable deep excavations even below the water table."
+        ],
+        [
+          68,
+          "Paragraph beginning Chapter seven",
+          "the dangers involved",
+          "Barr explains both how caissons function and the associated risks."
+        ]
+      ]
     }
   },
   "17-4": {
