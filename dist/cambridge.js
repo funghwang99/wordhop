@@ -228,6 +228,11 @@
   const ranges={reading:[[1,13],[14,26],[27,40]],listening:[[1,10],[11,20],[21,30],[31,40]]};
   function range(skill,part){return ranges[skill]?.[part-1]||[1,10];}
   function variants(key){
+    if(key==="(the) architect('s) (name)")return [
+      'architect','the architect','architects','the architects',"architect's","the architect's",
+      "architect's name","the architect's name","architect name","the architect name"
+    ];
+    if(key==='(the) harbour/harbor')return ['harbour','harbor','the harbour','the harbor'];
     const out=new Set();
     for(const option of String(key??'').split('/')){
       const match=option.match(/\(([a-z]+)\)/i);
