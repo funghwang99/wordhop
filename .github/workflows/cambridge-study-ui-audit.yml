@@ -1,0 +1,29 @@
+name: Verify Cambridge study UI
+on:
+  pull_request:
+    branches: [main]
+    paths: ['.github/workflows/cambridge-study-ui-audit.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check all Cambridge routes, vocabulary and replay
+        run: node qa/check-cambridge-ui.cjs
+      - name: Check published site content
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          python3 -B scripts/build_github_pages.py
+          python3 -B qa/check_github_pages.py
+      - name: Save versioned index and audio match evidence
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-cambridge-ui
+          path: |
+            _site/index.html
+            _site/cambridge12-review.js
+          retention-days: 3
