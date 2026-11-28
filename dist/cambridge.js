@@ -490,6 +490,7 @@
   function stopReviewAudio(){
     if(camReviewAudio){camReviewAudio.audio.removeEventListener('timeupdate',camReviewAudio.onTime);camReviewAudio.audio.removeEventListener('ended',camReviewAudio.onEnd);camReviewAudio.audio.pause();camReviewAudio.button.textContent=camReviewAudio.label;camReviewAudio=null;}
   }
+  function reviewClock(sec){const whole=Math.floor(sec);return Math.floor(whole/60)+':'+String(whole%60).padStart(2,'0');}
   function solution(test,skill,n,item,graded){
     const value=item.answers[n]||'', k=keyFor(test,skill,n);
     const detail=window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.review?.[skill]?.[n-1]||window.WORDHOP_CAMBRIDGE12_REVIEW?.[test]?.[skill]?.[n-1];
@@ -504,7 +505,7 @@
       const matched=window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[test+'-'+Math.ceil(n/10)]?.matched===true;
       const cue=matched?candidate:null;
       explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>'+(external?'Transcript cue (paraphrased) · Missing print page '+page:'Transcript · Page '+page)+'</strong><p>'+esc(evidence)+'</p>'+(external?'<a href="https://www.ielts-hub.com/exams/listening/cambridge-ielts-13-test-3/transcript" target="_blank" rel="noopener noreferrer">Supplementary transcript source</a>':'')+'</blockquote>'+
-        '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to this answer':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Automatically located in a source-matched recording; timing is approximate.':candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
+        '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to this answer':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Source-audio match · '+reviewClock(cue[0])+'–'+reviewClock(cue[1])+' · Automatically aligned; timing is approximate.':candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
     }else{
       explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
       if(skill==='listening'&&(/^[5-8]$/.test(test)||window.WORDHOP_CAMBRIDGE_STUDY?.[test]?.review?.listening))explanation+='<button type="button" class="btn" data-cam-action="review-replay" data-review-question="'+n+'">Replay section</button><p class="cam-review-status" role="status"></p>';
