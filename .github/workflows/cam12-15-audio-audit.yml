@@ -1,0 +1,197 @@
+name: CAM 12-15 Faster-Whisper audit
+on:
+  push:
+    branches: [audit/cam12-15-faster-whisper]
+    paths: ['.github/workflows/cam12-15-audio-audit.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    name: CAM ${{ matrix.book }} source audio
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        book: [15, 12, 13, 14]
+    env:
+      BOOK: ${{ matrix.book }}
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      OMP_NUM_THREADS: '4'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /dist/cambridge-study.js
+            /dist/cambridge12-review.js
+            /cambridge_12_media*.zip
+            /cambridge_13_media*.zip
+            /cambridge_14_media*.zip
+            /cambridge_15_media*.zip
+            /cambridge_21_media_tests_*.zip
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install original PET ASR model dependencies
+        run: python -m pip install faster-whisper==1.2.1 rapidfuzz
+      - name: Decode source recordings and compare evidence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv, hashlib, json, math, os, re, zipfile
+          from pathlib import Path
+          from collections import defaultdict
+          from importlib.metadata import version
+          from faster_whisper import WhisperModel
+          from rapidfuzz import fuzz
+
+          book = int(os.environ['BOOK'])
+          out = Path('audit-output')
+          out.mkdir(exist_ok=True)
+          (out / 'asr').mkdir(exist_ok=True)
+          audio = Path('audit-audio')
+          audio.mkdir(exist_ok=True)
+
+          def js_object(path, marker):
+              data = Path(path).read_text(encoding='utf-8')
+              m = re.search(r'window\.' + re.escape(marker) + r'\s*=\s*', data)
+              if not m:
+                  raise ValueError(marker)
+              return json.JSONDecoder().raw_decode(data[m.end():].lstrip())[0]
+
+          if book == 12:
+              review = js_object('dist/cambridge12-review.js', 'WORDHOP_CAMBRIDGE12_REVIEW')
+              cues = js_object('dist/cambridge12-review.js', 'WORDHOP_CAMBRIDGE12_CUES')
+              data = {t: {'review': review[str(t+4)], 'cues': cues[str(t+4)]} for t in range(1,5)}
+              bundles = ['cambridge_21_media_tests_5_6.zip','cambridge_21_media_tests_7_8.zip']
+          else:
+              study = js_object('dist/cambridge-study.js', 'WORDHOP_CAMBRIDGE_STUDY')
+              data = {t: study[f'{book}-{t}'] for t in range(1,5)}
+              bundles = [f'cambridge_{book}_media_test_{t}.zip' for t in range(1,5)]
+
+          tracks = {}
+          for name in bundles:
+              with zipfile.ZipFile(name) as z:
+                  manifest = json.loads(z.read('cambridge_media_manifest.json'))
+                  if manifest.get('bundle') != name:
+                      raise ValueError('wrong manifest: ' + name)
+                  for rel, sha in manifest['paths'].items():
+                      m = re.fullmatch(r'media/cambridge-ielts-academic-\d+/audio/test-(\d+)-section-([1-4])\.(m4a|mp3)', rel)
+                      if not m:
+                          continue
+                      t, part = int(m[1]), int(m[2])
+                      if book == 12:
+                          t -= 4
+                      assert 1 <= t <= 4 and (t, part) not in tracks
+                      payload = z.read(rel)
+                      assert hashlib.sha256(payload).hexdigest() == sha, rel
+                      if book != 12:
+                          ref = data[t].get('audioSha256', {}).get(str(part))
+                          assert not ref or ref == sha, rel
+                      dest = audio / f'{t}-{part}.{m[3]}'
+                      dest.write_bytes(payload)
+                      tracks[t, part] = (dest, sha)
+          assert set(tracks) == {(t,p) for t in range(1,5) for p in range(1,5)}
+          print('Verified exact manifest hashes:',len(tracks),flush=True)
+
+          model_id = 'Systran/faster-whisper-base.en'
+          model = WhisperModel(model_id, device='cpu', compute_type='int8', cpu_threads=4)
+          def toks(text):
+              return re.findall(r"[a-z0-9]+(?:'[a-z]+)?",str(text).lower().replace('’',"'"))
+
+          def candidates(phrase, words, duration):
+              target = toks(phrase)
+              if not target or not words:
+                  return []
+              flat = [(token, i) for i, w in enumerate(words) for token in toks(w['word'])]
+              n = len(target)
+              if not flat:
+                  return []
+              phrase = ' '.join(target)
+              sizes = sorted({max(1,n-2),max(1,n-1),n,n+1,n+2})
+              best = {}
+              for i in range(len(flat)):
+                  for size in sizes:
+                      if i+size > len(flat):
+                          continue
+                      a,b = flat[i][1],flat[i+size-1][1]
+                      start,end = words[a]['start'], words[b]['end']
+                      if end-start > max(12,n*2):
+                          continue
+                      match = ' '.join(x[0] for x in flat[i:i+size])
+                      score = fuzz.ratio(phrase,match)
+                      if score < 65:
+                          continue
+                      key=(a,b)
+                      row = {'score':round(score,2),'start':start,'end':end,'matched':match,
+                             'context_start':max(0,round(start-3,2)),
+                             'context_end':min(duration,round(end+4,2)),
+                             'context':' '.join(w['word'].strip() for w in words[max(0,a-12):min(len(words),b+13)])}
+                      if key not in best or score > best[key]['score']:
+                          best[key] = row
+              chosen=[]
+              for item in sorted(best.values(),key=lambda x:(-x['score'],x['start'])):
+                  if any(item['start'] < other['end'] and other['start'] < item['end'] for other in chosen):
+                      continue
+                  chosen.append(item)
+                  if len(chosen)==3: break
+              return chosen
+
+          rows = []
+          for (t, part), (path, sha) in sorted(tracks.items()):
+              print(f'CAM {book} test {t} part {part}',flush=True)
+              segments, info = model.transcribe(str(path),language='en',beam_size=5,
+                  word_timestamps=True,vad_filter=False,condition_on_previous_text=False)
+              words = []
+              for segment in segments:
+                  for w in segment.words or []:
+                      if w.start is None or w.end is None:
+                          continue
+                      words.append({'start':round(w.start,3),'end':round(w.end,3),
+                                    'word':w.word,'probability':round(w.probability,4)})
+              if not words:
+                  raise RuntimeError(f'No decoded words: {t}-{part}')
+              duration=round(info.duration,3)
+              decoded={'book':book,'test':t,'part':part,'sha256':sha,'duration':duration,
+                       'model':model_id,'asr_version':version('faster-whisper'),
+                       'vad_filter':False,'words':words}
+              (out/'asr'/f'{book}-{t}-{part}.json').write_text(json.dumps(decoded,ensure_ascii=False))
+              for q in range((part-1)*10+1,part*10+1):
+                  review = data[t]['review']['listening'][q-1]
+                  evidence = review[1] if review else ''
+                  old = data[t].get('cues',{}).get(str(q))
+                  options = candidates(evidence,words,duration)
+                  status = 'NO_MATCH'
+                  if options:
+                      status = 'REVIEW_REQUIRED'
+                      if len(toks(evidence)) >= 4 and options[0]['score'] >= 90 and (len(options)==1 or options[0]['score']-options[1]['score']>=8):
+                          status = 'ASR_CANDIDATE'
+                  rows.append({'book':book,'test':t,'part':part,'question':q,
+                      'evidence':evidence,'old':old,'status':status,
+                      'candidates':options,'source_sha256':sha,'duration':duration,
+                      'manual_verified':False})
+              (out/'candidates.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))
+          assert len(rows)==160
+          with (out/'review.csv').open('w',encoding='utf-8-sig',newline='') as f:
+              fields=['book','test','part','question','status','evidence','old_start','old_end','candidate_start','candidate_end','score','matched','manual_verified']
+              writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader()
+              for r in rows:
+                  a=r['candidates'][0] if r['candidates'] else {}
+                  old=r['old'] or [None,None,None]
+                  writer.writerow({**{k:r[k] for k in ['book','test','part','question','status','evidence','manual_verified']},
+                      'old_start':old[0],'old_end':old[1],'candidate_start':a.get('start'),
+                      'candidate_end':a.get('end'),'score':a.get('score'),'matched':a.get('matched')})
+          print('Finished 160 candidate checks; no human verification asserted.',flush=True)
+          PY
+      - name: Upload audit results only (no production edits)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cam-${{ matrix.book }}-faster-whisper-audit
+          path: audit-output/
+          if-no-files-found: warn
+          retention-days: 7
