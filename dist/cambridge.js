@@ -476,11 +476,12 @@
       const [page,location,evidence,why]=detail;
       explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Evidence · Page '+page+' · '+esc(location)+'</strong><p>'+esc(evidence)+'</p></blockquote><button type="button" class="text-button cam-review-jump" data-cam-action="evidence-page" data-evidence-page="'+page+'">View evidence on original page ↑</button>';
     }else if(detail&&skill==='listening'){
-      const [page,evidence,why]=detail;
+      const [page,evidence,why,source]=detail;
+      const external=source==='external-transcript-paraphrase';
       const candidate=window.WORDHOP_CAMBRIDGE12_CUES?.[test]?.[n];
       const matched=window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH?.[test+'-'+Math.ceil(n/10)]?.matched===true;
       const cue=matched?candidate:null;
-      explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>Transcript · Page '+page+'</strong><p>'+esc(evidence)+'</p></blockquote>'+
+      explanation='<p lang="en">'+esc(why)+'</p><blockquote class="cam-review-evidence"><strong>'+(external?'Transcript cue (paraphrased) · Missing print page '+page:'Transcript · Page '+page)+'</strong><p>'+esc(evidence)+'</p>'+(external?'<a href="https://www.ielts-hub.com/exams/listening/cambridge-ielts-13-test-3/transcript" target="_blank" rel="noopener noreferrer">Supplementary transcript source</a>':'')+'</blockquote>'+
         '<button type="button" class="btn cam-review-replay" data-cam-action="review-replay" data-review-question="'+n+'">'+(cue?'Listen to this answer':'Replay section')+'</button><p class="cam-review-status" role="status" aria-live="polite">'+(cue?'Automatically located in a source-matched recording; timing is approximate.':candidate&&!matched?'The published recording has not passed the source-audio match.':'An individual answer cue has not been located reliably.')+'</p>';
     }else{
       explanation='<p class="reading-key-note">Publisher answer key: '+esc(k)+'. Detailed evidence has not been added for this question yet.</p>';
