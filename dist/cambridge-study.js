@@ -9582,6 +9582,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         383.6,
         431.219
       ],
+      "31": [
+        81.3,
+        89.2,
+        487.876
+      ],
       "32": [
         157.9,
         169.1,
@@ -9665,6 +9670,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "28": "keyword",
       "29": "keyword",
       "30": "keyword",
+      "31": "keyword",
       "32": "keyword",
       "33": "keyword",
       "34": "keyword",
@@ -9797,6 +9803,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         376.5,
         377.6
       ],
+      "31": [
+        82.08,
+        88.58
+      ],
       "32": [
         161.9,
         163.1
@@ -9865,7 +9875,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "28": "asr-candidate",
       "29": "asr-candidate",
       "30": "asr-candidate",
-      "31": "unresolved-asr-gap",
+      "31": "asr-small-en-script-aligned",
       "32": "asr-candidate",
       "33": "asr-candidate",
       "34": "asr-candidate",
@@ -9875,6 +9885,15 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "38": "asr-candidate",
       "39": "asr-candidate",
       "40": "asr-context-reviewed"
+    },
+    "cueAuditNotes": {
+      "31": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253948153,
+        "phrase": "Demand is rising rapidly because of the world's increasing population and expanding industry.",
+        "manualVerified": false
+      }
     }
   },
   "14-2": {
@@ -20167,6 +20186,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         304.3,
         405.6
       ],
+      "20": [
+        317.1,
+        323.8,
+        405.6
+      ],
       "21": [
         32,
         51.3,
@@ -20288,6 +20312,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "17": "context",
       "18": "context",
       "19": "context",
+      "20": "context",
       "21": "context",
       "22": "context",
       "23": "context",
@@ -20385,6 +20410,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "19": [
         293.74,
         299.28
+      ],
+      "20": [
+        317.88,
+        323.1
       ],
       "21": [
         34,
@@ -20487,7 +20516,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "17": "asr-script-aligned",
       "18": "asr-script-aligned",
       "19": "asr-script-aligned",
-      "20": "unresolved-asr-gap",
+      "20": "asr-small-en-script-aligned",
       "21": "asr-script-aligned",
       "22": "asr-script-aligned",
       "23": "asr-script-aligned",
@@ -20515,7 +20544,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "956a5f2f8a9e4772116ef0e1bed73e77cb4a53bcf814512dd5869fb29ea11444",
       "4": "1ca9c58f35a0b3f9799759bf23662a0828646f337848d7e600e434123a0b797c"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue.",
+    "cueAuditNotes": {
+      "20": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253393077,
+        "phrase": "The centre is connected to the ticket office via a short section of covered walkway.",
+        "manualVerified": false
+      }
+    }
   },
   "21-3": {
     "vocabulary": {
@@ -21416,6 +21454,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         315.2,
         444.5
       ],
+      "39": [
+        327.5,
+        334.3,
+        444.5
+      ],
       "40": [
         344.3,
         354.8,
@@ -21461,6 +21504,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "36": "keyword",
       "37": "keyword",
       "38": "keyword",
+      "39": "keyword",
       "40": "keyword"
     },
     "cueAudioEvidence": {
@@ -21616,6 +21660,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         306.34,
         312.18
       ],
+      "39": [
+        328.22,
+        333.66
+      ],
       "40": [
         346.32,
         351.8
@@ -21660,7 +21708,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "36": "asr-script-aligned",
       "37": "asr-script-aligned",
       "38": "asr-script-aligned",
-      "39": "unresolved-asr-gap",
+      "39": "asr-small-en-script-aligned",
       "40": "asr-script-aligned"
     },
     "audioSha256": {
@@ -21669,7 +21717,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "e846a1115adaa438faf2d3067cdc4b53ddd03c1dd6d4b732a37a9efdb67753fb",
       "4": "f0dbc92fafc8439728e0f28578b31eec7f7db281d988368de3ccd1a712e5a9ac"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15252098809. Aligned word-level ASR with question markers on supplied CAM21 original printed audioscripts pp97–116 and listening keys pp117/119/121/123, including reorder of grouped choices based on option wording. Source SHA256 from artifact; published audio must match. Automatic approximate cue; no manual listening asserted. Missing or omitted audio is not given a cue.",
+    "cueAuditNotes": {
+      "39": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253393077,
+        "phrase": "Recordings taken from nature can be just as good as music.",
+        "manualVerified": false
+      }
+    }
   },
   "17-1": {
     "vocabulary": {
@@ -24232,6 +24289,11 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         343.5,
         400.901
       ],
+      "31": [
+        164.9,
+        171.3,
+        527.595
+      ],
       "32": [
         213.4,
         221.8,
@@ -24309,6 +24371,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "28": "context",
       "29": "context",
       "30": "context",
+      "31": "keyword",
       "32": "keyword",
       "33": "keyword",
       "34": "keyword",
@@ -24440,6 +24503,10 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         336.68,
         337.48
       ],
+      "31": [
+        165.66,
+        170.62
+      ],
       "32": [
         216.42,
         218.78
@@ -24508,7 +24575,7 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "28": "asr-script-aligned",
       "29": "asr-script-aligned",
       "30": "asr-script-aligned",
-      "31": "unresolved-asr-gap",
+      "31": "asr-small-en-script-aligned",
       "32": "asr-script-aligned",
       "33": "asr-script-aligned",
       "34": "asr-script-aligned",
@@ -24525,7 +24592,16 @@ window.WORDHOP_CAMBRIDGE_STUDY={
       "3": "c33456b99dbd4b96b1ae62631755e8dde8f8d2a6fef2b1f303213f694d555d7e",
       "4": "1657dc1196981804b3d2960f9960e116757a3276fba64bc4650861203f0081b9"
     },
-    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15251639780; compared word-level transcript with supplied CAM18 printed audioscripts pp99–118, question options and listening keys pp119/121/123/125. Source hashes from audit; live audio must match. ASR-based approximate bounds; not human listening verified. Missing speech remains disabled."
+    "cueProvenance": "Faster-Whisper base.en run 46118053040 artifact 15251639780; compared word-level transcript with supplied CAM18 printed audioscripts pp99–118, question options and listening keys pp119/121/123/125. Source hashes from audit; live audio must match. ASR-based approximate bounds; not human listening verified. Missing speech remains disabled.",
+    "cueAuditNotes": {
+      "31": {
+        "model": "Systran/faster-whisper-small.en",
+        "run": 46121534820,
+        "artifact": 15253982993,
+        "phrase": "Elephants were routinely knocking down fences around the park.",
+        "manualVerified": false
+      }
+    }
   },
   "18-2": {
     "vocabulary": {
