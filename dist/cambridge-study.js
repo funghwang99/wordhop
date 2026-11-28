@@ -4350,19 +4350,74 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         [
           108,
           "Either a Tuesday or Thursday is good for me, after 5.30",
-          "Thursday is preferable because she must be home by six on Tuesday."
+          "Matt prefers Thursday because he needs to be home before 6 p.m. on Tuesday; Linda is available on both days after 5.30."
         ],
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        [
+          109,
+          "Meeting at a café across from the station",
+          "Linda specifies a café as the meeting place. The museum is mentioned only as a nearby landmark, not the meeting venue.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Noticeable improvement after a brief period of regular exercise",
+          "Regular gym sessions produce visible improvements quickly, matching F (fast results). Crowding and inconvenient hours are disadvantages.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Beginners can start with very short distances",
+          "Running is accessible even to people with little initial fitness, matching D. The reference to snow and ice rules out the claim that it is unaffected by seasons.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Indoor pools are available throughout the year",
+          "Swimming indoors is possible regardless of season, matching A. The speaker also notes that swimming can be a solitary activity.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Outdoor cycling can be fun",
+          "The advantage highlighted is enjoyment of cycling in the open air, matching B. Bad weather can make it less appealing.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Less chance of hurting yourself",
+          "With a suitable instructor, yoga carries a comparatively low risk of injury, matching C. It may still be challenging for people with limited flexibility.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Encouragement helps people persist",
+          "A personal trainer supports progress towards goals and helps prevent people from giving up, matching G (motivating). Cost is a disadvantage.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "People stop believing they can achieve their goals",
+          "A lack of perceived progress makes some gym members lose confidence, matching B. Questions 17 and 18 accept either order.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Sustained exercise requires considerable determination and hard work",
+          "Some members lack the commitment needed to maintain demanding training, matching C. The speaker does not identify lack of time or high costs as the reasons in this passage.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Set manageable goals",
+          "The speaker advises choosing realistic, attainable targets instead of pushing too far, matching B. Questions 19 and 20 accept either order.",
+          "external-transcript-paraphrase"
+        ],
+        [
+          109,
+          "Treat yourself when you reach a goal",
+          "The speaker recommends a reward after achieving a target, matching D. Writing goals down is mentioned as other people's advice, not the speaker's preferred approach.",
+          "external-transcript-paraphrase"
+        ],
         [
           110,
           "I went to a carpet shop with my parents when we were on holiday in Turkey",
