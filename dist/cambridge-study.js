@@ -6987,5 +6987,617 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "14-4": {
+    "vocabulary": {
+      "title": "Test 4 · Reading vocabulary",
+      "words": [
+        {
+          "word": "immortal (adj.)",
+          "definition": "Unable to die or live forever.",
+          "example": "No animal in the study was immortal."
+        },
+        {
+          "word": "deteriorate (v.)",
+          "definition": "Become progressively worse.",
+          "example": "Physical abilities may deteriorate with age."
+        },
+        {
+          "word": "comparable (adj.)",
+          "definition": "Similar enough to be compared.",
+          "example": "The older ants performed at a comparable level."
+        },
+        {
+          "word": "social insect (n.)",
+          "definition": "An insect that lives in an organised colony.",
+          "example": "Ants are social insects."
+        },
+        {
+          "word": "senescence (n.)",
+          "definition": "The biological process of ageing.",
+          "example": "Researchers examined the causes of senescence."
+        },
+        {
+          "word": "scent trail (n.)",
+          "definition": "A path marked by a smell or chemical signal.",
+          "example": "Ants follow a scent trail to locate food."
+        },
+        {
+          "word": "aggressively (adv.)",
+          "definition": "In a forceful or hostile way.",
+          "example": "The insects attacked prey aggressively."
+        },
+        {
+          "word": "synaptic (adj.)",
+          "definition": "Relating to junctions between nerve cells.",
+          "example": "Age may affect synaptic connections."
+        },
+        {
+          "word": "neuron (n.)",
+          "definition": "A nerve cell that transmits information.",
+          "example": "Signals pass between neurons in the brain."
+        },
+        {
+          "word": "dopamine (n.)",
+          "definition": "A chemical involved in communication within the nervous system.",
+          "example": "Dopamine plays a role in motivation."
+        },
+        {
+          "word": "entomologist (n.)",
+          "definition": "A scientist who studies insects.",
+          "example": "The entomologist observed the colony."
+        },
+        {
+          "word": "captivity (n.)",
+          "definition": "The state of being confined rather than living freely.",
+          "example": "Some threatened animals breed successfully in captivity."
+        },
+        {
+          "word": "supplement (n.)",
+          "definition": "Something added to make up for a deficiency.",
+          "example": "The zoo provides dietary supplements."
+        },
+        {
+          "word": "ostracism (n.)",
+          "definition": "The exclusion of someone from a social group.",
+          "example": "Social ostracism may cause stress."
+        },
+        {
+          "word": "conservation (n.)",
+          "definition": "The protection of nature and wildlife.",
+          "example": "Zoos can contribute to conservation programmes."
+        },
+        {
+          "word": "reintroduction (n.)",
+          "definition": "The return of a species to an area where it formerly lived.",
+          "example": "Reintroduction requires careful planning."
+        },
+        {
+          "word": "perspective (n.)",
+          "definition": "A particular way of viewing or understanding something.",
+          "example": "Seeing wildlife can change a visitor's perspective."
+        },
+        {
+          "word": "sophisticated (adj.)",
+          "definition": "Highly developed or complex.",
+          "example": "The zoo uses sophisticated educational displays."
+        },
+        {
+          "word": "outreach (n.)",
+          "definition": "Activities intended to provide information or services to a wider community.",
+          "example": "The organisation runs conservation outreach programmes."
+        },
+        {
+          "word": "anaesthetic (n.)",
+          "definition": "A substance used to prevent pain or sensation.",
+          "example": "The veterinarian selected an appropriate anaesthetic."
+        },
+        {
+          "word": "bolster (v.)",
+          "definition": "Support or strengthen something.",
+          "example": "Captive breeding can bolster wild populations."
+        },
+        {
+          "word": "marine debris (n.)",
+          "definition": "Discarded material found in the sea.",
+          "example": "Marine debris threatens coastal ecosystems."
+        },
+        {
+          "word": "ecologist (n.)",
+          "definition": "A scientist who studies relationships between organisms and their environment.",
+          "example": "An ecologist investigated marine pollution."
+        },
+        {
+          "word": "perceived (adj.)",
+          "definition": "Understood or believed to exist in a particular way.",
+          "example": "The study assessed perceived threats to wildlife."
+        },
+        {
+          "word": "speculate (v.)",
+          "definition": "Form an opinion without sufficient evidence.",
+          "example": "Scientists should avoid speculating beyond their results."
+        },
+        {
+          "word": "validity (n.)",
+          "definition": "The quality of being well founded or accurate.",
+          "example": "Weak experimental design reduces the validity of conclusions."
+        },
+        {
+          "word": "ingest (v.)",
+          "definition": "Take food or another substance into the body.",
+          "example": "Marine animals may ingest plastic particles."
+        },
+        {
+          "word": "microplastic (n.)",
+          "definition": "A very small particle of plastic.",
+          "example": "Microplastics are found in marine sediments."
+        },
+        {
+          "word": "concentration (n.)",
+          "definition": "The amount of a substance in a particular volume.",
+          "example": "Pollutant concentrations vary across the ocean."
+        },
+        {
+          "word": "debris (n.)",
+          "definition": "Scattered pieces of waste or broken material.",
+          "example": "Volunteers removed debris from the beach."
+        },
+        {
+          "word": "misconception (n.)",
+          "definition": "An incorrect idea or belief.",
+          "example": "The study addresses misconceptions about pollution."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          82,
+          "Paragraph 3",
+          "four age ranges",
+          "Giraldo compared four age groups whose ages were known precisely."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "took care of the young of the colony",
+          "The researchers observed how frequently adults attended to, carried and fed young ants."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "the telltale scent ... to find food",
+          "The experiment assessed whether ants could follow scent trails to food."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "how ants responded to light",
+          "One test investigated responses to light."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "just as aggressively as the younger ants",
+          "The researchers compared how aggressively old and young ants attacked prey."
+        ],
+        [
+          82,
+          "Paragraph 5",
+          "the location of the dying cells",
+          "Brain comparisons considered whether the locations of dying cells differed between the age groups."
+        ],
+        [
+          83,
+          "Paragraph 5, continued",
+          "regions where neurons come together",
+          "Synaptic complexes are junctions between neurons in the mushroom bodies."
+        ],
+        [
+          83,
+          "Paragraph 5, continued",
+          "serotonin or dopamine — brain chemicals",
+          "The levels of these two brain chemicals were examined in relation to ageing."
+        ],
+        [
+          82,
+          "Paragraph 2",
+          "Naked mole rats can live for almost 30 years and stay fit for nearly their entire lives",
+          "Other animals also remain active and healthy for much of their lives, so the claim of uniqueness is false."
+        ],
+        [
+          82,
+          "Paragraph 3",
+          "previous studies ... only estimated how old the ants were",
+          "Earlier studies used estimated ages, while Giraldo tracked ants from emergence and knew their exact ages."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "Giraldo expected the older ants to perform poorly",
+          "The older ants performed as well as or better than younger ants, contrary to her prediction."
+        ],
+        [
+          83,
+          "Paragraph 6",
+          "Scientists have looked at some similar aspects in bees",
+          "The passage does not establish whether the methods used in those bee studies differed."
+        ],
+        [
+          83,
+          "Paragraph 7",
+          "in the wild, the ants probably don't live for a full 140 days",
+          "Predators, disease and harsher wild conditions reduce lifespan relative to the laboratory."
+        ],
+        [
+          86,
+          "B",
+          "their decline can be sudden, dramatic and unexpected",
+          "The author stresses that species may disappear rapidly, even when previously considered relatively safe."
+        ],
+        [
+          87,
+          "E",
+          "less risk and fewer variables",
+          "Research in zoos is easier because conditions can be controlled and there are fewer variables than in the wild."
+        ],
+        [
+          86,
+          "C",
+          "television documentaries ... natural history specimens ... in museums",
+          "Documentaries and museum specimens are two alternative ways to learn about wildlife."
+        ],
+        [
+          86,
+          "A",
+          "a varied and high-quality diet ... illnesses ... treated",
+          "Good zoos offer food, healthcare and protection from predators and parasites."
+        ],
+        [
+          86,
+          "A",
+          "greater than that of its wild counterpart",
+          "The author states that captive animals generally have longer lifespans than those in the wild."
+        ],
+        [
+          86,
+          "B",
+          "species only exist in captivity",
+          "Some species survive only in captivity, although their populations may once have lived in the wild."
+        ],
+        [
+          86,
+          "C",
+          "television documentaries are becoming ever more detailed",
+          "The text acknowledges better documentaries but gives no information linking them to zoo visitor numbers."
+        ],
+        [
+          87,
+          "D",
+          "This was an area where zoos used to be lacking",
+          "The author says zoo education was previously inadequate, contradicting always."
+        ],
+        [
+          87,
+          "E",
+          "where there is less risk and fewer variables",
+          "The advantages are explained from a research perspective; the passage does not compare stress experienced by the animals."
+        ],
+        [
+          87,
+          "D",
+          "educate conservation workers in other countries",
+          "Zoo staff educate conservation workers abroad. The two correct options can be given in either order."
+        ],
+        [
+          87,
+          "D",
+          "contribute their knowledge and skills to those working in zoos and reserves",
+          "Some zoo staff travel overseas to support people working in zoos and reserves."
+        ],
+        [
+          87,
+          "F",
+          "the public ... can assist or at least accept the need to be more environmentally conscious",
+          "Education encourages people to understand environmental issues. The two correct options can be given in either order."
+        ],
+        [
+          86,
+          "B",
+          "bred in captivity ... reintroduced into the wild",
+          "Captive breeding helps raise animals for reintroduction to the wild."
+        ],
+        [
+          90,
+          "Paragraph 2",
+          "Plenty of studies have sounded the alarm bells",
+          "Previous studies already investigated marine debris; Rochman and colleagues reviewed the existing evidence."
+        ],
+        [
+          90,
+          "Paragraph 3",
+          "some bird populations are plummeting",
+          "The bird example does not establish that seabirds are the creatures most at risk."
+        ],
+        [
+          90,
+          "Paragraph 3",
+          "nobody had actually tested these perceived threats",
+          "The reviewed studies did not demonstrate the predicted extinction of bird populations."
+        ],
+        [
+          90,
+          "Paragraph 4",
+          "asked what threats scientists studied",
+          "The researchers examined different perceived dangers across the published studies."
+        ],
+        [
+          90,
+          "Paragraph 5",
+          "In 83 percent of cases, the perceived dangers ... were proven true",
+          "Weaknesses were identified in the remaining cases, not in most studies."
+        ],
+        [
+          90,
+          "Paragraph 6",
+          "an investigation of mussels ingesting microscopic plastic bits",
+          "The study tested for harmful effects but found that the mussels retained plastic without apparent stress."
+        ],
+        [
+          90,
+          "Paragraph 6",
+          "the plastic moved from the mussels' stomachs to their bloodstreams",
+          "The study describes ingestion and retention but does not establish that mussels prefer plastic to natural food."
+        ],
+        [
+          90,
+          "Paragraph 8",
+          "Most of the dangers also involved large pieces of debris",
+          "Large pieces of plastic can entangle, obstruct or injure animals."
+        ],
+        [
+          90,
+          "Paragraph 9",
+          "found little research on the effects of these tiny bits",
+          "Microplastic was comparatively under-researched in the papers examined."
+        ],
+        [
+          91,
+          "Paragraph 10",
+          "rather than whole populations",
+          "Many studies focused on single animals, tissues or cells instead of population-level effects."
+        ],
+        [
+          91,
+          "Paragraph 10",
+          "higher concentrations of plastic than what's really in the ocean",
+          "Some laboratory studies used concentrations exceeding realistic marine conditions."
+        ],
+        [
+          91,
+          "Paragraph 10",
+          "how deaths in one species could affect that animal's predators",
+          "The effects of population losses on predators and wider ecosystems remain uncertain."
+        ],
+        [
+          91,
+          "Paragraph 11",
+          "how disasters such as a tanker accidentally spilling ... oil",
+          "The researcher argues for understanding potential disaster impacts before such incidents occur."
+        ],
+        [
+          90,
+          "Whole passage",
+          "set out to determine which of these perceived risks are real",
+          "The central purpose is assessing how strong the evidence is for different threats from marine debris."
+        ]
+      ],
+      "listening": [
+        [
+          113,
+          "That can seat eighty-five",
+          "The Adelphi Room seats 85 people for a sit-down meal."
+        ],
+        [
+          113,
+          "a beautiful display of pots of roses",
+          "The terrace has a display of roses in pots."
+        ],
+        [
+          113,
+          "the area of trees within the grounds",
+          "The terrace overlooks trees in the hotel grounds."
+        ],
+        [
+          113,
+          "the advantage of a stage",
+          "The Carlton Room includes a stage suitable for entertainment."
+        ],
+        [
+          113,
+          "they make a speech during the meal",
+          "An MC can make a speech while the guests eat."
+        ],
+        [
+          113,
+          "if anything goes wrong, the MC will deal with it",
+          "The MC offers support and handles problems during the event."
+        ],
+        [
+          114,
+          "cabins ... eight of them in the grounds",
+          "Cabins are another accommodation option besides hotel rooms."
+        ],
+        [
+          114,
+          "it'll be closed throughout September for refurbishment",
+          "The outdoor pool will be unavailable during the planned event."
+        ],
+        [
+          114,
+          "The gym will be available, though, at no extra charge",
+          "The gym is included in the room hire price."
+        ],
+        [
+          114,
+          "a small additional payment",
+          "The tennis courts require an extra charge."
+        ],
+        [
+          114,
+          "there aren't any places left",
+          "Today's dolphin-watching trip is fully booked."
+        ],
+        [
+          114,
+          "we'll be provided with a drink and sandwiches",
+          "The forest walk includes refreshments."
+        ],
+        [
+          114,
+          "it's a 700-metre drop in just 20 kilometres",
+          "The cycle route is entirely downhill after the group is transported to Mount Larna."
+        ],
+        [
+          114,
+          "it's completely free",
+          "The local craft tour costs nothing."
+        ],
+        [
+          114,
+          "have a dip in the ocean",
+          "The observatory trip includes an opportunity to swim at Sunset Beach."
+        ],
+        [
+          115,
+          "even if you've never been on a horse before",
+          "The horse-riding excursion is suitable for complete beginners."
+        ],
+        [
+          115,
+          "become fully booked several weeks in advance",
+          "become fully booked several weeks in advance",
+          "Advance booking is necessary because tickets sell out quickly. The pair can be given in either order."
+        ],
+        [
+          115,
+          "cast members come down from the stage ... a chance to chat with them",
+          "Guests can meet and speak to performers after the musical show. The pair may be given in either order.",
+          "Guests can meet performers and chat to them after the show."
+        ],
+        [
+          115,
+          "watch the dancers in the ballroom and join in",
+          "Visitors can join the dancing after the meal.",
+          "Visitors can join in the dancing after the meal. The pair can be given in either order."
+        ],
+        [
+          115,
+          "use your hands instead of cutlery",
+          "At the Castle Feast, guests eat without knives and forks. The pair may be given in either order.",
+          "Guests eat using their hands rather than knives and forks."
+        ],
+        [
+          115,
+          "the writer isn't necessarily conscious of the message they're conveying",
+          "Trevor finds it interesting that an author may teach values unintentionally."
+        ],
+        [
+          115,
+          "it inspired me to have a go at it myself",
+          "The module prompted Trevor to try writing children's stories."
+        ],
+        [
+          116,
+          "I'd love to go into when I finish the course",
+          "Stephanie hopes to work in children's illustration after finishing the course."
+        ],
+        [
+          116,
+          "comics can serve a really useful purpose",
+          "They agree that comics may encourage children who otherwise would not read."
+        ],
+        [
+          116,
+          "how many books were targeted at just one sex or the other",
+          "Trevor was surprised by the limited number of books aimed at both boys and girls."
+        ],
+        [
+          116,
+          "no stories of that type had been written before",
+          "Perrault's fairy tales are described as establishing a new genre."
+        ],
+        [
+          116,
+          "a Swiss family who are shipwrecked, like Robinson Crusoe",
+          "The original title refers to another literary work, Robinson Crusoe."
+        ],
+        [
+          116,
+          "the basis for Tchaikovsky's ballet The Nutcracker",
+          "The story inspired a ballet, a work in another art form."
+        ],
+        [
+          116,
+          "I struggled with Tolkien's The Lord of the Rings",
+          "Trevor found this book difficult to read and gave up after making limited progress."
+        ],
+        [
+          116,
+          "Hardly what you'd expect for a children's story",
+          "The First World War is an unexpected subject for children's fiction."
+        ],
+        [
+          117,
+          "standing in a semicircle around a spring",
+          "The stones formed a semicircle around a spring, possibly for ceremonies."
+        ],
+        [
+          117,
+          "Research on the buildings, tools and the human remains",
+          "Archaeologists examined tools as well as buildings and human remains."
+        ],
+        [
+          117,
+          "create maps of the seabed",
+          "Traditional autonomous underwater vehicles were used to map the seabed."
+        ],
+        [
+          117,
+          "so heavy that they had to be launched from a large vessel",
+          "Earlier AUVs were difficult to deploy because of their weight."
+        ],
+        [
+          117,
+          "ancient Roman ships ... marble columns",
+          "The vehicles found cargo consisting of marble architectural elements."
+        ],
+        [
+          117,
+          "Light waves are used for short distances",
+          "Underwater short-range communication can use light, while acoustic waves cover longer distances."
+        ],
+        [
+          118,
+          "a nearby AUV that carries superior cameras",
+          "An AUV can share an object's position with another vehicle carrying better cameras."
+        ],
+        [
+          118,
+          "carrying medical goods",
+          "One Roman wreck carried medical goods stored in boxes."
+        ],
+        [
+          118,
+          "a cleansing liquid for the eyes",
+          "The tablets may have been dissolved to make an eye-cleansing solution."
+        ],
+        [
+          118,
+          "cargoes of olive oil, and others held wine",
+          "Other wrecks carried containers of olive oil and wine."
+        ]
+      ]
+    }
   }
 };
