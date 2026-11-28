@@ -830,3 +830,81 @@ assert.equal(coverageRows.length,40);
 console.log('CAMBRIDGE STUDY COVERAGE (source data, not manual verification):');
 console.table(coverageRows);
 console.log('Study data complete: '+coverageRows.filter(r=>r.complete).length+'/40 tests. Incomplete entries remain explicitly listed.');
+
+
+// Exercise the real delegated submit/input/retry handlers, not merely pre-seeded checked markup.
+const eventLocation={hash:'',pathname:'/wordhop/'};
+context.window.location=eventLocation;
+context.location=eventLocation;
+const keyBanks=Object.assign({},...['','13','14','15','16','17','18','19','20','21'].map(n=>context.window['WORDHOP_CAMBRIDGE'+n+'_KEYS']));
+let submissions=0,defaultRoutes=0,answerCount=0;
+function eventDispatch(type,target){
+  const e={target,defaultPrevented:false,preventDefault(){this.defaultPrevented=true;}};
+  for(const listener of handlers[type]||[])listener(e);
+  return e;
+}
+function answerField(n,value){
+  return {dataset:{camAnswer:String(n)},value,matches:selector=>selector==='[data-cam-answer]'};
+}
+function submitOnRoute(book,volume,exam,skill,part,hash,routeSkill=skill){
+  const code=book===12?exam.id.slice(5):book+'-'+exam.id.slice(5);
+  const key=keyBanks[code][skill];
+  assert.equal(key.length,40);
+  const ranges=skill==='listening'?[[1,10],[11,20],[21,30],[31,40]]:[[1,13],[14,26],[27,40]];
+  const [from,to]=ranges[part-1],storageKey='wordhop.cambridge.exam.v2.test-'+code+'.'+skill+'.part-'+part;
+  values.delete(storageKey);
+  const base='#/ielts/cambridge-ielts/'+volume.id+'/'+exam.id;
+  eventLocation.hash=hash||base+'/'+skill+'/part-'+part;
+  const node={innerHTML:'',querySelector:()=>null};
+  component.render({container:node,route:{volume,exam,skill:routeSkill,part},header:'<nav class="breadcrumbs">Course</nav>',base});
+  assert(node.innerHTML.includes('Check answers'),code+' '+skill+' '+part+' initially unchecked');
+  const fields=[];
+  for(let n=from;n<=to;n++){
+    const opts=component.variants(key[n-1]).filter(Boolean);
+    const answer=opts.find(v=>component.score(code,skill,{[n]:v})[n]);
+    assert(answer!==undefined,'Accepted answer variant for '+code+' '+skill+' '+n+' '+key[n-1]);
+    const field=answerField(n,answer);
+    // Every correct value must be enterable in its actual rendered select or text input.
+    const select=node.innerHTML.match(new RegExp('<select[^>]*data-cam-answer="'+n+'"[^>]*>([\\s\\S]*?)</select>'));
+    if(select){
+      const valuesInOptions=Array.from(select[1].matchAll(/<option value="([^"]*)"/g),m=>m[1].toLowerCase());
+      assert(valuesInOptions.includes(answer.toLowerCase()),'Dropdown permits key: '+code+' '+skill+' '+n+' '+answer);
+    }
+    fields.push(field);
+    eventDispatch('input',field);
+    answerCount++;
+  }
+  assert(JSON.parse(values.get(storageKey)).answers[from],code+' input persisted');
+  const form={dataset:{camForm:skill},closest:sel=>sel==='[data-cam-form]'?form:null,querySelectorAll:()=>fields};
+  assert(eventDispatch('submit',form).defaultPrevented,'Native form submission prevented');
+  assert(node.innerHTML.includes((to-from+1)+'/'+(to-from+1)+' correct'),code+' '+skill+' '+part+' full marks after actual submit');
+  assert(node.innerHTML.includes('Answer key &amp; explanations'),'Review opened by actual submit');
+  assert.equal(JSON.parse(values.get(storageKey)).checked,true,'Checked state saved');
+  // Retry keeps previous responses while unlocking the answer sheet.
+  const retry={dataset:{camAction:'retry'},closest:sel=>sel==='[data-cam-action]'?retry:null};
+  eventDispatch('click',retry);
+  assert(node.innerHTML.includes('Check answers'),'Retry unlocks answers');
+  assert.equal(JSON.parse(values.get(storageKey)).checked,false);
+  // Blank submissions still open results and score zero.
+  for(const field of fields)field.value='';
+  eventDispatch('submit',form);
+  assert(node.innerHTML.includes('0/'+(to-from+1)+' correct'),'Blank answers receive zero');
+  values.delete(storageKey);
+  submissions++;
+}
+for(let book=12;book<=21;book++){
+  const id=book===12?'cambridge-ielts-academic-21':book===21?'cambridge-ielts-academic-21-2026':'cambridge-ielts-academic-'+book;
+  const vol=catalog.volumes.find(v=>v.id===id);
+  for(const exam of vol.tests){
+    const base='#/ielts/cambridge-ielts/'+vol.id+'/'+exam.id;
+    for(const skill of ['reading','listening'])for(let part=1;part<=(skill==='reading'?3:4);part++)submitOnRoute(book,vol,exam,skill,part);
+    // Regression: clicking a test tile opens a bare URL with no explicit skill/part.
+    submitOnRoute(book,vol,exam,'listening',1,base,null);
+    submitOnRoute(book,vol,exam,'reading',1,base+'/reading');
+    defaultRoutes+=2;
+  }
+}
+assert.equal(submissions,360);
+assert.equal(defaultRoutes,80);
+assert.equal(answerCount,4120);
+console.log('CAMBRIDGE INTERACTION COVERAGE: '+submissions+' answer sheets submitted with correct and blank answers and retry; '+defaultRoutes+' default/short routes; all 40 tests, all 10 books.');
