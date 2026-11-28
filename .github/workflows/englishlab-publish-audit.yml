@@ -1,0 +1,33 @@
+name: Diagnose EnglishLab publication
+on:
+  pull_request:
+    branches: [main]
+    paths: ['.github/workflows/englishlab-publish-audit.yml']
+permissions:
+  contents: read
+  actions: read
+  pages: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect main publication runs and live brand
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh api "repos/$REPO/actions/workflows/pages.yml/runs?branch=main&per_page=10" --jq '.workflow_runs[] | {id,head_sha,status,conclusion,html_url}' || true
+          gh api "repos/$REPO/pages" --jq '{html_url,status,build_type}' || true
+          for url in https://funghwang99.github.io/wordhop/ https://wordhop.funghwang99.chatgpt.site/; do
+            echo "$url"
+            curl -L -sS --max-time 25 -H 'Cache-Control: no-cache' "$url?brandcheck=${GITHUB_RUN_ID}" -o /tmp/live.html && python3 -c 'import re; s=open("/tmp/live.html").read(); print("Title:",re.findall(r"<title>(.*?)</title>",s,re.I|re.S)); print("EnglishLab:", "EnglishLab" in s, "Old brand:", ">WordHop<" in s)' || true
+          done
+      - name: Check all Cambridge routes
+        run: node qa/check-cambridge-ui.cjs
+      - name: Build and verify brand
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          python3 -B scripts/build_github_pages.py
+          python3 -B qa/check_github_pages.py
+          python3 -c 'from pathlib import Path; s=Path("_site/index.html").read_text(); assert "<title>EnglishLab" in s and ">EnglishLab<" in s and ">WordHop<" not in s; print("Built site carries EnglishLab brand")'
