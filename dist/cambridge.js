@@ -220,8 +220,11 @@
     return base+String(relative||'').replace(/^\/+/, '');
   }
   const toKey=(test,skill,part)=>STORE+'.test-'+test+'.'+skill+'.part-'+part;
-  const get=(k)=>{try{return localStorage.getItem(k)||'';}catch{return '';}};
-  const set=(k,v)=>{try{localStorage.setItem(k,v);return true;}catch{return false;}};
+  // Session fallback keeps checking/retrying usable even when browser storage is blocked.
+  const volatileAttempts=new Map();
+  const get=(k)=>{if(volatileAttempts.has(k))return volatileAttempts.get(k);try{return localStorage.getItem(k)||'';}catch{return '';}};
+  const set=(k,v)=>{volatileAttempts.set(k,v);try{localStorage.setItem(k,v);return true;}catch{return false;}};
+  const remove=(k)=>{volatileAttempts.set(k,'');try{localStorage.removeItem(k);}catch{}};
   const ranges={reading:[[1,13],[14,26],[27,40]],listening:[[1,10],[11,20],[21,30],[31,40]]};
   function range(skill,part){return ranges[skill]?.[part-1]||[1,10];}
   function variants(key){
@@ -245,7 +248,7 @@
     if(key==='(the) harbour/harbor')return ['harbour','harbor','the harbour','the harbor'].includes(v);
     if (/^\d{1,3}(,\d{3})+$/.test(String(key)) && v.replace(/,/g,'')===String(key).replace(/,/g,'')) return true;
     if(/^\d[\d\s]+$/.test(String(key)) && v.replace(/\s+/g,'')===String(key).replace(/\s+/g,''))return true;
-    if(key.startsWith('3.30/')&&v==='3:30')return true;
+    if(String(key??'').startsWith('3.30/')&&v==='3:30')return true;
     return variants(key).includes(v);
   }
   function score(test,skill,answers){
@@ -263,7 +266,7 @@
   }
   function attempt(test,skill,part){
     const id=toKey(test,skill,part);
-    try{const item=JSON.parse(get(id));if(item&&typeof item.answers==='object'&&!Array.isArray(item.answers))return {answers:item.answers,checked:Boolean(item.checked),submission:item.submission||null};}catch{}
+    try{const item=JSON.parse(get(id));if(item&&item.answers&&typeof item.answers==='object'&&!Array.isArray(item.answers))return {answers:item.answers,checked:Boolean(item.checked),submission:item.submission||null};}catch{}
     const item={answers:{},checked:false,submission:null};
     if(skill==='listening'||skill==='reading'){
       const [from,to]=range(skill,part);
@@ -448,11 +451,25 @@
   }
   function keyFor(test,skill,n){return String((keys[test]||{})[skill]?.[n-1]||'');}
   function answerOptions(test,skill,n){
-    const k=keyFor(test,skill,n).toUpperCase();
-    if(['TRUE','FALSE','NOT GIVEN'].includes(k))return ['TRUE','FALSE','NOT GIVEN'];
-    if(['YES','NO','NOT GIVEN'].includes(k))return ['YES','NO','NOT GIVEN'];
-    if(/^(?:VIII|VII|VI|IV|III|II|IX|V|I|X)$/.test(k))return ['i','ii','iii','iv','v','vi','vii','viii','ix','x'];
-    if(/^[A-H]$/.test(k))return 'ABCDEFGH'.split('');
+    const raw=keyFor(test,skill,n),k=raw.toUpperCase();
+    if(k==='NOT GIVEN'){
+      // NOT GIVEN is shared by two task types. Inspect the contiguous question group.
+      const group=new Set(['TRUE','FALSE','YES','NO','NOT GIVEN']);
+      const found=new Set();
+      for(const direction of [-1,1])for(let q=n+direction;q>=1&&q<=40;q+=direction){
+        const nearby=keyFor(test,skill,q).toUpperCase();
+        if(!group.has(nearby))break;
+        if(nearby==='TRUE'||nearby==='FALSE')found.add('tf');
+        if(nearby==='YES'||nearby==='NO')found.add('yn');
+      }
+      if(found.size!==1)return null;
+      return found.has('yn')?['YES','NO','NOT GIVEN']:['TRUE','FALSE','NOT GIVEN'];
+    }
+    if(['TRUE','FALSE'].includes(k))return ['TRUE','FALSE','NOT GIVEN'];
+    if(['YES','NO'].includes(k))return ['YES','NO','NOT GIVEN'];
+    // Publisher keys use lowercase Roman numerals and uppercase option letters.
+    if(/^(?:viii|vii|vi|iv|iii|ii|ix|v|i|x|xi|xii|xiii|xiv|xv)$/.test(raw))return ['i','ii','iii','iv','v','vi','vii','viii','ix','x','xi','xii','xiii','xiv','xv'];
+    if(/^[A-Z]$/.test(raw))return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
     return null;
   }
   function answerInput(test,skill,n,item){
@@ -830,19 +847,34 @@
   }
   function render({container,route,header:crumbs,base}){
     stopReviewAudio();
-    const skill=(skills.includes(route.skill)||Boolean(cam12VocabSource(route,1)?.words?.length)&&['flashcards','practice'].includes(route.skill))?route.skill:'listening',part=Number.isInteger(route.part)?route.part:1;
-    active={container,route,base,skill,part,test:testCode(route)};
-    const page={...route,part};
+    const skill=(skills.includes(route.skill)||Boolean(cam12VocabSource(route,1)?.words?.length)&&['flashcards','practice'].includes(route.skill))?route.skill:'listening';
+    const maxPart={listening:4,reading:3,writing:2,speaking:1,flashcards:1,practice:1}[skill];
+    const part=Math.min(maxPart,Math.max(1,Number.isInteger(route.part)?route.part:1));
+    const page={...route,skill,part};
+    active={container,route:page,base,skill,part,test:testCode(page)};
     const body=['flashcards','practice'].includes(skill)?vocabularyStudy(page,base,skill):skill==='listening'?listening(page,base):skill==='reading'?reading(page,base):skill==='writing'?writing(page,base):speaking(page);
     container.innerHTML=header(route,crumbs,base,skill)+body;
     if(typeof window.requestAnimationFrame==='function')window.requestAnimationFrame(()=>sizeSplit(container));
   }
-  function stop(){stopReviewAudio();const audio=document.querySelector('#listening-audio');if(audio)audio.pause();}
-  function context(){const a=active;if(!a)return null;const hash=location.hash||'';return hash.startsWith(a.base)&&hash.includes('/'+a.skill+'/')?a:null;}
+  function stop(){stopReviewAudio();const audio=document.querySelector('#listening-audio');if(audio)audio.pause();active=null;}
+  function context(){
+    const a=active;if(!a)return null;
+    const hash=String(window.location?.hash??(typeof location!=='undefined'?location.hash:'')).replace(/\/+$/,'');
+    const base=a.base.replace(/\/+$/,'');
+    // A test card opens the bare test URL and renders Listening Section 1 by default.
+    if(hash===base)return a.skill==='listening'&&a.part===1?a:null;
+    if(!hash.startsWith(base+'/'))return null;
+    const suffix=hash.slice(base.length+1).split('/');
+    if(suffix.length>2||suffix[0]!==a.skill)return null;
+    const raw=suffix[1]||'1';
+    const part=/^(?:part-)?[1-4]$/.test(raw)?Number(raw.replace(/^part-/,'')):1;
+    const maxPart={listening:4,reading:3,writing:2,speaking:1,flashcards:1,practice:1}[a.skill];
+    return Math.min(maxPart,part)===a.part?a:null;
+  }
   function updateField(event){
     const a=context();if(!a)return;
     const input=event.target;
-    if(input.matches('[data-cam-answer]')){
+    if(input.matches('[data-cam-answer]')&&['reading','listening'].includes(a.skill)){
       const n=Number(input.dataset.camAnswer),item=attempt(a.test,a.skill,a.part);
       if(item.checked)return;
       item.answers[n]=input.value;
@@ -936,10 +968,15 @@
   document.addEventListener('submit',event=>{
     const form=event.target.closest('[data-cam-form]');
     if(!form)return;
-    const a=context();if(!a)return;
     event.preventDefault();
+    const a=context();if(!a||form.dataset.camForm!==a.skill||!['reading','listening'].includes(a.skill))return;
+    if(a.container.contains&&!a.container.contains(form))return;
     const item=attempt(a.test,a.skill,a.part);
-    for(const field of form.querySelectorAll('[data-cam-answer]'))item.answers[field.dataset.camAnswer]=field.value;
+    const [from,to]=range(a.skill,a.part);
+    for(const field of form.querySelectorAll('[data-cam-answer]')){
+      const n=Number(field.dataset.camAnswer);
+      if(Number.isInteger(n)&&n>=from&&n<=to)item.answers[n]=field.value;
+    }
     item.checked=true;
     persist(a.test,a.skill,a.part,item);
     restoreBookAfterUpdate(a,true);
@@ -997,7 +1034,7 @@
     }
     else if(act==='clear'){
       if(!confirm('Clear all saved Cambridge IELTS answers and drafts for '+a.route.exam.title+' on this device?'))return;
-      for(const skill of ['reading','listening','writing'])for(let i=1;i<=(skill==='listening'?4:skill==='reading'?3:2);i++)try{localStorage.removeItem(toKey(a.test,skill,i));}catch{}
+      for(const skill of ['reading','listening','writing'])for(let i=1;i<=(skill==='listening'?4:skill==='reading'?3:2);i++)remove(toKey(a.test,skill,i));
       restoreBookAfterUpdate(a,false);
     }
     else if(act==='submit-writing'){void sendWriting(a);}
