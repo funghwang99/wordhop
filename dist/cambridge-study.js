@@ -5689,6 +5689,217 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "speculation (n.)",
           "definition": "The formation of ideas without firm evidence.",
           "example": "The discovery prompted speculation about the artist's intentions."
+        },
+        {
+          "word": "long-haul (adj.)",
+          "definition": "Involving travel over a long distance.",
+          "example": "The island attracts long-haul visitors."
+        },
+        {
+          "word": "brand positioning (n.)",
+          "definition": "How a brand is presented relative to alternatives.",
+          "example": "The campaign improved brand positioning."
+        },
+        {
+          "word": "exhilarating (adj.)",
+          "definition": "Making someone feel very excited and happy.",
+          "example": "Visitors enjoy exhilarating outdoor activities."
+        },
+        {
+          "word": "gateway (n.)",
+          "definition": "A means of access to a place or service.",
+          "example": "The website acts as a gateway to local attractions."
+        },
+        {
+          "word": "service operator (n.)",
+          "definition": "A company or person providing a service.",
+          "example": "Each service operator was evaluated."
+        },
+        {
+          "word": "web presence (n.)",
+          "definition": "A person's or business's visibility online.",
+          "example": "The scheme gave small businesses a web presence."
+        },
+        {
+          "word": "undergo evaluation (v. phr.)",
+          "definition": "Be assessed or examined.",
+          "example": "Operators undergo evaluation before listing."
+        },
+        {
+          "word": "customised itinerary (n.)",
+          "definition": "A travel plan adapted to individual requirements.",
+          "example": "Visitors create a customised itinerary."
+        },
+        {
+          "word": "catalogue (v.)",
+          "definition": "List or organise items systematically.",
+          "example": "The site catalogues popular driving routes."
+        },
+        {
+          "word": "key driver (n.)",
+          "definition": "A major factor causing an outcome.",
+          "example": "Activities are a key driver of satisfaction."
+        },
+        {
+          "word": "underlying (adj.)",
+          "definition": "Forming the basic cause or foundation.",
+          "example": "The underlying lessons apply widely."
+        },
+        {
+          "word": "calibrating (adj.)",
+          "definition": "Adjusting oneself to a situation or level.",
+          "example": "Calibrating boredom involves seeking alternatives."
+        },
+        {
+          "word": "intriguingly (adv.)",
+          "definition": "In an interesting or puzzling way.",
+          "example": "Intriguingly, the groups reacted differently."
+        },
+        {
+          "word": "polystyrene (n.)",
+          "definition": "A lightweight synthetic plastic material.",
+          "example": "Students imagined uses for a polystyrene cup."
+        },
+        {
+          "word": "mind-wandering (n.)",
+          "definition": "The process of attention drifting to unrelated thoughts.",
+          "example": "Mind-wandering may help creativity."
+        },
+        {
+          "word": "irritability (n.)",
+          "definition": "A tendency to become easily annoyed.",
+          "example": "Boredom can lead to irritability."
+        },
+        {
+          "word": "proneness (n.)",
+          "definition": "A tendency to experience a particular condition.",
+          "example": "Researchers measured boredom proneness."
+        },
+        {
+          "word": "enrapture (v.)",
+          "definition": "Fill someone with intense delight.",
+          "example": "The performance enraptured audiences."
+        },
+        {
+          "word": "computational creativity (n.)",
+          "definition": "The study or creation of creative behaviour in computers.",
+          "example": "Researchers investigate computational creativity."
+        },
+        {
+          "word": "trawl through (v. phr.)",
+          "definition": "Search through a large quantity of material.",
+          "example": "The software trawls through online images."
+        },
+        {
+          "word": "from scratch (phr.)",
+          "definition": "From the beginning without using existing material.",
+          "example": "The program creates pictures from scratch."
+        },
+        {
+          "word": "double standard (n.)",
+          "definition": "An unfairly different rule applied to similar cases.",
+          "example": "The critic identified a double standard."
+        },
+        {
+          "word": "technical glitch (n.)",
+          "definition": "A small temporary technical fault.",
+          "example": "A technical glitch changed the image."
+        },
+        {
+          "word": "eerie (adj.)",
+          "definition": "Strange and frightening.",
+          "example": "The picture has an eerie quality."
+        },
+        {
+          "word": "laud (v.)",
+          "definition": "Praise highly.",
+          "example": "Critics lauded the artist's style."
+        },
+        {
+          "word": "colour palette (n.)",
+          "definition": "A range of colours used in an artwork.",
+          "example": "The painter used a limited colour palette."
+        },
+        {
+          "word": "recoil (v.)",
+          "definition": "React with sudden dislike or fear.",
+          "example": "Some listeners recoiled at the revelation."
+        },
+        {
+          "word": "cut short (v. phr.)",
+          "definition": "End something before it would normally finish.",
+          "example": "The explanation cut short their speculation."
+        },
+        {
+          "word": "tap into (v. phr.)",
+          "definition": "Access and make use of a resource.",
+          "example": "The program taps into social networks."
+        },
+        {
+          "word": "inhabitant (n.)",
+          "definition": "A person or animal living in a place.",
+          "example": "The inhabitants maintained local customs."
+        },
+        {
+          "word": "undertake (v.)",
+          "definition": "Agree to do or begin a task.",
+          "example": "Employees undertake complex assignments."
+        },
+        {
+          "word": "perceived (adj.)",
+          "definition": "Understood or believed to exist in a particular way.",
+          "example": "The study assessed perceived threats to wildlife."
+        },
+        {
+          "word": "trait (n.)",
+          "definition": "A particular quality or characteristic.",
+          "example": "Curiosity is a useful trait for learners."
+        },
+        {
+          "word": "threshold (n.)",
+          "definition": "A level or point at which an effect begins.",
+          "example": "The research examines an educational threshold."
+        },
+        {
+          "word": "alleviate (v.)",
+          "definition": "To make a problem or burden less severe.",
+          "example": "Accurate tracking can alleviate operational risks."
+        },
+        {
+          "word": "stimulate (v.)",
+          "definition": "Encourage a process or activity.",
+          "example": "Warmth stimulates plant development."
+        },
+        {
+          "word": "canvas (n.)",
+          "definition": "A strong cloth used as a surface for painting.",
+          "example": "She painted on a large canvas."
+        },
+        {
+          "word": "depict (v.)",
+          "definition": "To show or represent someone or something in art or writing.",
+          "example": "The painting depicts a scene from the civil war.",
+          "clozeAnswer": "depicts"
+        },
+        {
+          "word": "millennia (n. pl.)",
+          "definition": "Periods of a thousand years.",
+          "example": "The technique has existed for millennia."
+        },
+        {
+          "word": "subtle (adj.)",
+          "definition": "Not obvious or immediately noticeable.",
+          "example": "The two designs have subtle differences."
+        },
+        {
+          "word": "outraged (adj.)",
+          "definition": "Extremely angry or shocked.",
+          "example": "Readers were outraged."
+        },
+        {
+          "word": "controversy (n.)",
+          "definition": "A prolonged public or academic disagreement.",
+          "example": "The theory provoked international controversy."
         }
       ]
     },
@@ -6787,6 +6998,241 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "undesirable (adj.)",
           "definition": "Unwanted or considered harmful.",
           "example": "The intervention reduced undesirable effects."
+        },
+        {
+          "word": "token (n.)",
+          "definition": "Something representing a feeling or intention.",
+          "example": "The gift was a token of friendship."
+        },
+        {
+          "word": "banquet (n.)",
+          "definition": "A large formal meal.",
+          "example": "The host displayed wealth at a banquet."
+        },
+        {
+          "word": "at one's disposal (phr.)",
+          "definition": "Available for someone to use.",
+          "example": "The host had many resources at his disposal."
+        },
+        {
+          "word": "overland route (n.)",
+          "definition": "A journey or route across land.",
+          "example": "Merchants used an overland route."
+        },
+        {
+          "word": "exorbitantly (adv.)",
+          "definition": "To an unreasonably high degree.",
+          "example": "The spice was exorbitantly expensive."
+        },
+        {
+          "word": "set one's sights on (v. phr.)",
+          "definition": "Decide to achieve a particular goal.",
+          "example": "The traders set their sights on controlling the market."
+        },
+        {
+          "word": "overrun (v.)",
+          "definition": "Invade and take control of a place.",
+          "example": "The forces overran the trading posts."
+        },
+        {
+          "word": "expel (v.)",
+          "definition": "Force someone to leave a place.",
+          "example": "The rulers expelled foreign traders."
+        },
+        {
+          "word": "prairie vole (n.)",
+          "definition": "A small rodent native to North American grasslands.",
+          "example": "Prairie voles form strong pair bonds."
+        },
+        {
+          "word": "nasal spray (n.)",
+          "definition": "A liquid medicine delivered through the nose.",
+          "example": "Participants received a nasal spray."
+        },
+        {
+          "word": "follow-up study (n.)",
+          "definition": "A later study examining an earlier finding.",
+          "example": "A follow-up study tested the results."
+        },
+        {
+          "word": "charitable (adj.)",
+          "definition": "Willing to help others.",
+          "example": "The participants became more charitable."
+        },
+        {
+          "word": "constructively (adv.)",
+          "definition": "In a helpful and productive way.",
+          "example": "They communicated constructively."
+        },
+        {
+          "word": "administer (v.)",
+          "definition": "Give a medicine or treatment.",
+          "example": "The researchers administered the hormone."
+        },
+        {
+          "word": "goodwill (n.)",
+          "definition": "Friendly or helpful feelings towards others.",
+          "example": "The chemical does not always increase goodwill."
+        },
+        {
+          "word": "propel (v.)",
+          "definition": "Drive or push something forward.",
+          "example": "New findings propelled further research."
+        },
+        {
+          "word": "social cue (n.)",
+          "definition": "A signal indicating another person's social or emotional state.",
+          "example": "Participants became more aware of social cues."
+        },
+        {
+          "word": "attuned (adj.)",
+          "definition": "Sensitive or responsive to something.",
+          "example": "The hormone made participants attuned to social signals."
+        },
+        {
+          "word": "perplexing (adj.)",
+          "definition": "Confusing or difficult to explain.",
+          "example": "The findings became increasingly perplexing."
+        },
+        {
+          "word": "amygdala (n.)",
+          "definition": "A brain structure involved in processing emotion and threat.",
+          "example": "The hormone affects the amygdala."
+        },
+        {
+          "word": "engender (v.)",
+          "definition": "Cause something to arise.",
+          "example": "Trends can engender new opportunities."
+        },
+        {
+          "word": "value proposition (n.)",
+          "definition": "The benefits a business promises customers.",
+          "example": "The firm developed a new value proposition."
+        },
+        {
+          "word": "infuse (v.)",
+          "definition": "Introduce a quality or element into something.",
+          "example": "The brand infused its designs with colour."
+        },
+        {
+          "word": "unleash (v.)",
+          "definition": "Release a powerful force or effect.",
+          "example": "The trend unleashed new demand."
+        },
+        {
+          "word": "across-the-board (adj.)",
+          "definition": "Applying to all parts of something.",
+          "example": "The firm avoided an across-the-board price cut."
+        },
+        {
+          "word": "reinvigorate (v.)",
+          "definition": "Give new energy or strength to something.",
+          "example": "The strategy can reinvigorate the product category."
+        },
+        {
+          "word": "counteract (v.)",
+          "definition": "Act against an effect to reduce it.",
+          "example": "The device counteracts sedentary behaviour."
+        },
+        {
+          "word": "pedometer (n.)",
+          "definition": "A device that counts steps.",
+          "example": "The game included a pedometer."
+        },
+        {
+          "word": "elite (n.)",
+          "definition": "A group regarded as the best or most powerful in a field.",
+          "example": "The tournament attracts the world's tennis elite."
+        },
+        {
+          "word": "consumption (n.)",
+          "definition": "The amount of something used or eaten.",
+          "example": "Local production meets part of the city's food consumption."
+        },
+        {
+          "word": "systematic (adj.)",
+          "definition": "Organised according to a method or plan.",
+          "example": "The new technique was more systematic."
+        },
+        {
+          "word": "cultivate (v.)",
+          "definition": "To grow and care for crops.",
+          "example": "Farmers cultivate rice in the valley."
+        },
+        {
+          "word": "supplement (v.)",
+          "definition": "Add to something to improve or complete it.",
+          "example": "Hunting supplemented agricultural harvests."
+        },
+        {
+          "word": "diminish (v.)",
+          "definition": "To become or make something smaller or less important.",
+          "example": "The remaining populations continued to diminish."
+        },
+        {
+          "word": "trigger (v.)",
+          "definition": "To cause something to happen.",
+          "example": "Extreme weather may trigger disease."
+        },
+        {
+          "word": "cooperative (adj.)",
+          "definition": "Willing to work together towards a shared aim.",
+          "example": "The negotiations require a cooperative approach."
+        },
+        {
+          "word": "nuanced (adj.)",
+          "definition": "Recognizing subtle differences and complexities.",
+          "example": "The issue requires a nuanced discussion."
+        },
+        {
+          "word": "pinpoint (v.)",
+          "definition": "To identify the exact position or cause of something.",
+          "example": "Tests can pinpoint the source of the fault."
+        },
+        {
+          "word": "co-opt (v.)",
+          "definition": "Adapt or use an existing system for another purpose.",
+          "example": "Evolution co-opted an existing biological network."
+        },
+        {
+          "word": "attribute (n.)",
+          "definition": "A quality or characteristic of someone or something.",
+          "example": "Persistence is a valuable attribute."
+        },
+        {
+          "word": "vibrant (adj.)",
+          "definition": "Full of energy and activity.",
+          "example": "The town has a vibrant cultural scene."
+        },
+        {
+          "word": "recession (n.)",
+          "definition": "A period of declining economic activity.",
+          "example": "Unemployment rose during the recession."
+        },
+        {
+          "word": "radical (adj.)",
+          "definition": "Involving a fundamental change to existing ideas or practices.",
+          "example": "Campaigners proposed a radical solution."
+        },
+        {
+          "word": "novel (adj.)",
+          "definition": "New or different from established approaches.",
+          "example": "Researchers are testing novel cements."
+        },
+        {
+          "word": "integrate (v.)",
+          "definition": "To combine parts into a functioning whole.",
+          "example": "The brain may integrate new memories during sleep."
+        },
+        {
+          "word": "amateur (adj.)",
+          "definition": "Participating in an activity without being a professional.",
+          "example": "An amateur player developed the design."
+        },
+        {
+          "word": "enhance (v.)",
+          "definition": "To improve the quality or value of something.",
+          "example": "The treatment may enhance crop productivity."
         }
       ]
     },
@@ -7880,6 +8326,246 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "heritage (n.)",
           "definition": "Traditions or objects inherited from the past.",
           "example": "The community works to preserve its cultural heritage."
+        },
+        {
+          "word": "surmount (v.)",
+          "definition": "Be positioned on top of something.",
+          "example": "A rosette of leaves surmounts the trunk."
+        },
+        {
+          "word": "rosette (n.)",
+          "definition": "A circular arrangement of leaves or petals.",
+          "example": "The palm has a rosette of leaves."
+        },
+        {
+          "word": "strip away (v. phr.)",
+          "definition": "Remove a layer or covering.",
+          "example": "Workers strip away the green leaf material."
+        },
+        {
+          "word": "tap (v.)",
+          "definition": "Draw liquid from a plant or other source.",
+          "example": "Farmers tap stems for sap."
+        },
+        {
+          "word": "sap (n.)",
+          "definition": "Liquid circulating through a plant.",
+          "example": "The sap is used to make sugar."
+        },
+        {
+          "word": "coir (n.)",
+          "definition": "Fibre obtained from coconut husks.",
+          "example": "Coir is used in rope manufacturing."
+        },
+        {
+          "word": "copra (n.)",
+          "definition": "Dried coconut flesh used to produce oil.",
+          "example": "Copra is processed into coconut oil."
+        },
+        {
+          "word": "glycerine (n.)",
+          "definition": "A thick sweet liquid used in various products.",
+          "example": "Glycerine can be obtained from fats."
+        },
+        {
+          "word": "maritime (adj.)",
+          "definition": "Relating to the sea or navigation.",
+          "example": "The fruit is adapted for maritime dispersal."
+        },
+        {
+          "word": "diametrically opposed (adj. phr.)",
+          "definition": "Completely opposite.",
+          "example": "The two theories are diametrically opposed."
+        },
+        {
+          "word": "repetitious (adj.)",
+          "definition": "Involving frequent repetition.",
+          "example": "The speech is deliberately repetitious."
+        },
+        {
+          "word": "womb (n.)",
+          "definition": "The organ in which a baby develops before birth.",
+          "example": "Hearing begins in the womb."
+        },
+        {
+          "word": "native tongue (n.)",
+          "definition": "A person's first language.",
+          "example": "Infants hear their native tongue."
+        },
+        {
+          "word": "infant-directed speech (n.)",
+          "definition": "A speech style adapted for talking to babies.",
+          "example": "Infant-directed speech may support learning."
+        },
+        {
+          "word": "familial (adj.)",
+          "definition": "Relating to the family.",
+          "example": "Fathers may use less familial language."
+        },
+        {
+          "word": "one-on-one (adj.)",
+          "definition": "Involving two people interacting directly.",
+          "example": "Babies benefit from one-on-one communication."
+        },
+        {
+          "word": "synthesising (adj.)",
+          "definition": "Combining elements to generate a new output.",
+          "example": "The experiment used a synthesising device."
+        },
+        {
+          "word": "vowel sound (n.)",
+          "definition": "A speech sound produced without major obstruction of airflow.",
+          "example": "The device repeated a vowel sound."
+        },
+        {
+          "word": "motor movement (n.)",
+          "definition": "A movement controlled by the nervous system.",
+          "example": "The brain prepares motor movements for speech."
+        },
+        {
+          "word": "megacity (n.)",
+          "definition": "A very large city, often with millions of inhabitants.",
+          "example": "The ancient society built megacities."
+        },
+        {
+          "word": "resource base (n.)",
+          "definition": "The available resources supporting an economy or activity.",
+          "example": "Population growth strained the resource base."
+        },
+        {
+          "word": "glacier-fed (adj.)",
+          "definition": "Supplied with water from melting glaciers.",
+          "example": "The region depended on glacier-fed rivers."
+        },
+        {
+          "word": "break down (v. phr.)",
+          "definition": "Cease to function successfully.",
+          "example": "The trading economy broke down."
+        },
+        {
+          "word": "inaccuracy (n.)",
+          "definition": "An error or lack of precision.",
+          "example": "Surveys revealed inaccuracies in earlier maps."
+        },
+        {
+          "word": "fundamentally flawed (adj. phr.)",
+          "definition": "Containing a basic and serious error.",
+          "example": "The dataset was fundamentally flawed."
+        },
+        {
+          "word": "geochemical analysis (n.)",
+          "definition": "Study of the chemical composition of geological material.",
+          "example": "Geochemical analysis revealed past climate conditions."
+        },
+        {
+          "word": "indicative of (adj. phr.)",
+          "definition": "Showing or suggesting something.",
+          "example": "The evidence was indicative of drought."
+        },
+        {
+          "word": "water stress (n.)",
+          "definition": "Pressure when water demand approaches or exceeds supply.",
+          "example": "Ancient farmers experienced water stress."
+        },
+        {
+          "word": "material culture (n.)",
+          "definition": "Physical objects and structures created by a society.",
+          "example": "Pottery forms part of material culture."
+        },
+        {
+          "word": "cultural heritage (n.)",
+          "definition": "Traditions, places and objects inherited from the past.",
+          "example": "The project preserves cultural heritage."
+        },
+        {
+          "word": "envisage (v.)",
+          "definition": "Imagine a future possibility.",
+          "example": "Researchers envisage longer working lives."
+        },
+        {
+          "word": "timber (n.)",
+          "definition": "Wood prepared for construction or other use.",
+          "example": "The house was built using local timber."
+        },
+        {
+          "word": "charcoal (n.)",
+          "definition": "A carbon-rich fuel produced from wood.",
+          "example": "The earlier method used charcoal."
+        },
+        {
+          "word": "nutrient (n.)",
+          "definition": "A substance needed for growth and survival.",
+          "example": "Light helps algae produce each essential nutrient."
+        },
+        {
+          "word": "edible (adj.)",
+          "definition": "Suitable or safe to eat.",
+          "example": "The project focuses on edible plants."
+        },
+        {
+          "word": "moisture (n.)",
+          "definition": "A small amount of water contained in something.",
+          "example": "The packaging retains moisture."
+        },
+        {
+          "word": "mimic (v.)",
+          "definition": "To imitate a process or feature.",
+          "example": "The model can mimic natural conditions."
+        },
+        {
+          "word": "induce (v.)",
+          "definition": "Cause a particular state or action.",
+          "example": "Certain sounds can induce a feeling of calm."
+        },
+        {
+          "word": "theorise (v.)",
+          "definition": "To form an explanation based on ideas or evidence.",
+          "example": "Scientists theorise about the origin of the universe."
+        },
+        {
+          "word": "speculate (v.)",
+          "definition": "Form an opinion without sufficient evidence.",
+          "example": "Scientists should avoid speculating beyond their results."
+        },
+        {
+          "word": "uncover (v.)",
+          "definition": "To discover information previously hidden or unknown.",
+          "example": "Interviews may uncover patterns of support."
+        },
+        {
+          "word": "sophisticated (adj.)",
+          "definition": "Highly developed or complex.",
+          "example": "The builders lacked sophisticated machinery."
+        },
+        {
+          "word": "depiction (n.)",
+          "definition": "A representation of someone or something in art or words.",
+          "example": "The painting offers a vivid depiction of village life."
+        },
+        {
+          "word": "drainage (n.)",
+          "definition": "The removal or controlled flow of excess water.",
+          "example": "The building needs an effective drainage system."
+        },
+        {
+          "word": "ritual (n.)",
+          "definition": "A formal series of actions with symbolic meaning.",
+          "example": "The figure may have been part of a ritual."
+        },
+        {
+          "word": "demise (n.)",
+          "definition": "The end or death of something or someone.",
+          "example": "The book describes the species' demise."
+        },
+        {
+          "word": "millennium (n.)",
+          "definition": "A period of one thousand years.",
+          "example": "The settlement dates back several millennia."
+        },
+        {
+          "word": "fieldwork (n.)",
+          "definition": "Practical research carried out in a natural setting.",
+          "example": "The team conducted fieldwork in the mountains."
         }
       ]
     },
@@ -8984,6 +9670,227 @@ window.WORDHOP_CAMBRIDGE_STUDY={
           "word": "manipulate (v.)",
           "definition": "Control or influence someone or something, often unfairly.",
           "example": "The author warns against attempts to manipulate behaviour."
+        },
+        {
+          "word": "three-masted (adj.)",
+          "definition": "Having three vertical poles supporting sails.",
+          "example": "The three-masted vessel was built for speed."
+        },
+        {
+          "word": "figurehead (n.)",
+          "definition": "A carved figure at the front of a ship.",
+          "example": "The ship had a distinctive figurehead."
+        },
+        {
+          "word": "put out of business (v. phr.)",
+          "definition": "Cause a company to stop operating.",
+          "example": "The contract put the shipbuilder out of business."
+        },
+        {
+          "word": "laden (adj.)",
+          "definition": "Heavily loaded with goods.",
+          "example": "The ship returned laden with tea."
+        },
+        {
+          "word": "live up to (v. phr.)",
+          "definition": "Meet expectations or standards.",
+          "example": "The ship failed to live up to expectations."
+        },
+        {
+          "word": "turnaround (n.)",
+          "definition": "A change from failure or decline to success.",
+          "example": "The new captain marked a turnaround."
+        },
+        {
+          "word": "trade winds (n. pl.)",
+          "definition": "Winds that blow regularly towards the equator.",
+          "example": "The navigator used the trade winds."
+        },
+        {
+          "word": "pay off (v. phr.)",
+          "definition": "Produce a successful result after risk or effort.",
+          "example": "The gamble paid off."
+        },
+        {
+          "word": "dry dock (n.)",
+          "definition": "A dock that can be drained for repairing ships.",
+          "example": "The vessel was moved to dry dock."
+        },
+        {
+          "word": "farmable (adj.)",
+          "definition": "Suitable for cultivation.",
+          "example": "The report warns of declining farmable soil."
+        },
+        {
+          "word": "lock in (v. phr.)",
+          "definition": "Trap or retain something within a system.",
+          "example": "Soil microorganisms lock in carbon."
+        },
+        {
+          "word": "get around (v. phr.)",
+          "definition": "Find a way to avoid or overcome a problem.",
+          "example": "Farmers developed ways to get around the problem."
+        },
+        {
+          "word": "enrich (v.)",
+          "definition": "Improve quality by adding nutrients or valuable substances.",
+          "example": "Organic matter enriches the soil."
+        },
+        {
+          "word": "ammonium nitrate (n.)",
+          "definition": "A nitrogen-containing compound used as fertiliser.",
+          "example": "Farmers use ammonium nitrate to supply nitrogen."
+        },
+        {
+          "word": "nitrous oxide (n.)",
+          "definition": "A greenhouse gas that can be released from fertilised soils.",
+          "example": "Fertiliser use can release nitrous oxide."
+        },
+        {
+          "word": "bring home (v. phr.)",
+          "definition": "Make someone fully understand a fact or problem.",
+          "example": "The map brings home the scale of the problem."
+        },
+        {
+          "word": "on the brink (phr.)",
+          "definition": "Very close to an undesirable event or condition.",
+          "example": "Some soils are on the brink of collapse."
+        },
+        {
+          "word": "agitate for (v. phr.)",
+          "definition": "Campaign actively in support of something.",
+          "example": "Researchers agitate for protected zones."
+        },
+        {
+          "word": "unspoilt (adj.)",
+          "definition": "Not damaged or altered by human activity.",
+          "example": "Unspoilt soil can provide a benchmark."
+        },
+        {
+          "word": "pronouncement (n.)",
+          "definition": "A formal or authoritative statement.",
+          "example": "The economist made a pronouncement on happiness."
+        },
+        {
+          "word": "well-being (n.)",
+          "definition": "The state of being healthy and satisfied.",
+          "example": "The policy seeks to improve collective well-being."
+        },
+        {
+          "word": "simple-minded (adj.)",
+          "definition": "Treating a complex issue in an excessively simple way.",
+          "example": "The reviewer calls the theory simple-minded."
+        },
+        {
+          "word": "metaphysics (n.)",
+          "definition": "A branch of philosophy concerned with fundamental reality and existence.",
+          "example": "The thinker dismissed metaphysics."
+        },
+        {
+          "word": "conviction (n.)",
+          "definition": "A firmly held belief.",
+          "example": "His argument reflects intellectual conviction."
+        },
+        {
+          "word": "arresting (adj.)",
+          "definition": "Attracting attention strongly.",
+          "example": "The book offers an arresting argument."
+        },
+        {
+          "word": "cult (n.)",
+          "definition": "Strong devotion to an idea or practice.",
+          "example": "The reviewer describes a cult of happiness."
+        },
+        {
+          "word": "quantification (n.)",
+          "definition": "The process of expressing something in numerical terms.",
+          "example": "The theory relies on quantification of feelings."
+        },
+        {
+          "word": "set the stage for (v. phr.)",
+          "definition": "Create conditions for a later development.",
+          "example": "The ideas set the stage for new management practices."
+        },
+        {
+          "word": "entangling (n.)",
+          "definition": "The process of becoming closely interconnected.",
+          "example": "The book examines the entangling of psychology and capitalism."
+        },
+        {
+          "word": "behaviourism (n.)",
+          "definition": "A psychological approach focusing on observable behaviour.",
+          "example": "Behaviourism influenced management studies."
+        },
+        {
+          "word": "factual basis (n.)",
+          "definition": "Evidence or facts supporting a claim.",
+          "example": "The reviewer questions its factual basis."
+        },
+        {
+          "word": "vessel (n.)",
+          "definition": "A ship or large boat.",
+          "example": "The material was transferred to another vessel."
+        },
+        {
+          "word": "depict (v.)",
+          "definition": "To show or represent someone or something in art or writing.",
+          "example": "The painting depicts a scene from the civil war.",
+          "clozeAnswer": "depicts"
+        },
+        {
+          "word": "cargo (n.)",
+          "definition": "Goods carried by a ship or other vehicle.",
+          "example": "The cargo included agricultural products."
+        },
+        {
+          "word": "prestigious (adj.)",
+          "definition": "Widely respected and admired.",
+          "example": "Her paintings appeared in prestigious galleries."
+        },
+        {
+          "word": "miscellaneous (adj.)",
+          "definition": "Consisting of various different types of things.",
+          "example": "The box contained miscellaneous items."
+        },
+        {
+          "word": "restore (v.)",
+          "definition": "To return something to a previous or healthy condition.",
+          "example": "The project aims to restore coastal forests."
+        },
+        {
+          "word": "microorganism (n.)",
+          "definition": "A microscopic living organism.",
+          "example": "A microorganism can cause decay."
+        },
+        {
+          "word": "antibiotic (n.)",
+          "definition": "A substance used to kill bacteria or prevent their growth.",
+          "example": "Researchers identified a new antibiotic."
+        },
+        {
+          "word": "nutrient (n.)",
+          "definition": "A substance needed for growth and survival.",
+          "example": "Light helps algae produce each essential nutrient."
+        },
+        {
+          "word": "uncultivated (adj.)",
+          "definition": "Not prepared for growing crops.",
+          "example": "The story takes place on uncultivated land."
+        },
+        {
+          "word": "flourish (v.)",
+          "definition": "To develop successfully or thrive.",
+          "example": "Trade can flourish when transport improves."
+        },
+        {
+          "word": "advocate (v.)",
+          "definition": "To publicly support or recommend something.",
+          "example": "Some teachers advocate mixed-ability classes."
+        },
+        {
+          "word": "framework (n.)",
+          "definition": "A structure of rules, ideas or procedures.",
+          "example": "The industry needs a clear regulatory framework."
         }
       ]
     },
