@@ -909,13 +909,43 @@ assert.equal(defaultRoutes,80);
 assert.equal(answerCount,4120);
 console.log('CAMBRIDGE INTERACTION COVERAGE: '+submissions+' answer sheets submitted with correct and blank answers and retry; '+defaultRoutes+' default/short routes; all 40 tests, all 10 books.');
 
-// Cambridge 12: only publish replay intervals that were located in the supplied recordings.
+// Cambridge 12: check every audio interval and exercise the actual replay handler.
 const sourceCues=context.window.WORDHOP_CAMBRIDGE12_CUES;
-assert.deepEqual(Object.keys(sourceCues).map(t=>Object.keys(sourceCues[t]).length),[37,39,40,35]);
-for(const [test,cues] of Object.entries(sourceCues))for(const [n,cue] of Object.entries(cues)){
-  assert(Number(n)>=1&&Number(n)<=40);
-  assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=cue[2]);
+assert.deepEqual(Object.keys(sourceCues).map(t=>Object.keys(sourceCues[t]).length),[40,40,40,40]);
+context.window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH={};
+let replayCount=0;
+for(const exam of volume.tests){
+  const test=exam.id.slice(5),base='#/ielts/cambridge-ielts/'+volume.id+'/'+exam.id;
+  for(let part=1;part<=4;part++){
+    const first=(part-1)*10+1,key='wordhop.cambridge.exam.v2.test-'+test+'.listening.part-'+part;
+    const duration=sourceCues[test][first][2],events=new Map();
+    const audio={duration,readyState:1,currentTime:0,paused:true,
+      addEventListener:(name,fn)=>events.set(name,fn),
+      removeEventListener:(name,fn)=>{if(events.get(name)===fn)events.delete(name);},
+      play(){this.paused=false;return Promise.resolve();},
+      pause(){this.paused=true;}
+    };
+    const node={innerHTML:'',querySelector:sel=>sel==='#listening-audio'?audio:null};
+    context.window.WORDHOP_CAMBRIDGE12_AUDIO_MATCH[test+'-'+part]={matched:true,duration};
+    eventLocation.hash=base+'/listening/part-'+part;
+    values.set(key,JSON.stringify({answers:{},checked:true}));
+    component.render({container:node,route:{volume,exam,skill:'listening',part},header:'',base});
+    assert.equal((node.innerHTML.match(/Listen to this answer/g)||[]).length,10);
+    for(let n=first;n<first+10;n++){
+      const cue=sourceCues[test][n];
+      assert(cue.length===3&&cue.every(Number.isFinite)&&cue[0]>=0&&cue[1]>cue[0]&&cue[1]<=cue[2]&&cue[2]===duration);
+      const status={textContent:''},button={dataset:{camAction:'review-replay',reviewQuestion:String(n)},textContent:'Listen to this answer',parentElement:{querySelector:()=>status},closest:sel=>sel==='[data-cam-action]'?button:null};
+      eventDispatch('click',button);
+      assert.equal(audio.currentTime,cue[0],'Cue start '+test+'/'+n);
+      assert.equal(audio.paused,false);
+      assert.equal(button.textContent,'Stop replay');
+      audio.currentTime=cue[1];events.get('timeupdate')();
+      assert.equal(audio.paused,true,'Stop at cue end '+test+'/'+n);
+      assert.equal(button.textContent,'Listen to this answer');
+      replayCount++;
+    }
+    values.delete(key);
+  }
 }
-assert(sourceCues['5']['1'][0]<=190.8&&sourceCues['5']['1'][1]>=191.95,'Replay must include the actual source-audio cue for Test 5 Q1');
-assert(!sourceCues['8']['2']&&!sourceCues['8']['5'],'Unresolved audio cues remain unavailable');
-console.log('PASS: 151 source-aligned Cam12 replay intervals; nine unresolved cues explicitly omitted');
+assert.equal(replayCount,160);
+console.log('PASS: 160/160 Cam12 replay intervals; all replay handlers seek to start and pause at end in simulated audio playback.');
