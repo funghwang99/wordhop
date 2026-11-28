@@ -31403,6 +31403,250 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         "phrase": "Then there's an Icelandic word for podcast, which is too hard to pronounce.",
         "manualVerified": false
       }
+    },
+    "review": {
+      "reading": [
+        [
+          37,
+          "Paragraph 1",
+          "tossed a rock into an opening",
+          "Tossed means threw, and the object thrown by the shepherd was a rock."
+        ],
+        [
+          37,
+          "Paragraph 1",
+          "entered the cave",
+          "The shepherds went into the cave after hearing the shattering sound."
+        ],
+        [
+          37,
+          "Paragraph 1",
+          "a collection of large clay jars",
+          "The containers they discovered were jars made of clay."
+        ],
+        [
+          37,
+          "Paragraph 2",
+          "a group called the Essenes",
+          "The prevailing theory identifies the authors as members of the Essenes."
+        ],
+        [
+          37,
+          "Paragraph 3",
+          "The majority of the texts ... are in Hebrew",
+          "Majority means most; Hebrew was the main language."
+        ],
+        [
+          37,
+          "Paragraph 1",
+          "sold for a small sum",
+          "The amount was small, but the teenagers' reaction to the payment is not stated."
+        ],
+        [
+          37,
+          "Paragraph 2",
+          "still the subject of scholarly debate",
+          "Scholarly debate indicates that academics have not reached agreement on the scrolls' origin."
+        ],
+        [
+          37,
+          "Paragraph 4",
+          "The only entire book ... is Isaiah",
+          "Only one biblical book survives in full; the others are fragments."
+        ],
+        [
+          38,
+          "Paragraph 1",
+          "unconventional vocabulary and odd spelling",
+          "The vocabulary and spelling used on the Copper Scroll are unusual."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "paying less than $100 for them",
+          "Mar Samuel purchased the scrolls rather than receiving them as a gift."
+        ],
+        [
+          38,
+          "Paragraph 2",
+          "unsuccessfully offered them to a number of universities",
+          "His attempt to sell them to US universities failed, contradicting the claim that the institutions were keen to buy."
+        ],
+        [
+          38,
+          "Final paragraph",
+          "details two yearly religious events",
+          "Yearly means annual; the reconstructed scroll records celebrations and religious occasions."
+        ],
+        [
+          38,
+          "Final paragraph",
+          "Only one more known scroll remains untranslated.",
+          "The last scroll is untranslated, but the text does not say the Haifa academics are currently studying it."
+        ],
+        [
+          42,
+          "Section C",
+          "resistant to a common disease called bacterial spot",
+          "The Chinese researchers produced a tomato strain capable of resisting a dangerous infection."
+        ],
+        [
+          41,
+          "Section B",
+          "much genetic diversity is lost",
+          "Selective breeding from a single mutated plant can eliminate diversity and introduce undesirable characteristics."
+        ],
+        [
+          42,
+          "Section E",
+          "including foxtail, oat-grass and cowpea",
+          "These are examples of plants that might be developed into widely used food crops."
+        ],
+        [
+          41,
+          "Section A",
+          "at least 3,000 years ... in less than three years",
+          "The passage contrasts historical domestication with the much faster modern process."
+        ],
+        [
+          42,
+          "Section C",
+          "They're quite tasty ... A little bit strong. And very aromatic.",
+          "Kudla gives his personal opinion of the flavour and aroma of the new tomatoes."
+        ],
+        [
+          42,
+          "Section E",
+          "we could create crops that will thrive even as the planet warms",
+          "Gao suggests selecting drought- or heat-tolerant wild plants to address future climate challenges."
+        ],
+        [
+          42,
+          "Section E",
+          "it will be hard for new foods to grow so popular ... that they become new staple crops",
+          "Jones doubts that unusual foods will easily become widely accepted."
+        ],
+        [
+          42,
+          "Section E",
+          "Kudla didn't want to reveal which species",
+          "Kudla keeps his team's future targets confidential because other researchers could easily pursue the same work."
+        ],
+        [
+          42,
+          "Section D",
+          "taking the work further would be expensive",
+          "Van Eck says licensing and regulatory approval costs limit further work on the groundcherry."
+        ],
+        [
+          41,
+          "Section A",
+          "50,000 edible plants ... 90 percent of our energy comes from just 15 crops",
+          "Kudla contrasts the large number of edible species with the small number that supply most human energy."
+        ],
+        [
+          41,
+          "Section B",
+          "lost much of their flavour",
+          "An undesirable effect of selective breeding is the loss of flavour."
+        ],
+        [
+          42,
+          "Section C",
+          "they tripled the size of fruit",
+          "Editing the FRUIT WEIGHT gene increased fruit size threefold."
+        ],
+        [
+          42,
+          "Section C",
+          "more salt tolerant – and has higher levels of vitamin C",
+          "The new Chinese strain can tolerate salt and contains more vitamin C."
+        ],
+        [
+          45,
+          "Paragraph 1",
+          "Scientific discovery is popularly believed to result from the sheer genius",
+          "The opening describes a conventional assumption about how scientific breakthroughs arise."
+        ],
+        [
+          45,
+          "Paragraph 2",
+          "it largely misrepresents the real nature of scientific discovery",
+          "The writers criticise the traditional opinion as misleading."
+        ],
+        [
+          45,
+          "Paragraph 3",
+          "Setting aside such greats as Darwin and Einstein",
+          "Darwin and Einstein are treated as exceptional cases before the authors describe a more general trial-and-error model."
+        ],
+        [
+          45,
+          "Paragraph 4",
+          "Niels Bohr ... jumped off from this interesting idea",
+          "Nicholson's idea provided a starting point for Bohr's later breakthrough."
+        ],
+        [
+          46,
+          "Paragraph 1",
+          "He suffered a leg injury",
+          "The invention arose from Westrope's need to accommodate an injury rather than a planned research programme."
+        ],
+        [
+          46,
+          "Paragraph 3",
+          "these notions merely label rather than explain",
+          "Calling great thinkers geniuses does not explain the processes behind their innovations."
+        ],
+        [
+          46,
+          "Paragraph 4",
+          "advanced by psychologist Edward Thorndike in 1898",
+          "The date and principle are given, but the passage does not say psychologists at the time were searching for a scientific explanation of creativity."
+        ],
+        [
+          46,
+          "Paragraph 4",
+          "an entirely mechanical process of variation and selection, without any end objective in sight",
+          "The Law of Effect describes a process without a predetermined goal."
+        ],
+        [
+          46,
+          "Paragraph 5",
+          "the provenance of the raw material on which the Law of Effect operates is not as clearly known",
+          "The origin of new ideas is still unclear, so the law does not fully explain where they come from."
+        ],
+        [
+          46,
+          "Final paragraph",
+          "The time seems right for abandoning the naive notions",
+          "The writers recommend abandoning those notions, but do not claim many scientists are already doing so."
+        ],
+        [
+          45,
+          "Paragraph 1",
+          "ideas spontaneously pop into someone's head",
+          "The conventional account imagines sudden inspiration in the mind of a genius."
+        ],
+        [
+          45,
+          "Paragraph 4",
+          "Nicholson was wrong about the presence of proto-elements",
+          "Nicholson's mistaken hypothesis illustrates how errors can contribute to later discoveries."
+        ],
+        [
+          46,
+          "Paragraph 2",
+          "serendipity – a happy accident",
+          "The Post-it note example illustrates the role of luck in innovation."
+        ],
+        [
+          46,
+          "Paragraph 4",
+          "without any end objective in sight",
+          "The process of variation and selection need not have clearly defined goals."
+        ]
+      ]
     }
   },
   "17-3": {
