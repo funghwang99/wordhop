@@ -734,6 +734,31 @@ def activate_cambridge21_2026_media(catalog):
     print('Published Cambridge IELTS Academic 21 (2026): 87 original pages, all 16 Listening sections')
 
 
+def verify_cambridge_study_audio(catalog):
+    """Enable study replay cues only for exact audio files analyzed for this book."""
+    marker = 'window.WORDHOP_CAMBRIDGE_STUDY='
+    study = json.loads((SOURCE / 'cambridge-study.js').read_text().split(marker, 1)[1].strip().removesuffix(';'))
+    matches = {}
+    for code, data in study.items():
+        if not data.get('audioSha256'):
+            continue
+        book, test = code.split('-')
+        volume_id = 'cambridge-ielts-academic-' + book + ('-2026' if book == '21' else '')
+        volume = next((v for v in catalog['volumes'] if v['id'] == volume_id), None)
+        exam = next((e for e in volume['tests'] if e['id'] == 'test-' + test), None) if volume else None
+        audio = exam.get('audio', []) if exam else []
+        for section, sha in data['audioSha256'].items():
+            index = int(section) - 1
+            rel = audio[index] if index < len(audio) else None
+            target = OUTPUT / rel if isinstance(rel, str) else None
+            ok = bool(target and target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == sha)
+            key = code + '-' + section
+            matches[key] = {'matched': ok}
+            print('Cambridge study audio ' + key + ': ' + ('exact SHA256 match' if ok else 'NOT MATCHED'), flush=True)
+    with (OUTPUT / 'cambridge12-review.js').open('a', encoding='utf-8') as out:
+        out.write('\nwindow.WORDHOP_CAMBRIDGE_STUDY_AUDIO_MATCH=' + json.dumps(matches, separators=(',', ':')) + ';\n')
+
+
 def build():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -779,6 +804,7 @@ def build():
     activate_cambridge19_media(catalog)
     activate_cambridge20_media(catalog)
     activate_cambridge21_2026_media(catalog)
+    verify_cambridge_study_audio(catalog)
     activate_trainer_exam_audio()
     retained_files = set()
     word_count = 0
