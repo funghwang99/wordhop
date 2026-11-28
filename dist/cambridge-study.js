@@ -28932,6 +28932,250 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         "phrase": "Recordings taken from nature can be just as good as music.",
         "manualVerified": false
       }
+    },
+    "review": {
+      "reading": [
+        [
+          81,
+          "Paragraph 2",
+          "liked the look of its glossy leaves and delicate purple flowers",
+          "The plant was introduced into Rwanda because Belgian colonists found it attractive as a decorative pond plant."
+        ],
+        [
+          81,
+          "Paragraph 2",
+          "escaped out of the country via the Kagera river",
+          "The plant reached Lake Victoria by spreading downstream naturally, not because fishermen transported it."
+        ],
+        [
+          81,
+          "Paragraph 3",
+          "struggle to navigate through the mass of plants",
+          "The thick plants obstruct the movement of fishing boats."
+        ],
+        [
+          81,
+          "Paragraph 2",
+          "blocking fishing routes",
+          "The passage describes obstructed fishing routes, but does not establish that chemicals released by the plants affect fish populations."
+        ],
+        [
+          81,
+          "Paragraph 3",
+          "depend on wood or charcoal to cook",
+          "Both fuels cause indoor pollution, but no comparison establishing that charcoal is worse than wood is given."
+        ],
+        [
+          81,
+          "Paragraph 4",
+          "huge piles of water hyacinth that villagers had taken out of the water",
+          "The large piles show that villagers were able to remove substantial amounts of the plant."
+        ],
+        [
+          81,
+          "Paragraph 4",
+          "since as early as the 1980s",
+          "Research into the plant's potential as a biofuel began in the twentieth century."
+        ],
+        [
+          82,
+          "Paragraph 2",
+          "a mix of water hyacinth and cow dung",
+          "The Dunga digesters convert water hyacinth combined with cow dung into biogas."
+        ],
+        [
+          82,
+          "Paragraph 3",
+          "it goes through a fermentation process",
+          "The mixture breaks down and releases gas during fermentation."
+        ],
+        [
+          82,
+          "Paragraph 3",
+          "passed through pipes to the point of use",
+          "Pipes carry the gas to the locations where it is used."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "devote a lot of time every day to gathering firewood",
+          "Using biogas reduces the time women need to spend collecting firewood."
+        ],
+        [
+          82,
+          "Paragraph 4",
+          "make more money for their families from other enterprises",
+          "The time saved allows women to earn money through other activities."
+        ],
+        [
+          82,
+          "Paragraph 6",
+          "unless the price of the machines drops",
+          "At approximately $750, the digesters are too expensive for most communities."
+        ],
+        [
+          85,
+          "Paragraph 1",
+          "more than 20 million people",
+          "The large number of people and crowded streets indicate a dense population."
+        ],
+        [
+          85,
+          "Paragraph 1",
+          "many millions more have recently made India's capital their home",
+          "People who have recently moved to Delhi are new immigrants."
+        ],
+        [
+          85,
+          "Paragraph 1",
+          "surrounding neighbourhoods, cities and states",
+          "Some newcomers have moved from nearby districts rather than distant parts of the country."
+        ],
+        [
+          85,
+          "Paragraph 1",
+          "gaining better jobs and a better life",
+          "Better jobs correspond to improved employment opportunities."
+        ],
+        [
+          85,
+          "Paragraph 2",
+          "The overriding aim of the four-year project",
+          "Overriding aim means the primary objective of the research."
+        ],
+        [
+          85,
+          "Paragraph 2",
+          "the many benefits of speaking more than one language ... do not apply to many of India's schoolchildren",
+          "The project investigates why Indian children do not experience advantages similar to those observed in Europe."
+        ],
+        [
+          85,
+          "Paragraph 3",
+          "over 50% ... cannot read ... just under 50% ... cannot solve",
+          "A larger proportion struggle with reading than subtraction, contradicting the claim that literacy performance is better."
+        ],
+        [
+          85,
+          "Paragraph 3",
+          "a problem disproportionately affecting female students",
+          "Female students are more affected by dropping out, but difficulty persuading them to join the study is not mentioned."
+        ],
+        [
+          85,
+          "Paragraph 4",
+          "the language that children are taught in often differs from the language used at home",
+          "The researchers investigate whether unfamiliar instructional languages contribute to poor learning outcomes."
+        ],
+        [
+          86,
+          "Paragraph 5",
+          "the environment and the teaching practices themselves",
+          "Teaching practices are among the variables the researchers intend to investigate, not a factor they have ruled out."
+        ],
+        [
+          86,
+          "Paragraph 6",
+          "English instruction for children from low socio-economic areas might not be the best way",
+          "Instruction in English may hold back disadvantaged children who have limited exposure to the language."
+        ],
+        [
+          86,
+          "Paragraph 7",
+          "We are not suggesting that English be withdrawn - that ship has sailed",
+          "The expression indicates that completely withdrawing English is no longer considered a realistic option."
+        ],
+        [
+          86,
+          "Paragraph 8",
+          "do not seem to lag behind ... and in some cases outperform them",
+          "The unexpected finding is that slum children perform at least as well as other urban poor children in literacy and numeracy."
+        ],
+        [
+          89,
+          "Paragraph 1",
+          "an almost obsessive, decade-long journey",
+          "Finding a globe became a challenging task rather than a straightforward purchase."
+        ],
+        [
+          89,
+          "Paragraph 1",
+          "a series of obstacles",
+          "Obstacles corresponds to numerous problems that Bellerby had to overcome."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "not simply a matter of a quick online order",
+          "A straightforward online order or internet purchase proved impossible."
+        ],
+        [
+          89,
+          "Paragraph 3",
+          "shoddy commercial versions",
+          "Shoddy means poor-quality or inferior makes."
+        ],
+        [
+          89,
+          "Paragraph 3",
+          "designed for school classrooms",
+          "These commercial globes were intended for educational use."
+        ],
+        [
+          89,
+          "Paragraph 3",
+          "the knowledge of artisan cartographers had been preserved",
+          "Bellerby hoped to find craftspeople who retained the necessary skills."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "contrary to stubbornly held popular views of our ancestors' geographical ignorance",
+          "The reviewer rejects the assumption that people in the past were geographically ignorant."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "Plato in his work Phaedo likened it to a leather ball",
+          "Plato's comparison is mentioned, but no criticism of it is reported."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "the first recorded globe",
+          "The passage identifies the maker of the first recorded globe, but does not assess its accuracy."
+        ],
+        [
+          89,
+          "Paragraph 2",
+          "a good-quality globe wouldn't be difficult to find",
+          "Bellerby initially expected finding a well-made globe to be easy."
+        ],
+        [
+          90,
+          "Paragraph 5",
+          "the paper had stretched slightly",
+          "He discovered unexpectedly that the stretched paper caused the last gore to overlap the first."
+        ],
+        [
+          90,
+          "Paragraph 6",
+          "Bellerby clearly found a kindred spirit in Martin Behaim",
+          "The reviewer draws parallels between Bellerby and earlier globemakers, including their determination and difficulties."
+        ],
+        [
+          90,
+          "Paragraph 7",
+          "a lament for the fading away of centuries-old traditions",
+          "Bellerby regrets the disappearance of traditional craft skills."
+        ],
+        [
+          90,
+          "Final paragraph",
+          "hardly a blueprint for commercial success",
+          "The book inspires admiration for craftsmanship but does not explain how to build a profitable business."
+        ]
+      ]
     }
   },
   "17-1": {
