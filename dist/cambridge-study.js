@@ -6364,5 +6364,628 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         ]
       ]
     }
+  },
+  "14-3": {
+    "vocabulary": {
+      "title": "Test 3 · Reading vocabulary",
+      "words": [
+        {
+          "word": "implicit (adj.)",
+          "definition": "Understood without being expressed directly.",
+          "example": "People may hold implicit assumptions about intelligence."
+        },
+        {
+          "word": "explicit (adj.)",
+          "definition": "Expressed clearly and directly.",
+          "example": "The rules provide explicit instructions."
+        },
+        {
+          "word": "conceptualise (v.)",
+          "definition": "Form an idea or concept of something.",
+          "example": "Cultures may conceptualise intelligence differently."
+        },
+        {
+          "word": "investigator (n.)",
+          "definition": "Someone who examines a subject systematically.",
+          "example": "The investigators compared several theories."
+        },
+        {
+          "word": "phenomenon (n.)",
+          "definition": "An observable event, fact or situation.",
+          "example": "Researchers studied the phenomenon of bilingualism."
+        },
+        {
+          "word": "supplementation (n.)",
+          "definition": "The addition of something to improve or complete another thing.",
+          "example": "The theory requires further supplementation."
+        },
+        {
+          "word": "elucidate (v.)",
+          "definition": "Make something clearer or easier to understand.",
+          "example": "The study helps elucidate cultural differences."
+        },
+        {
+          "word": "underlying (adj.)",
+          "definition": "Existing beneath or forming the basis of something.",
+          "example": "The study examined underlying assumptions."
+        },
+        {
+          "word": "presupposition (n.)",
+          "definition": "An assumption made before considering evidence.",
+          "example": "The argument rests on an untested presupposition."
+        },
+        {
+          "word": "pharmaceutical (adj.)",
+          "definition": "Relating to medicines and their production.",
+          "example": "Pharmaceutical research may benefit from biodiversity."
+        },
+        {
+          "word": "noxious (adj.)",
+          "definition": "Harmful or poisonous.",
+          "example": "The plant produces noxious substances."
+        },
+        {
+          "word": "extraction (n.)",
+          "definition": "The process of removing or obtaining a substance.",
+          "example": "The extraction of useful compounds can be difficult."
+        },
+        {
+          "word": "characterisation (n.)",
+          "definition": "The identification or description of distinctive properties.",
+          "example": "Chemical characterisation helps identify promising compounds."
+        },
+        {
+          "word": "bioprospecting (n.)",
+          "definition": "Searching natural organisms for commercially useful compounds.",
+          "example": "Bioprospecting may lead to new antibiotics."
+        },
+        {
+          "word": "terrestrial (adj.)",
+          "definition": "Relating to land rather than water.",
+          "example": "Insects dominate many terrestrial ecosystems."
+        },
+        {
+          "word": "ecological niche (n.)",
+          "definition": "The role and position of a species in its environment.",
+          "example": "Each species occupies a distinctive ecological niche."
+        },
+        {
+          "word": "therapeutic (adj.)",
+          "definition": "Relating to the treatment of disease.",
+          "example": "Researchers investigated therapeutic applications."
+        },
+        {
+          "word": "antiviral (adj.)",
+          "definition": "Able to prevent or treat viral infections.",
+          "example": "The compound has potential antiviral properties."
+        },
+        {
+          "word": "antimicrobial (adj.)",
+          "definition": "Able to kill or inhibit microorganisms.",
+          "example": "Some insects produce antimicrobial substances."
+        },
+        {
+          "word": "venom (n.)",
+          "definition": "A poisonous substance produced by an animal.",
+          "example": "Scientists investigated compounds in wasp venom."
+        },
+        {
+          "word": "daunting (adj.)",
+          "definition": "Seeming difficult or intimidating.",
+          "example": "Studying millions of species is a daunting task."
+        },
+        {
+          "word": "secrete (v.)",
+          "definition": "Produce and release a substance.",
+          "example": "Certain glands secrete protective chemicals."
+        },
+        {
+          "word": "pathogenic (adj.)",
+          "definition": "Capable of causing disease.",
+          "example": "The insects encounter pathogenic bacteria."
+        },
+        {
+          "word": "deprive (v.)",
+          "definition": "Prevent someone from having something they need.",
+          "example": "Habitat loss can deprive scientists of valuable resources."
+        },
+        {
+          "word": "dichotomy (n.)",
+          "definition": "A division between two contrasting things.",
+          "example": "The author challenges the dichotomy between work and play."
+        },
+        {
+          "word": "continuum (n.)",
+          "definition": "A continuous range between two extremes.",
+          "example": "Playfulness can be measured along a continuum."
+        },
+        {
+          "word": "intrinsically (adv.)",
+          "definition": "In a way that is inherent to an activity.",
+          "example": "Children may be intrinsically motivated to play."
+        },
+        {
+          "word": "extrinsically (adv.)",
+          "definition": "As a result of external rewards or influences.",
+          "example": "Work can be extrinsically motivated."
+        },
+        {
+          "word": "voluntary (adj.)",
+          "definition": "Done by choice rather than compulsion.",
+          "example": "Play should be voluntary."
+        },
+        {
+          "word": "dispositional (adj.)",
+          "definition": "Relating to a person's usual tendencies.",
+          "example": "The research examines dispositional criteria for play."
+        },
+        {
+          "word": "facilitate (v.)",
+          "definition": "Make an activity or process easier.",
+          "example": "Teachers can facilitate learning through play."
+        },
+        {
+          "word": "curriculum (n.)",
+          "definition": "The subjects and content taught in an educational programme.",
+          "example": "Play can be integrated into the curriculum."
+        },
+        {
+          "word": "autonomy (n.)",
+          "definition": "The freedom to make one's own decisions.",
+          "example": "Free play gives children autonomy."
+        },
+        {
+          "word": "predominantly (adv.)",
+          "definition": "Mainly or for the most part.",
+          "example": "The activity should be predominantly child-directed."
+        }
+      ]
+    },
+    "review": {
+      "reading": [
+        [
+          59,
+          "B",
+          "People will make hiring decisions",
+          "People's implicit ideas about intelligence influence everyday decisions such as hiring and child-rearing."
+        ],
+        [
+          59,
+          "A",
+          "no one knows for certain what it actually is",
+          "The passage opens by highlighting uncertainty over the meaning of intelligence."
+        ],
+        [
+          59,
+          "D",
+          "little correspondence between the extant implicit and explicit theories",
+          "A researcher's stated theory may differ considerably from the underlying assumptions."
+        ],
+        [
+          59,
+          "B",
+          "parents' implicit theories of their children's language development",
+          "The text discusses parental expectations but does not state that slow development disappoints parents."
+        ],
+        [
+          60,
+          "E",
+          "How these expectations differ is in part a function of culture",
+          "Expectations vary across cultures, so they are not universal."
+        ],
+        [
+          60,
+          "J",
+          "likely to miss the point of what others are saying",
+          "Scholars may misunderstand each other's theories if underlying assumptions remain unexamined."
+        ],
+        [
+          60,
+          "H",
+          "people have equal opportunities",
+          "The Jeffersonian view supports equal opportunities for people to achieve what their abilities permit."
+        ],
+        [
+          60,
+          "I",
+          "favouring one group over another",
+          "The Jacksonian view rejects preferential treatment for any social group."
+        ],
+        [
+          60,
+          "H",
+          "People are rewarded for what they accomplish",
+          "The Jeffersonian view rewards actual achievement rather than initial intelligence."
+        ],
+        [
+          60,
+          "G",
+          "people are born with different levels of intelligence",
+          "The Hamiltonian view assumes intellectual differences are present at birth."
+        ],
+        [
+          60,
+          "G",
+          "those who are more intelligent need to keep those who are less intelligent in line",
+          "The Hamiltonian view favours placing more intelligent people in positions of authority."
+        ],
+        [
+          60,
+          "I",
+          "all people are equal ... in terms of their competencies",
+          "The Jacksonian view assumes equality of competencies and the ability to learn specialised skills."
+        ],
+        [
+          60,
+          "G",
+          "the unintelligent would create ... a kind of chaos",
+          "The Hamiltonian perspective predicts disorder if people of low intelligence are left to themselves."
+        ],
+        [
+          63,
+          "C",
+          "prompted the development of new approaches focusing once again on natural products",
+          "Limited success in laboratory drug discovery and concerns about antibiotic resistance renewed interest in natural medicines."
+        ],
+        [
+          64,
+          "H",
+          "snip out the stretches of the insect's DNA",
+          "Genetic techniques make it possible to transfer useful codes into cells and produce larger quantities of compounds."
+        ],
+        [
+          63,
+          "A",
+          "capuchin monkeys ... chimpanzees",
+          "These animals use naturally occurring substances to deter mosquitoes or remove intestinal parasites."
+        ],
+        [
+          64,
+          "F",
+          "there are so many insects",
+          "The enormous number of species, small size and difficulty of finding or breeding insects complicate research."
+        ],
+        [
+          64,
+          "I",
+          "make people think differently about the value of nature",
+          "Drug discovery may help persuade people to protect wildlife and its habitats."
+        ],
+        [
+          63,
+          "B",
+          "finding them is far from easy",
+          "Natural compounds are difficult to locate, isolate and produce in useful quantities, which encouraged laboratory-based research."
+        ],
+        [
+          64,
+          "E",
+          "used as an antiviral and antitumor agent",
+          "Alloferon from blowfly larvae is already used medically in some countries."
+        ],
+        [
+          63,
+          "D",
+          "compounds for defensive and offensive purposes",
+          "Insects have evolved many chemical defences and offensive compounds. Questions 21 and 22 accept either order."
+        ],
+        [
+          64,
+          "H",
+          "insect's DNA that carry the codes for the interesting compounds",
+          "Scientists can use genetic codes to produce useful insect compounds."
+        ],
+        [
+          64,
+          "G",
+          "use our knowledge of ecology",
+          "The research team draws on its understanding of insect ecology to guide its searches."
+        ],
+        [
+          64,
+          "G",
+          "overpowering and preserving fresh prey",
+          "The researchers investigate chemicals that insects use to subdue and preserve their prey."
+        ],
+        [
+          64,
+          "G",
+          "such habitats",
+          "Insects living in faeces and carcasses need chemical defences against pathogenic organisms in their habitats."
+        ],
+        [
+          64,
+          "G",
+          "serve as or inspire new antibiotics",
+          "The antimicrobial compounds may lead to the development of new antibiotics."
+        ],
+        [
+          67,
+          "Paragraph 4",
+          "discrete descriptions of various types of play",
+          "Miller and Almon distinguish physical, construction, language and symbolic forms of play."
+        ],
+        [
+          68,
+          "Paragraph 8",
+          "a function of their educational goals",
+          "Hirsch-Pasek and colleagues explain that the adult's role varies according to educational goals and developmental level."
+        ],
+        [
+          68,
+          "Paragraph 7",
+          "a middle ground between play and work",
+          "Goodman proposes combining elements of play and work to support learning."
+        ],
+        [
+          68,
+          "Paragraph 6",
+          "process orientation and a lack of obvious functional purpose",
+          "Pellegrini identifies particular features of play as especially important."
+        ],
+        [
+          68,
+          "Paragraph 6",
+          "range in degree from 0% to 100% playfulness",
+          "Rubin and colleagues suggest that activities vary along a continuum of playfulness."
+        ],
+        [
+          67,
+          "Paragraph 1",
+          "even when they have no real toys",
+          "Children play even without toys or adult encouragement."
+        ],
+        [
+          67,
+          "Paragraph 2",
+          "created a false dichotomy between play and learning",
+          "The writer argues that play and learning should not be treated as opposing activities."
+        ],
+        [
+          67,
+          "Paragraph 3",
+          "a repertoire of creative problem-solving skills",
+          "The passage mentions creativity and problem solving, but does not specifically establish improved artistic talent."
+        ],
+        [
+          67,
+          "Paragraph 4",
+          "Full consensus on a formal definition of play continues to elude the researchers",
+          "Researchers have not reached agreement on a single definition."
+        ],
+        [
+          68,
+          "Paragraph 7",
+          "work is ... goal oriented",
+          "Work is oriented towards an external goal, while play emphasises enjoyment and the process itself."
+        ],
+        [
+          68,
+          "Paragraph 9",
+          "encouraging further exploration",
+          "An adult can guide play by encouraging a child to explore additional aspects of an activity."
+        ],
+        [
+          68,
+          "Paragraph 9",
+          "stem from the child's own desire",
+          "Even structured guided play should arise from the child's own wish to play."
+        ],
+        [
+          68,
+          "Final paragraph",
+          "provides the child with true autonomy",
+          "Free play allows children to act independently without adult intervention."
+        ],
+        [
+          68,
+          "Final paragraph",
+          "provide more targeted learning experiences",
+          "Guided play helps adults focus learning on particular objectives."
+        ]
+      ],
+      "listening": [
+        [
+          108,
+          "Tesla — that's spelt T-E-S-L-A",
+          "The large conference room is called Tesla, and the speaker spells its name."
+        ],
+        [
+          108,
+          "there'll be one that members of the audience can use",
+          "A microphone is available for the presenter and the audience."
+        ],
+        [
+          108,
+          "an exhibition of our products and services",
+          "The company needs an open area for an exhibition as well as coffee."
+        ],
+        [
+          108,
+          "free and available throughout the hotel",
+          "Wi-Fi is free throughout the hotel."
+        ],
+        [
+          108,
+          "that's $45 per person",
+          "The standard lunch costs $45; $50 is the price of the special menu."
+        ],
+        [
+          108,
+          "rooms at $135",
+          "Conference attendees receive a reduction from the standard price, paying $135 per room."
+        ],
+        [
+          109,
+          "a pool up on the roof",
+          "The hotel has a rooftop swimming pool in addition to its spa."
+        ],
+        [
+          109,
+          "12 kilometres from the airport ... a complimentary shuttle bus",
+          "The complimentary shuttle service serves the airport."
+        ],
+        [
+          109,
+          "not very far from the sea",
+          "Wilby Street is near the sea."
+        ],
+        [
+          109,
+          "a great many to choose from",
+          "There are numerous clubs near the hotel for evening entertainment."
+        ],
+        [
+          109,
+          "some painting or wallpapering",
+          "Volunteers help with decorating tasks. Questions 11 and 12 accept either order."
+        ],
+        [
+          109,
+          "do some babysitting",
+          "Volunteers may look after children to give parents a break."
+        ],
+        [
+          109,
+          "gives them a purpose in their lives",
+          "Volunteering can provide a sense of purpose. Questions 13 and 14 accept either order."
+        ],
+        [
+          109,
+          "when they're applying for jobs",
+          "The skills acquired through volunteering can strengthen employment prospects."
+        ],
+        [
+          109,
+          "take the listeners back to their youth",
+          "Habib uses singing to help older people recall earlier times."
+        ],
+        [
+          110,
+          "encourages them to walk more and more",
+          "Consuela uses her own example to help people overcome physical difficulties."
+        ],
+        [
+          110,
+          "go out to the cinema, or to see friends",
+          "Minh helps a housebound young man become less socially isolated."
+        ],
+        [
+          110,
+          "decided to try it herself",
+          "Tanya introduced the woman to toy-making, giving her a new hobby."
+        ],
+        [
+          110,
+          "they can do something themselves to improve their situation",
+          "Alexei helps families identify solutions they can implement independently."
+        ],
+        [
+          110,
+          "far better at expressing herself, and at understanding other people",
+          "Juba helped a teenager improve her communication skills."
+        ],
+        [
+          110,
+          "about 50 of them altogether",
+          "The school marching band comprises approximately fifty students."
+        ],
+        [
+          110,
+          "in a regional one later in the term",
+          "The band is entering a regional competition rather than a national one."
+        ],
+        [
+          110,
+          "the town council's organising a carnival",
+          "The band has been asked to perform in the town's summer carnival."
+        ],
+        [
+          110,
+          "a drummer talking about how playing in a band had changed his life",
+          "The students heard a recording of a drummer discussing the benefits of playing in a band."
+        ],
+        [
+          111,
+          "show them that old film",
+          "Joe plans to show the band a 1940s film and discuss it with them."
+        ],
+        [
+          111,
+          "take some of the band to a parade",
+          "Joe hopes some students will attend a parade the following month."
+        ],
+        [
+          111,
+          "she's hardly ever there",
+          "The flautist's main problem is missing rehearsals."
+        ],
+        [
+          111,
+          "always saying what she thinks other people should do",
+          "The trumpeter repeatedly offers unwanted suggestions to others."
+        ],
+        [
+          111,
+          "he has breathing difficulties",
+          "The trombonist's health problem prevents him sustaining notes."
+        ],
+        [
+          111,
+          "never seems to interact with other people",
+          "The percussionist does not socialise and leaves immediately after rehearsals."
+        ],
+        [
+          112,
+          "the piano — and also the violin",
+          "Liza Lim studied piano and violin before turning to composition."
+        ],
+        [
+          112,
+          "vibrant and full of energy",
+          "The speaker characterises Lim's music as energetic."
+        ],
+        [
+          112,
+          "although it is complex",
+          "Her music is expressive despite its complexity."
+        ],
+        [
+          112,
+          "This is an opera in seven parts",
+          "The Oresteia is an opera based on ancient Greek tragedies."
+        ],
+        [
+          112,
+          "incredibly disturbing",
+          "Lim uses this adjective to describe the work's unusual vocal sounds."
+        ],
+        [
+          112,
+          "in this piece for clarinet and piano",
+          "The Tower of Remoteness is performed on clarinet and piano."
+        ],
+        [
+          112,
+          "a celebration of the diversity of cultures",
+          "Edwards's music celebrates Australia's cultural diversity."
+        ],
+        [
+          112,
+          "went to university to study physics",
+          "Carl Vine studied physics before leaving university to pursue music."
+        ],
+        [
+          112,
+          "a composer for dance",
+          "Vine became well known for composing dance music."
+        ],
+        [
+          112,
+          "the 1996 Olympics held in Sydney",
+          "The concert includes his music written for the Olympic flag hand-over ceremony."
+        ]
+      ]
+    }
   }
 };
