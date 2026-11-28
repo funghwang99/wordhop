@@ -30102,6 +30102,250 @@ window.WORDHOP_CAMBRIDGE_STUDY={
         "phrase": "Dolphins, on the other hand, can sometimes approach on their own or in groups as they ride the waves beside us.",
         "manualVerified": false
       }
+    },
+    "review": {
+      "reading": [
+        [
+          16,
+          "Paragraph 1",
+          "London's population grew at an astonishing rate",
+          "The phrase at an astonishing rate paraphrases rapidly; the growing population is the problem described."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "relocate the poor workers ... to newly constructed suburbs",
+          "Pearson wanted to move workers from inner-city slums to better housing in the suburbs."
+        ],
+        [
+          16,
+          "Paragraph 2",
+          "gained support amongst some businessmen",
+          "The businessmen supported Pearson's idea for the underground railway."
+        ],
+        [
+          16,
+          "Paragraph 3",
+          "difficulty in raising the funding",
+          "Raising funding means obtaining the money necessary to carry out the project."
+        ],
+        [
+          16,
+          "Paragraph 3",
+          "critical articles printed by the press",
+          "Critical articles are the negative reports mentioned in the notes; the press published them."
+        ],
+        [
+          17,
+          "Paragraph 1",
+          "A two-metre-deep layer of soil was laid on top of the tunnel",
+          "After the brick arch was finished, the tunnel was covered with soil before the road was rebuilt."
+        ],
+        [
+          17,
+          "Paragraph 2",
+          "the world's first underground railway",
+          "If the Metropolitan line was the world's first, other countries could not already have built underground railways."
+        ],
+        [
+          17,
+          "Paragraph 2",
+          "almost 40,000 passengers were carried",
+          "The actual first-day passenger number is supplied, but no predicted number is given."
+        ],
+        [
+          17,
+          "Paragraph 3",
+          "smoke and fumes remained a problem",
+          "Pollution persisted even though ventilation shafts were added."
+        ],
+        [
+          17,
+          "Paragraph 4",
+          "The cut and cover method of construction was not an option in this part of the capital.",
+          "The centre required deeper tunnelling rather than the cut-and-cover approach."
+        ],
+        [
+          17,
+          "Final paragraph",
+          "tiny windows just below the roof",
+          "The windows were near the roof, not at passengers' eye level."
+        ],
+        [
+          17,
+          "Final paragraph",
+          "it did not make a profit",
+          "Although technically successful, the railway was not a financial success."
+        ],
+        [
+          17,
+          "Final paragraph",
+          "It was very popular",
+          "The popularity of the Tuppenny Tube is stated, but its punctuality is not discussed."
+        ],
+        [
+          20,
+          "Section A",
+          "stadiums are regarded with growing scepticism",
+          "The writer refers to increasing doubts about stadium construction projects."
+        ],
+        [
+          21,
+          "Section F",
+          "reduces the annual output of carbon dioxide by 660 tons",
+          "The figures quantify environmental benefits, including reduced emissions and renewable electricity production."
+        ],
+        [
+          21,
+          "Section E",
+          "hotels, retail outlets, conference centres, restaurants and bars",
+          "The examples demonstrate the variety of facilities offered by modern mixed-use stadiums."
+        ],
+        [
+          20,
+          "Section D",
+          "some of the flexibility was lost",
+          "The section describes disadvantages of twentieth-century stadiums, including single-purpose designs and inconvenient suburban locations."
+        ],
+        [
+          20,
+          "Section B",
+          "it became a fortress with four towers",
+          "The amphitheatre at Arles was converted into a fortress before becoming a residential settlement."
+        ],
+        [
+          20,
+          "Section B",
+          "the staging of bullfights",
+          "After restoration, the amphitheatre became an arena for public spectacles such as bullfights."
+        ],
+        [
+          20,
+          "Section B",
+          "one of the world's prime sites for opera",
+          "Verona's ancient arena is now famous for opera performances."
+        ],
+        [
+          20,
+          "Section C",
+          "a salt depot",
+          "A depot is a storage facility; the amphitheatre was once used for storing salt."
+        ],
+        [
+          20,
+          "Section C",
+          "embedded in the various shops and residences",
+          "The modern market square contains shops and homes incorporating the amphitheatre's remains."
+        ],
+        [
+          21,
+          "Section D",
+          "situated in suburban areas",
+          "Suburban locations make twentieth-century stadiums less accessible to the general public, supporting option C."
+        ],
+        [
+          20,
+          "Section D",
+          "some of the flexibility was lost",
+          "The earlier stadiums were more adaptable; twentieth-century venues were often designed solely for sport, supporting D. Answers 23–24 may be reversed."
+        ],
+        [
+          21,
+          "Section E",
+          "helping to regenerate urban spaces",
+          "Mixed-use stadiums attract families and a wider section of society, bringing community life into urban areas."
+        ],
+        [
+          21,
+          "Section F",
+          "fitting photovoltaic panels ... make use of micro wind turbines",
+          "Stadium roofs and height make them suitable for installing renewable-energy generators. Answers 25–26 may be reversed."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "did a deal with the Scots",
+          "The agreement with the Scots constitutes a strategic alliance."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "sacrificed one of the very principles his father had died for",
+          "Accepting Presbyterianism meant abandoning a religious conviction."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "comprehensively defeated ... by the Parliamentary army",
+          "Comprehensively defeated means the opposing side achieved a decisive victory."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "a huge sum offered for his capture",
+          "A huge sum of money offered for capturing him is a large reward."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "before seeking refuge in France",
+          "France offered relative safety after the six weeks he spent escaping capture."
+        ],
+        [
+          24,
+          "Paragraph 2",
+          "His intention when asking Pepys to commit his story to paper",
+          "Charles wanted his story preserved, but the text does not say he selected Pepys because he considered him trustworthy."
+        ],
+        [
+          24,
+          "Paragraph 2",
+          "related to him in great detail his personal recollections",
+          "His recollections were detailed, contradicting the statement that they lacked sufficient detail."
+        ],
+        [
+          24,
+          "Paragraph 2",
+          "After the battle was so absolutely lost ... I began to think",
+          "Charles started thinking about escape after the defeat, not before the battle."
+        ],
+        [
+          24,
+          "Paragraph 3",
+          "One of the joys of Spencer's book ... its use of Charles II's own narrative",
+          "The reviewer explicitly praises the inclusion of Charles's personal account."
+        ],
+        [
+          24,
+          "Paragraph 1",
+          "The two sides finally faced one another at Worcester",
+          "The opening summarises the political and military circumstances leading to Charles II's defeat and escape."
+        ],
+        [
+          24,
+          "Paragraph 3",
+          "The day-by-day retelling ... provides delicious details",
+          "Examples of disguise, humour and tension illustrate how Spencer makes the historical events vivid for readers."
+        ],
+        [
+          25,
+          "Paragraph 4",
+          "he set in train a series of initiatives to memorialise it",
+          "Charles chose to commemorate and celebrate the episode despite his military defeat."
+        ],
+        [
+          25,
+          "Paragraph 5",
+          "He has even-handed sympathy for both the fugitive king and the fierce republican regime",
+          "Even-handed means fair or unbiased; the reviewer praises Spencer's balanced treatment of both sides."
+        ],
+        [
+          25,
+          "Final paragraph",
+          "Would Charles II have been a different king had these six weeks never happened?",
+          "The reviewer says the book does not fully explore the lasting influence of the escape on Charles's character and reign."
+        ]
+      ]
     }
   },
   "17-2": {
